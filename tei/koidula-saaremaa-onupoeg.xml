@@ -1,0 +1,1268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="est000002" xml:lang="et" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Saaremaa onupoeg</title>
+                <title type="sub">Eestikeele näitemäng</title>
+                <author>
+                    <persName>
+                        <forename>Lydia</forename>
+                        <surname>Koidula</surname>
+                    </persName>
+                    <idno type="wikidata">Q237056</idno>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>University of Tartu digital archive ADA</name>
+                    <idno type="URL">https://dspace.ut.ee/items/fa239b1c-dab8-4386-b722-4c68e3299ce3</idno>
+                    <availability>
+                        <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                    </availability>
+                </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>Lydia</forename>
+                            <surname>Koidula</surname>
+                        </persName>
+                        <idno type="wikidata">Q237056</idno>
+                    </author>
+                    <title type="main">Saaremaa Onupoeg</title>
+                    <title type="sub">Eestikeele näitemäng</title>
+                    <date when="1870">1870</date>
+                    <publisher>W. Gläser</publisher>
+                    <pubPlace>Tartu</pubPlace>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="miku" sex="MALE">
+                        <persName>Miku</persName>
+                    </person>
+                    <person xml:id="miina" sex="FEMALE">
+                        <persName>Miina</persName>
+                    </person>
+                    <person xml:id="hans" sex="MALE">
+                        <persName>Hans</persName>
+                    </person>
+                    <listRelation>
+                        <relation name="parent_of" active="#miku" passive="#miina"/>
+                        <relation name="lover_of" active="#miina" passive="#hans"/>
+                    </listRelation>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listRelation>
+            <relation name="wikidata" active="https://dracor.org/entity/est000002" passive="https://www.wikidata.org/wiki/Q31275086"/>
+        </listRelation>
+        <listEvent>
+            <event type="print" when="1870">
+                <desc/>
+            </event>
+            <event type="premiere" when="1870">
+                <desc/>
+            </event>
+        </listEvent>
+    </standOff>
+    <text>
+        <pb n="1"/>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">Saaremaa Onupoeg</titlePart>
+                    <titlePart type="sub">Eestikeele näitemäng</titlePart>
+                </docTitle>
+                <note>
+                    <p>Mängitud kõigeesmalt Tartu "Wanemuine-seltsis"</p>
+                    <date>Jaanipääwal 1870.</date>
+                </note>
+                <docImprint>
+                    <pubPlace>Tartus, </pubPlace>
+                    <date>1870</date>
+                    <publisher>Trükitud W. Gläseri juures</publisher>
+                </docImprint>
+            </titlePage>
+            <pb n="2"/>
+            <div type="copyright_page">
+                <p>Tsensuri poolest lubatud.</p>
+                <p>Riigas 13. Jaanikuu pääwal 1870.</p>
+            </div>
+            <pb n="3"/>
+            <castList>
+                <head>Mängijad.</head>
+                <castItem>
+                    <role>Muru Miku, </role>
+                    <roleDesc>talurentnik.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Miina, </role>
+                    <roleDesc>tema tütar.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Hans, </role>
+                    <roleDesc>noor talupoeg.</roleDesc>
+                </castItem>
+            </castList>
+            <set>
+                <p>Mängupaik: Miku majaesine.</p>
+            </set>
+        </front>
+        <pb n="4"/>
+        <pb n="5"/>
+        <body>
+            <div type="act">
+                <div type="scene">
+                    <head>I.</head>
+                    <stage>Miina (istub wokki ees, mötteid täis, woki, seisab).</stage>
+                    <sp who="#miina">
+                        <speaker>Miina </speaker>
+                        <stage>(nagu ärkades). </stage>
+                        <p>Kas ei olnud mull pea jälle mõtetega kes teab kuhu kõrwale jooksnud? Lõngaeie peab pihus pühapääwa! See on ime: ühte puhku kuulen ma helinat kõrwus kõlawat, nagu räägiks tuttaw armas heal mulle ikka weel esimisi armsaid, unustamata sanu — <stage>(ohkades)</stage> tema tuli mulle jälle meele! Ja jah, kui tark ja kallis tegu on see taewa Taadist, et meile mõtteid pähä on andnud — mõtteid ja mälestusi! Endisi rõõmsaid juhtumisi jälle ärksele hüüda: kui magus see on ja kui armas asi! Nagu pühapääwa päikese terad langewad niisugused õnnelised mõtted hargipääwase taewa halli pilwete sekka. Kui ma ise selle üle järele hakkan mõtlema: kas ma endine wallatu piiga 'pole nagu oopis tõiseks ja wõeraks läinud sest saadik — tõiste ja enam weel iseenesegi silmist? Siin man istun wokki ees, tunni kaupa mõnekorra wait, ei raatsi sana lausuda ega sõrme liigutada, — ja siis korraga ajab ratas kihutates ringki, ruttu ja ruttu, nagu tuleks ärawiidetud aeg takka kinni püüda! Ja <stage>(ohkades)</stage> see ei ole weel ainus häda! Kui lugu alate nõnda jääks, kui muud ei puuduks, asi lähäks weel korda. Aga, nagu isa ütleb: see'p see on, paraku! <stage>(kedrama hakates)!</stage> Korra ajab mull südame nii nukraks sees, et ma täna õnsa eide terwed kangarullid niiskeks nutaks, ja hoome — hüppaksin ma õnne pärast pilwi ja lendaksin ja laulaksin lõokestega wöidu. See tuleb kõik sest sõgedast armastusest, ei ole rahu ega puhkamist põues! — Säh, seal ta woki wurab nüüd! Lõng tühjendab koonla ja<pb n="6"/> täidab pooli — et kangas korda lähäb, seda ma küll tean; kui ma aga niisama selgeste teaksin, mis sest waesest armastusest saab! Sest kui tõsi on, mis rahwa suu räägib — ja wana sana ei waleta — siis tuleb mehele minnes iseäranis selle peale waadata, kas lõnga eied ka ühetasased küllalt ja kas sünniwad ühte. Kangast woib weel talitaja tarkus pärast silendata ja hiilgastada: päike põletab, kurik wirutab, ei aita muu nõu: lähäb tasaseks ja walgeks! Aga mis sa armastusega teed? Kui abielus alles wäljatuleb, et sellele tõngad lõnga eiesse kedratud: ei aita seal enam tuul ega tuli ega kurik ega wesi: hukkas ta on ja hukka jääb!
+                        </p>
+                        <lg type="song">
+                            <head>Wokkilaul.</head>
+                            <lg type="stanza">
+                                <l>1. Woki weereb, woki wurab</l>
+                                <l>Ratast ringki rahuta!</l>
+                                <l>Pooli peale eie surab</l>
+                                <l>Löimelönga laitmata.</l>
+                                <l>Löimelönga tasandanud</l>
+                                <l>Kiire käsi kedrates:</l>
+                                <l>Armastus, kui tükka saanud,</l>
+                                <l>Tükid igaveseks sees.</l>
+                            </lg>
+                            <lg type="stanza">
+                                <l>2. Süstiku ja sörme waral</l>
+                                <l>Kaswab kangaks kedrus käes:</l>
+                                <l>Teda painutata paral'</l>
+                                <l>Wirga hoiewisk'ja wäes.</l>
+                                <l>Tasandaja pihukene</l>
+                                <l>Loobib lõimu lennates:</l>
+                                <l>Armu lõim, kui tükiline,</l>
+                                <l>Tükid igaweseks sees.</l>
+                            </lg>
+                            <lg type="stanza">
+                                <l>3. Pöörab puielt eiekene</l>
+                                <l>Tõisel näol tagase,</l>
+                                <l>Puistab teda pügilene</l>
+                                <l>Tambitoa leitsesse.</l>
+                                <l>Kolk ja kurik kohendanud</l>
+                                <l>Hukkas paiku uhtudes:</l>
+                                <l>Armu koe, kui tükastanud,</l>
+                                <l>Tükid igaveseks sees.</l>
+                            </lg>
+                            <lg type="stanza">
+                                <l>4. Kangast laitjad laotawad</l>
+                                <l>Pala' pääwapaistele:</l>
+                                <l>Öue ilmad haljastawad —</l>
+                                <l>Ei see aita armule!</l>
+                                <l>Kangakudet kündwad kalliks</l>
+                                <l>Pääwapaiste, wihmad, tuul:</l>
+                                <l>Armastus jääb ala halliks,</l>
+                                <l>Kui ei hiilgand wokipuul!</l>
+                            </lg>
+                        </lg>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>II.</head>
+                    <stage>Hans (üle õla neitile suud andes). Miina.</stage>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Tere, kallis Miinakene!
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina </speaker>
+                        <stage>(kohkudes).</stage>
+                        <p>Tule Jumal — appi!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Ohoh! Ära kohku, laps, mina olen.
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Ah — Hans! Mis Sa hullad!
+                        </p>
+                    </sp>
+                    <pb n="7"/>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Ma usun, linnupoeg, Sa laulad nii udukarwalisi laulusi, et meie surnumatja süda sees pealt kuulates hüppama lööks! Miinakene, Sinul näitab pea enneaegu pääsukesi täis olewat — enne meie pulmi juba, nii aegsaste! Mine ikka!
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Sinul hea naerda! Kui ma meie pulmani ootan, siis jääwad pääsukesed wiimse pääwani tulemata! Eks Sa tea jo, keda ma pean —
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>"Pean?" Kas "pead" juba jälle? Sind oma "pidamisega!" See on see rumalam sana, keda mina maailmas tunnen: "Sina pead!" Waewalt oleme mähkmis, siis hakatakse meile juba ettelugema, mis meie kõik peame ja peaksime, ja kui wiimati suure hoole ja mure waral wanker pori sisse on sattunud, siis katsugem ise, kuida jälle wäljaupitame — wõtkem siis jõudu weest ehk toogem tuulest! Selle eest, kallis laps, et Sina pead, selle eest ma ülearu ei wärise — kui Sa tahaksid, kae, Miinakene, selle juures mo süda küll nii rahule ei jääks! Aga, kanapoeg, ega Sa jo ise ei taha, sellepär—
+                        </p>
+                    </sp>
+                    <sp who="miina">
+                        <speaker>Miina. </speaker>
+                        <p>Jah, külla'p isa palju sest hoolib! Kui ta järele ei anna, — ja, Hans, ma kardan, ma kardan, seda ta ei tee — siis pean ma ometi Saaremaa koolmeistrile minema, tahes ehk tahtmata. Pane tähele: minu nõuu küsib ta kõige pärast taga!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>No sellepärast, siis jääb Sinu nõuu Sinu jooks. Koolmeister? Onupoeg koolmeister? Mis Sina haljas oks selle kuiwetand inimesekännuga tahad teha? Selle kõrwas pead Sina elust läbi lendama? Ma ütlen Sulle, kulla laps, tema tiiwad on nagu woulinnul mõisa hoowis: ei kanna kaugemale, kui laudakatuksele.
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina </speaker>
+                        <stage>(pead wangutates). </stage>
+                        <p>Jah, Hans, oleks kõik hea küll, kui aga taadil tõised mõtted ei olleks! Lustilennust ta ka mitte märki ei arwa ja onupoeg koolmeister — seda ma tean ette ära — annab ka aitäh! kerge linnutee eest, mis kasu ei kanna ega toito ei too! Tead küll, Hans: isaga ei ole nalja. Kui meie parajat nõuu ei leia selle wasta: ta teeb minust koolmeistrinaise, maksku mis maksab!
+                        </p>
+                    </sp>
+                    <pb n="8"/>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Aga ütle, Jumala pärast, mis tuhat ta siis sest aabitsetagujast omale kasu näeb? On jo muidu mõistlik mees, mis tühja maailma ilu ja õnne ta ometi koolmeistri wäimehest omale ootab? Tont saagu ka wanamehe tujust aru!
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Waata, Hans, see oli nõnda. Meie isad ja isaisad — oota, ei tule enam meele, kust Prantsuse ajast saadik? — aga nii palju on tõsi: meie isad ja wanaisad mitmest põlwest saadik on ikka külakoolmeistrid olnud, enne siia külasse saamist juba, ja on auusaste ametit pidanud, nagu kihelkonna koolmeister ütles õnsa Peetri-onu matusel — andku Jumal ta hingekesele auusat puhkamist! Jah, ja kõige esimine nüüd, kes teerajalt körwale eksis, oli meie taat, — kae, Hans, tema tuline meel ja lühikene kannatus ei jaksanud raamatut uurida, heitis kooliharijast põlluharijaks. Tänu taewa Taadile: 'pole ta seda tänini ilmasgi kahjetsenud, põld, maja, Jumala ristike olgu juures! siginesiwad ja käsi käis hästi. Õnnis Peetri-onu aga, tead, Hans, isa kadund wend, — oli kindlaste wana wiisi juure jäänud, ja kui isa ametist kõrwale lõi, päris Peetri-onu, nagu isad ja isaisad enne meid teinud, külakoolmeistri ameti ja kepi oma kätte ja jagas seda edespidigi külalastele wälja, — ja waata, Hans, see oli nüüd meie terwe Mururahwa perele weel ikka suureks auuks ja uhkuseks, — jah!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Mõistan, mõistan! Ja jah, mäletan weel küllalt, kuida sest jaotamisest isegi poisikese põlwel hea osa wopsa pähä ja punaseruudulisi püksa jalga sain! Oli weike kõhnas mehike, õnnis Kooli-Peeter, aga lõikas nagu nuga!
+                        </p>
+                    </sp>
+                    <sp who="miina">
+                        <speaker>Miina. </speaker>
+                        <p>Nüüd ta õnnis on umbes oma kümme aastat juba muldas — ülendagu Jumal hinge ja alandagu pattu! Aga pärast selle hakkasiwad isal mõtted peas keerlema, sinna ja tänna: kuida see ometi õige ei olewat, et tarkuse waim meie perest nõnda ärakustuda ja mida wiisi seda tuleks elus pidada, ja nüüd Sa näed, Hans, mis nõu sest — oh sa kallis Jumal taewas — on wäljatulnud! Sest kae, Hans, õnnetus pidi nüüd awitama, et kohegil Saaremaal, Kuresaare ümberkaudu, isal onupoega elas, kes<pb n="9"/> ka oli koolmeistriks õppinud: sellele pean ma nüüd minema ja keski ei küsi, kas ma sest nutan ehk naeran?
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Ole wait, Miinakene, ära kurwasta: sinna on weel mitu tuult wahele puhumas, ei seisa ka Saaremaa tõine pool tanawat ega jõueta lennates sealt siia, merd ja maad on weel wahel küllalt, et meie nõu enne seda järjele woib saada.
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Ei tea, Hans, ei tea! Mo süda on raske sees, sest isa käib täna nii rahuliku, kawala näoga mööda õuet: nagu oleks kosjajärjed ukse ees — ja kes ta siis muu woib olla?
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans </speaker>
+                        <stage>(Pärast silmapilgu wait oleku). </stage>
+                        <p>See oleks kurb lugu, aga, Miinakene, mis see peanorrutaminegi sinna parandab? Wõta südant põue, silmatera: mure ei aita ka üle mulgu ega kanna kurwastus künkast kaudu — rõõmus rind õiglase nõuu kõige kangem kangutaja! Eks meie inimese loomad ole kõik ühetasa narrilased ja kõige suurem wõit jääb wiimseks ikka mureta meele kätte. — Kus isa on, Miina?
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Aeda läks.
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Katsume warsi, kas julge süda ja kindel meel köwerat asja õigeks ei aja! Kui ta tuleb, ma räägin t'ale järsku ara, kuida loud on meeie kahe wahel, ja et ma Sind omale tahan! Mis ta siis weel paremat nõuab? Aidad, küüned on mull täis ja põllu maa piired laiad küllalt, 'pole t'al tarwis wäimehest häbeneda! Nagu raha wara kaalu ei kannaks siin maailmas, olgu küll, et armastusel jälle oma möet on! Katsu minu asja, nagu iga õnnetooja aina koolmeister peaks olema!
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Tasa — näe, isa tuleb aiast tagasi!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Nüüd, õnn ja julgus, tulge appi! Kui mull täna asi nurja lähäb, siis woime lootust terwes tükkis hauamulda magama panna!
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>III.</head>
+                    <stage>Endised. Miku (pahemalt poolt tulles).</stage>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>No Miina? Waata mulle, mis kaunis tük! Seda ma ütlen, see lähäb korda! Noorte poistega juttu pu<pb n="10"/>huda, lusti kõndida, kui isa kottu ära on — waata! Sünnib õige tütarlapse kohta! — Uih, häbene ka!
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Mis ma siis sest pean häbenema, isa? Sina lähäd ka warsi wihaseks! Meie 'pole jo midagi kurja mõtelnud ja naabri-Hans tahtis ka õiguse pärast Sinu jutule tulla. —
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Minu jutule? So?
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Jah, mis ma pidin ütlema. Miku-onu — hm, — jah, sellepärast ma küll üle tanawa tulin — ei tea, kas peaks parajat aega Teil olema —?
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Mõistliku jutule on aeg alati paras. Mis Sull siis rääkimist oli, armas Hans?
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Miku-onu, Teil 'pole teadmata, et ma üksik mees olen, aga et see lugu kauemine nõnda ei wõi kesta, seda näete —
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Warsi, Hans, warsi! Kuule, Miina, mine ometi kambri ja pane warsi mo pühapääwa riided walmis ja wõta uus müts warnast maha.
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Seda näete, Miku-onu, selgeste ise —
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Warsi, Hans, warsi! Ja, kuule, Miina, siis muretse teekäijale ase kambri walmis, ta saab wäsinud olema pitkast teest, ja ära tee ülekaela ega aja aega taga, Sull 'pole kellegi ruttu juures!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Selgeste, Miku-onu, näete seda ise ära, ja et —
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Warsi, Hans, warsi! Ja kuule, tapa ka paar kanapoega lõuneks ära, kirju wanamoori kolm wiimast, need on kõige suuremad — kas kuuled?
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Ja et mull auusa raha natukese körwa —
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Warsi, Hans, warsi! <stage>(Miina poole)</stage> Noh, eks Sa lähä? Mis Sa nokitsed weel?
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Miku-onu, et mull tarwis lähäb —
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Oh, pai taat, luba mulle —
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Mis asja weel?
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Luba mulle natuke siin —
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Aega wiita? Waata tüdrukut! Ei ühti! See oleks mo paras tük! Kasi töösse!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Miku-onu, kuulge ometi!
+                        </p>
+                    </sp>
+                    <pb n="11"/>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Jah? Warsi, Hans, warsi! <stage>(Miina poole)</stage> No Nobedaste nüüd! Säh, siin on Sulle kapi ja aida wõtmed, tee ja talita nagu meel ja mõte Sull ise tahtwad! Kõige penemat rooga ja kõige magusamat jooki too lauale, alt aidast õlut ka ja säe peenikese napsi pudel keskele ja Ise Enesele pane kõige paremad hilbud ümber, sest waata, lapsuke, täna on Sinu kosjapääw, täna tuleb peiuke, Miina! Kas kuuled? See'p see on!
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina </speaker>
+                        <stage>(Nuttes). </stage>
+                        <p>Oh Jumal, Jumal, taat!
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Mis Sa kiunud? Häbene Ennast!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Pagana wäärt, naaber Mik! Kuulge ometi poolt sanagi!
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Warsi, Hans, warsi! <stage>(Miina poole)</stage> Jookse, nuta toas pea täis, kui arwad, — nüüd katsu, et minema saad!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Miku-onu!
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Kasi tuppa! <stage>(Lükkab Miina uksest tuppa, tagasi tulles)</stage> Nüüd, naaber Hans, woime rahus üks tõisega kõneleda!
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>IV.</head>
+                    <stage>Hans ja Miku</stage>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Minu rahust, seda ma näen enneaegugi, ei ole selle juures enam juttu. Olen hiliseks jäänud, nii palju olen ma küll aru saanud, — aga siiski ei ole asi weel oopis hukkas, kui Teie aga minu palwet kuulda wõtaksite.
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Räägi peale, naaber, räägi peale, mina kuulen!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Miku-onu, Teil 'pole teadmata, et ma üksik mees olen, — ja et see lugu kauemine nõnda ei woi kesta, seda näete selgeste ise ära ja ka, et mull muud tarwis ei lähä kui auusa raha wara natukese körwa auus perenaine, kes seda kokku hoiab. Ja waadake, naaber Mik, ma olen ergu, rõõmsa meelega pois, kui ma küll iseennast ei lähä kiitma, ja minu arwates 'pole ma weel kedagit petnud ega rõhunud ega õnnetuse sisse wedanud, küsige külarahwa käest, kui arwate! Mis ma nüüd tahtsin ütelda, Miku-onu, hm, hm, — Teie Miina, Miku-onu, on minu arwates keda ma kõige armsamalt koju wiiksin, ta on mo meelest nagu film<pb n="12"/> peas ja sellepärast, Miku-onu, sellepärast — olge isaks, andke meid paari! Jah, andke meid paari ja siis tahame Teid eluks ajaks käte peal kanda ja Teid auustada ja armastada! Jah, seda tahame teha, seda woite kindlaste uskuda, Miku-onu!
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Armas poeg, ma tänan Miina nimel ja kui Miina isa kõige auu ja hea nõuu eest; aga "jah" ja "aamen" ei woi ma selle peale mitte enam ütelda: lõngaeie ei seisa mitte enam minu käes korrutada — see'p see on!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Naabri-onu!
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Kahju küll, aga mis sinna parata? Ma olen sana ja luba juba tõise heaks käest ära andnud, tänasel pääwal juba ootan ma onupoega Saaremaalt siia jõudwat. Wait, sõber, pea kinni! Waata, Hans, minul iganes maailmas armsamat mõtet ega lootust ei ole, kui enesele koolmeistrit wäimeheks wõtta! Olen seda pealegi õnsa wenna Peetrile enne surma tõotanud, et ma ei taha seda seisust meie peres ära laska kustuda, ja kes niisugust lubamist ei täida, kae, Hans, seda waewab ja piinab süda põues weel wiimsel tunnil! Meie Murupere Mikud oleme wanast põlwest saadik koolitoas käritanud, saad isegi aru, et ma ometi nüüd ei woi sallida, et teie tühja armastuse pärast nüüd kõik minu ilus nõu ja meie pere au ja kuulus nime unustuse pähä peab jääma! See'p see on!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Aga Miina õnn ja südame rahu? Kas see midagi isa meelest ei maksa? Naaber Mik, kas tahate, ilma kellegi süüta, teda südame walu ja piina alla ära laska närtsida, nagu lillekest okaste wahele? Kui ta mind armsaks peab — ja seda ta wist teeb — kas tahate teda ahastusega hauda saata, oma ainust last? Miku-onu, mötelge ometi, mis Teie teete? Kas ma siis sugugi enam wäärt ei ole, kui Teie kiidetud aabitsenui?
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>No külla'p see Sind õige ruttu järjele awitab, kui aga tubliste mo tulewast wäimeest sõimad! Et ma teda küll ise silmaga 'pole näha saanud, seda ma ometi tean, et ta on mis ütelda: esimine mees!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Mis — tule Jumal appi! — Pagana wäärt,<pb n="13"/> Miku-onu! Teie ei tunne teda ise weel silma otsast ja Miinast waesest pärite, et peab tundmata wõeraga altari ette astuma? Onu, kas woite tõeste niisugune metsaline olla? Mõtelge järele, mõtelge Jumala pärast järele, mis elu see on ja mis peiuke, keda oma lapsele soowite! Ma ei taha ta enesest suurt rääkida, tööd ja ametit tuletage meele! Pääwa otsa istub, homikust õhtuni, uduses, winguses toas, laste kari ajab pea uimaseks ja kõrwad huugama: ühel nina räpune, tõisel silmad tilguwad, kolmandamal pea nagu heinakuhelas otsas, — targad kõik nagu lambad kui oina otsa wahiwad! Aabits ja katekismus silmi lahti ajades, aabits ja katekismus magama minnes ja — tuleb pühapääw kätte ehk katseaeg, siis ikka ja jälle needsamad kuiwetaud, kõrwetand mustad tähed, kelle sisu ta tihti ise ei tea, kelle tulu ise ei tunne, aga keda siiski tõistele higistates peab õpetama, kes sest ka õiget kasu ega sisu ega tulu ega magu ei maitse. Miku-onu — oodake, laske, ma räägin! Ütelge Jumala pärast ise: kelle auu ehk kasu leiate siis Eestlase meieaegsest kooliametist? Kus kaswab see tulu ja õnnistus, mis ametit soowitawaks ja kasukandjaks teeb? Kas teewad, kui mitte ei oleks sunnitus taga, meie koolmeistrid lusti ja sisemise rõõmuga tööd oma ameti põllul? Kas näewad magu oma koolipidamisest, kas magu oma majapidamisest? Eks meil ole meie enese külakoolmeister iga pääw märgiks ees! Uus kooliplaan anti mullu kirikumoisast kätte: katekismus ja piiblilugemised hoomikuks, katekismus ja testament õhtuks ja lõune woib koolmeister naise lastega taari kuiwa soola leiwa kõrwa juua — küla lombaka Karja-Matsil on kaks rubla aastas enam palka! Miku-onu: Koolmeistriamet on koeraamet! Kas tunnete seda kuulust sana: "Mis on, see on ja seniks kui ta seks jääb, mis ta on, seniks kestab ka tema õigus ja sellepärast oleks aina tühi töö, aja rattaid takka lükkama hakata," ja mis seda targasanalist rumalust weel muud on. Minu igapäise aru järele ei taha need sanad muud ütelda, kui ridade wahel seda: "Olete teie nii rumalad alles, et ise paigast ei saa, siis oleme meie nii targad küllalt, teie eestwedajaiks heitma, sest, anname meie ohjad pihust, siis on kutsari amet<pb n="14"/> läinud!" Sellepärast, naabri-onu, ei lange süüd mitte üksnes kirikumõisade peale, ta langeb ka waldade eneste peale, — kes ei wäsi aisade wahele jääda, see teenib hobuse nime. Mis mõtlewad meie wallawalitsused, et, nagu kõige mõistwatamad tölparulised, nii tarwiliku tugi käest ärraannawad, tõisi lasewad oma parema wara eest hoolt kanda ja tema kasu käest ära koorida, — kui ometi wõidu peaksiwad koolikasu kaswatamna ja parema koolipaikadega ühtlasi paremaid koolmeistrid muretsema, et need jälle targemat külarahwast ja külaametnikusi koolis woiksiwad kaswatada! Ma ütlen tõist korda: koolmeistriamet, nagu ta nüüd on, on koeraamet! Ütelge, kas ma waletan!
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Aga, Hans — kui Sind moni kuuleb — n'ad nimetawad Sind "mässajaks" sedamaid! Waata ometi ette, mis Sa räägid!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Paraku! ei woi palju töt rääkida ise oma isamaa piiretes, siis on sul Juudase märk warsi otsa ees! Häda iga koolmeistrile, kellele minu sanu suhu sattuks! Hoome oleks ta ametist lahti! Ja niisuguse õnnetuma seisuse sisse tahate Teie oma ilust, kaunist last anda? Oma ainust, Miku-onu? Ei, naaber, seda ei woiks Teie Jumala ees ärawastata! Waadake sinna: seal õitsewad wäljad ja puud haljendawad ja mets kohab, — seal on meie kool, meie Eesti talunikude ametipaik, selle meie oma muru peal maksab meie, ei kellegi wõera õigus! Olgu ta küll raske rahaga tõiste käest tagasi ostetud, nüüd on ta jälle minu kodupaik, kus muu käsk ei maksa, kui õigus! Miku-onu, andke mulle Miina naiseks! Ma tahan teda, toetates ja hoides nagu silmatera, elust läbi juhatada: ka minu süda tuksub iga õige ja tõsise mõtte ning teo poole, minagi armastan tõt ja truuust! Isa — andke meid kokku!
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku </speaker>
+                        <stage>(Liigutatud meelel). </stage>
+                        <p>Hans, Sa oled tubli pois — olgu Sull küll moned imelikud mõtted — õige tubli pois, jah! Hm, mis ma pidin ütlema: woolas jo nagu ütelda wesi üle weske rataste! Tühi teab, kust Sa selle kõik wäljatõid!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Kui süda sunnib, siis keelel kerge töö! Andke meid paari, naaber, kuulge meie palweid! Tahame Teid jo<pb n="15"/> elu aega käte peal kanda ja lapse wiisil Teid teenida ja tänada! Kuid Miinat peate mulle abikaasaks andma, muidu ei maksa kõik elu ja ilu maailmas mulle mitte niipalju kui must küüne all!
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Jah, armas Hans, see'p see on! Sealt ep lugu kõdi kardab, sealt ep sääsed sirisewad — kui ma aga ei oleks õnsa Peetrile asja tõotauud, siis ma suuremat ka ei ütleks! Mõtle aga nüüd ise: luba on onupoja käes, kaheks jaoks ma oma Miinat ometi ka jaotada ei woi ja Saaremaa onupoeg tahab juba täna tema järele tulla! Mis seal heaks nõuuks?
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Aga Miku-onu, heidke ometi armu meie õnnetumate peale! Kui Teil riistiinimese weri rindus tuksub, isa — ärge lükake meid mitte ahastuse suhu! Ja kui Teie wägisi koolmeistri-auu otsite: meie peres on jo paraku ka koolikeppi kannetud, eks paraegune koolmeister Tõrwaaugu Toomas, ole tõisest põlwest saadik minu täditütar — üsna lähedad sugulased! —
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Mis see ometi kõik aitab? Ei möo midagi. Saaremaa onupoeg tuleb täna juba: mis siis, kui mõrsja enne kihlusid oleks pagan teab, kus!? Ei, Hans, ei! Jätke parem nöuu ja nuiamine järele, ega ma ei woi!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Jumal — andku Teile andeks — Teie murrate kõik — minu lootust mulda! Jumalaga! Kui Miina ennast surnuks on nutnud — siis — siis mõtelge naabri Hansu peale! <stage>(Paremat kät ära)</stage>
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>V.</head>
+                    <stage>Miku (üksi).</stage>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Hans, — ae! — Eks Sa kuule? — Waene mees! Woib kibe küll olla, seda ma arwan. Nagu ma näen, ta näitab teda õige südamest armastawat ja woib olla — Miina woiks ehk õige rahulist elu elada tema kõrwas. — Aga see pagana luba, keda ma käest ära olen<pb n="16"/> andnud — see'p see on! Kes mind kihutas ennast nõnda kammitsasse andma? Wõtku see ja tõine! Olen õige üks waene, mis ütelda, piinatud ja waewatud mees, — hoidku Jumal iga isa ilusa tütarde eest, siis on moni mure ja waew maa peal temast kõrwale jäänud — nõnda ehk nõnda! Aga mis see kõik aitab: nõuu ma waese Hansule ometi ei leia, — kusagilt! Seda ma olen küll kohkudes kuulnud: suurt lootust Saaremaa onupojast koguni ei pea olema: ilu poolest silmanägu rõugeid täis nagu noor ernepõld; ja mis nüüd tema noorust nimetada: Miina woiks oma 18 aastat 3 korda tema elust wäljalõigata. Kanade päralt, ja mis peab ütlema: tõsi on — jah, tõsi kõik, mis ta tulipea mulle koolmeistriametist kõneles — hea weel, et ükski kõrwalt ei kuulnud: tõde on mone mehele nagu kahe teraga mõek, lõikab nagu tuli! See'p see on! Kui ma kõik äramõtlen — ei taha minna! — Waene Miina! Kui ma ometi selgeste teaksin, kas ta siis tõeste Hansust nii suurt lugu peab ja kas ta ennast surnuks peaks nutma, kui ta teda ei saa, nagu pois nimetas? Oli ometi nii ilus lootus ja mõte, see koolmeistrimõte, ja olen seda nõuu mitu aega kaisutanud nagu rinnalast, — aga, õigust ütelda: kas Miina õnn ja südamerahu ei peaks mulle enam rõõmu tegema, kui oma kiusuajamine? Mik, Mik, ütleme oma keskes: oleksid peaaegu rumala tembu ära teinud ja pärast, kui laps kaewu läinud, oleksid kaane kaewu peale tahtnud teha! See'p see on! Saaremaa onupojal sinu enese aastad turja peal ja selle halli pea wanarauguga peaks sinu priske laps elu lõpuni elama — Mik, Mik? — Hm! Tõsi küll, — aga kui nüüd onupoeg täna wast tuleb, mis siis? See'p see on! — Tühja! sellele tasun teekulu tagasi ja pistan mone rublakese pihusse — sellega saame õigeks! Kas ma ei ole, nagu Juut ütleb, ise oma sana kõige esimine peremees? — Nõnda jääb. Aga, peaasi nüüd: kuida saan ma kõige paremine teada, mis Miina Hansust arwab ja mis ta oma süda sees ütleb poisi kosjakäigu kohta? Kui ma küsiks? Tühi, see ei aitaks ometi midagi, ta wõtab iga tõist enne, kuid aga mitte Saaremaa onupoega. Hm! — Pea, pea, see on tõsi — aga kas usuldan ette wõtta? No, miks<pb n="17"/> ei, mis siis on? Eks ta ole hea nali, saan Miina mõtteid teada ja naerda weel pealegi. See'p see on! Terwe ülikond ripub jo weel kambris, tuleb õige parajaks täna? Peetri-wenna munder mulle küll ei sünni, seda kurnanud koolitarkus liig õhukeseks; pean õnnist isa appi hüüdma, see oli, anna Jumal andeks! minust weel ümargusem. Tarkuse puudust ma ei karda ammuge: tuleb riiete haisuga iseenesest ninasse ja katsu, mis koolikatsja ehk kiriksand Miina on? Aga wõerast healt pean ma tegema, see'p see on, see on raskem tük, muidu saab ta siiski warsi aru, et rebane kanalautas. Hm, katsume önne! <stage>(Wõeral healel)</stage> "Tere, tere, siit kena külalaps"! Ei - see oli, nagu lombaka Karja-Matsil, kui oma Sultanit hüüab! Katsume weel! <stage>(Peenikesel healel)</stage> "Tere, tere, siit kena külalaps!" Lähäb! Nõnda oli õigus! Mis ma weel tahan? Ruttu nüüd! Aga ma tahan teda piinata ja pigistada, et ta ei pea nii ruttu Saaremaa onupoega äraunustama! Seda ma teen! Läki nüüd enne, kui Saarema onupoeg ise weel siia jõuab, see rikuks kõik ära, see'p see on, — jah! <stage>(Kaob tuppa ära)</stage>
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>VI.</head>
+                    <stage>Hans (üksi).</stage>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Kas oli seesama paik siin? Seesama jah — seal mina seisin ja seal seisis tema, kui ta mulle ütles, et —— Miku-onu! seda ma Sinule andeks ei woi anda, ei nüüd ega elades! Kuhu on kõik mo lootus ja usaldus jäänud? süda nutab werd sees ja ma näeksin, et ma enne oja põhjas magaksin, kui et siin halja taewa all ümberjooksen, ja ei ole mull ometi head meelt elust ega lusti liikumisest! — Mis ma siis weel siin tühjas maailmas teen? Mis mulle maksab weel siin edasi elada? Ilma temata ei hooli ma ometi rahast ega warast, ei rõõmust ega rohkusest, — mis magu mull siis sest elust weel woib olla? Oh ma waene, õnnetu Hans! Süda walutab sees ja tuksub nagu wasar ja nõuu ei kusagil — kusagil? Ole mees, Hans! Mis kasu sulle norrutaminegi toob? Ei wii<pb n="18"/> sind sammu kaugemale ja pealegi: weel ei seisa ka Miina Saaremaa onupojaga altari ees — weel mitte! Südant jälle põue, Hans, ara käi longus nagu Püha-Jüri, otsi lootust kirstust jälle wälja! Eks sa näe, kuida taewas weel sinab ja maailm haljendab: seni kui weel küüne wäärt jõudu ja mõistust inimeses liigub, on ta esimine argpüks ehk wana naine, kui iga halli pilwe ja iga raksatamise eest metsa paneb! Ütle, mis sa siis ise wäärt oled, kui sulle iga õnn kergelt sülle peab langema, nagu taewast? Ma olen nagu mees temaga könelenud, selgeste ja tösiselt: ei aitanud, — katsume nüüd, kaugele kawalus aitab! Armastus ei hooli ometi ei käsust ega keelust, temal on iseenese seadus sees, ja iga isa woib oma last küll maenitseda ja juhatada, aga piinata mitte, niikaugele ei ulata kellegi wanema õigus <stage>(Mõteldes).</stage> Seda ma teen! Töeste, seda ma teen! Pole wanamees nii kiwiköwa, kui ta pealt näitab, ja kui hea nali appi tuleb — kes teab? Ta annab järele. Aga enne pean ma Miinaga kokkurääkima, siis läheb lugu seda kergemine. Pea, sealt ta tuleb! Seda ma ütlen ikka: kus kaks süda aga hoolega kokku hoidwad, tuline ime oleks, kui seal kõwer ja kortsus elu wiimate ei peaks märku pähä wõtma ja tasaseks minema! — Tere, Miina!
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>VII.</head>
+                    <stage>Miina. Hans.</stage>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>No, Hans, kuida on? Mis isa ütles? Kas rääkisite?
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Rääkisime küll.
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Ja mis ta ütles Sulle? Oh mull oli igaw oodata ja talitada! Jumal anna andeks, toas ei ole weel kedagi walmistud — mis ta ütles, Hans?
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Ole wait, Miinakene, — isal on küll tõised mõtted, kui meil mõlemil, aga, nii tõeste kui ma siin seisan: Sind ma siiski ei jätta, saagu mis saab!
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Oh mis Sa mind waewad, Hans, räägi, mis<pb n="19"/> ta Sulle ütles! Kas keelis selge sanaga, et "ei"? Wist ta wihastas Sinu kosjatulikust, ta oli jo ennegi pahane!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Ei, Miinakene, ei, seda ta mitte ei teinud, t'al näitas ennem hea meel olewat minu küsimisest, nimetas ka, et t'al kest'ab kui hale meel meitest olla, aga sana tuleks pidada ja tema ei woida sellepärast parata, ja — kahju küll!
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Kuida? Sa arwad, et ta omast sanast kahjetses?
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Seda ta tõeste tegi, t'al oli waewa, sana juure jääda.
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Hans, ole rõõmus, siis 'pole weel wiimne laul lauletud! Ei, ei, nõnda ta ei räägi, kui t'al tösi taga on, siis ta käritab oopis tõisiti! Oh kui aga täna, täna weel nurjatu onupoeg tulemata jääks, ehk lähäks meil lugu rutem toime, kui arwame! Mis sinna nüüd parata, Hans? Minu waese pea on nagu uimane ja segane otsas kurwastamisest, ei seleta seda ega tõist!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>No kae, Miinakene, sellepärast olen ma isekeskes omale nöuu wäljamõtelnud, ja kui meil aga natukegi aega jääb teda järjele ajada, kes teab, siis langeb wõit ometi meie poole, Seda Sa näed!
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Mis nõu see on siis, Hans?
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Sinu pagana Saarema Kooli-Madist — wiigu teda tont, kus —! ei tunne jo isa ka muidu kui kirjast ja annaks Sind iga ühele, kes onupoja nimel Sind tahtma tuleks; aga niikaugele ei maksa meile oodata, oleks ka wäga kahtlane lugu. Sellepärast, Miinakene, tahan ma meie õnnele natuke appi tulla, et ta õige tee pealt kõrwale ei eksi. Waata, kanapoeg, külakoolmeister Priido on kõige oma ümmarguse punase näo ja pitka kooli-tiku kõrwas naljakas mehike, see paneb mulle omad hilbud ümber, siis ma tulen tulewase kooliwäi asemel ja näol isa juure, ja küll ma tahan nii lombakalt ja edewalt Saaremaa onupoega teha, et ta rõõmus peab olema, kui omast kuiwetand koolikärbsest<pb n="20"/> lahti ja naabri-Hansu jälle wäimeheks saab. Mis Sa sest arwad, Miina?
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Hans, Hans, see on pettus?
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Mötle, silmatera, et muidu terwet eluõnne meie käest ärapetetakse, ja et meil tui tasaduse kõrwa ka ussi kawalust tarwis lähäb!
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Ta tunneb Sind ära, küll Sa näed!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Midagi ta ei tunne! Ära Sa karda, küll ma selle eest hoolt kannan! Suured kortsud teen ma otsa ette ja ajan kaapkübara sügawaste silmi: tulgu mo oma ema mind tunnistama, kas saab minust aru!
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Aga, Hans, lugu ei näita ometi oopis õige minu meelest —
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Ah, Sull on ehk kergem, Saaremaa onupojaga altari ette minna?
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Jumal hoidku, ei — ei! Tee mis Sa ise arwad, Hans, tee peale! Mina olen kõigega rahul! Aga waata ette, Hans, waata ikka õiete ette!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Sellepoolest ärgu olgu Sull muret! Usu, Miinakene, meie kahe õnn on küll seda wäärt, et tema eest natuke higistamist eneste peale wõtame. Ja meie ei tee seda jo kellegi ülekohtuse nõuu pärast, waid ise enese õnnetuse keelmiseks. Aga nüüd, pai laps, pean ma minema, ennast riidesse panema — küll Sa näed, mis tubli koolmeister minust peab saama, et Sa ise kõik maailma tarkust minu kaapkübara alt pead kartma hakkama. Jumalaga seniks! Ja ära joose liig kaugele ära, kui Sa uut Saaremaa onupoega näed tulewat, ega ta ei hammusta.
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Kahju, et ma milgi wiisil Sind ei woi ise awitada! Kui Sa aga õige ettewaatad!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Ole julge, laps, — mis suurt pattu siis meie mõlemad oleme teinud, et Jumal meid nii oopis maha peaks jätma? Mina seda ei usu. Aga nüüd ma ruttan, muidu jääb hiljaks. Head pääwa! <stage>(Kaob paremale poole lauldes ära)</stage>
+                        </p>
+                    </sp>
+                </div>
+                <pb n="21"/>
+                <div type="scene">
+                    <head>VIII.</head>
+                    <stage>Miina (üksi).</stage>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Jumal andku, et ta tõt räägib! Helde Jumal ise kaitsegu tema nõuu! Kuida rääkis õpetaja eile kirikus: Kellegi hiuksekarw ei lange meie peast ilma tema tahtmata! Jo ta siis ka kaks inimese südant ilma hädata tõine tõise küljest lahti ei kisu! Kuida tema isa-käsi meid, õnnetusest ja hädast läbi, ikka kõige paremat teed talutab rõõmu ja õnne hallikale, nõnda ta ka teab, et mina Hansuta mitte elada ei woiks ja et mo tulewane elu siis oleks nagu lillel, keda lapse wallatu käsi elawa warre pealt mahamurdis ja pärast weel mulla sisse pistab: ei seal oleks õitset ega haljendust enam külges, sureks ja närtsiks kuuma pääwa kätte üürikese ajaga ära. Ta on helde ja armuline, seda ta mitte ei taha, ta saab meie mõlema kahtlust ja ahastust lõpetama, et meie süda hõiskades tema teed peab kiitma ja tänama! — Kust mulle see kindel lootus ja rõõm nii korraga on põue tulnud? Jumal, kes teda saatnud, saab teda ka täitma.
+                        </p>
+                        <lg type="song">
+                            <head>Pääwa ära iial laida etc.</head>
+                            <lg type="stanza">
+                                <l>1. Pääwa ära iial laida</l>
+                                <l>Enne pääwaloodene:</l>
+                                <l>Tõiselt sõus'wad koidukiired,</l>
+                                <l>Tõiselt heitwad ehale.</l>
+                                <l>Kangema kui külma kannul</l>
+                                <l>Seda sojem suwele —</l>
+                                <l>Pääwa ära iial laida</l>
+                                <l>Enne pääwaloodene!</l>
+                            </lg>
+                            <lg type="stanza">
+                                <l>2. Mulda meil' ja muret loodud</l>
+                                <l>Sugulasiks surmane:</l>
+                                <l>Keda üks maailma toonud,</l>
+                                <l>Tõisel' armas alate.</l>
+                                <l>Mustema kui muremullal</l>
+                                <l>Nägin õisi omete —</l>
+                                <l>Pääwa ära etc.</l>
+                            </lg>
+                            <lg type="stanza">
+                                <l>3. "Ammu Eesti õitseajad</l>
+                                <l>"Otsas," ütleb osaw suu;</l>
+                                <l>"Talwe taewal waritsemas,</l>
+                                <l>"Paljas paistab Eesti puu!"</l>
+                                <l>Wõerast waipa warjuks wõtta</l>
+                                <l>Kuinud kändu käss'takse —</l>
+                                <l>Pääwa ära etc.</l>
+                            </lg>
+                            <lg type="stanza">
+                                <l>4. Waewalt waga Wanamuise</l>
+                                <l>Kullakannel soiku jäi,</l>
+                                <l>Kui ka wastaliste wägi</l>
+                                <l>Hõisatelles kässa lõi:</l>
+                                <l>"Langenud, waat', waga laulik</l>
+                                <l>"Igawese unesse! —"</l>
+                                <l>Pääwa ära etc.</l>
+                            </lg>
+                            <pb n="22"/>
+                            <lg type="stanza">
+                                <l>5. Sellepärast muremõtet</l>
+                                <l>Põuest puista, armas hing:</l>
+                                <l>Tõiselt libekeeled lend'wad, —</l>
+                                <l>Tõiselt astub aja king!</l>
+                                <l>Öigus'koda ehitates,</l>
+                                <l>Tulewiku teenime —</l>
+                                <l>Pääwa ära etc.</l>
+                            </lg>
+                        </lg>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>IX.</head>
+                    <stage>Miina. Miku (koolmeistri riides uksest wäljapugedes).</stage>
+                    <sp who="#miku">
+                        <speaker>Miku </speaker>
+                        <stage>(Tasakeste). </stage>
+                        <p>Seal ta seisab. Nüüd ei ole enam aega wahtida, õnnekord ise toob teda mulle põigiti wasta! Katsume nüüd ametit ja waatame, paljuks meile isaisade tarkusest pähä kinni jäänud. Aga on ta tont kübar mulle ka palaw peas, siiski — maha ma teda ei woi wõtta, nägu tuleks wäga wälja. Oeh! — Kui ta mind aga ei tunne? Ei usu. <stage>(Kõhatab)</stage> Tere, tere ka, siit kena külalaps! <stage>iseeneses)</stage> Se läks korda.
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina </speaker>
+                        <stage>(kohkudes isepaika). </stage>
+                        <p>Jumal tule appi — see on wist Saaremaa päris onupoeg! Oh, Jumal, Jumal, kus nüüd kõik meie ilusad unenäod!
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Mina olen, hm, hm, kaunis neiukene, mina ise, hm, olen wõeras siin külas — jõuan paraegu Saaremaa teelt siia, hm, kus, hm, kus mull kooliamet kätte usutud, päriseks usutud, päriseks jah, hm! Otsin oma tulewase äiataadi, hm, hm, rentniku Muru Miku talu, Muru-Miku — talu — — hm, hm! —
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <stage>(ahastades iseeneses)</stage>
+                        <p>Tema jah, tema ise, Saaremaa onupoeg! Oh sina kallis taewake, mis nüüd?
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Ja ühel hoobil otsin ka oma, kallikest, kullakest, hm, tema tütart — tema ainust tütart, hm, hm, Muru Miinat, jah, hm, hm, Muru Miinat, tema ainust tütart, hm!
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Mis ma nüüd teen, oh Jumal, oh Jumal! Kõik nõu otsas, kõik lootus tühjas! Oh mis kuri juhatus teda ka parajalt nüüd, just nüüd teda risti tee peale ette<pb n="23"/> pidi tooma! Nüüd on Hansu nõu nurjas, ja kui ta tuleb, ja isa asjast aru saab, siis — ma ei taha mõteldagi!
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku </speaker>
+                        <stage>(Tasakeste). </stage>
+                        <p>Kae, kudas ta hädas on: ja jah, lugu lähäb korda. Ma ütlesin küll: tarkuse puudust ma ei karda, tuleb riiete haisuga iseenesest pähä. Aga ta silmad näitawad niisked peas, — see'p see on — süda ei taha peaaegu kanda, pettust edasi ajada. Hm — ära ole rumal, Mik! Kes teab mis tarbeks weel mõnus woib olla, riide saad weel ikka aegsaste küllalt seljast maha! Ma ei teadnudki, et see ni kerge lugu on, koolmeister olla, see tuleb sest isaisade tarkuse waimust, mis mulle weel sisse on jäänud. Aga see pagana kübar peas, seda ma wirutaks, kus — — see'p see on! <stage>(Suure healega)</stage> No neiuke ehk noorik, mis Sa oled, hm, kas ei woi mulle juhatada, kust ma woiks kena mõrsjakese ja äiataadi kätte saada — mina ise, hm, jah?!
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina </speaker>
+                        <stage>(iseeneses). </stage>
+                        <p>Olgu siis! Ma arutan t'ale kõik selgeste ette: see on mo ainus ja wiimane lootus weel! Ega ta nii pöörane woi olla, mind naiseks tahta, kui kuuleb, et ma juba omast meelest tõise päralt olen!
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku </speaker>
+                        <stage>(isepaika) </stage>
+                        <p>Mis ta seal peaks sosistama ja posistama?
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina </speaker>
+                        <stage>(suure healega). </stage>
+                        <p>Saaremaa koolmeister, olge heaks, laske, ma räägin Teile kõik ära, kuida lugu on! Kaege, mina — mina — ise olen mõrsja, kelle pärast Teid siia lastud tulla, minu isa on Muru Miku, sellesama talu rentnik. Aga — aga, kaege, Saaremaa onupoeg, sellepärast ma Teid ometi mitte karwa wäärt armastada ei jõua, mitte karwa wäärt, Saaremaa onupoeg! Üks tõine mees on juba mulle kosjas käinud, seda ma armastan ja teda ma ei woiks iialgi meelest äraunustada, ei elades, onupoeg, wõtku ma Teid ehk wõtmata. Ja teda ajate häda ja wiletsuse sisse, kui mind wägisi wõtta tahate, aga sest pole Teil enesel mitte märgikest kasu, minu meelest jääte seda halwemaks, mina ei armasta Teid, ma armastan teda. Ja seda tahtsin ma Teile ütelda, onupoeg, ja ka, et isa mind woib sundida, et ma "jah" ütlen! aga sest tuleb mulle õnnetust ja Teile ka, küll T'e näete! Mis see aitab:<pb n="24"/> isa sana pean ma kuulma ja õpetaja on mulle jo seletanud, et isa ja ema peab auustatama ja ta on ka muidu nii hea minu wasta ja on mind kaswatanud ja kannab minu eest muret, et hopmanni tütrel mitte paremat päiwi ei ole, ja mo süda ei kanna mitte wägisi tema wasta panna, — ta on jo mo isa; aga küll T'e näete: kõik mo elu lähäb hukka selle kallal ja Teie, Saaremaa onupoeg, Teie olete siis minu surma süüdlane!
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku </speaker>
+                        <stage>(äraunustades wanal healel). </stage>
+                        <p>See'p see on! Ei, mo armas, pai, sanakuulelik laps — <stage>(meeletuletadas)</stage> wait, Miku, rumal, peaaegu oleksid äraunustcmud, et sa koolmeister oled! Hm, hm!
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina </speaker>
+                        <stage>(iseeneses). </stage>
+                        <p>Mis see oli? Keda ma kuulsin — kas see ei olnud isa heal? Tule Jumaluke — ma usun, see ei ole õige asi! Kas ta peaks —? Tösi, tösi! Kust ta on siis —? Need on jo — kuub, kübar, west — need on jo tük tükilt wanaisa riided kapist!! Isa on ennast, isa ise, Saaremaa onupojaks muutnud! Ja jah, aja aga kübara, silmi, ei Sa mind enam ei peta, taadike! Mis ta küll sellega peaks otsima? Pea, pea, nüüd ma enam ei karda, nüüd mitte! Oleme wait ja kuulatame.
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>X.</head>
+                    <stage>Endised. Hans (tuleb, koolmeistri riides, tõiselt poolt).</stage>
+                    <sp who="#miku">
+                        <speaker>Miku </speaker>
+                        <stage>(iseeneses). </stage>
+                        <p>Kes sealt tuleb? Kallis aeg — kas see ei ole — anna püha Jeesuke minu patud andeks — kas see ei ole siis minu kuub ja minu kübar ja wöö ja püksid? <stage>(oma riideid käega katsudes)</stage> ma olen jo ometi Muru Miku, kes Saarema koolmeistert män — <stage>(ehmatates)</stage> Kallis taewa taadike: see'p see on! Oh sa taewane heldus, tule nüüd minu waese patusele appi! See ei ole keski muu, kui tema, Saaremaa onupoeg ise! Waata, Miku, see tuleb sest edewusest, et sa wanal eal weel lapse tempu hakkad ajama, ja et sa ei mõistnud warsi teha, mis nüüd hiljaks jääb ja ennast Miinale ilmutada! Kas ei ole so õn<pb n="25"/>nis ema ikka ütelnud: Miku, kes kurja waimu kutsub, seda ta kägistab! Nüüd on ta mo kallal, see'p see on!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans </speaker>
+                        <stage>(iseeneses) </stage>
+                        <p>Tuhat ja tuline — seal on juba õige onupoeg ees ootamas! Jälle hiljaks jäänud! No nüüd sa woid rotiauku pugeda, Hans, seal on sull lahedam ruum, kui siin!
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina </speaker>
+                        <stage>(iseeneses). </stage>
+                        <p>Kes uus külaline siis sealt tuleb? Heldekene! Kui minu patused silmad ei waleta, siis 'pole see ükski muu, kui Hans nurjatu ise! Ahah! Kae, kardab tõist! Suru aga kübart silmi: nüüd olete kaks parast kokku saanud ja mõlemad lõksus! Tänu Jumalale!
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku </speaker>
+                        <stage>(iseeneses). </stage>
+                        <p>Mis ma nüüd teen? Kui ma ometi õnnega juba siit läinud oleks! Aga kuhu ma poen? See'p see on!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans </speaker>
+                        <stage>(iseeneses). </stage>
+                        <p>Mis ma nüüd teen? Oleks ma ometi jäänud kus tont teab! Kui nüüd wana Miku tuleb ja mind wäljatunneb? Pagan wõtku!
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina </speaker>
+                        <stage>(iseeneses). </stage>
+                        <p>Kae, kae, kuda tõinetõist tunnistawad: süda mõlemile saapa säärde langenud. Ei usalda lähemale tulla, — igaüks arwab ennast üksi walekoolmeistriks. Ja jah, pilgutage aga minu poole silmi: mina ei näe ega kuule! Katsuge ise õigeks saada!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans </speaker>
+                        <stage>(iseeneses) </stage>
+                        <p>Terwist peab ometi pakkuma: seda wist tehtakse Saaremaal ka! <stage>(Kõhatates argselt)</stage> Tere ka, armas külarahwas!
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku </speaker>
+                        <stage>(iseeneses). </stage>
+                        <p>Terwise peab ikka wastawõtma: seda wist tehakse Saaremaal ka! <stage>(Köhatates, argselt, Miinaga koos)</stage> Tere Jumalime!
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina </speaker>
+                        <stage>(iseeneses). </stage>
+                        <p>So, esimine laul on lauletud, nüüd tuleb jutlus.
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku </speaker>
+                        <stage>(iseeneses). </stage>
+                        <p>Ei aita, ma pean Miinat appi kutsuma! <stage>(Poole healega)</stage> Miina, pai laps —
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Mis T'e tahtsite?
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans </speaker>
+                        <stage>(tõiseltpoolt, niisama). </stage>
+                        <p>Ei mõo midagi, ma pean Miinale teada andma <stage>(Poole healega).</stage> Kallis silmatera —
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Mis külaline räägib?
+                        </p>
+                    </sp>
+                    <pb n="26"/>
+                    <sp who="#miku">
+                        <speaker>Miku </speaker>
+                        <stage>(Niisamati). </stage>
+                        <p>Miina, eks Sa näe, et mina olen?
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans </speaker>
+                        <stage>(Niisamati). </stage>
+                        <p>Miina, eks, Sa näe, et mina olen?
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina </speaker>
+                        <stage>(Nagu arusaamata, iseeneses). </stage>
+                        <p>Ja jah, teie olete! Oodake aga, ma tahan nüüd teid pigistada, õige mõlemaid, et teie Mardipääwa tempu nii ruttu ära ei pea unustama! Seda ma näen: isa meel annab järele, muidu ta seda mängutükki 'poleks kätte wõtnud; tänu Jumalale, nüüd woib süda jälle mureta olla! Aga oodake, teie kaks mõlemad! <stage>(Suure healega)</stage> Kuula: kas see ei olnud isa heal, kes toast hüüdis? Palun andeks, et külalisi üksi jätan, toast hüüti <stage>(Äraminnes).</stage> Wiitke teie nüüd oma wahel aega, et naerutük minu kaela ei jäe! Kus wanataat ja Saaremaa onupoeg juttu ajawad, sinna pean ma õnnist Peetri-onu ka weel läkitama, et kolm kuningast koos on! Kannatage aga!
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>XI.</head>
+                    <stage>Miku. Hans.</stage>
+                    <sp who="#miku">
+                        <speaker>Miku </speaker>
+                        <stage>(iseeneses). </stage>
+                        <p>So, so, "isa hüüdis?" Isa istub siin, rõõmus nagu kala kuiwa liiwa peal! Tema kawal peastab ennast lõksust wälja, aga mina jään puuri!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans </speaker>
+                        <stage>(iseeneses). </stage>
+                        <p>So! Süüd ta paneb pagema ja mina istun siin kurja maailma ja Saaremaa onupoja jaoks ja higistan häda käe. Tulge nüüd, taewa inglikesed, appi, muidu ma ei pease! <stage>(Kõnniwad mõlemad hädas mööda ruumi ühest nurgast tõise).</stage>
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans </speaker>
+                        <stage>(iseeneses). </stage>
+                        <p>No kas Sa ei mõista ka midagi ütelda, Hans? Muidu sull suu küllalt põigiti nina all? Kuhu So targad sanad nüüd kõik on pugenud? Mis Saaremaa onupoeg siis sinust peab mõtlema, ae?
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku </speaker>
+                        <stage>(iseeneses) </stage>
+                        <p>Seda ma mitte ei oleks arwanud, et see koolmeistri seisus nii raske pidi olema! Ja kübar, kärwand, piinab ka pead: oh sa waene, õnnetu Miku, mis hädasse sa nüüd oled sattunud!
+                        </p>
+                    </sp>
+                    <pb n="27"/>
+                    <sp who="#hans">
+                        <speaker>Hans </speaker>
+                        <stage>(iseeneses). </stage>
+                        <p>Hakka peale, Hans! Mis ta sulle siis woib teha? Oled jo ka kihelkonnakooli läbikäinud: ära ta sind ka ei söö! <stage>(Suure healega)</stage> Hm, — hm —
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku </speaker>
+                        <stage>(iseeneses). </stage>
+                        <p>Ta waatab nii imelikult minu otsa — kübar lähäb ikka palawamaks peas — ei tea, mis ta minust tahab? <stage>(Niisama)</stage> Hm, — hm!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans </speaker>
+                        <stage>(suure healega). </stage>
+                        <p>Külaline näitab —
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku </speaker>
+                        <stage>(suure healega). </stage>
+                        <p>Wõeras on wist —
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Kellegi koolmeister?
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Mõni koolipidaja?
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Nõnda ta näitab, olge terwe küsimast!
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Woiks küll olla, tõist terwist Teile!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans </speaker>
+                        <stage>(isepaika). </stage>
+                        <p>Nüüd ma enam ei tea! Nägu t'all nii tark peas, et mull nagu kuum wesi üle ihu käib! Tule, hea õnn, ise appi!
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <stage>(isepaika) </stage>
+                        <p>Kui targalt ta küsib — mull lööb üsna südame wärisema! Ja naabri-Hans ütles weel, et meie külakoolmeistrid targemad pidada olema! Kui ta aga ise nüüd minu asemel seisaks, siis ta näeks!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <stage>(suure healega) </stage>
+                        <p>Siis oleme jo ametiwennad? <stage>(isepaika)</stage> Paraku!
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku </speaker>
+                        <stage>(niisama). </stage>
+                        <p>Ametiwennad oleme! <stage>(isepaika)</stage> Awita Jumal aga ametist lahti!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans </speaker>
+                        <stage>(suure healega) </stage>
+                        <p>Uus amet, raske amet! Wist tulite ise asja pärast siia?
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku </speaker>
+                        <stage>(isepaika). </stage>
+                        <p>"Uus amet?" Mis? Kas ta juba aru saanud, kes ma olen? <stage>(suure healega)</stage> Tulen ja lähän: Possoll tulnud ja Possoll jälle edasi! <stage>(isepaika)</stage> Ehk see awitab natuke!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans </speaker>
+                        <stage>(iseeneses). </stage>
+                        <p>Püha Paulus! Juba kõneleb Wenekeelt: ei ma nüüd jõua juure jääda! <stage>(suure healega)</stage> Tee wois küll õige pitk ja igaw olla?
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku </speaker>
+                        <stage>(suure healega). </stage>
+                        <p>Lähäb korda! Minu kohta ütelda: Üle mulgu karata, siis kodu käe!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Üle mulgu karrata! <stage>(isepaika)</stage> Waene Hans, kui sellel Saaremaa juba "üle mulgu" seisab, mis siis sinust peab saama? <stage>(suure healega)</stage> Kaugel ta Saarema siis siit woib olla?
+                        </p>
+                    </sp>
+                    <pb n="28"/>
+                    <sp who="#miku">
+                        <speaker>Miku </speaker>
+                        <stage>(isepaika). </stage>
+                        <p>Nüüd ta hakkab mind oopis katsuma! Kus nüüd sa isaisade tarkus riietehaisust jääd? Eks sa woi nüüd wälja appi tulla! <stage>(Suure healega)</stage> Kui — kui kaugel Saaremaa? Seda jo peate ise paremine teadma! <stage>(isepaika.)</stage> Kui Jumal mind selle korra weel peastab, siis ma ka elades enam ei taha koolmeistert teha!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Hm, hm! <stage>(isepaika)</stage> Paremine? Millal heinu ja linu tehakse, seda ma küll tean, aga Saaremaa teed pole ma iial mõetnud.
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku </speaker>
+                        <stage>(suure healega). </stage>
+                        <p>Minu teada on ametiwend jo Saaremaa poolt siia tulnud?
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Saaremaa poolt? Ei, minu teada on jo ametiwend ise Saaremaa poolt tulija? <stage>(isepaika)</stage> Nüüd ma annan aga pea jalgele walu, enne kui Saamara tee ka weel kätte tuleb!
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku </speaker>
+                        <stage>(isepaika). </stage>
+                        <p>Kui ma nüüd pea pagema ei pane, siis ta küsib weel kõik wiis peatükki peale kauba läbi!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans </speaker>
+                        <stage>(suure healega). </stage>
+                        <p>No kus siis — kus siis tellitud onupoeg nüüd õiete on?
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>No eks T'e ise ole siis?
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Kas Teie siis ei ole?
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Jumal hoidku!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Pagana wõrt! Kes meitest kahest siis nüüd tõsine Saaremaa onupoeg on?
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>XII.</head>
+                    <stage>Endised. Miina (koolmeistri riides, on uksest wäljapugenud ja astub mõlema wahele).</stage>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Mina'p see olen! <stage>(käib suuril sammuil ühest tõise)</stage>
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku </speaker>
+                        <stage>(isepaika). </stage>
+                        <p>Weel üks kolmas! Jumala ristike jäägu meie mõistuse juure, nüüd on walge wäljas!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans </speaker>
+                        <stage>(isepaika). </stage>
+                        <p>So! No jah, seda'p läks meile weel tarwis! <stage>(oma pead katsudes)</stage> Jo mo pea ikka weel otsas seisab?
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku </speaker>
+                        <stage>(isepaika). </stage>
+                        <p>Sellel näitab jo nina õige peas seiswat! See'p see on!
+                        </p>
+                    </sp>
+                    <pb n="29"/>
+                    <sp who="#hans">
+                        <speaker>Hans </speaker>
+                        <stage>(isepaika). </stage>
+                        <p>See ajab jo sammud õige sirgeks all! Waata poissi!
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku </speaker>
+                        <stage>(isepaika). </stage>
+                        <p>Nüüd pannakse wist katsepill tõist korda hüüdma! No wana Muru Mik, hüppa peale, seda sa ka ei arwanud wana ea sees weel läbikatsuwat! Kes kannatab, see kaua elab!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans </speaker>
+                        <stage>(isepaika). </stage>
+                        <p>Parem tahaksin ma täna kirju Karja-Krantsi asemel õuet wahtida, kui sinist kuube selgas kanda — Oh kui ma selle korra hingega weel peaseks!
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina </speaker>
+                        <stage>(seistes). </stage>
+                        <p>Tere, auusad ametiwennad! Palun teid: olge head, wötke täna siin minu tulewase äiataadi talus lõunat: sest see on kaunis, lõbus ja hea, kui meie ei unusta omasugusid ära õnne ja rõõmu ajal ja see on armas Issanda meelest, kui meie oma leiba murrame näljatsetele! Sest "sina pead oma ligimist aitama ja temale head tegema iga ihu häda sees," ütleb wiies käsk!
+                        </p>
+                    </sp>
+                    <sp who="#miku #hans">
+                        <speaker>Miku ja Hans. </speaker>
+                        <p>See on see õige onupoeg!
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Teie tulete wist —
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Wist Teie tulete —
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Saaremaalt, jah, otsekohe Saaremaalt! Rentnik Muru Miku on minu onupoeg! Tahan tema tustpead tütart ärakosida, keda ta wana narrilane mulle naiseks on lubanud!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Oho! Suu tõisel peas, nagu kolmewakasel kotil! Kuulge, kallis ametiwend, kui T'e paremine keelt ei mõista walwata, siis peate näha saama, et ametiwennal ka rusikas otsas on! Ja niisugune harimata laisuu tahab Miinat kosida? Häbi üle pea! Uih!
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>See on õige, armas koolmeister, see on õige! Andke t'ale sanu, neid lähäb t'al tarwis! Auusat äiataati nõnda sõimata! Kae, õige mees!
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Aga, armas ametiwend —
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Pidage suud! Mina Teie ametiwend ei ole!
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Paras, paras!
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Ma maenitsen Teid, ametiwend, et mind rahul jätate!
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Wai narrilaseks nimetab ta isat! Niisugune koolipois!
+                        </p>
+                    </sp>
+                    <pb n="30"/>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Kõige auusamat meest külas, narrilaseks! Ja tema tütart tustpeaks! Oot', oot', seda tahan ma Teile meeles pidada!
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Pea, pea, kui koolmeistrid külas karwu pidi kokku lähäwad, see saab armsaks eeskujuks olema kõige lastele ja wanadele! "Kui armas ja lõbus see on," ütleb kiri, "kui teie kui wennaksed elate tõine tõisega" ja "pidage rahu iga ühe wasta!" — Armas ametiwend, seda pidage meeles!
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Ma usun, ta pilkab weel pealegi!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Kas kuulete: meie ei ole Teie ametiwennad! Ja nüüd katsuge, et minema saate, muidu —
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <p>Kallis ametiwend: mina olen siin oma parajal paigal, minust küll minejat ei saa! aga seda head tahan ma Teile teha, et kübara peast wõtan: ehk teete siis minu heaks sedasama — <stage>(wõtab kübara peast).</stage>
+                        </p>
+                    </sp>
+                    <sp who="#miku #hans">
+                        <speaker>Miku ja Hans </speaker>
+                        <stage>(ühest suust) </stage>
+                        <p>Miina!
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku </speaker>
+                        <stage>(wiskab kübara peast).</stage>
+                        <p>Tänu Jumalale!
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans </speaker>
+                        <stage>(Miina käest kinni wõttes). </stage>
+                        <p>Sina ülemeelne laps! Nõnda mind piinata! Ja — tule Jumal appi, kas see ei ole —?
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Muru Miku ise, tema jah! Aga — kes meie siis õiete oleme? Heal tahab nagu tuttaw olla —? See koolmeister elab nagu ka "üle mulgu!"
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina </speaker>
+                        <stage>(takka poisi kübara peast wõttes). </stage>
+                        <p>Hans, sest saab! Kas Sa ei näe, kuida isa suu ja silmad naeratawad? Armas taat! —
+                        </p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans. </speaker>
+                        <p>Armas taat —
+                        </p>
+                    </sp>
+                    <sp who="#miku">
+                        <speaker>Miku. </speaker>
+                        <p>Minugi pärast siis! Sa oled tubli, õiglane pois, Hans: sellest ühest ja suuremast ametist ei ulata ometi ükski muu üle! Jumal andku Teile palju õnne elada, lapsed! Ja kuulge, seda pange tähele, seda olete ka täna näinud: iga ameti peale lähäb osawust tarwis ja kes on rätsepaks õppinud, jätku kingad tegemata: lähäwad nurja ometi! See'p see on. Ja tarkus ei tule mitte riidehaisust ega päri põlwest põlwe, seda m'e ka nüüd teame, Hans ja mina; sest ei awitanud mind ega teda Saaremaa koolmeistri kibeda katse alt wälja, et meil kuub sel<pb n="31"/>gas ja kübar peas oli, hm, hm — ja sellepärast ei taha ma Teid mitte sundida, lapsed; aga et mo oma sana pidada ja õnsa wenna kinnitust ja palwet täita, siis lööme kät, lapsed: esimine poeg, keda Jumal annab, kui ta ise wasta ei pane, siis sagu temast —
+                        </p>
+                    </sp>
+                    <sp who="#miku #hans">
+                        <speaker>Molemad </speaker>
+                        <stage>(Ühest suust) </stage>
+                        <p>Koolmeister!
+                        </p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina. </speaker>
+                        <lg>
+                            <l>Onupoeg ei ise tulnud,</l>
+                            <l>Liiaks ränk weel tema tee;</l>
+                            <l>Eestiwend, et anna andeks,</l>
+                            <l>Kui ta nimel tulime!</l>
+                            <l>Ent, kui arwad: "Sekski korraks!</l>
+                            <l>"Külla'p, wäetid, wäsite" —</l>
+                        </lg>
+                    </sp>
+                    <sp who="#miina #miku #hans">
+                        <speaker>Kõik. </speaker>
+                        <lg>
+                            <l>Pääwa ära iial laida</l>
+                            <l>Enne pääwa loodene!</l>
+                        </lg>
+                    </sp>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
