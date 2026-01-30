@@ -70,7 +70,7 @@
     </teiHeader>
     <standOff>
         <listRelation>
-            <relation name="wikidata" active="https://dracor.org/entity/est000002" passive="https://www.wikidata.org/entity/Q31275086"/>
+            <relation name="wikidata" active="https://dracor.org/entity/est000002" passive="http://www.wikidata.org/entity/Q31275086"/>
         </listRelation>
         <listEvent>
             <event type="print" when="1870">

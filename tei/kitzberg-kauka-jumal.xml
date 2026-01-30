@@ -154,7 +154,7 @@
     </teiHeader>
     <standOff>
         <listRelation>
-            <relation name="wikidata" active="https://dracor.org/entity/est000001" passive="https://www.wikidata.org/entity/Q12366653"/>
+            <relation name="wikidata" active="https://dracor.org/entity/est000001" passive="http://www.wikidata.org/entity/Q12366653"/>
         </listRelation>
         <listEvent>
             <event type="written" when="1912">
@@ -3152,13 +3152,13 @@
                             <p> Mis te siin wahite? Minge minema!
                             </p>
                         </sp>
-                        <sp who="#joodik_1">
+                        <sp who="#joodik-1">
                             <speaker>Üks joodik:</speaker>
                             <p> Ohoo! Meie ei eksita kedagi.
                             </p>
                         </sp>
                         <pb n="65"/>
-                        <sp who="#joodik_2">
+                        <sp who="#joodik-2">
                             <speaker>Teine:</speaker>
                             <p> Siin on ju enam kui kopka eest lõbu!
                             </p>
@@ -3242,7 +3242,7 @@
                             <p> Kui kästakse...
                             </p>
                         </sp>
-                        <sp who="#joodik_1 #joodik_2">
+                        <sp who="#joodik-1 #joodik-2">
                             <speaker>Joodikud</speaker>
                             <stage> (üks ja teine):</stage>
                             <p> Mina küll! Mina — jah! <stage>(Asuwad Märdi külge, kes rabeleb, aga ennast lahti kiskuda ei saa).</stage>
@@ -3391,7 +3391,7 @@
                             </p>
                         </sp>
                         <pb n="69"/>
-                        <sp who="#joodik_1 #joodik_2">
+                        <sp who="#joodik-1 #joodik-2">
                             <speaker>Teised kinnihoidjad</speaker>
                             <stage> (läbisegi):</stage>
                             <p> Mis sa möllad! Ega sa lahti ei saa!
@@ -3581,7 +3581,7 @@
                         <p> Pea! Käe ajad vahele!
                         </p>
                     </sp>
-                    <sp who="#toeoemees_2">
+                    <sp who="#toeoemees-2">
                         <speaker>Teine töömees:</speaker>
                         <p> Ära lahti lase! <stage>(Jõuawad kapiga teise tuppa).</stage>
                         </p>
@@ -3709,12 +3709,12 @@
                         <p> Küll on ikka peremehel ka pudel!
                         </p>
                     </sp>
-                    <sp who="#toeoemees_2">
+                    <sp who="#toeoemees-2">
                         <speaker>Teine töömees:</speaker>
                         <p> Suur mees, suur pudel!
                         </p>
                     </sp>
-                    <sp who="#toeoemees_3">
+                    <sp who="#toeoemees-3">
                         <speaker>Kolmas töömees:</speaker>
                         <p> Nõnda ta on. Ega's meie peremees teda sorokohwkaga hakka tooma.
                         </p>
@@ -3766,13 +3766,13 @@
                         <p> No mis wigurit sina pead! Hähähä!
                         </p>
                     </sp>
-                    <sp who="#toeoemees_2">
+                    <sp who="#toeoemees-2">
                         <speaker>Teine töömees</speaker>
                         <stage> (on wähe hinge taha saanud):</stage>
                         <p> See kurat on ju kui põrgu tuli!
                         </p>
                     </sp>
-                    <sp who="#toeoemees_3">
+                    <sp who="#toeoemees-3">
                         <speaker>Kolmas töömees</speaker>
                         <stage>(klaasi wõttes):</stage>
                         <p> Mis sa's tikud, tihane, kui sa peremehe wiina ei kanna! Piirituse wiin, selle juures olgu ka mees! <stage>(Wõtab ja püüab kõrwetust warjata).</stage> On... ikka küll... wali... nagu Mogri-Märt ise!
@@ -4753,7 +4753,7 @@
                 </div>
                 <div type="scene">
                     <head>2.</head>
-                    <sp who="#naene_1">
+                    <sp who="#naene-1">
                         <speaker>Esimene naene</speaker>
                         <stage> (teisele):</stage>
                         <p> Waata kus wana Mogri-Märt tee ääres kiwi otsas, walge kepp peos! Minu mehe ajas kohast wälja, nüüd on hull! <stage>(Märdile):</stage> Noh, mis sa sääl nüüd istud ja wahid? Kas on hää waadata, kuidas mina wana inimene jala kirikusse wantsin?
@@ -4764,7 +4764,7 @@
                         <p> Ära mine! Ära mine silma alla! See sääl on — wihane Jumal!
                         </p>
                     </sp>
-                    <sp who="#naene_1">
+                    <sp who="#naene-1">
                         <speaker>Naene:</speaker>
                         <p> See on wihane Jumal jah, see ei jäta kätte nuhtlemata! Meid ajasid tuule-taewa alla, nüüd ei ole enesel ka paremat palka! Kas on nüüd hää?
                         </p>
@@ -4775,7 +4775,7 @@
                         <p> Ja jaa! Wesi tuli tuppa ja muud kui puuri pimedast pääst...
                         </p>
                     </sp>
-                    <sp who="#naene_1">
+                    <sp who="#naene-1">
                         <speaker>Naene</speaker>
                         <stage> (edasi astudes teisele):</stage>
                         <p> Eks korra saa igaühe mõõt täis... <stage>(Ära).</stage>
