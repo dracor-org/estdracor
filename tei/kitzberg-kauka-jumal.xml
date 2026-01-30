@@ -102,16 +102,16 @@
                     <person xml:id="kortsimees" sex="MALE">
                         <name>Kõrtsimees</name>
                     </person>
-                    <person xml:id="joodik_1" sex="MALE">
+                    <person xml:id="joodik-1" sex="MALE">
                         <name>Üks joodik</name>
                     </person>
-                    <person xml:id="joodik_2" sex="MALE">
+                    <person xml:id="joodik-2" sex="MALE">
                         <name>Teine joodik</name>
                     </person>
                     <person xml:id="toeoemees" sex="MALE">
                         <name>Töömees</name>
                     </person>
-                    <person xml:id="toeoemees_2" sex="MALE">
+                    <person xml:id="toeoemees-2" sex="MALE">
                         <name>Teine töömees</name>
                     </person>
                     <person xml:id="wanakas-toeoemees" sex="MALE">
@@ -120,7 +120,7 @@
                     <person xml:id="noorem-toeoemees" sex="MALE">
                         <name>Noorem töömees</name>
                     </person>
-                    <person xml:id="toeoemees_3" sex="MALE">
+                    <person xml:id="toeoemees-3" sex="MALE">
                         <name>Kolmas töömees</name>
                     </person>
                     <person xml:id="tuedruk" sex="FEMALE">
@@ -129,7 +129,7 @@
                     <person xml:id="jaan" sex="MALE">
                         <persName>Jaan</persName>
                     </person>
-                    <person xml:id="naene_1" sex="FEMALE">
+                    <person xml:id="naene-1" sex="FEMALE">
                         <name>Esimene naene</name>
                     </person>
                     <personGrp xml:id="toeoemehed" sex="MALE">
@@ -154,7 +154,7 @@
     </teiHeader>
     <standOff>
         <listRelation>
-            <relation name="wikidata" active="https://dracor.org/entity/est000001" passive="https://www.wikidata.org/wiki/Q12366653"/>
+            <relation name="wikidata" active="https://dracor.org/entity/est000001" passive="https://www.wikidata.org/entity/Q12366653"/>
         </listRelation>
         <listEvent>
             <event type="written" when="1912">
