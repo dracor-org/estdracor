@@ -1474,7 +1474,7 @@
                         <p> Peremees! Hoia wähe eest! Pange täie wett walas kuriwaim kaela!
                         </p>
                     </sp>
-                    <sp who="tuedruk">
+                    <sp who="#tuedruk">
                         <speaker>Tüdruk</speaker>
                         <stage> (peremehe seljatagast):</stage>
                         <p> Et sul unewaew kergemini päält ära läheb!
@@ -2428,7 +2428,7 @@
                             <p> Mina tahan raha.
                             </p>
                         </sp>
-                        <sp who="mogri-maert">
+                        <sp who="#mogri-maert">
                             <speaker>Wana-Märt:</speaker>
                             <p> Wõid nüüd oodata, kuna sa saad. Kaeba kohtusse kui tahad.
                             </p>
@@ -2474,7 +2474,7 @@
                             <p> Märt! Meister on sääl kas sa ei näe?
                             </p>
                         </sp>
-                        <sp who="#mogri-mart">
+                        <sp who="#mogri-maert">
                             <speaker>Wana-Märt</speaker>
                             <stage> (toorelt):</stage>
                             <p> Ära sina karda, et ma ei näe kui ma tahan. <stage>(Paneb rahakoti ära, Marjapuule):</stage> No mis siis weel?
@@ -3926,7 +3926,7 @@
                         <p> Neil ei ole enam süüa ka!..
                         </p>
                     </sp>
-                    <sp who="mogri-maert">
+                    <sp who="#mogri-maert">
                         <speaker>Wana-Märt</speaker>
                         <stage> (kiwiselt):</stage>
                         <p> Ei ole minu süü, kui — mõnel süüa ei ole! Mul on süüa küllalt, jääb ülegi!
@@ -4370,7 +4370,7 @@
                         <p> Sureb? Ei sure! Wõi on minu maja laatseret, siia surema tulla.
                         </p>
                     </sp>
-                    <sp who="#miiili">
+                    <sp who="#miili">
                         <speaker>Miili:</speaker>
                         <p> Isa!
                         </p>
