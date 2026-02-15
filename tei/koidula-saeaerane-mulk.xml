@@ -73,7 +73,7 @@
                         <persName>Kure Aadu</persName>
                     </person>
                     <person xml:id="kirjutaja" sex="MALE">
-                        <persName></persName>
+                        <name>Wallakirjutaja</name>
                     </person>
                     <listRelation>
                         <relation name="parent_of" active="#peeter #anne" passive="#maie #juets"/>
