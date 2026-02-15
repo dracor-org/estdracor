@@ -229,13 +229,13 @@
                 <castItem>
                     <role>Urädnik</role>
                 </castItem>
-                <castGroup>
-                    <castItem>Töömehed,</castItem>
-                    <castItem>tüdrukud,</castItem>
-                    <castItem>poisid,</castItem>
-                    <castItem>joodikud,</castItem>
-                    <castItem>alewielanikud.</castItem>
-                </castGroup>
+                <castItem type="list">
+                    <roleDesc>Töömehed, </roleDesc>
+                    <roleDesc>tüdrukud, </roleDesc>
+                    <roleDesc>poisid, </roleDesc>
+                    <roleDesc>joodikud, </roleDesc>
+                    <roleDesc>alewielanikud.</roleDesc>
+                </castItem>
             </castList>
             <set>
                 <p>Aeg: Lähem minewik.</p>

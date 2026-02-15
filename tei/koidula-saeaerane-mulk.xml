@@ -1,0 +1,2811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="est000003" xml:lang="et" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Särane mul'k</title>
+                <title type="sub">Sada wakka tangusoola</title>
+                <author>
+                    <persName>
+                        <forename>Lydia</forename>
+                        <surname>Koidula</surname>
+                    </persName>
+                    <idno type="wikidata">Q31275100</idno>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>University of Tartu digital archive ADA</name>
+                    <idno type="URL">https://dspace.ut.ee/items/495fbc83-8335-4124-8990-1dc30c7f5ac8</idno>
+                    <availability>
+                        <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                    </availability>
+                </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>Lydia</forename>
+                            <surname>Koidula</surname>
+                        </persName>
+                        <idno type="wikidata">Q237056</idno>
+                    </author>
+                    <title type="main">Särane mul'k</title>
+                    <title type="sub">Sada wakka tangusoola</title>
+                    <date when="1872">1872</date>
+                    <publisher>W. Gläser</publisher>
+                    <pubPlace>Tartu</pubPlace>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="peeter" sex="MALE">
+                        <persName>Peeter Pint</persName>
+                    </person>
+                    <person xml:id="anne" sex="FEMALE">
+                        <persName>Anne</persName>
+                    </person>
+                    <person xml:id="maie" sex="FEMALE">
+                        <persName>Maie</persName>
+                    </person>
+                    <person xml:id="juets" sex="MALE">
+                        <persName>Jüts</persName>
+                    </person>
+                    <person xml:id="enn" sex="MALE">
+                        <persName>Erastu Enn</persName>
+                    </person>
+                    <person xml:id="maert" sex="MALE">
+                        <persName>Männiku Märt</persName>
+                    </person>
+                    <person xml:id="aadu" sex="MALE">
+                        <persName>Kure Aadu</persName>
+                    </person>
+                    <person xml:id="kirjutaja" sex="MALE">
+                        <persName></persName>
+                    </person>
+                    <listRelation>
+                        <relation name="parent_of" active="#peeter #anne" passive="#maie #juets"/>
+                        <relation name="lover_of" active="#maie" passive="#maert"/>
+                        <relation name="spouses" mutual="#peeter #anne"/>
+                        <relation name="siblings" mutual="#maie #juets"/>
+                    </listRelation>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listRelation>
+            <relation name="wikidata" active="https://dracor.org/entity/est000003" passive="http://www.wikidata.org/entity/Q31275100"/>
+        </listRelation>
+        <listEvent>
+            <event type="print" when="1872">
+                <desc/>
+            </event>
+            <event type="premiere" when="1871">
+                <desc/>
+            </event>
+        </listEvent>
+    </standOff>
+    <text>
+        <pb n="1"/>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">Särane Mul'k</titlePart>
+                    <titlePart type="sub"><lb/>ehk<lb/>Sada wakka tangusoola.</titlePart>
+                </docTitle>
+                <byline><lb/>"Saarema Onupoja" kirjutajast.</byline>
+                <note><lb/>Ümbertõlkimine tõiste keeledesse on ärakeeltud.</note>
+                <docImprint>
+                    <pubPlace><lb/>Tartus, </pubPlace>
+                    <date>1872,</date>
+                    <publisher><lb/>Trükitud W. Gläseri juures</publisher>
+                </docImprint>
+                <pb n="2"/>
+                <imprimatur>Tsensuri poolest lubatud. - Riga, 26. Oktobril 1871.</imprimatur>
+                <docImprint>
+                    <publisher>Drud von W. Gläser</publisher>
+                    <pubPlace>in Dorpat</pubPlace>
+                    <date>1872.</date>
+                </docImprint>
+            </titlePage>
+            <pb n="3"/>
+            <castList>
+                <head>Mängijad.</head>
+                <castItem>
+                    <role>Mäeotsa Peeter Pint, </role>
+                    <roleDesc>wana talunik.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Anne, </role>
+                    <roleDesc>tema naine.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Maie, </role>
+                    <roleDesc>" tüter.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Jüts. </role>
+                    <roleDesc>" poeg.</roleDesc>
+                </castItem>
+                <castGroup>
+                    <castItem>
+                        <role>Erastu Enn,</role>
+                    </castItem>
+                    <castItem>
+                        <role>Männiku Märt, </role>
+                        <roleDesc>noor mul'k</roleDesc>
+                    </castItem>
+                    <roleDesc>Maie kosilased.</roleDesc>
+                </castGroup>
+                <castItem>
+                    <role>Kure Aadu, </role>
+                    <roleDesc>wallawalitsuse kassak.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Wallakirjutaja.</role>
+                </castItem>
+            </castList>
+            <set>
+                <p>Ees paremat kät pars, kelle kõrwas kartsas. Weel enam ette poole paar uusi pastlaid warna otsas. Pahem pool põrandal laud, pengid ehk toolid toas. Muidu talutoa riistad ja ruum.</p>
+                <p>("Paremat" ja "pahemat" kät arwatakse waataja paigast.)</p>
+            </set>
+        </front>
+        <pb n="4"/>
+        <pb n="5"/>
+        <body>
+            <div type="act">
+                <head>I.</head>
+                <div type="scene">
+                    <head>1.</head>
+                    <stage>Maie. Enn (õuest tulles).</stage>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Jäta mind rahule, Enn, mul p'ole aega! kui eit kuuleb, näeb, et töö tegemata on? Ma olen Sulle kümme korda ütelnud: meist mõlemist ometi sõbro ei saa!
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn. </speaker>
+                        <p>Maiekene, marjukene — miks Sa jälle nii ohakane oled täna? Miks meitest sõbro ei peaks saama? (Uue rätiko taskust tõmmates) Waat' siia! kas ei ole esimine ilus? Ähäh! Eile alles kirikupoest ostetud! Maksab puhast 50 kopikat!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(Ölanikutates). </stage>
+                        <p>Kahju!
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn. </speaker>
+                        <p>Tõise pere Liisu pakkus täna 5 kopikat rohkem — ei anna ärra!
+                            <lg>
+                                <l>"Sala sõber, siidisukka,</l>
+                                <l>Se'ep see õige ilukandja!"</l>
+                            </lg>
+                            <stage>(Kaela ümber hakates) </stage>
+                        Tule nüüd, paneme nõnda —
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(Tagasikeeldes). </stage>
+                        <p>Wii Sina rätik rahuga Liisu kätte ja lunasta oma raha tagasi, kui Sa paremat "siidisukka" ei tunne kui mind! Minu pärast oled oma poole rubla ilma aegu kulutanud.
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn. </speaker>
+                        <p>Uih, uih! kui karune! 'Pole wist weel hea küllalt? Ei tea mis loori Sina igatsed, et mokad kärssus on?
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Loori? Mina ei himmusta loori ega muud asja Sinu käest, seda Sa tead ammugi <stage>(istub töö juure maha).</stage>
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn </speaker>
+                        <stage>(pool kibedalt). </stage>
+                        <p>Kuule, kullerkupuõis, ilusad lapsed lähwad 10 aastat wanemaks iga puhku, kus süda täis tuleb! Kas tead ka?
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Siis oleks Sinu hinge peal, Enn, kui ma wälja näeks nagu wana 60-aastane Pahja-nõid. Ütle mulle, Enn, miks Sa mind rahule ei jäta? Mis Sa pü<pb n="6"/>hid ühte puhku minu jälga? Kas ma Sulle heaga küllalt ei ole ütelnud, et Sinu libedad laulud minusse ei mõo? Miks Sa mind wägisi sunnid kurjaga ütlema?
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn. </speaker>
+                        <p>So? Mis, see siis õiete on, mis Sinusse mõob? Mis kiriksandat kõstrit Mäeotsa maasikas siis ometi ootab? Kas ma ei ole peremehe poeg? Kas mo isa ei olnud walla wolinik? Kas mul ei ole jõudu rohkem kui Sinu — (neelab alla) kui mõnel muul? Mis Sa weel tahad?
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Sellepärast ei ole Sa mitte küünewäärt auusam minu meelest kui muidu.
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn. </speaker>
+                        <p>Auusam? Mis auu Sa weel tahad? Saab näha, kust see auus tuleb, kes Sind siis taewariiki töstab! Ohohoh! Külla'p wist langeb pilwist maha! Katsu minu uhket neitsit!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie.</speaker>
+                        <p>Kuule, Enn, jätame jägelemist jälle! Auu ja auu on kaks asja. Sandinarus wõib enam auu elada, kui siidisärkis. Ära mind sunni, So omaks kahjuks pitkemat aru andma!
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn. </speaker>
+                        <p>Aru? Mis aru? <stage>(Tasasemalt)</stage> Ära ole sõge, Maie! Kust Sa tõise niisuguse enam saad? Ma olen <stage>(meelitates)</stage> wanaste teie pere tuttaw —
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(wahele).</stage>
+                        <p>See ei ole minu süü!
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn </speaker>
+                        <stage>(uhkelt). </stage>
+                        <p>Pealegi saaksin kümme tõist, kui tahaksin, sest et liisu alt lahti olen. Kas Sina üksi mind tahad ärapõlata? Ei usu!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(püsti tõustes). </stage>
+                        <p>Nüüd saab küllalt. Sa ei anna enne rahu, siis ma pean selge sõnaga seletama. Kõik on tõsi, Enn: Sa oled jõukas mees, Sinu isa oli wallaametis, mõni tõine, kehwam, seisaks hea meelega Sinu paigal. Aga Sa ütled, et Sa kümme tõist saaksid minu asemel? Ütle, miks Sa siis nüüd 25 aastaga weel üksi elad omas talus? Miks Sa Saare Tiiult wiinad tagasi tõid? Miks Aluste Ann Sind ei wõtnud? Miks Weske Aadu Sinu kosilase kõwa sõnaga koju saatis? Ma tahan Sulle tunnistada, kust see tuleb <stage>(wiib tõise kätpidi ettepoole)</stage>: Siit sest puuduwast põidlast see tuleb, Enn, muidu kuskilt! Selle peale waatawad kõik, ükski ei mõista aru saada, kuida just üleminewal liisuwõtmise ajal Sulle se õnnetus puid raiudes<pb n="7"/> kaela pidi langema? Olid nummer I. tõmmanud paar päiwi enne selle, ja terwe olid Sa ika olnud, Enn, öige terwe pois! No kes õnnetuse wasta wõib parata? <stage>(Tähtsalt)</stage> Aga — see on omal ajal ometi hea, Enn, kui mehel kõik sõrmed käe otsas on, seda Sa näed nüüd! Kui minu kosilane peaks liisu alla olema langenud, siis tahaksin ma teda minu pärast 30 aastat oodata, ja kui ma wanaks ja nüriks lähäksin juures, aga — sõrmed peaksid temal kõik otsas olema! — Waata, Enn, sellepärast meitest mõlemist sõbro ei saa — ära pane pahaks! <stage>(Uksest õue.)</stage>
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>2.</head>
+                    <stage>Enn (üksi).</stage>
+                    <sp who="#enn">
+                        <stage>(Hiuksid sasides) </stage>
+                        <p>Pagana päralt! Kas tohtis ta mulle seda kõik suu sisse ütelda? Ja mina seisan nagu rumal karjapois tema ees, ei lausu musta ega walget, kuulan nagu kirikus! <stage>(Hambid kiristates)</stage> Kas ma ei ole ammugi nende kärssus ninasi näinud? Kas ma ei tea, miks nad minuga ei taha tegimist teha? Ja ometi on mul raha küllat, nendega juua ja priisata! See pagana põial! Kes neile ütles, et ma teda — —? <stage>(Ähwardates)</stage> Kes mulle wõib ütelda, et ma teda maharaiusin? Tulgu, küll ma tahan temale näidata! — Pagana wäärt — julges ta mulle kõik mo kosjakäigud kättelugeda, nagu sõrme otsast? Sina —! seda ma temale ei kingi! Oot', oot'! Küll ma sulle kätte tasun, mis ma täna Sinu suust pidin kuulma, oota kassipoeg! Kuida ma wõrku wean aga? Kui ta mitte ni sõimu wäärt ilus ei oleks, küll ma temaga nõuu leiaks! Aga ma ei täi teda mõne tõisele jätta. Sa ei taha mind, paikene? No, siis wõtan ma Sind Sinu tahtmata! Aga ma wõtan Sind, nõnda ehk nõnda, <stage>(Akna ääres)</stage> Wait! — kas see ei ole Männiku Märt, kes seält Maiega tuleb? No muidugi! Ahah! Selle pärast! See tohib kaelast kinniwõtta küllalt — sellepärast! — Siia tulewad? Oot'! oot! <stage>(Ümberwadaates)</stage> Kuhu ma nüüd —? Sinna! <stage>(Ronib parsile ülesse.)</stage>
+                        </p>
+                    </sp>
+                </div>
+                <pb n="8"/>
+                <div type="scene">
+                    <head>3.</head>
+                    <stage>Maie. Märt (õue uksest tulles). Enn (parsil).</stage>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(õue poole rääkides). </stage>
+                        <p>Ära on läinud! Tule pääle, Märt! Arwasin küll, ega ta selle pääle enam kauemaks ei wõinud siia jääda!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(ukse kinni pannes). </stage>
+                        <p>Tema õnn! Head meie mölemad tõine tõisele ei oleks ütelnud! Inimene küll ei pea tõise nägu laitma, Jumal on kõiki loonud; aga wana sõna ütleb: punased hiuksed ja windund lepad ei kaswa hüwa maa pääl. Ja siin on sõna tõeks läinud. Kas ta ammu juba Sinu järele jookseb?
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Mitu aega! Ja — isa —
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt. </speaker>
+                        <p>No — isa? Wiimati —?
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(pääd nikutates). </stage>
+                        <p>Isa näeks hea meelega, et ma teda wõtaks! Tema libe keel on taadi silmad pimedaks teinud, et ta tema wigasi ei näe. <stage>(Märdi kortsus kulmu nähes)</stage> Aga ära Sa usu, Märt, ega ma teda ei wõta elades!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt. </speaker>
+                        <p>Minu kanapojukene! Aga räägi nüüd, mis ema siis ütles, et "mul'k" kosja tulla tahab?
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Ema — ei nüüd — emal oli hea meel küll, ja ütles aga, et oleksime ka ennegi wõinud temale nimetada, ja et nüüd wast ei saa wärsket õlut enam — ja <stage>(mõttes)</stage> kanad on ka kottu kaugele läinud —
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(pilgates niisama).</stage>
+                        <p>Ja seapõrsad, wasikad ka weristamata — <stage>(naerdes)</stage> Oh teie naised olete kõik ühe weega ristitud!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(naeratates). </stage>
+                        <p>Naera peale — ei tea kelle otsa teie mehed wahite, kui puudus kätte tuleb? Juba teiegi "leiwast üksi" elate?
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt. </speaker>
+                        <p>No, üks puhas, jätame tuikene selle jutu täna weel poolele. Ma mõtlen: kui nüüd isa mul'ki wäimeheks ei wõta, mis siis?
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(Tuhinal seletates). </stage>
+                        <p>Se'ep see minugi suur hirm oli, Märt, Sa tead, isa neid mul'ka ei salli sest saadik, kui Aluste rahwas meie endise koha omale ostsid. Ema ütleb küll ikka, et miks ei ole isa raatsind raha enne sisse maksa? Ja waata, Märt, emal on tõeste õigus, ega need mulgid nii murdjad ei olle, sest Sina oled jo ka mul'k —
+                        </p>
+                    </sp>
+                    <pb n="9"/>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(tujusalt). </stage>
+                        <p>Emal on ikka õigus.
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Aga kui ema meie poolt on, siis saame isast ikka jagu, sest waata, Märt, teie mehed seda küll ei usu, aga naise sõna jääb ikka pääle!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt</speaker>
+                        <stage>(nalja tujul). </stage>
+                        <p>Kuula, kuula! Oi, oi, Maiekene, hakkad jo aegsaste juba pääle! Kena lugu, mis säädused Sul juba pääs on!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(häbelikult). </stage>
+                        <p>Aga, Märt — mis mina siis tean — ema jo ütles —
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(nagu ülemal). </stage>
+                        <p>No mis siis? Eks ema sõnal ole jo täna weel tööd küllalt? Ja Sina? Mis Sina ise siis ütled?
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(maha waadates). </stage>
+                        <p>Mina? Eks Sa tea jo isegi, Märt, waene ma küll olen, ei ole isal seda jõudu, mis Sinul —
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt. </speaker>
+                        <p>Minu Maiekene! Sina minu silmatera ja südame rõõm! Sinu raha pärast ma mitte sammu ei oleks tulnud Teie poole, sest ma tean küll, et mul ei saa kerge töö olema isa juures; aga sest silmapilgast saadik, kui ma Sind kirikus nägin ema kõrwas, ei olnud mul rahu ööd ega pääwa enam, ja — noh, tead jo isegi, kuida siis lugu tuli. Ja kui m'e alles paaris oleme, Maiekene, küll Sa näed siis selge silmaga, et murdjamaid maailmas weel wõib olla, kui mul'ki! Jah, aga nii kaugele on tööd weel küllalt! Kõige päält ma pean nüüd Kure wanamehe ülesse otsima, see tuleb mulle kuulatajaks ja kosilaseks! Kui see asjad isa jures toimi ei aja, siis ma tõist paremat ka ei tea. On ka nagu walla ametimeest, ehk see aitab kõrwalt. Siis tulen õhtupoole ise wiinadega —
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(häbelikult). </stage>
+                        <p>Oh Sa taewakene! — Kuhu ma jooksen siis?
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(naerdes). </stage>
+                        <p>Öige lähedale, laps, et ma Sind leian! Kas kuuled? Mitte kaugele! <stage>(murelikult)</stage> Tuikene, kui ma Sind siiski ei saaks?
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Hääl </speaker>
+                        <stage>(rehe alt). </stage>
+                        <p>Maie! Maie ae!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(kohkudes). </stage>
+                        <p>Kuule? Ema kutsub! Nüüd ma pean minema, Märt! Oh Märt, kui ometi kõik hääste lähäks, Jumalukene!
+                        </p>
+                    </sp>
+                    <pb n="10"/>
+                    <sp who="#maert">
+                        <speaker>Märt. </speaker>
+                        <p>Ära karda, kullerkupuõis: küll saame õigeks! Aadul on tubli keel ja emal tõine: kas need ei peaks isa pääst jagu saama? Sina mo lahke lilleke: Sind ma ometi ei jäta, tulgu mis tuleb! Hääd pääwa nüüd seniseks!
+                        </p>
+                        <stage>(Öueuksest wälja.)</stage>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>4.</head>
+                    <stage>Maie. Enn (parsil).</stage>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(saadab Märdi ukseni; senikaua tahab Enn maha tulla ja pöörab ruttu ülesse tagasi niipea kui Maie ümberpöörab). </stage>
+                        <p>Oh küll ta on tubli pois, minu Märt, nii tugew ja lahke, nii kange pää ja jälle nii hella südamega: töist temasarnast ma ometi ei tunne kõiges kihelkondas! Mis se isa ometi sest mulginimest ikka peaks sõimama!? Mul on ometi — <stage>(maha waadates)</stage> ka — kosilasi käinud — Altoja Hans — ja Wiiraku Wiidu — ja Lahearu Laos: ei sünni neist üksigi Märdi kõrwa! See Aluste talu ei kao isal pääst! Aga ega Märt selle süüdlane ei ole? Ja nüüd ma pean Ennule minema! See on see kõige wäetim kõigist: rõugetand ja punased karwad pääs, ja päälegi see põial — mitte koguni! W'a ülejäänud loom! Enne ma hüppan ojasse! <stage>(Lapselikult südamest)</stage>: Oh Jumaluke taewas, aita meid ometi! Sa tead jo ise: Minu Märdi sarnast ma kusagilt ei saa enam, ja tema on küll selle wäärt, et ta — et ma — ei, kuida see on? Üks puhas, kui m'e aga tõine tõist saame! <stage>(Heal meelel)</stage> Ja kui pitk ja sirge ta on — nagu tamm metsas, <stage>(põlates)</stage> ja see Enn jälle — puhas kadakapõõsas! Ja —
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Hääl </speaker>
+                        <stage>(rehe alt). </stage>
+                        <p>Maie — ae!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Oh sa Jumaluke — eit! Seda ma olin hoopis äraunustanud! Aga tõist Märti maailmas mitte ei ole! <stage>(Rehealusele.)</stage>
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>5.</head>
+                    <stage>Enn (Ülewelt maharonides).</stage>
+                    <sp who="#enn">
+                        <stage>(Ähib) </stage>
+                        <p>Sooh! Sooh! Salakoi Sina! Ja tema ka! Lõhki ma ennast lõhuks! Teie esimised petised! Aga seda ma ei jäta! Wanamees peab teada saama, mis sipelgad tema<pb n="11"/> pesas sibliwad! Teie ussinäod! Nago sula kerjemesi tõine tõisega, üks "lilleke" ja "õieke" ja "tuike" ja "pääsuke" tõine tõise järele suus — ja <stage>(sülitab)</stage> mina põigiti hammaste wahel? So? Wõi tema Sinu tamm, ja mina —? Oota, ma tahan Sulle näidata, mis magu kadakapõõsad maitsewad! Kus wanamees on? — Wõtgu pagan! Jälle juba mõni tuleb! <stage>(Ronib parsile tagasi)</stage>
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>6.</head>
+                    <stage>Jüts (talutab) Kure Aadu (õuest tuppa). Enn (parsil).</stage>
+                    <sp who="#juets">
+                        <speaker>Jüts. </speaker>
+                        <p>Tule aga siia poole, Kure-onu, eit on leemepaja juures! Taati ma küll ei tea paraegu.
+                        </p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu. </speaker>
+                        <p>So, So! <stage>(kuklatagust sügades)</stage> Kanade päralt, see on kibe käik mulle, ehk ma küll <stage>(iseeneses uhkeldates)</stage> külakubjas olen ja wallawanema parem käsi! See Peeter neid mul'ka ei salli silma otsa ja nüüd tahab üks weel tema tütart! Aga Märdil on weel neid wanu <stage>(kõrwalt tasku waadates)</stage> neid Kadrinarublatükka ja on ka muidu tubli pois: häda ka, ärataganeda.
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts. </speaker>
+                        <p>Kas ma kutsun isa, Kure-onu, kui Sa tahad ehk siia jääda? <stage>(isepaika)</stage> Ehk siis saan ka jälle uued pastlad jalga?
+                        </p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu </speaker>
+                        <stage>(ruttu). </stage>
+                        <p>Ei, ei, pai laps, lase olla pääle, küll ma saan nõndagi õigeks! <stage>(isepaika)</stage> Annel on keelt: see mind wõib aidata! Lähme esmalt rehe alla! <stage>(Reheuksest wälja)</stage>
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>7.</head>
+                    <stage>Jüts (ukse äärest ümberpöördes). Enn (poolelt teelt, ronib, nagu ülemal, parsile tagasi).</stage>
+                    <sp who="#juets">
+                        <speaker>Jüts. </speaker>
+                        <p>Ihihih! Ah ta arwab, et ma ei tea, mis <stage>(sõrm nina ääres)</stage> Kure-onu meilt otsib? Wallaasju meil arutada ei ole, seda ta ise õues ütles! Küllalt tean! <stage>(waatjate poole)</stage> Maiel jälle kosilane! — A' — kes ta wõib olla? <stage>(Rehealuse poole)</stage> Kas kuulatan? Ei, Maie ütles, se on ineto! <stage>(murelikult)</stage> Kui ta aga se pääluu Enn ei ole! Seda ma ei taha! Se lipitseb isa ees ikka nagu karja-Pits kanika ees, ja seljataga sõimab mind "rumalaks poisiks" ja "tahmapaäks", ja kas ma ei ole ometi koolis kolmandama koha pääl —?<pb n="12"/> <stage>(Põlates)</stage> W'a pöidlapurustaja! Kas Kure-onu ise mulle ei ütelnud, et see põidla-lugu õige ei ole ja et ma aga ei tohi sest nimetada, enne kui asi selge, ja seda ma olen ka lubanud ja mees peab sõna! Aga Maie ma temale ei anna! <stage>(Mõttes ja pool kawalalt)</stage> Miks siis Männiku Märt teda ei wõta? Ta ometi wiimati ütles mulle, et ta küll tuleks mulle õemeheks, kui ma wõtan? Seda ma wõtaks warsi! <stage>(Järelmõteldes)</stage> Kui ma alles suureks olen saanud, siis ma läkitan ka kosilasi nõnda tõise peresse kuulatama — kuhu ma läkitan siis? Aluste Annele? Se on liiaks pitk, siis ma pean ikka üles poole wahtima, nagu haraka pesa otsa — nõnda — kael jääb haigeks! Saare Tiiole? Ei, se on ineto! Mina tahan ilusa naise saada! Nii ilust ei olegi, kui meie Maie on — <stage>(südamest)</stage> ei, nii ilust ei ole..... teda m'a ometi wõtta ei wõi: mis ma nüüd teen siis?—
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>8.</head>
+                    <stage>Endised. Maie (õueuksest leiwa, wõi ja õllekannuga.)</stage>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(ukse wahel pool salaja).</stage>
+                        <p>Jüts ae!
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts </speaker>
+                        <stage>(niisama). </stage>
+                        <p>Mis Sa otsid, Maie?
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Kas Kure-wana juba tagasi tuli?
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts. </speaker>
+                        <p>Ei tulnud! Mis siis?
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(iseeneses). </stage>
+                        <p>Ei weel? <stage>(Jütsi poole)</stage> Ega Sa Männiku Märti ei näinud?
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts. </speaker>
+                        <p>Pole ühti! <stage>(Nagu ühe mõtte torkamisel, suure healega)</stage> Maie, nüüd ma tean, kellele ta kosib: Märt on! Jaha? Märt?
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(waigistates). </stage>
+                        <p>Sõge laps, wait, mis Sa kisendad? Mis kosib? Kellele? Mis Sa segad?
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts. </speaker>
+                        <p>Märt jah, ära Sa salga ühti!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Wait, säh. Pane parem saiad, õlled lauale, ema toob leeme ise, mull' pole aega.
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts </speaker>
+                        <stage>(wõtab wasta). </stage>
+                        <p>Juba! Nüüd Sull' pole aega! Nüüd Sull' tuhin taga! Nago ma ei tea! <stage>(kindlalt)</stage> Maie, mina aitan teid ka, küll Sa näed!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(nagu ülewal). </stage>
+                        <p>Mis Sa siis aitad? Mina ei mõista, mis Sull' täna pääs on? <stage>(Salaja söbralikult)</stage> Ole —<pb n="13"/> ole nüüd hea laps, Jüts, ole wait, ja kui Kure-onu ära on läinud, tule siis, räägi mulle ka — mis —
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts </speaker>
+                        <stage>(nagu ülemal). </stage>
+                        <p>Kohe ma tulen! Maie! küll Sa näed, mina aitan teid!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(naeratates). </stage>
+                        <p>No muidogi, üle läwe õue!
+                        </p>
+                    </sp>
+                    <stage>(Maie õue, Jüts rehe alla.)</stage>
+                </div>
+                <div type="scene">
+                    <head>9.</head>
+                    <stage>Enn (parsilt maha tulles).</stage>
+                    <sp who="#enn">
+                        <p>Kas Sa oled niisugusi näinud maa pääl! Oh Teie wiimased mutid! Ja see noor nõges ka nende liikus! Mis asi see oli, mis ta <stage>(waatab ettewaadates ümber)</stage> sest — "põidlaraiumisest" rääkis — ja "selgekssaamisest!" Ja Kubjas Aadu pidi midagi teadma? Wale! Nüüd on paar aastat läinud, kui mõni oleks näinud, oleks ammu lugu taga olnud. Aga see on ikka seesama pagana salajut, kellele otsa pääle ei saa — ükski ei ütle lausa wälja! <stage>(kiristates)</stage> Sina seapõrsas! Ah, teie arwate juba pulmad käes olewat, sest et kosilane kodu on? Siis ma küll peaks päris pahmapää olema, kui ma selle wasta nõuu ei leiaks! Oodake, oodake, ma tahan teile pulmi teha, mis teile meele jääwad! Wanameest ennast nüüd, enne kui jälle mõni risti ette tuleb! — Seal ta on..... Pagana lugu: jälle juba saba täis tõisi taga! Ma olen nagu rebane lõksus siin pagana parsil ülewel! <stage>(Ronib jälle ülesse.)</stage>
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>10.</head>
+                    <stage>Rehe alt: Aadu. Peeter ja Anne (kes supiwaagna ja lusika kannab). Enn (parsil).</stage>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(käikse wäel, piip suus). </stage>
+                        <p>Aga mul'k ta on ja mul'giks jääb ja mina seda hääks ei kiida!
+                        </p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu </speaker>
+                        <stage>(ikka Anne poole, kes teda lauale kutsub). </stage>
+                        <p>No muidogi, no muidogi, Peeter! — Mul'k? mul'k? No mis sest on Peeter? Mul'gidel on jõudu, ja waata, mis kena pois ta on, Peeter, ja kui auusaste ta rendikohta harinud tänini, ja ma olen ka, hm, nagu kuulnud, et ta nagu enesele päriskohta osta otsib, Peeter, jah! <stage>(Isepaika)</stage> Kui ta ometi juba möödas oleks!
+                        </p>
+                    </sp>
+                    <pb n="14"/>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(kes kõik lauale säädnud, wäga lahkelt). </stage>
+                        <p>Istuge lauda, Kure-onu, wõtke sedagi soola leiba mis Jumal meile õnnistanud — olgu Jumala ristike juures! Jah, mis ma pidin ütlema: no ega temagi süüdlane 'pole, et ta mulgiks loodud! <stage>(Mehe poole, kõrwalt)</stage> Kas Sa sõge oled, et Sa ei mõista wastawõtta? <stage>(Aadu poole)</stage> Wõi päriskohta osta otsis? Waata! Ei tea misukest?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(urisetes). </stage>
+                        <p>Jälle mõnda seest wäljaajada? Särane mul'k!
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(kõrwalt mehele). </stage>
+                        <p>Sina oma kiusuga! <stage>(Aadu poole)</stage> No jah, ta on tark ja wiisakas pois. <stage>(Tõukab meest puuska)</stage> Eks ole tõsi, Peeter?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(nagu ülemal). </stage>
+                        <p>Mis? Ei tea, mis mina tema tarkusest wõi wiisist tean? Wõtku tont kõik tarkust! Mul'k ta on, seda ma tean!
+                        </p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu </speaker>
+                        <stage>(süües). </stage>
+                        <p>No muidogi, muidogi, Peeter, aga —
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne. </speaker>
+                        <p>Tule Jumal appi, nagu mul'k enam inimene ei olegi? Wõtke õlut weel kõrwa, Kure-onu! Jah, mis ma pidin ütlema, meie Maiel on nüüd ka kosilasi küllalt käinud, no aga ega meie laps ka igaüht wasta ei wõta! Ja Maie on usin ja wiisakas ja oskab keeta, küpsetada, kedrata, kududa, suka warrast weeretada: küll ma näitan Teile pärast, mis ilus wäimewak tal on, Kure-onu! Ja lehmad, mullikad tundwad teda kaugelt ära — Jumaluke, jah, — nagu iseennast! Ja tema nägu nüüd ja jume nimetada — Jumala ristike jäägu juure — ei pea küll ise omasid mitte kiitma hakkama, aga, hm, eks ta ole nüüd kõige maailma näha: libedaks loodud nagu — nagu mo enesel, Kure-onu! Jah, nõnda küll! Wõtke ometi leent weel.
+                        </p>
+                        <stage>(Walab riista täis.)</stage>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(nagu ülemal). </stage>
+                        <p>Nooh! <stage>(Isepaika)</stage> Önneks warblastel, et me' hernepõllal ei ole!
+                        </p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu </speaker>
+                        <stage>(nagu ülemal). </stage>
+                        <p>Noh muidogi, muidogi! Eks ole teada, Mäeotsa Mai on wile ja sile laps! Ja Männiku Märti nüüd, Peeter, et ta küll mul'k on — waata, need on jo need ülitargad weel, Peeter: ei tule neist ükski üle raja tühja pungaga! Ja Märti jälle, Peeter, tublimat ja targamat poissi Sa ei leia kõigest kihelkonnast! Ma ütlen<pb n="15"/> Sulle, Peeter, usu mind, Peeter: Aluste Ann oleks teda kahe käega wõtnud, aga kust tõine tahtis? Mitte!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(kärgates). </stage>
+                        <p>Aluste? Ära Sa mulle nimeta seda nimi! Pagana wäärt, mo süda tuleb täis sees! See oli ka mul'gi süü!
+                        </p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu. </speaker>
+                        <p>No muidogi, muidogi, Peeter, — aga miks Sa ise ei wõtnud?
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(kõrwa poole, meest puuska tõugates). </stage>
+                        <p>Kas Sa wägisi kõik tahad hukka ajada? <stage>(Suure häälega)</stage> Jah, tühjal tõrrel ei kulu kaant ära! <stage>(Aadu poole)</stage> No ega meil ka ei ole teadmata, et ta wanemat rahwast oskab auustada, ja oleme ka näinud küllalt, kuida ta wiimati kirikupengist ülesse tõusis ja ruumi andis, kui olin hiljaks jäänud tulemast. Maie woib küll temaga wist rahul olla! — Üsna wärske õlut, Kure-onu!
+                        </p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu. </speaker>
+                        <p>No muidogi, muidogi! Ja seda tarkust, ja seda mõistust, sina mino aeg, ja seda jõudu — ma ütlen Sulle, Peeter, ma olen ise tema Kadrinarublasi näinud, <stage>(pitkalt ja wagalt)</stage> ja laste südamid peab ikka ka küsima, Peeter, ikka ka, se on juba nüüd se uus säädus, Peeter, jah!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(pahaselt). </stage>
+                        <p>Kas ma oma lapse mul'gi kaela kannan, mis?
+                        </p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu. </speaker>
+                        <p>No muidogi, muidogi, Peeter, Jumal hoidku! <stage>(Isepaika)</stage> Minu wallaseisust ta ei karda kedagi?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Erastu Enn käib ju ammugi temal kosjas —
+                        </p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu </speaker>
+                        <stage>(nagu ülemal). </stage>
+                        <p>No muidogi, muidogi — Erastu Enn? Se pöidlata pääluu?
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(isepaika). </stage>
+                        <p>Ta on pime pääst! <stage>(Meest tõugates)</stage> Mis Sa ometi peaks —! <stage>(Wäga lahkeste Aadu poole)</stage> Siin on weel liha, Kure-onu —! Jah, jäägu siis selle pääle! Kui arwate, et nõnda sünnib, mis meilgi siis selle wasta wõib waielda olla. Ja nagu Peetrigi enne ütles rehe all: kui Maie mehele lähäb: oma 50 wakka rukkid saab ta kaasa ja tõist niipalju odre, nisu, see on niisama paljo kui Aluste Annele antakse! Mis muidu weel pihuse juhtub, kass ja kana, on ise asi. Ega meie oma last alasti ka ära ei anna, olgu küll, et m'e rikkad ei ole.
+                        </p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu </speaker>
+                        <stage>(nagu ülemal). </stage>
+                        <p>No muidogi, muidogi, seda 'pole<pb n="16"/> mõteldagi! Kust Sa seda teed, Peeter? Ikka ma ütlen: Mäeotsa pere, waat' need on rahwas! Jõudu on neil ja mõistust päälegi — ja kõik wald wõiks teitest märku wõtta! <stage>(Pääd raputates, körwale poole)</stage> Wäga raskeste hakkab kinni! <stage>(Suure häälega)</stage> Muidogi jah, seda ma ütlen! Ja nüüd ka aitüma Jumalale — <stage>(Anne poole, kes ette tõstab)</stage> ärge enam pange, perenaine, kõht kaelani täis ja minik käes! Ma räägin siis Männikul, et nii ja nii ja et täna õhtu wõib ise tulla.
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne. </speaker>
+                        <p>No kui T'e nüüd ise arwate, Kure-onu, <stage>(Peetri poole, sundides)</stage> Eks S'a ka räägi ometi? <stage>(Aadu wasta)</stage> Wist ikka kõht poolele jäi? Ei meie toit maitse ühti! Olid jo nagu tihase nokatäied!
+                        </p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu. </speaker>
+                        <p>No muidog — Sina kallike, Jumal õnnistagu Teie lauda, minu süda ei kannam suutäit pääle panna! Ja nüüd: Märt waene mees ootab! Jäägu siis seks korraks Jumalaga! Ja ma ütlen ikka, Peeter: kui Mäeotsal kümme tütart kaswaks, need saaksid kõik äranopitud tõine tõise järele nagu maasikad, jah! Usu mind, Peeter! Mina olen walla ametimees!
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(wäga lahkelt). </stage>
+                        <p>No mis Sa nüüd ka — nii ilma aegu kiidad —
+                        </p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu. </speaker>
+                        <p>No mis ma ütlen! Aga Märt on ka rikas pois ja tark ja mis ütelda mees! <stage>(Isepaika)</stage> Tänu Jumalale, et nüüd otsas on <stage>(Suure häälega)</stage> Head pääwa siis! <stage>(õue).</stage>
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(temaga wälja minnes). </stage>
+                        <p>Tõist Teile! Ja oma lapsele ma jagan ära kõige wiimse hinge takka: pada ja pann, kala ja katel, kõik tema oma! <stage>(Öue järele.)</stage>
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>11.</head>
+                    <stage>Peeter (ukselt tagasi tulles). Enn (nagu ülemal, ronib tagasi).</stage>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Ma wiskaks t'a pilpaga uksest wälja kõige oma rikkusega ja tarkusega! Ei tea, mis minul tema tarkust tarwis lähäb? mul'k ta on, ja mul'gid on petjad kõik! Aga mis ma teen nende naistega? Nagu hullud tema järele, ja w'a Ann weel ise — selle wasta ei mõo mino<pb n="17"/> wäeti nõuu! Seda see tarkus kõik toob, et nüüd lapsed isa enese wasta wõimust wõtwad! Kes mind käskis oma Maie kooli panna? See on ka jälle mõni mulgist wäljaarwatud aru, et nüüd naised lugema peawad ja kirjutama õppima ja kes teab mis kõik — puhas naeste rik, muud ühti! Ja oma Juku ma wõtan küünlapääwaks koolist lahti — kui Ann laseb, — muido rikuwad selle mulle ka ära käest. See sõna jääb pääle. Ma ei ütleks weel midagi, — aga — — Oh, et ma nii rumal olin selle Aluste talu käest ära andma, nende kätte, seda ma ei anna elades neile andeks! Nüüd istwad mulgid minu wanas kotuses, ja ma näeks, et nad Siberiamaal oleks; nüüd anna weel oma laps ühe mul'gile! Kui ma ometi Enno kätte saaks, se teaks ehk nõuu. <stage>(üle ukse)</stage> Jüts ae!
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>12.</head>
+                    <stage>Peeter. Jüts. Enn (parsil).</stage>
+                    <sp who="#juets">
+                        <speaker>Jüts. </speaker>
+                        <p>Mis Sa tahad, taat!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Ülesse kasi, parsile ja too mo must wammus maha, m'a lähan Erastu poole!
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts. </speaker>
+                        <p>Küll ikka, taat! <stage>(sõbralikult)</stage> Taat, kuule, kas Männiko Märt wõtab meie Maie ae!?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(toredalt). </stage>
+                        <p>Mis se Sinu ninasse puutub? Katsu, et Sa kassisaba alla saad! Hakkab Sinul ka tarkus ülekeema? Ninatark?
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts. </speaker>
+                        <p>Aga — eit ometi ütles —
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Ah, kas Sa ei mõista weel suud pidada? Ülesse parsile, ruttu, muidu —
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts. </speaker>
+                        <p>Juba ma lähan! <stage>(Isepaika)</stage> Mis sel'l taadil nüüd täna jälle pähä pistnud? <stage>(Ennuga kokko juhtudes)</stage> Ohoh? Kae nüüd? Ahahah! Taat, tule waata, wanapois parsil!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(imeks pannes). </stage>
+                        <p>Mis Sa lobised? Kes parsil?
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>13.</head>
+                    <stage>Endised. Enn (ülewelt maha ronides).</stage>
+                    <sp who="#enn">
+                        <speaker>Enn </speaker>
+                        <stage>(wiha ja häda täis, Jütsi poole). </stage>
+                        <p>Kas Sa pead lõugi, Sina pudrukeel!?
+                        </p>
+                    </sp>
+                    <pb n="18"/>
+                    <sp who="#juets">
+                        <speaker>Jüts </speaker>
+                        <stage>(naerdes). </stage>
+                        <p>Ei pea! — Taat, nüüd Sul 'pole enam tarwis Erastule minna, Enn käib nagu kuk meie õrrel! — Enn, Maie ütleb: salaja kuulatamine, se on häbi ja inetu! Seda ma rägin temale!
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn </speaker>
+                        <stage>(nagu ülemal). </stage>
+                        <p>Nõgesepõis!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Wait pois, suu! Aga Enn, tule Jumal appi, mis temp se on? Kas Sa toapõrmandat enam ei tunne? Mis Sa ülewel parsil otsid?
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn </speaker>
+                        <stage>(hädaga ja wäga alandlikult). </stage>
+                        <p>Mina — Mäeotsa-onu, minul — oli Teile midagi wäga — imelikku — asja kuulutada. <stage>(Kõrwa poole)</stage> Mis ma ütlen temale nüüd?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Minule? Mis siis? Ega ma jo parsil ei olnud! Olin siin all.
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>Jah, mis siis? — Pea, se ta on! Nõnda ma lõõn neile lõksu kõikile! Oota, Mäeotsa maasikas! <stage>(Peetri poole, tähtsalt)</stage> See oli sala ja unelik asi, mispärast ma Teie jutule tulin: nagu kogemata juhtus mulle kõrwa ja silma alla ja — teate ise, et — Mäeotsa-onu, et ma tulest ja weest läbi lähän Teie eest, ja et ma Teid awitan oma natukesega, nagu ennast, ja et sest Teile wõib kasu tulla ja mulle ka! Ja n'ad tahtwad Teid petta, aga seda mina ei lase! Teie olete minu sõber, Peetri-onu: seda ma ei lase! Seks leian ma nõuu!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Mis tühja Sa siin tagaajad? Mis "minu kasu" ja "Sinu kasu", ja kes tahab mind petta? Lähäd Sina ka juba nende tarkade sekka? Räägi mis kuulda sünnib!
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn </speaker>
+                        <stage>(salaja). </stage>
+                        <p>Teie naised majas ja — muud mehed ka weel! <stage>(Suure healega)</stage> Aga tulge, lähme meile, seal ma kõik kõnelen ära Teile, Peetri-onu, ja mis mõnus nõuu mul on: küll T'e näete!
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts. </speaker>
+                        <p>Taat, kui parsil nii rohkeste nõuu kaswab, mina ronin ka ülesse! Oota — eidel oli ka nõuu tarwis, seda ma — <stage>(tahab minna).</stage>
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Pois, siia jää! <stage>(Seletates)</stage> Waata, Jüts, seda 'pole Sul nüüd eidele just mitte tarwis seletada ja ka mitte sest Ennust, et ta siin ülewel käis — mis ta sest muido teab? Ja nüüd ole hea laps ja kuule sõna ja wahi<pb n="19"/> maja seni kui ma külasse lähän, siis saad ka pärast uued pastlad jalga, kas kuuled?
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts </speaker>
+                        <stage>(nukralt). </stage>
+                        <p>Jah!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>Seda poissi ma enam kooli ei saada, se lähäb muido terasemaks kui ma ise olen. Tule, Enn! <stage>(Suurest uksest õue).</stage>
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn </speaker>
+                        <stage>(wäljaminnes Jütsile rusikast näidates). </stage>
+                        <p>Oota, ninatark, küll m'e weel kahekesi kokku saame! <stage>(Wanamehe järele õue.)</stage>
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>14.</head>
+                    <stage>Jüts (üksi, järele pilgates).</stage>
+                    <sp who="#juets">
+                        <p>Ümm — ära ta mind sööks, kui ta susi oleks ja mina tall! Ei tea, mis ma tema wihast hoolin? Nagu kirju kiisu waritses ülewel parsil — põidlapurustaja! Nüüd ta jälle kihutab isa wihaseks nagu igakord, siis ma saan sõnu: "ninatark" ja "koerasaba" ja "taignapää" — juba ma tean! Mina teda ei salli! Kes teab mis ta otsis meie parsil? Kõik ta on ärakuulnud, mis n'ad rääkisid. Ei tea, mis nüüd sest Männiku Märdist peab saama? Ja ütelda ma eidile ei tohi, isa keelis ära, ja need — uued pastlad — <stage>(kindlalt)</stage> Ei! Mees ma olen, ja mees peab sõna pidama! Aga — <stage>(kahtledes)</stage> — ma ometi lubasin Maie ka aidata? Mis sellega saab? — Pea, mis mulle meele tuleb! Maiele ütelda 'pole isa mitte ärakeelnud, — ei, Maie ees m'a ei ole lubanud suud pidada. Ehk tema teab, mis see kõik on ja mis sest saab? Ja ma olen jo tõotanud teda aidata! — Need uued pastlad aga?! <stage>(Pääd sügades)</stage> See on aga üks kirju lugu! <stage>(Lähäb uksest õue, kust ema wasta tuleb; Jüts tahaks peaaegu emale ütelda — tuletab meele)</stage> Ei, Mina olen mees! <stage>(Wälja.)</stage>
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>15.</head>
+                    <stage>Anne (üksi).</stage>
+                    <sp who="#anne">
+                        <p>Tuba tühi — tea, kuhu n'ad kõik läinud! <stage>(Ette poole tulles)</stage> No tänu Jumalale, et ta kord tanu pähä saab: ma kartsin ikka weel seda Ennu. Kui ta mehe loom ka parem oleks, kui ta iseenesest on, mo süda ometi ei annaks painuda tema wasta sest saadik kui ta tõise peres mind "hernehir<pb n="20"/>mutsaks" ja "karuohakaks" kiitnud. Oota sa! Sina lailõug! Ja puniku on ta mulle ka ärateinud, et piimast palju wiletsam nüüd kui naabritalu lillik! ei anna seitse toopigi pääwas enam! — Maie ae! Kus ta nokitseb nüüd? — Sellel 'pole ka muud, kui kosilased enam pääs! Ma ei taha nüüd küll ülearu sõidelda selle ülle, eks ta ole noore rahwa wiis, ja eks ma ole ikka ka noor olnud ise, ja libe nägu on Maiele mo enesest tulnud — ole Jumala ristike juures! Aga tarwis ometi ka maja eest muret kanda, mis muidu külapois mõtleb? Eks ta wõi arwata, meie Maiel olla tuhat tuhinat taga tema järele, ja et ei jõua tõise tulikut ära oodata. <stage>(Hüüdes)</stage> Maie? <stage>(Jälle, lauda koristates, ette poole)</stage> Ei, 'pole ma oma last ka nõnda kaswatanud — ta on just nagu ema, karwa päält! — Wõi ometi Märt? No m'a märkasin küll ammugi, paljo kuk oli laulnud, seks mulle Jumal jo seda ärku pääd otsa on loonud; aga mis ma laste asja läksin läbisiblima, sealt ei oleks iial hääd wäljatulnud. On tubli pois, se Männiku Märt. <stage>(nõukamalt)</stage> Ja ei tea mis päriskoht se peaks olema, keda ta osta tahab, nagu Kure-wana nimetas, ja kas on tõsi ka? Küsida ma ei tahtnud ja Peetriga ei maksa rääkida selle poolest, se saab muidugi urisema weel tük aega enne kui järele annab, seda ma juba ette ära tean. <stage>(Pahal meelel ja kaebades)</stage> Sina kallike, mis ma ometi selle mehega pean tegema! Nüüd ta wist jälle istub Erastul ja loeb sõnu punaspää suust! Ja siis ta maailma tark ise, ajab pää selga, ei kuule enam minu sõna, teab kõik paremine, seni kui jälle mõni temp tehtud on. <stage>(Hüüdes)</stage> Maie, ae — kus ta nüüd —? <stage>(tagasi tulles, pahandates)</stage> Seal need odrad wedelewad rehe all, tahaks wälja mõeta, et ometi Männiku oma ka näeb, kuida kõik korral on meil, ja et Jumala wiljakesest meil puudu ei ole — tema laiskleb Erastul! Ja sest saadik kui alles neil see "Postimees" nina all seisab, nüüd on puhtalt kõik otsas! Kes mind ajas lubama, et ta oma 30 kopikat tõiste nelja hulka pidi andma? Mis niisugune ka lugemist teab? Paljas raha raisk! Seni kui ta weel tarkust sõimab, seni ma ikka weel saan temast jagu; aga kui ta ise ka targaks hakkab minema, siis ei ole aru ega otsa enam!<pb n="21"/> No no, tule Sa aga koju! Oh mina waene waewatud naine! Kõik seisab minu kaelas — ei tea mis ma nüüd teen, kui kosilased õhtu tulewad? Kellele ma niisugust majatalitust näitan? Ja — aita taewa taadike — ma pidin jo seapõrsa tappa laskma, et mul käepärast wõtta — Maie! — Aga selle Ennule ma näitaksin, et tal eluks ajaks sest küll peaks saama! Maie! <stage>(Lähäb hüüdes wälja. Eesekate langeb maha.)</stage>
+                        </p>
+                    </sp>
+                </div>
+            </div>
+            <div type="act">
+                <head>II.</head>
+                <div type="scene">
+                    <head>2.</head>
+                    <stage>Peeter (laua ääres, "Postimees" ees). Jüts (uusi pastlid sidudes).</stage>
+                    <sp who="#juets">
+                        <speaker>Jüts. </speaker>
+                        <p>Sünniwad! Waat' mis mees oma sõnaga wõib kõik kätte saada. Kui ma eidele oleksin ütelnud, siis ma oleksin neist ilma!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(Jütsi poole). </stage>
+                        <p>Tule siia — ei saa teda wälja — loe mulle, mis siin seisab! Näe siit, kus n'e "Kaubahinnad" hakkawad: mis seal seisab? Wõtku tont seda tarkust, kellele aru taha ei saa!
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts </speaker>
+                        <stage>(lugedes). </stage>
+                        <p>"Pärnus, Orawa poodis, on kaup nõnda: Wak rukkid — odre - "
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Seda ma juba tean, aga siis? Mis tuleb siis?
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts. </speaker>
+                        <p>
+                            <lg>
+                                <l>Püt punast soola 9 rubla — kop.</l>
+                                <l>" tangu " 8 " 20 "</l>
+                            </lg>
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Kas seisab: tangu 8 rubla 20 kop., näita mulle enesele!
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts. </speaker>
+                        <p>Siin seisab nõnda, ja pärast tangu on mõned tillukesed täpid tehtud: ei tea, mikspärast? Seda pean ma koolmeistri käest küsima.
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Siis on õigus, siis an Ennul sula õigus! See on jo üks esimine kaup! 8 rubla 20 kop. tangu, püta tangu eest! Neil peab tuline häda olema linnas, et seda tangu jo püta kaupa nii kalli rahaga ostetakse! No ma tahan neid aidata ja neile wiia linna, et neile mõob! Kahju, kahju, et ma selle aasta ei ole rohkem odre maha<pb n="22"/> teinud! Aga Enn, hea mees, lainab mulle omast jaost — se on mees! Kõik kasu jätab minule ja annab weel poole juure, ja omad loomad annab teda linna wiia päälegi — üks esimene mees! Seda peab ütlema: kui tema ei oleks seda asja leidnud Postimehe seest: mina ei oleks elades seda rikkust saanud!
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts. </speaker>
+                        <p>Taat, kust Sa siis need tangud saad, ae?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Wait, ninatark! Eks ole rehe all odre küllalt?
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>Seda ma arwasin: "ninatark!" se oli esimine!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(ise paika). </stage>
+                        <p>Ja kui alandlik ta alati on minu wasta: parem kui oma laps! Sellele ma wõin — wõib Anne — küll meie Maie rahuga anda.
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts </speaker>
+                        <stage>(pärast mõtlemist). </stage>
+                        <p>Aga taat, need on jo need odrad, mis pidid Maiele pulmaks — kas Sa need siis tanguks teed?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Kassi saba alla poe, Sina tahmapää!
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>Se oli se tõine! Eks T'e kuule?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Ma tean ette ära: kui ma Anne küsin: se seda ometi ei luba, seda Ennu-Maie nõuu; sellepärast on se Ennust wäga targaste tehtud, et ta paberi peale ülesse pani, et ma temale Maie pean kontrahti järele andma, kui ma kojo tulen, sest et ta nii ilusaste mind on awitanud ja minu kasu nõuab. 50 wakka ja 50 wakka, — se on 100 wakka; püta pealt 8 rubla 20 kopikat, se teeb üle saja wakka — mitu see siis teeb? —
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts. </speaker>
+                        <p>Taat, miks siis Enn ise ei müü tangu linna, kui kaup nii hea on?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(kärsakumalt). </stage>
+                        <p>Kui Sina ometi mõistaks oma suud pidada! Siia tule ja arwa ülesse: 100 wakka, 8,20 kop. püt: mitu rubla se teeb ülepää? Kelle eest ma Sind saadan kooli, kui ma ise pean pääd wäsitama?
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts </speaker>
+                        <stage>(kriiti korbist wõttes, laua pääle). </stage>
+                        <p>Mitu pütta siis tangu wakkas on, taat? Seda ma koolis ei ole õppind.
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Mitu pütta? <stage>(kõrwalt)</stage> Jah, — hm! — <stage>(pahaselt)</stage> Mis Sa siis joosed kooli, kui Sa sedagi ei tea? <stage>(kõrwa poole)</stage> Olen ise niisama tark.
+                        </p>
+                    </sp>
+                    <pb n="23"/>
+                    <sp who="#juets">
+                        <speaker>Jüts. </speaker>
+                        <p>Ega koolmeister ka ei lase tangu pütawiisi arwata!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Kasi kassisaba alla kõige oma koolmeistriga! Küta pääle nnüd, mul 'pole Sind tahmapääd tarwis enam, tean seda iseenese tarkusest!
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts </speaker>
+                        <stage>(wälja õue minnes, iseeneses). </stage>
+                        <p>Aga koolmeistri käest ma küsin seda pütalugu ja mis need täpid seal tangu taga tähendawad: temal on ka Postimees.
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Pean alla minema Erastule, Enn wist teab ise kõige paremine, kuida se tangupüta lugu on, ja ristid mul ka tarwis sinna paberi pääle panna, et Maie temale annan: Enn ütles, kui ma nüüd seda ei tee, pärast Ann enam ei lase, — ja temal on õigus: Annel on se kange pää! Aga see pois lähäb mulle liig teraseks, seda ma enam kooli ei jäta! Kus mo müts siis jäi? Kui ma aga Anne nägemata minema saaks! Tondi lugu — juba seal!
+                        </p>
+                    </sp>
+               </div>
+                <div type="scene">
+                    <head>2.</head>
+                    <stage>Anne Peeter.</stage>
+                    <sp who="#anne">
+                        <speaker>Anne. </speaker>
+                        <p>Ütle ometi, Peeter, — kuhu Sa jooksed? — oota nüüd! Ütle, Jumala pärast, mis jut ja tegu se on jälle? Miks Sa odrad lased kõik wankrite pääle laduda, et musta mära kondid ragisewad aga all, ja mis se on, mis Sa Jütsile oled ütelnud?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(hädaga). </stage>
+                        <p>Mis ma siis olen ütelnud? Midagi. <stage>(Isepaika)</stage> Nüüd on pagan lahti!
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne. </speaker>
+                        <p>Pois räägib, Sina tahta odrad weskile wiia ja ära müüa, ja ise keelad lapse ära, mulle ütlemast, et Sa jälle mõne nõuu selle Ennu nurjatumaga oled kokku seganud! Kas Sa pääst nõrk oled? Nüüd, kus pulmad ukse ees, teed Sa maja wiljast puhas tühjaks? Mis Sul meele tuleb? Ega Sa kohtlane 'pole!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(köhatates). </stage>
+                        <p>Se oli nõnda katseks — <stage>(kõrwa poole)</stage> Ennol on ka õigus, mis ma sest naiste kisast hoolin? <stage>(Suure häälega)</stage> Ma tahtsin — <stage>(kärgates)</stage> Jäta mind rahule! Ikka on Sull wastaturtsuda, kui mina iseenese tarkusest midagi nõuu wõtan. Ma ütlen Sulle: odre lähäb mulle<pb n="24"/> tarwis ja ma laenan Erastult neid juure kaa weel; küll Sa näed, mis ma neist wälja teen! <stage>(kiideldes)</stage> Annekene, meie lähäme odradega rikkaks enne kui teie aru annab arwata!
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne. </speaker>
+                        <p>Rikkaks? — Waeseks lähäme ja pääst rumalaks ja kõige maailma naeruks, kui Sa ei kuule! Mis Sull' nüüd korraga jälle on pähä pistnud?! Odrad jääwad kojo, kas kuuled? Mina neid wiia ei lase! Kust ma wärsket õlut wõtan ja odra leiba teen, ja — sina kallikene, mo meel ei anna mõteldagi selle pääle! Kas Sa ei tea, et Märt õhtu oodata on?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>Märt — särane mul'k! <stage>(kiusakalt)</stage> See ei puutu minusse, minul on odre tarwis! Männiku Märt? Se on mulle se paras! Mina 'pole temale midagi lubanud, Sina aga oled see walmistaja. Ja kui Sa tõt tahad teada, mina Maie temale ei anna, las ta tulla kümme korda! 'Pole Märt ainus mees maa peal, temal on weel tõine targem kosilane, kes minu kasu ka tunneb, ja mina tahan ja soowin t'a Ennule! Ja täna ma ütlen Sulle, naine, täna on minul odre tarwis!
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(maha istudes). </stage>
+                        <p>Issa pojuke, püha ristike, ta on ikka — odre ja Enno ja Sinu kasu — jampsid Sa? Sa oled jo nagu kinnas tema käe, ja Sinu oma laulatud naine, sest Sa ei hooli enam midagi? Mis Sa siis teed nende odradega?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(ikka kindlamalt). </stage>
+                        <p>Weskile wiin!
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne. </speaker>
+                        <p>Jahuks woi?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Tanguks!
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne. </speaker>
+                        <p>Paljo?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Kõik puhas!
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne. </speaker>
+                        <p>Tule sina Issand appi — wiiskümmend wakka?!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Ja tõist wiiskümmend laenan weel juure! Mõlder on lubanud täna kõik wiimast lõpetada — ja — Postimehes ta seisab — ja seda ma tean ise enese tarkusest, ja olen seda oma silmaga lugenud, ja Enn teab seda kaa, ja tema on mulle se paras wäimees!
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne. </speaker>
+                        <p>Jah, s'eep see wana paras on, Sa oled ikka<pb n="25"/> natuke — ma ei taha ütelda mis, Peeter, et Sa ei näe, mis ta Sinuga teeb! Ja Märt? <stage>(Püsti tõustes)</stage> Kas Sa siis hull oled, mees? et Sa seda õnne tagasi põlgad? Seda Ennu ma oma lapsele <stage>(jalaga wasta maad)</stage> ei taha, seda ma ütlen Sulle suu sisse! Kas mul juba meelest läinud peab olema, mis ta minust ütelnud?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(kiideldes). </stage>
+                        <p>Anne, ma ei ütle midagi, aga selle korra ta lähäb tõeks!
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne. </speaker>
+                        <p>Mis asi?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Seda ma ei ütle, aga küll Sa näed, kui ma tagasi tulen linnast, paun raha täis —
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne. </speaker>
+                        <p>Tahma ta wõib Sulle täis olla, ja pää otsas nõndasamati! Peeter, Peeter, ma näen, Sa oled jälle pääst segane, nagu mullu, kui Sa pooled põllud kaapsid täis ajasid, ussidele! Linnas ei olewat kellegil kaapsid maas, ja pärast andsime saja paari kopiku eest ära, ükski ei ostnud!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(käritates). </stage>
+                        <p>Wait, naine! Mees on naise pää! Mina Sinu kiunumisest ei hooli! Waata mulle riided walmis ja muud midagi! Mõistus on auus asi, seda ma tean ise enese tarkusest! Teie naised! seda ei tunne. Ja nüüd küllalt — ja pea suu! Muud midagi! <stage>(Öue.)</stage>
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>3.</head>
+                    <stage>Anne (üksi).</stage>
+                    <sp who="#anne">
+                        <p>Sina Jumalukene, ta on tõeste pääst nõrgaks läinud, se mees! Kui ta juba tarkust kiitma hakkab, siis ei ole enam õige asi! Aita Jumal, mis sest nüüd kõik peab saama? Odrad müüb ära, Märdi saadab minema, Ennu tahab wägise wäimeheks — <stage>(Südame põlastusega)</stage> kas t'a hull on, wai? Kas ma seda pean wäimeheks wõtma, kes mo näost ei mõista pihu täit lugu pidada? Ja Märt, kes kaa teab, mis ma wäärt olen ometi, seda ta ei salli? Kus ta selle ajaga teise niisuguse mehe saab oma lapsele. Nagu neid Märdisugusid mehi puus paisuks ja põõsas paistaks meie päiwil? Ja kukal ise tõisel kaelas, nagu noorel kukel! Mis ta ometi teeb nende hulga tangudega? Ja Postimees? Kes teab<pb n="26"/> mis asi seal sees wõib seista, aga mitte tangu sõnumed! Niisugune teab ka, mis Postimehes seisab? Aga se on jälle se pagana Enn, kes mulle seda sisse on seganud! Ja Märti, Maie, waesed lapsed, mis neist nüüd peab saama? <stage>(pääd wangutates)</stage> Ui, ui, ui, kibe lugu!
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>4.</head>
+                    <stage>Maie. Anne.</stage>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(tuppa tõtates, ahastades). </stage>
+                        <p>Eit, kas on tõsi? Jumala pärast!
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(hädaga ja tõsiselt). </stage>
+                        <p>Mis asi?
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Öuest, rehe alt on isa kõik odrawiljad weskile wiinud! sulane ütleb: tanguks teha! Ja päälegi — päälegi — et ei pea — Männiku Märdist midagi saama! <stage>(nutma purtsates)</stage> Ega se ometi tõsi ei wõi olla?!
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(pärast silmapilgu wait olemist). </stage>
+                        <p>Mis minagi wõin teada, mis täna tõsi on tema meelest, ehk homme wale? Nimetas nagu küll, et ei hooli Märdi tulikust midagi, tahab wägise Ennu wäimeheks! <stage>(Wihaga)</stage> See on kõige selle õnnetuse kok ja kobrutaja!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Ennu? Erastu Ennu? Enne ma hüppan ojasse, kui ma sellele lähan! Ema, mis m'e nüüd peame tegema? Pai kulla eit, aita ometi! Sa tead jo ikka nõuu, ja isa teeb alati Sinu tahtmist, eks Sa aja nüüd ka asjad õigeks!
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne. </speaker>
+                        <p>Jah, se'ep see sassis lugu on jo! Kust otsast m'e kinni hakkame nüüd? Kui ta jälle nii hullupöörane on, kui täna, siis löö teda kiwi wasta, ei mõo midagi! Wait, kes sealt tuleb?
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>5.</head>
+                    <stage>Märt ja Aadu (wiinadega). Endised.</stage>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Oh sa helde Jumaluke! <stage>(kargab õue, ilma Märdi hoidmisest hoolimata.)</stage>
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt. </speaker>
+                        <p>Tere lahked pererahwas.
+                        </p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu. </speaker>
+                        <p>Soowime tere õhtust!
+                        </p>
+                    </sp>
+                    <pb n="27"/>
+                    <sp who="#anne">
+                        <speaker>Anne. </speaker>
+                        <p>Tere Jumaleme! <stage>(kõrwa poole)</stage> No nüüd on asjad õiged! Juba n'ad seal! Mis ma ütlen neile nüüd?
+                        </p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>Ma oleks parem kes teab kus! Olen küll wallaametnik: a' kui sest aga hääd wäljatuleb! Peeter oli karune nagu ohakas õues! kargas mo pääle — aga mis ma Märdi sõgedaga teen? Ei jäta jo järele!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(Teda tõugates). </stage>
+                        <p>No Kure-onu!?
+                        </p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu. </speaker>
+                        <p>Muidogi, muidogi, Märt! <stage>(köhates suure häälega)</stage> Oleme wist siin ikka Mäeotsa talus, jah?
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(niisamuti). </stage>
+                        <p>Külla'p wist! <stage>(kõrwa poole)</stage> Pitk sirge pois, nagu <stage>(ohkab)</stage> neid mo omal käis, mo ilusal päiwil —
+                        </p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu </speaker>
+                        <stage>(suure häälega). </stage>
+                        <p>No muidogi, muidogi, eks ta ole warsi näha: nii sile ja wile kõik, nagu munakoor, ta on kui Mäeotsal. <stage>(argsalt kõrwa poole)</stage> Kui seda Peetert aga ei tule?
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(ise paika). </stage>
+                        <p>Selle tahab ta kojo saata? Püsti rumal! <stage>(suure häälega)</stage> Eks lahke külarahwas istu ka maha? Wiiwad jo muido meie pererahu kottu ära! Kaugelt tulijad wist?
+                        </p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu. </speaker>
+                        <p>No eks ta nüüd ole, — olge terwe, — meil nago kibe kiir taga, <stage>(ise paika)</stage> liiate minul! <stage>(Suure häälega)</stage> Otsime jo seitsmet pääwa siit mo seltsimehe kadund kanapoega taga, ei taha ega taha leida! Ehk siit lahke pererahwas juhtus kogemata nägema?
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(kõhates). </stage>
+                        <p>Hmhm! <stage>(Kõrwa poole)</stage> Ei, mina teda ära ei saada! Ei tea, kas tal tuleb elades seda õnne tagasi! <stage>(Suure häälega)</stage> Ei nüüd tea ühti: mis nägu siis ta peaks olema? Wist
+                            <lg>
+                                <l>Hallid hiuksed härmatawad,</l>
+                                <l>Nokka norgus norrutamas.</l>
+                                <l>Seened kortsus käte külges,</l>
+                                <l>Jalust wäeti ta, wõimata?</l>
+                             </lg>
+                            — Ise wist ikka olen, ae?
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(ette poole).</stage>
+                        <p>
+                            <lg>
+                                <l>Perenaine, parem eite,</l>
+                                <l>Kanapoja kaswataja:</l>
+                                <l>Ei ole hiuksed härmatanud,</l>
+                                <l>Ei temal nokka norrutamas!</l>
+                                <l>Tihase tiiwad kätte kulges,</l>
+                                <l>Tallad tuulella tulised!</l>
+                            </lg>
+                        </p>
+                    </sp>
+                    <pb n="28"/>
+                    <sp who="#anne">
+                        <speaker>Anne. </speaker>
+                        <p>Nüüd ma tean: Wist on meie pere lombakas Karja-Mari? <stage>(Ukse poole)</stage> Mari ae, kus Sa oled? Kosilane kodu!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(ette poole). </stage>
+                        <p>
+                            <lg>
+                                <l>Ei ole Mari marjukene,</l>
+                                <l>Mulla Madise maasikas,</l>
+                                <l>Liiwa Hannuse lilleõilme —</l>
+                                <l>Kaunim mo kanapojuke!</l>
+                            </lg>
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne. </speaker>
+                        <p>No kes ta siis peaks olema? Nüüd ma siis ei tea muud ühti kanapoiga meil olewat, olgo siis —
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(tuppa tõtates). </stage>
+                        <p>Eit ae, taati Ennu tulewad! Mis nüüd?
+                        </p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu </speaker>
+                        <stage>(kohkudes). </stage>
+                        <p>No nüüd! —? Oh sa heldeke!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(Maie käest kinnihakates).</stage>
+                        <p>
+                            <lg>
+                                <l>Siin minu kaunim kanapoega,</l>
+                                <l>Tarre tarka talitaja,</l>
+                                <l>Öue ilusam ehteõis — </l>
+                                </lg>
+                            <stage>(Wötab kosjawiinad wälja).</stage>
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Oh, Märt, see on jo nüüd üsna tõine asi — Sina ei tea —  <stage>(räägib ruttu temaga).</stage>
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>6.</head>
+                    <stage>Peeter. Enn (õue ukse taga). Endised.</stage>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Kas koormad juba läinud?
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn. </speaker>
+                        <p>Juba ees teel!
+                        </p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Kure-Aadu </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>Mis ma's nüüd wallaametnik enam siin teen? Muidogi, muidogi, mull jo muud tööd! <stage>(Poeb wagusi õue, niipea kui Peeter ja Ennu tuppa astuwad.)</stage>
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(Tee-ülikond selgas, piits käe, Enn tema taga). </stage>
+                        <p>Se on — tuhat ja nelja! se on üks killawoor! Mis Sa arwad, Enn, millal tagasi saame?
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn. </speaker>
+                        <p>Homme juba, kulla Peetri-onu! Ja siis, — tuletage meele, mis T'e mulle olete paberis kinitanud, et ma Teie wäimees olen ja —
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(hüüab). </stage>
+                        <p>Wäimees? Mis? Kes? Tema?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(teda nähes). </stage>
+                        <p>Kes siis —? Ah so, Männiku oma! Hm, hm! <stage>(Annele. isepaika)</stage> Jo Sa tale juba oled ütelnud?
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(niisamuti). </stage>
+                        <p>Mis mina temale pidin teadma<pb n="29"/> ütelda? Eks Sa jo iseenast nimeta pääks! Katsu nüüd iseennast aidata!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(ette astudes). </stage>
+                        <p>Mäeotsa peremees, ma olen siia tulnud. Teie teate küll, kuida ja kelle loaga — jo ma tahan ka hea meelega halli pääd auustada — aga olge nii head, seletage mulle ära, mis Teie ja — <stage>(Ennu pääle näidates)</stage> tema sõnad esmalt tähendasid.
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(hädaga). </stage>
+                        <p>Mis, — sõnad?
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>Kui ma ünüd ei aita, siis ta wiskab kõik jälle sopa sisse. <stage>(Suure häälega, wanameest küünarnukaga puuska lükates)</stage> See ei ole Sinu asi!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(südame rindu wõttes.</stage>
+                        <p>Ja muidugi: Se ei ole Sinu asi!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(Enno poole). </stage>
+                        <p>Sinuga ei ole mul tegemist, pea oma nõuu enesele! <stage>(Peetri poole)</stage> Kuida? Se ei ole minu asi? Eesmalt wõtate minu kosilase lahkeste wasta, lubate mind tulla, kõik jutud rääaitakse ära — korraga — nüüd —
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn </speaker>
+                        <stage>(nagu ülemal). </stage>
+                        <p>Ütelge ometi, Peetri-onu! Muido jääb wõit temale! Eks Teie ole peremees? <stage>(Suure häälega)</stage> Naiste lori ei ole mehe sõna!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(nagu ülemal). </stage>
+                        <p>Ja muidogi, naiste lori ei ole mehe sõna!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(wihaga Ennu poole). </stage>
+                        <p>Kas ma Sind küsin? Kas ma Sinuga räägin? Tead, tunned Sina ka, mis mehe sõna on? Rahule jäta meid! <stage>(Peetri poole)</stage> Kui paljo siis õigel mehel sõnu on, Mäeotsa peremees? Ma usun, üks ainus ja sellega ta peab õige ettewaatama — nõnda olen ma ikka kuulnud wana rahwa suust. Seda mis mul on, olen ma Teie Maie kätte uskunud ja tema on oma sõna minule annud ja nüüd tahate Teie et meie seda peame murdma — mikspärast? Mis kurja ma Teile olen teinud? Ja selle inimese pärast siin, keda Teie sugugi ei tunne, tahate oma lapse ja minu õnnetumaks teha? Aga Mäeotsa peremees?!
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(liigutud). </stage>
+                        <p>Ta loeb nagu raamatust! <stage>(Pahandates)</stage> Häbene ka, Peeter!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(kahe wahel) </stage>
+                        <p>Aga — Märt — kust ma teda ei tunne siis, ometi ta on mulle — ja ma ei —
+                        </p>
+                    </sp>
+                    <pb n="30"/>
+                    <sp who="#enn">
+                        <speaker>Enn </speaker>
+                        <stage>(wihas kõrwalt Märdi poole). </stage>
+                        <p>Oota, Ma tahan Sulle näidata, kes se inimene on! <stage>(Peetri poole, teda kõrwalt tõmmates)</stage> Kas T'e ei näe, Peetri-onukene, kui kawalad n'ad on? See on jo se nõuu, mis n'ad Teie selja taga pidanud! Särane mul'k! Eks T'e tea iseenese tarkusest —
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(teda tõiselt poolt tõmmates).</stage>
+                        <p>Peeter, Sa oled esimine juhm, kui Sa kahe käega kinni ei hakka! Ruttu ometi!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(häda täis). </stage>
+                        <p>Aga — aga —
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt. </speaker>
+                        <p>Mäeotsa peremees! ärge kustutage ühe sõnaga paljaks, mis taewa Taat nagu lillelõhnaga meie südametesse märkinud! Mina armastan Teie Maie, tema armastab mind: andke meid kokku, siis saab Jumal Teid õnnistama ja meid ka! Mul on jo, tänu Jumalale, seda wara niipaljo küllalt, ja otsin ka päriskohta enesele osta nüüd —
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Ann </speaker>
+                        <stage>(nagu ülemal). </stage>
+                        <p>Oh kui haledaste ja ilusaste ta seda ütleb! <stage>(nagu ülemal, Peetrit tõmmates)</stage> Kas Sa ei kuule, mis ta päriskohast ütleb? Mis Sa ootad weel?
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn </speaker>
+                        <stage>(nagu ülemal tõmmates). </stage>
+                        <p>Wist ta ajab Teid tõistkorda koha päält ära: Särane mul'k!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(wihastades, kisub ennast lahti). </stage>
+                        <p>Wait nüüd! So? Wõi mina pean nii rumal olema, et ma sest kõigest aru ei saa? Teie libekeeled ja petised! Nüüd ma tahan teile ütelda, mis ma tean iseenese tarkusest! Sina Märt, pühi oma nina puhtaks: Sinust mul wäimeest ei saa, kui — enne kui ma minupärast jälle Alustel elan! Nii wähe kui se tõeks saab, nii wähe Sinule Maiest abikaasa saab!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Oh sa minu heldene pohjatu Jumal!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Waata! See oleks Teile paras! Siin on minu wäimees, siin Erastu Enn, — ära Sa hulu ühti, Maie, se ei aita Sulle midagi. Sina ei tunne ise oma õnne, aga mina tean iseenese tarkusest, mis Sulle hea on! Kae imet: särane mul'k! Mul'gid on kõik petised, kõik puhas, seda Sa tead, Märt, jah! Ja nüüd, minu sõna jääb pääle! Nüüd ma sõidan tangudega linna ja kui ma tagasi tulen, nelja nädala pärast on pulmad! Minul ei ole Männiku wara ega wõimust tarwis, küll Teil tõusewad silmad pähä, miks ei! Seda ma teen kõik iseenese tarkusest. Ja nüüd wait kõik ja kasige igaüks oma teed. Enn tule, ja<pb n="31"/> Ann waata, et sa maja korral hoiad seniks! Särane — mul'k! <stage>(Uksest õue.)</stage>
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn </speaker>
+                        <stage>(ukse päält tagasi tulles, hirwitab).</stage>
+                        <p>Ähähäh, kas mõos? <stage>(Maie poole)</stage> Se on So põidlajutu eest, kullerkupukene, ja <stage>(Anne poole)</stage> se on Sinu "punaspää" ja <stage>(Märdi poole)</stage> se on Sinu "selle inimese" eest! Oodake teie!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(südame täiega). </stage>
+                        <p>Sina sõrme <stage>(sana kinnipidades)</stage> Weel ei ole päike õhtul!
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn. </speaker>
+                        <p>Ohjad on minu käes, nüüd mina sõidan! Seda pudru sööge ära, mis mina teile tangudest nüüd keedan! <stage>(Öue.)</stage>
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>7.</head>
+                    <stage>Endised, ilma Peetri ja Ennuta.</stage>
+                    <sp who="#anne">
+                        <speaker>Anne. </speaker>
+                        <p>Püsti hull! Ja selle nõgesepõõsa käes? Sina armas Jumal!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(nuttes). </stage>
+                        <p>Märti, eite, mis nüüd saab? Enne ma hüppan ojasse, kui ma Ennule lähän! Oh Jumal, Jumal!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(teda kinnitades). </stage>
+                        <p>Ära nuta, lillekene, mis Sa kulutad oma ilusaid silmaterakesi! Ehk saame, tuipoeg, sassis asjust ometi weel jagu.
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Märt, — ega Sa nüüd minu juure wist ei jää? Kas ei, Märt?
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt. </speaker>
+                        <p>Aga pääsuke — mis Sa nüüd räägid? Kas Sa paremat minust ei tunne?
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(wagusemalt). </stage>
+                        <p>Aga — isa sõimas jo kõik —
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(mokki pigistates). </stage>
+                        <p>Kõik mul'ka petisiks — seda ma tean küll.
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne. </speaker>
+                        <p>No — se — se oli rumalusest ja — äkilisest meelest, Märt, — mis Sa sest hakkad tähele panema ka!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Ja rikkust mull ka ei ole Sulle kaasa tuua!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt. </speaker>
+                        <p>Ole wait, Maiekene, mo maasikas, ära ahasta! Sa lähäd mulle kallimaks iga minutiga, — ja minu nõtkumisest ärgu olgu Sull hirmu, kui Sa aga ise juure jääd. Mis auus mees se on, kes nii esimise müüri ees juba tagasi põrkab? Önn otsib julget südant ja wõit jääb wahwa<pb n="32"/> kätte; ara järele ei jookse kellegi kullajoon! Mina armastan Sind, ja Sina mind: nüüd tahame seda kõige maailmale tunnistada.
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(liigutud). </stage>
+                        <p>Oh Märt, Sa räägid nagu prohwet! <stage>(kõrwa poole)</stage> Kui ma ometi seda poissi wäimeheks saaks! Ja weel se päristalu!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(hellaste). </stage>
+                        <p>Minu Märdikene!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt. </speaker>
+                        <p>Aga nüüd seletage mulle, mis tangupudrutük se oli, kellest nad kõnelesid? Sest ei saanud ma sõna aru.
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(pahandates). </stage>
+                        <p>No eks ta ole jälle mõni mõistmata temp! Laseb 50 wakka odre tanguks teha, Enn laenab tõist niipaljn tale juure: hind olla linnas hirmus suur, Postimehes seista kõik — Enn esimine awitaja — oh mo süda ei kanna rääkidagi!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt. </speaker>
+                        <p>Postimehes? seda ma ometi ei usu! Kus kohas? Näidake ometi? Pole ma sest midagi näinud!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Seal ta seisab laua pääl! <stage>(toob lehe kätte)</stage>
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(silitab tänuks Maie pääd). </stage>
+                        <p>Kanapoeg. — <stage>(Otsib lehest.)</stage> Kus ta on? Prantsusemaalt — Türgimaalt — ah sääl: "Kaubahinnad!" Rukkid, nisud, odrad — kõik igapäised hinnad! <lg><l>"Püt punast soola 9 rubla — kop.</l><l>"Püt tangu " 8 " 20 "</l></lg> — Tule Jumal appi, — ega ta wimati seda 'pole —?
+                        </p>
+                    </sp>
+                    <sp who="#anne #maie">
+                        <speaker>Naised. </speaker>
+                        <p>Mis seal on?
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt. </speaker>
+                        <p>Kui ta — <stage>(naerab)</stage> ahahah — se oleks ilus tük!
+                        </p>
+                    </sp>
+                    <sp who="#anne #maie">
+                        <speaker>Naised. </speaker>
+                        <p>Aga ütle ometi —
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt. </speaker>
+                        <p>Siin seisab: <lg><l>"Püt punast soola 9 rubla</l><l>"Püt tangu " </l></lg> ja tangu taga kaks tillukest täppi — 8 rubla 20 kop. Need täpid tähendawad ka soola: seda ei ole peremees teadnud, et tangusool 8 rubla 20 kop. püt maksab, mite odratang. Nõnda on lugu!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(kohkund). </stage>
+                        <p>Aga Jumal hoidku — ja se sada wakka tangu nüüd?
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(nagu käest ära). </stage>
+                        <p>Oh ma olen ikka ütelnud: tema weab meid kõik korra õnnetuse sisse! Sina heldene ja Önnis<pb n="33"/>tegia — mis nüüd meitest saab? Sada wakka — sada wakka tangu! Kes ostab selle ära? Ja Enn, oh see Enn! Et susi teda sööks!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt. </speaker>
+                        <p>Wait, wait, wagusi nüüd ometi; asi ei ole õnneks nii hirmus, kui päält näitab, muidu ma ka nii rahul ei seisaks! Muraku mõlder oli täna wara meil, otsis tanguks odre nagu tulega taga: ta olewat lubanud linna kasarmu läkitada ja odre nüüd ei kuskilt saada. — Ja mul tuleb weel üks tõine nõuu meele — kuida see oli? Nii wähe kui isa jälle Alustel saab olema, nii wähe pidada Maie minule saama? <stage>(Langeb mõtetesse.)</stage>
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(haledalt). </stage>
+                        <p>Seda ütles jah!
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne. </speaker>
+                        <p>Mis pääle Sa mõtled, Märt, ae!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt. </speaker>
+                        <p>Tulge lähme, ma räägin Teile, mis nõuu mulle on tulnud! Kui kõik käsi käes awitame, ehk leiame sassis lõngale ometi weel aru kätte! Enn on ime tark ja kawal tahtnud olla, aga õige meel kannab enamiste kaugemale, kui kawalus, see on ka tõssi. Tule, Maiekene.
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne. </speaker>
+                        <p>Aga kui selle Ennule lõksu leiaks, mis teda peab: Jumal hoia küll raiskamise eest, aga ma annaks warsi sandile 3 kopikat korraga! Tõeste, seda ma teeks!
+                        </p>
+                    </sp>
+                    <stage>(Kõik reheuksest wälja.)</stage>
+                </div>
+                <div type="scene">
+                    <head>8.</head>
+                    <stage>Aadu (õueuksest) ja Jüts (rehealuse uksest ettewaatlikult tulles).</stage>
+                    <sp who="#aadu">
+                        <speaker>Aadu. </speaker>
+                        <p>Tühi kõik?
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts. </speaker>
+                        <p>Kedagit ei ole?
+                        </p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu. </speaker>
+                        <p>Walla ametis ma olen, ja kirjutaja käskis järele kuulata, kas seda Ennu siin ei ole? Kaugele nad küll läinud peaks olema?
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts. </speaker>
+                        <p>Linna, tangudega. <stage>(Nukralt oma pastlid waadates)</stage> Kure-taat, nüüd need uued pastlad lähwad jälle warna otsa. <stage>(Säeb jalgu.)</stage>
+                        </p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu. </speaker>
+                        <p>Muidugi, muidugi, — woi sooh? Kuidas nii?
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts. </speaker>
+                        <p>Jah, isa tuli küla ees wankris wasta, pää oli punane pahandusest, Enn istus ees, — <stage>(südametäiega)</stage> selle ma uputaks wee pange ära!<pb n="34"/>
+                        </p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu. </speaker>
+                        <p>Muidugi, — <stage>(Noomides)</stage> uih, uih, kui inetu! Millal mina Sinu ees nii räägin, ja olen walla ametnik!
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts. </speaker>
+                        <p>Jah, Kure-onu, Sinul ei ole kaa nii uusi pastlid kaotada. Mina tulin koolmeistrilt — <stage>(kurwastust unustades, ruttu)</stage>: kas tead, Kure-onu, need tillukesed täppid soola all tähendawad ka jälle soola, tanguga kokku "tangusoola!" Koolmeister ütles.
+                        </p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu </speaker>
+                        <stage>(mõtetes). </stage>
+                        <p>Jah, jah, laps! <stage>(Kõrwa poole)</stage> Ma wõiks poisi käest küsida, ta ometi wist teab kaa —
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts </speaker>
+                        <stage>(kurwalt jutustates). </stage>
+                        <p>Ja nüüd ma pean need uued pastlid kaa jälle jalast ära wõtma. Enn käskis ja hirwitas ise! Mis Ennul käskida on minu pastalde pärast? Aga isa taples kaa weel, et ma pean lobasuu olema, ja ma olen ometi Maiele üksi ütelnud, ja kas Maie ei ole siis minu õde? Maie on minu õde ja mina teda aitan. <stage>(Riputab pastlad warna otsa.)</stage> Nüüd nad jälle ripuwad sääl ja Enn hüüdis wankrist, et ma enne ei saa neid jalga, kui tema ja Maie pulmal. Põidlapurustaja! Siis nad igaweste jääwad sinna! Teda Maie ometi ei wõta!
+                        </p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu. </speaker>
+                        <p>Muidug — ei tea, ära Sa ütle kaa! <stage>(salaja)</stage> Kuule Jüts, kas Sa ei ole kuulnud, Märdist ei saa jo nüüd midagi, Maie wötab Ennu?
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts </speaker>
+                        <stage>(kindlaste.) </stage>
+                        <p>Ei wõta! <stage>(Julge sanaga)</stage> Kure-onu, seda Sa usu, siis sagu minupärast sääl neid pastlad Sinule, kui tema Ennu wõtab; — mitte ei tee seda!
+                        </p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu. </speaker>
+                        <p>Muidugi — no, no, ära Sa ütle! Tütarlapse meel on nagu kõrkjas tuule käe kaldal, ei tea, ei tea! Aga nüüd ma lähän waatan, mis tuhina pärast see kirjutaja seda Ennu taga otsib. Eks ma ole jo — hm, hm, — wallaametnik! Aga usu, poeg, seda Sa weel ei tea, tütarlapsi ei wõi iial uskuda. <stage>(Uksest õue.)</stage>
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts </speaker>
+                        <stage>(teda saates). </stage>
+                        <p>Ennu ta ei wõta! <stage>(Ukselt tagasi pöördes, säeb sõrme nina otsa, pool argselt)</stage> Aga, a — kui ma need pastlad ometi ülekaela lubasin? Tühi neid tütarlapsi teab! <stage>(Wälja.)</stage>
+                        </p>
+                    </sp>
+                </div>
+                <pb n="35"/>
+                <div type="scene">
+                    <head>9.</head>
+                    <stage>Märt (tuleb õuest).</stage>
+                    <sp who="#maert">
+                        <p>Kus ta on? Maie pidi tulema, et m'e selle asja üle weel sana kaks seletame. Saab ime pärast nähä, kas ei peaks wanamehe mul'giwihast jagu saama? See tuline sõimunimi! Sest pääwast saadik, kus esimine Willandi kuub Mul'gi talust tuli üle meie maakonna raja omale kodukohta otsima, on sada lopsu ja wopsu pääst pähä lendanud ja rusikad rusikaid kaalunud selle nime pärast; aga et wiha tema kandjate wasta weel kaks südant nii õnnetuse hirmu alla saaks panema, seda küll wist paljo mitte tänini ei olnud. "Petisiks" nimetas meid wanamees kõiki? Ärgu tulgu mulle seda ükski muu ütlema, kui Maie isa, kellele seda tütre ja sellepärast andeks annan, et ta ise ei tea mis ta suust ütleb! Nad wõiwad uhked olla meie pääle; sest kusagil ei sünni nimetamise wäärt tegu meie maal, kus mitte mul'gi pää ehk käsi töös juures ei ole! Kes warem sängilt wäljatuleb, see alewamalt astub, aga sellepärast ei ole aegutaja weel õigusekandja! Miks on mul'gil rohkem jõudu? Seest, et tal rohkem pääd on! Ja kust tuleb tal ärgem meel? Usinamast koolikäigust! Kes aga ei wiitsi pääd wäsitada ja kätest üksi arwab küllalt olewat, ehk hoopis, kus soola tarwis, kõik maailma tangu täis ajab — see ometi ärgu arwaku mul'gi sõimamisega kõik soola maailmast ärakaotawat! — No — siin ehk ajame asjad weel joonele, sest wana Peeter on hää mees muidu ja ei saadaks meelega oma last mitte õnnetuse sisse; aga see Enn! Kaugele seda weel tigedus kannab, seda teadku see ja tõine! Aga Maie ma ometi tema küüsist katsun peasta! Aga kas ta ei tule weel? Maie ae, maasikas, kuhu Sa jääd?
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>10.</head>
+                    <stage>Maie. Märt.</stage>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(pooles arguses). </stage>
+                        <p>Siin olengi. Märt, — aga kuule Märt, see asi teeb mulle ometi pääwalu, — ei ma usu et ma neid sanu suust wälja saan?
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(südamelikult).</stage>
+                        <p>Mis sanu siis, roosiõiekene?
+                        </p>
+                    </sp>
+                    <pb n="36"/>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(nagu ülemal). </stage>
+                        <p>No et ma tahan — Ennule minna — ja kõik seda muud, — ja see on ometi sula wale ja ega ma ometi ei taha sugugi!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt. </speaker>
+                        <p>Lõoke, lilleke, nii kõwaste Sul pole ja ka tarwis ühti seda taadile tõotada; kuid aga moka otsast natuge! Seda on jo meie nõuu juure tarwis!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Ja ise ma ütlen Jütsile iga pääw: et ei pea mitte waletama — <stage>(pääd wangutates)</stage> küll Sa näed, Märt, ta lähäb nurja!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(wagusi). </stage>
+                        <p>Siis pead Sa töeste Ennu wõtma, kui nurja lähäb. Tõist nõuu ei ole.
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(ehmatates). </stage>
+                        <p>Oh Sa heldeke — —! <stage>(kindlalt)</stage> Kas tead, Märt, kirjuta mulle need sanad, mis ma isale ütlen, siia paberi pääle ülesse, siis ma õpin nad pääst, siis lähäb ehk ennemine.
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt. </speaker>
+                        <p>Waat' ae, mis ilus nõuu! Minugi pärast! Kus pliiats on?
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(toob pliitsepulga seina prao wahelt).</stage>
+                        <p>Siin.
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt. </speaker>
+                        <p>Nõnda, maasikas! <stage>(Ütleb kirjutates)</stage> "Armas taat, mina olen koolis kuulnud, et peab isa sana kuulma ja ma tahan sellele minna, keda taat omast tarkusest mulle annab!" Kas seda saad üle keele, kanapoeg?
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(kes üle Märdi õla waadates kõik sanad järele ütelnud).</stage>
+                        <p>No ta on nüüd küll — kui ma aga ei hirmu üteldes?
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt. </speaker>
+                        <p>Eks eit ole jo ka meie nõuus, Maiekene, ole julge! Usu mind, Sina minu armsam õis: südame sidemed on taewa taadi enese kaswud, nende ees nõrkub maapäälse taatide wägi! Lase nüüd ma lähän eest ära, enne kui isa koju tuleb; ja kui ma tagasi tulen, siis on wiimne järg jooksmas! Hääd terwist niikauaks! <stage>(Armsaste Jumalaga jättes, õue.)</stage>
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>11.</head>
+                    <stage>Maie (üksi; siis) Jüts.</stage>
+                    <sp who="#maie">
+                        <p>Kus on paremat weel ja südamikumat ja — ilusamat, kui minu Märt, nimetage?! Nad ei teadnud ükski nõuu: minu Märt on targem kui nemad kõik! Ja muidugi, Jumal wist meid aitab, ta peab jo ise aru saama,<pb n="37"/> et ma ilma temata ei mõista elada! Kas ei oleks mõni tõine juba kümme korda mind waest mahajätnud selle pääle mis isa temale ütles ja ega ma ometi rikas ka ei ole? — Aga ma tahan ka teda auustada ja armastada selle eest eluotsani kui oma suuremat ja ülemat wara — aita taewa Taadike, et ma seda tõotust iial meelest ei unusta! — — Aga nüüd se Ennu lugu? <stage>(Wõtab paberi kätte)</stage> See on siis: <stage>(Jüts pistab pää rehe alt tuppa ja jääb kuulatama)</stage> "Mina siis wõtan nüüd, hm, Ennu kahe käega, keda taat iseenese tarkusest mulle annab!" Nõnda on ja nõnda jäägu. Läki nüüd walmistama! <stage>(Õue uksest paberiga wälja).</stage>
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts </speaker>
+                        <stage>(tuppa tulles, ammuli suuga). </stage>
+                        <p>"Mina siis wõtan Ennu kahe käega, keda taat —" Sina kallis heinakuu ilmake! — Ja esti tahtis rehealusel silmad pääst nutta! Ja kas se on minu Maie? Ja ta ütleb, et ei pea mitte waletama? Ja mis ta siis enne nuttis? Ja nüüd wõtab "kahe käega?" Ja jah, Kure-onu ütles küll: "Ei tea, ei tea." Oh ja nüüd minu uued pastlad! Oh mis ma ometi nii rumal olin! Kure ütles küll: tüdrukud on nagu kõrred tuule käe! Nüüd on nad läinud! Oh seda tulist kahju! <stage>(Pastalde ees, haledaste)</stage> Minu jalga teid küll enam ei saa! <stage>(Pahal meelel)</stage> Aga seda ma ütlen kaa: kui nad tüdrukud niisugused on, siis ma kosja ei lähä, mitte elades, ei Aluste Annele, ega Saare Tiiule, ega kellekile! Oh minu ilusad pastlad! Üsna uued! Nüüd ta wõtab teda "kahe käega!" Wa' põidlapurustaja — ptüiii!
+                        </p>
+                        <stage>(Sülitab ja pöörab ümber. Wahekate langeb maha.)</stage>
+                    </sp>
+                    </div>
+            </div>
+            <pb n="38"/>
+            <div type="act">
+                <head>III.</head>
+                <div type="scene">
+                    <head>1. </head>
+                    <stage>Peeter (üksi, istub mures laua taga; siis wõtab meeled kokku).</stage>
+                    <sp who="#peeter">
+                        <p>Jah, mis se norrutamine aitab kõik? Abi ma ei tea ometi! Niisugune tuline pääluu! Tema kõrilõikaja. Kas ma oleks elades seda temast uskunud! Önneks weel, et naised kottu külasse läinud; kui ma seda kisa oleks pidanud wäljakannatama! Ja kauaks ma salgan neile nüüd? Oh sa sadawääriline kurjategia! Oot, oot, seal ta on ise! Sina petis koer —! <stage>(Käib möda tuba, süda täis.)</stage>
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>2.</head>
+                    <stage>Peeter. Enn (uhke ja upsakas, piip suus, müts pääs, käed taskus, kõneleb suure suuga).</stage>
+                    <sp who="#enn">
+                        <speaker>Enn </speaker>
+                        <stage>(isepaika). </stage>
+                        <p>Seda ma ometi teaksin, mis se wallakubja mutikas, se Kure-Aadu, minust on tahtnud, et ta mind senini tagaotsinud? Eks weel panewad mind wallaametisse mo rikkuse pärast? Küll nad peawad mind kõik kartma hakkama, küll ma neid nõelan! Ja weel need siit rahwas — <stage>(ümberwaadates, näeb Peetert)</stage> Waat soo — <stage>(suitsutab piipo)</stage> pepap — no, Mäeotsa wana, oled ka jälle koju tulnud? See on hea tahtsin — pepep — 'Sind küsida — mis ma pidin ütlema — pepep — kus siis Maie on? Tarwis nüüd ka — pepep — kirikumoisa minna ja pulmile walmistada — kauaks ma enam ootan?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(südame täiega). </stage>
+                        <p>So? Woi pulmile? Wiimane pääluu Sina! Kus mo odrad? Maksa wälja mulle raha nüüd, mis ma maha olen wiskanud Sinu nõuu pääle? Sina salakoi! Ja mis Anne nüüd ütleb?
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn. </speaker>
+                        <p>Mis? Keda Sa tohid sõimata siin? Mis nõuu olen mina Sulle annud? Eks Sa ole wana küllalt, ise teadma, mis Sa teed? Kas mina Sind wõisin sundida, kui Sa ise ei tahtnud. Waata wana narri! Kas Sa nõnda mind tänad mo hääteo eest?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Häätegu? Näita mulle oma häätegu wälja, Sina esimine kui angerjas? Kes mulle teadis kõik ettearutada Postimehe seest ja kes mind tagakihutas tulise tuhi<pb n="39"/>naga, kõik mo maja tühjaks tegema — mispärast? Ise enese naeruks ja kõige maailma hirwitamiseks! Sina'p se olid! Sina üksi, Enn, keda ma uskusin niisama ja enam kui ise oma last! Sääl need 100 wakka tangu wedelewad nüüd jälle rehealusel: söögu ma ise neid, kui maitseb — <stage>(Enn naerab)</stage> hirwita Sa weel, Sina —! Se on Sinu töö! Ja nüüd Sa räägid weel pulmist kõige selle pääle? Ma peaks wist pääst nõrk olema, kui ma Sulle weel oma lapse annaks selle pääle! Ja mis Anne nüüd ütleb?
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn. </speaker>
+                        <p>So? Wõi mina pidin nende kawaluse lehe seest wäljalugema ja Sul enesel 'polnud pääd otsa tarwis ühti? Mis eest siis So omad silmad olid, kui Sa ei näinud, mis need täpid sääl all tähendasid? Ja se on mulle ka üks tont puhas! Tahtku ehk tahtmata, minule üks hull kõik! Mina Maie wõtan ja katsu, et pulmad ei anna oodata, nagu m'e olime ärateinud enne sõitu: nelja nädala pärast olgu möödas!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Seda Sulle weel tarwis, se kuluks Sulle weel ära! Selle pääle ära Sa loodagi! Nüüd aja aga tõiste kaela, mis So oma angerja keel teinud — aga oota seni! Kas Sa ise mulle ei ütelnud: et meie aga teeme naiste hirmutamiseks kaupa ja et kui ma ise ei taha, siis olgu niisamati? Ja kui tüdruk Sind nõnda kõigest hingest ihkaks, kui ta Sind põue põhjast põlgab: Sinule ma teda ometi ei annaks, ei elades!
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn. </speaker>
+                        <p>Kuule, Peeter! <stage>(Kõrwa poole).</stage> Oot', oot', küll ma Sind padjapehmeks saan! <stage>(Suure häälega)</stage> Ära Sa aja mo südant täis, muidu Sa näed weel!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(Ikka wihasemalt). </stage>
+                        <p>Mis ma näen weel? Mis mulle weel näha jääb? Kas Sa ennast 'pole mulle weel näitanud küllalt? Sina häbemata! Kuida Sa kõneled mo wana inimesega, mis? Kas ma pean Sull mütsi pääst mahakiskuma wõi? Sina......!
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn </speaker>
+                        <stage>(niisamati). </stage>
+                        <p>Kuule, kas Sa näed ise kelle ees Sa räägid, wanamees, ae? Hoia oma suud, muidu ma tahan kümme imet teha Sinuga!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(nagu ülemal). </stage>
+                        <p>Sina, kes mo wilja petnud,<pb n="40"/> ja Anne ja Maie ja — Sina tahad kümme imet teha minuga ja julged ütelda seda ka weel?!
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn </speaker>
+                        <stage>(niisamati). </stage>
+                        <p>Mina! Julgen jah! Sinu ja So terwe perega, kui Sa ei kuule!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Nüüd ma alles näen, mis hukkas loom Sa oled! Maie Sinule? Ma peaks pool elajat olema, kui ma oma lapse Sinu kätte annaks! Katsu, et Sa minema saad, Sina tangusegaja!
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn. </speaker>
+                        <p>Kuule, Mäeotsa wana: kas annad, ehk ei?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(käest ära). </stage>
+                        <p>Ei! ei! ei! Sada korda weel ei! Oma teed kasi ja ära Sa iial enam jalga tõsta üle minu läwe, Sina — Sina — Sina odrapetja!
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn. </speaker>
+                        <p>Ahahah — seda ma Sulle ei kingi! Tänapääwal weel tulen ma tagasi, täna weel! Ja kui Sa mulle siis mo 125 rubla ei maksa wälja laua pääle lainatud tangu eest, ehk ei anna Maiet kätte, siis on kohus kolm sammu siit! Teie kõik peate mind tunda saama! <stage>(õue.)</stage>
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>3.</head>
+                    <stage>Peeter (üksi, käib ähkides mõõda tuba).</stage>
+                    <sp who="#peeter">
+                        <p>Oh Sina — wiimane — sarwiline! Ma olen ennast — haigeks wihastanud — temaga! Oh kui minu waese hing seda enne oleks teadnud arwata, et ta särane loom on! Aga Annel on õigus: kui ma tõistest targem tahan olla, siis tuleb ikka, — hmhm — jah, kui ma tahan targem olla.....! Aga kas mina teda siledat kassipoega pidin niisuguseks petiseks arwama? Ja nüüd — nüüd — <stage>(mõtetes)</stage> ma olen teda wihastanud päälegi..... <stage>(äkiliselt)</stage> Aga kas ma tema pops olen wõi olen ma peremees? Senini nagu sula mesi, ei olnud muud kui "Mäeotsa-onu" ees ja "Peetri-onu" taga, ja üks "Teie" kihutas suus tõist taga, et Sul üsna häda käes temaga. Nüüd müts pääs nagu mõnel paronil ja piip põigiti hammaste wahel: Sina ja Sina, nagu ma tema seakarjane juba oleks! <stage>(Mures)</stage> Aga mis ma teen nüüd? Ja kui Anne alles tuleb? Oh ma wäeti õnnetu innimene! Ja need 125 rubla, kust ma wõtan need wälja niisuguse ajaga, kus küli<pb n="41"/> kõigil maas ja laekad, kapid tühjad? Ja Enn ei jäta, <stage>(ohkades)</stage> ei, seks ma teda tunnen! Aga et ma nii hilja teda pidin tundma õppima! Ja mulle ütleb: paber on naiste hirmuks kirjutud! Sina armas aeg! Ja kui Anne nüüd alles koju tuleb? — Ma oleks ka wõinud tasasem temaga rääkida, ehk oleks weel —? Aga ta nuias jo ikka Maie pääle ja kas ma oma last temale —? Ma oleks jo hullem kui ronga-isa! Niipalju Jumala werd mul weel põues liigub. Kui ta on isa lahke näoga õnnetuse sisse wedanud, mis ta siis tütrest enam hoolib? Oh et ma selle Märdi nii ruttu minema saatsin, se oli se rumalam temp! Mul'k ta küll on, no aga — Aadul oli õigus: laste südamit peab ikka ka küsima, se on nüüd juba se uus säädus! Aadu on jo wallaametis, tema peab seda teadma! — Oh, ja kui Anne alles tuleb, minu heldene aeg! — <stage>(Kawalalt)</stage> Ei tea, kas need kolm risti, mis ma alla tegin, kaa seda kinnitawad? Nüüd ma enam ei usu kedagit paberit! — Kes ostab nüüd selle hulga ära wakagikaupa — ja mina räägin pütakaubast ja — kiriwase <stage>(sülitab)</stage> päralt! Kui ma weel meele tuletan, kuida mind Orawa kaupmees wastawõttis, kui ma oma suure killawooriga poeukse ees kinni pidasin? Lõhki ta oleks ennast naernud ja poepoisid hirwitasid nagu need esimised koerad! Nüüd kõik linn sest kõla täis, et ma ei oska tangugi lugeda! Ja kui seda alles se kurjategia, se Postimees kuulda saab: ma ei taha äramõteldagi! Siis on mo wäetima nimi kõige maailma suus! Rotiauku ma poeks selle häbiga! Ja Anne! Ja Anne! Männiku Märdil nüüd hää naerda! Särane mul'k! Aga, oh et ma teda kinni ei pidanud! Nüüd olen ma teda ka wihastanud ja sana ka weel pääle pannud Aluste pärast: sest ei ole nüüd enam lootust ka! — Maie on lahti nüüd Ennust küll, aga selle eest olen mina tema küüsis! Ja kui Anne neid tangu näeb —! Oh häda! Oh häda! — <stage>(Akna poole)</stage> Tea, kas n'e naised juba koju tulnud? No jah, säält juba Anne tuleb! Aita nüüd, taewa Taadike!
+                        </p>
+                    </sp>
+                </div>
+                <pb n="42"/>
+                <div type="scene">
+                    <head>4.</head>
+                    <stage>Anne. Peeter.</stage>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(kõrwa poole) </stage>
+                        <p>Ahah, sääl ta seisab ja norrutab juba! Wist nüüd iseenese tarkus otsas? <stage>(Suure häälega)</stage> Ah Peeter, tere ka! Kas linnast juba kodu? No kaup oli hää? Ega Sul enam tangu järele ei ole?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(kõhatab hädas). </stage>
+                        <p>No — tere, tere — no sugu ikka nagu on weel!
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(isepaika). </stage>
+                        <p>Ah, "sugu?" Öige suur "sugu" Sul! <stage>(Suure häälega)</stage> Aga kuida Sa nii sõge wõisid olla, et Sa mitte kõik ära ei annud silmapilk? Wist mõtlesid meie oma puuduse ja Maie Ennu pulma tarbeks ka minewat, nagu Sa iseenese tarkusest tead? Aga tangu oleks meie jaoks laenata ka saanud ja 8 rubla 20 kopikat püta päält ei tule nii ruttu tagasi. <stage>(kõrwa poole)</stage> Siple nüüd!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>Ta 'pole weel rehe all käinud ega kuulnud, — oh sa Jumaluke! <stage>(Suure häälega)</stage> No mis häda siis neil pulmil nii on? Ega ma ka nii metsaline 'pole, et ma teda Ennule sunnin, kui ta ise ei taha — ma olen ka isa ometi!
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>Kuule, kuule, juba tõine laul suus <stage>(Suure häälega)</stage> No teadu pärast, eks Sa tea jo iseenese tarkusest, Peeter, ja ega Sa küll ehk ei sunni; aga ta on hää laps ja teeb Sinu tahtmist ja mina olen teda ka noominud, et Sa ikka ütled: mina olla se kiusupunn ja kangekaelne, kes teda ikka kihutas, ja eks Sull ole ka õigus: Enn on nõnda Sinu kasu teeninud, siis ta teenib lapse ka ära!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(isepaika). </stage>
+                        <p>Jah, tema'p on se paras "minukasu teenija!" <stage>(Suure häälega ja nagu lugedes)</stage> Meie oleme kõik patused inimesed ja Ennul ka omad wead, omad suured wead, ja kes tohib tõist kohe hääks ehk kurjaks kiita? <stage>(Kõrwa poole)</stage> Kas ta ei mõista weel, ehk mis se on? <stage>(Suure häälega)</stage> Se on Jumala asi! <stage>(Kõrwa poole)</stage> Selle asjale ma otsa ei tea! Kus siis nüüd Männiku Märt korraga tal meelest jäänud?
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>So Peetrikcne, kas on nüüd Jumala asi — ja tangud Jumala asi ka? <stage>(Suure häälega)</stage> No<pb n="43"/> eks ta nüüd ole küll, ja õpetaja ütleb ka, et naine peab mehe sana kuulma ja Sinu pää, nagu ma nüüd näen, on jo Jumalast iseenesest nii targaks loodud otsa, nagu, hm, nagu ta nüüd on, ja sellepärast ma ütlen ka: et Erastu Enn on meile se paras wäimees ja et olgu nagu on siis, ja Sinu sana jäägu pääle!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>Oh sa kallis püha ristike: mis sel naisel on täna? Ega se wist kauaks enam ei jää: ta on jo nagu ärawahetud! Mina "tean iseenese tarkusest" ja "sana kuulma" ja — <stage>(muretsetes)</stage> Aga Anne, Annekene, ega Sa ometi haige ei ole ehk — ega Sa ei taha kuppu laska, kui Sul ehk käiwad palawikud pääle —?
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(wihastades, ruttu). </stage>
+                        <p>Mis? palawikud? Kas Sa? <stage>(Korraga meele tuletates, lahkelt)</stage> Ma olen ikka ütelnud: Minul ikka on se kõige targem ja kõige hellem mees halli taewa all loodud! Kuida ta mind hellitab — nagu kanapoega! Ei Peetrikene, selle korra ma olen südamest terwe, ja se on kõik sest rõõmust Sinu tulusa talituse ja kauni lauba üle, ja et mul nii tark mees on! Ja millal Sa siis arwad Ennu Maie wõiwat õpetajale minna? Ja kas Sa oled ka rahapauna ilusaste ärapannud? Sina kallike: nüüd oleme jo rikkad! Selle korra "läks tõeks", Peetrikene! <stage>(Isepaika)</stage> Eks nad ole So omad sanad!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(higi otsa eest pühkides kõrwa poole).</stage>
+                        <p>Oh sina kallis õnnistus! Mis ma tale ütlen nüüd õiete?
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>5.</head>
+                    <stage>Endised. Maie (arglikult, õuest tulles).</stage>
+                    <sp who="#anne">
+                        <speaker>Anne. </speaker>
+                        <p>Ah näe! No, Maie tule siia laps, räägi taadile ära, mis m'e isekeskes kõnelesime: <stage>(kõrwa poolt)</stage> Juba ta on, nagu arwasime, ole aga julge nüüd! <stage>(Suure häälega)</stage> Kuida Sa wõtad, kede isa Sulle annab ja et Sa lähäd nüüd sellepärast Ennule!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(isepaika). </stage>
+                        <p>Oh, nüüd hakkab pääle!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>Tema ka? Tagaparemaks!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Ei tea, kui — <stage>(Ema poole, kõrwalt)</stage> Aga, kui ta mind wiimati töt arwab ütlewat!
+                        </p>
+                    </sp>
+                    <pb n="44"/>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(Maie sundides). </stage>
+                        <p>No loe ruttu, muidu rikud kõik ära! <stage>(Pöörab ära).</stage>
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(teda hõlmast hoides). </stage>
+                        <p>Eit, ära mine ära! <stage>(Otsib paberi põuest)</stage> Kuida ta oli nüüd? Kõik on mull jälle meelest läinud!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>Minu majas ei ole enam õige asi! Kõik on nad hulluks läinud!
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(Maie poole). </stage>
+                        <p>Sina oled ka üks jänese-saba! No loe ometi!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(loeb suure häälega ja watab aeg ajalt paberisse, keda ruttu selja taha peidab, kui isa ümber pöörab)</stage>
+                        <p>"Armas taat —" <stage>(Annest kinni hoides)</stage> Ema, ära mine ära!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Mis ae, laps?
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>No loe edasi!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(nagu ülemal). </stage>
+                        <p>"Armas taat! —"
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>No ega Sa Erastu Ennu wist ei taha jo, ei?
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(ruttu).</stage>
+                        <p>Ei — <stage>(Ema tõukab teda)</stage> Ema, kuida se nüüd oli? <stage>(Loeb jälle)</stage> "Mina olen koolis kuulnud —"
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Mis Sa oled koolis kuulnud?
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(nagu ülemal). </stage>
+                        <p>Loe nüüd!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Jah! "Et peab isa sana kuulma" —
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>No nüüd ta on seda kuulnud! Nüüe tahab ta seda kuulnud olla? Oh neid koola ka?
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(nagu ülemal). </stage>
+                        <p>Loe nüüd ometi! Eks Sa tea, mis Märt ütles?
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Jah küll! <stage>(Suure häälega)</stage> "Ja nüüd mina tahan seda wõtta, keda —"
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Keda Sa tahad wõtta? Männiku Märti?
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(ruttu). </stage>
+                        <p>Jah, jah! <stage>(Ema tõukab jälle)</stage> Kuida se jälle —? <stage>(Suure häälega)</stage> "Keda taat omast tarkusest mulle annab!" <stage>(Isepaika)</stage> Nüüd on wäljas! Oh se paberiwilets! <stage>(Wiskab nurka)</stage> Walelik! <stage>(Arglikult)</stage> Aga kui nüüd wiltu ei lähä?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>Sest saagu tont aru! Mõlemad pöörased!
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(suure häälega). </stage>
+                        <p>No nüüd Sa näed, mis hää laps Sul on ja kuida ma teda olen kaswatanud, et ta on, hm, näo poolest ja teo poolest oopis ma ise! Ja nüüd siis<pb n="45"/> Peetrike, oleme järje pääl ja wõime pulma wasta walmistada. Paljo Sul tangu weel järele wõib olla ja kus nad seiswad Sul?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(häda täis ja keeldes). </stage>
+                        <p>No mis Sa's pärid, küll ma annan Sulle ise! <stage>(kõrwa poole)</stage> Oh sa taewake, ikka need tangud!
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(wihastates, äkitselt). </stage>
+                        <p>Sina tahad ise mulle — <stage>(Meele tuletates)</stage> Ah so! — No eks Sa tea iseenese tarkusest! Mina loodan üsna Sinu pääle! <stage>(Rehe alla.)</stage>
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>6.</head>
+                    <stage>Peeter. Maie (ahjukartsa pääl istudes, kurwastab).</stage>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Jah, "nüüd siis, Peetrikene, oleme järgi pääl küll —" ja eks ma tea "iseenese tarkusest" ja "tema loodab üsna minu pääle!" Sina igawene heldus, kelle pääle siis nüüd mina pean lootma, kes ma iseenese tarkusest midagi ei tea? Usu Sina naisi! Esmalt huluwad nagu hullud ühe järele, ja pööra selga, siis tõise juba pistaks põue! Ja kui nüüd Anne aga ei lähä suure rehe alla ja ei leia säält? Ja kui aga Enn nüüd ei tule oma tähega: Sina heldene aeg! Ja Maie ka nagu see esimine wagane lambatall nüüd istub sääl? Ma küsin — ei ta ole ometi oopis nagu ema, et küll wanamoor kiidab — ometi ma küsin weel korra, kas ta siis tõeste seda Ennu nurjatumat wõtab? Enne ma teeks kes teab mis wõlga, mis teda selle wõrukaelale ei sunniks! Hmhm, Maie! <stage>(Kõrwa poole)</stage> Märt oleks ometi weel tõine lugu!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Jah taat? <stage>(Kartlikult kõrwa poole)</stage> Aga kui nüüd ei tule kõik wälja? Ta nimetas Märti paraegu!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Maie, pai laps, tule siia, ütle ometi —
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(nagu ülemal). </stage>
+                        <p>Sina kallike — kuhu ma ometi tahe wiskasin? <stage>(otsib maast.)</stage>
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Mis Sa otsid?
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(nagu ülemal). </stage>
+                        <p>Ei ühtigi!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Ütle ometi, laps, tule siia, räägi südame päält ära: ega Sa wist ei wõi teda sallida sugugi?
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>No jah, muidugi, Märdist räägib nüüd! <stage>(Suure häälega)</stage> Oh taat —
+                        </p>
+                    </sp>
+                    <pb n="46"/>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(ruttu). </stage>
+                        <p>Ta on Sulle õiguse pärast ikka wastameelt olnud, eks ole? Ja oled aga silmakirjaks ütelnud, et teda tahad, no jah? Nõnda on? Räägi, laps, wälja!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>Mina Märti silmakirjaks? <stage>(Suure häälega, pool nuttu all)</stage> Ei taat, see ei ole tösi! Mina teda silmakirjaks! Oh sina Jumaluke, kust seda mulle pidi tema kohta meele tulema? Mina armastan teda südame põhjast, taat, juba ammust ajast, ja wõtan teda kahe käega ja ei ole iial muu pääle mõtelnad ja maha ma teda elades ei jäta, taat, ei elades — enne ma hüppan ojasse — muidu mitte! <stage>(nuttab.)</stage>
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(ehmatand). </stage>
+                        <p>Tule Jumal appi, mis asju ta suust wälja ajab! Annel on ometi õigus: ta on nagu ema! See tahtis ka minu pärast ojasse hüpata korra — aga see on juba ammust ajast, — ja elab paraegu alles <stage>(Maie poole)</stage> Maie, laps, mis Sa nutad? Kust mina siis teadsin —? <stage>(Tõine poole)</stage> See laps on hull, püsti hull! Selle rõugenäo pärast ojasse hüpata! Kipub nüüd kahe käega, enne ei sallinud silma otsa! <stage>(Maie poole)</stage> Aga ütle Jumala pärast: mis Sa siis nii kord korralt tõisiti räägid?
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Nagu Sa — iseenese tarkusest tead, taat — <stage>(Kõrwa poole)</stage> Oh et nüüd mõni tuleks, muidu mo süda ei pea kõik kinni!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>So! Juba jälle mo enese tarkus! See maja on kõik täna hulluks läinud!
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>7.</head>
+                    <stage>Endised. Jüts (tuppa tungides).</stage>
+                    <sp who="#juets">
+                        <speaker>Jüts. </speaker>
+                        <p>Maie, ae, kas on tõsi? Ütle mulle suu sisse, kui Sa julged?
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Mi — mis asi?
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts. </speaker>
+                        <p>Kas Sa wõtad Erastu Ennu, mis? Häbbene ennast!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Aga — Jüts — pois —
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts. </speaker>
+                        <p>So? Kas Sa mulle ei ole ütelnud ikka, et ei pea mitte waletama? Ja kas ma ei tea, et Sa oled Märdile lubanud minna? Ja nüüd Sa pead Ennu tahtma?<pb n="47"/> See on wale ja kes waletab see warastab, seda on koolmeister ütelnud, ja kas ma nüüd Sinu pärast need uued pastlad pean kaotama? Ja seda ma Sinust mitte ei oleks uskunud — uih!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(kõrwa poole).</stage>
+                        <p>See on see esimine tark sana, mis ma täna kuulen! Ei tea, kas see "iseenese tarkusest" ka peaks olema?
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(waigistates). </stage>
+                        <p>Kuule ometi, Jüts, kuule —
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts </speaker>
+                        <stage>(paha meelega). </stage>
+                        <p>Midagi ma ei kuule! Kui Sa nii pime wõid olla, siis ma Sind ka enam ei usu — ja ma annaks parem pastlad muidu Kure-onule ära, kui ma seda Sinust ei näeks!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>Seda poissi ma jätan weel wähemalt tõise küünlapääwani kooli!
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts </speaker>
+                        <stage>(urisetes). </stage>
+                        <p>Ja nad otsiwad teda juba kohtuga taga, kas seda Sina wõtad weel?
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Tule 'ä Jüts! <stage>(Wiib teda kõrwale ja seletab salaja midagi).</stage>
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts </speaker>
+                        <stage>(suurel silmil). </stage>
+                        <p>Ptüii —?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>Ma näen nüüd, ma oleks paremine Jütsi käest wõinud nõuu wõtta, kui Ennu käest! Aga mis see nüüd enam aitab?
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts </speaker>
+                        <stage>(Maie poole). </stage>
+                        <p>Oota — siis — nüüd ma tean, kuida ma Sind aitan! Mina olen mees ja need uued pastlad — need saawad kaa! <stage>(Tõttab õuue.)</stage>
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>No mis tuhin tal nüüd jälle taha tõusis?
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>8.</head>
+                    <stage>Endised. Märt. (Pärast poole) Anno.</stage>
+                    <sp who="#maert">
+                        <speaker>Märt. </speaker>
+                        <p>Soowin tere õhtust, siit pererahwas!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Tere — tere! — <stage>(Kõrwa poole)</stage> Weel paremaks!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(ruttu wasta minnes kõrwa poole). </stage>
+                        <p>Tänu Jumalale. Sind läks tarwis! Märt. mina enam sellega õigeks ei saa — kaksu nüüd ise korrutada! <stage>(Seletab ruttu midagi salaja paberi tüki pääle maas näidates, siis tõtab rehe alla ära.)</stage>
+                        </p>
+                    </sp>
+                    <pb n="48"/>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>So! Nüüd lähäb lugu weel ilusamaks käes! Paneb nagu tuul pakku tõise eest! Oh teie naised! No, hm, särane mul'k! <stage>(Korraga)</stage> Pea, kui tema wast aitab mind? <stage>(Argselt pääd wangutates)</stage> Ei usu! Nägu tal tõsine pääs: ta ehk <stage>(ehmatates)</stage> tuleb selle sõimamise pärast ja süda täis sees?
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>Peetri-onul kärbes kõrwas sirisemas: ootame, mis tuleb. <stage>(Suure häälega)</stage> Mäeotsa-peremees, mis ma pidin ütlema —
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(lahkelt). </stage>
+                        <p>No eks tule ometi lähemale, Märt, mis Sa nii ukse ääres seisad! Istu ometi maha, siin on iste! <stage>(Kõrwa poole)</stage> Ega ma ometi nagu karuohakas wõi olla wõera inimese wasta!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt. </speaker>
+                        <p>Olge terwe, aga mis ma pidin ütlema: ärge kartke, Mäeotsa peremees, ega ma Teid meie endise asja pärast waewama ega wihastama ei tule, see on nüüd otsas.
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>No seda ma kartsin, see ka helle juba minu wasta! <stage>(Suure häälega nagu ülemal)</stage> Armas Märt, ega mina ka nii kerme ei ole kaebama selle üle ja noored rahwas ikka noored rahwas ja mõnel mõttel ka oma õigus Jumalast loodud!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>So, so, kae kae! <stage>(Suure häälega)</stage> No muidugi, Mäeotsa-peremees, ja sellepärast oleme äraarwanud et andke oma tütar pääle kellele iseenese tarkusest teate, mina tema õnnele ei taha risuks ees olla.
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>Tagaparemaks! See on nüüd see kolmas: minu enese ja ikka minu enese tarkus! kus ta on siis nüüd? <stage>(Suure häälega)</stage> Aga Märt, kuule Märt, teie noored inimesed olete ka nagu tulesädemed takkus warsi! Eks T'e wõi ka meitest wanadest märku wõtta? <stage>(Kõrwa poole)</stage> Kuida ma nüüd küsin tema käest? <stage>(Suure häälega)</stage> Waata, kui mina ei oleks nii pitkameeleline, ja kui ma ei annaks Sulle — aga se Aluste talu? <stage>(Ikke suuremas hädas)</stage> Ja Maie — ja need odrad — ja need tangud — ja Enn — ja — ja — oh mo waene pää on püsti segane otsas kõigest sest asjast!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(kõrwa poole). </stage>
+                        <p>Seda ma näen! Aga lugu on joonel, nüüd aga edasi! <stage>(Suure häälega)</stage> Ah, sääl tuleb mulle<pb n="49"/> meele, wilja pärast ma just Teie poole tulingi! Ma kuulen, et Teil odre peab olema: Kas Teie ei wõiks wast müüa mulle? <stage>(Anne astub tuppa)</stage> Olen lubanud wäe kasarmu linna muretseda üks arwata 100 wakka; aga mo oma ait ei jätku nii pitkalt. Saan hää hinna: 3 rubla wakast.
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(kes poole hingega kuulatanud). </stage>
+                        <p>Odre? Odre, ütled Sa? Odrawilja? <stage>(kõrwa poole)</stage> Ja eile minul, eile weel oli!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(pitkalt). </stage>
+                        <p>Ei, wilja nüüd just mitte walmis peab olema, jahwatatud.
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(nagu ülemal). </stage>
+                        <p>Ja — miseks? Jahuks wõi?
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(Silmapilk wait siis wagusi). </stage>
+                        <p>Tanguks!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(hõisates). </stage>
+                        <p>Tanguks? Tõeste tanguks?
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(lähemale tulles). </stage>
+                        <p>No, Peeter, mis Sa siis nönda kisendad? <stage>(Märdi poole).</stage> Meil "sugu" küll oli weel ise järele, mis mo mees iseenese tarkusest tagawaraks pani, aga seda meie küll mitte ei raatsi ära anda!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(Anne poole). </stage>
+                        <p>So? Tagaparemaks? Ikka hullem! <stage>(Suure häälega)</stage> Miks ei? Miks m'e ei pea naabri Märti aitama, kui tal häda käes on? See on meie ligimese kohus <stage>(kõrwa poole)</stage> Oh seda naist nüüd siin põigiti ees!
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(Peetri poole). </stage>
+                        <p>Aga mõtle, Ennu Maie pulmad! <stage>(Suure häälega)</stage> No see on küll tõsi, ja anna siis pääle kui Sa arwad omast tarkusest, Märt, ometi mitte alla 8 rubla 20 kopikat püt, wähem mitte!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(kõrwa poole).</stage>
+                        <p>Sina armas ja Issand — kui ma ometi temast siit eest lahti saaks! <stage>(Anne poole)</stage> Aga naine, mis Sulle meele tuleb? Kes Sulle selle hirmsa hinna annab?
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(Peetri poole). </stage>
+                        <p>No kas Sul unund juba? <stage>(Suure häälega)</stage> Jah, seda on minu mees linnast saanud, ja alla selle meie ei müü! <stage>(Peetri poole)</stage> Kas Sa sellele hakkad "sugu" kallist wilja äraraiskama, mis meile jäänud weel? Särane mul'k!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(pahandates). </stage>
+                        <p>Mul'k — mis mul'k? Aga kuule ometi! Sina ei tea, see on jo kaunis suur "sugu", mis meile järele jäänud! <stage>(Südame rindu wõttes, kõrwa poole)</stage> Pea! <stage>(Anne poole)</stage> Ole Sina wait, Anne, kui mina iseenese tarkusest midagi teen!
+                        </p>
+                    </sp>
+                    <pb n="50"/>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(kärgates). </stage>
+                        <p>Mis? Ah soo? Kas näe imet! Sina iseenese tarkusega mine kassi saba alla! Saab näha, kelle koera Sa kutsud ahju alt wälja temaga — ja — waata meest! Ime pärast!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(kerge südamega). </stage>
+                        <p>See oli minu õige Ann! Tänu Jumalale, seda ma tunnen!
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>9.</head>
+                    <stage>Endised. Enn. (pärast) Maie.</stage>
+                    <sp who="#enn">
+                        <speaker>Enn </speaker>
+                        <stage>(põrutates). </stage>
+                        <p>So! Siin Sinu täht, ja nüüd tüdruk siia, warsi, jala päält! Ma olen Sulle lubanud tagasi tulla ja siin ma olen nüüd! Raha wõi Maie! Ruttu! Otsi!
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(imestates). </stage>
+                        <p>Aga Peeter, mis see siis on?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(arg ja kohkund). </stage>
+                        <p>Oh sa heldene aeg, nüüd lähäb tõeks! <stage>(kahtlates)</stage> Aga Enn — mis Sa siis nüüd? — Wõta ometi aru pähä — anna aega, kuni ma otsin raha!
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn </speaker>
+                        <stage>(nagu ülemal). </stage>
+                        <p>Mitte minutit! Mina tahan Teile näidata, oodake aga! "Otsid?" Sina wana petis! Nagu ma ei tea, et Sul punast kopikat ei ole kodu! Maie siis wälja! Seda ma tahan! Sinu rahast ma midagi ei hooli! Wälja tüdruk!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt. </speaker>
+                        <p>Mis asi see on?
+                        </p>
+                    </sp> 
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(argselt). </stage>
+                        <p>See on jo hoopis tõe-asi, Jumal hoidku!
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn </speaker>
+                        <stage>(nagu ülemal). </stage>
+                        <p>Oh Sa usud, et ma nalja pärast ja naiste pärast aga kirja panin? Ei, wenike! Kohtu abiga, kui muu nõuu ei aita! Mis seisab siin?
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(ette tulles). </stage>
+                        <p>No mis seisab siis siin?
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn </speaker>
+                        <stage>(pilgates). </stage>
+                        <p>Oh oled Sina mul'k ka siin? No loe ise nüüd, mis asi Sinu silmatera enam ei päästa minu pihust! Maie ae — <stage>(ukse poole)</stage> siia Maie!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(tuppa tulles). </stage>
+                        <p>Jumala pärast, mis siin on?
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(loeb suure häälega). </stage>
+                        <p>"Ja kui ta mitte seda raha, 125 rubla, Ennule selsamal pääwal wälja ei maksa, temale kui auusa mehele peab oma tütre Maie jala päält kaasa andma, et temaga õpetaja juure lähab, laulatse pärast. Seda ma luban kindla sanaga, Mäeotsa Peeter Pint." Kolm risti all. Öige kõik. <stage>(Wiskab paberi laua pääle).</stage>
+                        </p>
+                    </sp>
+                    <pb n="51"/>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Issa pojuke! <stage>(Langeb istme pääle)</stage> Mis see tähendab, eit? Eit, mis see on?
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(kohkund). </stage>
+                        <p>Mina olen niisama tark! Oh sa Jumal, ta on weel mõne kõrwalise tembu walmis teinud!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(arglikult Märdi poole). </stage>
+                        <p>Ja kas need ristid maksawad, Märt? Ütle õigust, Märt — Sind ma usun!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(libedalt). </stage>
+                        <p>Jah, nüüd usute mind, peremees! Miks nad ei pea maksma? See kawal kõis siin on targem olnud: ei usaldanud mitte Teie mehesana üksi, tegi warsi kirja walmis! Seda ma mitte ei oleks Teitest uskunud, et oma lihast last kontrahiga ärakauplete! Seda ei tee mul'gid mitte!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(ühtlase). </stage>
+                        <p>Mis?
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(ühtlase). </stage>
+                        <p>Kuida?
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn </speaker>
+                        <stage>(tapeldes). </stage>
+                        <p>No kas saab wahest?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(hädas). </stage>
+                        <p>Aga Enn — aga Märt — Jumala pärast — kuule Märt, see oli jo tema üteldes kõik silmakirjaks ja nüüd, kui ma nägin, mis loom ta oli ja et Maie teda siiski kahe käega tahab —
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie </speaker>
+                        <stage>(ühest suust). </stage>
+                        <p>Mina? Teda?
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(ühest suust). </stage>
+                        <p>Maie? Ennu?
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn </speaker>
+                        <stage>(ühest suust). </stage>
+                        <p>Mind?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>No kas Sa mulle nuttes ei ütelnud paraegu?
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Ennu? Enne ma hüppan ojasse!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Jälle juba? Oh teie naised hullud! <stage>(Pääd kinni hoides)</stage> Oh mo waene pää otsas!
+                        </p>
+                    </sp>
+                    <sp who="#enn">
+                        <speaker>Enn </speaker>
+                        <stage>(Maie poole). </stage>
+                        <p>Küll ma Sind kinni pean, kaunikene, et Sa muiale ei hüppa, kui minu hõlma! Tuled Sa, ehk ei? Tõie kõik peate mulle äratasuma, mis nad tõised minu südame on sappi täis ajanud! Siia! <stage>(Tõmbab Maie oma poole; sel silmapilgul lendab ta ise Märdi käe läbi tagaspidi ja õueuks lähäb lahti).</stage>
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt. </speaker>
+                        <p>Tagasi, tigepõis!
+                        </p>
+                    </sp>
+                </div>
+                <pb n="52"/>
+                <div type="scene">
+                    <head>l0.</head>
+                    <stage>Jüts (tõttab tuppa. (Pärast) Kirjutaja ja Kure-Aadu.</stage>
+                    <sp who="#juets">
+                        <speaker>Jüts </speaker>
+                        <stage>(Maie poole joostes, Ennu wastu)</stage>
+                        <p>Sina —! Kas Sa jätad mo Maie rahule, mis? Oota! Sinu pärast ma oleks teda kõige uue pastaldega kaotanud. <stage>(Maie poole)</stage> Tule ä', Maie, juba nad otsiwad teda taga, ma olen ütelnud, et ma Sind aitan, ja mees peab sana; ja kui kirjutaja küsis, kus ta on, warsi ma ütlesin: "meil!" Kae, säält tulewadki! Oota nüüd!
+                        </p>
+                    </sp>
+                    <sp who="#kirjutaja">
+                        <speaker>Kirjutaja </speaker>
+                        <stage>(suur paber käes). </stage>
+                        <p>Kes on siin Erastu Enn? Taluperemees? 24 aastat wana, poismees?
+                        </p>
+                    </sp>
+                    <sp who="#maert #maie #anne #peeter #aadu">
+                        <speaker>Kõik. </speaker>
+                        <p>Tema sääl!
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts. </speaker>
+                        <p>Tema, sääl, pai kirjutaja!
+                        </p>
+                    </sp>
+                    <sp who="#kirjutaja">
+                        <speaker>Kirjutaja. </speaker>
+                        <p>Sind m'e otsime! <stage>(Loeb)</stage> "Nekrudi komissjoni nõudmise pääle kässib Arusaare wallawalitsus igaühte, kes talupoega Erastu Ennu näeb, keda wannutatud tunnistajate sõna järele nähtud iseennast wigaseks tehtawad oma parema põidla maharaiumisega, — et ennast kroonu tenistusest lahti petta; — sedasinast kroonu ja walla ülekohust petjat ise ehk külakasaka abiga, kus teda nähakse, jala päält kinni wõtta ja kohtu kätte teenitud nuhtluse ja pettuse palga alla heita! Arusaare kogukonna kojas,
+                            <lg>
+                                <l>Wallawanem O. Kaas.</l>
+                                <l>Kirjutaja M. Patterson."</l>
+                            </lg>
+                        </p>
+                    </sp>
+                    <stage>(Kõik wait. Enn on järk järgult madalamasse langenud.)</stage>
+                    <sp who="#kirjutaja">
+                        <speaker>Kirjutaja. </speaker>
+                        <p>Kasak, täida oma kohut!
+                        </p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu. </speaker>
+                        <p>Tule, Enn! <stage>(Peetri poole)</stage> No Peeter — mis ma ütlesin? Mina, wallaametnik! Täna Sa Jumalat, Peeter!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Ometi! Ometi! Ja niisugusel ajal just!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(tuleb ette poole). </stage>
+                        <p>Siin, Enn, siin on Sinu raha; 125 rubla; Sa ei pea mitte ütlema, et Sa omast oled ilma jäänud! Mull oli küll pitk aru weel äraarutada Sinuga, aga Sinu nuhtlus on warem ja raskem tulnud So enese läbi, kui tõine Sulle oleks wõinud pääle panna! Jäägu siis niisamati ja Jumalaga!
+                        </p>
+                    </sp>
+                    <stage>(Enn ees, kirjutaja taga, õue, nende pääle Aadu, kes aga läwelt weel tagsi põõrab ja Märdi hõlmapidi ette wiib.)</stage>
+                    <pb n="53"/>
+                    <sp who="#aadu">
+                        <speaker>Aadu </speaker>
+                        <stage>(hääl tujul). </stage>
+                        <p>Pulmaks ikka palud w'a kosilase ka, Märt? Eks ma ole wallaametnik ikka! Jumalaga!
+                        </p>
+                        <stage>(Lähab tõiste järele.)</stage>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(niisamati) </stage>
+                        <p>Muidugi, muidugi! Jumalaga!
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>11.</head>
+                    <stage>Endised (ilma Ennu, Aadu ja kirjutajata).</stage>
+                    <sp who="#juets">
+                        <speaker>Jüts </speaker>
+                        <stage>(rõõmsaste). </stage>
+                        <p>Maie, ae! Nüüd Sa oled temast lahti! Paras tale!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Uih, häbene, ta waene mees ei ole nüüd õnnes ühti enam, siis ei pea ka ässitama enam!
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne. </speaker>
+                        <p>Jah sina kallikene, kuida küll see Jumala nuhtlus wõib kaela tulla! Ja nüüd seda muud weel —
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(kukalt sügades). </stage>
+                        <p>Jah, seda muud — Aga Märt, <stage>(kindlalt)</stage> ma ütlen Sulle: Sa oled esimine mees — mees, mis ütelda, ja see 125 rubla — ja need tangud — ma tänan, — ma tänan Sind, Märt, jah, südamepöhjast tänan, tänan! Ja ma ütlen ka puhta sanaga: Ma ei olnud seda mitte ärateeninud Sinust! Ja ma ei taha neid mul'ka iial enam sõimata, neil on mis ütelda — nüüd mitukord rohkem pääd, kui — kui — hmm — no, mis ma sest nüüd arutan! Jah, ja kui Sind mitte Maie nõnda ei põlgaks — ma wõtaks Sind wäimeheks jala päält, ilma kaalumata ja ilma paberitäheta!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt. </speaker>
+                        <p>Põlgaks? Maie? Mind?
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Põlgaks? Mina teda? Aga taat — aga kust ma teda siis põlgan? Ma — ma lähän tale jo kahe käega!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter. </speaker>
+                        <p>Jälle? <stage>(Kärgates)</stage> Tont saagu Sinust aru! Paraegu tahtsid tema eest ojasse hüpata!
+                        </p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie. </speaker>
+                        <p>Oh — taat — see — see — see oli ja see tõine!
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt </speaker>
+                        <stage>(teda silitades). </stage>
+                        <p>Kassipoeg! <stage>(Tõiste poole)</stage> Et me' nüüd just kontrahtide-lugemisel oleme, tahaksin Teile ka ühe näidata, Peetri-onu, mis täna olen teinud! Jüts, hää pois, tule siia, loe ometi!
+                        </p>
+                    </sp>
+                    <pb n="54"/>
+                    <sp who="#juets">
+                        <speaker>Jüts </speaker>
+                        <stage>(heal meelel). </stage>
+                        <p>Tema ütleb ikka: "hää pois!" Näe, siin! <stage>(Loeb)</stage> "Kontraht, mis Männiko Märdi ja Aluste talu omaniku Andres Kase wahel lepitud. — § 1. Märt Männik ostab Aluste talu kõige liikumata waraga tänasel pääwal oma ja oma järeltulijate päriseks —" <stage>(laseb lehe maha kukkuda ime pärast).</stage>
+                        </p>
+                    </sp>
+                    <sp who="#peeter #anne #maie #juets">
+                        <speaker>Kõik. </speaker>
+                        <p>Taewake! Aluste jälle!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(hõisates). </stage>
+                        <p>Märt ae! Oh Sina tuline pois! See on mulle üks südamerõõm! Tõeste? Tõeste wõi?
+                        </p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt. </speaker>
+                        <p>Tõeste! Teie mulle jo muidu Maie ei lubanud!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(nagu ülemal). </stage>
+                        <p>Wõta teda, wõta teda, Märt,... Maie, seda Sa tead, et Sa nüüd temale pead minema — temale ma Sinu annan iseenese tarkusest — ei — ei — mitte nõnda — No üks puhas! Aga et Sa seda teinud, Märt, see oli üks temp, Sina tuline, tuline pois! Aluste! Aluste! Annekene, kas Sa kuuled ka? Särane pois on see Märt! Aluste!
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne </speaker>
+                        <stage>(hääl meelel). </stage>
+                        <p>No jah, ja kae, Peeter, — see tangulugu, — ja see 125 rubla <stage>(noomides)</stage> Ja see tuleb kõik sest "iseenese tarkusest" ja et Sa ei kuule minu sana, ja — et need tangud sääl rehe all on —
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(imeks pannes). </stage>
+                        <p>Seda Sa tead ka?
+                        </p>
+                    </sp>
+                    <sp who="#anne">
+                        <speaker>Anne. </speaker>
+                        <p>Miks ep tea's?
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(rõömus). </stage>
+                        <p>Oh teie kelmid kõik! Aga see oli mulle paras: kes mind käskis seda wõrukaela sõbraks walitseda! Märti, Maie, lapsed: Jumal andku Teile õnne — ja et nüüd kõik nii ilusaste on tulnud ja et need tangud ja et see Enn — — Anne! Wiinad siia! Elagu meie noor paar, hurra! <stage>(kõik hüüdwad järele).</stage>
+                        </p>
+                    </sp>
+                    <sp who="#juets">
+                        <speaker>Jüts </speaker>
+                        <stage>(warna poole). </stage>
+                        <p>Ja nüüd on need minu pastlad jälle! <stage>(wõtab nad warna otsast maha)</stage> A' olete mulle pääwalu küllalt teinud!
+                        </p>
+                    </sp>
+                    <sp who="#peeter">
+                        <speaker>Peeter </speaker>
+                        <stage>(ette poole astudes). </stage>
+                        <p>Ja nüüd on kõik hää: aga ühe sana ma pean weel ütlema lõpetuseks: Tarkus ei tule oma ega wõera, ei kodusest ega mul'gi nimest, seda wõib nüüd igaüks näha; waid tuleb sest, kuida igaüks seda pääd, mis Jumal temale õlale loonnd, seestpidi kohe hoiab ja harib!<pb n="55"/> Ja need "sadawakka tangusoola" oleks mind kes teab mis õnnetuse sisse uputanud, kui "särane mul'k" mulle 'poleks õigel ajal appi tulnud! Ja oma Jütsi jätan ma kooli weel, ega see tarkus teda weel ei söö! Aga — mis ma pidin ütlema: Paremaks ikka jäägu kõik see tänane asi nüüd siia meie oma wahele, et hm, — hm, et see "Postimees" teda aga teada ei saa, see, hm, see kannaks teda kõige maailma kaudu: mis suur hulk sest peab teadma? Eks ole nii? Seda teen weel wiimast korda iseenese tarkusest!
+                        </p>
+                    </sp>
+                    <stage>(Wahekate langeb maha.)</stage>
+                    <note>Lõpetus.</note>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
