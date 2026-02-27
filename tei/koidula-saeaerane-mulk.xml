@@ -106,15 +106,15 @@
                     <titlePart type="main">Särane Mul'k</titlePart>
                     <titlePart type="sub"><lb/>ehk<lb/>Sada wakka tangusoola.</titlePart>
                 </docTitle>
-                <byline><lb/>"Saarema Onupoja" kirjutajast.</byline>
-                <note><lb/>Ümbertõlkimine tõiste keeledesse on ärakeeltud.</note>
+                <byline>"Saarema Onupoja" kirjutajast.<lb/></byline>
+                <note>Ümbertõlkimine tõiste keeledesse on ärakeeltud.</note>
                 <docImprint>
                     <pubPlace><lb/>Tartus, </pubPlace>
                     <date>1872,</date>
-                    <publisher><lb/>Trükitud W. Gläseri juures</publisher>
+                    <publisher><lb/>Trükitud W. Gläseri juures<lb/></publisher>
                 </docImprint>
                 <pb n="2"/>
-                <imprimatur>Tsensuri poolest lubatud. - Riga, 26. Oktobril 1871.</imprimatur>
+                <imprimatur>Tsensuri poolest lubatud. - Riga, 26. Oktobril 1871.<lb/></imprimatur>
                 <docImprint>
                     <publisher>Drud von W. Gläser</publisher>
                     <pubPlace>in Dorpat</pubPlace>

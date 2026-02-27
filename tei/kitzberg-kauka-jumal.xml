@@ -176,18 +176,18 @@
                 <docTitle>
                     <titlePart type="main">Kauka Jumal</titlePart>
                 </docTitle>
-                <docEdition>Teine trükk</docEdition>
+                <docEdition>Teine trükk<lb/></docEdition>
                 <docImprint>
-                    <date>1925</date>
+                    <date>1925<lb/></date>
                     <publisher> G. Rohti trükk ja kirjastus,</publisher>
                     <pubPlace>Tartus</pubPlace>
                 </docImprint>
+                <pb n="4"/>
+                <note>
+                    <p>Etendamise loa eest on autorile tasuda: esietenduse eest 10 protsenti, kordamiste eest ühel ja selsamal kohal 5 protsenti brutto sissetulekust. Ilma loata etenduse eest hoiatatakse.</p>
+                    <p>Autori aadress: A. Kitzberg, Tartus.</p>
+                </note>
             </titlePage>
-            <pb n="4"/>
-            <div type="copyright_page">
-                <p>Etendamise loa eest on autorile tasuda: esietenduse eest 10 protsenti, kordamiste eest ühel ja selsamal kohal 5 protsenti brutto sissetulekust. Ilma loata etenduse eest hoiatatakse.</p>
-                <p>Autori aadress: A. Kitzberg, Tartus.</p>
-            </div>
             <pb n="5"/>
             <castList>
                 <head>Osalised:</head>

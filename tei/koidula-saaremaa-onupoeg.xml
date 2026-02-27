@@ -89,21 +89,15 @@
                     <titlePart type="main">Saaremaa Onupoeg</titlePart>
                     <titlePart type="sub">Eestikeele näitemäng</titlePart>
                 </docTitle>
-                <note>
-                    <p>Mängitud kõigeesmalt Tartu "Wanemuine-seltsis"</p>
-                    <date>Jaanipääwal 1870.</date>
-                </note>
+                <note>Mängitud kõigeesmalt Tartu "Wanemuine-seltsis"<lb/><date>Jaanipääwal 1870.</date></note>
                 <docImprint>
-                    <pubPlace>Tartus, </pubPlace>
-                    <date>1870</date>
-                    <publisher>Trükitud W. Gläseri juures</publisher>
+                    <pubPlace><lb/>Tartus, </pubPlace>
+                    <date>1870.<lb/></date>
+                    <publisher>Trükitud W. Gläseri juures<lb/></publisher>
                 </docImprint>
+                <pb n="2"/>
+                <imprimatur>Tsensuri poolest lubatud.<lb/>Riigas 13. Jaanikuu pääwal 1870.</imprimatur>
             </titlePage>
-            <pb n="2"/>
-            <div type="copyright_page">
-                <p>Tsensuri poolest lubatud.</p>
-                <p>Riigas 13. Jaanikuu pääwal 1870.</p>
-            </div>
             <pb n="3"/>
             <castList>
                 <head>Mängijad.</head>
