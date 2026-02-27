@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="est000004" xml:lang="et" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Kapsapää</title>
+                <title type="sub">Nali ühes waatuses</title>
+                <author>
+                    <persName>
+                        <forename>Oskar</forename>
+                        <surname>Luts</surname>
+                        <idno type="wikidata">Q2005705</idno>
+                    </persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>DIGAR Digital Archive</name>
+                    <idno type="URL">http://www.digar.ee/id/nlib-digar:37371</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                        </availability>
+                </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>Oskar</forename>
+                            <surname>Luts</surname>
+                            <idno type="wikidata">Q2005705</idno>
+                        </persName>
+                    </author>
+                    <title type="main">Kapsapää</title>
+                    <title type="sub">Nali ühes waatuses</title>
+                <date when="1913">1913</date>
+                <publisher>Postimees</publisher>
+                <pubPlace>Tartu</pubPlace>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person sex="FEMALE" xml:id="elisabet">
+                        <persName>Elisabet</persName>
+                    </person>
+                    <person sex="FEMALE" xml:id="kroot">
+                        <persName>Krõõt</persName>
+                    </person>
+                    <person sex="MALE" xml:id="saegi">
+                        <persName>Sägi</persName>
+                    </person>
+                    <person sex="FEMALE" xml:id="maali">
+                        <persName>Maali</persName>
+                    </person>
+                    <person sex="FEMALE" xml:id="roosi">
+                        <persName>Roosi</persName>
+                    </person>
+                    <person sex="MALE" xml:id="pliuhkam">
+                        <persName>Pliuhkam</persName>
+                    </person>
+                    <person sex="MALE" xml:id="jueri">
+                        <persName>Jüri</persName>
+                    </person>
+                    <person sex="MALE" xml:id="kusti">
+                        <persName>Kusti</persName>
+                    </person>
+                    <listRelation>
+                        <relation name="parent_of" active="#roosi #pliuhkam" passive="#elisabet"/>
+                        <relation name="lover_of" active="#saegi" passive="#elisabet"/>
+                        <relation name="spouses" mutual="#pliuhkam #roosi"/>
+                        <relation name="parent_of" active="#kroot" passive="#maali #kusti"/>
+                        <relation name="associated_with" active="#jueri #kroot" passive="#pliuhkam"/>
+                    </listRelation>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listRelation>
+            <relation name="wikidata" active="https://dracor.org/entity/est000004" passive="http://www.wikidata.org/entity/Q55973128"/>
+        </listRelation>
+        <listEvent>
+            <event type="print" when="1913">
+                <desc/>
+            </event>
+            <event type="premiere" when="1912">
+                <desc/>
+            </event>
+        </listEvent>
+    </standOff>
+    <text>
+        <pb n="1"/>
+        <front>
+            <titlePage>
+                <docAuthor>O. LUTS</docAuthor>
+                <docTitle>
+                    <titlePart type="main">KAPSAPÄÄ</titlePart>
+                    <titlePart type="sub">NALI ÜHES WAATUSES</titlePart>
+                </docTitle>
+                <pb n="2"/>
+                <note>Etendamise luba annab tüki kirjutaja<lb/>Adress: O. Luts, Tartus.</note>
+                <pb n="3"/>
+                <docTitle>
+                    <titlePart type="main">KAPSAPÄÄ</titlePart>
+                </docTitle>
+                <pb n="4"/>
+                <docAuthor>O. LUTS</docAuthor>
+                <docTitle>
+                    <titlePart type="main">KAPSAPÄÄ</titlePart>
+                    <titlePart type="sub">NALI ÜHES WAATUSES</titlePart>
+                </docTitle>
+                <docImprint>
+                    <publisher>EESTI KIRJAST.-ÜHISUSE "POSTIMEHE" TRÜKK<lb/></publisher>
+                    <pubPlace>TARTUS</pubPlace>
+                    <date>1913</date>
+                </docImprint>                
+            </titlePage>
+            <pb n="5"/>
+            <pb n="6"/>
+            <castList>
+                <head>OSALISED:</head>
+                <castItem>
+                    <role>SAMUEL PLIUHKAM, </role>
+                    <roleDesc>taluperemees.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>ROOSI, </role>
+                    <roleDesc>tema naene.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>ELISABET, </role>
+                    <roleDesc>nende tütar.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>TÕNIS SÄGI, </role>
+                    <roleDesc>noor taluperemees, Elisabeti peigmees.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>KRÕÕT, </role>
+                    <roleDesc>saunanaene Pliuhkami saunas.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>KUSTI, </role>
+                    <roleDesc>tema 7-aastane poeg.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>MAALI, </role>
+                    <roleDesc>tema 5-aastane tütar.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>JÜRI, </role>
+                    <roleDesc>sulane Pliuhkami juures.</roleDesc>
+                </castItem>
+            </castList>
+            <set>
+                <p>Aeg: Olewik.</p>
+                <p>Koht: Pime nurk Eestis.</p>
+            </set>
+        </front>
+        <pb n="7"/>
+        <body>
+            <div type="act">
+                <div type="scene">
+                    <stage>Tagakamber Pliuhkami talus. Akna all laua pääl põleb i-päälamp. Roosi kohendab kapi juures. On kuulda, kuidas keegi õuest ettekambrisse tuleb. Roosi kuulatab.</stage>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <stage>(Tuleb eestkambrist tahakambrisse.)</stage>
+                        <p>Tere õhtat kah!</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <p>Tere õhtat! Tere õhtat! Ei tunnud esite ärägi, et ei tea, kes sal on. Lambiraisk kah nagu lõpnud sia silm. Ärgitan teest küll juba ammugi puruks wisata, aga kahju ikke raipest nagu. Eks sa tule tahapoole. <stage>(Annab tooli. Sagi istub.)</stage></p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Kas teie rahwast kodu ei olegi?</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <stage>(Paneb suurema lambi põlema ja kustutab wäikese ära.)</stage>
+                        <p>On küll. Wanamees wisas ahju taha pikali... ja ei tia, kuhu see Liispet siit <pb n="8"/> wälja läks. Küll ta tuleb. <stage>(Hõikab.)</stage> Wanamees, kuule! Tule üles!</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <stage>(Ahju tagant.)</stage>
+                        <p>Mes sal on?</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <p>Tule, tule üles! Tõnis on siin.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Ahah!</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Tere õhtat!</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Tere, tere! <stage>(Tuleb ahju tagant wälja, teretab Sägit kättpidi ja istub kõhtu sügades laua juurde. Ta on särgiwäel ja palja jalu.)</stage> Noh ?...</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Ma tulin waatama, mis te siin teete. Kas pühaba wäljanäitusele lähte kah? Pühaba on Paunweres wäljanäitus. Säh, ma tõin sulle natuke... <stage>(Wõtab wiinapudeli taskust wälja ja annab Pliuhkami kätte.)</stage></p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Attäh! Ah wäljanäitus wõi? <stage>(Hakkab pudelit lahti tegema.)</stage> Öeldasse, olema jah teene... Kas sa lähed?</p>
+                    </sp>
+                    <pb n="9"/>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Jah, ma ikke tahtsin minna küll. Tahan isegi paari asja wiia. Wiiwad jo ikke teesed kõik, ma katsun õige kah: wahest ehk annawad mõne au-inna wõi kiitusekirja. Nää, Ülesoo Mihkel wiis minewaasta kartulid ja kapsid — sai wiis rubla ja kiitusekirja. Kah asi!</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Aa, wõi wiis rubla ja kiitusekirja sai? <stage>(Roosile.)</stage> Too meile salt klaas. <stage>(Roosi läheb ettekambrisse.)</stage> Noh, miks ta asi ei ole. See on ju nigu maast leitud. Mis sa sinna wiid?</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Ma wiin kah kartulid ja... Mul on sal mõni kanis suur kapsapia kah... Otsin suuremad wälja ja...</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Noo-jah, nemad teawad's, wast on kõik nii suured.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <stage>(Tuleb klaasidega.)</stage>
+                        <p>Ütle nüid, neid kärpse-kurjawaimusid saab kah igale poole. Nüid ronind teesed siia kah sisse ja kuiwand klaasi külge kinni. <stage>(Pühib klaasi põllenukaga puhtaks ja paneb laua pääle.)</stage></p>
+                    </sp>
+                    <pb n="10"/>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <stage>(Walab wiina.)</stage>
+                        <p>Kuule, Tõnis wiib oma kapsad ja kartulid Paunweresse wäljanäitusele.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <p>Woheh?</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Jah, aga Ülesoo Mihkel on minewaasta wiis rubla raha ja kiitusekirja saand. <stage>(Joob ja täidab klaasi uuesti täis.)</stage></p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Jah, sai küll. Kiitusekiri on praegugi teesel tagakambris seena pial. Kõik ilusti: raam ümber, klaas pial ja...</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Aa? No joo n'd ise kah.</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <stage>(Joob.)</stage>
+                        <p>Ja siis ajalehed kah ikke, et: muudku wiia aga, et selle läbi tõstame meie oma põllumajandust.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <stage>(Walab klaasi täis. Roosile.)</stage>
+                        <p>Joo! <stage>(Roosi joob poole klaasi.)</stage> Ah's ajalehed kah kirjutawad, et piab wiima — wõi <pb n="11"/> nii? Aga mina olen kuulnd, et need, kes au-inna wõi kiitusekirja saawad, et nende nimed pannasse pärast ka ajalehte? <stage>(Wõtab ahjuaugust tubakakoti, püksitaskust piibu ja hakkab suitsetama. Sägi wäänab omale "plotski".)</stage></p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Noo-jah, see tuleb omasoodu. Ega see kuhugi ei jää. Kõik pannasse üles, et: see ja see sai kartulite ja kapsaste eest esimese au-inna, see sai obuse eest teese au-inna, ja see, ütleme näituseks, rehepeksumasina eest, et see sai kolmanda. Kõik pannasse üles. Ajalehe juurest on kohe üks mees sal, kes üles tähendab, kes sai ja kes ei saand ja... See ei jää kuhugi!</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Jajah. Ega mina seda kiitusekirja sitta nii wäga tahakski; andku wiis rubla, mina sellegagi rahul. Aga nagu et ajalehte panewad — pangu piale... ku nad selle eest au-innast maha ei arwa.</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Ooh, ei arwa maha kedagi.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <p>Näh, sul, wanamees, kah nagu imu midagi wiia, et kah au-innast ja kiitusekirjast räägid?</p>
+                    </sp>
+                    <pb n="12"/>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <stage>(Sügab kukalt.)</stage>
+                        <p>Ei tia praegu midagi niisukest...</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Ega sinna wõib kõik wiia, mes sa aga tahad. Sal on kõiksugu osakonnad: loomad, wili, käsitöö, masinad, kartulid, kapsad...</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Jah-noh, meil ei ole jälle niisukesi kartulid ja kapsid, mis wiia wõiks. Kapsad on pisikesed justku tutiga täiad ja pehmed nigu tohlud. Mina ei tia, kust põrgust te need taimed kewade wälja kiskusite, aga päid nad ei wõta, kas tee wõi tina. Paremid kartulid me tänawu kah ei saa... kõik puha pisikesed nigu pabulad.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <p>Mis sa aad, kas sina mõni näitusele mineja oled! Suured asjad nad n'd küll ei ole need kapsad, aga egas' näitusele ikke põleks läind, oleks nad olnd ku suured nad oleks olnd.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Ega kedagi! Kas sul see wiis rubla mööda külge maha jookseb, et ta sulle ei kõlba? Kiitusekiri las n'd see tühi olla piale, mes ta on, aga wiis rubla on ikke wiis rubla.</p>
+                    </sp>
+                    <pb n="13"/>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Kedagi muud wiia...?</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Mes sa muud wiid? Ega sinna niisukesi wanu asju ei wõeta, nii mes nii nagu ikke nii kanis wanad on? Neid aetakse nüid küll kah taga. Suwelgi käis siin üks tudeng, wõi kes ta oli... tahtis ära osta... ajas piale, nagu uni, et tema annab kaks rubla. Esite weel küll, et: kingi temale, et tema annab tähe wasta, et ega tema endale ei korja, et tema annab jälle edasi... sal muusijunnile, wõi kellele. Siin ta plaras tüki aega. Ei mina akand kuulama, mes ta rääkis. Suurem asi ta n'd küll ei ole... üks wana kerst.</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Ah kaks rubla pakkus?</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Jah. Ei mina annd ära, et: ku sa jõuad kaks rubla maksa, küll sa maksad siis neli kah, ku sul teda tarwis on. Ei tias' nüid, kas wiia teene õige näitusele wõi?</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Ei tia, kas nad näitusel wana asjade eest annawad kah midagi. Aga niisuke<pb n="14"/> muuseumm on ikke olemas küll. See olewat juba ajalehtedeski ülewal, et on. Et korjawad kõik need wanad Eesti mälestused kokku ja... et siis on pärast ia teisi waadata.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Jah, ei tia, mes sa neist ikke waatad. Tuleb aga korra linnasakstel niisuke tuju ja siis... Pärast jätawad kõik laokile, kus üks, kus teene. Aga ku kerstu eest näitusel kedagi ei saa, siis oleks ikke teese piaaegu suwel kahe rubla eest ära wõind anda. Eks siis oleks näind, mes nad ta'ga oleks teind.</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Ma tian küll, ta käis meil kah. Justku mustlane teene. Kõige pialt jah kohe, et: anna ilma! No kuda sa ikke oma asja ilma kääst ära annad. Noh siis, et: tema maksab. Mis ta maksab — pakub ju niisukest inda, et...</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Ma arwan, ta tuleb tulewa suwel jälle. Aga siis waja õige wiis rubla küsida. Ku see tuhing neil weel mööda põle läind, ehk annawad kah, aga ku ei — wõtku piäle kahe eest. Ei tia, mes minagi teesega teen.<pb n="15"/> Meil on sal weel paar niisukest asja... selle, nagu sa ütled, selle muusijunni jaoks wõi: üks wana tõrs on ja... ja üks wana, ilma sangata pada kah —</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <p>Noh, sellel on jo suur auk põhjas.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>No mes sest! Augu kõrwalt on jo terwe! Ku n'd tiaks, et näitusel kedagi antasse, siis —</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Ei tia. Mitte ei tia. Aga parem oleks küll ikke nii... mõni uus asi, nagu põllusaadused wõi nii...</p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELISABET</speaker>
+                        <stage>(Astub sisse.)</stage>
+                        <p>Tere õhtat!</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Tere õhtat, Liispet! <stage>(Tõuseb üles, annab Elisabetile kätt ja istub endisele kohale tagasi.)</stage></p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <p>Liispet, kas uudist tiad: Tõnis wiib oma kapsad ja kartulid näitusele ja saab wiis rubla ja kiitusekirja.</p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <p>Tõesti?</p>
+                    </sp>
+                    <pb n="16"/>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Ma wiin n'd küll, aga ega see weel nii kindel põle, et ma just wiis rubla ja kiitusekirja saan; wõib olla, antasse wähem.</p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <p>Aga wõib olla, antasse rohkem.</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Wõib olla kah... aga ei tia, sest... Wiis piad on ju suured küll ja kõwad justku jõmakud, aga teesed wiis on weiksemad, ja ühel paganal on weel niisukesed imelikud sinakad lehed. Mina ei tia, kust see tuleb? <stage>(Pakub Elisabetile wiina. Elisabet joob natuke ja turtsub.)</stage></p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Taimed, noh! Taimed on niisukesed. Ma ütlen jo: oleks nemad kewade kah wähegi mõistlikka taimi katsunud, eks siis saaks meie kah kapsid, aga no mis nüid!</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <p>Kas minagi nende inge sisse tiadsin, mes nad olid.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Aga waata, saananaesel on palju suuremad kapsad ku meil. Ometi maa oli tal<pb n="17"/> lahjem ja küntud ei saand õieti, aga mine waata.</p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELISABET</speaker>
+                        <p>Saananaesel on küll üks kapsapia õige suur. Kohe irm tuleb, ku waatad. Teesed kapsad ei ole nii suured, aga see üks, see on justku pada.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Taimed, noh!</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <p>Mes te nüid nii nende taimedega! Too tulewaasta ise taimed, eks siis nää, ku suured nad sul kaswawad.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Tulewaasta! <stage>(Walab wiina.)</stage> Too meile siia midagi piale wõtta, mes selle mao nagu suust ära wõtaks. <stage>(Roosi läheb ettekambrlsse.)</stage></p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <stage>(Sägile.)</stage>
+                        <p>Wõi sina lähed s' kapste ja kartulitega näitusele? No kus sa minu jätad?</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Tule ühes.</p>
+                    </sp>
+                    <pb n="18"/>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <p>Jah, mul pole sinna kedagi wiia. Oleks mul kah kedagi wiia, nii et kah au-inna ja kiitusekirja saaks, siis tuleks küll.</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Wahest on kedagi? Sinna on üksta kõik, sinna wõib mes tahes wiia.</p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <stage>(Mõtleb järele. Roosile, kes silgukausi ja leiwakanikaga tahakambrisse tuleb.)</stage>
+                        <p>Ema, ma wiin õige selle triibulise teki näitusele, selle, mes sa saananaesel kududa lassid. Kas jah?</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <p>Sina s' kah tahad näitusele minna. <stage>(Paneb toodami laua pääle.)</stage></p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <p>Jah. <stage>(Wõtab kapist kokkupandud teki välja ja tuleb sellega laua juurde).</stage> Waata, Tõnis! Mes sa arwad, ku ma selle teki näitusele wiin. Waata, ku ilus!</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Jah, ilus tekk! Ei mõsta midagi ütelda! Kas sina kudusid?</p>
+                    </sp>
+                    <pb n="19"/>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <p>Ei. Saananaene kudus. Aga mes sellest s'. Ega sinagi oma kapsapäid ise ei teind. Ja mes sellest, kes tegi, piaasi: kelle oma ta on.</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Ei, ega ma ei ütlegi, et... Wõib wiia küll.</p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <p>Kuula nüid! Mes ta muidugi kapis wedeleb. Las' teenib au-inda. Sängi piale panna teest ema muidugi enne ei lase, ku me pulmad ära teeme. Eks ole — wiime?</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Wiime jah. Ja ku me kiitusekirjad saame, siis laseme ühe suure raami teha ja paneme mõlemad sinna alla. Waata siis, ku ilus on!</p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <p>Jah, seda me teeme. See oli n'd üks Jumala õnn, et sa ütlema tulid, et näitus on. <stage>(Paneb teki sängi pääle ja istub sinnasamasse.)</stage></p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <stage>(Joob ja wõtab silku pääle.)</stage>
+                        <p>Põrgu mina sinna pian wiima? <stage>(Walab wiina ja annab Sägile ja Roosile.)</stage></p>
+                    </sp>
+                    <pb n="20"/>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <p>Oh, jäta sina, las' nooremad wiiwad, ku nad tahawad.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Ei jäta. <stage>(Keegi tuleb wäljast ettekambrisse ja hakkab pliidi juures talitama.)</stage> Kes sal tuli?</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <p>Saananaene wist. <stage>(Waatab ettekambri.)</stage> Saananaene jah.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <stage>(Hõikab ettekambrisse.)</stage>
+                        <p>Krõõt ae!</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>KRÕÕT</speaker>
+                        <p>Ae-ae!</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Tule siia! <stage>(Krõõt tuleb ja jääb ukse pääle seisma.)</stage> Tule siia, ma annan sulle ühe käraka wiina. Säh! Sul ka nagu wanapoole kondid, walutawad teesed wahel.</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>KRÕÕT</speaker>
+                        <stage>(Joob.)</stage>
+                        <p>Attäh! Ole terwe!</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Kuule, Krõõt, sul on sal saanapool wao pial üks suur kapsapia. Anna see mulle.</p>
+                    </sp>
+                    <pb n="21"/>
+                    <sp who="#kroot">
+                        <speaker>KRÕÕT</speaker>
+                        <p>No mes sa ta'ga teed?</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Mul on teda waja.</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>KRÕÕT</speaker>
+                        <p>Enestel suur plaatsam kapsid täis, kas teil neist weel küll ei saa?</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Plaatsam! Aga ühtegi niisukest suurt põle, nigu sinu oma. Ma ütlen jo, et tõiwad kewade taimed, nigu iire sabad teesed, ei tia, mes sa salt saad. Oleks ükski suurem pia olema! Ega ma su kääst teda ilma ei taha, ma annan sulle kolm oma kapsapiad wasta.</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>KRÕÕT</speaker>
+                        <p>Ooh nüid kapsapäid wahetama! Lase ta olla. Tema on nii suur, nigu ta on kasnud. Kapsas ikke kapsas. Ega temagi piale teene päike ei paistnd; ikke seesama Issanda päike, mis pererahwagi kapste piale.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Jah, ole sa n'd selle piale uhke. Wiis — noh!</p>
+                    </sp>
+                    <pb n="22"/>
+                    <sp who="#kroot">
+                        <speaker>KRÕÕT</speaker>
+                        <p>Mes wiis?</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Ma annan sulle wiis oma kapsast wasta.</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>KRÕÕT</speaker>
+                        <p>Oh mes sa n'd kiusad! Nii palju kah asja on, nüid tahad sedagi kääst ära wõtta. Lase ta olla. Lase ta kaswab. On teene lastelegi asjaks. Iga pääw käiwad teest silitamas ja paitamas, ikke et: meie nunnu ja meie nunnu.</p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <p>Isa tahab seda kapsapiad wist näitusele wiia, ega ta mudu ei nuru.</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>KRÕÕT</speaker>
+                        <p>Mes näitusele?</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Jah, kuula nüüd! Ei tia mes näitusele! Ei tia, kuhu näitusele ma ta wiin... Kometimajasse wõi? Ei tia, mes imetegu weel n'd ära ei ole, et weel näitusele wõi kuhu. Anna ära, Krõõt, mes sa jonnid ta'ga! Ku sa kapste wasta ei taha wahetada, ma ostan<pb n="23"/> ta puhta raha eest ära. Ma annan sulle kümme kopkat selle pia eest. See on jo ükskord ia ind üheainsa kapsa eest. Anna ära!</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>KRÕÕT</speaker>
+                        <p>Ei anna. Õige nüid imelikud oma kapsapia jahis! Las' ta kaswab. Las' ometi lapsed mängiwadki sal ümber. Ja siis weel näitusele wõi tiab kuhu meie nunnut...</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Pagan sind oma nunnuga! Lastele anna wemmalt, see on nende mänguasi. Mes printsisid ja printsessinaid sa oma lastest kaswatad, et sa neile kõiksugu mänguasju oiad?</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Anna ära jah, Krõõt, mes sa tühjaga teed! Mõtle: sa saad wiis kapsapiad ehk kümme kopkat wasta. See on jo inda kas pagan wõtku! Kes sulle annab mujal kümme kopkat kapsa pia eest. Kaks kopkat on kapsapia ind.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Säh, wõta veel üks kärakas ja ole mõistlik wanainime; ära ole keblak.</p>
+                    </sp>
+                    <pb n="24"/>
+                    <sp who="#kroot">
+                        <speaker>KRÕÕT</speaker>
+                        <stage>(Joob ja pühib suunurgad puhtaks.)</stage>
+                        <p>Ole terwe wiina andmast, aga las' kapsapia kaswab pialegi. Ei tia mis sinagi teesega ära ei tee, oleks weel laps, siis mängiks wõi... Nää, perenaene ei ütle sõnagi, ja kapsad on ikke ometi rohkem perenaese ku pereme ooles.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <p>Jah ei tia, mes mul nüüd... Mul ükskõik, misuke kapsapia on.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <stage>(Krõõdale.)</stage>
+                        <p>Oh sa kuri wanainime! Ma nään, sa tahad mu kääst wägisi wiitteistkümmet kopkat wälja kiusata. — No olgu wiisteistkümme! Too ta siia! <stage>(Wõtab rahakoti wälja.)</stage></p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>KRÕÕT</speaker>
+                        <p>Ei too ühti. Attäh wiina andmast, aga nüid lähen ära kodu. <stage>(Läheb ettekambrisse.)</stage></p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Wiitteistkümmet ka ei taha? <stage>(Paneb rahakoti tasku.)</stage> Oota sa, wanamoor, ma ei lase sul tulewaasta mitte ühte kapsast maha istutada — waata siis! <stage>(Krõõt ei pane tema<pb n="25"/> ütelust tähelegi. On kuulda, kuidas ta eestkambrist õue läheb.)</stage> Sal on nüid saananaene: kas tal on põrmugi austust pererahwa wasta. Ise muudku uhke, tigewaim, et tema kapste piale seesama päike pastab, mes pererahwagi kapste piale. Aga oleks saaks kudagi nii teha, et ku ikke ära pahandawad, et ikke ei lasekski pasta saunikutele päikest — waata siis!</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Pagana wanamoor!</p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <p>Oi, ta on kõwa piaga! Ega tema järele ei anna, ku ta korra kedagi ütleb.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <p>Ja ei tia, mes te ta'ga ikke teeks selle kapsapiaga?</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Tohoo pime! Kuuled ometi, au-indu sadab nigu wihma igaühele, kes aga midagi niisukest wärskemat wiib... No ku mina selle jõmaku sinna wiin, nad annawad mulle kümme rubla.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <p>See on saananaese kapsas. Las' saananaene ise wiib Eks temale lähe kah see kümme rubla tarwis.</p>
+                    </sp>
+                    <pb n="26"/>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Jah, saananaesele antasse s' mõni au-ind!</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <p>Kas saananaestele ei anta au-indu.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Ei anta.</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Ei, ega saananaestele wist ei anta.</p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <p>Jah, saananaestele antasse n'd mõni au-ind. No las' ta wiib selle teki sinna, eks nää, kes ta'le annab au-inna.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <stage>(Joob, tõuseb üles, paneb wanad kotad jalga, pinsaku selga ja läheb eeskambri kaudu wälja.)</stage>
+                        <p>Oota, ma lähen waatan.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <p>Ei tia, mespärast neile's ei anta?</p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <p>Mespärast — waesed noh! Mes ta's on, läheb sinna — sipa-sipa oma pastaldega — ei tia, kes sulle sedawiisi au-inda annab. Mes sa arwad, Tõnis, ma panen õige oma kriuksuga saapad jalga, ku me lähme, mes?</p>
+                    </sp>
+                    <pb n="27"/>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Wõib küll, ku aga wihma ei piaks tulema. Wihm wõtab kriuksu ära.</p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <p>No wahest piab ometi kuiwa! Oleks ta piaks kuiwa! Ei tia, mes ta ka ühtelugu sadada laristab!</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Wihmaga on ia kalosse kanda, astu piale pats-pats, ei lähe märg läbi ega kedagi.</p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <p>Ei mina losse küll ei usu jalga panna: üks poiss oli ühekorra teest poissi sõimand, et ikke: orassetallaja ja umbrohukülwaja ja... Poisil olnud kuiwa ilmaga lossid otsas.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <p>Ei tia, mes ta ta'st siis sõimas?</p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <p>Kade noh... et temal ei ole. Kes sal's nüid tuleb nii suure mürinaga?</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <stage>(Jookseb suure rutuga sisse, kapsapää käes.)</stage>
+                        <p>Ära nägid kuradid! Öösi kah walwawad oma kapsapia juures! No kuhu ta n'd <pb n="28"/> panna? Nad on mul jo kannul. <stage>(Wäljast kostab koerte haukumine ja sammude müdin.)</stage></p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <p>Pane kapi otsa.</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Pane kappi riiete alla. <stage>(Tõuseb segadus. Pliuhkam jookseb kapsapääga toas ringi ja ei tea, kuhu seda ära peita.)</stage></p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <p>Mes sa ullwaim tegid! Sa tõid teese kapsapia salaja ära.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Ole sina wait! Oota, ma panen ta õige sängi alla. Sa, Liispet, istu siia ette ja ära tee wäljagi, et sal on. So. Tulewad, kurjad waimud!</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>KRÕÕT</speaker>
+                        <stage>(Kusti käekõrwal, tuleb tahakambrisse. Nende järel Maali, kes ema sabast kinni hoiab ja nutab.)</stage>
+                        <p>Anna aga, anna siia, peremees, meie kapsapia. Me nägime küll, ku sa tulid ja teese rässti üles tõmmasid. Anna aga siia!</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Mes kapsapia? Mes sa ajad? Ma põle ühtegi kapsapiad näind, kuda sa nii<pb n="29"/> rumal oled! Mina lähen sinu kapsapiad kiskuma! Kes tiab kes külast oli, kes kapsapia ära wiis.</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>KRÕÕT</speaker>
+                        <p>Oh sa armu tegu! Põleks ma ise näind, ku sa tua poole joosid! Iaga ei saand, s' nüid tulid wõtsid wägisi. Anna aga siia! Anna aga siia!</p>
+                    </sp>
+                    <sp who="#kusti">
+                        <speaker>KUSTI</speaker>
+                        <stage>(Nutab.)</stage>
+                        <p>Ema, wõta meie nunnu ära!</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>KRÕÕT</speaker>
+                        <stage>(Kustile.)</stage>
+                        <p>Mes sa lõugad, küll sa saad kätte oma nunnu.</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>No ku peremees oleks wõtnd, eks siis oleks ometi meie näind, kuhu ta ta pani. Aga meie ei näind.</p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELISABET</speaker>
+                        <p>Isa ei käind wäljaski, kus ta s' teie kapsapiad sai ära tuua.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <p>Mes see n'd olgu praegu! Andke kätte!</p>
+                    </sp>
+                    <pb n="30"/>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <stage>(Roosile.)</stage>
+                        <p>Kas sa piad oma lõuad! Mes asja ma annan kätte? Sa oled ka õige totraks läind!</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>KRÕÕT</speaker>
+                        <p>Armas aeg! Nääd muldgi siin weel maas, juure küllest maha pudenend, siis tema ei wõtnd. Mõtle ometi, mes sa teed, wana inime! Äbi wõiks olla!</p>
+                    </sp>
+                    <sp who="#maali">
+                        <speaker>MAALI</speaker>
+                        <p>Ema, wõta meie nunnu ära! <stage>(Nutab.)</stage></p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Mes äbi olla! Näita, kus on muld? Seda sa tõid ise jalgadega siia.</p>
+                    </sp>
+                    <sp who="#kusti">
+                        <speaker>KUSTI</speaker>
+                        <stage>(Näitab sängi alla.)</stage>
+                        <p>Ema, nää kus nunnu!</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>KRÕÕT</speaker>
+                        <p>Wõta ära! Wõta ära! <stage>(Kusti poeb ruttu sängi alla.)</stage></p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <p>Kus sa lähed, poiss, minu sängi alla, mes? <stage>(Rebib Kustit sängi alt wälja ja lööb teda jalaga.)</stage> Sinna on sind weel waja, mes? Kas sa saad wälja, mes!</p>
+                    </sp>
+                    <pb n="31"/>
+                    <sp who="#kusti">
+                        <speaker>KUSTI</speaker>
+                        <stage>(Sängi all.)</stage>
+                        <p>Ai-ai-ai!</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>KRÕÕT</speaker>
+                        <stage>(Rebib Elisabeti sängist kaugemale.)</stage>
+                        <p>Ära n'd, juudas, löö last! Waata ometi sinagi, perenaene, mes ta teeb!</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Wälja, wälja, sängi alt, poiss! Wõi mudu wõtan piitsa! <stage>(Wõtab nurgast piitsa.)</stage></p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <stage>(Wõtab piitsast kinni.)</stage>
+                        <p>Mes sa n'd teed ometegi, sa lä'd last ilma asjata peksma! Ei tohi minna!</p>
+                    </sp>
+                    <sp who="#maali">
+                        <speaker>MAALI</speaker>
+                        <p>Ema, wõta nunnu ära!</p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <p>Wälja sängi alt! Wälja sängi alt!</p>
+                    </sp>
+                    <sp who="#kusti">
+                        <speaker>KUSTI</speaker>
+                        <p>Ai-ai-ai!</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>KRÕÕT</speaker>
+                        <stage>(Kustile.)</stage>
+                        <p>Ära tule wälja, Kusti! Ära tule wälja, Kusti! Näri nunnu ammastega katki! Kisu puruks! Ära terwelt kätte anna! Näri, <pb n="32"/> näri! Kas kuuled? Kus sa oled? <stage>(Waatab sängi alla.)</stage> Kusti! <stage>(Kusti kargab sängi alt järsku wälja ja tahab kapsapääga uksest wälja jooksta, aga komistab ja kukub ninali, kuna kapsapää Pliuhkami jalge ette weereb.)</stage></p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <stage>(Haarab kapsapää oma kätte.)</stage>
+                        <p>Ahhaa! No ma ta'ks näha, kes ta nüid minu kääst weel ära wõtab! <stage>(Ähwardab piitsaga. Kusti tõuseb üles ja hakkab nutma.)</stage></p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <stage>(Tahab Kustit lüüa.)</stage>
+                        <p>Ot sa poisikratt, wõi tema tahab ära joosta ! Ma sulle —</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>KRÕÕT</speaker>
+                        <p>Ära sa n'd tule lööma jälle! Teil on nüid kapsapia kääs, sööge ta nüid ära, ku tahate, aga ärge peksma tulge. Wõtke n'd jah kohe kätte ja pange ta toorelt nahka, siis on süda rahul. <stage>(Lastele.)</stage> Lähme meie ära, las' peremees akkab kapsapiad õgima.</p>
+                    </sp>
+                    <sp who="#kusti">
+                        <speaker>KUSTI</speaker>
+                        <p>Wõta meie nunnu ära!</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>KRÕÕT</speaker>
+                        <p>Ole wait! See on nüid pereme nunnu.</p>
+                    </sp>
+                    <pb n="33"/>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>No muidugi on minu nunnu. Mes minu maa pial kaswab, on minu oma jah. Waata, ku ma wõtan sul kõik kapsad kääst ära, waata siis! Ja kihutan sind ennast kah saanast wälja, waata siis!</p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <p>Wälja jah! Wälja jah!</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <p>Tohoo ime, mes teil on ometi täna! Justku põlema läksid oma näitusega. Sa, Tõnis, ära ütle neile enam millagi, ku kedagi niisukest asja on.</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Einoh, ega's sellest midagi ei ole. <stage>(Tõuseb üles ja läheb Krõõda juurde.)</stage> Sa, Krõõt, oled ikka üks rumal inime, mes sa räistad oma kapsaga! Las' peremees wiib ta Paunweresse wäljanäitusele ja saab au-inna. Ta annab ta sulle pärast tagasi, tee siis ta'ga mes sa tahad. Nüid wiiakse jo kõik, mes wähe paremat on, wäljanäitusele. Mes sa sõdid!</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>KRÕÕT</speaker>
+                        <p>Woe, wõi weel wäljanäitusele kah! Waata, sinna on teda weel tarwis, mööda<pb n="34"/> ilma ümber wedada! Ei, seda ma küll ei lase! Sööge ta siinsamas ära, ku teil nälg on, aga sinna küll ei tohi wiia. Niipia ku te sinna wiite, lähen järele ja nõuan tagasi!</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Kas sa loll oled, Krõõt! Sa tahad, et sind küla siad wälja naerawad!</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>KRÕÕT</speaker>
+                        <p>Lähen jah, seda te nääte!</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Saa aru, Krõõt, ku sa kapsa näitusele lased wiia, sa aitad sellega põlluasjandust tõsta, nagu ajalehes kirjutatasse.</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>KRÕÕT</speaker>
+                        <p>Las' ajalehed teewad, mes nemad tahawad: tõstku wõi jätku tõstmata. Ku sinna wiite, mina ära toon!</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Siis kihutan ma sind sellesama piitsaga saanast wälja, kas mõstad! Kasi kohe wälja! Jalamaid! Wälja! <stage>(Lööb Kustile piitsaga mööda jalga, mispääle wiimane "ai!" karjub.)</stage></p>
+                    </sp>
+                    <pb n="35"/>
+                    <sp who="#kroot">
+                        <speaker>KRÕÕT</speaker>
+                        <p>Oh sa see ja teene! <stage>(Läheb Maali ja Kustiga ära. Eestkambrist on kuulda, kuidas Maali ja Kusti äraminnes nutawad ja "meie nunnut" taga kahjatsewad. Wäljas hauguwad koerad. Wist läks neile peremehe ülekohus südamesse.)</stage></p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Kurjawaimu nõid! <stage>(Tuleb laua juurde ja silmitseb kapsapääd).</stage> Ongi poisi-raisk amba jäljed sisse wajutand! Kas nääd! Kahest kolmest kohast on wõtnd. Näät: siit on wõtnd, siit on wõtnd...</p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <p>Siit kah, nää!</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Näät: siit on weel tüki wäljagi ammustand.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Oh sa põrgupõhilaud! Oh sa seenetreial! Obuseunenägu! Sõnikuunikutugi! Mait niisuke! No nüid on kümme rubla nahas!</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Ei ole. Oota, wõtame need pialmised lehed ära, siis ei jää nähagi. <stage>(Wõtab leht-lehe<pb n="36"/> järele kapsapää küljest ära.)</stage> Waata nii... Noh, nüid see weel ja see weel...</p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <p>Mõtle, kus on ometi ambad!</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Niisuke sunnik aab terwe näituse nurja.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <p>Noojah, minge nüid weel järele ja andke poisile uus keretäis, et ta kapsapia ära näris.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Ole sina wait! Mes sa niisukestest asjadest tiad! <stage>(Sägile.)</stage> Pia, pia, ära enam wõta! Sedawiisi jääb pia weikseks. Wiimati ei antagi enam kümmet rubla, ütlewad, et weike on.</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Oota n'd, ega s' sedawiisi kah ei wõi, ku tükk wäljas on. Me piame ikke niipalju ära wõtma, et pia sile on ja amba jälgi näha ei ole. Noh, mes siiski on, ku sa kümne asemel wiis saad?</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Oih, oih! Sul on kerge ütelda: wiis. Aga mespärast mitte kümmet wõtta, ku<pb n="37"/> saab. Too siia! <stage>(Tahab kapsast Sägi käest ära wõtta.)</stage></p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Pia n'd kinni! Oota, selle lehe wõtame weel ära.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Ära n'd wõta, kas kuuled! Pia jääb weikseks ja paljaks, nigu põlweots, selle eest n'd kedagi antasse.</p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <p>Ära wõta jah enam, Tõnis! Mes see paar amba jälge talle teeb.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Kuula n'd, mes sulle öeldasse, ära wõta enam! Sa justku meelega tahad, et mina au-inda ei saa.</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Waata, kus loll — meelega! Mina tahan n'd meelega, et tema au-inda ei saa! See leht tuleb nimelt ära wõtta. Kas nääd: justku rotid on närimas käind.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Ära wõta enam! Anna siia!</p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <p>Too siia, minu kätte. <stage>(Krapsab kapsapää oma kätte)</stage></p>
+                    </sp>
+                    <pb n="38"/>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Mes n'd sina jändad! Sina kah n'd kedagi tiad! Too siia!</p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <p>Ei anna. Sina rässutad ära, nii et kedagi ei saa.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Ära anna, ära anna, temal on kade meel, et minul suurem kapsas on, ku temal. Ära anna!</p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <p>Ei anna, ei anna. Wõta, isa! <stage>(Püüab kapsast üle laua isa kätte anda. Pliuhkam kahmab kapsapääd enese kätte, aga nii õnnetult, et see aknast wälja prahwatab.)</stage></p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <p>Oh sa armas aeg! Mes see s' nüid oli? <stage>(Jookseb lähemale.)</stage> Wäljast kuulda, kuda Kusti rõõmuga kilkab: "Ema, ema, juba mul nunnu kääs! Juba mul nunnu kääs!"</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Noo-jah, nüid sai poisi kuriwaim kapsa kätte, mes tal nüid wiga! Mine wõta weel raipe ammaste wahelt kinni! <stage>(Sägile.)</stage> Kuule, poiss, ma annan sulle kah piitsa! Mes sa lõhud!</p>
+                    </sp>
+                    <pb n="39"/>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>No kas minu süi oli?</p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <p>Kelle siis? Just ku wana tola! Mes sa s' kraapasid ta'st!</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Kuule, Liispet, ku sa niiwiisi räägid, ma ei —</p>
+                    </sp>
+                    <sp who="#elisabet">
+                        <speaker>ELIS.</speaker>
+                        <p>Muidugi oled tola! Te olete kõik tolad, niipalju ku teid wendi on!</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>Sa ise oled tola.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <stage>(Sägile.)</stage>
+                        <p>No oled, oled jah tola!</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>No ei ole noh! Minupärast siis... Pagan wõtku teid, ku te nii rumalad olete!</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <p>Ärge nüid minge jälle isekeskis.</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>SÄGI</speaker>
+                        <p>No mespärast siis mina tola olen? Kuda ma tola olen? Ma põle eluaeg tola<pb n="40"/> olnd, nüid tulen korra siia ja olen tola. Wõtku sind unt, Liispet, mina niisukest lolli tüdrukut ei tahagi! <stage>(Ära. Põrkab ukse pääl Jüriga kokku.)</stage></p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <stage>(Sägile.)</stage>
+                        <p>Pia-pia, ega sa s' kõhust läbi ei pääse! <stage>(Pererahwale.)</stage> Mes siin on? Saananaene tuli suure kisaga wasta, kapsapia süles... Ise karjub, lapsed karjuwad... Terwe küla aina rõkkab.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>Mes siin on. Ma tahtsin tema seda suurt kapsapiad näitusele wiia.</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Misukese näitusele?</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>PLIUHKAM</speaker>
+                        <p>No Paunweresse, noh.</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Häh, näitus peeti jo minewa pühaba ära. <stage>(Lühike wahe.)</stage></p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>ROOSI</speaker>
+                        <p>No waadake n'd ometi, mes te tegite! Nüid on peigmees läind, kapsapia läind, saananaene wihane! Oh sa lambapia!</p>
+                    </sp>
+                    <stage>(Eesriie.)</stage>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
