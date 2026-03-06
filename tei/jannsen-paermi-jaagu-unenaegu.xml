@@ -6,6 +6,13 @@
             <titleStmt>
                 <title type="main">Pärmi Jaagu unenägu.</title>
                 <title type="sub">Kolmejärguline naljamäng.</title>
+                <author>
+                    <persName>
+                        <forename>Johann Voldemar</forename>
+                        <surname>Jannsen</surname>
+                    </persName>
+                    <idno type="wikidata">Q362138</idno>
+                </author>
             </titleStmt>
             <publicationStmt>
                 <publisher xml:id="dracor">DraCor</publisher>
