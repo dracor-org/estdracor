@@ -1,0 +1,1402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="est000005" xml:lang="et" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Pärmi Jaagu unenägu.</title>
+                <title type="sub">Kolmejärguline naljamäng.</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>DIGAR Digital Archive</name>
+                    <idno type="URL">http://www.digar.ee/id/nlib-digar:101807</idno>
+                    <availability>
+                        <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                    </availability>
+                </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>Johann Voldemar</forename>
+                            <surname>Jannsen</surname>
+                        </persName>
+                        <idno type="wikidata">Q362138</idno>
+                    </author>
+                    <title type="main">Pärmi Jaagu unenägu</title>
+                    <title type="sub">Kolmejärguline naljamäng</title>
+                    <date when="1915">1915</date>
+                    <publisher>Wanemuise näitelawa</publisher>
+                    <pubPlace>Tartu</pubPlace>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="mats" sex="MALE">
+                        <persName>Mats</persName>
+                    </person>
+                    <person xml:id="liisu" sex="FEMALE">
+                        <persName>Liisu</persName>
+                    </person>
+                    <person xml:id="marie" sex="FEMALE">
+                        <persName>Marie</persName>
+                    </person>
+                    <person xml:id="kaarel" sex="MALE">
+                        <persName>Kaarel</persName>
+                    </person>
+                    <personGrp xml:id="pulmalised" sex="UNKNOWN">
+                        <name>Pulmalised</name>
+                    </personGrp>
+                    <person xml:id="parun" sex="MALE">
+                        <name>Parun</name>
+                    </person>
+                    <person xml:id="jaak" sex="MALE">
+                        <persName>Jaak</persName>
+                    </person>
+                    <person xml:id="hans" sex="MALE">
+                        <persName>Hans</persName>
+                    </person>
+                    <person xml:id="anna" sex="FEMALE">
+                        <persName>Anna</persName>
+                    </person>
+                    <person xml:id="walitseja" sex="MALE">
+                        <name>Walitseja</name>
+                    </person>
+                    <listRelation>
+                        <relation name="spouses" mutual="#jaak #liisu"/>
+                        <relation name="lover_of" active="#anna" passive="#hans"/>
+                        <relation name="lover_of" active="#marie" passive="#kaarel"/>
+                    </listRelation>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listEvent>
+            <event type="print" when="1915">
+                <desc/>
+            </event>
+            <event type="premiere" when="1873">
+                <desc/>
+            </event>
+        </listEvent>
+    </standOff>
+    <text>
+        <pb n="1"/>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">Pärmi Jaagu unenägu.</titlePart>
+                    <titlePart type="sub">Kolmejärguline naljamäng.<lb/></titlePart>
+                    <note>Kotzebue järele eestistatud.</note>
+                </docTitle>
+                <docImprint>
+                    <publisher><lb/>Wanemuise näitelawa<lb/></publisher>
+                    <date>Septembri kuu 1915.</date>
+                </docImprint>
+            </titlePage>
+            <pb n="2"/>
+            <castList>
+                <head>Näitlejad:</head>
+                <castItem>
+                    <role>Jaak,</role>
+                    <roleDesc>Pärmi talu peremees.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Liisu,</role>
+                    <roleDesc>tema naene.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Parun.</role>
+                </castItem>
+                <castItem>
+                    <role>Hans,</role>
+                    <roleDesc>toapoiss.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Marie,</role>
+                    <roleDesc>köögitüdruk.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Kaarel,</role>
+                    <roleDesc>kutsar.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Walitseja.</role>
+                </castItem>
+                <castItem>
+                    <role>Tohter.</role>
+                </castItem>
+                <castItem>
+                    <role>Mats,</role>
+                    <roleDesc>Lämu kõrtsimees.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Rahwas.</role>
+                </castItem>
+            </castList>
+            <set>
+                <p>I.järk: Lämu kõrtsi ees.</p>
+                <p>II.järk:Paruni mõisas.</p>
+                <p>III.järk: Lämu kõrtsi ees,päew hiljem</p>
+            </set>
+        </front>
+        <pb n="3"/>
+        <body>
+            <div type="act">
+                <head>I. järk.</head>
+                <stage>Lage maakoht, tagapool maantee ääres kõrts; pahemal ja paremal pool kaswawad puud.</stage>
+                <div type="scene">
+                    <head>1. etteaste.</head>
+                    <stage>Liisu. Jaak.</stage>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <p>Noh, Jaak, et praegu kesa ajal nii kibedat ei ole, siis läkitan ma sind linna, aga seda ma ütlen sulle, et sa kõik mu asjad sääl ilusasti ja wiisi pärast ära toimetad, nagu ma sulle kätte õpetasin! Ära sa lase ennast petta! Linna kaupmehe isandad on sagedasti suured kelmid. Hoia silmad alati lahti. Kes sihukesi mehi uskuda wõob: nad on libedad kui angerjad, aga kawalad kui ussid. Paari lehe tubaka eest pool rubla wõtta, see on neil tühi asi, ja kõhutäis wedelat kapsa leent maksap ikka leesik linu. Kas saad aru, Jaak - kui nad rumalaga kokku juhtuwad. Eks sa tea naabri Ilwese lugu, kelle linakaal linnas ainult 15 punda kaalus.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Ära karda, Liisu, ära karda! Kelleks sa mind õige pead! Mina peaksin ennast petta laskma? Ei, tibukene, siis peawad poepoisid ja kaupmehe isandad palju warem ülesse tõusma, kui Pärmi Jaaku petta tahawad - sellel on silmad ees ja taga. Küll sa näed kui ilusasti ma kõik ära toimetan. Sinu Jaak ei ole mitte nii rumal, kui ta ehk mõnikord wälja näitab... Anna mulle selle eest üks musu! <stage>(Hakkab Liisu kaela ümbert kinni).</stage></p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <stage>(lahti kiskudes)</stage>
+                        <p>Mis sa hullad, Jaak, inimesed wahiwad! Kuule parem, mis ma sulle õpetan. Pane tähele, ma loen<pb n="4"/> weel üks kord ette: üks paar pastlaid, kolm looti sinikiwi, pool looti wiiuli-wärwi ja 10 kop. eest maarjajääd,- kas mõistad? Seks annan ma sulle kollase rubla kaasa. Aga ära hakka jälle wana wiisi kõri loputama, siis on pagan lahti, Jaak! Pea seda meeles.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Armas Liisukene, sa kõneled ju maa ja taewa kuuldes, nagu peaksin ma mõni lakekrants olema, ei, see ei ole ilus, liisukene. Nõnda laimad sa iseennast! Sa tead ju ometi, mis õnnis Kogre koolmeister ütles: "Igal mehel kõige parem naene, igal naesel kõige parem mees". <stage>(Аrwab raha järele).</stage> Pääle selle, Liisukene, mu linnukene, oled sa kõik kopiku pääle walmis arwanud, mis ma kauba eest wälja pean andma, nii et punast krossigi wiina tarwis järele ei jää. Ja see pikk ja tolmune linna tee - oeh!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <p>Mis sääl weel ohata ja puhata! Raha ülejäämist pole sulle tarwis. Tolmu loputawad ja jänu kustutawad teeäärsed kaewud ja hallikad palju paremini ära, kui wiin. See ei kustuta kellegi jänu, kaswatab ainult. Ma tunnen sind wennikene: ega sulle ühest suutäiest küllalt ei saa!</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Sul wõib õigus olla, Liisukene, nagu sul ikka õigus on, aga kui rоhkem just saada ei ole, wõtan ka suutäie wastu: parem ikka pool muna, kui tühi koor! - Pai maimukene, anna weel paar kopikut teerahaks, tee on pikk ja tolmune.</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <p>Ei, Jaak, mitte tengagi! Olgu siis kui kõik asjad jõhwi päält oled ära toimetanud ja kaubad kodu toonud, siis saad, mitte enne! Mina tean, mis ma teen: põlenud kassid kardawad tuld, ütleb opmann.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(meelitades)</stage>
+                        <p>Jah, kassid küll kardawad, aga ega minu Liisu mõni kriimusta<pb n="5"/>ja kass ei ole. Aga mõtle ometi kanakene, millas ma linnast tagasi jõuan. Kas ma siis senikaua paljast wett pean jooma, millest lutikad kõhtu siginewad? Tänawu on halb aeg: kaewud sügawad, wesi külm, ilmad kuumad, jänu suur, tee tolmune - mõtle ometi järele, kallis kanapojukene, anna weel mõni kopik juurde!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <p>Ah, mis sa nüüd muidu musteldad, ole mees ja kannata, kes kannatab, see kaua elab, ütleb opmann; pärast tehtud tööd on palk magus. Jumalaga, Jaak; tule sa õhtul jälle aegsasti tagasi. Tead ju küll, et esmaspäewal mõisas teol pead olema! <stage>(Ära).</stage></p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(üksinda)</stage>
+                        <p>Säh, sääl ta nüüd on! Kiriwase päralt, esimene hää naene, aga natuke sitke ja terawate küüntega. Tuleb tal see tuju pääle, siis turtsub ta nagu kass Muri wastu. Mis teha, naesed on kord nõnda... Aga pea kinni, mis ma selle rubla eest siis õieti pidin ostma? <stage>(Kõnnib, lööb оtsa ette, loeb sõrmede pääl).</stage> Ah sо! 40 kopika eest paar pastlaid, 30 kopika eest sinikiwi, 20 kop. eest wiiuliwärwi, ja - mis asi siis, pagan wõtku, see neljas oli? <stage>(Mõtleb).</stage> Käes! 10 kopiku eest maarjаjääd. Jah, nõnda see oli, nõnda see oli, nõnda tuleb ka wälja. 40 ja 30 on - palju see siis õige on? - on - on seitsekümmend. 20 kopikut juurde, on kaheksa - üheksakümmend - ja 10 kopikut sinna juurde, on rubla. Tõsi küll, aga wiina osta - wõtku susi - mitte punast krossigi! Wiinata, ilma wiinata pean mina pika tee ära käima; soe ilm, tolmune tee, oh Liisu, Liisu, seda pattu ei saa mitte andeks!.. Noh, eks Lämu Mats usu weel topsi wiina wõla pääle! Pagana päralt, et ma nii waene mees pean olema! Saaksin kord rikkaks paruniks, küll tahaksin<pb n="6"/> siis elada! Siidis ja sametis käia, tõllas sõita, selget raswa süüa ja mõlemad taskud kuldraha täis kanda,- waat see oleks elu! Meie opmann, kärss nina, ütles küll, et mina seda kinni pidada ei mõista. Tehku ta mind enne paruniks, küll ta siis näeb, kuda Pärmi Jaak paruniks ka jääb. <stage>(Läheb kõrtsi ukse taha ja koputab).</stage> Lämu Mats wa naaber, tee uks lahti, tule wälja! <stage>(Kõrwale).</stage> Mul küll mõni kopik juba Matsi musta laua pääl kirjas, aga noh, ehk Mats usub weel. Kõrtsimehed wiskawad pätsile tihti kanika järele, mõtlewad: kui ma uut ei anna, siis ta wana wõlga ei maksa. Ehk Mats mõtleb ka nõnda. Hei Mats! <stage>(Koputab jälle).</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>2.etteaste.</head>
+                    <stage>Jaak. Mats.</stage>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <stage>(ukse tagast)</stage>
+                        <p>Kes pagan sääl juba koputab nii hommikul wara?</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Eks ikka wa Pärmi Jaak! Tee uks lahti! <stage>(Mats ilmub särgiwäel).</stage> Tere hommikust!</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <stage>(uniselt)</stage>
+                        <p>Tere, tere! No waata wanameest, wõi juba hommikul wara jalul. Mis sul siis nii walutab?</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Eks ikka kurk, on teine üsna kuiw ja tolmu täis; pikk tee ees - anna mulle õige suutäis wiina!</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <p>Miks mitte, kui sul aga raha on!</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Seekord mul teda ei ole <stage>(sügab kukalt),</stage> aga sa tead, Pärmi Jaak peab sõna, sügise tasun kõik wiimse tengani ära.</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <p>Paljas lubamine ei täida kellegi kõhtu, sul on juba muidugi palju wõlga. Ilma rahata ei saa!</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Ära nüüd urise, Matsikene, tõmba weel üks kriips kapi ukse pääle: üks enam ehk teine wähem - see ei tee ju üht rikkaks ega teist waeseks. Pane üles<pb n="7"/> Mats, saab kõik auusasti makstud.</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <p>Ei saa, olen juba kord ütelnud, ilma rahata enam ei saa. Ma ei saa aru, kust mа siis selle rendi pean wälja wõtma, kui igale ühele wõlgu annan, kas minul mõni tulihänd raha on toomas?</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>No eks ta ikka wahel ole ka: kriidi tükk juhtub wahel haraline, jumala ilm wesine, kraadiklaas wigane ja wiinatops ka umbne olema - kes tulihänna asju kõik teab ja tunneb.</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <stage>(kurjalt)</stage>
+                        <p>Mis! Tahad mind trotsima hakata!</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(meelitades)</stage>
+                        <p>Mine ikka, Mats, mitte põrmugi, sa oled ju mõistlik mees, jа tead, mis waewa jänu teeb. Arwa ometi, kuidas wõin ma pika linna tee ilma keelt karastamata ära käia!</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <p>Mis sa siis рeris tööpäewal linna otsid?</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>No eks see ole kroonu asi. Minu wa küljeluu saadab mind sinna, mõnda tarwilist asja ära õiendama, sa tead ju, naeste talitused on ikka tähtsad ja tarwilised.</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <p>Sina tahad linna minna ja enesel ei ole kopikat taskus. Tohoo meest! Kas sa arwad, et linnas kõik asjad uulitsale on riputatud, kust igaüks wõtab, mis ta aga tahab. <stage>(Meelitades).</stage> Siis sul ikka wa purupoolist taskus on, eks?</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>No kuidas muidu, kollane rubla krabiseb taskus. <stage>(Lööb käega püksitasku pääle).</stage></p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <p>Sinul rubla taskus? Waata mul meest ja tahad weel wõlgu saada. Waheta raha ära, siis wõid õhtuni õlut ja wiina saada.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Ei, weli, sina ei tunne minu Liisut, selle raha külge ei tohi mina näppugi pista ega kopikut raisata, see on mulle kätte arwatud.</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <p>No hää küll, kui sa raha ära ei wahe<pb n="8"/>ta, ei saa wiina! <stage>(Tahab ära minna).</stage></p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Pea kinni, Mats! Kui sa täna nii kiwise südamega oled - too siis nelja eest wälja! Minu süda ei kannata mitte kuiwa suuga kõrtsist mööda minna, waheta parem rubla ära, mis muidu linnas pean tegema. Too nelja eest wälja!</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <p>No waata: see on mehe jutt! <stage>(Läheb tooma).</stage></p>
+                        <p>
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>3. etteaste.</head>
+                    <stage>Jaak üksinda.</stage>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(mõtleb järele)</stage>
+                        <p>Noh saagu, mis saab! Kui ka Liisu küll walusasti käristab, ju see mürin ka wiimaks mööda läheb ja ära lõpeb, eks ta ükskord ikka ära ei wäsi ja siis on kõik otsas. <stage>(Käib ümЬег, mõtleb järele).</stage> Hm! - kuі ma õieti järele mõtlen, mis ta õige 30 kopiku eest ostetud wärwiga teeb? 20 kop. eest saab talle küllalt! Katsu asja, ei tea, mis maailma kangad temal wärwida peaks olema! Hakkawad naesed kord tühjade iluasjade pääle raha raiskama, siis ei ole enam põhja all. Ei, mees peab mees olema, peab paremini teadma, mis asja pääle kopik tuleb kokku hoida. Jänu kustutamine on palju parem, kui wärwi ilu - 10 kopikat peawad järele jääma keele kasteks, muidu saab see terwe rubla nende tühjade asjade pääle ära raisatud. Ei, see lähe! Aga kuhu see Mats siis nii kauaks jääb? Keel kuiwab suus lae külge kinni. Ah, säält ta tuleb.</p>
+                        <p>
+                        </p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>4. etteaste.</head>
+                    <stage>Jaak. Mats (pudeliga).</stage>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(rõõmuga)</stage>
+                        <p>Waat, so, Mats, sina oled ju esimene mees, nagu kõrtsimeheks loodud! Wala nelja eest topsi sisse.</p>
+                    </sp>
+                    <pb n="9"/>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <p>Otsi enne raha! - Mis ma tahtsin küsida, ega sinu raha liig wana ega lagunenud ei ole?</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Minu raha wana ja lagunenud? Kellele sa seda ütled?! Waata siia! <stage>(Wõtab raha wäljа).</stage> Üsna uus kohe, krabiseb et lust kuulda, nagu eila tehtud! <stage>(Näitab).</stage> Wala nelja eest sisse, pärast oiendame ärа!</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <stage>(tahab ära minna)</stage>
+                        <p>Raha wõib igaüks krabistadа, raha, mis minu käes pole - on wõõras!</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Pea ometi kinni - kuhu sa jooksed - sina uskumata loom! <stage>(Annab raha ära).</stage> Säh, sina mammuna ori. 96 kop. saan tagasi. Wala üks korten sisse.</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <p>No ega minugi suu sarwest pole! Walan kümne eest sulle, kümne eest mulle, siis saawad meil südamed mõlematel kergemaks.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(ehmatades)</stage>
+                        <p>Hurjah! Mats, ega sа hull ei ole! Ei, ei, jumal hoidku, siis saan Liisu käest tuhalabidat! 10 kop. tahan südame kinnituseks ära pruukida, enam mitte - anna 90 kop. tagasi! Anna hõberaha: su wasklapakud on wäga hallitanud ja raswased.</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <p>Küll saab, küll saab! <stage>(Walab mõõtu).</stage></p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(wõtab klaasi jänuga)</stage>
+                        <p>Oh kui selge wiin! <stage>(Joob).</stage> Klõnks! See läks kui tühja waati! Anna teine weel: ega mees ühe jala pääl ei käi. On aga hää wiin.</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <stage>(loksutab pudelit)</stage>
+                        <p>Selge kui kristall, halwemat kaupa ma ei pea.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(joob)</stage>
+                        <p>Soo, nüüd seisab keha kohe. Mats, ega sinugi suu sarwest pole, wala enesele ka üks, mina maksan, seltsis asi selgem, hulgas umbasem. Meie oleme naabrid.</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <p>Waat nii oled minu sõber, oled mees, kes ka teise häda tunneb. <stage>(Walab ja joob).</stage></p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Seda peab ütlema: jumala wili kinni<pb n="10"/>tab südant. Toit on aus. Nüüd on 12 kop. läinud! Wala weel üks, et teistele toeteiwaks oleks!</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <p>12 kopikat, nagu see mõni asi oleks! <stage>(Walab).</stage></p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(Joob)</stage>
+                        <p>Minu wana wiis oli ikka korten korraga, anna weel üks!</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <p>Ehk jätad nüüd seks korraks?</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Mis sa lorad, Mats! Nüüd ep alles hakkab maitsema - weel üks!</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <p>Aga mis Liisu asjast arwab? <stage>(Walab).</stage></p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(tuikudes)</stage>
+                        <p>Wõtku Madis, mis ta suurt wõib arwata! Käratsema saab ta muidugi, aga see on üks puhas kõik, kas ma kolm ehk kuus topsi olen joonud. Aga kuule, Mats: sina oled nikker mees, kes midagi teab, anna mulle hääd nõu, mis ma Liisu käderdamise pääle pean ütlema? Sinu wa Kadril pole mõnikord ka suu kinnikaswanud ega sõnade puudust, mis sa sihukesel korral talle wastad? <stage>(Joob).</stage></p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <p>Oh see on koguni kerge asi. Kui kodu lähed, ütle Liisule, et raha kaupmees Hundi juurde intressi pääle panid. Ma ütlen: tal on hää meel - annab sulle musugi.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Pagana päralt, see nõu on hää! Sina, Mats, tead ikka hääd nõuu. Wala selle pääle weel topsi täis, omale wala teine! Hääd nõuu ei muretseta mitte ilma hinnata aia teibast. Wala sisse.</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <stage>(loksutab pudelit)</stage>
+                        <p>Kust wõetakse, säält wäheneb, kust walatakse, säält kahaneb.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(ei pane enam Matsi sõnu tähele, tuigub)</stage>
+                        <p>Kiriwase päralt, kuida ta maitseb. <stage>(Silitab kõhtu, tuigub).</stage> No nüüd omale ka teine! Kus raha intressi pääl, ega sääl puudust ei ole. Ma wõlgnen sulle mõni kopik - aga mis see meie kahe wahel on! <stage>(Walab ja joob).</stage> See ei tee midagi. Sinu terwiseks, Jaak! <stage>(Pistab sõrme otsa ette).</stage> Pea kinni, Mats, mis ma tahtsin ütelda. Kui Liisu kord mind linna saadab<pb n="11"/> intressi raha ära tooma, mis pärgel ma talle siis ütlen? Mis nõu sa annad?</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <p>Kuidas see siis nii raske on ära õiendada? Ütle; et Hunt pankroti on jäänud ja sealt enam midagi saada ei ole.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(hakkab Matsil ümber kaela)</stage>
+                        <p>Sinust, kallis Mats, oleks pidanud meie wallаwanem saama! Küll sina mõistad kõik konksud kohe wenitada! Wõtame weel kumbki ühe!</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <p>Wot, oled ikka wa tubli mees! <stage>(Walab enne enesele, joob ära, walab Jaagule).</stage></p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(joob)</stage>
+                        <p>Ehk hakkab ka juba küll saаma, ma tunnen enesel mesilaste pere pääs sumisewat. Palju ma weel raha tagasi saan?</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <stage>(kõrwale)</stage>
+                        <p>Tarwis meest nöörida: 20 kopikat tal weel saada aga minul rent taga - 20 kop. asi ka. <stage>(Waljuste).</stage> On juba 20 kopikat wõlga.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(tuikudes)</stage>
+                        <p>Pista üles, Mats, tee õigust, minu mõtted on natuke segased. Anna õige weel üks klõnks, ehk lähewad siis selgemaks. Ega jumala wili paha tee.</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <p>Ja ega igа päew rublat taskus pole. <stage>(Walab)</stage></p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(joob)</stage>
+                        <p>Tõsta poiss, nüüd tunnen toidust magu ja saab mulle paras jagu. Wõtta weel üks, ega me nii noorelt kokku ei saa.</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <p>Nüüd Jaak, sa oled weidi wäsinud, mine ära teele. Ma ei salli mitte, et minu majas enam joodakse kui kantakse. Mine ära!</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(tuikudes)</stage>
+                        <p>Pea suu, Mats! Mis sa sääl pomised. Wala sisse: mul kurk juba üsna kuiw!</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <p>Aga mis sa Liisule ütled, kui wärwid ja pastlad ei tule?</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(trallitades)</stage>
+                        <p>Ai dai-daa ja tai-dai-taa, tal pole ühtegi üteldaa. Kalla tops<pb n="12"/> täis, Mats, kaua ma ootan?</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <p>Sääl on! Kui niisugusid Jaakusid igapäew siin oleks, siis maksaks ometi kõrtsimees olla! <stage>(Waljusti).</stage> Wiimne tilk, sinu wiimne kopik minu!</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(joob la laulab)</stage>
+                        <p>Mõisa poiss, las' koerad lahti <stage>(Räägib).</stage> Rubla läinud! Hunt pankrotis! Hunt pankrotis! Ha-ha-haа! <stage>(Naerab ja tuigub).</stage></p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <stage>(kõrwale)</stage>
+                        <p>Nüüd on mees täis <stage>(Waljusti).</stage> Hääd reisi, Jaak! <stage>(Ära).</stage></p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Hääd reisi, Mats! Ütle minu wa Liisule, et Jaak läks wärwi tooma. <stage>(Katsub tantsida).</stage></p>
+                        <p>Oh seda lust ja rõõmu,</p>
+                        <p>Oh seda pidu ja põlwe,</p>
+                        <p>Mis oli Waskjala kõrtsis!</p>
+                        <p>Sääl oli - - sääl oli - -</p>
+                        <p>Wõtku pergel, ei tea enam, mis sääl oli. Aga sel wa jumala wiljal on ka hambad suus ja sarwed pääs, - maha tahab wõtta! <stage>(Jorutab ja hõiskab)</stage> Aidu raidu ratastega. Liisukese raha intressi pääl, Hunt pankrotis, jah! Liisukene, mu naesukene, sinu Jaak on natukene wäsinud, ei taha jalad enam sugugi käia. Pea, ma puhkan weidi. <stage>(Langeb maha, liigutab ja jääb magama).</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>5. etteaste.</head>
+                    <stage>Parun jahiriides. Walitsejа. Hans.</stage>
+                    <sp who="#parun">
+                        <speaker>Parun.</speaker>
+                        <p>Ma usun, tänawu saab meil hää lõikus olema, waat', kudas odrad ilusasti kaswawad. Mis teie arwate, walitseja?</p>
+                    </sp>
+                    <sp who="#walitseja">
+                        <speaker>Walitseja.</speaker>
+                        <p>Armulisel härral on õigus, aga mis sellest kasu on...</p>
+                    </sp>
+                    <sp who="#parun">
+                        <speaker>Parun.</speaker>
+                        <p>Ja miks siis mitte?</p>
+                    </sp>
+                    <sp who="#walitseja">
+                        <speaker>Walitseja.</speaker>
+                        <p>Ma ei tea mitte, kus see wiga on, paruni härrа; aga olgu aasta halb ehk hää, mitmed taluроjad kaebawad ikka, et nad wähe wilja saawad ja käiwad mõisas wiljasemmet оtsimas. Näitu<pb n="13"/>seks wa Pärmi Jaak. Tema kannab kõik oma saagi siia wa Lämu Matsi taskusse.</p>
+                    </sp>
+                    <sp who="#parun">
+                        <speaker>Parun.</speaker>
+                        <p>Selle mehe peame minema saatma, ehk parem kaotan ma kõrtsi koguni ära. <stage>(Waatab, kõrwale, näeb Jaaku, kes tee ääres magab).</stage> Aga mis see siis on? Mõni surnu? Hans, waata järele!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <stage>(kargab Jaagu juurde, waatab)</stage>
+                        <p>See on ju wana Pärmi Jaak. <stage>(Raputab Jaaku).</stage> Неe, Jaak! <stage>(Paruni pоole).</stage> Sell kisu wõi silmad pääst wälja, ta üles ei ärka.</p>
+                    </sp>
+                    <sp who="#parun">
+                        <speaker>Parun.</speaker>
+                        <p>Las ta magab. Mul on himu temaga toredat näitemängu teha. <stage>(Walitseja poole).</stage> Andke nõuu, mis oleks temaga kõige mõnusam teha!</p>
+                    </sp>
+                    <sp who="#walitseja">
+                        <speaker>Walitseja.</speaker>
+                        <p>Ma arwan: lõikame tal juuksed pääst ära ja määrime nägu tindiga.</p>
+                    </sp>
+                    <sp who="#parun">
+                        <speaker>Parun.</speaker>
+                        <p>See oleks õige kena. Aga Hans, mis sina arwad, wahest tead midagi paremat.</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Nagu paruni härrad soowiwad. Mina arwan: need katkenud hilbud tuleks tal seljast ära wõtta, armuline härra, ja siis teie riided selga panna ja teda siis mõisasse armulise härra woodisse wiia. Kui ta siis wiimati üles ärkab, siis teeme nagu oleks tema meie armuline härra. Kui temaga niikaugele oleme jõudnud, et ta ka ise ennast hakkab paruniks pidama, siis joodame ta jälle purju, paneme needsamad wanad hilbud jälle selga ja toome ta siiasamasse tagasi. Missugused mokad ta siis tegema saab, kui jälle üles ärkab!</p>
+                    </sp>
+                    <sp who="#parun">
+                        <speaker>Parun.</speaker>
+                        <p>No waata, see on hüwa nõu! Aga kui ta wahest enne üles ärkab?</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Oh, see ei ärka nii noorelt - magab kui surma unes.</p>
+                    </sp>
+                    <sp who="#parun">
+                        <speaker>Parun.</speaker>
+                        <p>So, so! See on hää! Nüüd mine aga ruttu ees kodu, lase Kaarli hobune wankri ette panna ja tooge ta mõisasse. <stage>(Hans jookseb ära).</stage> Aga sest peab tore nali saama!</p>
+                    </sp>
+                </div>
+                <pb n="14"/>
+                <div type="scene">
+                    <head>6. etteaste.</head>
+                    <stage>Liisu. Jaak magades. Siis Marie.</stage>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <stage>(tuleb)</stage>
+                        <p>Kuulsin siin kõrtsi ees üht joobnut inimest trallitawat, see kihwatas mu südamest läbi. Tean küll, mis joodik mees on ja kui raskeste need kõrtsist mööda saawad. On nad kord wiina juures, siis on nad kui kärblased tõrwa sees, ei pääse enam lahti, kui selili maha jääwad. Oh kui ma mõisa köögitüdrukuks oleksin jäänud. Mõisa leib ees, töö ei murdnud luud ega konti, mis mul wiga oli? Aga ma tahtsin tanu alla, tahtsin mehele ja Pärmi perenaeseks saada. Jaak oli priske, sirge poiss, libitses mu ümber ja õngitses mu järele, tahtis kas wõi leiwaga ära kastа, tädid awitasiwad ka kõrwalt - säh nüüd on mul oma paras käes! Eks ma wõinud teenida ja muretalt elada - ma jõle naene see on tüdrukute paradiis, mille pääle nad ööd ja päewad mõtlewad.</p>
+                    </sp>
+                    <sp who="#marie">
+                        <speaker>Marie.</speaker>
+                        <stage>(tuleb Liisu wiimaste sõnade ajal näitelawale, kui Liisu lõpetab, astub ette)</stage>
+                        <p>Armas Liisu, pole see tüdruku põli ka paradiis ühtegi, päälegi, kui tige proua hommikust õhtuni käksub ja räksub, kanaks ja kalkuniks sõimab ja sul pole kedagi kelle hõlma alla sa poeksid, kes su eest sõna kostaks ja sind hõlma wõtaks - ma tunnen seda ka. Päewal külmetab pää, öösel süda, nagu üksikul linnul aasa pääl, ma tunnen seda ka, ehk ma küll seda meestele ei lähe tunnistama! Ja mis peab wiimaks saama? Palged waowad lohku, kanawarbad tekiwad silma äärde, käed lähewad kortsu ja kindiliseks, juuksed pääs harwaks - on sääl weel kellegi rõõmus tulewik oodata? Kas neid õnnetumaid wähe on, keda teised näpuga näitawad: "Waat, säält läheb wanatüdruk!" Mu weri hangub<pb n="15"/> soontes ära, kui selle pääle mõtlen.</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <p>Marie, sa räägid nagu mu südamest wälja. Just nõnda mõtelsin mina enne ka, ma mõtelsin weel enam, ma mõtelsin kui õnnelik saan ma olema, kui Jaak alati mu suus ja kaelas kinni, kõik teeb mis ma tahan ja käsin, mind käte pääl kannab, minu eest tulest ja weest läbi läheb ja - <stage>(kõrwa sisse)</stage> kui weel pärast, oh sa õnnistus! - midagi käte pääl kannan ja rinna ääres kallistan. Ma olen ema! Ema! -</p>
+                    </sp>
+                    <sp who="#marie">
+                        <speaker>Marie.</speaker>
+                        <stage>(paneb käe Liisu suu pääle)</stage>
+                        <p>Teie, naesed, olete ikka suure suuga ja sülitate wälja, mis suhu tuleb! Millal tütarlapsed nõnda ütlewad!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <p>Nad ei ütle, aga nad mõtelewad nii. Hää küll, minu Jaak oli ka esiotsa sõrme ümber mässida, nagu abielumees peab olema, aga hiljem jäi ta aegamööda tuimemaks, hakkas wastu rääkima, ei teinud enam sõna päält, mis käskisin, tahtis kes teab mis mehe eesõigust majas. Sääl sattus ta paha seltsiga kokku ja hakkas jоoma. Nüüd on elu ammu raisus ja minul waesel weskikiwi kaelas! Mis muidu igal õigel naesel häbiks ja õnnetuseks on, pean ma õnneks nimetama: meile ei ole lapsi antud.</p>
+                        <p>Marie.</p>
+                        <p>Liisu, ära pane pahaks, kui ma sulle ütlen, mis wanade inimeste suust olen kuulnud: "Kui mees kodust rahu ega õnne ei leia, siis leiab ta seda kõrtsist, kuhu mõned naesed oma mehi ise oma kurjusega ajawad".</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <p>Ah see on kurja maailma lori, mis tõsi ei ole.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(liigutab ja rögiseb)</stage>
+                        <p>Nii, nii! Nii ma mõtlen! Hunt pankrotis! <stage>(Rögiseb, Marie ja Liisu waatawad kohkudes ümber, näewad Jaaku, astuwad juurde).</stage></p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <stage>(käsa kokku lüües)</stage>
+                        <p>Oh minu issand ja jumal, mis peawad minu silmad nägema!<pb n="16"/> See on ju minu Jaak, see lakekoer, keda kaugel linnateel arwasin olewat. Siin lamab ta, kui kärwanud lammas maas! Sääl on nüüd minu pastlad ja wärwid ja kõik, mis ta mulle muidu pidi tooma. Oh ma waene, kes päästab mind sellest lakekoerast! <stage>(Nutab).</stage> Marie, kui sul weel ial meelde tuleks kosilasi oodata, waata selle wiinawaadi pääle siin maas ja täna jumalat, et alles tüdruk oled ja mitte õnnetu naene, nagu mina.</p>
+                    </sp>
+                    <sp who="#marie">
+                        <speaker>Marie.</speaker>
+                        <p>Olgu küll, ega nad aga kõik sihused ei ole, kui sinu Jaak. Palju meil siis joodikuid mehi on. Suurem hulk on ausad abielumehed, on kodu, lahkeid sõnu kuulewad ja alati wingus nägu ei näe. Liisu, ära pane pahaks, käksumine ja alaline punane hari ei murra küll mehe luid, aga ajab teda wiimaks kõrtsi. Kui ta kodust rahu ega rõõmu ei leia, siis ta otsib seda mujal ja leiab - wiinas. Ma arwan, hää naese käes on mehest seda teha, mis ta tahab, lammast ehk hunti, kallistajat ehk karwustajat, kui aga -</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <p>Sul hää rääkida, nagu oleksid juba ise naene olnud ja joodiku mehe kõrwal elanud. Eks ma wahel ole ka ikka haugutanud, ja kui süda täis oli, ka womminud, aga mis see kõik on aidanud! Sääl ta on nüüd maas, kui surnud pakk, mis maast ega ilmast ei tea, ega oma naese õnnetusest ei hooli. See lakewasikas, las ta aga wälja magab, küll ta siis peab nägema! <stage>(Õerub wiha pärast rusikaid, hulub).</stage></p>
+                    </sp>
+                    <sp who="#marie">
+                        <speaker>Marie.</speaker>
+                        <stage>(kõrwale)</stage>
+                        <p>No külap see mõni õige mõte on! Ma ei usu mitte, et naene küünte ja rusikatega meest parandab, mina katsuksin teist moodi. <stage>(Häbelikult kätt üle silmade hoides).</stage> Kui mina oma Kaarli naene olen, küll ma<pb n="17"/> tean, kuda naene mitte ei pea tegema.</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <stage>(Jaaku raputades)</stage>
+                        <p>Jaak, Jaak, joobnud siga, tõuse üles, Jaak! Meeletu lojus, tõuse üles! Kus mu rubla, pastlad, wärwid? Kõik sinu kurgus!</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(rögiseb, ei tea midagi)</stage>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <p>Ei ta kuule! Issand jumal, mis ma nüüd pean tegema? Oh ma õnnetu naene! Kas mul seda pidi tarwis olema? Eks ma wõinud teenida! Marie, pea oma leiba kinni ja teeni kuni sulle käsnad silmade pääle kaswawad, aga ära mine mitte mehele! Kui sa seda teed, siis ei ole sa wäärt wanaks tüdrukuks jääda.</p>
+                    </sp>
+                    <sp who="#marie">
+                        <speaker>Marie.</speaker>
+                        <stage>(kõrwale)</stage>
+                        <p>Jah, wanaks nuiaks jäädа, käsnu kulmu pääle saada, tubakat juua, kontluua pääl ratsa sõita, jah, seda ma just ootan! Oh teie weidrad naesed, kui teil oma jagu käes оп, eі mõtle teie enam teiste pääle. <stage>(Liisu poole).</stage> Kas mehele minek siis nii suur patt peaks olema? Meie emad ja esiemad on ju sedasama teinud. Õpetaja ütleb laulatades: "See ei ole mitte hää, et inimene üksi on, sest -" <stage>(Liisu kõrwa sisse)</stage> - temal on üksipäini külm. <stage>(Ära).</stage></p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <stage>(Jaagu pääle näidates)</stage>
+                        <p>Waatа, sääl räägib: hää eesmärk, mine mehele ja saa niisama õnnelikuks nagu mina! <stage>(Nutab).</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>7. etteaste.</head>
+                    <stage>Liisu. Jaak magades. Hans. Kaarel.</stage>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Noh, Pärmi Liisu, sina siin? Tere kah! Miks sa nutad? Mis ahastus sul on? Ega Jaak ometi pole haigeks jäänud wõi ära surnud?</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <p>Oh kulla pai Hansukene, ta on enam kui haige ehk surnud, ta on siin <stage>(näitab)</stage> täis joobnud nagu siga tee ääres maas.</p>
+                    </sp>
+                    <pb n="18"/>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Ära nuta Liisu, ära nuta, see on ta eeswiimne päätäis. Juhtusime täna tüki aja eest paruni härra seltsis siit mööda minema ja nägime, kuidas Jaak siin maas оli nagu praegu weel. Paruni härra andis sedamaid käsu Jaaku mõisa tassida, ta tahab temaga toredat näitemängu teha ja teda selkombel pahast wiinatõbest parandada.- Aga miks sa wiina tarvis raha temalа kaasa andsid?</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <p>Pai Hansukene, mina ei ole talle wiina tarwis kopikatki kaasa annud. Ma uskusin ühe rubla tema kätte, selle eest pidi ta mulle linnast pudipadi kaupa tooma, aga seda on ta lakekoer nüüd läbі kurgu lasknud.</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Otse sellepärast tahabgi härra temaga nalja teha, käskis teda magades, wankri pääle panna ja mõisa tuua, kutsari Kaarel ootab hobustega suure pärna all ja puhub köögitüdrukuga magusat juttu. Marie tuli meile wastu.</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <p>Kõigeparem näitemäng, mis talle meelde jääks oleks, kui paruni härra talle pärast ärkamist hää keretäie kaseurwa plaastrid laseks naha pääle määrida.</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Ei, Liisukene, sa Jaagu hella naesukene, kes sa Jaagule, oma mehele, kõigeparemad soowid, ei see aitaks ühtegi. Meie teeme temaga teist näitemängu. Jaak peab kui silmad lahti teeb korraga suur mõisnik ja parun olema. Temale pandakse kallid riided selga, siidi öökuub, siidi sukad, lõondist särk, sametist unimüts j.n.e, ja nnda pandakse ta udusule sängi siidi teki alla magama. On wiin tal pääst ära auranud ja ärkab ta üles, eks siis saame näha, mäherdused mokad ta teeb.</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <p>Kulla Hansukene, tema lakub parunina weel paremini.</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Saame näha, ma ei usu mitte, kui tahad,<pb n="19"/> tule kaasa, et oma silmaga wõid näha, kuidas näitemäng läheb. Aga nüüd tõstame ta wankri pääle. <stage>(Hüüab).</stage> Kaarel! Kaarel ae! Tule, wiime tõbise tohtri alla. <stage>(Kaarel tuleb. Marie wahib puu warjust. Jaak tõstetakse üles ja kantakse ära, kandjad laulawad).</stage></p>
+                    </sp>
+                    <sp who="#hans_kaarel">
+                        <speaker>Hans Kaarel</speaker>
+                        <p>Aidu raidu Pärmi Jaaku wiime, teeme paruniks! Trallalla, trallalla, trallala!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <stage>(seisab nukralt kõrwal)</stage>
+                    </sp>
+                    <stage>Eesriie.</stage>
+                </div>
+            </div>
+            <pb n="20"/>
+            <div type="act">
+                <head>II. järk.</head>
+                <stage>Tore tuba: peegel, toolid, öölaud, woodi jne.</stage>
+                <div type="scene">
+                    <head>1. etteaste.</head>
+                    <stage>Jaak magab paruni woodis, siidi öökuub seljas, ärkab üles ja õerub silmi, sülitab pihusse, õerub jälle silmi; muusika mängib tasa.</stage>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Oh mis kaunid hääled, ma kuulsin läЪі une. Oli, nagu mängiksiwad inglid kannelt. Kuula, kuula - helisewad weelgi. <stage>(Waatab ümberringi).</stage> Aga tule jumal appi, kus ma siis õieti olen? Mis on minust saanud? Ennäh, kui ilus tuba, siin wõiks mõni würst elada! <stage>(Waatab).</stage> Ja minu riided! Kes on need mulle selga pannud? Siidi sukad, siidi kuub, kirjud kingad woodi ees. <stage>(Katsub pääd).</stage> Sammeti müts pääs nagu mõnel parunil - anna jumal mu patud andeks, olen wist juba ära surnud ja elan nüüd taewas, kus inglid kannelt mängiwad! Püha waim ja mina waene patune! Niipalju mäletan weel - olin wiimaks Matsi pool ja meie jõime Liisu rubla pääle. <stage>(Mõtleb).</stage> Aga kas see kõik on ikka ilmsi? Oot! Tarwis iseennast ninast näpistada. <stage>(Näpistab).</stage> Ai - see teeb walu, ma olen ülewel, see on ilmsi, tõepoolest, see on ilmsi! Aga taewas ma olen - see on kindel: kes mind maa pääl paruniks oleks teinud! Aga kuidas ma küll õieti ära surin? Jõin wist Matsi juures wähe ülearu, surin ära ja sain otseteed taewasse. Ega see suremine wist nii raske ei olegi, kui arwatakse, mina wähemalt ei ole midagi tunnud. <stage>(Mõtleb).</stage> Aga mis minu Liisu ütleb, kui mind surnud leiab olewat ja taga leinab! Oh, mul on wäga hale meel oma kallist kanapojukesest, omast<pb n="21"/> Liisukest. <stage>(Nuatb).</stage> Oli tuline hää naene, kui ka mõnikord natuke käre, kui nokastanud juhtusin olema. <stage>(Nutab).</stage> Ja jumal teab, mis minust siin teisese ilmas saab! Kõik on siin wõõras ja tundmata, ei tea kes ma olen, kust tulen, ehk kuhu lähen! Peaks mu silm ometi kedagi inimese ehk ingli hinge siin nägema! <stage>(Hüüab).</stage> Hee, kurk on kuiw!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>2.etteaste.</head>
+                    <stage>Jaak. Hans ja Anna. Hiljem Kaarel.</stage>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <stage>(tuleb sisse, kumardab)</stage>
+                        <p>Mis armuline pаruni härra soowiwad?</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Issand jumal, Hans, kas sina ka ära oled surnud ja siia saanud?</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Mis paruni härra räägiwad? Kes on ära surnud? Ei mina tea kedagit surnut ole-wat.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Tean küll, et sul maa pääl toapoisi amet oli, oled siis siin ka sama ameti pääl?</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Kudas paruni härra säherdust naja teewad! Meist pole weel keegi teises ilmas! - Missugused riided paruni härra täna selga panewad, et ma teaksin puhtaks pürstida?</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Kelle paruni härra mina olen! Millal ma selleks olen saanud? <stage>(Pahaselt).</stage> Mina olen Pärmi Jaak, kes ära on surnud, muud midagi. Mis juttu sa siin teises ilmas ajad?!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Heldene aeg! Härra on ikka meie armuline härra ja mina olen alati härra alatu teener olnud. Härra on täna wist haige?</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>See on tõsi küll, pää walutab ja keel kuiwab suulae külge, muidu olen terwe, kui purikas wees.</p>
+                    </sp>
+                    <sp who="#anna">
+                        <speaker>Anna.</speaker>
+                        <stage>(tuleb)</stage>
+                        <p>Paruni härra tahtsiwad wälja sõita - pean ma hobuse sadulasse laskma panna? Armuline proua ootab.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(kõrwale)</stage>
+                        <p>Siin on nad kõik hulluks<pb n="22"/> läinud! <stage>(Waljusti).</stage> Mis pagana jutt see on! Paruni härra ikka ja paruni härra! Mina ei ole mitte paruni härra - mina olen Pärmi Jaak, kes ära on surnud. Maapäälsed asjad on möödas, kes mind siin enam paruniks teeb!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Härrad teewad oma teenriga nalja.</p>
+                    </sp>
+                    <sp who="#anna">
+                        <speaker>Anna.</speaker>
+                        <p>Ja mis sõnume pean ma armulise prouale wiima?</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Kelle proua minul taewas on! Maa pääl oli mul naene Liisu, kes omal ajal järele tuleb. Ta oli mulle siisgi wäga armas, mu Liisu, aga nüüd on surm meid äkitselt ära lahutanud ja tema waseke maa pääle leinama jäänud. Oh mu kallis Liisuke!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Kui paruni härra oma teenritega mitte pilkamise wiisi nalja ei teeks siis oleks hää küll, aga -</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Mina ei ole mitte härra! Minu nimi on Pärmi Jaak - kas kuuled, noh!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Kuida nüüd härra nõnda wõib rääkida, proua ehk saaks seda nalja pahaks panema.</p>
+                    </sp>
+                    <sp who="#anna">
+                        <speaker>Anna.</speaker>
+                        <p>Ega seda prouale ei tohi ütelda.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(kõrwale)</stage>
+                        <p>Jumal anna andeks - see elu siin teises ilmas on ju nagu hullumajas, kus neil mängu põrmu pääs ei ole. <stage>(Waljusti).</stage> Mina ei ole kedagi prouat tundnud, ega tunne teda nüüdgi, minu naene on Pärmi Liisu, kes Lämu kõrtsi ligidal elab.- Aga kui ma praegu surnud ei ole, kus ma siis olen? Ütelge!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Härra on meie armuline härra. Teie olete tõepoolest haige, pean ma tohtri järele saatma?</p>
+                    </sp>
+                    <sp who="#kaarel">
+                        <speaker>Kaarel.</speaker>
+                        <stage>(tuleb)</stage>
+                        <p>Pean ma kimli wõi musta täku sadulasse panema?</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Minu pärast missugune tahes</p>
+                    </sp>
+                    <sp who="#kaarel">
+                        <speaker>Kaarel.</speaker>
+                        <stage>(kumardab, tõttab wälja)</stage>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <stage>(hüüab järele)</stage>
+                        <p>Saada tohter siia!</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(kahe käega pääd katsudes)</stage>
+                        <p>Taga hul<pb n="23"/>lemaks läheb lugu! Siin taewas on neil ka kimlid täkud, ratsasõidud, prouad, jampsid teenrid, tohtrid j.n.e.    Siin saawad talupojad paruniks ja nõnda edasi. Tõesti, kui nad seda maa pääl teaksiwad - meie terwe wald sureks ühekorraga ära ja oleks warsti siin! Aga - aga <stage>(sügab kõrwa tagast),</stage> noh, enne kui muud teen, wõtan pruukosti. <stage>(Anna poole).</stage> Kuule sina kena neiukene, kui sul on, siis too mulle midagi jänu kustutamiseks ja pääparandamiseks.</p>
+                    </sp>
+                    <sp who="#anna">
+                        <speaker>Anna.</speaker>
+                        <p>Silmapilk, paruni härra! <stage>(Teeb kniksu ja tõttab uksest wälja).</stage></p>
+                        <p>Hans.</p>
+                        <p>Kui paruni härra lubawad, teen seni riided ja saapad puhtaks, et kimmel liiga kaua ei ootaks. <stage>(Kumardab, läheb ära).</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>3. etteaste.</head>
+                    <stage>Jaak üksi. Tuleb woodist wälja, kõnnib.</stage>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Oh sa wiimane kirju lugu! Kuida olen ma ometi paruniks saanud? See on nii weider tükk, et sellest hobenegi aru ei saa. Mis saab Liisu ütlema. Ega ta mind enam ei tunne ega tohi sõimata ega küünistada: see on suur kasu. Hans, Anna, Kaarel ja kes nad muidu kõik siin on, ütlewad küll, et ma paruni härra pidawat olema, aga mina wõin selle pääle wanduda, et ma Pärmi Jaak olen! Bih, olgu ma siis, mis nad tahawad, aga mul saab nüüd ikka parem põli olema, kui enne surma oli. Mul ei ole enam tarwis tööd teha, ega mõisas teol käia, wõin rõõmsasti ja mureta elada ja wiina juua nii palju kui süda kutsub ja keha kannab. Hõissa, poiss! Nüüd oled sa õnnega koos. Kuidas minu endised naabrid nüüd üles wahiwad ja imeks panewad! Waat' säh, mis Pärmi Jaagust wõib saada. Aga Liisu peab nüüd ka minu prouaks saama, muidu ma selle põlwe<pb n="24"/>ga ei lepi. Minu kallis Liisu, kuda ma ilma temata wõin elada?! Tunnen küll tema terawat keelt ja küüsi, aga teistel prouadel peab neid ka olema ja osalt weel terawamad! Noh, kes säält siis tuleb?</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>4.etteaste.</head>
+                    <stage>Jaak. Walitseja tohtrina.</stage>
+                    <sp who="#walitseja">
+                        <speaker>Walitseja.</speaker>
+                        <stage>(tuleb kumardades sisse)</stage>
+                        <p>Kuulsin, et armuline härra haige olewat?</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(kõrwale)</stage>
+                        <p>Taga hullem. Walitseja härra ka siin!</p>
+                    </sp>
+                    <sp who="#walitseja">
+                        <speaker>Walitseja.</speaker>
+                        <p>Lubage, et weresoont katsun.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Olete teie siis siin taewas tohtriks saanud auulik walitseja härra?</p>
+                    </sp>
+                    <sp who="#walitseja">
+                        <speaker>Walitseja.</speaker>
+                        <p>Armuline härra teewad oma teenijaga nalja, oma ei ole millalgi walitseja olnud, olen paruni härra tohter.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Ütelge mulle, kus ja kes ma siis olen?</p>
+                    </sp>
+                    <sp who="#walitseja">
+                        <speaker>Walitseja.</speaker>
+                        <p>Härra on meie armuline härra ja on praegu omas mõisas.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Oh sa wiimane lugu! Ikka paruni härra ja armuline härra!</p>
+                    </sp>
+                    <sp who="#walitseja">
+                        <speaker>Walitseja.</speaker>
+                        <p>Lubage mulle oma kätt, et weresoont järele katsun. <stage>(Wõtab Jaagu käe).</stage></p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Kobage, kobage - mina wõin wanduda, et ma muud ei ole kui Pärmi Jaak! <stage>(Kõrwale).</stage> Aga mine pane saksad uskuma.</p>
+                    </sp>
+                    <sp who="#walitseja">
+                        <speaker>Walitseja.</speaker>
+                        <stage>(kõrwale)</stage>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>So, so, so! Kas ma siis ikka olengi<pb n="25"/> parun? See on wäga hää. Oled wa mõnus mees, tohter, kes asjast aru saab!</p>
+                    </sp>
+                    <sp who="#walitseja">
+                        <speaker>Walitseja.</speaker>
+                        <p>Lasen silmapilk rohtu tuua! <stage>(Kumardab, ära).</stage></p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(järele mõteldes)</stage>
+                        <p>Aga ärge wa tsis sinad ära unustage, see on pääwalule kõige parem!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>5. etteaste.</head>
+                    <stage>Jaak üksinda.</stage>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>No see saab alles põli olema, hõissa poiss! Mina olen parun! Missugused silmad minu Liisu tegema saab, kui ta min parunina näeb. Ja wiina, seda wõin ma nüüd juua kui wett! Kus tont see Anna pruukosti ja keelekastega nii kauaks jääb? <stage>(Hüüab).</stage> Anna, Anna ae! Pruukosti ja wii - <stage>(kuulab).</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>6, etteaste.</head>
+                    <stage>Jaak. Hans riietega. Anna pruukostiga.</stage>
+                    <stage>(Riided pandakse tooli pääle ja road laua pääle, wiinapudel ka).</stage>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Nüüd palun armulist härrat riidesse panna!</p>
+                    </sp>
+                    <sp who="#anna">
+                        <speaker>Anna.</speaker>
+                        <p>Ja siis palun pruukosti lauale istuda <stage>(ära).</stage></p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(wahib napsipudeli pääle)</stage>
+                        <p>Ega riietega ruttu ei ole, Hans. Las ma söön enne natuke, mul kõht tühi ja juuksed walutawad. Öökuue sees tahan süüa! <stage>(Wahib ikka wiina pääle).</stage></p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Nagu härra soowib. Nii on ka tohtri härra käsk. Olge hääd istuge lauda.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(istub)</stage>
+                        <p>Mis nende pudelite sees ka seisab?</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <stage>(rätikut ette sidudes)</stage>
+                        <p>Mõnesugust, armuline härra, nagu härrale igal hommiku lauale toodakse. <stage>(Walab).</stage></p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Mis wiin see on?</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Kirsiliköör, armuline härra, eks härra<pb n="26"/> tea ammugi!</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(nilpsab keelt, rüüpab, sülitab wälja)</stage>
+                        <p>Hans, sina pаnthabe! Mis pagana wiin see on? Selge siirupi löga, mis naestelegi ei kõlba ja mehed oksele ajab. Too mulle meeste keelekastet: Peeter esimest, Sinikaela Südame terast, Põlwemurdjat, Põllumeest ehk muud sellesarnast, aga mitte niisugust magusat löga!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Härra annab andeks, siin on ka Peterburi atsissinat, mis suu kortsu kisub, kui kärra käsib.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(walab)</stage>
+                        <p>Seda olen ma kuulnud mehe joogi olewat. <stage>(Joob).</stage></p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <stage>(walab, ütleb kõrwale)</stage>
+                        <p>No waat' see on meister selili. Külap see ta pea mull maha wõtab ja ta põlwed murrab. Sellega saab meie näitemäng hää tüki lühemaks. Aga ma pean tegema, mis parun Pärmi Jaak käseb.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(loob, kärsutab nina, õõrub kõhtu)</stage>
+                        <p>Tota poiss, see oli märjuke. Wene nimi ja Wene kangus! Ei Lämu Matsil sellesarnast nabanutti anda polnud! Eht paruni keelekaste. Selle juurde ma jään. Selge kui kristall ja tuliteraw. Hans, ära sa seda kitsi ehk kirsilögu mulle ial enam too! Kas kuuled!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Kuulen, kuulen, paruni härra! Wist on Anna wõi armuline proua seda atsissina kõrwale pannud.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Kalla weel teine, aga suurema klaasi sisse, mis wäike mõõt parunile mõjub! Sõrmkübara seest joogu talupojad)</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <stage>(walab, kõrwale)</stage>
+                        <p>Waat nõnda! Täna on Lämu Matsi amet minu käes, aga ma tahan teda paremini määrida kui Mats oma ristitud märjaga eila tegi.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(joob, õõrub kõhtu)</stage>
+                        <p>Ah ja, Hans, sа rääkisid enne prouast. Saada minu Liisu järele, tema tulgu siia, ta peab prouaks saama. Olgu ma taewas ehk maa pääl, mina olen parun ja - mehega<pb n="27"/> tõuseb ka naene. Wala weel üks sisse <stage>(Wõtab mõne suutäie toitu, nimelt heeringat).</stage></p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <stage>(walab)</stage>
+                        <p>Mis härrad nüüd jälle räägiwad? Härral on ju jumekas kena pro Meie ei ela Türgimaal.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Suu pea! Mina ei tunne nägusat pro ega näotumat prouat, minu Pärmi talu proua, sada tema järele, aga tõllaga, kled? Kutsar Kaarel mingu tõllaga, pan neli hobust ette, kas kuuled!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Mina pean ju härra käsku täitma, ag mina kardan, et niisugust Liisu proua meie külast mitte leida ei ole.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Kuhu ta siis on jäänud? Täna hommikul, kui ma linna pidin minema, jäi ta ju ometi kodu. <stage>(Kohkudes kõrwale).</stage> Oh Lämu Mats, kus mu rubla? Mis saab Liis ütlema, kui me kokku saame? <stage>(Mõtleb).</stage> Ah ja - mina olen ju parun, mis ta parunile enam wõib ütelda.</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <stage>(naerupidades)</stage>
+                        <p>Härra ei ole täna jalga toast wälja saanud, polegi weel riidesse pannud, millal siis härra linna tahtsiwad minna? Tule jumal appi, miks härra nõnda räägib!</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Suu pea, lurjus! Tahad sina minu asju paremini teada kui mina ise? <stage>(Joob, nilpsab keelt).</stage> Aha Hans, kui kaua ma selle kirju undruku sees pean seisma, pane mulle ju ometi kord meeste riided selga. Ega ma mõni nurganaene ei ole.</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Silmapilk. <stage>(Läheb riideid tоoli päält wõtma).</stage> Aga härra kaebas esmalt pääwalu, proua kardab, laskis Kaarlil kimli talli wiia.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(katsub pääd)</stage>
+                        <p>Ja-ah, see wõib küll tõsi olla, mu pää on praegu alles natuke raske, wõib ehk weel raskemaks minna. Selle wastu pean tilga rohtu wõtma. <stage>(Joob mitu lonksu pudelist).</stage> So - külap aitab, rohi on mõnus!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Paruni härra on ennegi sellega kõik<pb n="28"/> wead parandanud, kui mõnikord mured muljuwad ja nukker meel oli.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>See on mehe sõna, Hans, on terwe tõsi, ammu arstidest ärakatsutud asi. Wala tops täis. <stage>(Wõtab klaasi, lällutab: see elutilk jne. Pöörab Hansu poole).</stage> Kuule, Hans, ütle mulle puhast tõtt. Kas ma olen ikka tõesti parun ja mõisahärra, ehk on see muidu silmawiirastus?</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Nii tõesti kui härra omad silmad näewad.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>No muidugi, eks oma silm ole kuningas! Kas kubja Rein ka siin mõisas on?</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Miks ei ole, auulik härra, ta on ju härra teener.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Lase talle 60 hoopi keppi anda ja ütle, see on selle eest, et ta mind minewal nädalal sõimas mõisa põllul ja ähwardas. <stage>(Joob pudelist).</stage> Ja ähwardas, kas kuuled?</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Miks ep kuule, auulik härra! <stage>(Kõrwale).</stage> Küll aga lakub! Ei kesta kaua, siis on ta jälle selili maas.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Säh, Hans, maitse ka, kui härra ise sulle annab.</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Tänan wäga suure auu eest, mis härra oma sulasele näitab, aga ma ei pruugi wiina.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Mis sa waletad, tühi lori! Eks ma Põlde Aadu warul näinud, kuda sa neelasid ja see oli kõrtsi wirtsa wedelik selle mõnusa märjukese kõrwal. Säh - joo!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Juba härra ajab jälle nalja juttu. Härra on tõesti haige - tarwis uuesti tohter kutsuda. <stage>(Tahab ära minna).</stage></p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Paigal! Mine, kus - ma ei taha mitte ütelda - oma tohtriga. Mina olen päris terwe, pääwalu kui peoga ära wõetud! Keda tohtri kallid solgitilgad terweks on teinud? Mul parem rohi <stage>(Joob).</stage> Kuule, kui kubja Rein naha näale on saa<pb n="29"/>nud, siis läkita warsti Lämu Matsi juurde ja lase kõik kriipsud, mis Pärmi Jaagu nime pääle kapi uksele tõmmatud, maha kustutada - kas kuuled!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Küll ikka, auulik härra! <stage>(Ukse pääle koputatakse, Hans waatab, tuleb tagasi).</stage> Paruni proua soowiwad härrat waatama tulla. Ärge nüüd enam weidraid juttusid ajage!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>7. etteaste.</head>
+                    <stage>Endised. Liisu proua riides. Hiljem teised.</stage>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(kange keelega)</stage>
+                        <p>Tule jumal appi, see on ju minu oma Liisu, aga wõõras riides.</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Kuidas härra nõnda wõib jampsida! Paruni proua ei wõi ial Liisu olla. See on meie armuline proua. <stage>(Liisu poole).</stage> Armuline proua, kannatage ära, meie härra on täna natuke haige, kuda proua isegi näewad. Härral tõuseb mõnikord weri päha.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Ei mina muud prouat taha! Liisu, mu armas Liisu peab siia tulema ja prouaks saama, teised mingu soo ja raba pääle! Mis Liisu ütleks, kui ma mõne teise wõtaksin?</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <stage>(kõrwale)</stage>
+                        <p>Eks sa kuule imet, joobnud täis ja armastab mind enam kui saksa prouat! See on magus kuulda, seda temale tasumata ei jäta. Waene Jaak! Olen ehk mõnikord ka liig - aga olgu pääle! <stage>(Hansu poole).</stage> Hans, mis härral wiga on. Ta kõne on nii segane ja keel kange? Ega ta keel ometi halwatud ei ole?</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Heldene aeg! Eks ole ka justament minu Liisu hääl ja keel! Kas mina oma kallist Liisut ei peaks ära tundma?</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Ärge pange pahaks, auus proua, aga meie härra räägib täna nii weidrasti,<pb n="30"/> nagu ei oleks tal õiget meelt enam pääs. Jumal hoidku õnnetuse eest!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <stage>(kõrwale)</stage>
+                        <p>Ei minu süda niisugust piinamist ei kannata! Ma lähen warsti päris härra juurde ja palun, et mu waest Jaaku ei peaks kauem waewatama. Ma näen, et ta mind südamest armastab. See on pääasi igale hääle naesele. Et wiin tema armastust weel ei ole ära uputanud, selle eest annan talle kõik andeks ja oleks ta mu ka terwelt ära joonud. <stage>(Hansu poole).</stage> Hans, saada warsti tohtri järele. Härra on haige ja tarwitab aadrilaskmist! <stage>(Ära).</stage></p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Waadake härra, mis te nüüd jälle olete teinud. Proua sai pahaseks ja sõidab sedamaid kodust wälja, ei tea kuhu!</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Sõitku pääle, kui ta Liisu ei ole! Oli teisel Liisu hääl ja nägu, aga mitte Liisu tegu! Liisu oleks mulle sedamaid mööda kõrwu andnud, et ma tema rubla ära jõin, aga see wõõras proua ei teinud mulle midagi. Sellepärast ei olnud ta mitte Liisu sarnane, keda ma ikka weel armastan. <stage>(Joob).</stage> Mu armasa Liisu terwiseks! <stage>(Tuigub, trallib).</stage> Hans, wii mind nüüd woodi, aita! Ma olen õige wäsinud, tahan puhata! <stage>(Hans wiib Jaagu sängi).</stage></p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <stage>(kõrwale)</stage>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(woodis selili)</stage>
+                        <p>Hans! Hans! Wii mind woodi, olen wäsinud tahan magada! Hans, kas sa ei kuule, sina panthabe! Hans, kelm! Lurjus - oled sa joobnud? - Oh see kallis magus wiin. Nõnda maksab ometi ka parun olla! Aga kange on ta küll - mehewiisi kange. Hoopis kangem, kui Lämu Matsi wedelik. Mats kelm walab wett sekka! Mats wõrukael - Hans!<pb n="31"/> <stage>(Iniseb,jääb magama).</stage></p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <stage>(läheb ukse juurde, teeb ukse lahti, sisse astuwad parun, Kaarel, walitseja, Anna, Marie)</stage>
+                        <p>Toо on lõpetatud - juba magab. <stage>(Kumardab).</stage></p>
+                    </sp>
+                    <sp who="#parun">
+                        <speaker>Parun.</speaker>
+                        <stage>(astub woodi juurde, waatab)</stage>
+                    </sp>
+                    <sp who="#kaarel">
+                        <speaker>Kaarel.</speaker>
+                        <stage>(kumardab, tõttab wälja)</stage>
+                    </sp>
+                    <sp who="#parun">
+                        <speaker>Parun.</speaker>
+                        <p>Ja sina, Hans pane talle jälle endised hilbud selga! Pääle selle pane talle kõik need asjad koti sisse, mis ta Liisule linnast pidi tooma. Said aru?</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Nagu armuline härra käsiwad! <stage>(Kumardab).</stage></p>
+                    </sp>
+                    <stage>Eesriie.</stage>
+                </div>
+            </div>
+            <pb n="32"/>
+            <div type="act">
+                <head>III. järk.</head>
+                <div type="scene">
+                    <head>1. etteaste.</head>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(magab jälle endises riides Lämu kõrtsi ees. Kaugelt kostawad karjaste hüüdmised ja weiste kellade kõlisewad. Jaak liigutab, ärkab üles)</stage>
+                        <p>Hans, Hans, kus sa panthabe oled? Too mulle pääparandust! <stage>(Õõrub silmi).</stage> Kus ma nüüd jälle olen? Hans, miks sa mind woodis- se ei ole pannud? Kus mu siidi riided on? <stage>(Ajab end maast üles).</stage> Kallis püna jumal - ma olen jälle Matsi ukse ees! Olen ma weel mõisa härra wõi olen ma jälle Pärmi Jaak? Oh sa heldeke - oli wist pikk ja raske unenägu! - Aga see magus wiin, mis ma jõin, tuksub weel praegu mu keele pääl! Küll oli jumala wili! <stage>(Katsub keha).</stage> Olin ehk jälle ärasurnud ja jumal karistab mind mu patu pärast? Aga esimese surma järele oli lugu palju lõbusam! Oh, mis ma säält ärgates kõik eest leidsin ja maitsesin! Ja siin - kõik jälle wana puudus, waesus ja wiletsus! Maailm on tõesti üks hädaorg. Mis on napsilöga selle wastu, mis ma teises ilmas rüüpasin! Ja keegi ei küsinud raha ega tõmmanud kriipsu kapi ukse pääle. Pärmi Jaak! Brr...! See on hale. Eks ma wõinud teise ilma jääda? Aga nõnda nüüd - <stage>(kohkub, waatab kõrwale).</stage> Oh sa kadaka tuli - säält tuleb minu Liisuke! Nüüd waene Jaaguke hoia enda kõrwad! Pliks ja plaks saawad palge pääle helisema! Liisuga tuleb torm ja wälk ühes. Jumal, päästa mind sest raskest tunnist! Aga, mis tont ma nüüd pean ütlema? - Mats - kibe jänu - rubla intressi pääl. - Hunt pankrotis -<pb n="33"/> Jumal tule nüüd ise appi!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>2.etteaste.</head>
+                    <stage>Jaak. Liisu tuleb.</stage>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <stage>(lahkesti)</stage>
+                        <p>Tere kah, mu аrmas Jaak! Ei mina ei oleks uskunud, et sina nii ruttu linnast tagasi pidid jõudma! Kuidas teekond läks ka? Oled hästi wäsinud ja kõht tühi, mu waene Jaak!</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(kõrwale)</stage>
+                        <p>Nonoh! Suured müristamised ja wälgulöömised hakkawad ikka sooja päikesepaistega pääle! Jaak, pane tähele, mis pärast tuleb! <stage>(Pöörab Liisu poole, köhatab).</stage> Armas Liisuke, minuga оn imelikud ja arusaamata asjad sündinud.</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <p>Uih, kuidas nii?</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Jah, jumal teab, kas ma taewriigis olin ehk und nägin, aga imelik oli lugu ja mina ei tea, kas ma ihus ehk ihust ära olin! Istu siia pingi pääle, ma tahan sulle kõik seda lugu kõnelda! <stage>(Istuwad).</stage> Kuule, mina olin paruniks ja suureks mõisahärraks saanud. Elasin suures toredas majas, sõin ja jõin hääd ja kandsin kallist, teenrid ja ümardajad ees ja taga ja proua, peaaegu niisamasugune jumekas nagu sina, pehmes riides, kena loomuke, aga minul seisis oma armas Liisu südames, mina wõõrast ei tahtnud, lasksin teda oma teed wihaselt ära minna. <stage>(Liisu silitab Jaagu palesid).</stage> Temal oli küll sinu hääl ja nägu, aga sinu armsaid sõnu ega lõbusat wiisi temal ei olnud. Ta käis küll siidi riides, aga sina mu Liisuke, mu kallis kanapojukene, oled mulle palju, palju armsam! <stage>(Hakkab Liisu kaela ümber).</stage></p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <stage>(lahkesti naerdes)</stage>
+                        <p>Mu armas Jaaguke, mis sa ometi jampsid, sina ei käinud ju mitte taewas, waid Tartus. Taewast ei tulda nii ruttu tagasi.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Ei, armas Liisuke, mina ei ole siit<pb n="34"/> paigastgi ära saanud! Mina olen wäga patune inimene jumala ja sinu wastu. Kõrtsi Mats, saadana hing pettis sinu rubla minu käest ära ja õpetas mind selle eest waletama, et ma raha intressi pääle pannud ja kaupmees Hunt pankrotti jäänud.</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <stage>(suure häälega naerdes)</stage>
+                        <p>Mis jampsi juttu sa õige ajad täna, Jaak? Sina ei ole linnas käinud? Kas sulle taewas minu parginahka pastlad wöö alla pistis? Waata ometi.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(silmad pärani)</stage>
+                        <p>Asi läheb ikka hullemaks! <stage>(Tõmbab pastlad wöö alt wälja).</stage> Puh! Oeh! Mu pää hakkab ratasringi käima.</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <stage>(ikka naerdes)</stage>
+                        <p>Oled sa ühte toonud, ega sa siis teisigi toomata ei jätnud, nagu ma oma hoolast Jaaku ei tunneks! Sul wist wärwid taskus - eks katsu järele.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(tõmbab wärwid wälja)</stage>
+                        <p>Eks ole ka siin! Nael tubakat ka weel juures! Liisu, armas Liisu, ära naera mitte enam - sõima, taple parem ja anna mulle mööda kõrwu, et ma üles ärkan! Jumal anna mulle andeks, ma olen elawalt ära tehtud. Kust on see silmawiirastus tulnud? Kes on seda teinud? Minu waene pää ei jaksa sellest aru saada. Missugused hääd ehk pahad waimud on mind talutanud ja tassinud, et ma midagi enam ei ole märganud! Jumala eest, Liisukene, mina ei ole neid asju mitte ostnud!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <p>Armas Jaak, sa oled ära unustanud! Jää rahule, ega neid keegi sulle ilma hinnata andnud ei ole.- Nüüd olen ma aga rõõmus ja näen mis ma mitte palju ei uskunud, et minu Jaak tubli ja auwäärt mees on, kes oma naist armastab! <stage>(Hakkab mehe kaela).</stage> Laitku sind külarahwas edaspidi nii palju kui tahawad,<pb n="35"/> seda ma enam ei usu ega kuula, sest ma tunnen sinu truudust ja see käib naesel üle kõige!</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak,.</speaker>
+                        <stage>(wõtab Liisu ümbert кіnni)</stage>
+                        <p>Liisuke, mu nаеsuke! Weel ei ole mа mis ma peaksin olema, aga ma tahan seks saada, kui sa kannatuse ja naeselahkusega tahad abiks olla! Olgu nüüd kõik see silmawiirastus ehk tõsine asi olnud, üks puhas, nii palju on selge: kui meie kodus teineteise kõrwalt leiame, mis mõlemad soowime - rahu, leplist meelt, kannatust ja truudust, siis ei wii mind keegi enam kõrtsi ega seo wiina ikkesse, nii tõesti, kui jumal aitab! Mina ei taha niisugust unenägu ial enam näha jа kui wiinast lahkun, ei saa seda enam tulemagi. Ma hakkan märkama, kust poolt kõik tuli, aga see ei pahanda mind mitte, waid ma olen ennem tänulik! <stage>(Kõrwale).</stage> Mõistan juba - selle teo juures on Liisu näpud ka tegewad olnud.</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <p>Oh mu kallis, kallis Jaak! Kui jumal sind aitab sõna pidada, siis pead sa mind nägema uueks loomaks saanud olewat. Ma ei taha enam kaagutaja kana ega kriimustaja kass olla, nagu seda tänini oled näinud. Andku jumal seks armu ja abi!</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Аmen - see sündigu nõnda! Wõtku jumal meie tõotustele kindlust juurde lisada. Abielurahwas peawad teineteisele rõõmuks, aga mitte ristiks elama! Mees ei pea naist mitte kassiks ega tiigriks, naene meest seaks ega lõwiks tembeldama, siis wõiwad mõlemad õnnelikud olla ja nõnda peab see - andku jumal meie wahel edaspidi ka olema! Eks ole? <stage>(Annawad kätt jа suud).</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>3. etteaste.</head>
+                    <stage>Endised. Parun.</stage>
+                    <sp who="#parun">
+                        <speaker>Parun.</speaker>
+                        <p>No waata mul tuikesi, kuida nad suudelda oskawad! Ripuwad teineteise kaelas<pb n="36"/> nagu oleks üle mitme aasta kokku saanud. Mis see siis tähendab?</p>
+                    </sp>
+                    <stage>(Jaak ja Liisu kohkuwad, Jaak kumardab, Liisu teeb kniksu).</stage>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(häbelikult)</stage>
+                        <p>Armuline härra, see tähendab, et nüüd sõda meie wahel on lõpenud. Tegime praegu rahu tingimisi.</p>
+                    </sp>
+                    <sp who="#parun">
+                        <speaker>Parun.</speaker>
+                        <p>Ja need tingimised on?</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(tubaka paki kallal kobides)</stage>
+                        <p>Mina ei wõta wiina tilka suhu ja Liisu, mu kallis naesuke -</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu</speaker>
+                        <p>- - lubab oma Jaaku kõigest südamest armastada. Ial ei pea enam halb sõna mu huulte üle weerema.</p>
+                    </sp>
+                    <sp who="#parun">
+                        <speaker>Parun.</speaker>
+                        <p>No waata, see on mõistlik! Kui oma tingimisi korrapärast ilusti ära täidate, siis tahan ka mina teile abiks olla ja saan teie elu kindla põhja pääle säädima. Wiinajoomine ei ole muud kui wiletsus, ta rikub terwise ja häwitab waranduse. Kes tema kütkes kinni on, see on eluaeg ta ori. Täna jumalat, Jaak, et õigelajal meelt oled parandanud, see saab sulle tuhatkordselt tasutud <stage>(Ara).</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>4. etteaste.</head>
+                    <stage>Jaak. Liisu.</stage>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Oh ma mälupää, kes ma ennemini oma jõledust ei märganud!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <stage>(õrnalt)</stage>
+                        <p>Ei, Jaaguke, mu meheke! Sina ei olnud selle juures niipalju süüdi, kui mina. Eks olnud minu kohus sind armastada, sulle su kodust elu lõbusaks ja armsaks teha, ja mina - <stage>(langeb kaela)</stage> mina olen sind ikka sõimanud, oh anna mulle andeks! Kui wäga tahan ma ennast nüüd parandada! <stage>(Jaak annab suud).</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>5. etteaste.</head>
+                    <stage>Endised. Mats.</stage>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <stage>(tuleb kõrtsist wälja)</stage>
+                        <p>Nо eks näe, wa<pb n="37"/> Pärmi Jaak ka oma tibukesega siin. Tule ära sisse, wõta klonks wiina. Peaksid ometi need kriipsud ära tasuma.</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <stage>(Jaagule)</stage>
+                        <p>Jaak, kõrtsi kriipsude pärast pole sul tarwis sinna minna, need jäta minu kustutada. Naesed mõistawad ju paremini tolmu pühkida.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak</speaker>
+                        <stage>(waatab tõsiselt Matsi otsa)</stage>
+                        <p>Kuule Mats, igal asjal on aru ja piir, keelekastmisel ka. Mina olen wiina läbi nii terwise kui au ja wara poolest küllalt kahju saanud, nüüd mitte enam! Oleks Liisu mind warem sel wiisil linna saatnud ja sina warem mu wiimase rubla wõtnud, wahest oleksin ka warem meelt parandanud. Üks puha, parem hilja kui liig hilja! Kriipsud, mis sinu kapi ukse pääl on, Mats, saawad küll ära kustutatud, aga uusi ei pea enam juurde tulema. Mina olen wiina maha jätnud!</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <p>Taga targemaks! Aga miks siis nii äkitselt?</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Sellepärast, et see kasulik on, mida ma alles nüüd olen tundma õppinud. See on kindel - mina enam ei joo! Minu käest oled wiimase rubla saanud, seega - amen!</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <p>Ja sellepärast ongi Liisu täna nii hääl tujul.</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <p>Muidugi, otse sellepärast.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(Liisule)</stage>
+                        <p>Liisu, mu armas naene, nüüd on meil rahupäeawd ees ja meie wõime õnnelikud olla.</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>Mats.</speaker>
+                        <stage>(naerab suure suuga)</stage>
+                        <p>Waata imet! Nоh, jää siis pääle oma lubamise juurde kindlaks, saame näha kellel jämeohi majas on? <stage>(Naerdes ära).</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>6. etteaste.</head>
+                    <stage>Jaak. Liisu. Pärast Hans ja Anna. Kaarel. Marie. Pulmalised.</stage>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Mingu pääle ja naergu, ma loodan pärast<pb n="38"/> naerda, ehk see maitseb natuke magusam. Aga nüüd, mu naesuke hakkame minekut tegema, õhtu jõuab kätte. <stage>(Hakkab Liisu käest kinni).</stage></p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <p>Pole ruttu - täna pühapäew, eks Mari Lüpsa lehmad ära, kui kari koju tuleb. Senikaua räägin sulle kosja juttu.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Kosjajuttu? Kus pool see jälle kõlamas on? Teie naesed olete ikka terased neid sõnu kuulma, helisewad teile sedamaid kõrwu. Kust poolt need tänased kosjasõnumed aiis tulewad?</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <p>Meie omast mõisast. Sääl on kahed pulmad korraga. Toa Hans ja Anna, kutsari Kaarel ja Marie - teine paar. Täna hommikul on teised kirikus paari pandud. Sinnasõitmiseks andnud paruni härra weel teistele suure troska ja lasknud neli hobust ette panna. Õhtul lubasiwad teised siia kõrtsi juurde tulla, siin muru pääl hää tantsida! Heldeke, ma ei saaks tulewal ööl nahka silma pääle, kui ma siin noorpaarisid näha ei saaks. Pai Jaak, ootame siin weel natuke! Sinu talitused on kõik hästi joones.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Teie uudishimulised naesed! Teie surete kahetsedes kohe ära, kui mõni noorpaar teile nägemata jääb. Mõlemad tutawad inimesed, aga nii pea kui nad paaris on, saawad nagu wõõrasteks lindudeks keda waatama jоokstakse. Minu Liisu on sellepoolest niisama eht Eewa tütar nagu teisedgi naesed ja - - -</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <stage>(paneb käe Jaagu suu pääle)</stage>
+                        <p>Pea oma jutlus! Teie mehed olete niisugustes asjades nii külmad ja tuimad, et midagi tähele ei pane. Heldekene, kui meie ka nõnda oleksime, maailm külmetaks lumehangeks!</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Kuda ta nüüd kui Mooses kibuwitsa põõsas põleb! Noh, kus põlemist sääl pragisemist, kus kadakaid sääl krabi<pb n="39"/>semist jne. - sest ei ole täna pikemalt kõnelda.</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <stage>(naerab)</stage>
+                        <p>Jaak, sina pääluu, tahad praegu ise kadak olla ja - <stage>(kohkub, kuulab, inimeste hääli on kuulda).</stage> Tulewad, tulewad! Noored paarid tulewad! Saab näha, mis Annel ja Mariel seljas ja jalas ja pääs on! Ann on wähe kahwatu ja Marie liig punane loodud.</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(meelitades)</stage>
+                        <p>Kas noorikud ümber on ristitud? Pidiwad ju enne toa Anna ja köögi Marie olema?</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <p>Jaak, sina ajad täna kiusu ja lased mind kannatuse katset teha! Kas mul nüüd aega on neid saksa nimedega nimetada! Waata tulewad juba!</p>
+                    </sp>
+                    <stage>(Pulmarong tuleb puude wahelt wälja).</stage>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <stage>(neid nähes)</stage>
+                        <p>Ohoo - Pärmi rahwas ka siin! Tere Jaak, tere Liisu! Ega teie meid ei ole ometi oodanud?</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>No keda muud? Kes minu Liisu enne teid siit koju oleks wedanud? Mitte kümme hobust!</p>
+                    </sp>
+                    <stage>(Teretamine. Liisu soowib noorikutele õnne, wattab nende riidid, rätikuid jne.)</stage>
+                    <sp who="#kaarel">
+                        <speaker>Kaarel.</speaker>
+                        <stage>(astub Jaagu juurde, pärast teretust)</stage>
+                        <p>Waata ometi, Pärmi Jaak ka meile õnne soowima tulnud. <stage>(Wõtab pudeli taskust, pakub Jaagule).</stage> Katsu sina ka meie pulmajalga!</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>Tänan! Ma ei joo! Olen tänasest päewast wiinapruukimise maha jätnud.</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Sa ei joo? Oled wiinapruukimise maha jätnud?</p>
+                    </sp>
+                    <sp who="#kaarel">
+                        <speaker>Kaarel.</speaker>
+                        <p>On see tõsi?</p>
+                    </sp>
+                    <sp who="#pulmalised">
+                        <speaker>Pulmalised.</speaker>
+                        <p>On see tõsi?</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu.</speaker>
+                        <p>See on tõesti tõsi, seda on ta mulle siinsamas paigas lubanud ja ma tean, minu Jaak peab sõna!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans.</speaker>
+                        <p>Kui asi nii on ,siis teeme selle pääle wäikene keerukene, Jaak ja Liisu ka!</p>
+                    </sp>
+                    <pb n="40"/>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <p>No waata, nii on pidu täies hoos! Aga seda pean ma teile weel ütlema, hoidku teid taewas, et teie elu alati õnnelik oleks, mitte nisuke, kui Pärmi Jaagu unenägu. Armastage üksteist kindlasti, kandke üksteise koormat, olgu teil kannatust üksteisega, siis saate teie palju õnnelikumad olema, kui mina senini olen olnud!</p>
+                    </sp>
+                    <sp who="#jaak #liisu #kaarel #hans #anna #marie #pulmalised">
+                        <speaker>Kõik.</speaker>
+                        <p>Elagu Pärmi Jaak! Elagu!.</p>
+                    </sp>
+                    <stage>Eesriie.</stage>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
