@@ -84,7 +84,7 @@
                     <person xml:id="vanem" sex="MALE">
                         <name>Vanem</name>
                     </person>
-                    <person xml:id="käskjalg" sex="MALE">
+                    <person xml:id="kaeskjalg" sex="MALE">
                         <name>Käskjalg</name>
                     </person>
                     <personGrp xml:id="pidulised" sex="MALE">
@@ -1005,7 +1005,7 @@
                         <p>Ka laps peaks seda tegema, kui see on Jehoova tahtmine.</p>
                     </sp>
                     <stage>(Sisse tormab käskjalg.)</stage>
-                    <sp who="#käskjalg">
+                    <sp who="#kaeskjalg">
                         <speaker>KÄSKJALG.</speaker>
                         <p>Kabris kutsub peavanemat Osiast.</p>
                     </sp>
@@ -1013,7 +1013,7 @@
                         <speaker>OSIAS.</speaker>
                         <p>Mis on lahti?</p>
                     </sp>
-                    <sp who="#käskjalg">
+                    <sp who="#kaeskjalg">
                         <speaker>KÄSKJALG.</speaker>
                         <p>Rahvas on arust ära, rahvas lõhub.</p>
                     </sp>
@@ -1021,7 +1021,7 @@
                         <speaker>OSIAS.</speaker>
                         <p>Kus? miks? Räägi, vasta.</p>
                     </sp>
-                    <sp who="#käskjalg">
+                    <sp who="#kaeskjalg">
                         <speaker>KÄSKJALG.</speaker>
                         <p>Turul müüsid mees ja naine leiba ja vett... nad olid tagavaraks hoidnud, et kasu saada. Nad nõudsid kõrget hinda, aga neile pakuti veel kõrgemat. Kõik anti ära tilga vee ja suutäie leiva eest. Kes vaene, see hulus, sest ta ei jaksanud osta. Siis pakkus keegi end kaupmehe teenistusse... aastaks, kaheks, kolmeks, kümneks aastaks, alatiseks, ja seda ainult suutäie leiva eest. Varsti leidus teisi, kes valmis olid ka oma naise ja lapsed, kogu oma sugukonna tükikese leiva eest päriseks kirjutama. Aga äkki hakati ütlema, hakati rääkima, karjuma: pole õige, et leiva ja veega inimesi orjastatakse; maha orjastajad! Hääl leidis poolehoidjaid, toetajaid, heakskiitjaid ja ägedus kasvas...</p>
                     </sp>
@@ -1030,7 +1030,7 @@
                         <speaker>OSIAS</speaker>
                         <p>Kus oli siis Karmis? Miks ei astunud ta vahele?</p>
                     </sp>
-                    <sp who="#käskjalg">
+                    <sp who="#kaeskjalg">
                         <speaker>KÄSKJALG.</speaker>
                         <p>Karmis oli seal, ta püüdis kaupmeest kaitsta: leib ja vesi olla tema, ta võida nende eest võtta, niipalju kui saab, niipalju kui tahab.</p>
                     </sp>
@@ -1038,7 +1038,7 @@
                         <speaker>OSIAS.</speaker>
                         <p>Ja rahvas?</p>
                     </sp>
-                    <sp who="#käskjalg">
+                    <sp who="#kaeskjalg">
                         <speaker>KÄSKJALG.</speaker>
                         <p>Rahvas karjus: müüdud hing! Ta on kaupmehelt meelehead saanud, sellepärast kaitseb ta teda. Ta on orjastajate sulane! Maha orjaperemehed! Maha meeleheavõtjad! Ja siis välkusid rusikad, tõusid kaikad, lendasid kivid. Silmapilguga oli kaupmehe laud ümber, veekruusid purud ja leib tallati jalgega ära; vaevalt sai keegi midagi. Kaupmees ja tema naine aga ning Karmis lamasid oma veres; nad tallati ära ühes leivaga.</p>
                     </sp>
@@ -1050,7 +1050,7 @@
                         <speaker>RABI.</speaker>
                         <p>Jehoova nimi olgu kiidetud!</p>
                     </sp>
-                    <sp who="#käskjalg">
+                    <sp who="#kaeskjalg">
                         <speaker>KÄSKJALG.</speaker>
                         <p>Aga rahvas lõhub edasi.</p>
                     </sp>
@@ -1058,7 +1058,7 @@
                         <speaker>OSIAS.</speaker>
                         <p>Mida tahab ta veel?</p>
                     </sp>
-                    <sp who="#käskjalg">
+                    <sp who="#kaeskjalg">
                         <speaker>KÄSKJALG.</speaker>
                         <p>Rahvas on arust ära, ta purustab meeletuses, hävitab mõtteta, sellepärast palub Kabris abi.</p>
                     </sp>
