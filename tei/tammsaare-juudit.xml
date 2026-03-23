@@ -93,16 +93,16 @@
                     <person xml:id="akior" sex="MALE">
                         <persName>Akior</persName>
                     </person>
-                    <person xml:id="vaht_1" sex="MALE">
+                    <person xml:id="vaht-1" sex="MALE">
                         <name>I vaht</name>
                     </person>
-                    <person xml:id="vaht_2" sex="MALE">
+                    <person xml:id="vaht-2" sex="MALE">
                         <name>II vaht</name>
                     </person>
-                    <person xml:id="vaht_3" sex="MALE">
+                    <person xml:id="vaht-3" sex="MALE">
                         <name>III vaht</name>
                     </person>
-                    <person xml:id="vaht_4" sex="MALE">
+                    <person xml:id="vaht-4" sex="MALE">
                         <name>IV vaht</name>
                     </person>
                     <person xml:id="naine" sex="FEMALE">
@@ -4097,99 +4097,99 @@
                 <head>NELJAS VAATUS.</head>
                 <div type="scene">
                     <stage>(Linnamüür, väravad, väravavahid. Ruttu valgenev hämarik.)</stage>
-                    <sp who="#vaht_1">
+                    <sp who="#vaht-1">
                         <speaker>I VAHT.</speaker>
                         <p>Mu kõht on tühi.</p>
                     </sp>
-                    <sp who="#vaht_2">
+                    <sp who="#vaht-2">
                         <speaker>II VAHT.</speaker>
                         <p>Mul on janu, keel hakkab kurgulakke kinni.</p>
                     </sp>
                     <pb n="84"/>
-                    <sp who="#vaht_3">
+                    <sp who="#vaht-3">
                         <speaker>III VAHT.</speaker>
                         <p>Milleks küll peame neid väravaid valvama? Ükski ei kipu siit sisse.</p>
                     </sp>
-                    <sp who="#vaht_4">
+                    <sp who="#vaht-4">
                         <speaker>IV VAHT</speaker>
                         <stage>(pilkavalt)</stage>
                         <p>Kardetakse, et mõni nälgija läheb müüri taha surema.</p>
                     </sp>
-                    <sp who="#vaht_2">
+                    <sp who="#vaht-2">
                         <speaker>II VAHT.</speaker>
                         <p>Jah, Assur ei tule, ta ei tulegi vist enne, kui me kõik nälja ja janu kätte surnud.</p>
                     </sp>
-                    <sp who="#vaht_3">
+                    <sp who="#vaht-3">
                         <speaker>III VAHT.</speaker>
                         <p>Olgu mis on, aga nõnda ei või see enam edasi kesta, vanemate rumalusele peab lõpu tegema. Milleks see nälgimine, milleks see ootamine?</p>
                     </sp>
-                    <sp who="#vaht_4">
+                    <sp who="#vaht-4">
                         <speaker>IV VAHT.</speaker>
                         <p>Vanemad on ülekohtused, sellepärast on see.</p>
                     </sp>
-                    <sp who="#vaht_3">
+                    <sp who="#vaht-3">
                         <speaker>III VAHT.</speaker>
                         <p>Tehakse nägu, nagu oleks kusagilt abi loota, aga kust siis? Jeruusalemmast? Seal ei mõtle vist keegi meie peale. Parem Assuri ori olla, kui Jeruusalemma pärast nälga surra.</p>
                     </sp>
-                    <sp who="#vaht_4">
+                    <sp who="#vaht-4">
                         <speaker>IV VAHT.</speaker>
                         <p>Süüdi on vanemad ja preestrid, ei keegi muu. Rahvas peab hakkama ise oma asju ajama, muidu pole pääsmist loota. Kõige pealt linn läbi otsida, kusagil peab ometi leiba ja vett tagavaraks olema.</p>
                     </sp>
-                    <sp who="#vaht_2">
+                    <sp who="#vaht-2">
                         <speaker>II VAHT.</speaker>
                         <p>Muidugi on. Või arvate, et vanemad ja preestrid niisama nälgivad nagu meie?</p>
                     </sp>
-                    <sp who="#vaht_1">
+                    <sp who="#vaht-1">
                         <speaker>I VAHT.</speaker>
                         <p>Nad nälgivad. Osias on silmist ära langenud ja tema nägu on hoopis kõhnaks jäänud. Preestrid tudisevad veel ainult kepi najal käia.</p>
                     </sp>
-                    <sp who="#vaht_2">
+                    <sp who="#vaht-2">
                         <speaker>II VAHT.</speaker>
                         <p>Vigurdavad nagu ikka, seda nad mõistavad.</p>
                     </sp>
-                    <sp who="#vaht_4">
+                    <sp who="#vaht-4">
                         <speaker>IV VAHT.</speaker>
                         <p>Miks ei läkita nad siia saadikuid Olovernese juurde, ta on ju kõiki lahkesti vastu võtnud; kuulsite ise oma kõrvaga, mis Akior temast rahva ees rääkis, kui ta meie linna tuli. Või kas nägite, kuidas ta tuli? Mina nägin: pasunapuhujad ja pillimängijad käisid tal ees ja taga — nõnda tuli Akior Olovernese palge eest meie linna. Aga<pb n="85"/> kui Olovernes teeb oma vaenlastega nõnda, kuidas peab ta siis küll olema oma sõprade vastu?</p>
                     </sp>
-                    <sp who="#vaht_1">
+                    <sp who="#vaht-1">
                         <speaker>I VAHT.</speaker>
                         <p>Olovernes on kaval, tema on kavalam kui kõik inimesed, sellepärast teeb ta nõnda. Tema tahab meid meelitada ja meelitamiseks saatiski ta Akiori meie linna, et meie teeksime, nagu tegid Ammoni pealikud ja Moabi vürstid: et meie heidaksime tema jalge ette, nagu on seda teinud kõik need, keda Jehoova pole valinud omale pärisosaks.</p>
                     </sp>
-                    <sp who="#vaht_3">
+                    <sp who="#vaht-3">
                         <speaker>III VAHT.</speaker>
                         <p>Kui oleme Jehoova pärisosa, siis toitku tema meid.</p>
                     </sp>
-                    <sp who="#vaht_2">
+                    <sp who="#vaht-2">
                         <speaker>II VAHT.</speaker>
                         <p>Andku tema meile juua.</p>
                     </sp>
-                    <sp who="#vaht_1">
+                    <sp who="#vaht-1">
                         <speaker>I VAHT.</speaker>
                         <p>Oleme meie Jehoova pudulojuksed, et tema meid peaks toitma ja jootma?</p>
                     </sp>
-                    <sp who="#vaht_4">
+                    <sp who="#vaht-4">
                         <speaker>IV VAHT.</speaker>
                         <p>Sa räägid nagu need, kes ei hooli rahvast.</p>
                     </sp>
-                    <sp who="#vaht_3">
+                    <sp who="#vaht-3">
                         <speaker>III VAHT.</speaker>
                         <p>Eila nägin teda papiga ninapidi koos.</p>
                     </sp>
-                    <sp who="#vaht_2">
+                    <sp who="#vaht-2">
                         <speaker>II VAHT.</speaker>
                         <p>Tema on pappide sabarakk.</p>
                     </sp>
-                    <sp who="#vaht_4">
+                    <sp who="#vaht-4">
                         <speaker>IV VAHT.</speaker>
                         <p>Maha rahvavaenlased!</p>
                     </sp>
                     <stage>(Koputatakse väravaile. Mehed kuulatavad.)</stage>
-                    <sp who="#vaht_2">
+                    <sp who="#vaht-2">
                         <speaker>II VAHT.</speaker>
                         <p>Keegi koputab.</p>
                     </sp>
                     <stage>(Koputatakse uuesti.)</stage>
-                    <sp who="#vaht_1">
+                    <sp who="#vaht-1">
                         <speaker>I VAHT.</speaker>
                         <p>Kes seal on?</p>
                     </sp>
@@ -4198,7 +4198,7 @@
                         <stage>(värava taga)</stage>
                         <p>Mina olen, Juudit. Tehke lahti.</p>
                     </sp>
-                    <sp who="#vaht_2">
+                    <sp who="#vaht-2">
                         <speaker>II VAHT.</speaker>
                         <p>Meil pole luba väravaid avada. Oled sa üksi?</p>
                     </sp>
@@ -4212,7 +4212,7 @@
                         <speaker>JUUDIT.</speaker>
                         <p>Jookske ja kutsuge vanemad siia.</p>
                     </sp>
-                    <sp who="#vaht_1">
+                    <sp who="#vaht-1">
                         <speaker>I VAHT.</speaker>
                         <p>Ehk magavad nad alles.</p>
                     </sp>
@@ -4220,12 +4220,12 @@
                         <speaker>JUUDIT.</speaker>
                         <p>Äratage nad üles ja ütelge neile, et Juudit on tulnud ja et ta toob häid sõnumeid.</p>
                     </sp>
-                    <sp who="#vaht_1">
+                    <sp who="#vaht-1">
                         <speaker>I VAHT.</speaker>
                         <p>Ma lähen.</p>
                     </sp>
                     <pb n="86"/>
-                    <sp who="#vaht_4">
+                    <sp who="#vaht-4">
                         <speaker>IV VAHT.</speaker>
                         <p>Ma tulen kaasa.</p>
                     </sp>
@@ -4247,7 +4247,7 @@
                         <stage>(kohkunult)</stage>
                         <p>Riie on punane, riie oleks nagu verine.</p>
                     </sp>
-                    <sp who="#vaht_2">
+                    <sp who="#vaht-2">
                         <speaker>II VAHT</speaker>
                         <stage>(nuusutab kummardades kompsu poole)</stage>
                         <p>Riidel on vere hais.</p>
@@ -4261,7 +4261,7 @@
                         <stage>(kompsu lahti saades hirmunult)</stage>
                         <p>Armuline Issand! Juudit! Juudit!</p>
                     </sp>
-                    <sp who="#vaht_3">
+                    <sp who="#vaht-3">
                         <speaker>III VAHT.</speaker>
                         <p>See on inimese pea — mehe pea on see!</p>
                     </sp>
@@ -4274,7 +4274,7 @@
                         <speaker>SUSANNA.</speaker>
                         <p>Emand, tegid sina seda? On see sinu töö?</p>
                     </sp>
-                    <sp who="#vaht_2">
+                    <sp who="#vaht-2">
                         <speaker>II VAHT.</speaker>
                         <p>Kelle pea see on?</p>
                     </sp>
@@ -4282,7 +4282,7 @@
                         <speaker>JUUDIT.</speaker>
                         <p>Vaata, ehk tunned, vaadake kõik, kel himu.</p>
                     </sp>
-                    <sp who="#vaht_2 #vaht_3">
+                    <sp who="#vaht-2 #vaht-3">
                         <speaker>II JA III VAHT.</speaker>
                         <p>Ei tunne! Ei tunne!</p>
                     </sp>
@@ -4290,7 +4290,7 @@
                         <speaker>SUSANNA.</speaker>
                         <p>Mina tunnen: see on Olovernese pea, tema pea on see.</p>
                     </sp>
-                    <sp who="#vaht_1 #vaht_2 #vaht_3 #vaht_4">
+                    <sp who="#vaht-1 #vaht-2 #vaht-3 #vaht-4">
                         <speaker>VAHID</speaker>
                         <stage>(ärevil, hirmul)</stage>
                         <p>Olovernese pea!</p>
@@ -4305,7 +4305,7 @@
                         <p>Pistke ta piigi otsa ja piigiga müürile; Assur peab ärgates oma pealiku pead nägema.</p>
                     </sp>
                     <pb n="87"/>
-                    <sp who="#vaht_3">
+                    <sp who="#vaht-3">
                         <speaker>III VAHT.</speaker>
                         <stage>(võtab pea ja kaob temaga pahemale poole)</stage>
                     </sp>
