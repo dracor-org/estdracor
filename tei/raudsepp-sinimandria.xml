@@ -54,7 +54,10 @@
                         <name>Kurt</name>
                     </person>
                     <person xml:id="kohn-haerra" sex="MALE">
-                        <persName>Kõhn härra</persName>
+                        <name>Kõhn härra</name>
+                    </person>
+                    <person xml:id="paks-haerra" sex="MALE">
+                        <name>Paks härra</name>
                     </person>
                     <person xml:id="mottetark" sex="UNKNOWN">
                         <name>Mõttetark</name>
