@@ -1,0 +1,3055 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="est000009" xml:lang="et" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Libahunt</title>
+                <title type="sub">Draama wiies waatuses</title>
+                <author>
+                    <persName>
+                        <forename>August</forename>
+                        <surname>Kitzberg</surname>
+                    </persName>
+                    <idno type="wikidata">Q376410</idno>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>DIGAR Digital Archive</name>
+                    <idno type="URL">http://www.digar.ee/id/nlib-digar:36787</idno>
+                    <availability>
+                        <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                    </availability>
+                </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>August</forename>
+                            <surname>Kitzberg</surname>
+                        </persName>
+                        <idno type="wikidata">Q376410</idno>
+                    </author>
+                    <title type="main">Libahunt</title>
+                    <title type="sub">Draama wiies waatuses</title>
+                    <date when="1912">1912</date>
+                    <publisher>Noor-Eesti</publisher>
+                    <pubPlace>Tartu</pubPlace>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="peremees" sex="MALE">
+                        <name>Peremees</name>
+                    </person>
+                    <person xml:id="perenaene" sex="FEMALE">
+                        <name>Perenaene</name>
+                    </person>
+                    <person xml:id="margus" sex="MALE">
+                        <persName>Margus</persName>
+                    </person>
+                    <person xml:id="tiina" sex="FEMALE">
+                        <persName>Tiina</persName>
+                    </person>
+                    <person xml:id="mari" sex="FEMALE">
+                        <persName>Mari</persName>
+                    </person>
+                    <person xml:id="wanaema" sex="FEMALE">
+                        <name>Wanaema</name>
+                    </person>
+                    <person xml:id="maert" sex="MALE">
+                        <persName>Märt</persName>
+                    </person>
+                    <person xml:id="jaanus" sex="MALE">
+                        <persName>Jaanus</persName>
+                    </person>
+                    <person xml:id="oraw" sex="UNKNOWN">
+                        <name>Oraw</name>
+                    </person>
+                    <person xml:id="haokandja_1" sex="MALE">
+                        <name>I. haokandja</name>
+                    </person>
+                    <person xml:id="haokandja_2" sex="MALE">
+                        <name>II. haokandja</name>
+                    </person>
+                    <person xml:id="haokandja_3" sex="MALE">
+                        <name>III. haokandja</name>
+                    </person>
+                    <person xml:id="jass" sex="MALE">
+                        <persName>Jass</persName>
+                    </person>
+                    <person xml:id="epp" sex="FEMALE">
+                        <persName>Epp</persName>
+                    </person>
+                    <person xml:id="tuedruk_1" sex="FEMALE">
+                        <name>I. TÜDRUK</name>
+                    </person>
+                    <person xml:id="tuedruk_2" sex="FEMALE">
+                        <name>II. TÜDRUK</name>
+                    </person>
+                    <person xml:id="tuedruk_3" sex="FEMALE">
+                        <name>III. TÜDRUK</name>
+                    </person>
+                    <person xml:id="poiss_1" sex="MALE">
+                        <name>I. POISS</name>
+                    </person>
+                    <person xml:id="poiss_2" sex="MALE">
+                        <name>II. POISS</name>
+                    </person>
+                    <person xml:id="poiss_3" sex="MALE">
+                        <name>III. POISS</name>
+                    </person>
+                    <person xml:id="wana_naene" sex="FEMALE">
+                        <name>WANA NAENE</name>
+                    </person>
+                    <person xml:id="ogar_poiss" sex="MALE">
+                        <name>Ogar poiss</name>
+                    </person>
+                    <person xml:id="wanem_inimene" sex="UNKNOWN">
+                        <name>Wanem inimene</name>
+                    </person>
+                    <person xml:id="wanakas_mees" sex="MALE">
+                        <name>Wanakas mees</name>
+                    </person>
+                    <person xml:id="keskealine_mees" sex="MALE">
+                        <name>Keskealine mees</name>
+                    </person>
+                    <person xml:id="lapsed" sex="UNKNOWN">
+                        <name>Lapsed</name>
+                    </person>
+                    <person xml:id="karjalapsed" sex="UNKNOWN">
+                        <name>Karjalapsed</name>
+                    </person>
+                    <person xml:id="poisike" sex="MALE">
+                        <name>Poisike</name>
+                    </person>
+                    <person xml:id="rahvas" sex="UNKNOWN">
+                        <name>Külarahvas</name>
+                    </person>
+                    <listRelation>
+                        <relation name="parent_of" active="#peremees #perenaene" passive="#margus #tiina #mari"/>
+                        <relation name="parent_of" active="#wanaema" passive="#peremees"/>
+                        <relation name="siblings" mutual="#tiina #mari #margus"/>
+                        <relation name="spouses" mutual="#peremees #perenaene"/>
+                        <relation name="lover_of" active="#tiina" passive="#margus"/>
+                        <relation name="associated_with" active="#jaanus #maert" passive="#peremees #perenaene"/>
+                    </listRelation>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listEvent>
+            <event type="print" when="1912">
+                <desc/>
+            </event>
+            <event type="premiere" when="1911">
+                <desc/>
+            </event>
+        </listEvent>
+        <listRelation>
+            <relation name="wikidata" active="https://dracor.org/entity/est000009" passive="http://www.wikidata.org/entity/Q6540339"/>
+        </listRelation>
+    </standOff>
+    <text>
+        <pb n="1"/>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart>LIBAHUNT</titlePart>
+                </docTitle>
+                <pb n="2"/>
+                <pb n="3"/>
+                <docAuthor>A. KITZBERG</docAuthor>
+                <docTitle>
+                    <titlePart type="main">LIBAHUNT</titlePart>
+                    <titlePart type="sub">DRAAMA WIIES WAATUSES</titlePart>
+                </docTitle>
+                <docImprint>
+                    <publisher>NOOR-EESTI WÄLJAANNE, </publisher>
+                    <pubPlace>TARTUS </pubPlace>
+                    <date>1912</date>
+                </docImprint>
+                <pb n="4"/>
+                <note>
+                    <p>Kui käsikiri trükitud. Etendamise luba saab ainult tüki kirjutaja kaudu. Adr.: A. Kitzberg Tartus. Mängulubaga ühes antakse tarwilik osa eksemplarisid laenuks.</p>
+                </note>
+                <docImprint>
+                    <publisher>Eesti Kirjastuse-Ühisuse "Postimehe" trükk.</publisher>
+                </docImprint>
+            </titlePage>
+            <pb n="5"/>
+            <castList>
+                <head>OSALISED:</head>
+                <castItem>
+                    <role>TAMMARU PEREMEES</role>
+                </castItem>
+                <castItem>
+                    <role>TAMMARU PERENAENE</role>
+                </castItem>
+                <castItem>
+                    <role>MARGUS, </role>
+                    <roleDesc>nende poeg</roleDesc>
+                </castItem>
+                <castGroup>
+                    <castItem>
+                        <role>MARI</role>
+                    </castItem>
+                    <castItem>
+                        <role>TIINA</role>
+                    </castItem>
+                    <roleDesc>nende kasutütred</roleDesc>
+                </castGroup>
+                <castItem>
+                    <role>WANAEMA</role>
+                </castItem>
+                <castItem>
+                    <role>JAANUS, </role>
+                    <roleDesc>sulane</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>MÄRT, </role>
+                    <roleDesc>sulane</roleDesc>
+                </castItem>
+                <castItem type="list">
+                    <roleDesc>Külarahwas, </roleDesc>
+                    <roleDesc>tüdrukud, </roleDesc>
+                    <roleDesc>poisid, </roleDesc>
+                    <roleDesc>karjalapsed, </roleDesc>
+                    <roleDesc>lapsed.</roleDesc>
+                </castItem>
+            </castList>
+            <set>
+                <p>Aeg XIX aastasaja algul, orjapõlwe ajal.</p>
+                <p>Esimese ja teise waatuse wahel on kümme, neljanda ja wiienda wahel wiis aastat.</p>
+            </set>
+        </front>
+        <pb n="6"/>
+        <pb n="7"/>
+        <body>
+            <div type="act">
+                <head>ESIMENE WAATUS.</head>
+                <div type="scene">
+                    <stage>Must ja nõgine rehetare. Ahjus hõõgub tuli ja punetab säält seinte pääle. Ahju ees sawik (müüritud iste), kolde kohal ahela otsas pada. Ahju kõrwal pink, kartsas ja wanaema woodi. Teisel pool wastu nurgas uhmripakk, leiwalabidas, ahjuluud ja muud koli, seinas soone pääl kinni ja lahti lükataw uks, pulk sees ja all nurga sees kassiauk. Ukse pääl lahtine laud, mille kaudu walgust sisse ja suitsu wälja lasta wõib; ukse kõrwal sulase woodi. Tagaseinas wäike, sagarate pääl käiw uks, lingi asemel köie ots. Ahju suu ees iste, selle ees wokk, sawiku lähedal pihijalg põlewa peeruga. Hiline talweõhtu, õues torm ja aegajalt huntide hulumine.</stage>
+                    <stage>PERENAENE, 40 aastane, waewatud näoga, lühikeseks lõigatud juukste pääl walge (Halliste) päärätt, mille kolm nurka selja pääle alla ripuwad, kasuka pihik, must körtsik, linane põll, jalanartsud ja parkimata nahast pastlad — istub sawiku lähedal ja ketrab. MANN (MARI) kaheksaaastane, walgetwerd tüdrukukene, linalakk lühike juuks, wärwiline willane lõng juuste pääl, takune hame, rindade alt kirju wööga mässitud, kaela all wäikene wask prees — kükitab, paljad jalad hamme all, sawikul ja weerib suurest wanast lauluraamatust. MARGUS, neljateistkümneaastane walgetwerd poiss, paklane hame, kaela alt wask preesiga koos, kitsad (Halliste) keerdkaltsad, paljad jalad — kepleb niisama. Temal on ametiks alati peergu kohendada ja waadata, et see hästi põleb.</stage>
+                    <pb n="8"/>
+                    <sp who="#mari">
+                        <speaker>MANN</speaker>
+                        <stage>(weerib):</stage>
+                        <p>Mi-e me, i-e je, meie, ri-si ris, ti-i ti, risti, u-si us, si-o so, usso...</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE</speaker>
+                        <stage>(parandab):</stage>
+                        <p>...usu!</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MANN:</speaker>
+                        <p>...usu! Wi-i-si wis...</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(parandab):</stage>
+                        <p>...wiis!</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MANN:</speaker>
+                        <p>Jaa, sina oskad pääst!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Oskan jah, sina pead ka. Katsu kui Kukese-Märt tuleb käsuga: Tammaru-Mann kirikherra ette lugema, ja sina ei oska!</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MANN</speaker>
+                        <stage>(mõteldes, siis ruttu):</stage>
+                        <p>Mina ei lähe!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Kuhu sa pääsed!</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MANN</speaker>
+                        <stage>(südikalt):</stage>
+                        <p>Ei lähe jah!</p>
+                    </sp>
+                    <pb n="9"/>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE:</speaker>
+                        <p>Õpi, õpi, latseke, mis sa sõneled. — Margus, kohenda tuld!</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MANN</speaker>
+                        <stage>(weerib):</stage>
+                        <p>Wi-i-i-si wiis, pi-e-a pea, ti-ü-ka tük, ka-i ki, peatükki. <stage>(Loeb silpide järele kokku:)</stage> Me-ie ris-ti-us-su wiis pea-tük-ki. <stage>(Jääb mõtlema ja waatab üles:)</stage> Näin õe näin, mis need wiis peatükki on?</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Küll oled sa rumal!</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MANN</speaker>
+                        <stage>(terawalt):</stage>
+                        <p>Ega ma sinu käest ei küsinud, näin ütleb minule isegi. Näin, mis need wiis päätükki on?</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE</speaker>
+                        <stage>(jätab woki seisma ja waatab mõteldes lapsele otsa):</stage>
+                        <p>Wiis päätükki? Wiis päätükki on — — wiis päätükki. Need peawad pääs olema, neid nõutakse. Muidu ei wõeta pääkooli ega armulauale.</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MANN</speaker>
+                        <stage>(mõtetes):</stage>
+                        <p>Jaa, aga — —</p>
+                    </sp>
+                    <pb n="10"/>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE:</speaker>
+                        <p>Ah latseke, mis sa nõnda palju küsid. <stage>(Sõtkub woki jälle wurama. Margus oli selle aja sees wokiratta külge tulise söe kinnitanud, tuline rõngas lööb helendama.)</stage></p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MANN</speaker>
+                        <stage>(kilgates ja sawikult maha karates):</stage>
+                        <p>Oh kui ilus! Näin waata, kui ilus!</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE</speaker>
+                        <stage>(pahaselt):</stage>
+                        <p>Oi sina wallatu, kas ei ole käest ära! No oota, kui isa koju tuleb!</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(60—70 aastane poolpime eidekene, wana, paljas kasukas seljas, kobab kõndides enese ette — astub tagakambrist sisse ja jääb kuulatama):</stage>
+                        <p>Kellega sa tõreled?</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE:</speaker>
+                        <p>Margusega! Tulise söe pani wokiratta wahele!</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA:</speaker>
+                        <p>Ära tee, pojake, süsi kargab kaugele, Laurits lendab lakke. <stage>(Kobab oma woodiääre pääle.)</stage> Mis sa's ka pühapäewa õhtul selle wokiga jahid!</p>
+                    </sp>
+                    <pb n="11"/>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE:</speaker>
+                        <p>Ei ole enam pühapäew, tähed juba taewas. Mure ka, inimesed alles wäljas! Leiawad nad selle tuisuga teed wõi ei leia ja eksiwad metsa ära.</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA:</speaker>
+                        <p>Tea jah, kuhu nad nõnda hilja pääle jääwad!</p>
+                    </sp>
+                    <stage>(Waikus. Ei kuule muud kui tuule tuhinat ja wokiratta wurinat.)</stage>
+                    <sp who="#mari">
+                        <speaker>MANN</speaker>
+                        <stage>(on jälle sawikule roninud ja raamatu wõtnud, weerib):</stage>
+                        <p>E-si es, si-i si, esi-, mi-e me, esi-me-, ni-e ne, esi-me-ne, pi-e-a pää, ti-ü-ka tükk, pää-tükk...</p>
+                    </sp>
+                    <stage>(Korraga õues huntide hulumine. Kõik kohkuwad.)</stage>
+                    <sp who="#mari">
+                        <speaker>MANN</speaker>
+                        <stage>(hirmul):</stage>
+                        <p>Hunt, näin — hunt!</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA:</speaker>
+                        <p>Ära nimeta, latseke, ära nimeta nimepidi. Metsakutsa saab kurjaks!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(on ukse päälislaua lahti lükanud, külma auru ja tuisku tungib tuppa; selgesti on kuulda, kuidas huntide kisa kaugemale läheb ja ära kajab).</stage>
+                    </sp>
+                    <pb n="12"/>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE</speaker>
+                        <stage>(kohmetanult):</stage>
+                        <p>Keela ja kaitse! Küll lähewad häbemataks, sest ajast kui Suli ära wiisid. Õue tungiwad sisse! Waid mis nad ikka weel ära teewad!</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA:</speaker>
+                        <p>Kui ikka laudaustel toed taga on.</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE:</speaker>
+                        <p>Et Jaani, Jaanust juba ei tule!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(julgustawalt):</stage>
+                        <p>Esäl on püss ree pääl õlgede all.</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE</speaker>
+                        <stage>(murelikult):</stage>
+                        <p>Püss kodus! Ja kui oleksgi kaasas, kas selle tuisuga kiwi tuld annab! Lumi teeb niiskeks kõik!</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MANN</speaker>
+                        <stage>(wähe aja pärast):</stage>
+                        <p>Huu! Külm! — Et isa ka niisuguse ilmaga kirikusse läks!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>No kui käsk anti!</p>
+                    </sp>
+                    <pb n="13"/>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE:</speaker>
+                        <p>Nojah, kui käsk anti: igast talust mees ja naene waatama, kuidas nõida ja libahunti nuheldakse! — Mina ei julgenud, siis läksid sulasega. Käsku ei tohi täitmata jätta.</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MANN:</speaker>
+                        <p>Näin õe, näin, mis see nõid on?</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE:</speaker>
+                        <p>Kui suureks kaswad, küll siis kuuled.</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MANN:</speaker>
+                        <p>Ja — aga — mis see libahunt on? Mina ei tea ju.</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE:</speaker>
+                        <p>Mis sa nõndapalju pärid, mis sul waja teada ei ole. Libahunt on kuri inimene, kes ennast wahel hundiks moondab. Kui ta tahab on ta hunt, kui tahab, inimene.</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MANN</speaker>
+                        <stage>(ennast ema lähedale surudes):</stage>
+                        <p>Näin, mina pelgan!</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE:</speaker>
+                        <p>Mis sa siis pärid niisuguseid asju! Wõta raamat, mine sawikule ja õpi! <stage>(Kui Mannil hääd tahtmist ei näi olewat:)</stage> Noh, mine, mine!</p>
+                    </sp>
+                    <pb n="14"/>
+                    <sp who="#mari">
+                        <speaker>MANN</speaker>
+                        <stage>(wõtab raamatu, läheb sawikule, aga ei õpi, wahib pärani silmadega tühjusesse).</stage>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(woodi ääre pääl, iseenese ette õhates, nagu ei oleks ta millegi üle selgusele saanud):</stage>
+                        <p>Jaah!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Sa ütlesid midagi, wanaema?</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(õhates):</stage>
+                        <p>Ei midagi! Mõtlesin niisama, et... ilm on asju täis, millest meel-mõistus jagu ei saa. Waatad ja waatad küll, aga ei näe midagi! Wana usk, see tegi wahet hää ja halwa wahel: sortse oli ja tarku inimesi, kes enam teadsiwad kui teised. Uus usk ei tee wahet midagi, kõik on — ühesugused nõiad! Aga ometi on sääl, nagu weesoonekesed mulla all warjul — hääd ja halba. Hääd ja halba, mida meel ei mõista!</p>
+                    </sp>
+                    <stage>(Tume meeleolu, ainult tuule tuhisemine õues ja woki wurin toas.)</stage>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES</speaker>
+                        <stage>(50 aastane tugew mees, temal on juba tublisti halle karwu juustes ja habemes; sulane JAANUS, 35 aastane. Mõlemad tugewates talwe-riietes, riideta kasukad wam<pb n="15"/>muste all, lakaga mütsid; alusriieteks peremehel hall, sulasel must lühike pihik ja mõlematel walged keerdkaltsad, pikad mustad sukad ja parkimata nahast pastlad. Uks lendab lahti, pimedast tungib külma auru sisse.)</stage>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES</speaker>
+                        <stage>(sulasega üle läwe astudes):</stage>
+                        <p>Tere õhtust! Meie ka siin.</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE</speaker>
+                        <stage>(suure hää meelega):</stage>
+                        <p>Teie ka jah, Jumalale tänu! Ruttu, ruttu, külm tungib sisse, siis ei ole teil enam kusagil sooja kohta.</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(kähku, riideid wõttes):</stage>
+                        <p>Mina lähen, wõtan hobuse lahti.</p>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES:</speaker>
+                        <p>Kui sa hää mees oled! Laota temale siis ka riie pääle ja seo londiga kinni!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Küll saab! <stage>(Õue ära.)</stage></p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE:</speaker>
+                        <p>Saite ikka eluga koju, ei murdnud hundid teid ära?</p>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES:</speaker>
+                        <p>Ei olnud meil wiga midagi. Ei näinudgi teisi.</p>
+                    </sp>
+                    <pb n="16"/>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS:</speaker>
+                        <p>Eks nende kõlin ikka läinud läbi Pähnipalu Sooniite poole. Siis oliwad ka wanal ruunal jalad!</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE:</speaker>
+                        <p>Meil tahtsiwad wõi tuppa tungida!</p>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES:</speaker>
+                        <p>Jah, niisuguse ilmaga on nad näljas!</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(tähtsalt):</stage>
+                        <p>Nad on kurjad, et ühte sõsart kirikutulbas pekseti!</p>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES</speaker>
+                        <stage>(päälisriideid ära pannes, raskelt):</stage>
+                        <p>Jah, hirmus see oli, ja weel niisuguse külmaga. Mina küll waatama ei läinud, aga — eks teised ikka käisid!</p>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS:</speaker>
+                        <p>Raudaas oli ümber kaela ja teine ümber keha, siis timmukas lõi...</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MANN</speaker>
+                        <stage>(ema ümbert kinni hoides):</stage>
+                        <p>Näin, mina pelgan!</p>
+                    </sp>
+                    <pb n="17"/>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE:</speaker>
+                        <p>Jah, pelga latseke, pelga pattu!</p>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS:</speaker>
+                        <p>...Seni kui ta neile kätte ära närwetas, pää rippuma jäi ja suu wait. Wõtsiwad küll weel sambast maha — mis walmis, see walmis!</p>
+                    </sp>
+                    <stage>(Piinlik waikus, Margus on tuppa tagasi tulnud.)</stage>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE:</speaker>
+                        <p>Kust see niisugune siis õige pärit oli?</p>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES:</speaker>
+                        <p>Kes teda teab. Meie kiriku kirjas ta ei olla seisnud. Olla kihelkonna teisel piiril kusagil laanes poolest saadik koopas elanud. Inimesi käinud ikka kaugelt tema juures abi otsimas. Olla saanud ka. Üks wanamees jutustas ise, et kui uss tema ära nõelanud ja paistetus südameni tõusnud... Räägiti teisest ikka hääd ja kurja, mõlemaid. Kes teab, kust ta siia oli tulnud ja saanud, õieti ei teadnud seda keegi.</p>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS</speaker>
+                        <stage>(wähe aja pärast):</stage>
+                        <p>Tal oli laps ka. See oli ka sinna toodud päält waatama, kui ema peksetakse. Kes teab, kust nad ta kinni oliwad saanud. Katkenud<pb n="18"/> ja närmetanud, nälginud ja kõwaks külmanud! Ju ta sestsaadik, kui ema kinni wiidi, hulkumas oli. Kes nõia last ka tulihoone katuse alla laseb!... Kui timukas esimese hoobi lõi, pani laps karjudes metsa poole. Jooksti küll ka järele, — kust weel kätte saad!...</p>
+                    </sp>
+                    <stage>(Piinlik waikus. Peremees tahaks piipu seadima hakata, aga jääb äkki kuulatama: läbi tormi kiunumise on selgemini ja selgemini kuulda, kuidas huntide hulumine lähemale tuleb.)</stage>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE</speaker>
+                        <stage>(pääd tõstes):</stage>
+                        <p>Kuule, juba tulewad jälle!</p>
+                    </sp>
+                    <stage>(Keegi ei wasta ega liiguta ennast. Äkki kraapimine wälise ukse taga. Kohkumine, kõik kargawad üles. MANN jookseb sawikule püsti.)</stage>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE:</speaker>
+                        <p>Issand Jumal, sisse tikuwad nüüd!</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(hakkab pomisedes lugema, siis tulewad sõnad selgemini kuuldawale):</stage>
+                        <lg>
+                            <l>Meid kaitse oma were sees,</l>
+                            <l>Oh Issand Jumal abimees!</l>
+                            <l>Oh Peeter, püha sulane,</l>
+                            <l>Pane koerad kaleeie,</l>
+                            <l>Hurdad ümberrõngaeie,</l>
+                            <l>Küüned kütkesse wajuta!</l>
+                        </lg>
+                    </sp>
+                    <pb n="19"/>
+                    <stage>(Sellega ühel ajal:)</stage>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES</speaker>
+                        <stage>(kargab üles, toob püssi ja tõmbab ukse lahti. Torm ja tuisk tungiwad tuppa ja üle läwe kargab LAPS, niisugune, kuidas Jaanus kirjeldanud, — huntide kirgline hulumine kõlab tema kannul):</stage>
+                        <p>Mis see siis on?</p>
+                    </sp>
+                    <stage>(Nagu tahtmata tõmbab ta ukse lapse järel paugatades kinni; huntide kisa kajab kaugemale ära.)</stage>
+                    <sp who="#mari">
+                        <speaker>MANN</speaker>
+                        <stage>(jookseb karjudes tahakambri):</stage>
+                        <p>Hunt! Hunt!</p>
+                    </sp>
+                    <stage>(Kõikide ehmatanud silmad on lapse pääl kinni, see ise on ka kohkunult, tulewalgusest pimestatud silmadega keset tuba seisma jäänud.)</stage>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS</speaker>
+                        <stage>(kõigepäält toibudes):</stage>
+                        <p>See on tema laps!</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE:</speaker>
+                        <p>Püha Jumal! See ka inimeseloom! Sel ka hingekene sees!</p>
+                    </sp>
+                    <stage>(Kõik koguwad lapse ümber, see waatab suurte silmadega ühe otsast teise otsa. MANN piilub aralt ukse wahelt ja WANAEMA kobab lähemale.)</stage>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES</speaker>
+                        <stage>(on püssi ära pannud ja lapse ette astunud):</stage>
+                        <p>Kas sa huntide käes olid ja parajasti weel pääsesid?</p>
+                    </sp>
+                    <stage>(Laps waatab temale otsa, aga ei wasta midagi.)</stage>
+                    <pb n="20"/>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES</speaker>
+                        <stage>(õrnalt):</stage>
+                        <p>Kas sa ei mõistagi kõneleda?</p>
+                    </sp>
+                    <stage>(Laps nagu enne.)</stage>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE:</speaker>
+                        <p>Mis su nimi ka on?</p>
+                    </sp>
+                    <stage>(Laps waatab perenaese otsa, siis peremehe otsa tagasi, aga ei wasta.)</stage>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(ennast last nägema kumardades):</stage>
+                        <p>Ta on ju ära heitunud ja ära hirmunud. Keelekene on suhu kinni kohkunud! Tea kas sellega weel keegi inimese wiisi sõna kõnelenud on wõi ei ole!</p>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES</speaker>
+                        <stage>(lükkab last tasakesti ahju suu poole):</stage>
+                        <p>Mine sinna sooja. Sa oled ju kõwaks külmanud. Pärast kõnele, kuidas sa just meile juhtusid.</p>
+                    </sp>
+                    <stage>(Laps, nagu enne, waatab ühe otsast teise otsa. Soe õhk ahjust mõjub. Nagu ei oleks temal enam millegi muuga asja, sirutab ta käed tule poole sooja saama ja unustab kõik muu.)</stage>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE</speaker>
+                        <stage>(kaastundlikult lapse üle kumardades):</stage>
+                        <p>Kas sul kõhuke ka tühi on?</p>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES:</speaker>
+                        <p>Mis sa weel küsid. Kui sul midagi on — anna!</p>
+                    </sp>
+                    <pb n="21"/>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE:</speaker>
+                        <p>Mul ju teie jaoks leem pajas soe.</p>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES:</speaker>
+                        <p>Ei meile ole waja midagi. Meie olime õemehe pool sees ja oleme küla hääd saanud.</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE</speaker>
+                        <stage>(wõtab paja koogu otsast, toob leiba, tõstab kopakese sisse leent ja paneb ahju kõrwale pingi pääle):</stage>
+                        <p>Tule, wäikene külaline!</p>
+                    </sp>
+                    <stage>(Laps waatab temale korra tänulikult otsa, wõtab siis ahnelt leiwatüki ja lusika ja hakkab suure isuga sööma, ainnlt wahete wahel hiilgawate silmadega ringi waadates.)</stage>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES:</speaker>
+                        <p>Kuidas tal toit läheb!</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE:</speaker>
+                        <p>Kes teab, kunas ta wiimati iwaraasu suhu sai!</p>
+                    </sp>
+                    <stage>(Wäikene waikus. Kõik waatawad rõõmsalt, kuidas laps aplusega sööb).</stage>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(jalad harkis, isa otsa waadates):</stage>
+                        <p>Kas see siis nüüd meile peab jääma wõi?</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE</speaker>
+                        <stage>(nagu tõrjudes):</stage>
+                        <p>Sellepärast siis nüüd kohe meile.</p>
+                    </sp>
+                    <pb n="22"/>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES</speaker>
+                        <stage>(naeratades Margusele):</stage>
+                        <p>Wõib jätta ka, kui sa — teda omale noorikuks tahad.</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(naerdes):</stage>
+                        <p>Noorikuks? Mina? Seda!</p>
+                    </sp>
+                    <stage>(Kõik naerawad. Laps waatab korra Margusele otsa ja sööb edasi.)</stage>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES</speaker>
+                        <stage>(nagu enne):</stage>
+                        <p>Ära sa ütle midagi, kui — sauna wiime ja puhtaks peseme.</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MANN</speaker>
+                        <stage>(aralt):</stage>
+                        <p>Näin, kas see nüüd on libahunt?</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE:</speaker>
+                        <p>Rumal! See on inimeselaps nagu sinagi.</p>
+                    </sp>
+                    <stage>(Laps on kopakese tühjaks söönud, paneb lusika käest ja silmapilguks käed kokku. Waatab siis tänulikkude silmadega ringi.)</stage>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE</speaker>
+                        <stage>(peremeest müksates):</stage>
+                        <p>Nägid, mis ta ka teha oskas?</p>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES:</speaker>
+                        <p>Jah! <stage>(Lapse poole astudes, sõbralikult.)</stage> Noh, kas kõht on täis?</p>
+                    </sp>
+                    <stage>(Laps waatab temale otsa, aga ei wasta midagi.)</stage>
+                    <pb n="23"/>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES:</speaker>
+                        <p>Küll sa homme kõnelema hakkad. Roni nüüd ära ülesse ahju pääle, sääl on sul soe magada.</p>
+                    </sp>
+                    <stage>(Laps ei wasta ikka midagi, kaob kartsat mööda ahju pääle, kus kõik wagusi jääb.)</stage>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES:</speaker>
+                        <p>Noh, Margust, Manni, minge ka ära põhku.</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MANN:</speaker>
+                        <p>Mina pelgan!</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE:</speaker>
+                        <p>Rumal! Margus läheb ka ja meie tuleme.</p>
+                    </sp>
+                    <stage>(Lapsed kaowad tahakambri. Jaanus on enese riidist lahti wõtnud, et koikasse kasuka alla pugeda; wanaema ehib ka magama minema.)</stage>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES</speaker>
+                        <stage>(tõmbab korraks ukse lahti ja waatab õue):</stage>
+                        <p>Tuisk ja sadu on järele jäänud, tähed sirawad taewas...</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA:</speaker>
+                        <p>Sest et waenelaps omale paiga leidis!</p>
+                    </sp>
+                    <stage>(Peremees ja perenaene on mõtetes ja waatawad salakesi üksteise otsa.)</stage>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE</speaker>
+                        <stage>(murelikult):</stage>
+                        <p>Mis sest siis nüüd peab saama, Jaan?</p>
+                    </sp>
+                    <pb n="24"/>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES</speaker>
+                        <stage>(kõrwale waadates):</stage>
+                        <p>Jah, mis peab saama! Wõi minagi tean. Mis südamega teda homme jälle tuisu ja külma kätte wälja saadad!</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE</speaker>
+                        <stage>(wähe aja pärast):</stage>
+                        <p>Kui leiba oleks! Meil on isegi sööjaid küllalt!</p>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES:</speaker>
+                        <p>Jah, eks neid ole oma jagu! Kui kisuks kewadel kütist ja teeks tüki uut maad juure...?</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE:</speaker>
+                        <p>Jah, kui teeks, — ei tea mis mõis ütleb!</p>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES:</speaker>
+                        <p>Mis see mõis! Orja hingekene tuleb juure. Aga — eks selle üle wõi nõuu pidada, kui uni maetud. Wõib olla, paneme kewadel Manni seltsi karja? Margus kuluks mulle juba äkke taha ja kergema töö juure põllule ära.</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE</speaker>
+                        <stage>(õhates):</stage>
+                        <p>Kuidas me wõtame nõia lapse oma laste hulka!</p>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES:</speaker>
+                        <p>Nõia wõi mitte nõia! Kes meile ütleb, kui suur nõid ta oli wõi ei olnud! Tema suu<pb n="25"/> ei kõnele enam. Ja kas siis laps ema patu pärast hukka peab saama!</p>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS</speaker>
+                        <stage>(woodi ääre päält):</stage>
+                        <p>Jah, ema luiekambris raejalgade pääl. Nägin kui sinna wiidi. Ega neil ju kohe kirstu ega midagi käepärast ei olnud. Wisati muud kui eest ära sinna!</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE:</speaker>
+                        <p>Wastu ööd weel niisugust asja kõneled! Ei tule wõi unigi enam silma.</p>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS</speaker>
+                        <stage>(raskelt):</stage>
+                        <p>Jah! Ega ei taha tulla!</p>
+                    </sp>
+                    <stage>(Waikus. Peremees ja perenaene pöörawad kambrisse minema.)</stage>
+                    <sp who="#tiina">
+                        <speaker>LAPS</speaker>
+                        <stage>(ahju pääl tõuseb istukile ja plahwatab nutma. Esimene sõna tuleb tema suust: südant lõhestaw hüüd):</stage>
+                        <p>Ema!</p>
+                    </sp>
+                    <stage>(Surmawaikus. Peremees ja perenaene on kui tarretanud.)</stage>
+                    <stage>(EESRIIE.)</stage>
+                </div>
+            </div>
+            <pb n="26"/>
+            <div type="act">
+                <head>TEINE WAATUS.</head>
+                <div type="scene">
+                    <stage>(Kümme aastat hiljem. Margus, Tiina ja Mari on juba täiskaswanud inimesed. MARGUSEL pikad piiratud juuksed, kaapkübar, kaukaga hame, rinna eest wäikese wask sõlega koos, keerdkaltsad, walged jalarätikud ja rihmadega pastlad. TIINAL (mustawerd) ja MARIL (walgetwerd) kehwad kirjud rahwariided. Maril hõbeprees, kaelaehted ja litredest pärg juuste pääl, Tiinal metsalilledest pärg pääs — hõbeehteid temal ei ole. — Kewadene mets täis päikesepaistet, wint tiltsub, kaugelt kuuldub kägu. Näitelawa keskel jämeda tüwega tamm. — Pühapäew ennelõunat.)</stage>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(pahemalt poolt tulles, riided mõlema käega natuke ülestõstetud, nii et paljad jalad pea poolte säärteni nähtawale tulewad, ettewaatlikult astudes, nähtawasti põgenejat rästikut enese ees tagaajades):</stage>
+                        <lg>
+                            <l>Tolla-holla, pilla-palla!</l>
+                            <l>Sarapuukirja, kukepuukirja,</l>
+                            <l>Kanarpikukarwa, kulukarwa,</l>
+                            <l>Mäekarwa, männikarwa,</l>
+                            <l>Suure soo saksakene,</l>
+                            <l>Paemurru prouakene,</l>
+                            <l>Kulu kuldane emanda —</l>
+                            <l>Sina minu käest ei pääse!</l>
+                        </lg>
+                        <pb n="27"/>
+                        <stage>(Wälkuwail silmil, kahe käega peletades:)</stage>
+                        <lg>
+                            <l>Liigetie, loogetie,</l>
+                            <l>Winderdie, wänderdie —</l>
+                            <l>Sihi, sihi soo poole,</l>
+                            <l>Rühi, rühi raba poole —</l>
+                            <l>Sulane sa, ma isanda!</l>
+                        </lg>
+                        <stage>(Rästikule järele waadates, siis nagu ärewusest wabanedes:)</stage>
+                        <p>Pää muud kui püsti ja wastu hakkama walmis! Mine pääle, mina sulle paha ei tee! Eks sa taha ka elada ja kewadest rõõmustada!</p>
+                        <stage>(Paneb käed kuklataha kokku ja astub mötetes edasi.)</stage>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(huikamine eemalt):</stage>
+                        <p>Uu-uu!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(wirgudes):</stage>
+                        <p>Mari! Tema olin ma koguni ära unustanud! <stage>(Huikab wastu:)</stage></p>
+                        <p>Uu-uu!</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(nagu enne):</stage>
+                        <p>Uu-uu!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(astub mõtetes edasi).</stage>
+                    </sp>
+                    <sp who="#oraw">
+                        <speaker>ORAW</speaker>
+                        <stage>(kuuse otsas):</stage>
+                        <p>Tsuk-tsuk! Tsuk! <stage>(Käbi roots langeb Tiina jalgade ette.)</stage></p>
+                    </sp>
+                    <pb n="28"/>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(üleswaadates rõõmsalt):</stage>
+                        <p>Ah sina oled? Käbikuningas, pähkliperemees, sorgsaba! — Wõi wiskab mulle käbi rootsu! <stage>(Sirutab käed üles:)</stage> Noh! Tule!</p>
+                    </sp>
+                    <sp who="#oraw">
+                        <speaker>ORAW:</speaker>
+                        <p>Tsuk! Tsuk-tsuk-tsuk!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Tõotad ainult, aga julgust tulla sul ei ole! <stage>(Astub puu alla, waatab:)</stage> Kus mu pähkled on, mis ma sulle tunaeila siia oksaauku panin? Nädala osa, seitse tükki, iga päewa jaoks ühe? Noh, ütle?</p>
+                    </sp>
+                    <sp who="#oraw">
+                        <speaker>ORAW:</speaker>
+                        <p>Tsuk-tsuk!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Maiasmokk! Kõiges ühe igapäew pidid sa sööma, nüüd on ainult koored weel maas! — Enam ma sulle ei too!</p>
+                    </sp>
+                    <sp who="#oraw">
+                        <speaker>ORAW:</speaker>
+                        <p>Tsuk! Tsuk-tsuk!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Sa ei ole rahul? Kas siis Margus mulle sinule tuua pähkleid annab? Tema ei teagi, et sina ka jaomees oled! Tea kas tal enam ongi? Ega mina tema tagawaraaita ole näinud! Rumal käbikuningas, ühepäewaperemees, mis sa oled!</p>
+                    </sp>
+                    <pb n="29"/>
+                    <sp who="#oraw">
+                        <speaker>ORAW:</speaker>
+                        <p>Tsuk! Tsuk! Tsuk!</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(huikamine õige lähedal):</stage>
+                        <p>Uu-uu!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Uu-uu! Maril on nüüd muidugi torbik juba marju täis, ja minul weel midagi! <stage>(Orawale:)</stage> Kui Mari tuleb, saame mõlemad tõreleda, tema on nii usin, nii usin ja wali! <stage>(Otsib körtsiku taskust.)</stage> Säh, kaks tükki weel, enam mul ei ole! Aga teinekord, siis pead mulle õla pääle hüppama ja peo päält wõtma, kuuled? <stage>(Mõõdab jalga jala ette tõstes oma warju pikkust:)</stage> Juba keskpäewaaeg! Nõnda see pühabane päewakene käest kaob!</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(kasetohust marjatorbikuga metsast wälja astudes):</stage>
+                        <p>Oledgi siin? Mina kartsin, et sind enam ei leiagi. Kellele sa ennast nii ilusaks oled ehtinud?</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Miks siis ikka kohe — kellele? Mitte kellegile, iseenesele! Mets ja maa on piduehtes, miks siis korra ka mitte mina? Sinul on ema hõbeehted, sind ehib tema, — kes see mind?</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI:</speaker>
+                        <p>Sina oled ehtimatagi ilus!</p>
+                    </sp>
+                    <pb n="30"/>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Seda kuulen ma ka alles esimest korda ja sinu suust.</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI:</speaker>
+                        <p>Ohoh, ära tee pattu, seda ma ei usu. — Kas hakkame koju minema wõi?</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Koju? Juba? Mul ei ole ju weel marju.</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI:</speaker>
+                        <p>Mis sina siis tegid?</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Ah! Nii hää oli kõige selle ilu keskel ümberringi! Lill õitses, kask lõhnas, kuusk tilkus waiku..., orawaga ajasin juttu, wäikese wäleda rästiku pääle juhtusin — kuidas ta waene põgenes! Mina ikka kannul! Wahel ajas küll pää püsti ja susises wastu, aga pani muud kui jälle minema — inimese silmawaadet ta ei kannata. Siis ikka tema ees ja mina tagajärel...</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI:</speaker>
+                        <p>Noh? Said ära materdada?</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Ära materdada? Jumala looma? Mis ta mulle siis kurja tegi? Ta ju põgenes!</p>
+                    </sp>
+                    <pb n="31"/>
+                    <sp who="#mari">
+                        <speaker>MARI:</speaker>
+                        <p>Kurja ei tee? Alles minewal nädalal oli Tähik ära nõelatud...</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Kui ehk ise pääle astus. See paranes ju ära jälle... <stage>(Ärewuses:)</stage> Ah!</p>
+                    </sp>
+                    <stage>(Metsast kostab sikusarwe heli:)</stage>
+                    <stage>(Music Notation)</stage>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(ka ärewuses):</stage>
+                        <p>Tule lähme!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Ei, ei, mina et tule! <stage>(Wilistab lugu kaasa ja teeb kohal seistes — rõõmsaid tantsu-liigutusi.)</stage></p>
+                    </sp>
+                    <stage>(Music Notation)</stage>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(rahutult):</stage>
+                        <p>Tule, tule! Lehmad tahawad lüpsta! Me peame minema.</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Ei, ei, mina nopin weel ruttu mõne marja, ilma ma koju ei lähe!</p>
+                    </sp>
+                    <pb n="32"/>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(tusaselt):</stage>
+                        <p>Marju noppida oli aega küll. Tule wõi ära tule, mina lähen! <stage>(Pöörab minema.)</stage></p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Ja, ja, — mine, mine ees, küll ma tulen kohe! <stage>(Kergel sammul metsa ära.)</stage></p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(ümberpöördes):</stage>
+                        <p>See oli neil ehk koguni kokkuräägitud? — Ei, see ei wõi ju olla, Margus ometi teab mis ta teeb! Aga kui..? Kui siiski..? <stage>(Kaob põõsaste taha.)</stage></p>
+                    </sp>
+                    <stage>(Tagapool metsas on Tiina ja Marguse heledaid hääli kuulda:)</stage>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Aii! Ära hulla!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Kuhu sa pääsed!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Ära puutu! Mina ei salli!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Hakka ootama, kunas sina sallid!</p>
+                    </sp>
+                    <pb n="33"/>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(ilmub tagurpidi põgenedes ja Margust äritades):</stage>
+                        <p>Ei saa kätte! Mitte ei saa! Ei saa!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(laiali kätega püüdes):</stage>
+                        <l>Paneks nooli nottimaie,</l>
+                        <l>Wõrgu kinni wõttemaie...</l>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(jätkates, ikka eest kõrwale lipsates):</stage>
+                        <l>Neid ei ole noolil notitaw,</l>
+                        <l>Ega wõrgul kinni wõtetaw!</l>
+                        <stage>(Kerib ümber puu ringi, siis puu tagant üht kätt ja teist, üht jalga ja teist wäljapistes ja äritades:)</stage>
+                        <p>Kutsa säh — üks käsi, kutsa säh — teine! Kutsa säh — üks jalg, kutsa säh — teine! <stage>(Kui Margus asjata napsab:)</stage> Mitte ei saa! Ei saa..!</p>
+                    </sp>
+                    <stage>(Rõõmus naerulagin. Margus on wäsinud, pöörab ennast ära.)</stage>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(kirgliselt Margusele kaenla lennates):</stage>
+                        <p>Hahaha! Sina rumal poiss, sina tossikene! Ei saa tüdrukut kätte! Ja see tahab minu Margus olla! Minu Margus peab olema kui hunt, kes uttede hulka kargab! Sind oleks waja juustest kiskuda ja katkuda, kuni sulle jalad alla saawad ja mitte käsa ümber kaela heita!</p>
+                    </sp>
+                    <pb n="34"/>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Sina! Sina waata kui ma tõmban su sülle ja wiin kuhu ise tahan ja teen sinuga wiis imet, mis aga meelde tuleb. Sina — sind oleks waja pigistada, nõnda et karjud!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(nagu angerjas Marguse käte wahelt wälja libisedes):</stage>
+                        <p>Jaa, ja muidugi! Seda sa oskad! Selle pääle oled sa mees!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Mina olen iga asja pääle mees, mind aja wõi noore karuga süli; mina ei karda!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Jajaa, wõib olla, et sa ogarast pääst noort karu küll palju ei karda, kui — ta hästi noor on. Aga muidu, muu asja pääle...</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>No ütle siis sina, missuguse muu asja pääle mul julgust puudub? Nüüd sa pead ütlema! <stage>(Tahab Tiinat tabada.)</stage></p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(ei lase ennast tabada):</stage>
+                        <p>Sooh, wõi õige pean? Pea meeles, Margus, nii hää poiss kui sa ka oled, et mina mitte midagi ei "pea", kui ma ei taha.</p>
+                    </sp>
+                    <pb n="35"/>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Ei, ei, nüüd sa pead! Mina ei jäta!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Margus, Margus, waata ette! Hädasse jääd, kui sa mulle "pea" pääle paned.</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Argpüksi nime mina enese pääle ei jäta.</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Argpüksiks ma ei ütelnud.</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Üks ta kõik. Sina pead nüüd ütlema, mille pääle mul julgust ei ole.</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(tõsisemalt):</stage>
+                        <p>Küllap ma siis ikka pean.</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Pead jah! Tee suu lahti! Ruttu!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Tõesti ikka? Ilma naljata wõi?</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Muidugi! Nüüd nalja enam ei ole!</p>
+                    </sp>
+                    <pb n="36"/>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(tõsiselt):</stage>
+                        <p>Siis muidugi! <stage>(Otsib nagu juttu hakatust:)</stage> Margus?</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Jah?</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Kas sa oled ka kunagi selle üle järele mõtelnud, mis meie siis nüüd — üksteisele ka oleme?</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Mis me üksteisele oleme?</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Seni olime lapsed, olime kasuõde kasuwenda ja wallatasime...</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Nüüd?</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(wähe tusaselt):</stage>
+                        <p>Oleme täiskaswanud inimesed...</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(kergelt):</stage>
+                        <p>Ja teeme warsti pulmad.</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(äkilist liigutust tehes, silmapilguks ülekeewa õnnetundmusega):</stage>
+                        <p>Tõesti? Margus! Sina tahaksid?..</p>
+                    </sp>
+                    <pb n="37"/>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(astub lahtiste kätega Tiina poole).</stage>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(õnnelikus ärewuses):</stage>
+                        <p>Margus! Sinul oleks julgust mind käekõrwale wõtta, isa ja ema, wanaema ja kõige oma soo ja wõsa ette astuda ja ütelda: Siin olen mina ja siin on Tiina, meie tahame paari minna ja meie üksteist ei jäta? <stage>(Näeb Marguse mahalangewaid käsa.)</stage> Ah, Margus, ma teadsin ju?</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(kortsus kulmul):</stage>
+                        <p>Jaa, raske see on. Nemad tahawad, ma wõtku Mari!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(wähe kibedalt):</stage>
+                        <p>Mis siis Mari parem on kui mina? Nõndasama armu pärast majasse wõetud kasulaps nagu minagi! Wõi on tema usinam, kärmem, tugewam wõi terwem kui mina?</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Sina oled nii koguni teistsugune, rõõmus, wallatu, tuline. See on neile wõõras, nemad nagu kardawad sind. Mari aga on nagu nemad ise, meie soost ja tõugu.</p>
+                    </sp>
+                    <pb n="38"/>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(äritatult):</stage>
+                        <p>Teie tõugu? Mis see teie tõug siis nii iseäranis ära ei ole? Põlw põlwe järele olete siin Tammarul istunud ja — teopäiwi teinud. Minu ema aga ütles: meie oleme wabade inimeste tõugu. Isa uppus põgenemisel jõkke, kui teda kinni wõtta ja hingekirja panna taheti; isaisa suri karukäppade wahel ja isa isa-isa murdsiwad nugise jahil näljased hundid maha. Meil arwati põlwi kuni kuningateni ja wanemateni tagasi. Aga see — ei ole muidugi — teie silmis midagi?</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(ei wasta).</stage>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(ägedalt):</stage>
+                        <p>Meie sugu ja see, et mina wabade inimeste tõust olen, see ei maksa teie silmis midagi?</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Mis sa nüüd! <stage>(Püüab Tiina kätt pihku wõtta.)</stage></p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(kirgliselt):</stage>
+                        <p>Ei, ei, puiklemisega sa ei pääse! Mina tahan teada, mis isa ja ema, mis teie kõik minust arwate, — mispärast mina teie silmas<pb n="39"/> teist niipalju madalamal seisan! Kõik tahan ma teada, Margus, <stage>(lõkendawate silmadega lähemale astudes)</stage> kuuled sa, kõik!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(selle kire üle weidi kohkunult):</stage>
+                        <p>Meie ei mõtle sinust ju midagi halba, ei tea ju sinust ega sinu wanematest üleüldse midagi. Muud, kui et — kümne aasta eest ühel tormisel õhtul meie läwe ette juhtusid ja meile jäid.</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(waenulikult):</stage>
+                        <p>Ei! Te teate weel midagi. Te teate weel, et minu ema — kirikutulbas surnuks pekseti!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Minu Jumal — kui sa sedawiisi wägisi sõnu suust wälja kisud — nojah, seda me teame ka.</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(nagu enne):</stage>
+                        <p>Ja usute muidugi ka, et minu ema — oli nõid?</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(tüdinult):</stage>
+                        <p>Midagi me ei usu!</p>
+                    </sp>
+                    <pb n="40"/>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(ähwardawalt, weel lähemale astudes):</stage>
+                        <p>Te usute, wõib olla, et mina ka nõid olen?</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(kurwalt):</stage>
+                        <p>Ah Tiina, mis sa nüüd uuristad ja wägisi oma südame rahu häwitada püüad? Keegi ei pea sind nõiaks! Mis sinu ema oli ehk mitte ei olnud, see magab ühes temaga mulla all!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(nutma purskades ja ennast ära pöörates, käsa ringutades):</stage>
+                        <p>Ema, emakene! Sina üksi armastasid mind, miks sa ei ütelnud mulle, et elu muud ei ole, kui sajakordne surm! <stage>(Jälle Marguse poole:)</stage> Kas sa tead? Kas sa tead! Kui minu ema — kui tema — kõigeparem inimene ilma pääl — kui minu ema nõid oli, siis — olen mina ka nõid. Siis olen mina ka nõid, Margus! <stage>(Wiskab ennast kummuli puu najale ja nutab).</stage></p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(wähe aega kui uimane, siis hellalt):</stage>
+                        <p>Tiina! Mis sa nüüd ennast waewad! Kas sind keegi on nõiaks nimetanud? Ütle kes, küll ma tal suu kinni panen. Kas sind keegi on põlanud? Kas siis meid midagi<pb n="41"/> jõuab lahutada? Sinu ema õnnetu lugu? Tema hauale on ammu kastehein pääle kaswanud, kõik on niihästi kui ununud! <stage>(Murelikult:)</stage> Muidugi, kui sind mõisa ja kirikukirja panema läheme, siis see ju kõne alla tuleb, sellest mööda ei saa...</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(wappub nutust).</stage>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Ära nüüd nuta! Tule lähme koju. Mina sind ei jäta, sa ei tea ju Tiina, ma ei mõista seda ütelda, kuidas sa mul armas oled.</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(läbi nutu):</stage>
+                        <p>Kui nad mind sinust lahutawad, <stage>(waiksemalt)</stage> kui nad seda teewad, siis...</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Ära karda. Tule, ma pean minema, päew on juba lõunal. Isa ootab.</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(silmi kuiwatades):</stage>
+                        <p>Mine pääle, Margus, küll ma tulen järele.</p>
+                    </sp>
+                    <stage>(Margus wõtab Tiina õrnalt kaenla, mis see nüüd waikselt sündida laseb. Ära. Ka Tiina tahab teisele poole minema hakata, sääl astub Mari temale wastu.)</stage>
+                    <pb n="42"/>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(külmade silmadega):</stage>
+                        <p>Kuhu sa lähed?</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(erutatult):</stage>
+                        <p>Sa oled siin? Sa ei ole koju läinud? Sa kuulatasid?</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI:</speaker>
+                        <p>Jah! Ükskord ometi pidi ilmsiks saama, mis sa õige päris tahad! <stage>(Äritatult:)</stage> Ära wõrguta Margust! Mina ei lase Margust sinuga õnnetuse sisse joosta, mina ei taha mitte! Kuuled!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(haawatult):</stage>
+                        <p>Õnnetuse sisse joosta? Mis õnnetus mina siis olen?</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI:</speaker>
+                        <p>Wõi küsib weel! Oi, kui ilmsüüta! Salalik ja kawal, seda sa oskad! Seda sa oskasid esimesest päewast pääle, kui majasse said. Kõige otsas, mis minu oma, olid sa kahe käega kinni. Igalpool olid sa jaomees, minule ei pidanud enam midagi jääma, <stage>(kibedusega)</stage> isegi oma särgikesi pidin ma sinu selga andma! <stage>(Kaeblikult:)</stage> Isa ja ema petsid sa ära, ja nüüd... <stage>(purskab nutma).</stage></p>
+                    </sp>
+                    <pb n="43"/>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(kohkunult):</stage>
+                        <p>Mari! Mis sa ometi... Kõik see..!</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI:</speaker>
+                        <p>On õige! Kes kõndis isa, ema järel nagu kutsikas? Kes jooksis juba käsku täitma, enne kui keegi suu lahti sai teha? Kes wõrgutas Margust juba maastmadalast pääle? Sina!! — Kas sa olid ka nagu teine tüdrukukene ja tundsid ka mõnest asjast häbi? Oli teile ka mõni puu kõrge ja mõni wesi sügaw? Paksust ja wedelast läksid sa poisiga läbi! Mina waatasin päält ja nutsin!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(kaastundlikult):</stage>
+                        <p>Waene Mari!</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI:</speaker>
+                        <p>Kelle pärast? Sinu pärast! Ja nüüd tahad sa weel seda wiimast, seda kõigewiimast! Aga — enam ma ei lase! Piinatud loomalgi lõpeb korra kannatus otsa, miks siis mitte inimesel!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(nagu enne):</stage>
+                        <p>Ah, Mari!..</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(ägedalt):</stage>
+                        <p>Ära hakka wõrgutama! Jäta Margus rahule, ja — mina waikin nagu seni!</p>
+                    </sp>
+                    <pb n="44"/>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(nagu enne, õrnalt):</stage>
+                        <p>Oh Jumal, Mari! Mina ei saa ju parata, kui ka tahaksin! Mis siis mina selle wastu wõin, kui Marguse süda minu poole hoiab ja mitte sinu poole! Kui sina ka waikiksid, — see peab ju ikka isale ja emale teada saama, warem wõi hiljem!</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI:</speaker>
+                        <p>Ära sega! Mõtle Pähni-palu pääle ja mis sääl sündis!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Pähni-palu pääle?</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI:</speaker>
+                        <p>Aasta tagasi, kui sääl nõndasama marjul olime nagu täna siin! Enam mina oma hinge ei waewa ja seda enese teada ei pea, olgu sa ka kümme korda ilma ees minu — kasuõde!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Mis jutt see on?</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI:</speaker>
+                        <p>Ära püüa salata, mina nägin!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(ärewil):</stage>
+                        <p>Mis see tähendab? Mis sa nägid?</p>
+                    </sp>
+                    <pb n="45"/>
+                    <sp who="#mari">
+                        <speaker>MARI:</speaker>
+                        <p>Hunt wiis Kiwesti-Kaarli warsa ära...</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Noh, mis siis? Kas seda küll ei juhtu?</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI:</speaker>
+                        <p>Hunt olid sina!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(nagu ussist nõelatud).</stage>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI:</speaker>
+                        <p>Ära salga midagi, mina nägin! Sa arwad, et ma magasin? Ma olin ju küll põõsa alla maha heitnud, tuli ju küll korra nagu rammestus pääle, aga ma ei maganud, minu silmad oliwad lahti, ma olin walwel...</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(kähisewa häälega):</stage>
+                        <p>Mari! Sa oled hull!</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI:</speaker>
+                        <p>Mina olen hull, kui ma nägin? Mina nägin, kuidas su silmad warsa wahtisiwad...</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Sellepärast, et ilus wäikene wars oli!</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI:</speaker>
+                        <p>...ja siis — korraga ei olnud sind enam kusagil. Ainult mära lõhkus köie ot<pb n="46"/>sas, kui hunt warsaga metsa jooksis! Mina nägin! Hunt olid sina! Ja — kolm päewa selle järele ei söönud sa, näkitsesid ainult toidu kallal.</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(äkisti ühe sammu Mari poole astudes, metsikult):</stage>
+                        <p>Mari!</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(hoolimatalt):</stage>
+                        <p>Jaa, Mari! <stage>(Pureledes:)</stage> Ära wahi mulle niisuguste silmadega otsa, nagu tahaksid ka mind ära murda. Ma tean su silmi küll, ma nägin, kuidas sa Pähni-palus warsa wahtisid, enne kui ta wiisid! Mina sind ei karda, mind kaitseb Jumala ristike. Mis ma näinud, olen ma näinud ja kinnitan seda kas wõi kirikus altari ees!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(ülespoole tõstetud kätega):</stage>
+                        <p>Issand halastaja päästa! Ema, nüüd on ka minu käes kord, nüüd sirutab needmine käe ka su lapse järele wälja! Igawene Jumal! Kes sa elu annad ja wõtad! Ära anna mind timuka käe alla häbistada, siin mina ägan sinu poole, sa tead, puhas sellest süüst... <stage>(Waarub ja langeb südantlõhestawalt nuttes puu alla kummuli.)</stage></p>
+                    </sp>
+                    <pb n="47"/>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(kohkunud, nõuta, waigistades, ruttu):</stage>
+                        <p>Tiina! Oh Jumal! Et see ka üle minu huulte tuli!.. Mina ei ütle seda ju kellegile, mina ei saa ju ometi teiseti, mina nägin seda!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(ägades):</stage>
+                        <p>...Lase mind surra siiasamasse, enne kui nad nüüd ka minu kallale tulewad nagu nad sinu kallale tuliwad — hukka mõistetud juba ette — ema, emakene! Miks jätsid mind ilma elama, tõugata ja tallata, ennem wiinud mu wesile, kannud kalajärile, pistnud tükk mürgi juurt mu suhu, sina kes sa tark olid ja teadsid, et õigust ega halastust ilmas ei ole, ema, ema!</p>
+                    </sp>
+                    <stage>(Tuulehoog läheb kohisedes läbi metsa.)</stage>
+                    <stage>(EESRIIE)</stage>
+                </div>
+            </div>
+            <pb n="48"/>
+            <div type="act">
+                <head>KOLMAS WAATUS.</head>
+                <div type="scene">
+                    <stage>(Jaani-õhtu metsa ääres lagendikul. Kui wõimalik, siis näitelawale maha tehtud tuli. Eespool püstipandud warras tõrwapütiga, mida näha ei ole. Nooremad poisid kannawad tule jaoks hagu kokku, wanemad poisid peawad tõrwatonni all nõu. Elaw liikumine, kõnekõmin ja naerulagin läbisegi, inimesi tuleb ühtelugu juure.)</stage>
+                    <sp who="#haokandja_1 #haokandja_2 #haokandja_3">
+                        <speaker>HAOKANDJAD</speaker>
+                        <stage>(läbisegi):</stage>
+                        <p>1) Teeme ikka jaaniku mis jaanik on! 2) Missugust enne ei ole olnud! 3) Mis üle kolme walla näha!</p>
+                    </sp>
+                    <sp who="#jass">
+                        <speaker>JASS</speaker>
+                        <stage>(ogar, alati teistel ees ja tikub rääkima):</stage>
+                        <p>Täna teeme jaaniku jah! Mis üle kolme walla näha jah!</p>
+                    </sp>
+                    <sp who="#haokandja_1">
+                        <speaker>I. HAOKANDJA:</speaker>
+                        <p>Jass, kanna hagu!</p>
+                    </sp>
+                    <sp who="#jass">
+                        <speaker>JASS:</speaker>
+                        <p>Mina toon hagu kah jah! <stage>(Ei lähe aga kuhugile. Naer.)</stage></p>
+                    </sp>
+                    <stage>(Eemalt kostab tulejate tüdrukute laul.)</stage>
+                    <pb n="49"/>
+                    <sp who="#tuedruk_1 #tuedruk_2 #tuedruk_3">
+                        <speaker>TÜDRUKUTE PARMAS</speaker>
+                        <stage>(tulles, läbisegi):</stage>
+                        <p>Tere läbisegi puha! <stage>(Teretamine ja naljatamine.)</stage></p>
+                    </sp>
+                    <sp who="#haokandja_2">
+                        <speaker>II. HAOKANDJA</speaker>
+                        <stage>(poisikestele):</stage>
+                        <p>Jukut, Jaani ja teised, minge tooge kuiwi kadakaid.</p>
+                    </sp>
+                    <sp who="#lapsed">
+                        <speaker>LAPSED</speaker>
+                        <stage>(kilkades laiali):</stage>
+                        <p>Toome meie kuiwi kadakaid!</p>
+                    </sp>
+                    <sp who="#epp">
+                        <speaker>WANATÜDRUK EPP</speaker>
+                        <stage>(tõrwatonni warrast katsudes):</stage>
+                        <p>Kas see warras ka peab?</p>
+                    </sp>
+                    <sp who="#poiss_1 #poiss_2 #poiss_3">
+                        <speaker>POISID</speaker>
+                        <stage>(naerdes läbisegi):</stage>
+                        <p>1) Miks ta ei pea! 2) See peab kui hull! Seda ei kanguta Epp ise ka lahti!</p>
+                    </sp>
+                    <sp who="#ogar_poiss">
+                        <speaker>OGAR POISS:</speaker>
+                        <p>Mina — mina — mina tõin terwe kuuse korraga!</p>
+                    </sp>
+                    <sp who="#tuedruk_1 #tuedruk_2 #tuedruk_3">
+                        <speaker>TÜDRUKUD</speaker>
+                        <stage>(läbisegi):</stage>
+                        <p>1) Kas saab ka hää jaanik? 2) Kas oli ka kase tohtu? 3) Ja hästi palju tõrwa?</p>
+                    </sp>
+                    <pb n="50"/>
+                    <sp who="#poiss 1 #poiss_2">
+                        <speaker>POISID:</speaker>
+                        <p>1) Tõrwa kui mett! 2) Tõrwa ja tohtu — küllalt! Wana raswase rattarummu lõhkusime pilbasteks ja kiilusime täis! See põleb kui põrend!</p>
+                    </sp>
+                    <sp who="#epp">
+                        <speaker>EPP:</speaker>
+                        <p>Kes sinna tule otsa wiib?</p>
+                    </sp>
+                    <sp who="#poiss_1">
+                        <speaker>I. POISS:</speaker>
+                        <p>Epp ise ronib üles!</p>
+                    </sp>
+                    <sp who="#poisike">
+                        <speaker>POISIKE:</speaker>
+                        <p>Mina ronin üles, pistan põlema!</p>
+                    </sp>
+                    <sp who="#poiss_2">
+                        <speaker>II. POISS:</speaker>
+                        <p>Kas püksipõlwed ka peawad? <stage>(Naer, poisikesel on püksipõlwed wäga kärisenud.)</stage></p>
+                    </sp>
+                    <sp who="#poiss_3">
+                        <speaker>III. POISS:</speaker>
+                        <p>Wibalikuga pistame tule otsa!</p>
+                    </sp>
+                    <sp who="#tuedruk_1 #tuedruk_2 #tuedruk_3">
+                        <speaker>TÜDRUKUD:</speaker>
+                        <p>1) No mis te weel ootate, pange ju põlema! 2) Hakkame pääle jah!</p>
+                    </sp>
+                    <sp who="#poiss_1 #poiss_2 #poiss_3">
+                        <speaker>POISID:</speaker>
+                        <p>1) Wara alles! 2) Ootame weel wähe, ilm alles walge! 3) Kõik ei ole weel koos!</p>
+                    </sp>
+                    <sp who="#tuedruk_1">
+                        <speaker>I. TÜDRUK</speaker>
+                        <stage>(ettepoole kogunud teistele tüdrukutele):</stage>
+                        <p>Tammaru rahwast ei ole ka weel?</p>
+                    </sp>
+                    <pb n="51"/>
+                    <sp who="#tuedruk_2">
+                        <speaker>II. TÜDRUK:</speaker>
+                        <p>Sina ootad Margust?</p>
+                    </sp>
+                    <sp who="#tuedruk_3">
+                        <speaker>III. TÜDRUK:</speaker>
+                        <p>Mis sina temast ootad, temal ise oma!</p>
+                    </sp>
+                    <sp who="#jass">
+                        <speaker>JASS:</speaker>
+                        <p>Ei tea, kas Tammaru-Tiina ka tuleb?</p>
+                    </sp>
+                    <sp who="#poiss_1">
+                        <speaker>I. POISS:</speaker>
+                        <p>No miks ta's ei pea tulema?</p>
+                    </sp>
+                    <sp who="#jass">
+                        <speaker>JASS:</speaker>
+                        <p>Wõi sa ise ei tea?</p>
+                    </sp>
+                    <sp who="#epp">
+                        <speaker>EPP</speaker>
+                        <stage>(Jassile):</stage>
+                        <p>Mis sa ometigi niisugust juttu ajad! Waata kui sa ei saa!</p>
+                    </sp>
+                    <stage>(Inimesi kogub enam ja enam ümber kuulatama.)</stage>
+                    <sp who="#poiss_2">
+                        <speaker>II. POISS:</speaker>
+                        <p>Ega ei tohi niisugust hullu asja nimetada! Kes seda oleks uskunud!</p>
+                    </sp>
+                    <sp who="#poiss_3">
+                        <speaker>III. POISS:</speaker>
+                        <p>Ei tea, kas on ikka tõsi wõi?</p>
+                    </sp>
+                    <sp who="#poiss_1">
+                        <speaker>I. POISS:</speaker>
+                        <p>Mis see? See Kiwesti-Kaarli warsa lugu wõi?</p>
+                    </sp>
+                    <pb n="52"/>
+                    <sp who="#wana_naene">
+                        <speaker>WANA NAENE:</speaker>
+                        <p>Kuidas ta siis tõsi ei ole, kui Tammaru-Mari ise oma silmaga nägi!</p>
+                    </sp>
+                    <sp who="#tuedruk_1">
+                        <speaker>I. TÜDRUK:</speaker>
+                        <p>Huu! Hirmu ajab pääle!</p>
+                    </sp>
+                    <sp who="#poisike">
+                        <speaker>POISIKE</speaker>
+                        <stage>(wana naesele):</stage>
+                        <p>Tädi, missugune see libahunt õige on?</p>
+                    </sp>
+                    <sp who="#wana_naene">
+                        <speaker>WANA NAENE:</speaker>
+                        <p>Wõi mina teda olen näinud! Hunt ikka nagu hunt, kui werejanu ja murdmise himu pääle tuleb! Muud kui — esimesed jalad olewat tal lühemad kui tagumised. Inimese käed ju ka lühemad kui jalad.</p>
+                    </sp>
+                    <stage>(Enam inimesi kogub kuulatama.)</stage>
+                    <sp who="#keskealine_mees">
+                        <speaker>KESKEALINE MEES:</speaker>
+                        <p>Puha ebausk!</p>
+                    </sp>
+                    <sp who="#poiss_1">
+                        <speaker>I. POISS:</speaker>
+                        <p>Ebausk jah, kuidas nüüd inimene ennast wahel hundiks ja jälle inimeseks muuta saab.</p>
+                    </sp>
+                    <sp who="#wana_naene">
+                        <speaker>WANA NAENE:</speaker>
+                        <p>Kust ta's ebausk on? Wa' Räägu-Rein Pärakülas, kätt ega jalga ei wiitsi liigutada, põllulapikesed sööti jäänud, nälg igalpool silmaga näha, loomad äralõppenud, kewadel<pb n="53"/> ei jõua jalgu alla wõtta, kantakse teisi inimeste wahel laudast wälja, aga — peremees? Peremees paks ja punane, nagu puik, weri näost wälja tulemas. Kõik ilma inimesed teawad, et ta libahundiks käib ja et kõik see rammu murtud lammaste soojast werest tuleb!</p>
+                    </sp>
+                    <sp who="#keskealine_mees">
+                        <speaker>KESKEALINE MEES:</speaker>
+                        <p>Hull jutt puha!</p>
+                    </sp>
+                    <sp who="#wana_naene">
+                        <speaker>WANA NAENE</speaker>
+                        <stage>(nagu enne):</stage>
+                        <p>Hull jutt? Kui sulase ka libahunti tegema wälja õpetas? Wana Rein ei jõudnud teopäewi ära teha, kui siis pandi mõisa poolt wana Aasta-Mats sinna sulaseks, et see teopäewad tasa teeks. Tee teopäewi, kui leiwakotti kaasa panna ei ole! — Aga warsti hakkas ikka wa' Aasta-Mats ka paksuks ja punaseks minema, tegi ikka teopäewad tasa ja kõik ja kiitis ise igal pool, et ta nii hää koha pääl weel ei olla teeninud, kui Räägul. Muud kui — ühel hääl päewal olla Matsil see "sõna" metsas meelest ära läinud, ei ole ennast enam inimeseks tagasi muuta saanud. Jooksnud küll tagurpidi käpukile ümber kiwi, aga seda "sõna", seda ei olla tal enam meele tulnud. Kui siis jooksnud hundist pärast koju ja peitnud ennast haganikku ära. Silmad põlenud pääs ja weripunane keel hammaste wahelt<pb n="54"/> wäljas. — Seni kui wana Rein koju tulnud, teist ise ümber kiwi wedanud ja tast jälle inimese teinud!</p>
+                    </sp>
+                    <sp who="#keskealine_mees">
+                        <speaker>KESKEALINE MEES:</speaker>
+                        <p>Kes tahab, see usub!</p>
+                    </sp>
+                    <sp who="#wanem_inimene">
+                        <speaker>WANEM INIMENE:</speaker>
+                        <p>No kas teil nüüd mitte enam muud juttu käes kõneleda ei ole, kui niisugust tühja lori!</p>
+                    </sp>
+                    <sp who="#wana_naene">
+                        <speaker>WANA NAENE:</speaker>
+                        <p>Ei ole see tühi lori!</p>
+                    </sp>
+                    <sp who="#poiss_3">
+                        <speaker>III. POISS:</speaker>
+                        <p>Ei wõi teada midagi. Kust see jutt muidu inimeste suhu sai?</p>
+                    </sp>
+                    <sp who="#wana_naene">
+                        <speaker>WANA NAENE:</speaker>
+                        <p>Ega suitsu muidu ei tõuse, kui tuld ei ole!</p>
+                    </sp>
+                    <sp who="#epp">
+                        <speaker>EPP:</speaker>
+                        <p>Ah, jätke järele, kõnelege midagi muud!</p>
+                    </sp>
+                    <sp who="#jass">
+                        <speaker>JASS:</speaker>
+                        <p>See ju see kõigeuuem jutt on!</p>
+                    </sp>
+                    <sp who="#poiss_3">
+                        <speaker>III. POISS:</speaker>
+                        <p>See ju nüüd läheb kui kõlin läbi kihelkonna.</p>
+                    </sp>
+                    <pb n="55"/>
+                    <sp who="#keskealine_mees">
+                        <speaker>KESKEALINE MEES:</speaker>
+                        <p>Mina olen kuulnud, Margus tahtwat Tiinat wõtta! Siis tekkiwad ikka kõiksugused hullud jutud!</p>
+                    </sp>
+                    <sp who="#jass">
+                        <speaker>JASS</speaker>
+                        <stage>(on ennast metsa ära peitnud ja heidutab säält):</stage>
+                        <p>Õhõi, õhõi, soend, soend, libahunt! Silmad põlewad pääs kui tulerattad!</p>
+                    </sp>
+                    <stage>(Kõik kohkuwad ja lööwad lahku; lapsed jooksewad tõrwapüti alla hunikusse.)</stage>
+                    <sp who="#epp">
+                        <speaker>EPP:</speaker>
+                        <p>Mis rumal jutt ja lori see on! Ära rikuwad inimeste tuju! Jaani-õhtul ei ole nüüd paremat. Poisid, pistke jaanik põlema! Tulge tüdrukud, hakkame nukku jooksma, et korra otsa pääle saame! Tulge!</p>
+                    </sp>
+                    <sp who="#wanem_inimene">
+                        <speaker>WANEM INIMENE:</speaker>
+                        <p>Ära rikuwad tuju jah!</p>
+                    </sp>
+                    <sp who="#tuedruk_1 #tuedruk_2 #tuedruk_3">
+                        <speaker>TÜDRUKUD</speaker>
+                        <stage>(läbisegi):</stage>
+                        <p>1) Hakkame! 2) Hakkame nukku jooksma jah, mis meil ilmaga asja! Tulge! 3) Epp, astu sina ette otsa!</p>
+                    </sp>
+                    <sp who="#epp">
+                        <speaker>EPP</speaker>
+                        <stage>(edwistades):</stage>
+                        <p>Mina nüüd weel!</p>
+                    </sp>
+                    <pb n="56"/>
+                    <sp who="#poiss_1 #poiss_2 #poiss_3">
+                        <speaker>POISID</speaker>
+                        <stage>(läbisegi):</stage>
+                        <p>1) Epp jah, Epp jah! 2) Epp, Epp! 3) Epul on hää laulu hääl! 4) Epp seda asja oskab!</p>
+                    </sp>
+                    <sp who="#epp">
+                        <speaker>EPP:</speaker>
+                        <p>Noh, kui Epp, siis Epp! Hakkame pääle! <stage>(Ürgab:)</stage></p>
+                        <stage>(Music Notation)</stage>
+                        <l>Lähme nukku ehtimaie,</l>
+                        <l>Kulda kägu kängitsema!..</l>
+                    </sp>
+                    <stage>(Wanemad inimesed hoiawad kahele poole kõrwale, tüdrukud lööwad ringi, kaks neiut lükatakse keskele ja laotatakse neile walge linik pääle, kuna teised nende ümber keeru käiwad ja laulawad. Poiste parmas hoiab paremale poole ja walib nukupüüdjad. Pahemale poole koguwad torupillimees, wanemad mehed ja naesed, kõik hääs tujus. Nukumäng peab kiiresti minema. Kuni nukku joostakse, süütawad wanemad poisid wibalikuga ülesse tuld; säält hakkab punakat walgust alla paistma.)</stage>
+                    <lg type="song">
+                        <head>Nukumäng I.</head>
+                        <lg>
+                            <l>Lähme nukku ehtimaie,</l>
+                            <l>Kulda kägu kängitsema,</l>
+                            <l>Ehi nukku, eeri nukku,</l>
+                            <l>Ehi enda ehtemile,</l>
+                            <pb n="57"/>
+                            <l>Pääle pane pardi sulgi</l>
+                            <l>Liida pääle linnu sulgi.</l>
+                            <stage>(Neiud keskel teewad kästud liigutusi.)</stage>
+                            <l>Rinda pane suure sõle</l>
+                            <l>Kui see kuu taewaesse,</l>
+                            <l>Kaela heida helmekorra,</l>
+                            <l>Kui see korda kanamune,</l>
+                            <l>Pähe pane laia pärja,</l>
+                            <l>Kui see wihma wikerkaari.</l>
+                        </lg>
+                        <lg>
+                            <l>Nukukene, noorukene,</l>
+                            <l>Seadi jalad jooksemaie,</l>
+                            <l>Wiska linik lepa pääle,</l>
+                            <l>Kaelarätik kase pääle!</l>
+                        </lg>
+                        <stage>(Neiud wiskawad liniku, jooksewad ringist wälja, poisid kannul neid püüdmas. Ringisolejad hoiawad tahapoole poolringi.)</stage>
+                        <lg>
+                            <l>Jookse nukku, jõua nukku,</l>
+                            <l>Jookse poolest Poolamaada,</l>
+                            <l>Weidikese Wene maada,</l>
+                            <l>Natukese Narwa maada!</l>
+                        </lg>
+                        <lg>
+                            <l>Nukku koju kutsutakse,</l>
+                            <l>Üle aia hõigatakse,</l>
+                            <l>Tule koju nukukene,</l>
+                            <l>Tule koju, tunne oma!</l>
+                            <l>Mats su oma, hoia teda,</l>
+                            <l>Jaan su päris, pea teda!</l>
+                        </lg>
+                    </lg>
+                    <stage>(Poisid on nukud kinni püüdnud ja tulewad nendega tagasi. Kõnelagin ja seletamine.)</stage>
+                    <pb n="58"/>
+                    <sp who="#karjalapsed">
+                        <speaker>KARJALAPSED</speaker>
+                        <stage>(kargawad jaanitule ümber ja laulawad):</stage>
+                        <stage>(Music Notation)</stage>
+                        <lg>
+                            <l>Puhas, püha Jaanikene,</l>
+                            <l>Hoia minu karjakest,</l>
+                            <l>Karja minnes, koju tulles,</l>
+                            <l>Hoia metsas kahju eest,</l>
+                            <l>Õpeta sa põõsa tagant,</l>
+                            <l>Karja haljast heina sööma!</l>
+                            <l><stage>(Kilkawad:)</stage> Jaanike! Jaanike! <stage>(ja jooksewad laiali.)</stage></l>
+                        </lg>
+                    </sp>
+                    <sp who="#wanakas_mees">
+                        <speaker>WANAKAS MEES</speaker>
+                        <stage>(wõtab midagi pihuga maast ja pillub tulde):</stage>
+                        <p>Tutrad tulesse, kasteheinad kesale, linad minu põllu pääle!</p>
+                    </sp>
+                    <stage>(Sarwemäng näitelawa taga: tuttaw lehepilli lugu.)</stage>
+                    <sp who="#tuedruk_1">
+                        <speaker>I TÜDRUK:</speaker>
+                        <p>Tammaru Margus!</p>
+                    </sp>
+                    <sp who="#tuedruk_2">
+                        <speaker>II TÜDRUK:</speaker>
+                        <p>Margus jah! Tema lehepilli lugu!</p>
+                    </sp>
+                    <stage>(Mõned jooksewad wastu, teised teewad pilli loo järele lühikese jalakeerutuse. MARGUS, MARI, TIINA, TAMMARU PEREMEES ja PERENAENE tulewad. Mõlemad wiimased jääwad ettepoole, wanemate inimeste juure seisma. Teretamine ja elaw liikumine, aga ka — pääde kokku pistmine ja sosistamine. Tüdrukud hoia<pb n="59"/>wad nähtawasti wähe Tiina eest kõrwale, aga mitte wäga silmapaistwalt. On, nagu tikuks tume tuju wõimust wõtma. EPP saab sellest aru ja tõttab seda peletama.)</stage>
+                    <sp who="#epp">
+                        <speaker>EPP:</speaker>
+                        <p>No mis te's nüüd mängu katki jätsite? Tulge jälle nukku jooksma! Ega see Jaaniõhtu maast ei ole leitud, millal me teid kõik paari saame!</p>
+                    </sp>
+                    <sp who="#tuedruk_1 #tuedruk_2 #tuedruk_3">
+                        <speaker>TÜDRUKUD</speaker>
+                        <stage>(läbisegi):</stage>
+                        <p>Nukku jooksma jah, nukku jooksma! <stage>(Koguwad ringi.)</stage></p>
+                    </sp>
+                    <sp who="#epp">
+                        <speaker>EPP:</speaker>
+                        <p>Kes see keskele?</p>
+                    </sp>
+                    <sp who="#poiss_1">
+                        <speaker>I POISS:</speaker>
+                        <p>Epp ise keskele! <stage>(Naer.)</stage></p>
+                    </sp>
+                    <sp who="#epp">
+                        <speaker>EPP</speaker>
+                        <stage>(tujukalt):</stage>
+                        <p>Soo, wõi Epp keskele? Siis wist — Jass püüdma? Seda te tahate? <stage>(Naer.)</stage> Ei, Tammaru Marit, Tiinat keskele — Margus ja Meelimäe-Mart püüdma!</p>
+                    </sp>
+                    <sp who="#peremees #perenaene">
+                        <speaker>TAMMARU PEREMEES ja PERENAENE</speaker>
+                        <stage>(pistawad pääd kokku. Perenaene näib elawalt kõnelewat, peremees awaldab käsa laotades tuska).</stage>
+                    </sp>
+                    <sp who="#rahvas">
+                        <speaker>HÄÄLED</speaker>
+                        <stage>(läbisegi):</stage>
+                        <p>Olgu! Olgu! Marit Tiinat keskele, Margus ja Märt püüdma! <stage>(Mõned tüdrukud jooksewad Mari tooma, Tiina jääb üksi.)</stage></p>
+                    </sp>
+                    <pb n="60"/>
+                    <sp who="#perenaene">
+                        <speaker>TAMMARU PERENAENE</speaker>
+                        <stage>(astub Mari poole, nagu teda ära tooma):</stage>
+                        <p>Mari, ära sina praegu mine!</p>
+                    </sp>
+                    <sp who="#tuedruk_1 #tuedruk_2 #tuedruk_3">
+                        <speaker>TÜDRUKUD</speaker>
+                        <stage>(wõtawad Mari keskele):</stage>
+                        <p>Ei, ei! Tema peab tulema, meie ei jäta!</p>
+                    </sp>
+                    <sp who="#epp">
+                        <speaker>EPP</speaker>
+                        <stage>(Tiina juure astudes):</stage>
+                        <p>Noh, tule!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(kahewahel):</stage>
+                        <p>Wõtke mõni teine!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(Tiinale):</stage>
+                        <p>Mine, mine!</p>
+                    </sp>
+                    <sp who="#epp">
+                        <speaker>EPP</speaker>
+                        <stage>(wiib Tiina Mari kõrwale keskele).</stage>
+                    </sp>
+                    <sp who="rahvas">
+                        <stage>(Jälle pääde kokkupistmine ja sosistamine, selgesti on kuulda, et siin ja sääl kõneldakse:)</stage>
+                        <p>Saab näha, kumma Margus walib!</p>
+                    </sp>
+                    <lg type="song">
+                        <head>Nukumäng II</head>
+                        <stage>(Epp ürgab ja tüdrukad laulawad, poisid mängiwad kandliga kaasa:)</stage>
+                        <stage>(Music Notation)</stage>
+                        <pb n="61"/>
+                        <lg>
+                            <l>Oh see nukku waenelapsi,</l>
+                            <l>Ilma pääta pääsukene,</l>
+                            <l>Ole ei ema ehitamas,</l>
+                            <l>Ole ei isa ilustamas!</l>
+                            <l>Nuta, nuta, nukukene,</l>
+                            <l>Nuta, nuta, nuutsu, nuutsu,</l>
+                            <l>Alane ala õlade,</l>
+                            <l>Koole ära koguni!</l>
+                        </lg>
+                        <lg>
+                            <l>Tõuse üles, nukukene,</l>
+                            <l>Alles sul isa, alles ema!</l>
+                        </lg>
+                        <lg>
+                            <l>Hüppa nukku, karga nukku,</l>
+                            <l>Jookse nukku, jõua nukku,</l>
+                            <l>Siputele siibasida,</l>
+                            <l>Soputele sulgesida!</l>
+                        </lg>
+                        <lg>
+                            <l>Nukukene, noorukene,</l>
+                            <l>Ära sina mõtle metsa poole,</l>
+                            <l>Metsas palju murdajaida,</l>
+                            <l>Kiwi kõrwal kiskujaida!</l>
+                        </lg>
+                        <lg>
+                            <l>Tule koju nukukene,</l>
+                            <l>Ei ole aega nukul olla,</l>
+                            <l>Nukul kangas kamberissa</l>
+                            <l>See tahab kulda, kudumista,</l>
+                            <l>See tahab lõuend, lõhkumista!</l>
+                        </lg>
+                        <lg>
+                            <l>Tule koju, nukukene</l>
+                            <l>Tule koju, tunne oma,</l>
+                            <l>Märt su päris, pea teda,</l>
+                            <l>Margus oma, hoia teda!</l>
+                        </lg>
+                    </lg>
+                    <stage>(Tiina ja Mari pistawad jooksma. Ringis olejad hoiawad tahapoole poolringi. Mari ei lase ennast Mardist tabada.)</stage>
+                    <pb n="62"/>
+                    <sp who="#poiss_1">
+                        <speaker>I. POISS:</speaker>
+                        <p>Margus, lõika, ära jäta Marit Märdile!</p>
+                    </sp>
+                    <sp who="#poiss_2">
+                        <speaker>II. POISS:</speaker>
+                        <p>Märt, ole wahwa!</p>
+                    </sp>
+                    <sp who="#poiss_1">
+                        <speaker>I. POISS:</speaker>
+                        <p>Margus, tõmba Mari kinni!</p>
+                    </sp>
+                    <sp who="#poiss_3">
+                        <speaker>III. POISS:</speaker>
+                        <p>Margus nüüd Marit tahab! Mari jääb ikka Märdile!</p>
+                    </sp>
+                    <stage>(Mari jookseb paaril korral Margusele risti wastu, et sellele wõimalust anda teda tabada. Aga Margus näeb ainult Tiinat ja tormab sellele järele, kes aga ka ennast kergesti püüda ei lase.)</stage>
+                    <sp who="#jass">
+                        <speaker>JASS:</speaker>
+                        <p>Mis sina nüüd, Mari, ennast weel Margusele topid, ega Margus ju sind ei taha!</p>
+                    </sp>
+                    <sp who="#poiss_1">
+                        <speaker>I. POISS:</speaker>
+                        <p>Ega ta hull ei taha jah! Mari oleks ikka walmis küll!</p>
+                    </sp>
+                    <sp who="#poiss_2">
+                        <speaker>II. POISS:</speaker>
+                        <p>Margus ei hooli maast ega taewast!</p>
+                    </sp>
+                    <sp who="#poiss_3">
+                        <speaker>III. POISS:</speaker>
+                        <p>Margus teeb mis Margus tahab, mis temal Mariga tegu!</p>
+                    </sp>
+                    <pb n="63"/>
+                    <sp who="#peremees #perenaene">
+                        <speaker>TAMMARU PEREMEES ja PERENAENE</speaker>
+                        <stage>(eespool, on nähtawasti wäga erutatud. Kui Margus neist mööda jookseb, haarab perenaene tema käiksest kinni.)</stage>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE</speaker>
+                        <stage>(pahaselt):</stage>
+                        <p>No mis see nüüd olgu!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(ei hooli midagi, kisub ennast lahti, jookseb Tiina järele).</stage>
+                    </sp>
+                    <sp who="#poiss_1">
+                        <speaker>I. POISS:</speaker>
+                        <p>Mari, ära sellepärast nuta! Märt ka hää poiss!</p>
+                    </sp>
+                    <sp who="#poiss_2">
+                        <speaker>II. POISS:</speaker>
+                        <p>Lepi Märdiga jah. Näe, Margusel Tiinaga tõsi taga!</p>
+                    </sp>
+                    <sp who="#wana_naene">
+                        <speaker>WANANAENE:</speaker>
+                        <p>Margus on hull! Ju see üks wägi on, mis teda lahti ei lase, et ta enam millestgi ei hooli!</p>
+                    </sp>
+                    <stage>(Jälle pääde kokkupistmine ja sosistamine. Kõik peawad nukujooksjaid silmas, kes tagapoolt keskele tagasi tulewad. MARI (Märdiga) leegitsewa näoga, asjata püüab ta oma wiha warjata, — TIINA (Margusega) alandlikkude, aga särawate silmadega. Kui mõlemad paarid keskel kokku puutuwad, ei suuda)</stage>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(ennast pidada, ta pöörab Tiina poole ja kähistab sellele näkku — küll nõnda, et see ainult Tiinale kuulda peaks olema, aga see on kõigile kuulda):</stage>
+                        <p>Libahunt!</p>
+                    </sp>
+                    <pb n="64"/>
+                    <sp who="#rahvas">
+                        <stage>(Tiina tarretanud, Margus kohkunud. Päältwaatajate hulgas sosistamine ja kahjurõõmsad näod):</stage>
+                        <p>Mis ta ütles? Kuulsid, kui ütles!</p>
+                    </sp>
+                    <sp who="#rahvas">
+                        <stage>(Warsti lendab ka siit ja säält sõna):</stage>
+                        <p>Libahunt!</p>
+                    </sp>
+                    <sp who="#rahvas">
+                        <stage>(Silmapilguks piinlik waikus. Tulewalgus ülewelt on kahwatuks muutunud, tuli on kustumas. — Korraga kõlawad kusagilt pimedast pilkesõnad):</stage>
+                        <lg>
+                            <l>Metsa-hulli, metsa-halli,</l>
+                            <l>Metsa ojarmu emanda,</l>
+                            <l>Mine sooda solgutama,</l>
+                            <l>Läbi laanede laduma,</l>
+                            <l>Kiwi külgi kiskumaie!</l>
+                        </lg>
+                    </sp>
+                    <sp who="#rahvas">
+                        <stage>(Kahjurõõmus naerukihin, teistel tõsised näod. Ja jälle teiselt poolt kõlawad pilkesõnad):</stage>
+                        <lg>
+                            <l>Metsa-hukku, metsa-hakku,</l>
+                            <l>Metsapeni, pikkalõuga,</l>
+                            <l>Susi suuri, pää jämeda:</l>
+                            <l>Ära sa puutu minu pulli,</l>
+                            <l>Ära sa katsu minu karja,</l>
+                            <l>Werista minu warsakest!</l>
+                        </lg>
+                    </sp>
+                    <stage>(Margus on äritatud ja nõuta, ta kargab pilkajate poole ja tahaks mõnda tabada, aga neid ei ole leida. Tiina tarretus muutub ülewoolawaks nutuks. Ta on keskele üksi jäänud ja kustuwa tule kuma paistab weel ainult tema pääle.)</stage>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Tiina! Tiina! Ära nuta! Inimesed on niisuguses tujus ja — ega nad seda keegi<pb n="65"/> ju ise ei usu ja — homme on ju kõik jälle ununud. Ära nüüd nuta! <stage>(Pureledes inimeste poole:)</stage> Mis te siis nüüd teete? Häbenege ennast! Tühi laimujutt pannakse käima, ja — teil ei ole paremat teha, kui seda järele rääkida ja teist inimest pilkama ja haawama hakata?! — Ära nuta, Tiina!</p>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>TAMMARU PEREMEES</speaker>
+                        <stage>(pahaselt Margusele):</stage>
+                        <p>No mis sina's nüüd? Sinule on keegi midagi ütelnud wõi?</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(pureledes):</stage>
+                        <p>Kas sa ei näe siis, et teisele inimesele liiga tehakse!</p>
+                    </sp>
+                    <sp who="#rahvas">
+                        <stage>(Kusagilt pimedast lendab wana wiisk Tiina jalgade ette ja jälle kõlawad pilkesõnad):</stage>
+                        <lg>
+                            <l>Susi säh, silmapaik!</l>
+                            <l>Kui sa meie karja tuled:</l>
+                            <l>Pane see silma ette —</l>
+                            <l>Susi säh, silmapaik!</l>
+                        </lg>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(nutt muutub leegitsewaks wihaks):</stage>
+                        <p>Mis te tahate minust! Inimesteks loete ennast, aga olete hullemad kui kiskjad loomad! Libahundiks ütlete mind? — Olen jah, te ju teisiti ei taha! Parem tuhatkorda<pb n="66"/> hunt, hunt metsas huntide keskel, kui inimene parem ei ole, kui teie! Hunt tapab ainult nälja pärast ja — hunt ei murra hunti, aga teie!.. Ja arwate ennast paremaks minust? Siin — hunt, uhke, ei lase ennast häbistada! Aga teie - orjawerega wõietud häbioksad wedelewad aedade taga maas, koerte lakkuda! Hunt on waba, teeb mis ta tahab, tuleb kui ta tahab, läheb kui ta tahab, armastab ja wihkab keda tahab! Ja läheb teie seast, sest et ta teid — põlgab! <stage>(Astub uhkelt metsa poole, keegi ei takista teda, kõik on kui tarretanud.)</stage></p>
+                    </sp>
+                    <stage>(Metsas wilguwad siin ja sääl pimedas korra pisikesed wiirastuled, nagu hundi silmad üles, mis kohe jälle kaowad.)</stage>
+                    <stage>(Siis selle waikuse keskelt):</stage>
+                    <sp who="#wanem_inimene">
+                        <speaker>WANEM INIMENE:</speaker>
+                        <p>Püha Jumal! Jaanituli kustunud! See ei tähenda hääd!</p>
+                    </sp>
+                    <sp who="#wana_naene">
+                        <speaker>WANANAENE:</speaker>
+                        <p>Ja mets nii must ja kole! Siia küll enam ei julge jääda!</p>
+                    </sp>
+                    <stage>(Tõusew hirm inimeste hulgas, tüdrukud ja naesed koguwad üksteise ümber hunikusse, lapsed ripuwad wanemate riiete küljes. Kõnekõmin ja hädaldamine, üksikud hakkawad minema, aegamööda kaowad kõik. Üksi järele jääb maas hõõgawa tuleaseme juure Margus; tema<pb n="67"/> äritatud olekust on näha, et ta tumedate mõtetega wõitleb. — Eemal seisawad Tammaru peremees ja perenaene, kes tusased ja üksteisega ägedasti kõnelenud on, mis aegapidi kuuldawale tuleb.)</stage>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES</speaker>
+                        <stage>(käsa laotades):</stage>
+                        <p>No ütle!.. Mis sa narriga ikka teed!</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE:</speaker>
+                        <p>Ammu oleks tüdruk waja silma alt ära saata olnud!</p>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES:</speaker>
+                        <p>No ja, ära saata! Kuidas teda äkki ära ajad? Aga ega muud nõu üle ei jää! Kes siis seda nüüd uskus, et ta tõega — <stage>(käsa laotades)</stage> oma häätegijatest ka ei hooli ja poega rahule ei jäta!</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE:</speaker>
+                        <p>Hunt ikka, mis hunt! Mis ta inimestele ütles!</p>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES</speaker>
+                        <stage>(ähwardawalt):</stage>
+                        <p>No tulgu tagasi!</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE</speaker>
+                        <stage>(Marguse poole astudes):</stage>
+                        <p>Ära tuled ka wõi?</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(kaeblikult):</stage>
+                        <p>Kuida ma tulen, kui nägid, et... ära jooksis ja ei tea, mis ta teeb!</p>
+                    </sp>
+                    <pb n="68"/>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE</speaker>
+                        <stage>(armuta):</stage>
+                        <p>Ei tee midagi!</p>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES</speaker>
+                        <stage>(pilkawalt):</stage>
+                        <p>Sa ehk tahad ka — metsa järele joosta?</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(murelikult):</stage>
+                        <p>Kuhu mina temale järele tean minna!</p>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES</speaker>
+                        <p>Tuled siis wõi ei tule?</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(tusaselt):</stage>
+                        <p>Küll ma tulen!</p>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES</speaker>
+                        <stage>(perenaesele):</stage>
+                        <p>Las' konutab. Lähme pääle! <stage>(Hakkawad perenaesega minema. Margus jääb üksi ja sorib pää ees maas, jalanukiga tuhka.)</stage></p>
+                    </sp>
+                    <stage>(Tema juure astub pimedast wälja ja paneb teda murelikult tähele)</stage>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(õrnalt):</stage>
+                        <p>Margus!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(karmilt):</stage>
+                        <p>No — mis sina weel tahad!</p>
+                    </sp>
+                    <pb n="69"/>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(alandlikult):</stage>
+                        <p>Mis ma nüüd tahan, Margus! Mitte midagi ma ei taha!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Siis — mine!</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(murelikult):</stage>
+                        <p>Kuida ma jätan su siia... Jumala ainuüksi!.. Teised on kõik ära läinud...</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Ajasid tema jälle metsa! Kes teab, kas tuleb tagasi wõi ei tule!</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(wähe aja pärast):</stage>
+                        <p>Küll tuleb. Ega see esimene kord ei ole. Ta on ju mitu puhku ära olnud ja ikka jälle tagasi tulnud!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(pureledes):</stage>
+                        <p>Mitu puhku! Kui te temale ülekohut tegite. — Tema ei ole nagu teie, tema ei kannata ülekohut, tema weri on teistsugune! See on õrn, lööb kergemini keema, see... aga seda ei suuda sina ju mõista!</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI:</speaker>
+                        <p>Ah Margus! Mina ei suuda seda mõista, kuidas sa nõnda tema küljes kinni oled!</p>
+                    </sp>
+                    <pb n="70"/>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Ja muidugi ei suuda sa seda. Mine! Ma ei taha sind näha. Kuulutad oma halba unenägu teistele nagu tõtt!</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(nuttes):</stage>
+                        <p>Oh Jumal, Margus, ma ei näinud und!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>No siis arwasid sa seda omast pääst wälja! Mina Tiinat ei jäta. Ja kui ta ka kümmekorda libahunt on, ta on tuhat korda armsam ja parem kui sina! <stage>(Ära.)</stage></p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI:</speaker>
+                        <stage>(temale järele):</stage>
+                        <p>Margus! <stage>(Purskab walusalt nutma, käsaringutades):</stage> Margus! Oma hinge laotaksin ma sinu teeraa pääle, et aga sinul pehmem astuda oleks, surra wõiksin ma sinu eest, aga libahundile ma ei wõi sind jätta! Ma ei wõi mitte!</p>
+                    </sp>
+                    <stage>(EESRIIE.)</stage>
+                </div>
+            </div>
+            <pb n="71"/>
+            <div type="act">
+                <head>NELJAS WAATUS.</head>
+                <div type="scene">
+                    <stage>(Rehealune. Paremat kätt wäikene uks rehetuppa, selle lähedal ristjalgadega söögilaud ja wanamoodi istmed. Pahemat kätt wanaema woodi, selle kõrwal pink, eespool puutelgedega, paksu põidadega wanker (Marguse suwine magamise ase). Tagaseinas suur wäraw, pärani lahti, kust hele päikese walgus sisse tuleb ja ruumi, mis muidu must ja suitsunud (laest rippuwad kõrred alla), omal wiisil armsaks teeb. Wäljas — suwise maakoha prospekt: põllulapid, metsatukad, wõsa. Inimeste kohta maksab, mis II waatuse alguses öeldud; wanaema nüüd peaaegu täitsa pime.)</stage>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(seisab norus tagaseina wärawa piida najal, ei kuule ega näe, wahib tühjusesse).</stage>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE</speaker>
+                        <stage>(tuleb tarest, jääb peatama, tahaks nagu midagi ütelda, aga wäänab — kui Margus teda ei näe ega kuule - pääd ja läheb kurwalt tagasi).</stage>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(tuleb õues weepangedega wärawast mööda, kohkub Margust nähes natuke, waatab temale aralt otsa ja läheb ära. Margus istub wanaema woodi lähedale pingi pääle, jääb käsepõsikil konutama).</stage>
+                    </sp>
+                    <pb n="72"/>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS</speaker>
+                        <stage>(tuleb jalgu järel wedades teiselt poolt, rangid õlal, ohjad käes, jääb Margust nähes läwe kohale seisma):</stage>
+                        <p>Täna ei ole teole minekut — wana peremees rääkis nagu kesa kordamisest...</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(nagu ärgates):</stage>
+                        <p>Mis see? Kes? Ah soo!.. <stage>(Waatab mujale.)</stage></p>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS</speaker>
+                        <stage>(lähemale tulles):</stage>
+                        <p>Ei ole meie Tiinat weel näha ühti? Neljas päew juba...</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(ei wasta).</stage>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS:</speaker>
+                        <p>Warem, kui ta seda tegi, — kolmandal päewal oli ta ikka tagasi...</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(pöörab tusaselt näo teisale).</stage>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS:</speaker>
+                        <p>Ta üks suure südamega loom ikka on. Eks mina ütelnud juba sel ajal, kui peremees ta majasse jättis: ära tee! Hääd sellest wälja ei tule!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(tusaselt):</stage>
+                        <p>No mis sellest siis paha tulnud on?</p>
+                    </sp>
+                    <pb n="73"/>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS:</speaker>
+                        <p>Nojaa, mis mina tean. Tüdruk ju kui tulesäde. See teenib ikka kahe eest oma leiwa ära. Muud kui...</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(ei wasta.)</stage>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS:</speaker>
+                        <p>...et ta ennast taltsutada ei suuda ja kui jälle midagi on, metsa jookseb ja enne tagasi ei tule, kui wiimane nälg ajab...</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(kärsitult ära pöördes):</stage>
+                        <p>Äh!</p>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS</speaker>
+                        <stage>(wabandawalt):</stage>
+                        <p>Ega's mina midagi!.. Aga wõi see's! Kes seda enam kinni peab, kui korra niisugune jutt lahti on pääsnud. See läheb kui kulutuli. Peremehel-perenaesel ikka õigus ka, kui nad sind teda wõtta ei lase!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(ennast taltsutades, etteheitwalt):</stage>
+                        <p>Kas sina siis ka Tiinast halba usud? Sina ometi tunned teda!</p>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS</speaker>
+                        <stage>(tusaselt):</stage>
+                        <p>Mida minu uskumisest wõi!..</p>
+                    </sp>
+                    <pb n="74"/>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Kas sina siis ei wõi nende ilma inimeste suud kinni panna? Sina ometi tead, et — tema niisugune juba on. Temal ei ole seda wagusat orja werd, mis meil, — sina ometi tead!</p>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS:</speaker>
+                        <p>Tean wõi ei tea, mida see minu teadmine! Nagu mina teistest targem oleksin, et mina nende suud sulguda saan! <stage>(Teeb minekut.)</stage> Kas ma siis lähen kesa kordama wõi?</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(tusaselt):</stage>
+                        <p>Eks sa lähe, kui kästi. <stage>(Jääb nagu enne konutama. Jaanus ära.)</stage></p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(tuleb käsikaudu kobades toast ja sihib oma woodi poole; juhtub kätega Marguse külge):</stage>
+                        <p>Kes see <stage>(katsub käega)</stage> ah sina oled pojake! Mis sina siin nüüd teed? Muretsed pääle? <stage>(Paitab käega.)</stage></p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(waikselt):</stage>
+                        <p>Ei midagi, wanaema! Niisamuti!..</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(kaastundlikult):</stage>
+                        <p>Ei midagi jah! <stage>(Toetab pikkamisi Marguse kõrwale oma woodi ääre pääle:)</stage> Muud kui — nagu surnu oleks majas!</p>
+                    </sp>
+                    <pb n="75"/>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <stage>(piinatud, ei wasta midagi).</stage>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA:</speaker>
+                        <p>Kui sa alles wäikene olid, Margus, kui sul midagi waja oli, wõi sa midagi teada tahtsid ja teistel ei olnud sinu jaoks aega, tulid sa alati minu juure!..</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(soojalt):</stage>
+                        <p>Sinu juure tuleme ju kõik, wanaema!</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(pääd raputades):</stage>
+                        <p>Ei, pojakene, kõik te ei tule. Sina ei tule! Sul ei ole mulle ammu midagi ütelda olnud!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(kehitab õlasid, kurwalt):</stage>
+                        <p>Mis ma sulle ka pidin ütlema, wanaema, mis sa ise ei tea!</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA:</speaker>
+                        <p>Jah! Wanaemal ei ole küll enam silmakesi, kae pani neile kaane pääle, aga wanaema näeb siiski! Enam weel kui enne, kõik mis sünnib ja kuidas on! Wanaema näeb ka sinu südamesse, pojakene!</p>
+                    </sp>
+                    <pb n="76"/>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(piinatult):</stage>
+                        <p>Mis selle üle siis weel kõnelda ja sõnu teha! Wõi sinagi teisiti, wanaema. Sa ju mõistad mind ka hukka, pimedast pääst nagu teised kõik!</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(tõstab pää üles, nagu tahaks ja wõiks ta Margusele silma waadata):</stage>
+                        <p>Ei, Margus! Seda ei tee ma mitte!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(õnnelikus ärewuses):</stage>
+                        <p>Tõesti, wanaema! <stage>(Mõlemate kätega wanaema käte ümbert kinni hakates ja särawate silmadega temale otsa wahtides.)</stage> Sina mõtlesid teisiti, kui... isa ja ema ja teised kõik? <stage>(Elawalt)</stage> Wanaema! <stage>(Laseb käed langeda ja astub tagasi.)</stage> Ma ei usu seda! See ei ole ju tõsi! See ei wõi ju olla!</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA:</speaker>
+                        <p>Ah, Margus! Et sul weel usku oleks minu sisse! Et ma weel sinu käe pihku wõtta <stage>(otsib Marguse kätt)</stage> ja sulle rahu südamesse tagasi kõneleda jõuaks, nagu enne, kui sa weel laps olid ja mõnikord nuttes minu juure tulid! — Sa ära mõista isa ja ema hukka. Ei tee nemad, nagu sina ütled, midagi pimedast pääst. Nende waade on selge, weri jahe ja meel kaine.</p>
+                    </sp>
+                    <pb n="77"/>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(üle keedes):</stage>
+                        <p>Meel kaine?.. Mis te's nüüd tahate? Ise ometi wõtsite Tiina majasse ja pidasite teda nagu oma last? Ja nüüd! Nüüd kus mina poisikese põlwest pääle temaga kokkukaswanud olen, nüüd... kus Tiina mulle armas on — <stage>(ägades)</stage> wanaema, sa ei tea kui armas — nüüd on ta korraga teie meelest ei tea mis. Mis ta's teile on teinud?</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA:</speaker>
+                        <p>Ah, Margus! Ma tean küll! Kõikide pääle tuleb see korra! Nagu maru! Siis tuiskab ja tormab weri ja näeb õnne ja õnnetust sääl, kus — midagi iseäralist ei ole. See ehk teine, Margus, ühe ja sellesama pääle loodud on kõik — sugu edasi kandma ja lapsi ilmale tooma. See on kõik!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(nagu tõrges laps):</stage>
+                        <p>Wanaema, mina ei jäta Tiinat! See — libahundi lori? See on ju hull jutt!</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA:</speaker>
+                        <p>Jäägu see! Muud kui — mis me teame Tiinast? Mis me teame sellest, kes ta on ja kust ta tuleb? — Margus! Siuru ja sirjelind, ei need sünni paari. Ja Tammaru sugu ja<pb n="78"/> tõug? Margus, kui sa tahad ja kannatad kuulatada, ma jutustan sulle neist?</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <stage>(õlasid kehitades, rahutult):</stage>
+                        <p>Ja — mis see..? Mis sellel siis nüüd... Mis minul siis sellega..?</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA:</speaker>
+                        <p>Mis sinul sellega tegu? Ei tea, Margus, ehk ometi? Meie tõug, Margus, see elab siin Tammarul juba kümme põlwe, wiis wiimast mis ma ise näinud ja oma wanaema ja ema käest kuulnud olen...</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(on kärsitu, aga ei wasta midagi).</stage>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA:</speaker>
+                        <p>Kas sa kuuled ka?</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Kuulen küll. Kõnele pääle.</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA:</speaker>
+                        <p>Ma mõtlesin, et sa ei kuule... Meie sugu ja wõsa on kollaste juukste ja siniste silmadega; see wõttis naisi ainult oma keskelt — ei ole tilkagi wõõrast werd meie soontes, see on — puhas!</p>
+                    </sp>
+                    <pb n="79"/>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Wõõras weri? Kust siin see wõõras? Ta on ju ometi teie eneste silma all üleskaswanud ja inimeseks saanud!</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(ei lase ennast eksitada, on nagu oma mälestuste sisse ärawajunud, jutustab edasi):</stage>
+                        <p>Meie tütred ja noorikud ei olnud ilusad, neid ei nõutud mõisa... Neli põlwe tagasi, kui ühte nõuti <stage>(on sügawasti liigutatud ja lööb silmad mana)</stage> — see uputas ennast jõkke. Surnuaia müüri taga, kui mina weel nägin ja mäletan, seisis ikka weel tema ristikene — karjalapsed ka hoidsiwad ristikest ja ei tallanud maha...</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(ka liigutatud, teeb sellekohase liigutuse, aga ei wasta midagi).</stage>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(nagu kaugele tagasi waadates ja siis jälle alates):</stage>
+                        <p>Me olime pikaldased ja aeglased; meil oli alati kõiges kaks last, kui palju, siis kolm — kui Jumal sigidusele warakult taba ette pani — üksainus! Meie teenisime Jumalat ja orjasime mõisat kartuse ja wärisemisega; elu lust ja rõõm oli meie eest lukkupandud asi. Kui meie laulsime, oliwad meie laulud rasked ja<pb n="80"/> kurwad! Helgeid aegasid meil ei olnud, kirge meie ei tunnud — uute orjahingekeste eest oli meil hirm...</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(rahutumalt):</stage>
+                        <p>Mis sellest nüüd minule, wanaema...? <stage>(kaeblikult)</stage> Mis sa kõneled kõigest sellest! See ei tee ju midagi paremaks!</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(ennast püstiajades):</stage>
+                        <p>Jah, mis sellest nüüd sinule!... Ainult, et... kuidas meie sugu ja wõsa enne on elanud, elu ja kannatamiste pääle waadanud. Põlwest põlwe, nii halwad kui me olime — me oleme oma päritud pruukisid pühaks pidanud, oleme waiksed ja wagusad olnud ja — püüdnud iseennast ära wõita. Kui sa seda tead, eks sa siis — kui sul mõnikord süda raske on ja murduda tahab, eks sa siis mõtle ka wanaema pääle, oma isa ja oma ema pääle, kes ju kõik ka korra noored oliwad, nagu sina nüüd, ja — wõib olla wahest ka kõik kätte ei saanud, millest süda sonis!...</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(läheb enam ja enam rahutumaks):</stage>
+                        <p>Ah wanaema, wanaema! Sinu sõnad sööwad ju südame sees ära!</p>
+                    </sp>
+                    <pb n="81"/>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA:</speaker>
+                        <p>Kõik oleme loodud kannatama, üks nõnda, teine nõnda. Aga — aeg paneb iga haawa pääle rohtu! Noor weri on kerge armastama ja kerge — unustama! <stage>(Paitab.)</stage> Ei midagi, wanaema püüab korra jälle targem olla, kui teie noored. Temal aega käes mõtelda! Ja siis tulewad kõik need — <stage>(wahib, nagu näeks ta nägemist)</stage> kes meie suguwõsast enne meid elasid ja eluraskust kannatasid, ja need, kes pärast meid tulewad ja jällegi kannatawad ja... seisawad nii selgesti, et katsu neid käega, pikas reas sääl — <stage>(sirutab käe wälja)</stage> kus — ah! ju muud midagi ei ole, kui wanaema mured! Mitu põlwe edasi, mitu ja mitu! ja mitu põlwe tagasi! <stage>(wälja sirutatud käsi wäriseb)</stage> — ma ei näe sääl wõõrast werd, kõik on kollaste pääde ja siniste silmadega! Kollaste pääde ja siniste silmadega! <stage>(Laseb käe langeda ja püüab — Marguse pääle waadates — nagu pisarat silmast ära pigistada.)</stage> — Aga ära seda südamesse wõta, Margus, ära seda südamesse wõta, see on ainult — wiirastus, mis wanaema wahel näeb! <stage>(Paitab korra Margust ja ootab, et see midagi wastaks.)</stage> Kui päike looja läheb, kui wanad ja hallid oleme, siis... on kõik kannatused ära ununud nagu unenägu!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(wahib weel ikka kohkunult sinna, kuhu wanaema käsi näitas, õhkab siis raskeste ja jääb jälle konutama).</stage>
+                    </sp>
+                    <pb n="82"/>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(tuleb rehetoast, toob lusikaid ja leiba lauale. Tema silmad walwawad murelikult Margust. Et Margus ennast ei liiguta, ei julge ta midagi ütelda, waid läheb tasakesi tagasi).</stage>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES</speaker>
+                        <stage>(tuleb õuest, tema nägu muutub Margust nähes tusaseks. Astub mõne sammu ja jääb siis keset rehealust seisma):</stage>
+                        <p>Noh, ei ole teda ikka weel näha?</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(teeb liigutuse, nagu oleks tal äge sõna keele pääl, pöörab aga näo teisale ja waikib).</stage>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES:</speaker>
+                        <p>Kas sa ei kuule, poiss, et sinuga kõneldakse?</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Kuulen küll. Mis ma siis pidin wastama? Kui sa Tiina järele küsid, siis tead sa ise niisama hästi, et ta weel tagasi ei ole.</p>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES</speaker>
+                        <stage>(enam iseenesele):</stage>
+                        <p>Wõiks ta ka parem jääda, kus ta on!</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE</speaker>
+                        <stage>(tuleb, paneb sööginõu lauale):</stage>
+                        <p>Tulge nüüd sööma!</p>
+                    </sp>
+                    <pb n="83"/>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES</speaker>
+                        <stage>(Margusele, kes ennast ei liiguta):</stage>
+                        <p>No mis sa's nüüd lõrretad? Nagu ei oleks sul enam elu sees! Mis hingeõnnistus sul siis nüüd kaduma läks? <stage>(Istub lauda.)</stage> Aastate järele juba mees, aga poisikese aru. Kui sa naist wõtta tahad — mina ei keela. Mari ootab, tee sügisel pulmad!</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE:</speaker>
+                        <p>Jah, mina seda ka ei mõista! Sa wõid ometi ainult inimest wõtta, kellel Issanda weri südames! Kes metsa ära ei jookse!</p>
+                    </sp>
+                    <stage>(Jaanus tuleb õuest ja asub lauda, nõndasama ka wanaema ja Mari. Ka Margus istub isa kõrwale. Tume meeleolu, keegi ei räägi sõna.)</stage>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS:</speaker>
+                        <p>Meelimäel olla hunt eila tallekese karja juurest ära wiinud.</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE</speaker>
+                        <stage>(alamõttega):</stage>
+                        <p>Eks ole! Waja omagi karjasele ütelda, et loomadega kodu lähedale hoiaks!</p>
+                    </sp>
+                    <stage>(Sööwad jälle, nagu enne, sõnalausumata.)</stage>
+                    <stage>(Läwe päält langeb wari tuppa. Sääl seisab Tiina — nälginud ja kahwatanud, riided wähe korratud. Ta on häbelik ja ei julge silmi üles tõsta.)</stage>
+                    <pb n="84"/>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS</speaker>
+                        <stage>(näeb teda kõige enne):</stage>
+                        <p>Meie kadunud inimene!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(üles karates, et Tiinale wastu jooksta, õnnelikult):</stage>
+                        <p>Tiina! Oled sa ometi korra tulnud...</p>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES</speaker>
+                        <stage>(Margust karmilt istmele surudes):</stage>
+                        <p>Siia jää! Sellega õiendan mina!</p>
+                    </sp>
+                    <stage>(Margus ei julge ennast liigutada, kuna peremees aeglaselt lusika käest paneb ja tulejale wastu astub.)</stage>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES:</speaker>
+                        <p>Kust sa tuled?</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(waatab paluwate silmadega ringi, aga ei saa sõna suust).</stage>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES</speaker>
+                        <stage>(raudselt):</stage>
+                        <p>Kust sa tuled? Kus sa olid selle aja?</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(aralt):</stage>
+                        <p>Metsas olin! Ma ei julgenud ju enam inimeste hulka tulla! <stage>(Hakkab nutma.)</stage></p>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES:</speaker>
+                        <p>Metsas? Metsas hulgub hunt! Mis sa tegid metsas?</p>
+                    </sp>
+                    <pb n="85"/>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(on söögilauast ülestõusnud ja sihib oma woodi ääre poole. Tiina lähedale seisma jäädes):</stage>
+                        <p>Latseke, millest sa elad metsas, kui sa metsa jooksed?</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE</speaker>
+                        <stage>(söögilauast):</stage>
+                        <p>Seda sina weel küsid? Mets on ju nüüd liha täis.</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(nuttes nagu enne):</stage>
+                        <p>Millest ma elan? Ei millestki, wanaema. Metsas on marju, metsas on oblikaid ja juuri. <stage>(Ülewoolawas ärduses ennast wanaema ette maha wisates ja tema põlwede ümbert kinni hakates:)</stage> Sina, wanaema, sina ei keela mulle oma armu! Ma olen ju küllalt põlwede pääl maas Jumala poole äganud, aga tema ei halasta! Ikka jälle tuleb see taltsutamata wiha, ja mina ei saa selle wastu! Lapsena olin ma hää, usu mind, wanaema, ma olin hää! Aga kui nad ütlesiwad, minu ema olla nõid, kui nad tema surnuks peksiwad, kui nad mind sajatamise sõnadega läwe eest läwe ette saatsiwad, siis! Siis kaswas see wiha iga ülekohtu wastu minu pisukeses südames nagu kõwa tükk ja on minuga ühes suureks saanud ja mina ei saa selle wastu. Mina ei saa selle wastu, usu, wanaema, mina ei saa!</p>
+                    </sp>
+                    <pb n="86"/>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA:</speaker>
+                        <p>Aga metsa jooksed sa latseke, ja oled sääl päewad ja ööd!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(ülewoolawas ärduses):</stage>
+                        <p>Ah wanaema! Metsas on nii hää... nägu sambla sisse suruda ja nutta... kuni wiha — tilk tilga järele sulab ja süda jälle kergeks saab. Sääl ei tahaksgi nagu enam inimene olla, tahaks olla metsas, prii ja waba, waba ja prii...</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(lahtiste kätega Tiina poole tormates):</stage>
+                        <p>Tiina!</p>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES:</speaker>
+                        <stage>(Marguse käewarrest kinni haarates ja teda tagasi tõugates, Tiina poole pöörates, üleskeewa wihaga):</stage>
+                        <p>Libahunt!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(nagu ussist nõelatud, üleskarates, waarudes; wanaema astub eemale):</stage>
+                        <p>Seda ütled ka sina! <stage>(Nagu paludes ülestõstetud kätega — siis käsa silmade ette kattes:)</stage> Halastaja Jumal!</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE</speaker>
+                        <stage>(laua äärest):</stage>
+                        <p>Sa oled ometi ise jaanitule ääres kõigi inimeste kuuldes tunnistanud, et sa libahunt oled! Mis sa's nüüd weel seda salata tahad?</p>
+                    </sp>
+                    <pb n="87"/>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(perenaese poole sirutatud kätega):</stage>
+                        <p>Oh, ema, mis sa seda etteheitma hakkad, mis walus ja wihas meeltheitja inimese suust mõtlemata üle huulte tuli!</p>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES</speaker>
+                        <stage>(walusa kibedusega):</stage>
+                        <p>Mõtlemata? Ütle parem, kuidas sa mu poja ära nõidunud ja enesele järele pannud oled!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(tõuswa uhkusega):</stage>
+                        <p>Ei ole mina Margust ära nõidunud ega enesele järele pannud, seda teab Margus, seda teab Jumal, seda teate teie. Ja kui Margus minu poole hoiab ja mind tahab, <stage>(tema silmad lööwad lõkedama)</stage> siis on see tema oma waba tahtmine! Ja mina — wõin ainult uhke olla, et hää inimese südame enesele olen wõitnud ja — hingepõhjast alandlik ja tänulik, et ma Jumala suures maailmas hoopis mahajäetud ja üksi ei ole...</p>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES</speaker>
+                        <stage>(ei suuda ennast enam taltsutada, pea karjudes):</stage>
+                        <p>Nõid oled, ja nõia palga saad korra, nagu su ema nõid oli ja oma palga sai. Wälja minu katuse alt, ussiseeme!</p>
+                    </sp>
+                    <pb n="88"/>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(leekiwas wihas):</stage>
+                        <p>Mis?! Nõid — olen mina ja nõid oli minu ema...? Minu ema ihu mullas ja hingekest õndsate hulgas tuled sa — teotama? Minu ema, kelle lapse sa ometi puhtast halastusest oma juure wõtsid, teda toitsid ja katsid!</p>
+                    </sp>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES</speaker>
+                        <stage>(ennast ära pöördes):</stage>
+                        <p>Olgu ka neetud see tund, kus ma seda tegin!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(ennast taltsutades, kaeblikult esite, siis wihaselt):</stage>
+                        <p>Oh et te parem mind kiskjate loomade kätte oleksite jätnud! Siis oleks warakult kõigel walul ja piinal ots olnud. Hing oleks ema juure ja Jumala sülle tagasi saanud. Leiba olete ihule annud, hinge olete nälgida lasknud. Toitnud ja katnud olete, armastanud ei ole te mind. Ihule andsite warjupaiga, hing jäi üksi. Ja otsis hinge! Otsis teie hinge kümme pikka aastat ja ei leidnud mitte. Mürki olete mu hingesse walanud! Ja nüüd, kus ma abi ja armu otsima tulen, teie juure, kes mulle isa ja ema pidid olema, nüüd! nüüd ütlete ka teie: libahunt! Tulgu see teie hinge pääle! Ah!! Ei ole siis ka minu südames enam sädet lapse-armastust, ega tänu — me oleme tasa!</p>
+                    </sp>
+                    <pb n="89"/>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(hädaldades):</stage>
+                        <p>Tiina!... Missugune sa isa ja ema wastu oled!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(nagu enne):</stage>
+                        <p>Ei ole need mulle isa ja ema! Ja ei ole ka sinule isa ja ema, kui neil sinu wastu armu ega halastust ei ole! <stage>(Rahulisemalt:)</stage> Margus! Suures raamatus seisab: mees jätab isa ja ema maha ja hoiab naese poole — <stage>(pöörab ennast minema)</stage> — tule!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(õnnetult):</stage>
+                        <p>Ja — kuhu? Mõtle ise järele — kuhu!</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE</speaker>
+                        <stage>(nagu pilgates):</stage>
+                        <p>Kuhu ta peab tulema, kust teid tagasi ei tooda?</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Ja kes meid paari, kes meid kirikukirja paneb, kui mõisa kirja ei ole!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Mina tean koha, kust meid keegi tagasi ei too. Laanes, soode ja rabade taga, kust kurg ka ainult lennates üle pääseb, on mägi, mäe sees hallikas ja koobas. Ja paari? Paari paneb meid Jumal. Tule, kui sa minu oma oled!</p>
+                    </sp>
+                    <pb n="90"/>
+                    <sp who="#peremees">
+                        <speaker>PEREMEES:</speaker>
+                        <p>Ha! Asjata petad sa poissi! Sellel on aru pääs!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Tule, Margus!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(on sõnadeta õnnetu).</stage>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(kurwalt):</stage>
+                        <p>Kui sa ei tule, Margus, siis — ütle, et sa ei tule!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>See ei ole ju wõimalik! See oleks ju meeletus! Me peame teist teed leidma, me peame... <stage>(Waatab abiotsiwalt isa ja ema otsa ja jääb nende kiwistanud nägusid nähes wait.)</stage></p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Sa ei tule?</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(laotab õnnetult käsa, jääb wait).</stage>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(meeleäraheitmises Marguse poole):</stage>
+                        <p>Sinagi ehk usud nüüd, et ma — libahunt olen? Oh Jumal! Meel läheb segi! Ma ei tea seda ju! Wõib olla oli siis minu ema see... ja mina!... olen seda werega temalt pärinud ja see mürk... <stage>(Käsa ringutades:)</stage> Oh Jumal, ma ei tea seda ju! <stage>(Waarub.)</stage></p>
+                    </sp>
+                    <pb n="91"/>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE</speaker>
+                        <stage>(waljult):</stage>
+                        <p>Ära siis wõta Jumala nime suhu, kui sa ei tea!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(wihaselt):</stage>
+                        <p>Libahunt... Libahunt on ka Jumala loom!</p>
+                    </sp>
+                    <sp who="#perenaene">
+                        <speaker>PERENAENE:</speaker>
+                        <p>Ei ole libahunt Jumala loom! Ei kõlba see inimeste hulka! Kasi!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Mina olen Jumala loom, olgu ma ka libahunt! Teie? Wiletsad! Teil ei ole julgust ega jõudu, armastust ega ustawust — midagi ei ole teil! Ja tahate kohut mõista? Teie?!</p>
+                        <p>Kui ma hunt olen, on huntide hulgas mu ase, ehk on nende juures enam õigust ja enam halastust! <stage>(Astub uhkelt läwe poole. Minnes muutub tema wiha ärduseks. Läwe pääl tagasi waadates:)</stage> Jumalaga, Margus! <stage>(Nuttes ära.)</stage></p>
+                    </sp>
+                    <stage>(EESRIIE.)</stage>
+                </div>
+            </div>
+            <pb n="92"/>
+            <div type="act">
+                <head>WIIES WAATUS.</head>
+                <div type="scene">
+                    <stage>(Wiis aastat hiljem. Seesama rehetare, mis esimeses waatuses. Inimesed on wanemaks jäänud, MARGUSELE on habe kaswanud, tema kui ka MARI — nüüd Marguse naene — näojooned on kõwaks ja waljuks muutunud. Kõigewähem muutunud on sulane JAANUS. WANAEMA on õige wanaks jäänud ja kokkulangenud, tema pää nõtkub, näitab nagu tukuks ta alati. Jälle hiline talwe õhtu ja peerg põleb pihis; wäljas torm ja aegajalt huntide hulumine.)</stage>
+                    <stage>(Sawiku lähedal istub MARI ja ketrab, ahju nurga ääres pingi pääl konutab Jaanus, käed süles. POISS-MÄRT lõpetab woodi ääre pääl pastlarihmade sidumist, wõtab kasuka ja kübara waia otsast.)</stage>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS:</speaker>
+                        <p>Kuhu see Märt siis weel wastu õhtut minema ehib?</p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>MÄRT:</speaker>
+                        <p>Ma lähen tõistrele, toon tüdruk-Mari ära. See ju sääl on, ja — tea kas saab tuisust läbi üksi koju. Ma lähen temale wastu.</p>
+                    </sp>
+                    <pb n="93"/>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS</speaker>
+                        <stage>(naerdes):</stage>
+                        <p>Sa oled ju Mari wastu õige wiisakaks hakanud. Räägiti ikka, et sul tõistre-Anuga tõsi taga pidi olema...</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI:</speaker>
+                        <p>Sooh, wõi räägiti? Noh, siis üks tee ja kaks asja. <stage>(Naerdes:)</stage> Jaa, eks pea enese ette hoolitsema, ega mind siia Tammarule ju sinu kombel raudwaraks ei jäeta. Siin oled sina taluisa ameti pääl, ega sind siit enam wälja kangutada saa. Minu jalgade all weel mitu tuult.</p>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS:</speaker>
+                        <p>Soo, wõi üks inimene ka minu pääle kade! — Jah, eks ma ole siia peatama jäänud, wõib olla jään weelgi, kui talurahwas mind — mahamatta tõotawad.</p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>MÄRT:</speaker>
+                        <p>Ei maksa sinu pääle kade olla ühtigi. Jaa, kui talurahwas sulle selle pika teenistuse eest ka sauna kõrwale kambri üles oleksid löönud ja sinu naesele-lastele seadinud, siis ehk wahest oleks kade olla maksnud, nõnda aga...</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(kuiwalt):</stage>
+                        <p>Wõi talle küllalt seda ei ole pakutud, juba ennegi, wana peremehe ajal. — Temast nüüd saab!</p>
+                    </sp>
+                    <pb n="94"/>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS</speaker>
+                        <stage>(naerab):</stage>
+                        <p>Ega saa jah, näha on, et ei hakkagi saama.</p>
+                        <p>MÄRT:</p>
+                        <p>No — hääd õhtut kõigile! <stage>(Ära.)</stage></p>
+                    </sp>
+                    <stage>(Jutu wahe.)</stage>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(tuleb käsikaudu kobades kambrist, wana kasukaräbal ümber õlade, toetab sawikule istuma — wokiwurinat kuuldes):</stage>
+                        <p>Mis sa nüüd, latseke, jälle wokiga? Läbe ometi ka pühapäewa pidada!</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI:</speaker>
+                        <p>Ei ole enam pühapäew, pühapäew juba läbi. Töö tahab tegijat. — Mure ka! Margus alles wäljas, ei tule ega tule. Leiab ta selle tuisuga teed wõi ei leia, ja eksib metsa ära.</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA:</speaker>
+                        <p>Jah, ei tea kuhu ta nõnda hilja pääle jääb!</p>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS:</speaker>
+                        <p>Noh, küllap läks ka tee ääre kõrtsi sisse ja sääl — kaob tuttawate seltsis aeg käest.</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(tusaselt):</stage>
+                        <p>See on siis õige temp, kui teab, et teised kodus tema pärast hirmul on ja ootawad?</p>
+                    </sp>
+                    <pb n="95"/>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS</speaker>
+                        <stage>(ala-mõttega):</stage>
+                        <p>Kes teab, kui palju ta seda teab!</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA:</speaker>
+                        <p>Jaah,... <stage>(Lõpetab, ei ütle midagi.)</stage></p>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS</speaker>
+                        <stage>(kes aegajalt peergu kohendab):</stage>
+                        <p>Mis suur igatsus tal ka kodu järelegi! Lapsi teile Jumal ei ole annud, maja tühi ja kõle...</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(ei wasta midagi, tallab ainult kõwemini wokki. Lõng katkeb. Kummardab woki üle ja tõstab korraga pää üles):</stage>
+                        <p>Kuule, kui tulewad!</p>
+                    </sp>
+                    <stage>(Läbi waikuse ja tuule mühina on kuulda, kuidas huntide hulumine lähemale tuleb ja siis jälle kaugemale kaob. Kõik kuulatawad.)</stage>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(õhates):</stage>
+                        <p>Jah!...</p>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS</speaker>
+                        <stage>(wähe aja pärast):</stage>
+                        <p>Ütlesid midagi, wanaema?</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(wahel puhates ja jälle rääkides):</stage>
+                        <p>Mis ma suurt ütlesin — midagi! Kõik kordub siin maa pääl — midagi ei muutu.<pb n="96"/> Inimesed küll — tulewad ja lähewad, sünniwad ja surewad, muud kui — mind mulda — surm ei taha, jätab nagu sambaks ilma pääle, ehk mind küll — kellegil enam waja ei ole. — Poja ja minija kutsus ta ära ja oleksid ometi weel wõinud elada... <stage>(Ei saa liigutuse pärast edasi.)</stage></p>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS</speaker>
+                        <stage>(ka murelikult):</stage>
+                        <p>Jah, need wiis kõhutõbi, kui ta — teisigi wõttis, noori ja wanu nagu loogu. Kelle külge ta hakkas, ega sel pääsemist ei olnud.</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA:</speaker>
+                        <p>Jah, nende hädal ots pääl! Ei ole enam südamewaewa kannatada, ei sega tuisk ega maru nende rahu!</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARIT</speaker>
+                        <stage>(waewawad nähtawasti ka piinlikud mõtted, ta tõuseb tasakesi üles ja läheb tuppa ära).</stage>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(mõtetes):</stage>
+                        <p>Nagu Marigi praegu...</p>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS:</speaker>
+                        <p>Jah, nagu temagi! Ja mina tegin temale ka weel haiget. Tuli tahtmata keele pääle, ja — wõi siis ongi meie majas õnne? — Kuid — mis temagi sinna parata saab!</p>
+                    </sp>
+                    <pb n="97"/>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA:</speaker>
+                        <p>Jaah...</p>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS:</speaker>
+                        <p>Hale neid mõlemid Margusega waadata. Ei ole midagi, mis neid ühendaks! Ja see kolmas! See — hulgub ka ikka alles metsi mööda! Kas ta ei saa, wõi ei tahagi ennast enam inimeseks muuta, — seda ei tea keegi, seda teab Jumal!</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(waluga):</stage>
+                        <p>Jah, kes tooks troosti ja kinnitaks, et see nõnda ei ole, ehk küll kõik seda arwawad ja usuwad! Kes leiaks luud-kondikesed üles, mis tõendaks, et ta — parem siis ometi — juba ammu surnud ja rahu sees on!</p>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS</speaker>
+                        <stage>(raskelt):</stage>
+                        <p>Ei, surnud ta ei ole. Ja — tema ta on! Ära ta meie nurgast ei lähe ja — püss ka tema pääle ei hakka. Nüüd muidugi, kus juba igaüks teab, teda keegi enam puutuma ei hakkagi. — Mis õige hunt see siis ka on, kes ei murra, inimesi ei karda ja — leiwa wastu, wõtab, kui wisatakse? See ikka Tiina on, seda usuwad kõik.</p>
+                    </sp>
+                    <pb n="98"/>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(nähtawasti südametunnistuse piina all):</stage>
+                        <p>Kui oleks, et weel suudaks! Kui annaks Jumal weel tunniks wõi päewaks silmanägemise tagasi..! Üteldakse, kui niisugusele noa tera otsast leiba anda, mis Suurel-reedel — sa tead küll?... et siis tast jälle inimene saab...</p>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS</speaker>
+                        <stage>(nukralt):</stage>
+                        <p>Margus ju tahtis seda teha — mullu heina ajal, kui loom õhtul tule juure wälja tuli... perenaene lõi noa ja leiwa käest, loom jooksis huludes metsa!</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(kohkudes):</stage>
+                        <p>Ohh!!</p>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS:</speaker>
+                        <p>Sest ajast ju ka peremehe ja perenaese wahe nii paha on, olgugi et nad sellest ei räägi!</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(ägades):</stage>
+                        <p>Et tuleks surm ja wiiks! Siis — tahaks kannatada kõik, kuid mitte enam siin seda südamewaewa ja piina! Me kõik oma tarkusega oleme süüdi tema elust ja surmast!</p>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS:</speaker>
+                        <p>Jah! Süüdi wõi mitte süüdi..!</p>
+                    </sp>
+                    <pb n="99"/>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(wähe aja pärast):</stage>
+                        <p>Mul on nii halb täna, niisugune waew — nagu waritseks jälle kuskil midagi, millest mööda ei pääse, mille wastu ei saa! Et Margus ometi tuleks!</p>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS:</speaker>
+                        <p>Jah, täna nad wäljas on, hoonete ja õue-aedade ümber hulguwad! — Waadata õige, kas ei näe ja kuule midagi. <stage>(Wõtab kübara, tahab õue minna.)</stage></p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(õhinaga kambrist tulles):</stage>
+                        <p>Mine õige õue, Jaanus, sul on enam julgust! Sääl nagu on keegi...</p>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS</speaker>
+                        <stage>(hakkab uksepulgast kinni, sell silmapilgul lendab uks ise lahti).</stage>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(püss käes, astub üle läwe. Jaanusele):</stage>
+                        <p>Noh?</p>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS:</speaker>
+                        <p>Ei midagi, tahtsin õue minna. — Ma wõtan su hobuse lahti.</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(rõõmsa elawusega):</stage>
+                        <p>Said ikka weel eluga tagasi? Ei tulnud hundid sulle kallale?</p>
+                    </sp>
+                    <pb n="100"/>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(ette poole astudes, tusaselt):</stage>
+                        <p>Sain, nagu näed. <stage>(Jaanusele.)</stage> Pole sul waja minna, loom juba oma asemel. <stage>(Püssi Jaanuse kätte andes.)</stage> Säh, pühi see kuiwaks.</p>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS</speaker>
+                        <stage>(püssi waadates):</stage>
+                        <p>Polegi märjaks saanud. Higine ainult.</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>No kui hõlgede all oli ja ise pääl istusin.</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(Marguse üleriideid wastu wõttes, weidi etteheitwalt):</stage>
+                        <p>Kus sa ometi nii kaua olid!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(tusaselt):</stage>
+                        <p>Nii kaua olin... Olin kus ma olin, kellele mul siis selle üle waja seletust on anda.</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(lepitawalt):</stage>
+                        <p>Ega Mari ju halwa pärast ei küsinud!</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(kaebawalt):</stage>
+                        <p>Jah, nii pahas tujus on ta...</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(äritatult):</stage>
+                        <p>Mis ma's teile pean ütlema? Kusagil ma<pb n="101"/> ei olnud. Niisama kadus teiste seltsis aeg käest... <stage>(Istub sawikule.)</stage></p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA:</speaker>
+                        <p>Nojah!</p>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS</speaker>
+                        <stage>(wähe aja pärast, et juttu teha):</stage>
+                        <p>Mis sääl kiriku juures siis tehti?</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(tusaselt):</stage>
+                        <p>Sinule seda just waja seletada, ega sina seda enne ei ole näinud. <stage>(Kui märkab, et teised kõik norus on.)</stage> Miks te's ära magama ei ole läinud?</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI:</speaker>
+                        <p>Magama nüüd! Niisugusel ööl... Kui sind kodus ei olnud?..</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(urisedes):</stage>
+                        <p>Mind! Keda ka weel oodata waja!</p>
+                    </sp>
+                    <stage>(Waikus. Tule tuhin pühib kõwemine ümber maja. Eemalt on üksiku hundi hulumist kuulda.)</stage>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(iseenese ette õhates):</stage>
+                        <p>Oh Issand halasta!..</p>
+                    </sp>
+                    <pb n="102"/>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(nagu wanaema mõtteid mõistes):</stage>
+                        <p>Ei ole waja wanu asju meele tuletada. Laske surnud magada. Me — ei ole keegi — puhtad tema elust ega surmast!</p>
+                    </sp>
+                    <stage>(Keegi ei wasta, tume meeleolu on maad wõtnud.)</stage>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(aralt):</stage>
+                        <p>Kas sa süüa ka tahad?</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(karmilt):</stage>
+                        <p>Ei.</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI:</speaker>
+                        <p>Kust sa süüa said?</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(kärsitult):</stage>
+                        <p>Ükskõik kust ma sain, wõi ei saanud.</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(nukralt):</stage>
+                        <p>Midagi sa ei taha, midagi sa ei räägi — <stage>(murelikult minema hakates ja peatades)</stage> — magama tuled ka wõi?</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS:</speaker>
+                        <p>Mine pääle.</p>
+                    </sp>
+                    <stage>(Mari haawatult ära, wanaema nagu tukub, Jaanus ehib magama minema — keegi ei räägi sõna. Korraga huntide hulumine lähedal. Jaanus ärewil, Margus kargab üles ja kuulatab terawasti.)</stage>
+                    <pb n="103"/>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS:</speaker>
+                        <p>Häbemataks lähewad need ka!</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(kui hulumine ikka edasi kestab, pomisedes):</stage>
+                        <l>....oh Peeter, püha sulane,</l>
+                        <l>Pane koerad kaleeie,</l>
+                        <l>Hurdad ümberrõngaeie....</l>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(särgiwäel, erutatult üle kambri läwe):</stage>
+                        <p>Margus! Wõta püss, hirmuta! Küllap on lauda ukse kallal! <stage>(Lööb ukse jälle kinni.)</stage></p>
+                    </sp>
+                    <stage>(Margus on juba kübara pähe surunud, nurgast püssi wõtnud ja — Jaanus on temale ukse awanud — kaob üle läwe. Jaanus kuulatab lahtise läwe pääl, tuisk ja lumi tungiwad sisse. Kuulda on, kuidas huntide hulumine kaugemale läheb.)</stage>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(on ennast üles ajanud, kobab läwe poole ja pomiseb lõdisedes):</stage>
+                        <l>....Metsapeni, pikkalõuga,</l>
+                        <l>Metsa kuldane kuningas,</l>
+                        <l>Mine sooda solgutama,</l>
+                        <l>Mine laanta laiutama,</l>
+                        <l>Kiwi külgi kiskumaie....</l>
+                    </sp>
+                    <stage>(Wäljas pauk, tulejuga pimedas ja naesterahwa äkiline karjatamine.)</stage>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS:</speaker>
+                        <p>Püha Jumal taewas! <stage>(Kargab üle läwe ja jookseb hääle poole.)</stage></p>
+                    </sp>
+                    <pb n="104"/>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(nagu enne, on keset tuba jõudnud):</stage>
+                        <l>Meid kaitse oma were sees,</l>
+                        <l>Oh Issand Jumal abimees...</l>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(rutuga ümberwisatud hilpudes, suures erutuses tagatoast tulles, hirmul wanaema ümbert kinni hakates):</stage>
+                        <p>Wanaema! Wanaema! — Oh Jumal! Wanaema?...</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(hirmul):</stage>
+                        <p>Ei tea, laps, ei tea! See ei olnud looma, see oli inimese hääl!</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>kõige suuremas erutuses, tormab läwe poole. Jõud lõpeb jalust, toetab ukse piida najale.)</stage>
+                        <p>Oh Jumal, Jumal — <stage>(kiljatades)</stage> Margus!</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(wärisedes ja lõdisedes:</stage>
+                        <p>See ei olnud Marguse, see oli tema hääl!</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(käsa ringutades):</stage>
+                        <p>Halastaja Jumal!</p>
+                    </sp>
+                    <stage>(Üle läwe tõstawad Margus ja Jaanus käte pääl Tiina, toowad tema sammsammul ette, tulewalguse poole. Tiina on närakates, metsik ja nälginud, endisest ilust ei ole enam midagi järel, ainult silmades on õnnelik sära. Tema käed on rinnus olewa haawa pääle surutud, ta wäriseb ja lõdiseb, weri walgub põrandale.)</stage>
+                    <pb n="105"/>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(on Tiinale näkku waadanud, südantlõhestawalt):</stage>
+                        <p>Tiina!</p>
+                    </sp>
+                    <sp who="#jaanus">
+                        <speaker>JAANUS</speaker>
+                        <stage>(kohkunult, nagu Marguse hüüu wastukaja):</stage>
+                        <p>Tiina!</p>
+                    </sp>
+                    <sp who="#mari">
+                        <speaker>MARI</speaker>
+                        <stage>(ahastades):</stage>
+                        <p>Tema! Ikka tema!!</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(ägades):</stage>
+                        <p>Ma teadsin! Ma tundsin, ta oli lähedal!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(Tiinat kandes):</stage>
+                        <p>Oh Jumal! Tiina! Tuled sa nõnda! Ja mina... <stage>(hääl murdub)</stage> mina olen sinu tapja!</p>
+                    </sp>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(pääga jaatades):</stage>
+                        <p>Jah! Ma tänan sind, Margus!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(on Tiina õrnalt istuma pannud, tema ette maha langedes, meeleheitlikult):</stage>
+                        <p>Kõigest sest, mis seni oli, ei olnud weel küllalt, nüüd olen ma sind ka weel püssiga lasknud!... <stage>(Nutab.)</stage></p>
+                    </sp>
+                    <pb n="106"/>
+                    <sp who="#tiina">
+                        <speaker>TIINA:</speaker>
+                        <p>Ära nuta, Margus! Sina, — sina ei ole ju süüdi! — Wellekesed! — Wellekesed oliwad näljas, ei tahtnud enam sõna kuulda! Siis!... <stage>(Toibudes ja igaühele otsa waadates):</stage> Oh! Nüüd olen ma jälle siin, kus ma — kus ma õnnelik olin! Ja — kõik olete jälle mu ümber! <stage>(Püüab naeratada.)</stage> Ah Margus, mul ei ole enam palju aega — ma tänan sind! Kõige eest! See on minu wiimane õnn — et sinu käsi minu wiletsusele ja waewale otsa pääle tegi!.. Margus, ma armastasin sind ja armastan sind ikka ja igaweste! <stage>(Tema silmad wajuwad kinni, kõne muutub sonimiseks:)</stage> Kus ma siis olen? Ema! Ema, ma olen ju jälle sinu juures! Kust ma tallekese sain? Metsapeni tuli tallekesega, tahtis pesasse wiia. Metsapeni andis tallekese minule. Mina andsin ju wahel tema poegadele leiba! — <stage>(Suures erutuses:)</stage> Mis te tahate minu emast! Mis te tahate... <stage>(Karjudes:)</stage> Ära löö! <stage>(Kõne asemel walus inisemine — pää langeb longu.)</stage></p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>MARGUS</speaker>
+                        <stage>(meeleheitmisel):</stage>
+                        <p>Tema sonib!</p>
+                    </sp>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(raskelt):</stage>
+                        <p>See on surm!</p>
+                    </sp>
+                    <pb n="107"/>
+                    <sp who="#tiina">
+                        <speaker>TIINA</speaker>
+                        <stage>(ärgates):</stage>
+                        <p>Margus! Margus! Huu! Hundid!! — <stage>(Õnnelikult:)</stage> Süüa andsiwad minule! <stage>(Naeratades:)</stage> Wõi jalad harkis all, nagu kunagi poisil! See nüüd minu noorik!... <stage>(Äkki erutatult:)</stage> Mis te tahate minust! Mina ei tea Kiwesti-Kaarli warsast! Ema! Ema! <stage>(Tahab üles tõusta, südantlõhestawalt):</stage> Ema! <stage>(Langeb tagasi, tema silmad lähewad laiali lahti.)</stage> Ja anna neile andeks nende wõlad, kui meie andeks anname oma... <stage>(Huuled liiguwad weel tasa, langeb kokku — sureb.)</stage></p>
+                    </sp>
+                    <stage>(Margus surub Tiina silmad kinni ja nutab, nurgas nuutsub Mari, Jaanus seisab tummalt, kokku pandud kätega.)</stage>
+                    <sp who="#wanaema">
+                        <speaker>WANAEMA</speaker>
+                        <stage>(kummarkile surnu üle, loeb juba ammugi pomisedes surnupalwet, aga nõnda, et ainult wiimased sõnad kuuldawale tulewad):</stage>
+                        <p>.....Ja wõta tema patust puhas hingekene oma auuriiki, Issand, igawene Jumal! Aamen!</p>
+                    </sp>
+                    <stage>(Surmawaikus.)</stage>
+                    <stage>(EESRIIE.)</stage>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
