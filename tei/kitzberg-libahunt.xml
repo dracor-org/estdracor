@@ -943,7 +943,7 @@
                         <p>Kui ehk ise pääle astus. See paranes ju ära jälle... <stage>(Ärewuses:)</stage> Ah!</p>
                     </sp>
                     <stage>(Metsast kostab sikusarwe heli:)</stage>
-                    <stage>(Music Notation)</stage>
+                    <gap reason="figure"/>
                     <sp who="#mari">
                         <speaker>MARI</speaker>
                         <stage>(ka ärewuses):</stage>
@@ -953,7 +953,7 @@
                         <speaker>TIINA:</speaker>
                         <p>Ei, ei, mina et tule! <stage>(Wilistab lugu kaasa ja teeb kohal seistes — rõõmsaid tantsu-liigutusi.)</stage></p>
                     </sp>
-                    <stage>(Music Notation)</stage>
+                    <gap reason="figure"/>
                     <sp who="#mari">
                         <speaker>MARI</speaker>
                         <stage>(rahutult):</stage>
@@ -1641,7 +1641,7 @@
                     <sp who="#epp">
                         <speaker>EPP:</speaker>
                         <p>Noh, kui Epp, siis Epp! Hakkame pääle! <stage>(Ürgab:)</stage></p>
-                        <stage>(Music Notation)</stage>
+                        <gap reason="figure"/>
                         <l>Lähme nukku ehtimaie,</l>
                         <l>Kulda kägu kängitsema!..</l>
                     </sp>
@@ -1691,7 +1691,7 @@
                     <sp who="#karjalapsed">
                         <speaker>KARJALAPSED</speaker>
                         <stage>(kargawad jaanitule ümber ja laulawad):</stage>
-                        <stage>(Music Notation)</stage>
+                        <gap reason="figure"/>
                         <lg>
                             <l>Puhas, püha Jaanikene,</l>
                             <l>Hoia minu karjakest,</l>
@@ -1785,7 +1785,7 @@
                     <lg type="song">
                         <head>Nukumäng II</head>
                         <stage>(Epp ürgab ja tüdrukad laulawad, poisid mängiwad kandliga kaasa:)</stage>
-                        <stage>(Music Notation)</stage>
+                        <gap reason="figure"/>
                         <pb n="61"/>
                         <lg>
                             <l>Oh see nukku waenelapsi,</l>
