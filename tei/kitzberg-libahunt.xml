@@ -78,13 +78,13 @@
                     <person xml:id="oraw" sex="UNKNOWN">
                         <name>Oraw</name>
                     </person>
-                    <person xml:id="haokandja_1" sex="MALE">
+                    <person xml:id="haokandja-1" sex="MALE">
                         <name>I. haokandja</name>
                     </person>
-                    <person xml:id="haokandja_2" sex="MALE">
+                    <person xml:id="haokandja-2" sex="MALE">
                         <name>II. haokandja</name>
                     </person>
-                    <person xml:id="haokandja_3" sex="MALE">
+                    <person xml:id="haokandja-3" sex="MALE">
                         <name>III. haokandja</name>
                     </person>
                     <person xml:id="jass" sex="MALE">
@@ -93,37 +93,37 @@
                     <person xml:id="epp" sex="FEMALE">
                         <persName>Epp</persName>
                     </person>
-                    <person xml:id="tuedruk_1" sex="FEMALE">
+                    <person xml:id="tuedruk-1" sex="FEMALE">
                         <name>I. TÜDRUK</name>
                     </person>
-                    <person xml:id="tuedruk_2" sex="FEMALE">
+                    <person xml:id="tuedruk-2" sex="FEMALE">
                         <name>II. TÜDRUK</name>
                     </person>
-                    <person xml:id="tuedruk_3" sex="FEMALE">
+                    <person xml:id="tuedruk-3" sex="FEMALE">
                         <name>III. TÜDRUK</name>
                     </person>
-                    <person xml:id="poiss_1" sex="MALE">
+                    <person xml:id="poiss-1" sex="MALE">
                         <name>I. POISS</name>
                     </person>
-                    <person xml:id="poiss_2" sex="MALE">
+                    <person xml:id="poiss-2" sex="MALE">
                         <name>II. POISS</name>
                     </person>
-                    <person xml:id="poiss_3" sex="MALE">
+                    <person xml:id="poiss-3" sex="MALE">
                         <name>III. POISS</name>
                     </person>
-                    <person xml:id="wana_naene" sex="FEMALE">
+                    <person xml:id="wana-naene" sex="FEMALE">
                         <name>WANA NAENE</name>
                     </person>
-                    <person xml:id="ogar_poiss" sex="MALE">
+                    <person xml:id="ogar-poiss" sex="MALE">
                         <name>Ogar poiss</name>
                     </person>
-                    <person xml:id="wanem_inimene" sex="UNKNOWN">
+                    <person xml:id="wanem-inimene" sex="UNKNOWN">
                         <name>Wanem inimene</name>
                     </person>
-                    <person xml:id="wanakas_mees" sex="MALE">
+                    <person xml:id="wanakas-mees" sex="MALE">
                         <name>Wanakas mees</name>
                     </person>
-                    <person xml:id="keskealine_mees" sex="MALE">
+                    <person xml:id="keskealine-mees" sex="MALE">
                         <name>Keskealine mees</name>
                     </person>
                     <person xml:id="lapsed" sex="UNKNOWN">
@@ -1400,7 +1400,7 @@
                 <head>KOLMAS WAATUS.</head>
                 <div type="scene">
                     <stage>(Jaani-õhtu metsa ääres lagendikul. Kui wõimalik, siis näitelawale maha tehtud tuli. Eespool püstipandud warras tõrwapütiga, mida näha ei ole. Nooremad poisid kannawad tule jaoks hagu kokku, wanemad poisid peawad tõrwatonni all nõu. Elaw liikumine, kõnekõmin ja naerulagin läbisegi, inimesi tuleb ühtelugu juure.)</stage>
-                    <sp who="#haokandja_1 #haokandja_2 #haokandja_3">
+                    <sp who="#haokandja-1 #haokandja-2 #haokandja-3">
                         <speaker>HAOKANDJAD</speaker>
                         <stage>(läbisegi):</stage>
                         <p>1) Teeme ikka jaaniku mis jaanik on! 2) Missugust enne ei ole olnud! 3) Mis üle kolme walla näha!</p>
@@ -1410,7 +1410,7 @@
                         <stage>(ogar, alati teistel ees ja tikub rääkima):</stage>
                         <p>Täna teeme jaaniku jah! Mis üle kolme walla näha jah!</p>
                     </sp>
-                    <sp who="#haokandja_1">
+                    <sp who="#haokandja-1">
                         <speaker>I. HAOKANDJA:</speaker>
                         <p>Jass, kanna hagu!</p>
                     </sp>
@@ -1420,12 +1420,12 @@
                     </sp>
                     <stage>(Eemalt kostab tulejate tüdrukute laul.)</stage>
                     <pb n="49"/>
-                    <sp who="#tuedruk_1 #tuedruk_2 #tuedruk_3">
+                    <sp who="#tuedruk-1 #tuedruk-2 #tuedruk-3">
                         <speaker>TÜDRUKUTE PARMAS</speaker>
                         <stage>(tulles, läbisegi):</stage>
                         <p>Tere läbisegi puha! <stage>(Teretamine ja naljatamine.)</stage></p>
                     </sp>
-                    <sp who="#haokandja_2">
+                    <sp who="#haokandja-2">
                         <speaker>II. HAOKANDJA</speaker>
                         <stage>(poisikestele):</stage>
                         <p>Jukut, Jaani ja teised, minge tooge kuiwi kadakaid.</p>
@@ -1440,22 +1440,22 @@
                         <stage>(tõrwatonni warrast katsudes):</stage>
                         <p>Kas see warras ka peab?</p>
                     </sp>
-                    <sp who="#poiss_1 #poiss_2 #poiss_3">
+                    <sp who="#poiss-1 #poiss-2 #poiss-3">
                         <speaker>POISID</speaker>
                         <stage>(naerdes läbisegi):</stage>
                         <p>1) Miks ta ei pea! 2) See peab kui hull! Seda ei kanguta Epp ise ka lahti!</p>
                     </sp>
-                    <sp who="#ogar_poiss">
+                    <sp who="#ogar-poiss">
                         <speaker>OGAR POISS:</speaker>
                         <p>Mina — mina — mina tõin terwe kuuse korraga!</p>
                     </sp>
-                    <sp who="#tuedruk_1 #tuedruk_2 #tuedruk_3">
+                    <sp who="#tuedruk-1 #tuedruk-2 #tuedruk-3">
                         <speaker>TÜDRUKUD</speaker>
                         <stage>(läbisegi):</stage>
                         <p>1) Kas saab ka hää jaanik? 2) Kas oli ka kase tohtu? 3) Ja hästi palju tõrwa?</p>
                     </sp>
                     <pb n="50"/>
-                    <sp who="#poiss 1 #poiss_2">
+                    <sp who="#poiss-1 #poiss-2">
                         <speaker>POISID:</speaker>
                         <p>1) Tõrwa kui mett! 2) Tõrwa ja tohtu — küllalt! Wana raswase rattarummu lõhkusime pilbasteks ja kiilusime täis! See põleb kui põrend!</p>
                     </sp>
@@ -1463,7 +1463,7 @@
                         <speaker>EPP:</speaker>
                         <p>Kes sinna tule otsa wiib?</p>
                     </sp>
-                    <sp who="#poiss_1">
+                    <sp who="#poiss-1">
                         <speaker>I. POISS:</speaker>
                         <p>Epp ise ronib üles!</p>
                     </sp>
@@ -1471,33 +1471,33 @@
                         <speaker>POISIKE:</speaker>
                         <p>Mina ronin üles, pistan põlema!</p>
                     </sp>
-                    <sp who="#poiss_2">
+                    <sp who="#poiss-2">
                         <speaker>II. POISS:</speaker>
                         <p>Kas püksipõlwed ka peawad? <stage>(Naer, poisikesel on püksipõlwed wäga kärisenud.)</stage></p>
                     </sp>
-                    <sp who="#poiss_3">
+                    <sp who="#poiss-3">
                         <speaker>III. POISS:</speaker>
                         <p>Wibalikuga pistame tule otsa!</p>
                     </sp>
-                    <sp who="#tuedruk_1 #tuedruk_2 #tuedruk_3">
+                    <sp who="#tuedruk-1 #tuedruk-2 #tuedruk-3">
                         <speaker>TÜDRUKUD:</speaker>
                         <p>1) No mis te weel ootate, pange ju põlema! 2) Hakkame pääle jah!</p>
                     </sp>
-                    <sp who="#poiss_1 #poiss_2 #poiss_3">
+                    <sp who="#poiss-1 #poiss-2 #poiss-3">
                         <speaker>POISID:</speaker>
                         <p>1) Wara alles! 2) Ootame weel wähe, ilm alles walge! 3) Kõik ei ole weel koos!</p>
                     </sp>
-                    <sp who="#tuedruk_1">
+                    <sp who="#tuedruk-1">
                         <speaker>I. TÜDRUK</speaker>
                         <stage>(ettepoole kogunud teistele tüdrukutele):</stage>
                         <p>Tammaru rahwast ei ole ka weel?</p>
                     </sp>
                     <pb n="51"/>
-                    <sp who="#tuedruk_2">
+                    <sp who="#tuedruk-2">
                         <speaker>II. TÜDRUK:</speaker>
                         <p>Sina ootad Margust?</p>
                     </sp>
-                    <sp who="#tuedruk_3">
+                    <sp who="#tuedruk-3">
                         <speaker>III. TÜDRUK:</speaker>
                         <p>Mis sina temast ootad, temal ise oma!</p>
                     </sp>
@@ -1505,7 +1505,7 @@
                         <speaker>JASS:</speaker>
                         <p>Ei tea, kas Tammaru-Tiina ka tuleb?</p>
                     </sp>
-                    <sp who="#poiss_1">
+                    <sp who="#poiss-1">
                         <speaker>I. POISS:</speaker>
                         <p>No miks ta's ei pea tulema?</p>
                     </sp>
@@ -1519,24 +1519,24 @@
                         <p>Mis sa ometigi niisugust juttu ajad! Waata kui sa ei saa!</p>
                     </sp>
                     <stage>(Inimesi kogub enam ja enam ümber kuulatama.)</stage>
-                    <sp who="#poiss_2">
+                    <sp who="#poiss-2">
                         <speaker>II. POISS:</speaker>
                         <p>Ega ei tohi niisugust hullu asja nimetada! Kes seda oleks uskunud!</p>
                     </sp>
-                    <sp who="#poiss_3">
+                    <sp who="#poiss-3">
                         <speaker>III. POISS:</speaker>
                         <p>Ei tea, kas on ikka tõsi wõi?</p>
                     </sp>
-                    <sp who="#poiss_1">
+                    <sp who="#poiss-1">
                         <speaker>I. POISS:</speaker>
                         <p>Mis see? See Kiwesti-Kaarli warsa lugu wõi?</p>
                     </sp>
                     <pb n="52"/>
-                    <sp who="#wana_naene">
+                    <sp who="#wana-naene">
                         <speaker>WANA NAENE:</speaker>
                         <p>Kuidas ta siis tõsi ei ole, kui Tammaru-Mari ise oma silmaga nägi!</p>
                     </sp>
-                    <sp who="#tuedruk_1">
+                    <sp who="#tuedruk-1">
                         <speaker>I. TÜDRUK:</speaker>
                         <p>Huu! Hirmu ajab pääle!</p>
                     </sp>
@@ -1545,49 +1545,49 @@
                         <stage>(wana naesele):</stage>
                         <p>Tädi, missugune see libahunt õige on?</p>
                     </sp>
-                    <sp who="#wana_naene">
+                    <sp who="#wana-naene">
                         <speaker>WANA NAENE:</speaker>
                         <p>Wõi mina teda olen näinud! Hunt ikka nagu hunt, kui werejanu ja murdmise himu pääle tuleb! Muud kui — esimesed jalad olewat tal lühemad kui tagumised. Inimese käed ju ka lühemad kui jalad.</p>
                     </sp>
                     <stage>(Enam inimesi kogub kuulatama.)</stage>
-                    <sp who="#keskealine_mees">
+                    <sp who="#keskealine-mees">
                         <speaker>KESKEALINE MEES:</speaker>
                         <p>Puha ebausk!</p>
                     </sp>
-                    <sp who="#poiss_1">
+                    <sp who="#poiss-1">
                         <speaker>I. POISS:</speaker>
                         <p>Ebausk jah, kuidas nüüd inimene ennast wahel hundiks ja jälle inimeseks muuta saab.</p>
                     </sp>
-                    <sp who="#wana_naene">
+                    <sp who="#wana-naene">
                         <speaker>WANA NAENE:</speaker>
                         <p>Kust ta's ebausk on? Wa' Räägu-Rein Pärakülas, kätt ega jalga ei wiitsi liigutada, põllulapikesed sööti jäänud, nälg igalpool silmaga näha, loomad äralõppenud, kewadel<pb n="53"/> ei jõua jalgu alla wõtta, kantakse teisi inimeste wahel laudast wälja, aga — peremees? Peremees paks ja punane, nagu puik, weri näost wälja tulemas. Kõik ilma inimesed teawad, et ta libahundiks käib ja et kõik see rammu murtud lammaste soojast werest tuleb!</p>
                     </sp>
-                    <sp who="#keskealine_mees">
+                    <sp who="#keskealine-mees">
                         <speaker>KESKEALINE MEES:</speaker>
                         <p>Hull jutt puha!</p>
                     </sp>
-                    <sp who="#wana_naene">
+                    <sp who="#wana-naene">
                         <speaker>WANA NAENE</speaker>
                         <stage>(nagu enne):</stage>
                         <p>Hull jutt? Kui sulase ka libahunti tegema wälja õpetas? Wana Rein ei jõudnud teopäewi ära teha, kui siis pandi mõisa poolt wana Aasta-Mats sinna sulaseks, et see teopäewad tasa teeks. Tee teopäewi, kui leiwakotti kaasa panna ei ole! — Aga warsti hakkas ikka wa' Aasta-Mats ka paksuks ja punaseks minema, tegi ikka teopäewad tasa ja kõik ja kiitis ise igal pool, et ta nii hää koha pääl weel ei olla teeninud, kui Räägul. Muud kui — ühel hääl päewal olla Matsil see "sõna" metsas meelest ära läinud, ei ole ennast enam inimeseks tagasi muuta saanud. Jooksnud küll tagurpidi käpukile ümber kiwi, aga seda "sõna", seda ei olla tal enam meele tulnud. Kui siis jooksnud hundist pärast koju ja peitnud ennast haganikku ära. Silmad põlenud pääs ja weripunane keel hammaste wahelt<pb n="54"/> wäljas. — Seni kui wana Rein koju tulnud, teist ise ümber kiwi wedanud ja tast jälle inimese teinud!</p>
                     </sp>
-                    <sp who="#keskealine_mees">
+                    <sp who="#keskealine-mees">
                         <speaker>KESKEALINE MEES:</speaker>
                         <p>Kes tahab, see usub!</p>
                     </sp>
-                    <sp who="#wanem_inimene">
+                    <sp who="#wanem-inimene">
                         <speaker>WANEM INIMENE:</speaker>
                         <p>No kas teil nüüd mitte enam muud juttu käes kõneleda ei ole, kui niisugust tühja lori!</p>
                     </sp>
-                    <sp who="#wana_naene">
+                    <sp who="#wana-naene">
                         <speaker>WANA NAENE:</speaker>
                         <p>Ei ole see tühi lori!</p>
                     </sp>
-                    <sp who="#poiss_3">
+                    <sp who="#poiss-3">
                         <speaker>III. POISS:</speaker>
                         <p>Ei wõi teada midagi. Kust see jutt muidu inimeste suhu sai?</p>
                     </sp>
-                    <sp who="#wana_naene">
+                    <sp who="#wana-naene">
                         <speaker>WANA NAENE:</speaker>
                         <p>Ega suitsu muidu ei tõuse, kui tuld ei ole!</p>
                     </sp>
@@ -1599,12 +1599,12 @@
                         <speaker>JASS:</speaker>
                         <p>See ju see kõigeuuem jutt on!</p>
                     </sp>
-                    <sp who="#poiss_3">
+                    <sp who="#poiss-3">
                         <speaker>III. POISS:</speaker>
                         <p>See ju nüüd läheb kui kõlin läbi kihelkonna.</p>
                     </sp>
                     <pb n="55"/>
-                    <sp who="#keskealine_mees">
+                    <sp who="#keskealine-mees">
                         <speaker>KESKEALINE MEES:</speaker>
                         <p>Mina olen kuulnud, Margus tahtwat Tiinat wõtta! Siis tekkiwad ikka kõiksugused hullud jutud!</p>
                     </sp>
@@ -1618,11 +1618,11 @@
                         <speaker>EPP:</speaker>
                         <p>Mis rumal jutt ja lori see on! Ära rikuwad inimeste tuju! Jaani-õhtul ei ole nüüd paremat. Poisid, pistke jaanik põlema! Tulge tüdrukud, hakkame nukku jooksma, et korra otsa pääle saame! Tulge!</p>
                     </sp>
-                    <sp who="#wanem_inimene">
+                    <sp who="#wanem-inimene">
                         <speaker>WANEM INIMENE:</speaker>
                         <p>Ära rikuwad tuju jah!</p>
                     </sp>
-                    <sp who="#tuedruk_1 #tuedruk_2 #tuedruk_3">
+                    <sp who="#tuedruk-1 #tuedruk-2 #tuedruk-3">
                         <speaker>TÜDRUKUD</speaker>
                         <stage>(läbisegi):</stage>
                         <p>1) Hakkame! 2) Hakkame nukku jooksma jah, mis meil ilmaga asja! Tulge! 3) Epp, astu sina ette otsa!</p>
@@ -1633,7 +1633,7 @@
                         <p>Mina nüüd weel!</p>
                     </sp>
                     <pb n="56"/>
-                    <sp who="#poiss_1 #poiss_2 #poiss_3">
+                    <sp who="#poiss-1 #poiss-2 #poiss-3">
                         <speaker>POISID</speaker>
                         <stage>(läbisegi):</stage>
                         <p>1) Epp jah, Epp jah! 2) Epp, Epp! 3) Epul on hää laulu hääl! 4) Epp seda asja oskab!</p>
@@ -1702,17 +1702,17 @@
                             <l><stage>(Kilkawad:)</stage> Jaanike! Jaanike! <stage>(ja jooksewad laiali.)</stage></l>
                         </lg>
                     </sp>
-                    <sp who="#wanakas_mees">
+                    <sp who="#wanakas-mees">
                         <speaker>WANAKAS MEES</speaker>
                         <stage>(wõtab midagi pihuga maast ja pillub tulde):</stage>
                         <p>Tutrad tulesse, kasteheinad kesale, linad minu põllu pääle!</p>
                     </sp>
                     <stage>(Sarwemäng näitelawa taga: tuttaw lehepilli lugu.)</stage>
-                    <sp who="#tuedruk_1">
+                    <sp who="#tuedruk-1">
                         <speaker>I TÜDRUK:</speaker>
                         <p>Tammaru Margus!</p>
                     </sp>
-                    <sp who="#tuedruk_2">
+                    <sp who="#tuedruk-2">
                         <speaker>II TÜDRUK:</speaker>
                         <p>Margus jah! Tema lehepilli lugu!</p>
                     </sp>
@@ -1721,7 +1721,7 @@
                         <speaker>EPP:</speaker>
                         <p>No mis te's nüüd mängu katki jätsite? Tulge jälle nukku jooksma! Ega see Jaaniõhtu maast ei ole leitud, millal me teid kõik paari saame!</p>
                     </sp>
-                    <sp who="#tuedruk_1 #tuedruk_2 #tuedruk_3">
+                    <sp who="#tuedruk-1 #tuedruk-2 #tuedruk-3">
                         <speaker>TÜDRUKUD</speaker>
                         <stage>(läbisegi):</stage>
                         <p>Nukku jooksma jah, nukku jooksma! <stage>(Koguwad ringi.)</stage></p>
@@ -1730,7 +1730,7 @@
                         <speaker>EPP:</speaker>
                         <p>Kes see keskele?</p>
                     </sp>
-                    <sp who="#poiss_1">
+                    <sp who="#poiss-1">
                         <speaker>I POISS:</speaker>
                         <p>Epp ise keskele! <stage>(Naer.)</stage></p>
                     </sp>
@@ -1754,7 +1754,7 @@
                         <stage>(astub Mari poole, nagu teda ära tooma):</stage>
                         <p>Mari, ära sina praegu mine!</p>
                     </sp>
-                    <sp who="#tuedruk_1 #tuedruk_2 #tuedruk_3">
+                    <sp who="#tuedruk-1 #tuedruk-2 #tuedruk-3">
                         <speaker>TÜDRUKUD</speaker>
                         <stage>(wõtawad Mari keskele):</stage>
                         <p>Ei, ei! Tema peab tulema, meie ei jäta!</p>
@@ -1778,7 +1778,7 @@
                         <speaker>EPP</speaker>
                         <stage>(wiib Tiina Mari kõrwale keskele).</stage>
                     </sp>
-                    <sp who="rahvas">
+                    <sp who="#rahvas">
                         <stage>(Jälle pääde kokkupistmine ja sosistamine, selgesti on kuulda, et siin ja sääl kõneldakse:)</stage>
                         <p>Saab näha, kumma Margus walib!</p>
                     </sp>
@@ -1829,19 +1829,19 @@
                     </lg>
                     <stage>(Tiina ja Mari pistawad jooksma. Ringis olejad hoiawad tahapoole poolringi. Mari ei lase ennast Mardist tabada.)</stage>
                     <pb n="62"/>
-                    <sp who="#poiss_1">
+                    <sp who="#poiss-1">
                         <speaker>I. POISS:</speaker>
                         <p>Margus, lõika, ära jäta Marit Märdile!</p>
                     </sp>
-                    <sp who="#poiss_2">
+                    <sp who="#poiss-2">
                         <speaker>II. POISS:</speaker>
                         <p>Märt, ole wahwa!</p>
                     </sp>
-                    <sp who="#poiss_1">
+                    <sp who="#poiss-1">
                         <speaker>I. POISS:</speaker>
                         <p>Margus, tõmba Mari kinni!</p>
                     </sp>
-                    <sp who="#poiss_3">
+                    <sp who="#poiss-3">
                         <speaker>III. POISS:</speaker>
                         <p>Margus nüüd Marit tahab! Mari jääb ikka Märdile!</p>
                     </sp>
@@ -1850,15 +1850,15 @@
                         <speaker>JASS:</speaker>
                         <p>Mis sina nüüd, Mari, ennast weel Margusele topid, ega Margus ju sind ei taha!</p>
                     </sp>
-                    <sp who="#poiss_1">
+                    <sp who="#poiss-1">
                         <speaker>I. POISS:</speaker>
                         <p>Ega ta hull ei taha jah! Mari oleks ikka walmis küll!</p>
                     </sp>
-                    <sp who="#poiss_2">
+                    <sp who="#poiss-2">
                         <speaker>II. POISS:</speaker>
                         <p>Margus ei hooli maast ega taewast!</p>
                     </sp>
-                    <sp who="#poiss_3">
+                    <sp who="#poiss-3">
                         <speaker>III. POISS:</speaker>
                         <p>Margus teeb mis Margus tahab, mis temal Mariga tegu!</p>
                     </sp>
@@ -1876,15 +1876,15 @@
                         <speaker>MARGUS</speaker>
                         <stage>(ei hooli midagi, kisub ennast lahti, jookseb Tiina järele).</stage>
                     </sp>
-                    <sp who="#poiss_1">
+                    <sp who="#poiss-1">
                         <speaker>I. POISS:</speaker>
                         <p>Mari, ära sellepärast nuta! Märt ka hää poiss!</p>
                     </sp>
-                    <sp who="#poiss_2">
+                    <sp who="#poiss-2">
                         <speaker>II. POISS:</speaker>
                         <p>Lepi Märdiga jah. Näe, Margusel Tiinaga tõsi taga!</p>
                     </sp>
-                    <sp who="#wana_naene">
+                    <sp who="#wana-naene">
                         <speaker>WANANAENE:</speaker>
                         <p>Margus on hull! Ju see üks wägi on, mis teda lahti ei lase, et ta enam millestgi ei hooli!</p>
                     </sp>
@@ -1955,11 +1955,11 @@
                     </sp>
                     <stage>(Metsas wilguwad siin ja sääl pimedas korra pisikesed wiirastuled, nagu hundi silmad üles, mis kohe jälle kaowad.)</stage>
                     <stage>(Siis selle waikuse keskelt):</stage>
-                    <sp who="#wanem_inimene">
+                    <sp who="#wanem-inimene">
                         <speaker>WANEM INIMENE:</speaker>
                         <p>Püha Jumal! Jaanituli kustunud! See ei tähenda hääd!</p>
                     </sp>
-                    <sp who="#wana_naene">
+                    <sp who="#wana-naene">
                         <speaker>WANANAENE:</speaker>
                         <p>Ja mets nii must ja kole! Siia küll enam ei julge jääda!</p>
                     </sp>
