@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="insert_id" xml:lang="et" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Kalevi kojutulek</title>
+                <title type="sub">Pildike Eesti vabaduse ajaloost</title>
+                <title type="sub">Näitemäng 1 vaatuses</title>
+                <author>
+                    <persName>
+                        <forename>Oskar</forename>
+                        <surname>Luts</surname>
+                    </persName>
+                    <idno type="wikidata">Q2005705</idno>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>DIGAR Digital Archive</name>
+                    <idno type="URL">http://www.digar.ee/id/nlib-digar:44210</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                        </availability>
+                </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>Oskar</forename>
+                            <surname>Luts</surname>
+                            <idno type="wikidata">Q2005705</idno>
+                        </persName>
+                    </author>
+                    <title type="main">Kalevi kojutulek</title>
+                    <title type="sub">Pildike Eesti vabaduse ajaloost</title>
+                    <title type="sub">Näitemäng 1 vaatuses</title>
+                    <date when="1919">1919</date>
+                    <publisher>Noor-Eesti kirjastus</publisher>
+                    <pubPlace>Tartu</pubPlace>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="roosi" sex="FEMALE">
+                        <persName>Roosi</persName>
+                    </person>
+                    <person xml:id="saegi" sex="MALE">
+                        <persName>Tõnis Sägi</persName>
+                    </person>
+                    <person xml:id="kroot" sex="FEMALE">
+                        <persName>Krõõt</persName>
+                    </person>
+                    <person xml:id="tudeng" sex="MALE">
+                        <name>Üliõpilane</name>
+                    </person>
+                    <person xml:id="eliisabet" sex="FEMALE">
+                        <persName>Eliisabet</persName>
+                    </person>
+                    <person xml:id="pliuhkam" sex="MALE">
+                        <persName>Saamuel Pliuhkam</persName>
+                    </person>
+                    <listRelation>
+                        <relation name="parent_of" active="#roosi #pliuhkam" passive="#eliisabet"/>
+                        <relation name="spouses" mutual="#saegi #eliisabet"/>
+                        <relation name="spouses" mutual="#pliuhkam #roosi"/>
+                        <relation name="associated_with" active="#kroot" passive="#pliuhkam"/>
+                    </listRelation>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listEvent>
+            <event type="print" when="1919">
+                <desc/>
+            </event>
+        </listEvent>
+    </standOff>
+    <text>
+        <pb n="1"/>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">KALEVI KOJUTULEK</titlePart>
+                </docTitle>
+                <pb n="2"/>
+                <note>
+                    <p>Samalt autorilt seni ilmunud näitemängud:</p>
+                    <p>Laul õnnest. Draama 3 vaatuses.</p>
+                    <p>Paunvere. Lustmäng 3 vaatuses.</p>
+                    <p>Kapsapää. Nali 1 vaatuses.</p>
+                    <p>Pärijad. Nali 1 vaatuses.</p>
+                    <p>Ärimehed. Pilkenali 1 vaatuses.</p>
+                    <p>Mahajäetud maja. Dramaatiline kavand 1 vaatuses.</p>
+                    <p>Viimne pidu. Näitemäng 1 vaatuses.</p>
+                    <p>Soo-tuluke. Muinasjutt 3 pildis.</p>
+                    <p>Sinihallik. Muinasjutt 1 vaatuses.</p>
+                    <p>Ülemiste vanake. Muinasjutt 1 vaatuses.</p>
+                    <p>Onu paremad päevad. Nali 1 vaatuses.</p>
+                    <p>Arusaamatu lugu. Nali 1 vaatuses.</p>
+                </note>
+                <note>
+                    <p>Ettekande luba annab<lb/>O. Luts, Tartus.</p>
+                    <p>Loata mängijad võetakse kohtulikule vastutusele.</p>
+                </note>
+                <pb n="3"/>
+                <docAuthor>O. LUTS</docAuthor>
+                <docTitle>
+                    <titlePart type="main">KALEVI KOJUTULEK</titlePart>
+                    <titlePart type="sub">PILDIKE EESTI VABADUSE AJALOOST</titlePart>
+                </docTitle>
+                <docImprint>
+                    <publisher>NOOR-EESTI KIRJASTUS, </publisher>
+                    <pubPlace>TARTUS</pubPlace>
+                    <date>1919.</date>
+                </docImprint>
+            </titlePage>
+            <pb n="4"/>
+            <castList>
+                <head>Tegelased:</head>
+                <castItem>
+                    <role>Saamuel Pliuhkam, </role>
+                    <roleDesc>taluperemees.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Roosi, </role>
+                    <roleDesc>tema naine.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Eliisabet, </role>
+                    <roleDesc>nende tütar.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Tõnis Sägi, </role>
+                    <roleDesc>noor taluperemees, Eliisabeti mees.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Krõõt, </role>
+                    <roleDesc>saunanaine Pliuhkami saunas.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Üliõpilane.</role>
+                </castItem>
+            </castList>
+            <set>
+                <p>Aeg: Eesti vabaduse algus.</p>
+                <p>Koht: Pime nurk Eestis.</p>
+            </set>
+            <p>J. Mällo trükk, Taruts.</p>
+        </front>
+        <pb n="5"/>
+        <body>
+            <div type="act">
+                <div type="scene">
+                    <stage>Tagakamber Pliuhkami talus. Laual põleb i-pää lamp. Roosi kohendab kapi juures. Pliuhkam, särgiväel ja paljaste jalgadega, otsib midagi. Esiti urgitseb ta luua varrega kapi all, võtab siis tooli ja vaatab kapi otsa. Kui ta otsitavat asja säältki ei leia, viib ta tooli ahju juure ja kolab ahju pääl. Niisugune toimetus kestab mõne minuti, ilma et kumbki sõna lausuks. Kostab ainult Pliuhkami pahane urin. Siis lükkab otsija ahjult kogemata ühe plekist torbiku maha, mis mürinal nurka veereb.</stage>
+                    <sp who="#roosi">
+                        <speaker>Roosi</speaker>
+                        <p><stage>(pisut jahmatades).</stage> No ütle ometi, mis ta peaks ründama täna! Vana inime — ei või rahulikult paigal olla. Mes asja sa ajad taga?</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam</speaker>
+                        <p><stage>(ahjult).</stage> Ega sa põle näinud — mul oli siin kuskil tükk plekki. Niisuke kaunis suur tükk. Niisuke... <stage>(Näitab käega.)</stage></p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi.</speaker>
+                        <p>Mes plekki?</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>No plekki, noh! Kas sa s' ei tea, mis plekk on?</p>
+                    </sp>
+                    <pb n="6"/>
+                    <sp who="#roosi">
+                        <speaker>Roosi.</speaker>
+                        <p>Põle ma näinud ühtegi plekki.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Pagan võtku! Nigu ära sõivad ilusa tüki plekki. <stage>(Otsib edasi. Üks teine asi kukub ahju servalt põrandale.)</stage></p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi</speaker>
+                        <p><stage>(pahaselt).</stage> Jäta n'd, jäta ometi kord järele. Mes asja ta peaks kollama. Justku kass. Nüüd ahju piale kah veel vana inime! Tule maha!</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>No mis siis sul sellega asja on, kui ma kollan? Ei tia, mes sa mu sial all paned tegema? <stage>(Endale:)</stage> Näät: justku ära sõivad ilusa tüki plekki. Ei ole. Ei ole. Mitte kuskil ei ole. <stage>(Kratsib pääd, ronib alla.)</stage> Ei ole.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi.</speaker>
+                        <p>No ole siis ia inime ja ütle ometi, mis sa selle plekiga oleks teinud, kui ta sul oleks olnud.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Ah plekiga või? Jo mul teda ikka tarvis on, kui ma teda otsin. Nää: vana toru on juba igavesti ära roostetanud ja läbi kulunud, vaja oleks uus panna.</p>
+                    </sp>
+                    <pb n="7"/>
+                    <sp who="#roosi">
+                        <speaker>Roosi.</speaker>
+                        <p>Misuke toru?</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Misuke ja misuke? No keedunõu toru, noh.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi.</speaker>
+                        <p>Ära sa hakka jälle jändama oma keedunõuga. Vaata, kas ei kuulnud, kui Tõnis ajalehest luges, et ei tohigi enam puskarit ajada. Et kes veel ajab, langeb valju trahvi alla. Vaata, kui panevad su veel kinni kõige su keedunõuga — vaata siis!</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Kinni? Minu? No kes mu kinni paneb?</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi.</speaker>
+                        <p>No ikka see... mes ta sial ongi... see Tallinnas... Ajutine Valitsus või kes.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Ajutine Valitsus! No mes see Ajutisele Valitsusele korda piaks minema, kui mina puskarit ajan. See on minu oma vili, kellest ma ajan, ega ma Ajutise Valitsuse käest ei lähe vilja küsima.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi.</speaker>
+                        <p>Olgu piale — aga ei tohi. Ära on keelatud.</p>
+                    </sp>
+                    <pb n="8"/>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Mes ära keelatud! Ah siis müi aga neile sial, kes nad sial kõik on, need toitluskometid või kes, jah, müi aga neile koera naeru eest oma kallist vilja. Ega seda ole. Parem ajan puskarit, siis ma tian ometi, et ma oma õige hinna kätte saan. Keelatud. Kus mul keelajad — kui mina omas majas omast viljast ajan. Ega see enam mõni vana aeg ei ole, kus sulle uräädnik kaela tuli ja keelas. Nüüd on vabadus, nüüd võib igaüks oma varaga teha, mis ta tahab.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi.</speaker>
+                        <p>Seda vabadustki veel teab... Ajavad inimesed niisama tühja lori. Ja kuigi peaks olema vabadus, ega seda siis selle tarvis ei antud, et puskarit ajada.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Iakene küll, aga mestarvis ta siis anti? Mes sa jahvatad! Sina nüid tiad vabadusest või kellestki. <stage>(Mõtleb pisut.)</stage> See plekitükk piab sial üleval <stage>(ahju pääl)</stage> olema. Kui teda sial põle, siis põle teda enam kuskil. Siis olete teie ta juba kuhugi ära talitanud. <stage>(Võtab tooli, vaatab uuesti ahju pääle.)</stage> Sel kombel võib siit ju mõni teine asi kah ära kaduda... <stage>(Ronib ahju pääle.)</stage> Nää, rahagi siin — mõni võtab näpu otsa ja läheb. Mine võta kinni. <stage>(Tuleb riidest kotiga ahjult alla.)</stage></p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi.</speaker>
+                        <p>Eks sa s' pane raha mõnda teisi kohta.<pb n="9"/> Kas sa oled vahel vaadanud, palju teda sial on juba?</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Jah, milla ma vaadasin. <stage>(Vaatab, katsub kotti.)</stage> Kott saab varsti täis... siin ikke on teist... aga palju siin on — kessi seda tiab. - Anna sält margapuu, vaja teised õige ära kaaluda.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi.</speaker>
+                        <p>Kaaluda?</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>No jah, noh. Kes neid jõuab lugeda. <stage>(Roosi toob margapuu ja vaatab kaalumist päält.)</stage> Too siia. <stage>(Paneb koti margapuu otsa.)</stage> Vaata, sa nääd, palju siin on.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi</speaker>
+                        <p><stage>(vaatab teraselt).</stage> Mes siin ongi... Kaks, kolm, neli... Tule laua juure, ei nää siin. <stage>(Lähevad laua juure.)</stage> No jah, neli ja pool jah. Neli ja pool naela.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam</speaker>
+                        <p><stage>(mõttes).</stage> Neli ja pool... No vaja katsuda, et viis täis saab. Oleks mul see pagana toru korras olema — siis ajaks varsti täis, aga näät: nigu ära sõivad teese.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi</speaker>
+                        <p><stage>(vaatleb kotti).</stage> Nää, iire rojased kah juba kallal käinud — auk siin sehes.</p>
+                    </sp>
+                    <pb n="10"/>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Mes sa räägid! Kus on auk?</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi.</speaker>
+                        <p>Vaata, vaata. Nad kurjad vaimud on siia vist pesagi sisse teinud — kotil on kange iire ais juures.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>No ütle kuradid, nüid neil siia ka asja. Vaja oleks õige vaadata, kas — <stage>(Väljast tuleb keegi ettekambri. Mõlemad kohkuvad.)</stage> Võta, võta, pane ruttu ära, sial tuli keegi.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi.</speaker>
+                        <p>Kuhu mina ta panen?</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>No kuhu mina ta panen? <stage>(Vaatab abitult ringi, viskab siis koti ahju pääle.)</stage> Pane margapuu ära käest.</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>Krõõt</speaker>
+                        <p><stage>(vaatab üle ukse sisse).</stage> Ah ikke on kodu pererahvas — tere õhtast!</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi.</speaker>
+                        <p>Tere, tere!</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>No mes sa käid?</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>Krõõt</speaker>
+                        <p><stage>(tuleb sisse).</stage> Mes ma ikke käin... Eks<pb n="10"/> ma tulnud vaatama, kas saan pereme käest natuke viljaiva amba alla.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Misukest viljaiva?</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>Krõõt.</speaker>
+                        <p>Noh, et ikka lubasite anda natuke rukkid.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Anda... rukkid?</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>Krõõt.</speaker>
+                        <p>Ei noh, et müia ikke... Ega ma ilma ei taha.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Ei, kulla inime, põle mul rukkid müia mitte teragi. Mis on — läheb kõik omale tarvis. Eks sa tia isegi, misuke kehv vilja-aasta meil tänavu oli.</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>Krõõt.</speaker>
+                        <p>Oli ta n'd mes ta oli, aga eks teil ikke jää üle kah. Ja nagu kord oli lubatud ja... Nää, päivigi sai ette valmis tehtud.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Päivi valmis tehtud... Päävade eest saad päävapalka — raha.</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>Krõõt.</speaker>
+                        <p>Oh sa heldene aeg! No ütle ometi, ole<pb n="12"/> ia inime, mes ma selle rahaga tegema akkan?</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Rahaga? Tohoo pagan säh! Eks sa siis raha eest osta, mis sulle tarvis on.</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>Krõõt.</speaker>
+                        <p>Minule on leiba tarvis, ja just leiba sa mulle ei müi.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Ei müi... No kui ei ole — kust ma s' müün.</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>Krõõt.</speaker>
+                        <p>Oh, mes nüüd sest rääkida, et ei ole. Eks teda ikke ole kah. Kui sul juba seda va' vinnuskit täidib ajada, küllap siis ikke on.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Mes vinnuskit? Mes vinnuskit sa kõneled? Kes ajab vinnuskit? Krõõt, ae Krõõt, põle ma ilmas kiuslikumat inimest näind kui sina oled. <stage>(Lühike vaikus.)</stage> Vinnuskit! Sa ei lase enam kalja kah teha — vinnusk ja vinnusk! Mina, vana inime, mõistan veel mõnda vinnuskit teha. <stage>(Roosile:)</stage> Eks sa anna talle sält paarkümmend naela — mes sa mustlasega teed. <stage>(Krõõdale:)</stage> Aga pea sa meeles, vanamoor, ja ära sa pärast nirisema akka: sada rubla puud. Ja einaaeg teed mulle paar pääva kah veel.</p>
+                    </sp>
+                    <pb n="13"/>
+                    <sp who="#kroot">
+                        <speaker>Krõõt.</speaker>
+                        <p>Jah, eks tee ja eks ole kah. Ega midagi pole parata, ega nälga või surra.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi.</speaker>
+                        <p>No jah, eks sa siis tule homme, päävavalgel, küll ma siis annan.</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>Krõõt.</speaker>
+                        <p>Ia küll, olge terve. <stage>(Tahab ära minna, kuid jääb lävel kuulatama: väljast tuleb keegi ettekambri. Siis ilmub tagakambri lävele Sägi.)</stage></p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi</speaker>
+                        <p><stage>(Krõõdale).</stage> Noh, Krõõt, elagu vabadus! Elagu vaba ja iseseisev Eesti! Tere õhtat! <stage>(Krõõt vaatab tulijat suurte silmadega, ilma et aru saaks, millest jutt. Tervituse võtab ta vastu vaevalt märgatava pääliigutusega ja pomiseb: Tere õhtat!)</stage></p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi.</speaker>
+                        <p>Tere õhtat! Tere õhtat! Mes sa ütiesid — vabadus või?</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi</speaker>
+                        <p><stage>(tahapoole astudes).</stage> No vabadus ikke ja täielik iseseisvus kah. Nüid akkab Eesti rahvas oma saatust ise määrama, ei tunnista maksvaks ühtki võõrast võimu, valib omale ise kuninga ja presidendi ja... ja kutsub oma enese sõjaväe kokku, kõik puha Eesti mehed ja...</p>
+                    </sp>
+                    <pb n="14"/>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Pia kinni, mes sa tuuseldad! Kes sulle niisugusid asju kõneles?</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>Krõõt</speaker>
+                        <p><stage>(ukse juurest).</stage> Oh sa ime, niisugust juttu peab peris kuulama jääma.</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi.</speaker>
+                        <p>Kes kõneles! Kes kõneles! Praegu oli üks mees, üks tudeng, linnast meil ja pidas suure, pika kõne kõige selle asja kohta. Tema on kohe selle pial väljas, reisib maal ringi, käib talust talusse ja annab kõigile teada, et nii ja nii on asjad, et vabadus on. Meie jooksime kohe Liispetiga siia, et siis oleme ikke meie need esimesed, kes teile sõna toovad, kui see tudeng vahepial juba ise siia pole tulnud.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi.</speaker>
+                        <p>Ahah. No kus see Liispet siis jäi, kui te kahekesi tulite?</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi.</speaker>
+                        <p>Liispetil oli vallavanema naise juure asja, läks sinna sisse, siis tuleb järele.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi.</speaker>
+                        <p>Ahah. No eks sa istu.</p>
+                        <stage>(Sägi istub.)</stage>
+                    </sp>
+                    <pb n="15"/>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam</speaker>
+                        <p><stage>(istub ka laua juure ja hakkab piipu toppima).</stage> Ah tudeng või?</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi.</speaker>
+                        <p>Nojah, tudeng jah, ikke läbi ja läbi haritud mees. Näha kohe, et tiab midagi ja on. Noojah, et: Nüid asume kõik tulisele tööle ja ehitame üles oma vabaks saanud Eesti kolde! Väga ilusti kõneles. Mul läks kohe niisuke külm judin üle keha. Liispet ütleb, see olla isamaa-armastus; temal käind kah niisuke värin kehast läbi. Noojah, et esiti olla küll veel palju raskusi ära võita, et ikke väljastpoolt piirata meid vaenlased ja raha põle valitsusel ja... Aga kui kõik Eesti rahvas kokku hoiab, siis saab kõigest jagu.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi.</speaker>
+                        <p>Vaata, kus kuriloom — ei karda kah kõnelda niiviisi. Vaata, kui sakslased oleks kuulnud!</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi</speaker>
+                        <p>Sakslased! Sakslastel põle nüüd enam midagi ütlemist. Eestimaa on vaba ja iseseisev.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi.</speaker>
+                        <p>Ei kedagi. Akka aga sina kah — vaata kui viivad kinni — vaata siis!</p>
+                    </sp>
+                    <pb n="16"/>
+                    <sp who="#saegi">
+                        <speaker>Sägi</speaker>
+                        <p><stage>(heidab käega).</stage> Oh! Orjameelsus — kes niisugust juttu ajab! No kui kõik kartma akkavad, kes siis viimati astub välja vabaduse eest? Just noorte pial olevat lootus, nagu ta ütles.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi</speaker>
+                        <p><stage>(noogutab pääd).</stage> Ja — jah. Ei, Tõnis, parem oia kaugemale niisugusest asjast. Niisugustel asjadel põle kunagi iad lõppu.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Ega jah, need tudengid on ikke koogumehed küll, kõnelevad nii't lase aga olla. Ma tean küll. Vaata, kui nad siin enne sõda ajasivad ühekorra vanu asju taga — vaata, mis nad tegivad. Selle... muusijunnile, või mis ta oli, korjasivad asju. Noh, kus need asjad nüid on? Kõik mööda ilma laiali, kus üks, kus teine. Tuleb aga niisuke tuju piale, muudku vaja minna mööda ilma kooserdama ja kõnesid pidama.</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi.</speaker>
+                        <p>Ei, ei, vanataat — <stage>(Jätab pooleli, kuulatab. Keegi tuleb väljast ettekambri.)</stage> Justku tuli keegi. @Roosi</p>
+                        <p><stage>(tasa).</stage> Pea sa suu kinni, ära sa akka võõraste inimeste kuuldes kõnelema niisugusid asju!</p>
+                    </sp>
+                    <pb n="17"/>
+                    <sp who="#saegi">
+                        <speaker>Sägi.</speaker>
+                        <p>Ah, mis!</p>
+                    </sp>
+                    <sp who="#tudeng">
+                        <speaker>Tulija</speaker>
+                        <p><stage>(eeskambris).</stage> Tere õhtust!</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>Krõõt</speaker>
+                        <p><stage>(lävelt).</stage> Tere õhtat!</p>
+                    </sp>
+                    <sp who="#tudeng">
+                        <speaker>Tulija.</speaker>
+                        <p>Kas pererahvast ei olegi kodus?</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>Krõõt.</speaker>
+                        <p>On küll, tulge aga tahapoole.</p>
+                    </sp>
+                    <sp who="#tudeng">
+                        <speaker>Üliõpilane</speaker>
+                        <p><stage>(ilmub tagakambri lävele).</stage> Tere õhtust, siit maja rahvas!</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi</speaker>
+                        <p><stage>(tõuseb püsti, rõõmsalt).</stage> Tere õhtust!</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam</speaker>
+                        <p><stage>(alt kulmu, urisedes)</stage> ja Roosi <stage>(aralt).</stage> Tere õhtat!</p>
+                    </sp>
+                    <sp who="#tudeng">
+                        <speaker>Üliõpilane</speaker>
+                        <p><stage>(silmab Sägi't, tunneb ära).</stage> Aa, siin te oletegi, härra Sägi. Väga rõõmustav! Siis pole mul siin vaja pikemalt kõneldagi ja seletada — küllap ütlete siit maja rahvale isegi, et eestlased on jälle vaba rahvas, nagu muiste.</p>
+                    </sp>
+                    <pb n="18"/>
+                    <sp who="#saegi">
+                        <speaker>Sägi.</speaker>
+                        <p>Miks ma ei ütle, selle tarvis ma siia tulingi. Need on minu äi ja ämm.</p>
+                    </sp>
+                    <sp who="#tudeng">
+                        <speaker>Üliõpilane.</speaker>
+                        <p>Ahaa — sugulased! Seda parem. Noojah, siis ei maksa mul tõesti enam korrata, mis ma teil juba ütlesin. Ma tuletan ainult veel kord meele, et: Nüüd kõik tööle! Eesti noor sõjavägi ootab oma ridadesse Eesti vapraid poegi, et rind rinna kõrval välja astuda vaenlase vastu, kes meie noort vabadust püüab hävitada. Seesama noor maleva, rikas vaimustusest, aga kehv varandusest, ootab varustust. Mehed peavad välja minema talvel, tuisu ja tormi kätte, aga paljud on poolalasti. Varustage neid riietega teie, kes te koju jääte! Annetage neile sooje kehakatteid, saapaid, mütse, kindaid ja sukki. Andke igaüks niipalju, kui keegi jõuab — vähemgi and võetakse tänuga vastu. Kõik tööle, kes armastavad isamaad! Küll siis Kalev koju jõuab, Eesti elu uueks looma, Eesti rahval' õnne tooma!</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi</speaker>
+                        <p><stage>(plaksutab käsi).</stage> Elagu! Elagu vaba Eesti!</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Ahaha, no siis on ikke õigus, mis Tõnis kõneles. Noo — jah. Hmh — hmh. <stage>(Üliõpilasele:)</stage> No siis peab teile vist kohe<pb n="19"/> midagi andma selle noore sõjaväe jaoks, nagu te ütlesite?</p>
+                    </sp>
+                    <sp who="#tudeng">
+                        <speaker>Üliõpilane.</speaker>
+                        <p>Ei, mina ei ole mitte annetuste korjaja, mina olen selleks väljas, et praegust silmapilku laiematele rahvahulkadele selgitada. Aga... kui keegi midagi annetada soovib, siis võtan muidugi tänuga vastu ja toimetan sinna edasi, kuhu tarvis.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam</speaker>
+                        <p><stage>(sügab kõrvatagust).</stage> Ei tia praegu kedagi niisukest... <stage>(Mõtleb.)</stage></p>
+                    </sp>
+                    <sp who="#tudeng">
+                        <speaker>Üliõpilane.</speaker>
+                        <p>Ei, ega —</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>Krõõt.</speaker>
+                        <p>No kui sial ühtegi andi ei põlata, mina saadaks siis oma kindad. <stage>(Võtab kindad käest)</stage> Vahest ehk lähevad kätte mõnele, kel veiksem käsi. <stage>(Ulatab kindad üliõpilasele.)</stage> Annaks rohkemgi, aga saananaise asi — põle kedagi anda.</p>
+                    </sp>
+                    <sp who="#tudeng">
+                        <speaker>Üliõpilane</speaker>
+                        <p><stage>(võtab kindad).</stage> Tänan! Tänan selle vapra mehe nimel, kes sõja viletsust kandes vähemalt käsigi ei tarvitse külmetada.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>No ei tia, mes siis meie piaks andma?<pb n="20"/> Ei tia kedagi niisukest... Krõõt, vast on sul veel teene paar kindaid?</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>Krõõt.</speaker>
+                        <p>Ei ole enam, kulla peremees. See oli mu ainsam paarike — need andsin ära.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Hmh...</p>
+                    </sp>
+                    <sp who="#tudeng">
+                        <speaker>Üliõpilane.</speaker>
+                        <p>Ei, ega —</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p><stage>(leiab järsku nõu).</stage> Oota, oota, ma annan õige raha. Ostku siis ise, mes neil tarvis on. <stage>(Vaatab abitult ringi.)</stage> Minge õige natuke sinna ettekambri, noorhärra, ma otsin kohe välja. Mine sa kah, Krõõt.</p>
+                    </sp>
+                    <sp who="#tudeng">
+                        <speaker>Üliõpilane.</speaker>
+                        <p>Hää küll! <stage>(Läheb ühes Krõõdaga ettekambri.)</stage></p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam</speaker>
+                        <p><stage>(võtab tooli ja ronib ahju pääle).</stage> Pagan kah, ühtelugu on kõiksugu korjandused, ühtelugu muudku anna... <stage>(Ahju servalt.)</stage> Ei tia, kes mulle annab. <stage>(Otsib ahju päält.)</stage> Kuradi torbikuid ja prahti siin kah kõik kohad täis... Aga nää, plekiraasukese justku sõivad ära.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi.</speaker>
+                        <p>Ära sa palju akka andma.</p>
+                    </sp>
+                    <pb n="21"/>
+                    <sp who="#saegi">
+                        <speaker>Sägi</speaker>
+                        <p><stage>(läheb ahju juure).</stage> Ega ei maksa palju anda jah. Anna aga niisama...</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam</speaker>
+                        <p><stage>(vaatab ahjult alla).</stage> Mes?</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi.</speaker>
+                        <p>Ei kedagi. Tule aga alla, kaua sa lased oodata võerast inimest.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam</speaker>
+                        <p><stage>(alla ronides).</stage> Noh... Eks ta siis mingu ära, kui ta oodata ei taha. <stage>(Paneb tooli ahju juurest eemale. Hõikab ettekambri.)</stage> Noh, tulge nüüd siia. <stage>(Üliõpilane ja Krõõt tulevad. Krõõt jääb endisesse kohta, ukse kõrvale seisma).</stage> Noh, siin on üks Ost.</p>
+                    </sp>
+                    <sp who="#tudeng">
+                        <speaker>Üliõpilane</speaker>
+                        <p><stage>(võtab raha).</stage> Tänan! Tänan meie tühja riigikassa nimel, millele on kallis iga kopikas. <stage>(Vaatab raha.)</stage> Ta on küll servadest katkenud, just kui näritud oleks teist.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam</speaker>
+                        <p><stage>(võtab raha kähku enda kätte, vaatab).</stage> Mes te räägite! Kes teda näris. Ost ikke Ost — küll ta läheb. <stage>(Annab raha tagasi.)</stage></p>
+                    </sp>
+                    <sp who="#tudeng">
+                        <speaker>Üliõpilane.</speaker>
+                        <p>Hää küll, see saab edasi antud sinna, kus tarvis. <stage>(Ta päikesepaisteline meeleolu on<pb n="22"/> märksa langenud, siiski kõneleb ta lõpuni ilma vähemagi irooniata.)</stage></p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi</speaker>
+                        <p><stage>(säravail silmil, täis kuuma isamaa-armastust).</stage> Olgu. Niisugusel tähtsal silmapilgul, kus isamaale abi tarvis, peab aitama — siin on ka minu poolt üks Ost.</p>
+                    </sp>
+                    <sp who="#tudeng">
+                        <speaker>Üliõpilane.</speaker>
+                        <p>Tänan! <stage>(Paneb raha tasku, asutab end minekule. Nii siis... Nüüd teate ka teie, missugune pööre on sündinud meie kodumaa ajaloos. Ja kui teile, peremees, veel mõni asi ehk tumedana näib, siis küsige ainult väimehelt — tema teab kõik. Jällenägemiseni, härra Sägi... sõjaväes. Hääd tervist, peremees ja perenaine! Jõudu tööle — meie sõjaväe varustamises! (Saunanaisele:)</stage> Hääd tervist ja tänu kingituse eest. <stage>(Kumardab ja astub ukse poole.)</stage></p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Ei tia... Kuulge, noorhärra, vast annate viitungi vasta... siis on nagu kindlam.</p>
+                    </sp>
+                    <sp who="#tudeng">
+                        <speaker>Üliõpilane</speaker>
+                        <p><stage>(pöörab ümber, vaatab silmapilgu aega küsivalt kõneleja poole).</stage> Ahaa — ja, ja. Vabandage, mul läks see hoopis meelest ära. <stage>(Võtab taskust bloc-notes'i ja pliiatsi, kirjutab kviitungid.)</stage></p>
+                    </sp>
+                    <pb n="23"/>
+                    <sp who="#saegi">
+                        <speaker>Sägi.</speaker>
+                        <p>Ega sest n'd suurt tähtsust ei ole, aga olgu kah niisama...</p>
+                        <stage>(Üliõpilane annab Pliuhkamile ja Sägile kviitungid, pakub ka Krõõdale.)</stage>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>Krõõt.</speaker>
+                        <p>Oh, mis mina ta'ga teen! Põle mulle ühtegi viitungi vaja.</p>
+                    </sp>
+                    <sp who="#tudeng">
+                        <speaker>Üliõpilane.</speaker>
+                        <p>Ei noh, siiski... Võtke!</p>
+                        <stage>(Krõõt võtab lehekese kaheldes vastu ja ei mõista sellega midagi pääle hakata.)</stage>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam</speaker>
+                        <p><stage>(oma kviitungi hoolega lugedes).</stage> Ta on nii nagu kindlam.</p>
+                    </sp>
+                    <sp who="#tudeng">
+                        <speaker>Üliõpilane.</speaker>
+                        <p>Nii. Nüüd on vist kõik korras.</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi.</speaker>
+                        <p>Jah, ega põle vist enam kedagi.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam</speaker>
+                        <p><stage>(talle tuleb järsku midagi meele).</stage> Kuulge, noorhärra.</p>
+                    </sp>
+                    <sp who="#tudeng">
+                        <speaker>Üliõpilane.</speaker>
+                        <p>Jah?</p>
+                    </sp>
+                    <pb n="24"/>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Mul oli teie vastu üks palve. Ma ei tia, kas...</p>
+                    </sp>
+                    <sp who="#tudeng">
+                        <speaker>Üliõpilane.</speaker>
+                        <p>Olge nii lahke.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Teie lähete nüüd jälle sinna linna...</p>
+                    </sp>
+                    <sp who="#tudeng">
+                        <speaker>Üliõpilane.</speaker>
+                        <p>Jaa.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Te ütlesite ennist, et keegi Kalev varsti kodu tuleb. Ei tia, kas ta piaks mõni siitnurga mees olema või?</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi</speaker>
+                        <p><stage>(Pliuhkamile:)</stage> Ah, mine n'd, mis sa —</p>
+                    </sp>
+                    <sp who="#tudeng">
+                        <speaker>Üliõpilane</speaker>
+                        <p><stage>(naeratab vaevalt märgatavalt. Sägile).</stage> Lubage. <stage>(Pliuhkamile:)</stage> Kalev on iga nurga mees. Ka siitnurga mees on ta. Kui Kalev kord koju jõuab, siis käib ta läbi iga Eesti talu, iga maja, iga saunahurtsiku.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Soo. Vaata, kui tore. Või igas talus käib teine. No kas te olete nii ia, noorhärra, ja saadate mulle selle Kaleviga linnast ühe plekist toru?</p>
+                    </sp>
+                    <pb n="25"/>
+                    <sp who="#saegi">
+                        <speaker>Sägi</speaker>
+                        <p><stage>(Pliuhkamile).</stage> Mis sa n'd, näh!</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam</speaker>
+                        <p><stage>(Sägile).</stage> Ole n'd sina vait! Mina ei räägi sinuga. <stage>(Üliõpilasele:)</stage> Noojah, niisuke... <stage>(näitab käega)</stage> nii umbes arssina pikkuse. Ega mul pikemat põle vaja. Ega mina maksan raha kohe ära, nigu ta toob — maksku mis maksab. Ärgu seda kartku, et maksmata jääb. Noojah... Ühest otsast on küllalt, kui ta nii nimetissõrme jämedune on, aga teisest otsast peab jämedam olema, nii... kahe sõrme jämedune umbes.</p>
+                    </sp>
+                    <sp who="#tudeng">
+                        <speaker>Üliõpilane.</speaker>
+                        <p>Jaa, võin saata küll, kui mitte muidu, siis meie oma Eesti postiga. Meie oma Eesti postiga.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Ei noh, mis säl's vaja postiga saata, kui ta üksiti siiapoole tuleb.</p>
+                    </sp>
+                    <sp who="#tudeng">
+                        <speaker>Üliõpilane.</speaker>
+                        <p>Hää küll, hää küll. Nii või teisiti, aga selle toru peate saama.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Noo-jah, mul on teda hädasti vaja. Ega ma mudu ei tellikski ja ei tülitaks teid.</p>
+                    </sp>
+                    <pb n="26"/>
+                    <sp who="#tudeng">
+                        <speaker>Üliõpilane.</speaker>
+                        <p>Tubli, tubli. Hääd tervit!</p>
+                    </sp>
+                    <sp who="#pliuhkam #roosi #saegi #kroot">
+                        <speaker>Kõik.</speaker>
+                        <p>Iad tervit!</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam</speaker>
+                        <p><stage>(läheb üliõpilasele ukse pääle järele).</stage> Ah jah — aga kaubelgu siis ikke kah. Nad on sial linnas kõik irmus kallid oma kaubaga.</p>
+                    </sp>
+                    <sp who="#tudeng">
+                        <speaker>Üliõpilane.</speaker>
+                        <p>Jaa, jaa... igatahes. <stage>(Ära.)</stage></p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi.</speaker>
+                        <p>Kuule, sa vanataat, oled ise suur toru!</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Noh? Mispärast? Mispärast ma toru olen?</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi.</speaker>
+                        <p>Tema käest akkad sa toru tellima!</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>No miks mitte... See oli ju peris viks poiss, kõik nii... sõnavõtlik teene ja...</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi</speaker>
+                        <p>Seda küll, aga ega see Kalev siis mõni juudipoisike ei ole, et ta sulle plekktorusid akkab tooma. Kas sa ei tia, kes Kalev on? Niisugusel tähtsal silmapilgul,<pb n="27"/> kus isamaale ohvrid vaja on, segad sa oma torudega.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Jah, mis sul viga kõnelda. Sul on keedunõu korras — lase või kaks pange päävas va' puskarit. <stage>(Märkab Krõõta.)</stage> No mes sa veel siin vahid, kui sa kodu ei saa! Mes sa kuulad siin?</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>Krõõt.</speaker>
+                        <p>Mina ei kuula kedagi. Ei tia, mes minul kuulata on. Mina vahin siin seda viitungi, või mes ta on, et ei tia, kus ma ta nüid panen.</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi</speaker>
+                        <p><stage>(Pliuhkamile).</stage> Korras või mitte korras, aga nüüd, sel tähtsal ajal, kus vabadus — <stage>(Väljast tuleb keegi suure rutuga.)</stage> noojah, kus vabadus —</p>
+                    </sp>
+                    <sp who="#eliisabet">
+                        <speaker>Liispet</speaker>
+                        <p><stage>(astub kähku sisse ja viskab ühe paberilehe Sägi nina alla).</stage> Säh sulle vabadus!</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi</speaker>
+                        <p><stage>(vaatab paberilehte).</stage> Mis see s' on!</p>
+                    </sp>
+                    <sp who="#eliisabet">
+                        <speaker>Liispet.</speaker>
+                        <p>See on vabadus. <stage>(Lühike vaikus.)</stage> Loe, loe, küll sa siis nääd, misse on. <stage>(Sägi loeb:)</stage></p>
+                    </sp>
+                    <pb n="28"/>
+                    <sp who="#roosi">
+                        <speaker>Roosi.</speaker>
+                        <p>Mis leht see on, Liispet? Kust sa said?</p>
+                    </sp>
+                    <sp who="#eliisabet">
+                        <speaker>Liispet.</speaker>
+                        <p>Vallavanema käest. Tahtis just parajasti meile tulla selle lehega, no siis andis teese minu kätte, käskis Tõnisele edasi anda.</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi</speaker>
+                        <p><stage>(lugedes).</stage> Tohho kurat veli, säh! No see on pauk!</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Mes säl on?</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi.</speaker>
+                        <p>Mes säl on — Sõtta aetakse! Vat, mis säl on!</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi.</speaker>
+                        <p>Oh sa armu tegu — sõtta!</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi.</speaker>
+                        <p>Kõik mehed 21 kuni 24 aasta vanaduseni peavad sõtta minema. Maatamehi ja vaesemaid peavad taluperemehed riietega ja jalanõudega varustama. Vat, mis säl on!</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi.</speaker>
+                        <p>No ku vana sina oled, Tõnis?</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi.</speaker>
+                        <p>Kahekümne kolme.</p>
+                    </sp>
+                    <pb n="29"/>
+                    <sp who="#roosi">
+                        <speaker>Roosi.</speaker>
+                        <p>No siis piad sina kah minema.</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi</speaker>
+                        <p><stage>(viskab paberilehe vihaselt lauale).</stage> Mina ei lähe! Võtku neid Madis kõige oma sõjaväega ja isamaaga ja vabadusega! Mis see mulle korda läheb. Sõdigu, või tehku mis tahavad — mina ei lähe!</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>No kus sinagi pääsed, kui vallavanem käsib. Küll sa lähed kah. Ma arvasin kohe, et niipea kui juba tudengid platsis on, ega siis enam õiget asja ei ole. Sial ta ongi.</p>
+                    </sp>
+                    <sp who="#eliisabet">
+                        <speaker>Liispet</speaker>
+                        <p>Jah, siis Tõnis võtab teise veel kõik nii aupaklikult vastu ja tilberdab teese ümber, nagu ei tia mes... Ikka isamaa ja isamaa ja... Vaata nüid sulle isamaa. Paras! Käsib sul iga klaaberjalaga jännata!</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Ei, mina arvasin kohe, et —</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi.</speaker>
+                        <p>Mis sa arvad? Mis sa arvasid kohe? Mis sul arvata oli? No ia küll, kui mina nüid ka piaks sõtta minema, siis piad sina selle eest kõigile sulastele ja popsidele riided selga ja saapad jalga ostma.</p>
+                    </sp>
+                    <pb n="30"/>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Mina? Ega kedagi! No, mespärast siis mina? Eks see osta, kellele neid tarvis on.</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi</speaker>
+                        <p><stage>(tähendab lehe pääle).</stage> Siin on käsk.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam</speaker>
+                        <p><stage>(vaatab lehte).</stage> Seda nad kuradid käivad mööda maad-ilma ümber ja eksitavad inimeste meeli. Nüid on teesed vallavanema pia kah segamini ajanud: nüid varrusta kah veel kuradid. Igale poole muudku anna ja anna — nüid varrusta kah veel. Oleks ta, mait, veel praegu siin, ma ei annaks talle punast krossigi. Välja viskaks niisuguse päävavarga. Tudeng! Isamaa! Vabadus! Kuradi Ooberost!</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi</speaker>
+                        <p>Ega mina ei lähe! Ega mina lähe! Miiiina ei lähe, minu pärast kas või karvupidi kokku.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam</speaker>
+                        <p><stage>(kisub piipu, mõtleb).</stage> Jah... Sina ei lähe. Ia küll — sina ei lähe... Aga kui käsk on? Kus sa pääsed? Parem käi ära, Tõnis! Mis säl ikke on: käid kord valla kulul linnas ära, tood mulle selle toru ja...</p>
+                    </sp>
+                    <pb n="31"/>
+                    <sp who="#saegi">
+                        <speaker>Sägi.</speaker>
+                        <p>Juudas sind oma toruga! Ega mind siis ometi toru ei saadeta tooma — mind saadetakse sõtta.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Noh, kis su ikke sõtta saadab, ku sa aige oled. Viskad pikali ja ütled, et aige oled ja... küll nad su kodu lasevad. Vaata, vana Vene aeg tehti niisama.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi.</speaker>
+                        <p>Noo-jah, kessi aiget inimest sõtta saadab.</p>
+                    </sp>
+                    <sp who="#eliisabet">
+                        <speaker>Liispet.</speaker>
+                        <p>Ega nad aigeid ei tohi saata.</p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi.</speaker>
+                        <p>Noh... nii võiks linnas ära käia küll. Mes nad mulle ikke teevad.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Käi ära jah, Tõnis. Tood mulle toru. <stage>(Krõõdale:)</stage> Mine jookse järele selle tudengile, või kes ta oli, ütle, et ärgu akaku saatma ühti võeraste inimestega, et meilt läheb oma inime linna ja toob isegi.</p>
+                    </sp>
+                    <sp who="#kroot">
+                        <speaker>Krõõt.</speaker>
+                        <p>Kos ma selle viitungi panen?</p>
+                    </sp>
+                    <pb n="32"/>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Vaata nüid inimest oma viitungiga! Too siia see viitung ja lase kähku jalga. <stage>(Krõõt annab kviitungi Pliuhkami kätte ja läheb ruttu ära.)</stage> Viitung ja viitung. Lase viitung olla minu käes. Nigu nad varrustama akkavad, siis on mul kohe üks viitung ette näidata, et ma juba ühe paari kindaid ära andsin. <stage>(Vaatab ahju pääle.)</stage> Ah jah... Mul jäi suure rutuga see koti suu kinni sidumata. Vaja teene kinni panna. <stage>(Võtab tooli, ronib ahju servale ja hakkab kotti kinni siduma. Kott kukub põrandale, sisu langeb välja.)</stage> Näh — maha kah veel! Tule, Roosi, anna kätte.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi</speaker>
+                        <p><stage>(hakkab raha kotti tagasi toppima).</stage> Mis sa tast siis maha pillud! <stage>(Vaatab rahasid.)</stage> Oh sa ime, mes raha see enam on. See on ju peenikeseks näritud, nagu ussi puru. Mõni ainuke on veel tervem.</p>
+                    </sp>
+                    <sp who="#pliuhkam">
+                        <speaker>Pliuhkam.</speaker>
+                        <p>Mes? mes? <stage>(Hüppab ahju servalt prantsatades maha. Sägi ja Liispet tõttavad õnnetusekohale.)</stage></p>
+                    </sp>
+                    <sp who="#saegi">
+                        <speaker>Sägi.</speaker>
+                        <p>Jumala ussi puru jah. Oh sa igavene toru!</p>
+                    </sp>
+                    <stage>(Lõpp.)</stage>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
