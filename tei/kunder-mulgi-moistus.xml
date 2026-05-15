@@ -66,7 +66,7 @@
                     <person xml:id="katt" sex="FEMALE">
                         <persName>Katt</persName>
                     </person>
-                    <person xml:id="oru_onu" sex="MALE">
+                    <person xml:id="oru-onu" sex="MALE">
                         <persName>Oru onu</persName>
                     </person>
                     <person xml:id="rahvas">
@@ -162,7 +162,7 @@
                 <div type="scene">
                     <head>Teine etendus.</head>
                     <stage>Oru Onu.</stage>
-                    <sp who="#oru_onu">
+                    <sp who="#oru-onu">
                         <speaker>Oru onu</speaker>
                         <stage>(tuleb tasa, piipu põletates.)</stage>
                         <p>Ole sina nüüd Wiljandimaa mees ehk Tartlane, see ei tee sind paremaks ega pahemaks. Sa jääd ikka Wiljandimaa meheks ehk Tartlaseks, kui sull ka raha labidaga oleks tasku ajada ehk sull ka kopikutki ei oleks. Aga mis sind paremaks teeb ja kõrgemaks tõstab, on jo süda ja mõistus. Pruugi südant mõistusega ja sa näed, et süda rahul on, pruugid sa aga südant mõistuseta<pb n="7"/> — nagu minu poolemees Mäe Margus — ja sa näed, et süda rahuta on. Minu helde taewas! Kas see 'pole mõistuseta töö? Mäe Margus teeb aia piiri pääle, et kaks wenda, need on Wiljandi- ja Tartumaa mehed, teine teisega kokku ei peaks saama! Kui ma mõistusega selle pääle mõtlen, siis näitab see nagu poleks Mäe Margussal mõistuse terakestki. Minu nõuu oli Tartumaa meestega sõbraks saada, mo poeg soowis seda ka, — aga mis sõprus see on! Waata kus sõprus! Ta teeb aia piiri peale. — Ma olen rahu pidada püüdnud; ei ole ma millalgi kära selle üle teinud, et Tartumaa loomad mo wiljale kahju teinud, ei ole ma ka millalgi selle üle pahane olnud, et mo poeg Mäe küllasse käib, kellel sääl midagi tegemist pole. Noh, waata, nüüd oleme lahutatud! Mäe Margus ei salli Mulgi mõistust! Mis iseäranis mõistus sell Mulgil siis on? Kus koolis tema on käinud?! See on õige: Meie oleme natuke jõukamad kui Tartlased, aga üksi ka selle läbi, et hoolas linaharimine ja karjakaswatamine meid aitanud on, ja kellel meie päiwil oma rahakopikake taskus on, ega see jo ometi ka tõise sulane ei taha olla. Ma tahan Margussaga selle häbistawa aia üle kõnelda. Seda ma ei salli, et meid maailma naeruks nenda lahku aetakse! <stage>(Teatri taga kära.)</stage> Noh, sääl ta on! Juba on jälle Tartumaa meeste kära kuulda. Parem on, ma lähan eest ära, enne kui ilma aegu rumalaid sõnu kuulama hakkan. <stage>(ära.)</stage></p>
@@ -248,7 +248,7 @@
                 <div type="scene">
                     <head>Kuues etendus.</head>
                     <stage>Oru onu. Ott.</stage>
-                    <sp who="#oru_onu">
+                    <sp who="#oru-onu">
                         <speaker>Oru onu.</speaker>
                         <p>Mis sa, poeg, end nüüd nii palju ilma aegu pahandad, ega nimi meest ei riku! Mulk on jo terwe maakonna rahwa Tartlaste keeli nimi. Ole, poeg, ennem uhke, et sull see nimi on! Ära pelga midagi! Mulgid on Tartlaste wastu peaaegu mõisnikud.</p>
                     </sp>
@@ -258,7 +258,7 @@
                         <p>Isa, mull ei ole selle sõna wastu muidu midagi waidlemist, aga mull on ta wastu üks kallis kiwi, üks pärli wahetada. Oh, isa, oleks ma Tartlane!</p>
                     </sp>
                     <stage>(Mäe Margus kuuldakse taga teatri karjuwad: Mulgid, teie äraupatamata wähjad: Wai see on minu töö ja waewa maks!</stage>
-                    <sp who="#oru_onu">
+                    <sp who="#oru-onu">
                         <speaker>Oru onu.</speaker>
                         <p>Ott, poeg, mine ära! Ma tahan wana Margussaga paar sõna mõistlikult rääkida; niisugune elu ja olek ei kõlba naabrite wahel mitte. <stage>(Ott ära.)</stage></p>
                     </sp>
@@ -270,7 +270,7 @@
                         <speaker>Margus.</speaker>
                         <p>Sääl ta seisab! Mulkide kindral, wana Oru oinas! Minu aida maha kiskma, see on teie wiimne töö, teie inetumad!</p>
                     </sp>
-                    <sp who="#oru_onu">
+                    <sp who="#oru-onu">
                         <speaker>Oru onu.</speaker>
                         <p>Poolemees, mis sa nüüd nii pahandad, see ei maksa, elama nagu mõistlikud inimesed!</p>
                     </sp>
@@ -278,7 +278,7 @@
                         <speaker>Margus.</speaker>
                         <p>Inimesed? Kas Mulk ka inimene on?</p>
                     </sp>
-                    <sp who="#oru_onu">
+                    <sp who="#oru-onu">
                         <speaker>Oru onu.</speaker>
                         <p>Maailm naerab meid jo sell kombel wälja! Mina annan igas tükis järele, mises mo mõistus seda lubab. Wõta ära siit see lahutaw aed! See on jo selge narri temp!</p>
                     </sp>
@@ -286,7 +286,7 @@
                         <speaker>Margus.</speaker>
                         <p>Narri temp? Sina ütled seda mulle, et see narri temp on? <stage>(Pillab südame täiega aia kõrwale)</stage> Olgu nii! Ma täidan so tahtmise! Hoia selle eest: juhtub so loom üle piiri tulema — ma lasen ta<pb n="14"/> püssiga maha! Seda olen ma juba ütelnud: meie wahel peab wahe olema!</p>
                     </sp>
-                    <sp who="#oru_onu">
+                    <sp who="#oru-onu">
                         <speaker>Oru onu.</speaker>
                         <p>Sõber, mõista ometi ka, mis sulle üteldakse! Sa oled just poisikese põlwes alles. Ei ole kuuskümmend aastad sind ühtigi targemaks teinud; alles wahiwad kuusteistkümme aastad sull igast kohast wälja!</p>
                     </sp>
@@ -294,7 +294,7 @@
                         <speaker>Margus.</speaker>
                         <p>Mina olen poisike? Minul 'pole aru peas? Kellele sa seda seletad? Mis mul sinu mõistusega tegemist! Kus Mulk hulluks lähab, sääl hakkab ta mõistma. Kuula nüüd tema mõistab! Minul 'pole sinuga ega sinu mõistusega tegemist. Mis sina mõistuseks nimetad, seda nimetan mina tarkuseks, ja tarkus on see asi, mis meid Tartlasi Mulkide kuningaks teeb. Salomon ja Siirak ei ole mitte mõistuse — waid tarkuse raamatu teinud; ja waata, sa Mulk, kiidad mõistust ja ei räägi tarkusest sõnakestki! Sina püsti pagan! Püha kirja põlgaja!</p>
                     </sp>
-                    <sp who="#oru_onu">
+                    <sp who="#oru-onu">
                         <speaker>Oru onu.</speaker>
                         <p>Sinu sõnad teewad mind ka tõsiseks, sa hakkad koolipoisi kombel seletama, misest sa ise aru ei saagi! Mis on siis so tarkus? Oli see so tarkus, et sa seie aia tegid ja jälle maha kiskusid ja püssiga ümberkäia lubad? Meie nimetame seda halpuseks. Mitte sinu tarkus ei aita sind üksi jalale, waid saa, sõber, mõistlikuks! Mõistus teeb inimesed alles inimesteks.</p>
                     </sp>
@@ -303,7 +303,7 @@
                         <p>Seega tahad sa ütelda, et Tartlane inimene 'polegi?!</p>
                     </sp>
                     <pb n="15"/>
-                    <sp who="#oru_onu">
+                    <sp who="#oru-onu">
                         <speaker>Oru onu.</speaker>
                         <p>Seega tahan ma paljalt ütelda, et mõni Tartlane aru ei saa, mis wahe halbi ja mõistliku inimese wahel on.</p>
                     </sp>
@@ -315,7 +315,7 @@
                 <div type="scene">
                     <head>Kaheksas etendus.</head>
                     <stage>Oru onu, pärast Ott.</stage>
-                    <sp who="#oru_onu">
+                    <sp who="#oru-onu">
                         <speaker>Oru onu.</speaker>
                         <p>Mine, poolemees! Ma tunnen sind nüüd! Ma tean mis sull puudub! Mõistusest on sull puudus. Nii kaua kui mõistus puudub, ei saa Tartu ja Wiljandi maa mitte lahkuses ja sõbruses elama. <stage>(ära.)</stage></p>
                     </sp>
@@ -470,7 +470,7 @@
                         <speaker>Margus.</speaker>
                         <p>Mis teie nüüd nii jooksete! Siin oli paljalt üks weikene nali. Kiwiküla sepp parandas mu wana püssi ära ja nüüd ma teda siin natukene proowisin! Mis teie siis nii kartlikud olete?</p>
                     </sp>
-                    <sp who="#oru_onu">
+                    <sp who="#oru-onu">
                         <speaker>Oru onu.</speaker>
                         <p>Ott, mis juttu sina siis siin puhud? Mis sa selle hobuse nahaga teed?</p>
                     </sp>
@@ -478,7 +478,7 @@
                         <speaker>Ott.</speaker>
                         <p>Armas isa, selle hobuse naha pärast räägin ma sinuga nelja silma all, aga Mäe onuga olen ka juba rääkinud, mis ma enne sinugagi rääkisin, aga onu on koguni kare. Kata aitas ka, aga ei aita midagi. Räägi, isa, sina nüüd ise natuke!</p>
                     </sp>
-                    <sp who="#oru_onu">
+                    <sp who="#oru-onu">
                         <speaker>Oru onu.</speaker>
                         <p>Margus! Kui meie ise mõnikord tülitseme, siis olgu see meie asi, aga see ärgu puutugu lastesse! Kui kaua meie weel elame — nemad jääwad järele! Minu Ott on auus ja mõistlik pois ja Kata jumekas ja kena neiu ja Tartumaa inimene, mis just minu nõuu ja tahtmine on.</p>
                     </sp>
@@ -512,7 +512,7 @@
                         <stage>(ette astudes.)</stage>
                         <p>Tere, tere, peremehed!</p>
                     </sp>
-                    <sp who="#ott #margus #oru_onu #katt #sulane #rahvas">
+                    <sp who="#ott #margus #oru-onu #katt #sulane #rahvas">
                         <speaker>Kõik.</speaker>
                         <p>Tere, tere, auus kooliperemees!</p>
                     </sp>
@@ -520,7 +520,7 @@
                         <speaker>Koolmeister.</speaker>
                         <p>Noh, mind ikka ka pulma palute? Nagu asjad praegu on, ei jää ju pulmad tulemata!</p>
                     </sp>
-                    <sp who="#oru_onu">
+                    <sp who="#oru-onu">
                         <speaker>Oru onu..</speaker>
                         <p>Noh, kes nüüd ilma koolmeistrita korda saab! Sina ju ikka meie pea!</p>
                     </sp>
@@ -534,7 +534,7 @@
                         <speaker>Ott.</speaker>
                         <p>Mina annan omalt poolt kohe 50 rubla Aleksandri kooli heaks!</p>
                     </sp>
-                    <sp who="#oru_onu">
+                    <sp who="#oru-onu">
                         <speaker>Oru onu.</speaker>
                         <p>See on õige, poeg! Mina annan ka 50 rubla!</p>
                     </sp>
@@ -578,7 +578,7 @@
                         <stage>(häbelikult.)</stage>
                         <p>Minu poolt 5 rubla!</p>
                     </sp>
-                    <sp who="#oru_onu">
+                    <sp who="#oru-onu">
                         <speaker>Oru onu</speaker>
                         <stage>(annab Margussele kätt.)</stage>
                         <p>Poolemees, siin on mu käsi — nüüd oleme sõbrad!</p>
@@ -595,7 +595,7 @@
                         <speaker>Margus.</speaker>
                         <p>Ma saan ka juba aru, mis mõistus on.</p>
                     </sp>
-                    <sp who="#margus #oru_onu #koolmeister #ott #katt #sulane #rahvas">
+                    <sp who="#margus #oru-onu #koolmeister #ott #katt #sulane #rahvas">
                         <speaker>Kõik.</speaker>
                         <p>Elagu Aleksandri kool! pruutpaar! Mulgid! Tarkus ja Mõistus!</p>
                     </sp>
