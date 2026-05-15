@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="est000012" xml:lang="et" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Mulgi mõistus ja Tartlase tarkus.</title>
+                <title type="sub">Nali ühes järgus.</title>
+                <author>
+                    <persName>
+                        <forename>Juhan</forename>
+                        <surname>Kunder</surname>
+                        <idno type="wikidata">Q12365486</idno>
+                    </persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>University of Tartu digital archive ADA</name>
+                    <idno type="URL">http://hdl.handle.net/10062/8004</idno>
+                    <availability>
+                        <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                    </availability>
+                </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>Juhan</forename>
+                            <surname>Kunder</surname>
+                        </persName>
+                        <idno type="wikidata">Q12365486</idno>
+                    </author>
+                    <title type="main">Mulgi mõistus ja Tartlase tarkus</title>
+                    <title type="sub">Nali ühes järgus</title>
+                    <date when="1881">1881</date>
+                    <publisher>Schnafenburg</publisher>
+                    <pubPlace>Tartu</pubPlace>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="margus" sex="MALE">
+                        <persName>Mäe Margus</persName>
+                    </person>
+                    <person xml:id="ott" sex="MALE">
+                        <persName>Ott</persName>
+                    </person>
+                    <person xml:id="sulane" sex="MALE">
+                        <persName>Tartumaa Sulane</persName>
+                    </person>
+                    <person xml:id="koolmeister" sex="MALE">
+                        <persName>Küla koolmeister</persName>
+                    </person>
+                    <person xml:id="katt" sex="FEMALE">
+                        <persName>Katt</persName>
+                    </person>
+                    <person xml:id="oru_onu" sex="MALE">
+                        <persName>Oru onu</persName>
+                    </person>
+                    <person xml:id="rahvas">
+                        <name>Rahwas</name>
+                    </person>   
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listEvent>
+            <event type="print" when="1881">
+                <desc/>
+            </event>
+            <event type="written" when="1874">
+                <desc/>
+            </event>
+        </listEvent>
+    </standOff>
+    <text>
+        <pb n="1"/>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">Mulgi mõistus ja Tartlase tarkus</titlePart>
+                    <titlePart type="sub">Nali ühes järgus</titlePart>
+                </docTitle>
+                <note>
+                    <p>See nalitükike on mitu korda Tartus ja ka wiimasel laulupidul säälsamas mängitud saanud.</p>
+                </note>
+                <docImprint>
+                    <pubPlace>Tartus</pubPlace>
+                    <date>1881.<lb/></date>
+                    <publisher>Schnafenburg'i trükk ja kulu.</publisher>
+                </docImprint>
+                <pb n="2"/>
+                <imprimatur>Zensuri poolest lubatud. — Tallinnas, 4. Julil 1880.</imprimatur>
+            </titlePage>
+            <pb n="3"/>
+            <titlePage>
+                <titlePart type="main">Mulgi möistus ja Tartlase tarkus.</titlePart>
+                <titlePart type="sub">Nalp ühes näituses.</titlePart>
+                <docDate>(1874.)</docDate>
+            </titlePage>
+            <castList>
+                <head>Osalised.</head>
+                <castGroup>
+                    <castItem>
+                        <role>Oru onu, </role>
+                        <roleDesc>päriskoha omamnik</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role>Mäe Margus, </role>
+                        <roleDesc>rikas peremees</roleDesc>
+                    </castItem>
+                    <roleDesc>piirimehed.</roleDesc>
+                </castGroup>
+                <castItem>
+                    <role>Ott, </role>
+                    <roleDesc>Oru onu poeg.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Katt, </role>
+                    <roleDesc>Mäe Margussa tütar.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Mäeküla koolmeister.</role>
+                </castItem>
+                <castItem>
+                    <role>Üks sulane Tartumaalt.</role>
+                </castItem>
+                <castItem>
+                    <role>Rahwas.</role>
+                </castItem>
+            </castList>
+            <set>
+                <p>Mängimise koht: Piir Oru ja Mäe talu wahel.</p>
+            </set>
+        </front>
+        <pb n="4"/>
+        <pb n="5"/>
+        <body>
+            <div type="act">
+                <div type="scene">
+                    <head>Esimene etendus.</head>
+                    <stage>Mäe Margus.</stage>
+                    <sp who="#margus">
+                        <speaker>Mäe Margus.</speaker>
+                        <stage>(Õlmad wöö wahel; Teeb aida Tartu ja Wiljandi piiri pääle. Paneb weel mõnda tükki juure; teritab teiwast etc. leiwa kott maas.)</stage>
+                        <p>So! nüüd on asi korras, töö lõpetatud, aid walmis, tüli otsas, süda rahul. Aid on kõrge küllalt! Siit ei pääse Mulk ega ka tema loom üle; ja alla metsa teele olen kraawi sisse kaewanud — ei säält pääse Mulgid ka üle. — Oru wanamees on oma arust tark küllalt, mõistab mõndagi tööd teha ja mõndagi asja ajada, aga kas mull wõi meil Tartu maa meestel mõnda Mulgi mõistust tarwis on?! Lase nemad oma mõistusega metsa minna! Ta pool kerglast sõimab mind tüli tegijaks inimeseks! Mind, kes ma kolm aastat järge mööda kohtumees olen olnud ja paljalt selle pärast lahti sain, et teine mees minu asemele waliteti. Ja kes see teine mees oli? — Mulk! Meie koolmeister ka nagu poole aruga, annab nõuu:<pb n="6"/> Walige aga Jõe Jaan kohtumeheks, ta on mõistlik mees! Waata, ta on mõistlik, nagu oleks mina pöörane! — Seda ma ei salli! Tänasest päewast oleme meie lahutatud! Ma ei tunne, ega taha ilmaski seda Oru onu tunda! — Jälle üks mees, kes tulewal korral weel kohtumeheks wõib saada. Ei ole ka tarwis, et ma teda tunnen! See aid siin peab meid ära lahutama! Ei tohi Tartumaa loom Mulgi maale ega ka Mulgi loom Tartu maale tulla! See on minu tahtmine, minu wiimne tahtmine, minu testament! Sest Mulgid pole wäärt, et meie Tartlased nendega ühte keelt räägime. Peaks keeled weel kord keedetud saama, siis waliks ma enesele ennem Mustlase- kui Mulgikeele! <stage>(ära.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>Teine etendus.</head>
+                    <stage>Oru Onu.</stage>
+                    <sp who="#oru_onu">
+                        <speaker>Oru onu</speaker>
+                        <stage>(tuleb tasa, piipu põletates.)</stage>
+                        <p>Ole sina nüüd Wiljandimaa mees ehk Tartlane, see ei tee sind paremaks ega pahemaks. Sa jääd ikka Wiljandimaa meheks ehk Tartlaseks, kui sull ka raha labidaga oleks tasku ajada ehk sull ka kopikutki ei oleks. Aga mis sind paremaks teeb ja kõrgemaks tõstab, on jo süda ja mõistus. Pruugi südant mõistusega ja sa näed, et süda rahul on, pruugid sa aga südant mõistuseta<pb n="7"/> — nagu minu poolemees Mäe Margus — ja sa näed, et süda rahuta on. Minu helde taewas! Kas see 'pole mõistuseta töö? Mäe Margus teeb aia piiri pääle, et kaks wenda, need on Wiljandi- ja Tartumaa mehed, teine teisega kokku ei peaks saama! Kui ma mõistusega selle pääle mõtlen, siis näitab see nagu poleks Mäe Margussal mõistuse terakestki. Minu nõuu oli Tartumaa meestega sõbraks saada, mo poeg soowis seda ka, — aga mis sõprus see on! Waata kus sõprus! Ta teeb aia piiri peale. — Ma olen rahu pidada püüdnud; ei ole ma millalgi kära selle üle teinud, et Tartumaa loomad mo wiljale kahju teinud, ei ole ma ka millalgi selle üle pahane olnud, et mo poeg Mäe küllasse käib, kellel sääl midagi tegemist pole. Noh, waata, nüüd oleme lahutatud! Mäe Margus ei salli Mulgi mõistust! Mis iseäranis mõistus sell Mulgil siis on? Kus koolis tema on käinud?! See on õige: Meie oleme natuke jõukamad kui Tartlased, aga üksi ka selle läbi, et hoolas linaharimine ja karjakaswatamine meid aitanud on, ja kellel meie päiwil oma rahakopikake taskus on, ega see jo ometi ka tõise sulane ei taha olla. Ma tahan Margussaga selle häbistawa aia üle kõnelda. Seda ma ei salli, et meid maailma naeruks nenda lahku aetakse! <stage>(Teatri taga kära.)</stage> Noh, sääl ta on! Juba on jälle Tartumaa meeste kära kuulda. Parem on, ma lähan eest ära, enne kui ilma aegu rumalaid sõnu kuulama hakkan. <stage>(ära.)</stage></p>
+                    </sp>
+                </div>
+                <pb n="8"/>
+                <div type="scene">
+                    <head>Kolmas etendus.</head>
+                    <stage>Tartumaa sulane.</stage>
+                    <sp who="#sulane">
+                        <speaker>Tartumaa sulane.</speaker>
+                        <p>Narrid kõik Mulgid kui Tartlased! Ühel ei ole aru, teisel ei ole otsa! Waat nüüd maailma naerust! Ta wanapagan teeb aia kesk teed. Ta arwab, et teekäijatel ka nii pitkad jalad on kui wargadel sõrmed. Mina olen nüüd ka maailma näinud ja mõndagi meest tunnud — ei ole ma niisugusi weel näinud nagu need poole-mehed. Mäe Margus mõni mees ka! Ta hakkab Mulkidega tüli tegema. Mulkidega, kes kõik hulgused ja tülitegijad on! Ja küsi järele, kus need hobuse wargad, uhked poisid ja toredad tüdrukud on — ikka aga jälle Mulgimaal! Kas on weel ühte nurka meie maal, kuhu Wiljandi mees, see neetud Mulk, oma nina poleks sisse pistnud ja ära ostnud?! Mina sest aru ei saa, kust need Mulgid ka selle raha wälja wõtawad. Nad on nagu teisest maailmast wälja tulnud: teewad majad suurte klaas-akantega, korsnad pääl nagu mõisadel, wilja aiad kõrwas, peenikesed sõidu wankrid õues, Saksamaa adrad nurmel, linnapeksmise-, willakraasimise- ja wõi-masinad ja mis pagana asjad neil kõik ei ole! Poistel juba kalewist püksid ja wattmannid, pitka wartega piibud suus, nokaga mütsid pääs, käed puusas — just kui baronid!</p>
+                        <p>Ja küsi nüüd järele, mis tükis nad siis ometi paremad on, kui meie Tartumaa mehed? Kas Tartumaa meestel jõudu pole? Kas tema Saksamaa ader ehk wõi-masin ta taewasse tõstab?! Ah, ah, ah, ah, tühi kõik! <stage>(wõtab pudelist ja laulab:)</stage></p>
+                        <l>"Kui Jumal suure tuule tooks</l>
+                        <l>Ja tuhat Mulki mõrda a'aks,</l>
+                        <l>Ja igast Mulgist kopik saaks,</l>
+                        <l>Siis kümme rubla mulle jääks!"</l>
+                        <p>See aid siin ei ole õige koha pääl. Teda 'pole tarwiski! Ma tahan ise, mina Tartumaa meeste põhi, kõik Mulgid tagasi hirmutada! — — Ma olen mõndagi näinud ja kuulnud, aga mis see minusse puutub, wõi mis mul sellega tegu! Oru Oti ja Mäe Katiga ei näita asjad just mitte nii wõeriti olema, mina nagu arwan — — ah, Mulkide ja Tartlaste wahel ei saa ometi pulmi peetama! <stage>(Laulab:)</stage></p>
+                        <l>"Ma nägin tuhat Mulki seiswad</l>
+                        <l>Tartlase tare läwe ees</l>
+                        <l>Ja igal Mulgil kümme käkki</l>
+                        <l>Ja kümme ka — — — — —</l>
+                    </sp>
+                    <pb n="9"/>
+                    <stage>(Oru Ott tuleb ruttu ette)</stage>
+                </div>
+                <pb n="10"/>
+                <div type="scene">
+                    <head>Neljas etendus.</head>
+                    <stage>Ott, Sulane.</stage>
+                    <sp who="#ott">
+                        <speaker>Ott.</speaker>
+                        <p>Tartlane, mis pidu sull on?! Oh sina ülejäänud! Kallil töö päewal nenda ümber wedeleda, kas see 'pole Jumala päewa wargus? ja Mulka sõimata, kas see 'pole ligimese auu rikkumine?</p>
+                    </sp>
+                    <sp who="#sulane">
+                        <speaker>Sulane.</speaker>
+                        <p>Ei, ei, kallis poolmees, ega siis meie wahel tüli ei pea tulema selle wäikese asja pärast! Ma tahtsin siit edasi minna, aid aga ees, nüüd katsun kust läbi saan.</p>
+                    </sp>
+                    <sp who="#ott">
+                        <speaker>Ott.</speaker>
+                        <p>Roni aga üle wanapoiss!</p>
+                    </sp>
+                    <sp who="#sulane">
+                        <speaker>Sulane.</speaker>
+                        <p>Minu wana inimese kondid seda küll ei luba! Olin noorena küll osaw nagu oraw ronima, aga nüüd ei jaksa enam!</p>
+                    </sp>
+                    <sp who="#ott">
+                        <speaker>Ott.</speaker>
+                        <p>Katsu ometi! Kui sa wanas põlwes laulda jõuad, siis ehk jõuad ka ronida! Teie Tartumaa mehed olete jo kui köie-tantsijad osawad, kas sina siis oma meestele häbi tahad teha?!</p>
+                    </sp>
+                    <sp who="#sulane">
+                        <speaker>Sulane.</speaker>
+                        <p>Mina Tartumaa meestele häbi teha? Ma tahan aga näidata, kuidas aia otsa ronitakse!</p>
+                        <stage>(Ronib, kukkub ühes aiaga maha, pudel katki.)</stage>
+                    </sp>
+                    <sp who="#ott">
+                        <speaker>Ott.</speaker>
+                        <stage>(naerdes)</stage>
+                        <p>Küll olete teie Tartlased ka töömehed. Ronib üks warblane aia otsa, siis hoia eest ära, et ta ühes aiaga selga ei kukku!</p>
+                    </sp>
+                    <sp who="#sulane">
+                        <speaker>Sulane.</speaker>
+                        <stage>(pudeli tükkisi waadates)</stage>
+                        <p>Oh minu kallis Jumala iwake, sa selge elutilgake, ja masikmarja<pb n="11"/> leheke! maksis 25 kop. Oli kallis ja karastaw, oli mahe ja magus! Aga nii see lugu kord maailmas on, — ega ta Tartumaalgi teisiti ei wõi olla, — mis kallis, see kaub; mis wägew, see waub!</p>
+                    </sp>
+                    <sp who="#ott">
+                        <speaker>Ott.</speaker>
+                        <p>Noh, wanapoiss, nüüd katsu aid korda säädida, et pärast poole jälle tüli ei tule!</p>
+                    </sp>
+                    <sp who="#sulane">
+                        <speaker>Sulane.</speaker>
+                        <p>Minu pärast mädagenu ta seie paika! Mina teda weel korda säädma! Mo küljeluud walutawad isegi, nagu oleks neist terwe raudtee rong üle käinud! Aura aga ise aia teibad uueste sisse, kui sa oma isamaad armastad! <stage>(ära.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>Wiies etendus.</head>
+                    <stage>Ott.</stage>
+                    <sp who="#ott">
+                        <speaker>Ott.</speaker>
+                        <p>Säh! Mine sina Tartumaa meestega juttu ajama! Oleks minu Katt mitte Tartumaa inimene olema, ma saaks ehk ka mõnikord Tartumaa meeste pääle wihaseks; aga mis sa ära teed! Kus su kaunike kosub, sääl su süda seisab! Oleks Tartumaa mehed ka Türklased olema, ma ei wihkaks neid ometi, sest minu lõbus Kata on jo ise Tartlane. Imekspanemise wäärt jõud, mis ühel niisugusel tütarlapsel on! ta lepitab terwe Tartumaa rahwa Mulkidega ära. See tölplane sulane, kes siin praegu hullustas, no mis mees see on, just kui õletuustik! Aga kui ma ta pitka<pb n="12"/> wammust laia süledega ja laba kaeltagusega nägin, waat tuletas mulle kohe Kata meele! — Kahju wäga kahju, et meie isad teine teisega hääl jalal ei seisa! Minu isa on mees, kes mõistuse ja õigust-tegemise waral elab: ei ma 'pole weel kuulnud, et ta seda sõna Tartlane ehk Mulk oma suhu oleks wõtnud, ta räägib üksi Eestlastest, Wiljandi ja Tartumaa etc. meestest. Mäe Margus aga, — ta muud sõimu ega meelitamise sõna ei tunnegi, kui Mulk. Tahab ta tõist maa põhja wanduda ja sõimata, siis on esimene sõna ikka Mulk; tahab ta tõist taewasse tõsta oma kiitusega, siis on ta esimene ja wiimane sõna jälle Mulk! — Mulk! Mulk! kes on sind wälja mõtelnud, ja inetu sõna Mulk! Selle ühe nime pärast peab Katt Tartumaale jääma ja kes teab missuguse Tartlase kätte saama! Oleks mul wõimalik olema, ma paneks selle sõna aia teiba otsa ja laseks ta wibupüssiga maha.</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>Kuues etendus.</head>
+                    <stage>Oru onu. Ott.</stage>
+                    <sp who="#oru_onu">
+                        <speaker>Oru onu.</speaker>
+                        <p>Mis sa, poeg, end nüüd nii palju ilma aegu pahandad, ega nimi meest ei riku! Mulk on jo terwe maakonna rahwa Tartlaste keeli nimi. Ole, poeg, ennem uhke, et sull see nimi on! Ära pelga midagi! Mulgid on Tartlaste wastu peaaegu mõisnikud.</p>
+                    </sp>
+                    <pb n="13"/>
+                    <sp who="#ott">
+                        <speaker>Ott.</speaker>
+                        <p>Isa, mull ei ole selle sõna wastu muidu midagi waidlemist, aga mull on ta wastu üks kallis kiwi, üks pärli wahetada. Oh, isa, oleks ma Tartlane!</p>
+                    </sp>
+                    <stage>(Mäe Margus kuuldakse taga teatri karjuwad: Mulgid, teie äraupatamata wähjad: Wai see on minu töö ja waewa maks!</stage>
+                    <sp who="#oru_onu">
+                        <speaker>Oru onu.</speaker>
+                        <p>Ott, poeg, mine ära! Ma tahan wana Margussaga paar sõna mõistlikult rääkida; niisugune elu ja olek ei kõlba naabrite wahel mitte. <stage>(Ott ära.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>Seitsmes etendus.</head>
+                    <stage>Oru onu. Margus.</stage>
+                    <sp who="#margus">
+                        <speaker>Margus.</speaker>
+                        <p>Sääl ta seisab! Mulkide kindral, wana Oru oinas! Minu aida maha kiskma, see on teie wiimne töö, teie inetumad!</p>
+                    </sp>
+                    <sp who="#oru_onu">
+                        <speaker>Oru onu.</speaker>
+                        <p>Poolemees, mis sa nüüd nii pahandad, see ei maksa, elama nagu mõistlikud inimesed!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>Margus.</speaker>
+                        <p>Inimesed? Kas Mulk ka inimene on?</p>
+                    </sp>
+                    <sp who="#oru_onu">
+                        <speaker>Oru onu.</speaker>
+                        <p>Maailm naerab meid jo sell kombel wälja! Mina annan igas tükis järele, mises mo mõistus seda lubab. Wõta ära siit see lahutaw aed! See on jo selge narri temp!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>Margus.</speaker>
+                        <p>Narri temp? Sina ütled seda mulle, et see narri temp on? <stage>(Pillab südame täiega aia kõrwale)</stage> Olgu nii! Ma täidan so tahtmise! Hoia selle eest: juhtub so loom üle piiri tulema — ma lasen ta<pb n="14"/> püssiga maha! Seda olen ma juba ütelnud: meie wahel peab wahe olema!</p>
+                    </sp>
+                    <sp who="#oru_onu">
+                        <speaker>Oru onu.</speaker>
+                        <p>Sõber, mõista ometi ka, mis sulle üteldakse! Sa oled just poisikese põlwes alles. Ei ole kuuskümmend aastad sind ühtigi targemaks teinud; alles wahiwad kuusteistkümme aastad sull igast kohast wälja!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>Margus.</speaker>
+                        <p>Mina olen poisike? Minul 'pole aru peas? Kellele sa seda seletad? Mis mul sinu mõistusega tegemist! Kus Mulk hulluks lähab, sääl hakkab ta mõistma. Kuula nüüd tema mõistab! Minul 'pole sinuga ega sinu mõistusega tegemist. Mis sina mõistuseks nimetad, seda nimetan mina tarkuseks, ja tarkus on see asi, mis meid Tartlasi Mulkide kuningaks teeb. Salomon ja Siirak ei ole mitte mõistuse — waid tarkuse raamatu teinud; ja waata, sa Mulk, kiidad mõistust ja ei räägi tarkusest sõnakestki! Sina püsti pagan! Püha kirja põlgaja!</p>
+                    </sp>
+                    <sp who="#oru_onu">
+                        <speaker>Oru onu.</speaker>
+                        <p>Sinu sõnad teewad mind ka tõsiseks, sa hakkad koolipoisi kombel seletama, misest sa ise aru ei saagi! Mis on siis so tarkus? Oli see so tarkus, et sa seie aia tegid ja jälle maha kiskusid ja püssiga ümberkäia lubad? Meie nimetame seda halpuseks. Mitte sinu tarkus ei aita sind üksi jalale, waid saa, sõber, mõistlikuks! Mõistus teeb inimesed alles inimesteks.</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>Margus.</speaker>
+                        <p>Seega tahad sa ütelda, et Tartlane inimene 'polegi?!</p>
+                    </sp>
+                    <pb n="15"/>
+                    <sp who="#oru_onu">
+                        <speaker>Oru onu.</speaker>
+                        <p>Seega tahan ma paljalt ütelda, et mõni Tartlane aru ei saa, mis wahe halbi ja mõistliku inimese wahel on.</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>Margus.</speaker>
+                        <p>Pea oma jutlust karjapoistele, mull 'pole seda tarwis! Mull on, Jumalale tänu, isegi nii palju tarkust, et mull su mõistust tarwis 'polegi! Pea nüüd meeles, wana Mulk, mis ma sulle ütlen: Hoia omad loomad! Ja kui sa püssi pauku kuuled, siis mõtle Mäe Margusse pääle, nagu inimene wikerkaari nähes weeuputuse pääle mõtleb. <stage>(ära.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>Kaheksas etendus.</head>
+                    <stage>Oru onu, pärast Ott.</stage>
+                    <sp who="#oru_onu">
+                        <speaker>Oru onu.</speaker>
+                        <p>Mine, poolemees! Ma tunnen sind nüüd! Ma tean mis sull puudub! Mõistusest on sull puudus. Nii kaua kui mõistus puudub, ei saa Tartu ja Wiljandi maa mitte lahkuses ja sõbruses elama. <stage>(ära.)</stage></p>
+                    </sp>
+                    <sp who="#ott">
+                        <speaker>Ott.</speaker>
+                        <stage>(tuleb)</stage>
+                        <p>Tüli peab maailmas olema, aga õnnetu see mees, kelle läbi tüli maailma tuleb! Ma arwan, minu Katt jääb Tartumaale, kui lugu end mitte ei muuda. Isad! Mis teil kanged pead on!</p>
+                    </sp>
+                </div>
+                <pb n="16"/>
+                <div type="scene">
+                    <head>Üheksas etendus.</head>
+                    <stage>Ott ja Katt.</stage>
+                    <sp who="#katt">
+                        <speaker>Katt</speaker>
+                        <stage>(lustilikult.)</stage>
+                        <p>Ott, ära karda selle pärast mihastigi, et meie isadel igal ise aru on, tõisel tark ja tõisel mõistlik aru!</p>
+                    </sp>
+                    <sp who="#ott">
+                        <speaker>Ott.</speaker>
+                        <p>Kallis Katt, kartust 'pole mul meeste pärast mitte, aga kartust on mul sind kautada; meie isad ei mõtlegi selle pääle, et meid paari panewad. Ja tütarlapse pääke on ka nii kerge, et otse kohe selle järele käib, mis isa käsib. Ütleb isa: Katt ära mine mehele! Siis Katt ka ei läha. Ütleb isa: Katt, mo tütreke, wõta omale üks Tartumaa mees, see on sinu wääriline! siis wõtab Katt omale Tartumaa mehe.</p>
+                    </sp>
+                    <sp who="#katt">
+                        <speaker>Katt.</speaker>
+                        <p>Ära nüüd, Ott, oma Katat nii ka teuta. Küll Kata ka teab, missugune mees tema wääriline on; temal on paljalt üks Ott ja seda ta ei jätta; ja kui see üks Ott teda ei taha, siis jääb Katta wanaks piigaks! Kas sa nüüd kuulsid?! Ega meie ka weel 'pole küsinudgi isade käest, mis nad selle asja loo kohta ütlewad. Küll meie nõuu leiame, kui meil kahekesi aga üks aru on, see tähendab, kui meil tarkust ja mõistust mõlemaid on. Watt siis wõidad sina minu isa tarkuse- ja mina sinu isa mõistusega ära.</p>
+                    </sp>
+                    <sp who="#ott">
+                        <speaker>Ott.</speaker>
+                        <p>Ja siis oleme mõlemad ise targad ja mõistlikud inimesed! Sa oled mul ikka üks Kata, missugust teist terwest kihelkonnast leida 'pole.</p>
+                    </sp>
+                    <pb n="17"/>
+                    <sp who="#katt">
+                        <speaker>Katt</speaker>
+                        <stage>(naerdes.)</stage>
+                        <p>Ja muidugi, wa' meelitaja!</p>
+                    </sp>
+                    <sp who="#ott">
+                        <speaker>Ott.</speaker>
+                        <p>Ja kui meie paaris oleme — oh seda pidu ja põlwe! — siis peab wahe Tartlaste ja Mulkide wahelt meie külas kaduma! Olgu wanad, mis nad on, aga noor põlw peab teiseks saama!</p>
+                    </sp>
+                    <sp who="#katt">
+                        <speaker>Katt.</speaker>
+                        <p>Ott, aga millal ma sinuga jälle jutule saan? Ma ei laseks sind nii pea ära minnagi, aga minu isa on wist aru saanud omas suures tarkuses, kuidas asjad meie wahel on ja ta walwab nagu oraw mu järele, loeb wiimsed jalatäied ära.</p>
+                    </sp>
+                    <sp who="#ott">
+                        <speaker>Ott.</speaker>
+                        <p>Mina awalikult ei kõlba nüüd teile tulla. Aga Katt, pane tähele! Ma tulen natukese aja pärast, kui ma tääda olen saanud, mis minu isa meie paarimineku kohta mulle ütleb — sest nüüd ma enam nalja ei tee! — Minu Kata peab nüüd mu noorikuks saama!</p>
+                    </sp>
+                    <sp who="#katt">
+                        <speaker>Katt</speaker>
+                        <stage>(hüpates.)</stage>
+                        <p>Ott, Ott, Ott, küll see oleks üks lust ja rõõm; waat' see on mu meele järele! Siis oled ssa üks nees, kui sa selle asja tooni ajad!</p>
+                    </sp>
+                    <sp who="#ott">
+                        <speaker>Ott.</speaker>
+                        <p>Et aga siin piiri peal ilma aegu wahtijaid wõiks ees olla, kes hääle asjale paljalt kahju wõiwad teha, sellepärast tulen ma natuke kentsakal wiisil. Meil on kodus suur hobuse nahk, selle wõtan ma enesele ümber ja tulen siis. Kaugelt waataja ei saa ju sest midagi aru ja hobused — ehk kui ma ka nii kõrge 'pole, siis olen ometi härg mullika kõrgune — need kõnniwad ju ümber, ilma et keegi seda imeks paneks. Olen ma aga üle piiri siin, siis<pb n="18"/> wiskan naha maha ja räägin Katale ära, kuidas meie asjad on, ning siis lähame kahekesi koos Kata isa kallale — ta peab järele andma!</p>
+                    </sp>
+                    <sp who="#katt">
+                        <speaker>Katt.</speaker>
+                        <p>Ja muidugi, ja muidugi, minu kallis Ott! Sull on seda mõistust ja tarkust! Küll sa ilma minutagi need asjad korda ajad! Aga ma ootan! Ma tahan hea meelega näha, kuidas see härja suurune hobune wälja näeb! — Kuula! kuula! keegi kõnnib metsas! Wist minu isa! Jumalaga, Ott!</p>
+                    </sp>
+                    <sp who="#ott">
+                        <speaker>Ott.</speaker>
+                        <p>Jumalaga, Jumalaga, Kata!</p>
+                        <stage>(Püüab Katat kaisutada.)</stage>
+                    </sp>
+                    <sp who="#katt">
+                        <speaker>Katt.</speaker>
+                        <p>Mis sa nüüd teed? Ott! Ma häbenen ju! Lase nüüd lahti! — Näe, nüüd näe, Ott! Eks sa ei kuule!</p>
+                    </sp>
+                    <sp who="#ott">
+                        <speaker>Ott.</speaker>
+                        <p>Mis sa siis häbened Katt, ega sa minu käest ometi enam ei pääse!</p>
+                    </sp>
+                    <sp who="#katt">
+                        <speaker>Katt.</speaker>
+                        <p>Õige ta nüüd küll on, Ott — ega ma rumal 'pole, et ma so käest weel ärapääseda tahan — aga nüüd pean minema! <stage>(ära.)</stage></p>
+                    </sp>
+                    <sp who="#ott">
+                        <speaker>Ott.</speaker>
+                        <p>Oh seda Katat! Seda ma pean ütlema, see on üks piiga! Waata kuidas ta nüüd hüppab! Ma tean, mind ta ka armastab, nagu oma silma tera ja miks ma siis sellepärast 'pea uhke olema! Niisugune neiu ja minu mõrsja! Aga ma pean ise ka jälle tunnistama, et ma üks ilus pois olen. Otsigu nemad oma Mäe külast teine niisugune Ott wälja! — Aga<pb n="19"/> nüüd ruttu ja ruttu isa kallale ja jälle tagasi Kata juure ja siis Margusse juure ja wiimaks kirikhärra juure! Hurra Ott! <stage>(ära.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>Kümnes etendus.</head>
+                    <stage>Mäe Margus.</stage>
+                    <sp who="#margus">
+                        <speaker>Mäe Margus</speaker>
+                        <stage>(püss käes, hakkab laadima.)</stage>
+                        <p>Mees, kes oma sõna ei pea, ei olegi mees. Tartumaa mees tahab sõna pidada ja mees olla. Siin on mu tulerist; wana kallis raud! Olen temaga juba mõnel loomalgi elu wõtnud, ja kui täna õnn hää on, juhtub ehl ka mõni elukas ette tulema, kelle juures ma oma küti osawust näidata wõin. Küti ja kohtumehe amet need on minu käes just kui mängu asjad. Näe, kolme aasta eest oli üks hullu aruga karu jälle Wändra metsa juhtunud ja mõisa saksad tegiwad suure jahi. Mina olin seekord Wändras onu poja juures wõersil ja juhtusin ka jahimeeste sekka. Mull 'polnud küll oma püss, aga ma arwasin — ma olen Mäe Margus ja päälegi kohtumees — ma katsun ka oma õnne. Hääkene nüüd küll! — Karu! Karu! karjusiwad kõik kütid — mõned pandsiwad plagama, mõned lasksiwad püssid lahti ja hakasiwad nutma — aga mina! Nii kui ma temale selle patsu andsin — wanal<pb n="20"/> pätsil käis kuul ristluudest läbi ja tagumine pool hakkas otse kohe rippuma. Mõned julgemad kütid lasksiwad weel omad püssid lahti ja waene karu heitis hinge ära. Noh, nüüd karjusiwad kõik: Mina lasksin karu maha! Mina lasksin karu maha! Aga ma ma ütlesin ise endamisi: Mis see maksab, et ma end kiitma hakan siin pool-Mulklaste seas! Jah, wana Margus, seda tegid sa sääl! Näita nüüd, mis ja siin teha wõid! <stage>(mõtleb.)</stage> Mis ma nüüd sestki saan, et ma tõise inimese looma otse surnuks lasen! Ma wõin jo ka natuke hirmutada. Olgu nii! Ma panen haawlite asemele hernid püssi sisse — ega need jo ometi surma tuua ei wõi! <stage>(on püssi laadimisega walmis.)</stage> Soh! Nüüd wõin siis ootama hakata! <stage>(astub põõsa taha.)</stage> Elajal on ju oma jagu tarkust ka — ei, meil Tartlastel on tarkust — elajal on ikka oma jagu mõistust ka: kui ta näeb, et inimene ees on, ega ta siis ei tule; ja kui ta näeb, et mees nagu mina, kes kolm aastat kohtumees oli, ees on, siis tunneb ta juba haisust ära, et niisuguse mehega nalja heita ei sünni. <stage>(Sammud kuulda.)</stage> Oot, Oot! katsun õnne! Sammud on kuulda! <stage>(Paneb püssi põske, Ott tuleb hobuse naha sees awgamööda.)</stage> Olgu mis on, ma lasen tal saba tagat maha! <stage>(Laseb püssi lahti; Ott tõuseb püsti, tuleb Margusse poole; Margus karjub:)</stage> Appi! appi! Luupainaja tuleb! Mulgid on kuradi wälja nõidnud! Appi! <stage>(wiskab püssi maha.)</stage> Appi! appi! Pai Wanapagan, wõi mis sa oled, lase mind lahti! Ma<pb n="21"/> müin sulle oma hinge ära, kui sa tahad! <stage>(Ott wõtab püssi, teeb, nagu paneks laengu sisse ning sihib siis Margusse peale.)</stage> Aaaa — — appi — appi! kuuljad nägijad! wa — — wana kurat laseb mind püssiga maha! <stage>(Neid sõnu on Margus karjunud.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>Üksteistkümnes etendus.</head>
+                    <stage>Endised. Katt.</stage>
+                    <sp who="#katt">
+                        <speaker>Katt.</speaker>
+                        <p>Isa! Ära karda ühtegi! See on ju meie poolemees Oru Ott, Oru talu noor peremees!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>Margus.</speaker>
+                        <p>Ott? Kas sina kuriloom tõeste oled?!</p>
+                    </sp>
+                    <sp who="#ott">
+                        <speaker>Ott</speaker>
+                        <stage>(wiskab naha ära.)</stage>
+                        <p>Mina ise jah, Mäe onu! Oli ju kõik nali! Ega ma seda ei uskunud, et sinul niisugune jahimehe nõuu sees oli! Ma tahtsin aga nii tundmata üle piiri tulla ja Kataga paar sõna rääkida.</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>Margus.</speaker>
+                        <p>Kataga?</p>
+                    </sp>
+                    <sp who="#katt">
+                        <speaker>Katt.</speaker>
+                        <p>Jah, isa, tema tahtis minuga paar sõna kõnelda. Ega sa ometi selle pärast ei wihasta, isa, et ta sinu selja tada minuga rääkida tahtis?</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>Margus.</speaker>
+                        <p>Mis Mulgi mõistus see siis wõis olla, Oru Ott, mis sina minu selja taga Katale õpetada tahtsid?</p>
+                    </sp>
+                    <sp who="#ott">
+                        <speaker>Ott.</speaker>
+                        <p>Ei olnud, kallis poole-onu, muud iseäralist mõistust ühtegi, kui natuke saladust, — ja kõige<pb n="22"/> paremad asjad on esiotsa ikka wäga salajad. Mull oli tõsine nõuu sinu palwele tulla, kallis Mäe onu, Mäe talu peremees! Meil Kataga isekeskis juba ammu nõu ärapeetud, muud kui Mäe onu luba weel — paariheitmiseks tarwis — — —</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>Margus.</speaker>
+                        <p>Paariheitmiseks?! Sina oled ju Mulk! Ära unusta ära, mis seisusest meie mõlemad oleme! See 'pole sugugi enam mõistus ega tarkus, see on ju ninatarkus!</p>
+                    </sp>
+                    <sp who="#katt">
+                        <speaker>Katt.</speaker>
+                        <p>Isa, ega Mulgid ometi murdjad 'pole. Ott on ju ometi mõistlik mees ja minu arust kõige kallim Mulk weel.</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>Margus.</speaker>
+                        <p>Minu wäimees ei pea mitte üksi mõistlik, waid ta peab ka tark olema. Seda nõuan mina. Meie oleme targad! Sina, Kata, kah!</p>
+                    </sp>
+                    <sp who="#katt">
+                        <speaker>Katt</speaker>
+                        <stage>(paludes.)</stage>
+                        <p>Targad meie nüüd küll oleme, isa, aga eks mõistlik Ott siis ka aega mööda targaks ei wõi saada?</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>Kaksteistkümnes etendus.</head>
+                    <stage>[Kõigilt poolt tulewad inimesi kokku. Oru onu, wiimaks küla koolmeister.]</stage>
+                    <sp who="#rahvas">
+                        <speaker>Üks hääl.</speaker>
+                        <p>Kus pool, mehed, see püssi pauk ja appi-hüüdmine oli?</p>
+                    </sp>
+                    <pb n="23"/>
+                    <sp who="#margus">
+                        <speaker>Margus.</speaker>
+                        <p>Mis teie nüüd nii jooksete! Siin oli paljalt üks weikene nali. Kiwiküla sepp parandas mu wana püssi ära ja nüüd ma teda siin natukene proowisin! Mis teie siis nii kartlikud olete?</p>
+                    </sp>
+                    <sp who="#oru_onu">
+                        <speaker>Oru onu.</speaker>
+                        <p>Ott, mis juttu sina siis siin puhud? Mis sa selle hobuse nahaga teed?</p>
+                    </sp>
+                    <sp who="#ott">
+                        <speaker>Ott.</speaker>
+                        <p>Armas isa, selle hobuse naha pärast räägin ma sinuga nelja silma all, aga Mäe onuga olen ka juba rääkinud, mis ma enne sinugagi rääkisin, aga onu on koguni kare. Kata aitas ka, aga ei aita midagi. Räägi, isa, sina nüüd ise natuke!</p>
+                    </sp>
+                    <sp who="#oru_onu">
+                        <speaker>Oru onu.</speaker>
+                        <p>Margus! Kui meie ise mõnikord tülitseme, siis olgu see meie asi, aga see ärgu puutugu lastesse! Kui kaua meie weel elame — nemad jääwad järele! Minu Ott on auus ja mõistlik pois ja Kata jumekas ja kena neiu ja Tartumaa inimene, mis just minu nõuu ja tahtmine on.</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>Margus</speaker>
+                        <stage>(mõteldes.)</stage>
+                        <p>Ja, ja — aga ta on Mulk!</p>
+                    </sp>
+                    <sp who="#katt">
+                        <speaker>Katt.</speaker>
+                        <p>Isa, mis sa nüüd täna oma sõnadega nii sitke oled! Ütlid ju isegi kord, et sa hää meelega seda näeks, kui Ott mind kosima tuleks! Ott on siin ja waata nüüd, mis sitke sa oled.</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>Margus</speaker>
+                        <stage>(lööb naljatades jalaga wastu maad.)</stage>
+                        <p>Olgu siis minugi pärast! Sündigu so tahtmine, Katt! Wõid Mulgiks saada!</p>
+                    </sp>
+                    <pb n="24"/>
+                    <sp who="#ott #katt">
+                        <speaker>Ott ja Katt</speaker>
+                        <stage>(hüppawad wana mehe kallale)</stage>
+                        <p>Ole terwe wanamees! Küll meie sinu tarkust ja aru auustame! olid üle aru tark sell silmapilgul! <stage>(tänawad Oru onut.)</stage></p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>Margus</speaker>
+                        <stage>(Oru onule.)</stage>
+                        <p>See tarkus on juba meie sugukonnas! Minu wanemate wanemad olnud juba targad ja minu isa oli nii tark, et ilma tee juhita Pihkwa linnas ära käis ja Tartumaa keelega korda sai. See tuli osast jälle sest, et meie keel enam haritud on kui teie keel. Mu tarkus tegi mind ka kohtumeheks ja ma rõõmustan end, et meie lapsed ka mu tarkusest aru saawad.</p>
+                    </sp>
+                    <sp who="#koolmeister">
+                        <speaker>Küla koolmeister</speaker>
+                        <stage>(ette astudes.)</stage>
+                        <p>Tere, tere, peremehed!</p>
+                    </sp>
+                    <sp who="#ott #margus #oru_onu #katt #sulane #rahvas">
+                        <speaker>Kõik.</speaker>
+                        <p>Tere, tere, auus kooliperemees!</p>
+                    </sp>
+                    <sp who="#koolmeister">
+                        <speaker>Koolmeister.</speaker>
+                        <p>Noh, mind ikka ka pulma palute? Nagu asjad praegu on, ei jää ju pulmad tulemata!</p>
+                    </sp>
+                    <sp who="#oru_onu">
+                        <speaker>Oru onu..</speaker>
+                        <p>Noh, kes nüüd ilma koolmeistrita korda saab! Sina ju ikka meie pea!</p>
+                    </sp>
+                    <sp who="#koolmeister">
+                        <speaker>Koolmeister.</speaker>
+                        <p>Õige küll! Aga tüli teie wahel, poolemehed, ei saa seega mitte lõppema, et teie lapsed paari heidawad, waid peab iseäranis tähele pantud saama, mis tüli kautab. Pange ometi need paar sõna tähele!</p>
+                        <p>"Armsad Eesti wennad ja õed!</p>
+                        <p>Kui rahu, üksmeel ja armastus teie seas peab suureks saama, siis kantke muret selle eest, et teie<pb n="25"/> tulew sugu haritud saab! Koolide eest tuleb muret kanda! Wiljandi maa ehk mis sina, Mäe Margus, Mulgimaaks nimetad, on üksi see läbi kaugemale jõudnud, et nende seas enam püüdmist parema ja kallima asjade järele, õppimise, waimu harimise järele on. Aga paraku ka Wiljandi mees ei pea koolist weel suurt lugu! Aga wennad tehke koolide tarbeks tööd! Ja sina, Mäe Margus, pea iseäranis selle eest omas külas muret, siis langewad waheseinad Tartlaste ja Mulkide wahelt maha!"</p>
+                    </sp>
+                    <sp who="#ott">
+                        <speaker>Ott.</speaker>
+                        <p>Mina annan omalt poolt kohe 50 rubla Aleksandri kooli heaks!</p>
+                    </sp>
+                    <sp who="#oru_onu">
+                        <speaker>Oru onu.</speaker>
+                        <p>See on õige, poeg! Mina annan ka 50 rubla!</p>
+                    </sp>
+                    <sp who="#sulane">
+                        <speaker>Sulane.</speaker>
+                        <p>Noh, kui siis täna just niisugune püha on, siis annan ma ka 25 kop.</p>
+                    </sp>
+                    <sp who="#rahvas">
+                        <speaker>Mitu häält.</speaker>
+                        <p>Mina annan 1 rubla — 25 kop.</p>
+                        <p>10 kop. — — —</p>
+                    </sp>
+                    <sp who="#koolmeister">
+                        <speaker>Koolmeister.</speaker>
+                        <p>Pidage, pidage! Härga peetakse sarwest, meest sõnast! Ma kirjutan teie nimed kohe ülesse <stage>(wõtab põue-raamatu ja kirjutab.)</stage></p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>Mäe Margus.</speaker>
+                        <p>Mis asi see Aleksandri kool siis on? <stage>(naer.)</stage></p>
+                    </sp>
+                    <sp who="#koolmeister">
+                        <speaker>Koolmeister.</speaker>
+                        <p>See kool saab alles ehitatud ja on üks ülem Eesti poeglaste kool.</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>Margus.</speaker>
+                        <p>Kas siis Mulka ka sinna kooli wastu wõetakse?</p>
+                    </sp>
+                    <pb n="26"/>
+                    <sp who="#koolmeister">
+                        <speaker>Koolmeister.</speaker>
+                        <p>Ja muidugi, — kes aga Eesti keelt oskab!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>Margus</speaker>
+                        <stage>(mõtleb.)</stage>
+                        <p>Noh, — olgu siis nii! — pane minu nimi ka 50 rublaga ülesse!</p>
+                    </sp>
+                    <sp who="#katt">
+                        <speaker>Katt</speaker>
+                        <stage>(häbelikult.)</stage>
+                        <p>Minu poolt 5 rubla!</p>
+                    </sp>
+                    <sp who="#oru_onu">
+                        <speaker>Oru onu</speaker>
+                        <stage>(annab Margussele kätt.)</stage>
+                        <p>Poolemees, siin on mu käsi — nüüd oleme sõbrad!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>Margus.</speaker>
+                        <p>Jah! Mulk sa küll oled, aga ma armastan sind! Sa oled südi mees!</p>
+                    </sp>
+                    <sp who="#koolmeister">
+                        <speaker>Koolmeister.</speaker>
+                        <p>Olge wennad mõistlikud, targad mehed! Waat', seda ma soowin! Tarkus ilma mõistuseta 'pole midagi wäärt; mõistus nõuab aga omale tarkust abiriistaks! Waat', Mäe Margus, nii on asi!</p>
+                    </sp>
+                    <sp who="#margus">
+                        <speaker>Margus.</speaker>
+                        <p>Ma saan ka juba aru, mis mõistus on.</p>
+                    </sp>
+                    <sp who="#margus #oru_onu #koolmeister #ott #katt #sulane #rahvas">
+                        <speaker>Kõik.</speaker>
+                        <p>Elagu Aleksandri kool! pruutpaar! Mulgid! Tarkus ja Mõistus!</p>
+                    </sp>
+                    <sp who="#rahvas">
+                        <speaker>Üks hääl.</speaker>
+                        <p>Ja Mäe Margus ja Oru onu, elagu!</p>
+                    </sp>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
