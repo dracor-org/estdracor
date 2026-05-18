@@ -510,7 +510,7 @@
             <div type="scene">
                 <head>Kaheksas etendus.</head>
                 <stage>Külakohtumees ja Sillakubjas Jüri Kaarmann.</stage>
-                <sp who="kaarmann">
+                <sp who="#kaarmann">
                     <stage>(Ametiraha rinnas, suur pitk raamat kaenlas.)</stage>
                     <p>Soh! Nüüd on siis peaaegu kõik asjad joonel ja toonis. Teede katsuja saab homme läbi sõitma ja kuid teed korras, saan ma jälle oma suutäis kiita — wõib ka wõimalik olla, et tulewal aastal weel koguni kihelkonna kohtumeheks saan walitud. <stage>(Waatab oma protokolli raamatusse.)</stage> Koodioru metsa tee, kraawid, truubid ja werstatulbad on ilusas korras. Ma olen ka seie juure kirjutanud: "Koodioru tee: tobri!" Lindsiweski tamm ja sild: tobri! Aga Tagametsa alune tee on kui pudru pada. Sealt ei saa meie rewident ka kuue paari ratastega läbi. Sinna on natuke trahwi tarwis. Jah, trahwi tarwis! Ma olen ka seie juure kirjutanud: "Trahwi on tarwis!" Ma tahan näidata, kas mul jõuudu on ehk ei, wõi mis? Jüri Kaarmann ei kanna mitte ilma asjata hõbedast raha rinnas! — Kuidas siis siin Aru- ja Marjamäe aluse teega lugu on? Waatan järele, kui korras, siis kirjutan protokolli raamatusse: tobri! Kui mitte, siis ma tahan aga näidata, kes ma olen. <stage>(Näeb kiwi.)</stage> So, sooh! Niisugune ordnuk on siin! Suured kiwid wersta tulba kõrwas, nagu oleks see seaduselik tulp mõni kupitsa tikk olema. See näitab just seaduse pilkamine olema. Oot, oot! Jüri Kaar<pb n="20"/>mann'il on oma jõuud ka. Ma tahan kohe protokolli ülesse wõtta. <stage>(Kirjutab:)</stage> "Aruküla aluse tee wersta tulba kõrwas on üks suur kiwi, mis seaduse wastu on ja igal ristiinimesel kaela wõib langeda, iseäranis wihmasel ajal, kus wihmaussid kiwi alt wälja roomawad ja mulla libedaks teewad, nii, et kiwi üks, kaks, kolm kesk teed on." Waatan siis ometi järele kuidas muu asjadega lugu on. Tee kraawid on puhtad: <stage>(Kirjutab:)</stage> "Tee kraawid on puhtad: ganz gut!" Sild on korras. <stage>(Kirjutab:)</stage> "Sild on korras: ganz gut!" <stage>(Jääb wersta tulba ette seisma.)</stage> No, noh, mis mu silmad siis siinsamas jälle näewad!?! Kolm suurt risti wersta tulba peal! Kas nüüd pole ilma ots käes! Niisugune äraneedmise wäärt töö! Jüri Kaarmann, näita nüüd, mis sa wõid!! Ja nüüd tahan ma ka näidata, mis ma wõin! <stage>(Istub kiwi peale.)</stage> Ma tahan kõik protokolli panna, wiimane kui tips! <stage>(Kirjutab hulk aega ja loeb siis waljuste:)</stage> "Aru- ja Marjamäe all maantee peal, 16. Juunil 1872. Koos oli: Jüri Kaarmann, külakohtumees ja sillakubjas. Ja tema tegi selle protokolli tee rikkumise ja wersta tulba määrimise ja trötsimise üle.</p>
                     <p>№ 1. Jüri Kaarmann leidis suure kiwi wersta tulba kõrwas ja paneb tema protokolli, sest et niisugune kiwi wäga suurt kahju wõib teha, iseäranis wihmasel ajal, kus wihmaussid kiwi tõeste tee peale lükkawad. Niisuguse kiwi pärast on tarwis sügawalt järele mõtelda.</p>
@@ -538,7 +538,7 @@
                     <speaker>Üks naene.</speaker>
                     <p>Jumal Issake, mis meist nüüd saab! Minu Kaarli jäi Aru kõrtsi; kui ta wast sinna juhtub!</p>
                 </sp>
-                <sp who="mees-3">
+                <sp who="#mees-3">
                     <speaker>Kolmas.</speaker>
                     <p>Ega ta ei näinud, et meie ka toroga*) peal olime! *) toroga = kõrts.</p>
                 </sp>
