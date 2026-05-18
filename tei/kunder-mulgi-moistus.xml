@@ -71,7 +71,12 @@
                     </person>
                     <person xml:id="rahvas">
                         <name>Rahwas</name>
-                    </person>   
+                    </person>
+                    <listRelation>
+                        <relation name="parent_of" active="#margus" passive="#katt"/>
+                        <relation name="parent_of" active="#oru-onu" passive="#ott"/>
+                        <relation name="lover_of" active="#katt" passive="#ott"/>
+                    </listRelation>   
                 </listPerson>
             </particDesc>
         </profileDesc>
@@ -108,7 +113,7 @@
             <pb n="3"/>
             <titlePage>
                 <titlePart type="main">Mulgi möistus ja Tartlase tarkus.</titlePart>
-                <titlePart type="sub">Nalp ühes näituses.</titlePart>
+                <titlePart type="sub">Nali ühes näituses.</titlePart>
                 <docDate>(1874.)</docDate>
             </titlePage>
             <castList>
