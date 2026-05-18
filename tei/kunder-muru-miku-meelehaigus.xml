@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="est000013" xml:lang="et" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Muru Miku meelehaigus</title>
+                <title type="sub">Nali ühes näituses</title>
+                <author>
+                    <persName>
+                        <forename>Juhan</forename>
+                        <surname>Kunder</surname>
+                        <idno type="wikidata">Q12365486</idno>
+                    </persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>University of Tartu digital archive ADA</name>
+                    <idno type="URL">http://hdl.handle.net/10062/8005</idno>
+                    <availability>
+                        <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <author>
+                            <persName>
+                                <forename>Juhan</forename>
+                                <surname>Kunder</surname>
+                            </persName>
+                            <idno type="wikidata">Q12365486</idno>
+                        </author>
+                        <title type="main">Muru Miku meelehaigus.</title>
+                        <title type="sub">Nali ühes näituses.</title>
+                        <date when="1881">1882</date>
+                        <publisher>Schnafenburg</publisher>
+                        <pubPlace>Tartu</pubPlace>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+        <particDesc>
+            <listPerson>
+                <person xml:id="mikk" sex="MALE">
+                    <persName>Muru Mikk</persName>
+                </person>
+                <person xml:id="andres" sex="MALE">
+                    <persName>Oru Andres</persName>
+                </person>
+                <person xml:id="maert" sex="MALE">
+                    <persName>Marjamäe Märt</persName>
+                </person>
+                <person xml:id="kaarmann" sex="MALE">
+                    <persName>Jüri Kaarmann</persName>
+                </person>
+                <person xml:id="maret" sex="FEMALE">
+                    <persName>Maret</persName>
+                </person>
+                <person xml:id="maie" sex="FEMALE">
+                    <persName>Maie</persName>
+                </person>
+                <person xml:id="kaie" sex="FEMALE">
+                    <persName>Kaie</persName>
+                </person>
+                <person xml:id="naine-1" sex="FEMALE">
+                    <name>Üks naene</name>
+                </person>
+                <person xml:id="naine-2" sex="FEMALE">
+                    <name>Teine naene</name>
+                </person>
+                <person xml:id="mees-1" sex="MALE">
+                    <name>Esimene mees</name>
+                </person>
+                <person xml:id="mees-2" sex="MALE">
+                    <name>Teine mees</name>
+                </person>
+                <person xml:id="mees-3" sex="MALE">
+                    <name>Kolmas mees</name>
+                </person>
+                <personGrp xml:id="poisikesed" sex="MALE">
+                    <name>Kaks poisikest</name>
+                </personGrp>
+                <listRelation>
+                    <relation name="parent_of" active="#maert" passive="#maie #kaie"/>
+                    <relation name="parent_of" active="#andres" passive="#maret"/>
+                    <relation name="lover_of" active="#maret" passive="#mikk"/>
+                    <relation name="siblings" mutual="#maie #kaie"/>
+                </listRelation>
+            </listPerson>
+        </particDesc>
+    </profileDesc>
+    </teiHeader>
+    <standOff>
+        <listEvent>
+            <event type="print" when="1882">
+                <desc/>
+            </event>
+            <event type="written" when="1874">
+                <desc/>
+            </event>
+        </listEvent>
+    </standOff>
+    <text>
+        <pb n="1"/>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">Muru Miku meelehaigus.</titlePart>
+                    <titlePart type="sub">Nali ühes näituses.</titlePart>
+                </docTitle>
+                <note>
+                    <p>Eesti näitemängu sõbradele.</p>
+                </note>
+                <byline>"Tartlase tarkus ja Mulgi mõistus"e kirjutajast.</byline>
+                <epigraph>
+                    <cit>
+                        <quote>
+                            <l>Nüüd om, welle, armas aiga,</l>
+                            <l>Kallis kasu-põlwe aiga:</l>
+                            <l>Pilli nüüd jooseb peränä,</l>
+                            <l>Nali kõrwana kõneleb.</l>
+                        </quote>
+                        <bibl>(Rahwa laul).</bibl>
+                    </cit>
+                </epigraph>
+                <docImprint>
+                    <pubPlace>Tartus </pubPlace>
+                    <date>1882.<lb/></date>
+                    <publisher>Trükitud Schnakenburg'i kuluga.</publisher>
+                </docImprint>
+                <pb n="2"/>
+                <imprimatur>Zensuri poolest lubatud. — Tallinnas, 5. Mail 1882.</imprimatur>
+                <note><p>Wiljandis trükitud F. Feldt'i kirjadega.</p></note>
+            </titlePage>
+            <pb n="3"/>
+            <titlePart type="main">Muru Miku meelehaigus.</titlePart>
+            <titlePart type="sub">Nali ühes näituses.</titlePart>
+            <castList>
+                <head>Mängijad.</head>
+                <castItem>
+                    <role>Muru Mikk, </role>
+                    <roleDesc>Pärnumaa päris-peremees.</roleDesc>
+                </castItem>
+                <castGroup>
+                    <castItem>
+                        <role>Aru Andres,</role>
+                    </castItem>
+                    <castItem>
+                        <role>Marjamäe Märt, </role>
+                    </castItem>
+                    <roleDesc>peremehed (ühte nägu ja ühtemoodi riidis).</roleDesc>
+                </castGroup>
+                <castItem>
+                    <role>Jüri Kaarmann, </role>
+                    <roleDesc>külakohtumees ja sillakubjas.</roleDesc>
+                </castItem>
+                <castGroup>
+                    <castItem>
+                        <role>Maret, </role>
+                        <roleDesc>Aru Andres'e tütar</roleDesc>
+                    </castItem>
+                    <castGroup>
+                        <castItem>
+                            <role>Maie,</role>
+                        </castItem>
+                        <castItem>
+                            <role>Kaie,</role>
+                        </castItem>
+                        <roleDesc>Marjamäe Märdi tütred</roleDesc>
+                    </castGroup>
+                    <roleDesc>(ühte nägu ja peaaegu ühtemoodi riidis).</roleDesc>
+                </castGroup>
+                <castItem>
+                    <role>Külarahwas.</role>
+                </castItem>
+            </castList>
+            <set>
+                <p>Mängimise hoht: Aru ja Marjamäe alune maantee.</p>
+                <p>Maantee ääres on werstatulp ja põõsad.</p>
+                <note>
+                    <p>1874.</p>
+                </note>
+            </set>
+        </front>
+        <pb n="4"/>
+        <pb n="5"/>
+        <body>
+            <div type="act">
+                <div type="scene">
+                    <head>Esimene etendus.</head>
+                    <stage>Aru Andres (pool jampsides).</stage>
+                    <sp who="#andres">
+                        <p>Mina — mina — oh mina — oh mina wiimane! Oh mina rumal! Oh mina hallpea — ei, oh mina hall lambapea! Oh mina äraarwamata, ülessekaalumata, ülessepoomata ja ärauputamata narr! Kas minul wana päewade sees weel niisugune otsatu, niisugune põhjatu rumalus meelde pidi tulema, oma tüttart, oma kallist Maretat, oma kanamuna, Muru Mikule mõrsjaks lubada! Waata ise järele <stage>(wõtab kübara maha)</stage> pea hall kui kulu, aga ikka weel rumalust täis. — Tema pööratu Mikk, kas tal ka aru peas on! Üleheile käib ta alles minu Maretal kosjal ja täna — ega mo silmad ometi ära nõiutud pole — ajab tema nii salajat ja mahedat juttu Marjamäe Kaiega, nagu ei oleks minu Maretat olemaski! — Ma arwasin juba ette ära, ega sest midagi wälja ei tule. Tema elab mõni 185 wersta kaugel — saada nüüd oma laps sinna wõõraste inimeste sekka, ja kes tema rikkust wõi warandust näinud. Jumal Issa<pb n="6"/> Jumala Pojuke! Kus mo pea ommeti oli, kui ma selle tembu ära tegin! On ikka wanal sõnal ka oma õigus, kui ta ütleb: wana pea, warsa aru! — Olgu mis on, mees peab ka sellegi pärast meheks jääma! Muru Mikk ei saa minu tüttart! Nii tõeste kui mu nimi Aru Andres on! Niisugust wäimeest ma ei salli! Minu wäimees peab üksi minu tütre aga mitte terwe küla tüttarte oma olema! Olgu selle peale kolm risti selle wersta tulba peale tõmmatud! <stage>(Tõmbab kriidiga kolm risti.)</stage> Ma wannun sellepeale: Senikaua kui ma ise neid rista siit maha ei kustuta, ei pea ka Mikk minu tüttart omale saama! Seda ütleb Aru Andres Andresson. <stage>(ära.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>Teine etendus.</head>
+                    <stage>Marjamäe Märt (niisama möllates).</stage>
+                    <sp who="#maert">
+                        <p>Oh mina — oh mina seitsmesopiline kamajahukott! Oh mina kergemeeleline inimene! Siis mina pidin weel niisuguse tembu ära tegema! Kes oleks seda uskunud? Mina pidin oma Kaie Muru Mikule mõrsjaks lubama! Ja tema kergemeelega loom olla alles üleheile Aru Andresse Maretaga kosja wiina joonud. — Marjamäe Märt, kas sa purjus olid, wõi mis sull ommeti wiga oli? Muidu ütlesin ma ikka: "Ei maksa wõõramaa inimestega niisugust kaupa teha!"<pb n="7"/> Ja waata, mis sa nüüd ise tegid! — Ei! Ei! ja weel kakskümmend wiis korda ei! Selle tüki teen tagasi! Muru Mikk ei saa enam minu Kaie nähagi. Minu Kaie leiab paremaid mehi meie oma maalt, niisamma minu Maie ka. Aitumma Jumalale, ei ole minu lapsed niisugused, kes rumalad on wõi nii; neil on pale lapikesed punasemad kui mõnel opmanni mamselil ja aru poolest on nad mo oma laadi lapsed ja minu tasku pole jo ka mitte tuult täis. Saame ometi näha, kas niisugused lapsed kolletama jääwad, kel niisugused weime wakad on! Aga Muru Mikk mingu oma teed! Selle kiwi weeretan ma seie wersta tulba kõrwa oma wande kinnituseks. Niisama wähe kui ma seda kiwi ise ära weeretan, saan ma oma Kaie Muru Mikule lubama. <stage>(Weeretab suure kiwi wersta tulba juure.)</stage> Sooh!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>Kolmas etendus.</head>
+                    <stage>Märt ja Andres (tuleb)</stage>
+                    <sp who="#andres">
+                        <speaker>Andres.</speaker>
+                        <p>Tere, naaber! Mis sa nüüd teed? Ega sa ometi mõnda Paabeli torni wõi Aleksandri koolimaja ei hakka ehitama.</p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt.</speaker>
+                        <p>Tere, jumalime! Sest ei saa, Andres, kedagi Paabeli torni ega Aleksandri koolimaja; see<pb n="8"/> on aga paljalt üks mehine pitseri märk, mis mu wannet ja sõna kinnitab.</p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>Andres.</speaker>
+                        <p>Mis sa siis nii hullust peast oled wandnud, et seda kiwidega kinni katad?</p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt.</speaker>
+                        <p>Ega sa ise ei tea jah? Ega sinu ja minu tütrel ometi kaheksi üks mees kokku ei wõi olla. Ma olen Muru Miku oma teed saatnud. Wõta ta petis oma wäimeheks kui tahad! Ma kade ei ole! Selle täheks, wa naaber, olen ma selle kiwi seie weeretanud.</p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>Andres.</speaker>
+                        <p>Mina olen ennem juba Muru Miku ära saatnud. Waata mis seal wersta tulba peal on!</p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt.</speaker>
+                        <p>Sääl on kolm risti.</p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>Andres.</speaker>
+                        <p>Sääl on kolm risti jah. Aga mis need kolm risti sääl tähendawad?</p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt.</speaker>
+                        <p>Ei tea.</p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>Andres.</speaker>
+                        <p>Need ristid tähendawad seda: Mina, Aru Andres Andresson, olen Muru Miku ära saatnud. Tema ei tohi enam selle peale mõteldagi, et ta weel minu Mareta mõrsjaks saab. Katsu, Märt, seda tähendawad need kolm risti. Ja see on weel nii kindel, et kui ma ise need kolm risti ära kustutan, siis ehk saab Mikk minu wäimeheks. Aga seda ma ei tee!</p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt.</speaker>
+                        <p>Just nendasama on minu kiwiga lugu ka. Ma arwan, minu pärast jääb see kiwi igaweste seie seisma.</p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>Andres.</speaker>
+                        <p>Ma arwan, mu ristid jääwad ka minu pärast igaweste seisma. Kui wõõras käsi nad ärapühib, ega see mu wannet ei riku.</p>
+                    </sp>
+                    <pb n="9"/>
+                    <sp who="#maert">
+                        <speaker>Märt.</speaker>
+                        <p>See on wäga hea, et ta Pärnumaa petis nii ühe rapsuga minema saab saadetud! Ma ei mõista, mis aru tal wanapaganal ometi peas on, et ta niisuguseid janta teeb. Ühekorraga kaks noorikut kosida on jo selge Türklase temp.</p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>Andres.</speaker>
+                        <p>Mu mõtted on päris segased. Kuulsin külas kõnelema, et Mikk muud ühtegi 'polla, kui üks Pärnumaa mõisa karjamees.</p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt.</speaker>
+                        <p>So, so! Nüüd lähawad asjad haruliseks. Ta kuriloom näitas aga mulle oma talu ostmise kontrahti. Ja all oli suur pitser, mitu kohtu härra ja kirjutaja nime ja ühe nime all oliwad weel kolm risti, nagu seal wersta tulba peal, jo need ka wannet ja õigust tähendawad.</p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>Andres.</speaker>
+                        <p>Kas tal ka pass ligi oli?</p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt.</speaker>
+                        <p>Pudel oli kül kaasas; seda ta passiks nimetas. Aga kas tal plagat-passi oli, seda ma kül ei tea.</p>
+                    </sp>
+                    <sp who="#andres">
+                        <speaker>Andres.</speaker>
+                        <p>Olgu naabrite wahel paar sõna sõbra juttu. Meie ei saa nüüd muidu järje peale, laseme see kelmistükk kogukonna kohtu ees läbi katsuda ja Mikku natuke pinnida. Auu on enam wäärt, kui häbi. Pärast saab Mikk ja terwe küla meie tüttarde üle naerma, kas see meile auu teeb?</p>
+                    </sp>
+                    <sp who="#maert">
+                        <speaker>Märt.</speaker>
+                        <p>See on õige, naaber! Meie anname asjaluo jalapealt wallakohtumehe ja sillakubja Jüri Kaarmann'ile teada.</p>
+                    </sp>
+                    <pb n="10"/>
+                    <sp who="#andres">
+                        <speaker>Andres.</speaker>
+                        <p>Wõta selle peale mo käsi, Märt, seda teeme! <stage>(ära.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>Neljas etendus.</head>
+                    <sp who="#mikk">
+                        <speaker>Muru Mikk.</speaker>
+                        <p>Mina ei tea, kas ma olen enam Muru Mikk, wõi ei. Mu peaajud ja silmanägemine on rikutud, ma arwan, et ma pea nõdraks jään. Kas niisugust keerulist lugu keegi enne eluilmas on näinud! Minu Mareti isa hing on kahe mehe sees. Oh seda ime-kui-imelikumat asja! Tema ta oli, aga kahe keha sees ja kõneles kahest tütrest. Mina ei tea, mis ma nüüd rääkima wõi mõtlema pean, kui mul niisugune äiataat kahes wihus wasta tuleb. — Ah, ah, sealt tuleb mo Maret. Kül see mulle asja õieti ära seletab! Tema ikka oma isa kõige paremine tunneb. <stage>(Maie aga tuleb.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>Wiies etendus.</head>
+                    <stage>Mikk. Maie.</stage>
+                    <sp who="#mikk">
+                        <speaker>Mikk.</speaker>
+                        <stage>(Maiele wasta minnes)</stage>
+                        <p>Tere, kallis silmaterake, munamagus Maretake! Olin suures segaduses.<pb n="11"/> Ei teadnud kahte, ei kolme lugeda. Ütle ometi kulla laps, on sul üks isa wõi kaks? On su isa üks waim, wõi üks nõid? Mina temast aru ei saa. Ta ajas siin praegu iseenesega juttu ja seisis enese ees.</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie.</speaker>
+                        <p>Külamees, mis Sul wiga on? Kas Sa hull oled! Wõi minu isa waim ja nõid. Ära Sa teeni, et ma Kaarmann'i juure lähan! Mis Sul teiste inimeste isaga tegu on?</p>
+                    </sp>
+                    <sp who="#mikk">
+                        <speaker>Mikk.</speaker>
+                        <p>Ei, ei! kallike, kullake, Maretake, ega ma paha ei mõtelnud. Oma tulewase kaasakese isa üle ei mõtle ma millalgi pahaste. Ma olin aga natuke segane — <stage>(järele mõteldes)</stage> — ma kül paha ei mõtle, aga — Teie isa — — kui ta mitte nõid ei ole, siis on ta — ei, ei — — siis on minul suur haigus oodata, sest niisugused näitused ei tähenda head. — Aga Maret, seleta mulle see asi ära! Ma pean ometi teadma, mis mees mu tulewase kaasakese isa on.</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>Maie.</speaker>
+                        <p>Mis pagana kaasakese ja nõia lugu see on? Ma pole Sind ilmasgi enne näinud. Ja niisuguse hullu mehe ajaks mu isa wemblaga minema. <stage>(ära.)</stage></p>
+                    </sp>
+                    <sp who="#mikk">
+                        <speaker>Mikk.</speaker>
+                        <stage>(waatab ülesse poole)</stage>
+                        <p>Ma waatan, kas wast pilwed ülewalt alla mu selga ei lange. Nüüd ei ole enam maa peal ristiinimese lugu. Ka minu Maret on pöörane. Ta ei tunne mind enam! Mikk, Mikk, sinu meelehaigus on otsata! Wõib ka olla, et ma juba hull olen. Oleks ma parem Pärnumaale jäänud, <pb n="12"/> ei ma seal niisugusi pöörasi inimesi poleks näinud! Siin on teine maailm.</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>Kuues etendus.</head>
+                    <stage>Mikk. Maret.</stage>
+                    <sp who="#maret">
+                        <speaker>Maret.</speaker>
+                        <stage>(tulles, lahkelt)</stage>
+                        <p>Tere, Mikk! Miks sa nii kurb oled ja siin kesk maanteed seisad? Ootasin sind ammugi juba meile tulema. Kus sa nüüd olid heile ja täna? Isa on korraga kes teab misläbi nii karuseks läinud, et enam kosjaluo peale mõteldagi ei lase. Mikk, meie palume teda seni, kuni ta järele annab! Ma tunnen teda, ega ta ometi nii kiwi kõwa ei saa olema.</p>
+                    </sp>
+                    <sp who="#mikk">
+                        <speaker>Mikk.</speaker>
+                        <p>Kallis Maret, ole nüüd ka ometi inimene ja märka meelt! Enne sa läksid wihastates ja turtsutes minema, ja nüüd oled jälle soe ja jõbralik nagu tuipojake. Mina ei saa sinust aru.</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret.</speaker>
+                        <p>Mikk, kas sa und näed? Mina wihastasin ja turtsusin? Millal see oli?</p>
+                    </sp>
+                    <sp who="#mikk">
+                        <speaker>Mikk.</speaker>
+                        <p>Noh, olgu mis oli! Ma unustan selle ära. Aga see asi mis ma ennegi küsisin kipitab mul südame peal; ole armas laps ja anna mulle üks mõistlik wastus!</p>
+                    </sp>
+                    <pb n="13"/>
+                    <sp who="#maret">
+                        <speaker>Maret.</speaker>
+                        <p>No küsi ometi, Mikk! Miks ma sulle mõistlikult ei peaks wastama? Tead jo isegi kuidas asjad meie wahel on.</p>
+                    </sp>
+                    <sp who="#mikk">
+                        <speaker>Mikk.</speaker>
+                        <p>Ära siis, kallis Maret, waleta — ütle    selget tõt: "On so isa nõid ehk mitte?"</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret.</speaker>
+                        <stage>(kohkudes)</stage>
+                        <p>Kulla Mikk, mis su meeles on?! Minu isa nõid? Mis ta sulle ütlema saab, kui ta seda kuuleb! Siis on meie asjad otse otsas. Ega sa ometi tõt ei räägi, Mikk? Sa tahtsid minuga paljalt nalja heita!</p>
+                    </sp>
+                    <sp who="#mikk">
+                        <speaker>Mikk.</speaker>
+                        <p>Sula tõsi! Kallis Maret, mull on raske haigus oodata. Mõtle, ma nägin täna sinu isa hinge kahe mehe sees; üks kui üks.</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret.</speaker>
+                        <p>Mikk, mis juttu sa ajad? Minu isa waim kahe mehe sees?!</p>
+                    </sp>
+                    <sp who="#mikk">
+                        <speaker>Mikk.</speaker>
+                        <p>Tõsi! Ma wõtan wõi minu pärast surma rohtu selle peale. Sinu isal on kaks keha, ja sina, Maret, oled ka — — ma ei tea, mis lugu sinuga on; sul on ka kaks hinge. Ega see Maret ometi üks õige inimene ei olnud, kes paari pilgu eest siin oli. Oleks sa mitte nii wäga ilus ja lahke olema, ma jätaks sind kohe maha ja paneks jalgsi Pärnu poole plagama.</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret.</speaker>
+                        <p>Mikk, ära halp ole! Siin küla keskel on mitmesugusi inimesi näha; kes selle eest wõib seista, et siin ka ühe näulisi pole? Minu isa ja Marjamäe Märt on kui ühest suust maha kukkunud.<pb n="13"/> Ja jälle mina ja jälle Marjamäe tüdrukud oleme jälle ühte nägu, ühe wanused ja peatselt ühe suurused.</p>
+                    </sp>
+                    <sp who="#mikk">
+                        <speaker>Mikk.</speaker>
+                        <p>Tühi jutt, Maret, ma olen ka juba mõnda maailmas näinud ja minu wanaema rääkis mulle lapsepõlwes ühe wäga hirmsa luo niisugustest inimestest, kel kaks hinge olla. <stage>(Maie ja Kaie on Miku selja taga tulnud.)</stage></p>
+                    </sp>
+            </div>
+            <div type="scene">
+                <head>Seitsmes etendus.</head>
+                <stage>Endised. Maie. Kaie (annab Maretale iseäranis märki.)</stage>
+                <sp who="#maret">
+                    <speaker>Maret.</speaker>
+                    <stage>(märkab asja ise endamisi)</stage>
+                    <p>Kui lugu nenda, siis wõime Mikuga natuke edasi naljatada.</p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Mikk.</speaker>
+                    <p>Minul on siis nüüd ometi sellegipärast nõuu Arule minna ja sinu isaga asjad kokku rääkida. Saan näha, kuidas lugu lähab. On asjad toonis, siis peab minu Maret minu süles täna istuma.</p>
+                    <stage>(Ümberpöördes tuleb Kaie ette, Maret lähäb Miku selja taha ja annab Maiele märki.)</stage>
+                </sp>
+                <sp who="#kaie">
+                    <speaker>Kaie.</speaker>
+                    <p>Ja muidugi. Sinu kõrwas ja sinu kaelas ja sinu süles ja sina jälle minu kõrwas ja minu kaelas, kallis, kaunis, lõbus, lahke Pärnumaa Mikk.</p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Mikk.</speaker>
+                    <stage>(kohmeldes)</stage>
+                    <p>Maret, Maret, sinuga ei ole enam õige lugu! Sul näitawad tiiwad särgi all olema.</p>
+                </sp>
+                <sp who="#kaie">
+                    <speaker>Kaie.</speaker>
+                    <p>Mine ikka! Noorel lapsel peawad jo kerged jalad olema. Ja kas sina, Mikk, minu noor<pb n="15"/> lõukoer, ühte laisajalalist neiut kosima lähäks! Kül sa mind pärast poole tundma õpid.</p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Mikk.</speaker>
+                    <stage>(mõteldes)</stage>
+                    <p>Jah, pärast tundma õpid! Mis sa siis weel tunned wõi oled, kui ta sul käes on: Kas siis tundmine weel midagi aitab wõi maksab. <stage>(Seni on Maie Mikku ette tulnud)</stage><stage type="inline">(kohkudes:)</stage> Maret, Maret! Mis sa nüüd ometi teed! Jälle seesama paha nägu, kes natukese aja eest siin oli!</p>
+                </sp>
+                <sp who="#maie">
+                    <speaker>Maie.</speaker>
+                    <stage>(pahaselt)</stage>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Mikk.</speaker>
+                    <p>Mina sõidan nüüd ära Pärnumaale, Maret, ja jätan sind maha. Mind naerab terwe Pärnumaa wälja, kui mul niisugune pool nõida naiseks on, kes iga silmapilk teisel näul ja teul minu ees seisab. Wii oma isale, selle pea-nõiale, palju terwit ja ütle, et Muru Miku meelehaigus nii suureks läinud olla, et ta ära kodumaile sõitnud. <stage>(Maie, Kaie, Maret astuwad Miku ette. Miku kui tulp, silmad taewa pool.)</stage> Issa meie, kes sa oled taewas! Peasta Muru Miku kurjast ära! Issa, Issa Pojuke, Püha waimuke! Maret — Maret ja wõid end sõawäeks muuta. Lase waene Miku lahti, ta kardab sind!</p>
+                </sp>
+                <sp who="#maret">
+                    <speaker>Maret.</speaker>
+                    <stage>(Miku käest kinni wõttes)</stage>
+                    <p>Minu Miku! Nüüd olgu meie nali ka kord otsas! Waata õieti minu otsa! Kas ma olen su Maret?</p>
+                </sp>
+                <pb n="16"/>
+                <sp who="#mikk">
+                    <speaker>Mikk.</speaker>
+                    <stage>(waatab kaua Mareta otsa, pahemalt ja paremalt poolt etc.)</stage>
+                    <p>Jah, sa oled minu Maret. Aga need tõised on jo ka Maretad. Nõidus!</p>
+                </sp>
+                <sp who="#maret">
+                    <speaker>Maret.</speaker>
+                    <p>Sinu silm ei seleta heasti. Waata ometi nende otsa!</p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Mikk.</speaker>
+                    <stage>(waatab mõlemate otsa. Maie ja Kaie hoidwad naeru esite kinni, pärast aga naerwad suure healega)</stage>
+                    <p>Nüüd hakkab ikka asi selguma! Waat, mis imelik inimene siis on, kui ta armastab ja õieti oma mõrsja otsa ei julge waadatagi: ta ei saa maast ega ilmast aru. Kuidas wõisin ma ometi neid kahte neiut ka omaks Maretaks pidada. Nad 'pole jo-gi ühe suurused. Waata sellel walge, sellel lilla ja minu Maretil jälle koguni ilus roosi ja munarebu karwa põll ees.</p>
+                </sp>
+                <sp who="#maret">
+                    <speaker>Maret.</speaker>
+                    <p>Waata nüüd, Mikk, ma sain kohe aru kuidas asjad olimad. Naabri Aru talu tüdrikud, nagu ma ütlesin, on jo minuga ühte nägu — aga sa ei uskunud. Sa oled ka mind Kaiega ära wahetanud ja tema isaga ka koja juttu puhunud. Ütle ometi, Mikk, kuidas wõisid sa kaks korda kosjas käia?</p>
+                </sp>
+                <sp who="#kaie">
+                    <speaker>Kaie.</speaker>
+                    <stage>(naeratades)</stage>
+                    <p>Aga Mikk, kas Sa siis nüüd minu maha jätad?</p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Mikk.</speaker>
+                    <p>Mis Sa nüüd pilkad! Aga pea, pea ma hakan oma Maretale seda keerulist asja seletama. Mina olin sulle, Maret, kosja wiina wiinud ja sina wõtsid nad lahkeste wasta ja olid seega minu oma.<pb n="17"/> Minu onupoeg on jo teie külas koolmeister ja selle juurest tulles sain nüüd ühe mehega kokku, kes justament sinu isa näitas olema, sest kes isaks nii palju tahab wahtida ja tunnistada, kui ta tütre kõrwas istub. Ma arwan see mees oli sinu seletuse järele — Marjamäe Märt. Ma küsisin, mis tüttar teeb? kõnelesin pulmadest ja koduminekust Pärnumaale. Wanamees näitas sellega tuttaw olema. Nüüd sain sellega kokku <stage>(näitab Kaie peale)</stage> ja rääkisin niisama ja wõtsin pudeli karmanist ja andsin mitmele rüübata ja rüübasin ise ja Kaie rüübas ka, ehk ta kül oma nägu mulle hästi näidata ei tahtnud. Ja nenda läks asi edasi, sest ma pidasin teda omaks Maretaks. Ja teie isad on ka pagana wäärt ühte nägu! Ei ma neid praegugi wõiks ühest ära tunda.</p>
+                </sp>
+                <sp who="#maret">
+                    <speaker>Maret.</speaker>
+                    <p>So, so! Ega minu isal nüüd sinu wastu ometi enam midagi ütlemist pole. Nüüd lähame meile! Maie ja Kaie, sinu olnud mõrsja, tulewad ka ja oleme rõõmsad. Wanad mehed saawad end niisamuti rõõmustama.</p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Mikk.</speaker>
+                    <stage>(pead wangutates)</stage>
+                    <p>Ja, ja! need ristid seal wersta tulba peal. Ma kuulsin kül, mis su isa ütles kui ma lähemale tulin.</p>
+                </sp>
+                <sp who="#maie">
+                    <speaker>Maie.</speaker>
+                    <p>Noh, mis seal siis on, ma pühin nad maha! <stage>(tahab minna.)</stage></p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Mikk.</speaker>
+                    <p>Ei, ei! Maie, see ei läha korda. Isa ütles: Enne ei saa Mikk minu tüttart omale mõrs<pb n="18"/>jaks kui ma ise need ristid maha pühin. Waatke neiud, need ristid on ühe suure wande märgid. Neid rista peab Mareta isa oma enese käega ära pühkima.</p>
+                </sp>
+                <sp who="#maie">
+                    <speaker>Maie.</speaker>
+                    <p>Noh, eks meie kõik siis teda ei palu!</p>
+                </sp>
+                <sp who="#kaie">
+                    <speaker>Kaie.</speaker>
+                    <p>Ja mina palun teda weel iseäranis oma endise peigmehe eest.</p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Mikk.</speaker>
+                    <p>Ei, ei, seda sõna endine peigmees ära nimeta!</p>
+                </sp>
+                <sp who="#kaie">
+                    <speaker>Kaie.</speaker>
+                    <p>Ja muidugi nimetan ma! Ma teadsin juba ennegi kuidas lugu oli, aga ma tahtsin Pärnumaa meestega natuke nalja pidada. Mareta oleksid Sa jo muidugi omale saanud.</p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Mikk.</speaker>
+                    <p>Ah Sa kawal neiu! Mind nii ninapidi ümber wedada! Ja minu Maret ka weel neid aitamas!</p>
+                </sp>
+                <sp who="#maret">
+                    <speaker>Maret.</speaker>
+                    <p>Mikk, see oli jo wiimses otsas nali, kellest ma osa wõtsin. Nüüd lähme!</p>
+                </sp>
+                <sp who="#maie #kaie">
+                    <speaker>Maie ja Kaie</speaker>
+                    <p>Kül ristid isegi ära kaduwad!</p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Mikk.</speaker>
+                    <p>Ei, üks täis ristiinimene peab need ristid ärakustutama ja selles asjas on see kõige kõwem ristiinimene Mareti isa: Tema pandis wande nende alla, tema peab ka wande nende alt wälja laskma.</p>
+                </sp>
+                <sp who="#maret">
+                    <speaker>Maret.</speaker>
+                    <p>Mikk, mina muretsen selle eest, et isa ristid maha kustutab! Lähme nüüd! <stage>(kõik ära.)</stage></p>
+                </sp>
+            </div>
+            <pb n="19"/>
+            <div type="scene">
+                <head>Kaheksas etendus.</head>
+                <stage>Külakohtumees ja Sillakubjas Jüri Kaarmann.</stage>
+                <sp who="kaarmann">
+                    <stage>(Ametiraha rinnas, suur pitk raamat kaenlas.)</stage>
+                    <p>Soh! Nüüd on siis peaaegu kõik asjad joonel ja toonis. Teede katsuja saab homme läbi sõitma ja kuid teed korras, saan ma jälle oma suutäis kiita — wõib ka wõimalik olla, et tulewal aastal weel koguni kihelkonna kohtumeheks saan walitud. <stage>(Waatab oma protokolli raamatusse.)</stage> Koodioru metsa tee, kraawid, truubid ja werstatulbad on ilusas korras. Ma olen ka seie juure kirjutanud: "Koodioru tee: tobri!" Lindsiweski tamm ja sild: tobri! Aga Tagametsa alune tee on kui pudru pada. Sealt ei saa meie rewident ka kuue paari ratastega läbi. Sinna on natuke trahwi tarwis. Jah, trahwi tarwis! Ma olen ka seie juure kirjutanud: "Trahwi on tarwis!" Ma tahan näidata, kas mul jõuudu on ehk ei, wõi mis? Jüri Kaarmann ei kanna mitte ilma asjata hõbedast raha rinnas! — Kuidas siis siin Aru- ja Marjamäe aluse teega lugu on? Waatan järele, kui korras, siis kirjutan protokolli raamatusse: tobri! Kui mitte, siis ma tahan aga näidata, kes ma olen. <stage>(Näeb kiwi.)</stage> So, sooh! Niisugune ordnuk on siin! Suured kiwid wersta tulba kõrwas, nagu oleks see seaduselik tulp mõni kupitsa tikk olema. See näitab just seaduse pilkamine olema. Oot, oot! Jüri Kaar<pb n="20"/>mann'il on oma jõuud ka. Ma tahan kohe protokolli ülesse wõtta. <stage>(Kirjutab:)</stage> "Aruküla aluse tee wersta tulba kõrwas on üks suur kiwi, mis seaduse wastu on ja igal ristiinimesel kaela wõib langeda, iseäranis wihmasel ajal, kus wihmaussid kiwi alt wälja roomawad ja mulla libedaks teewad, nii, et kiwi üks, kaks, kolm kesk teed on." Waatan siis ometi järele kuidas muu asjadega lugu on. Tee kraawid on puhtad: <stage>(Kirjutab:)</stage> "Tee kraawid on puhtad: ganz gut!" Sild on korras. <stage>(Kirjutab:)</stage> "Sild on korras: ganz gut!" <stage>(Jääb wersta tulba ette seisma.)</stage> No, noh, mis mu silmad siis siinsamas jälle näewad!?! Kolm suurt risti wersta tulba peal! Kas nüüd pole ilma ots käes! Niisugune äraneedmise wäärt töö! Jüri Kaarmann, näita nüüd, mis sa wõid!! Ja nüüd tahan ma ka näidata, mis ma wõin! <stage>(Istub kiwi peale.)</stage> Ma tahan kõik protokolli panna, wiimane kui tips! <stage>(Kirjutab hulk aega ja loeb siis waljuste:)</stage> "Aru- ja Marjamäe all maantee peal, 16. Juunil 1872. Koos oli: Jüri Kaarmann, külakohtumees ja sillakubjas. Ja tema tegi selle protokolli tee rikkumise ja wersta tulba määrimise ja trötsimise üle.</p>
+                    <p>№ 1. Jüri Kaarmann leidis suure kiwi wersta tulba kõrwas ja paneb tema protokolli, sest et niisugune kiwi wäga suurt kahju wõib teha, iseäranis wihmasel ajal, kus wihmaussid kiwi tõeste tee peale lükkawad. Niisuguse kiwi pärast on tarwis sügawalt järele mõtelda.</p>
+                    <pb n="21"/>
+                    <p>№ 2. Jüri Kaarmann leidis, et Aru ja Marjamäe tee ääres seiswa wersta tulba peale, nii kui näha, poe kriidiga kolm suurt risti on tõmmatud. Jüri Kaarmann arwab seda üheks wäga häbemataks seaduse üleastumiseks ja paneb need kolm risti protokolli raamatusse ning lubab neid Silla kohtuhärrale näidata, kui tarwis on, sest kohus ei pea mitte ilma asjata mõõka omas käes.</p>
+                    <p>№ 3. Et Jüri Kaarmann kõik nenda on leidnud, kuidas kiri ütleb, sellepärast tegi tema järgmise otsuse: "Kohtumees Jüri Kaarmann ei taha mitte hea meelega Aruküla mehi seaduse trötsimise pärast Silla kohtuhärra kätte anda, sellepärast lähab ta ise kui kroonu ametnik ja seaduse teender Aru ja Marjamäe külla ja karjub kõik peremehed kokku, ja loeb selle protokolli neile ette ja lubab seda meest, kes werstatulpa niimoodi on julgenud teutada Siberisse saata, kui see mees ise silmapilk mitte asja korda ei saada. Punkt!</p>
+                    <p>Jüri Kaarmann. 1872."</p>
+                    <p>Saame siis nüüd näha, kas asjad lähawad kibedaks wõi ei! Kas Aru ja Marjamäe külarahwas Jüri Kaarmann'i tunnewad, ja kas ristid ja kiwi kaduwad, wõi ei! (raamat kaenlas, ära.)</p>
+                </sp>
+                <stage>Weikene wahe aeg. Teekäiiad lähawad maanteed mööda edasi ja tagasi etc., ka wõib muusika natuke mängida.)</stage>
+            </div>
+            <pb n="22"/>
+            <div type="scene">
+                <head>Üheksas etendus.</head>
+                <stage>Külarahwas, mehed ja naised.</stage>
+                <sp who="#mees-1">
+                    <speaker>Esimene.</speaker>
+                    <p>Mats ae! Pea kinni! See müra on lähedal.</p>
+                </sp>
+                <sp who="#mees-2">
+                    <speaker>Teine.</speaker>
+                    <p>Mehed, wennad! See on kohtumehe Kaarmann'i heal!</p>
+                </sp>
+                <sp who="#naine-1">
+                    <speaker>Üks naene.</speaker>
+                    <p>Jumal Issake, mis meist nüüd saab! Minu Kaarli jäi Aru kõrtsi; kui ta wast sinna juhtub!</p>
+                </sp>
+                <sp who="mees-3">
+                    <speaker>Kolmas.</speaker>
+                    <p>Ega ta ei näinud, et meie ka toroga*) peal olime! *) toroga = kõrts.</p>
+                </sp>
+                <sp who="#mees-1">
+                    <speaker>Esimene.</speaker>
+                    <p>Ei tea, teeme sinu pudel tühjaks! Ehk ta otsib meid läbi.</p>
+                </sp>
+                <sp who="#mees-3">
+                    <speaker>Kolmas.</speaker>
+                    <p>Säh weli, mul on tuline hirm, ma ei wõi juua. <stage>(ära.)</stage></p>
+                </sp>
+                <sp who="#naine-2">
+                    <speaker>Teine naene.</speaker>
+                    <p>Lähme ära! Mis meie seal otsime! Ehk kutsutakse meid weel tunnistajaiks.</p>
+                </sp>
+                <sp who="#poisikesed">
+                    <speaker>Kaks poisikest.</speaker>
+                    <stage>(tulewad jookstes)</stage>
+                    <p>Kuulge, kuulge! Aru külast tuleb üks mees jookstes — — see wõtab meid kinni!</p>
+                </sp>
+                <sp who="#mees-1 #mees-2 #mees-3 #naine-1 #naine-2 #poisikesed">
+                    <speaker>Kõik.</speaker>
+                    <p>Lähame, lähame! Mis me' weel ootame! <stage>(kõik ära.)</stage></p>
+                </sp>
+            </div>
+            <pb n="23"/>
+            <div type="scene">
+                <head>Kümnes etendus.</head>
+                <stage>Aru Andres. Marjamäe Märt.</stage>
+                <sp who="#andres">
+                    <speaker>Aru Andres.</speaker>
+                    <stage>(tuleb jookstes)</stage>
+                    <p>Oh sina helde taewas! Kes pagan mind ometi sundis, neid rista seie tegema! Mine nüüd sellepärast Siberisse! Kui ma seekord weel peaseks! <stage>(komistab üle kiwi)</stage> Wõtku ka Märti ühes oma kiwiga! <stage>(Pühib ristid ruttu ära ja läheb.)</stage></p>
+                </sp>
+                <sp who="#maert">
+                    <speaker>Marjamäe Märt.</speaker>
+                    <stage>(Niisamuti jookstes; wõtab kiwi esite sülle, siis weeretab ja wõtab jälle sülle ja sülitab seal juures — kuni ära.)</stage>
+                </sp>
+            </div>
+            <div type="scene">
+                <head>Üksteistkümnes etendus.</head>
+                <stage>Muru Mikk. Pärast: Maret, siis: Maie ja Kaie.</stage>
+                <sp who="#mikk">
+                    <speaker>Mikk.</speaker>
+                    <p>Olen nüüd jälle wanal kohal. Koht wana — aga Mikk uus! Maret on minu! Oh sina helde ilm, kül ta on kena neiu! Silmakesed just kui joowikmarjad ja ninake ku' nibuke ja huuleksed kui maasikmarjad ja tema jalaksed ja käeksed ja kõrwaksed, need on keik kui kõige ilusamad ja ellamad maailma neiukeste silmadest, ninakestest, huuledest, jalgadest, kätest ja kõrwadest. See on üks Maret, — ei see on üks Maretate Maret. Ja Mikk, see Maret on sinu oma! Oh sa õnneseen, Mikk! — <stage>(kahtlaselt)</stage> Aga need ristid! Need on üks päewawar<pb n="24"/>jutus meie õnne taewas. Kes need ometi ära kustutaks, ma annaks talle wõi minupärast suud! <stage>(Ümberwaadates.)</stage> Mikk! ristid kadund! Kui ma nüüd teaks, kes see wägew mees ometi on olnud! Ehk oli Mareta isa ise! <stage>(laulab:)</stage></p>
+                    <lg>
+                        <l>Sul olen end annud</l>
+                        <l>Suu südamega,</l>
+                        <l>Ja truust sulle wannud,</l>
+                        <l>Mo armas Pärnumaa.</l>
+                    </lg>
+                    <lg type="stanza">
+                        <l>Kõik Wändra metsa karud,</l>
+                        <l>Nüüd ühes hõisake!</l>
+                        <l>Ja tehke laulupidu</l>
+                        <l>Maakonnal kiituseks!</l>
+                    </lg>
+                    <lg>
+                        <l>Kül minu Maret tuleb,</l>
+                        <l>Teid tasa tandsitab,</l>
+                        <l>Teil annab kärjemagust</l>
+                        <l>See laulupiu eest.</l>
+                    </lg>
+                    <p>Pärnumaa, nüüd rõõmusta! Muru Mikk teeb kuulsaks sind!</p>
+                </sp>
+                <sp who="#maret">
+                    <speaker>Maret.</speaker>
+                    <stage>(tulles)</stage>
+                    <p>Mikk, ma arwasin sind juba Marjamäel olema, aga ikka weel siin!</p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Mikk.</speaker>
+                    <p>Wai, wai, minu kallis, ilus ja peenike Maretake! Waata, ristid läinud!</p>
+                </sp>
+                <sp who="#maie #kaie">
+                    <speaker>Maie ja Kaie</speaker>
+                    <stage>(rutates)</stage>
+                    <p>Kas Teie ka teate, kes need ristid ja kiwi ära koristanud?</p>
+                </sp>
+                <sp who="#kaie">
+                    <speaker>Kaie.</speaker>
+                    <p>Mareta ja meie isad ise. Jüri Kaarmann tuli külasse, suur, paks raamat käes ja luges et see mees Siberisse lähab, kes need ristid ja selle<pb n="25"/> kiwi seie toimetanud. Ja meie isad oliwad otsekohe jalul — ja waata Mikk, kõik puhas!</p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Mikk.</speaker>
+                    <p>Kes see Jüri Kaarmann siis on?</p>
+                </sp>
+                <sp who="#maret">
+                    <speaker>Maret.</speaker>
+                    <p>See on meie külakohtumees, Mikk. Oh temal on seda tarkust ja mõistust! Ta olewat kolm korda Piibli raamatu läbi lugenud ja seaduse raamatu ja Kalewipoja raamatu ja tähtraamatu ja kõik muud raamatud. Tema ei karda kedagit, ei mõisahärrat, ega kiriku härrat. Ja üks kord olla ta kaks suurt saksa kohtu kulli ees läbi noominud ja pahutanud, teise keldrisse panna lasknud ja teisele witsu lubanud anda. Teda kardab kõik maailm.</p>
+                </sp>
+                <sp who="#maie">
+                    <speaker>Maie.</speaker>
+                    <p>Aga ta on ka üks hea mees, iseäranis laste ja naesterahwa wasta, Ta käib koolimajas, toob lastele saia ja pildiraamatuid. Ja mõnikord lähab ta ka palwemajast mööda, ja siis jääda ettelugejal kohe hing rindu kinni.</p>
+                </sp>
+                <sp who="#kaie">
+                    <speaker>Kaie.</speaker>
+                    <p>Kuulge! nüüd jalutame siin ümber, kuni meie isadega kokku saame, ning siis lähame kõik koos meile ja tuleme jälle teile ja jälle meile ja teile kuni Mikk ära sõidab. Ehk saame Jüri Kaarmann'iga ka kokku; ma armastan teda nii üliwäga.</p>
+                </sp>
+                <sp who="#maie #maret">
+                    <speaker>Maie ja Maret</speaker>
+                    <p>Meie armastame teda jo ka, ja ta saab tõeste Miku meele järele olema. <stage>(ära.)</stage></p>
+                </sp>
+            </div>
+            <pb n="26"/>
+            <div type="scene">
+                <head>Kaksteistkümnes etendus.</head>
+                <stage>Jüri Kaarmann.</stage>
+                <sp who="#kaarmann">
+                    <stage>(Juba taga teatri.)</stage>
+                    <p>Ah so! Niisugune seaduse solkimine! Jüri Kaarmann, kas sa nägid, mis jõud sinu sõnal oli! Kiwi on läinud, ristid on kadunud. Nüüd tarwis seda asja ka kirja panna! <stage>(Kirjutab:)</stage> "Jüri Kaarmann'i protokolli raamatu järele on nüüd Aru ja Marjamäe alune tee: tobri! Igamees wõib sõita, kas suurte ratastega ehk lombaka hobustega. See on Jüri Kaarmann'ile ja kogukonna kohtude seadusele auuks. Kogukonna kohtumees ja sillakubjas Jüri Kaarmann." Pea, pea! Ma teen oma Mariga natuke nalja; ma kirjutan alla: "Jüri ja Mari Kaarmann." Sooh! nüüd on siis minu tallitus siin otsas. Nüüd tarwis ka muid asju järele uurida. — Ma kuulsin, et Aru Andresse tütar mehele saada ja weel pealegi ühele Pärnumaa mehele. Pean ka ometi waatama minema, kuidas lugu on! Kes minule, seaduse tundja mehele, seda ära wõib keelda.</p>
+                </sp>
+            </div>
+            <div type="scene">
+                <head>Kolmasteistkümnes etendus.</head>
+                <stage>Kaarmann. Märt. Andres. Mikk. Maie. Kaie. Maret.</stage>
+                <sp who="#kaarmann">
+                    <speaker>Kaarmann.</speaker>
+                    <p>Oh, o, külamehed! Mis pidu siis teil täna on?! Tere, tere, auusad külaperemehed,<pb n="27"/> Andres ja Märt, ja lahked tütred, linnukesed, kanapojakesed ja nenda edasi, ja nenda edasi, ja nenda edasi!</p>
+                </sp>
+                <sp who="#maert #andres #mikk #maie #kaie #maret">
+                    <speaker>Kõik.</speaker>
+                    <p>Tere, tere, auus kohtumees ja sillakubjas?</p>
+                </sp>
+                <sp who="#kaarmann">
+                    <speaker>Kaarmann.</speaker>
+                    <stage>(lahkelt)</stage>
+                    <p>Ja, ja, on kerge ütelda, aga on raske asi, kohtumees ja sillakubjas korraga olla ja kõik protokollid ja kirjad nii seadida, nagu uus talurahwa seadus nõuab. Ma tean, oli weel praegu siin suur tüli ees, aga ma olen seda nii ära toimetanud, et Aru ja Marjamäe peremeestel sellest trahwi ei saa tõusma.</p>
+                </sp>
+                <sp who="#maert">
+                    <speaker>Märt.</speaker>
+                    <p>Noh, Sul, auus Kaarmann, on ikka tegemist kül. Teine mees Sinu asemel ei mõistaks kolmegi lugeda.</p>
+                </sp>
+                <sp who="#kaarmann">
+                    <speaker>Kaarmann.</speaker>
+                    <p>Ja, kui tal aga Kaarmann'i pea oleks! Aga wõta näpust! Üks ainus Kaarmann meil on, ja see mees olen mina ise. Aga kes see wõeras noormees siin on?</p>
+                </sp>
+                <sp who="#andres">
+                    <speaker>Andres.</speaker>
+                    <p>See on minu tütre Mareta peigmees, Muru Mikk, Pärnumaalt, pärismaja peremees.</p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Mikk.</speaker>
+                    <stage>(kumardates)</stage>
+                    <p>Jah, see ma olen, auus kohtumees ja sillakubjas!</p>
+                </sp>
+                <sp who="#kaarmann">
+                    <speaker>Kaarmann.</speaker>
+                    <p>Ja, jah! On ikka raske amet kül, ja meie näpude peale waatawad rewidendid ja suured kohtuhärrad terawaste.</p>
+                </sp>
+                <pb n="28"/>
+                <sp who="#mikk">
+                    <speaker>Mikk.</speaker>
+                    <p>Mina olen Sulle, auus külakohtumees ja sillakubjas, suurt tänu wõlgu.</p>
+                </sp>
+                <sp who="#kaarmann">
+                    <speaker>Kaarmann.</speaker>
+                    <p>Oleks see õige olema, ma ei nõuaks selle eest mingisugust maksu.</p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Mikk.</speaker>
+                    <p>Waata, auus külakohtumees ja sillakubjas, need ristid siin wersta tulba peal oliwad kui tondid minu ja Mareti wahel. Sina oled nad ära kautanud oma ameti jõuu ja wõimuse läbi, ja seega sain ma alles Mareti täieste omale.</p>
+                </sp>
+                <sp who="#kaarmann">
+                    <speaker>Kaarmann.</speaker>
+                    <p>Mis mina nüüd sest teadsin. See oli jo minu kohus ja seekord juba protokolli pantud. Aga, et Sa minu ameti ja seaduse wõimust ära tunned, see rõõmustab mind üliwäga ja Sinust wõib wiimaks üks seadusetundja mees saada, kui ka mitte kohtumees ja sillakubjas korraga.</p>
+                </sp>
+                <sp who="#andres">
+                    <speaker>Andres.</speaker>
+                    <p>Õige ta nu on. Meil oli siin suur segadus, minu ja Marjamäe Märdi ja minu tütre ja tema tütarte ja jälle Miku wahel. Mikk ei tunnud mitte, nagu wõõras inimene kunagi, ei minu ega Märdi lapsi ja pärast ei wõinud ta jälle wahet kositawa ja teiste wahel teha. Wiimaks ei mõistnud ta jälle wahet minu ja Märdi wahel teha, nenda see siis tuli, et meie mestis Märdiga tema wasta sõtta läksime ja teda Teie juure wiima pidime. Mina tõmbasin need kolm risti seie wersta tulba peale ja Märt pandis kiwi seie selleks mälestuseks ja kinni<pb n="29"/>tuseks, et meie lubanud olime, Mikku minema saata, ja wandusime selle juures: et, kui meie ise oma käega need ristid ja kiwi jälle ära koristame, siis ehk wõib Mikk uueste meie laste peale mõtelda. See oli jo niisama palju kui otse ütlemine: Mikk ei saa elu ilmaski meie wäimeheks.</p>
+                </sp>
+                <sp who="#maert">
+                    <speaker>Märt.</speaker>
+                    <p>Nii see oli.</p>
+                </sp>
+                <sp who="#maret">
+                    <speaker>Maret.</speaker>
+                    <p>Ja seal tuli Kaarmann'i onu, ning ristid ka kiwi kadusiwad!</p>
+                </sp>
+                <sp who="#maert">
+                    <speaker>Märt.</speaker>
+                    <p>Ja muidugi.</p>
+                </sp>
+                <sp who="#andres">
+                    <speaker>Andres.</speaker>
+                    <stage>(pudelit wälja wõttes)</stage>
+                    <p>Auus kohtumees ja sillakubjas Kaarmann! Kui Sa nii lahke oleksid ja ka kosjawiina katsuksid! Meil oleks sest wäga hea meel olema.</p>
+                </sp>
+                <sp who="#maert">
+                    <speaker>Märt.</speaker>
+                    <p>Ja muidugi.</p>
+                </sp>
+                <sp who="#kaarmann">
+                    <speaker>Kaarmann.</speaker>
+                    <p>Noh, Andres, kas mina siis mõnikord uhke wõi nii olen olnud? Maie tibuke, hoia seni mu protokolli raamat kinni! <stage>(Rüüpab.)</stage> Noore paari terwiseks! Wahwa Pärnu mees, Sa oled ikka mees, kes neiusid wälja otsida mõistab, kellel silmad kui nööbid ja mokad kui maasikad ja weime wakad kui teine talu on.</p>
+                </sp>
+                <sp who="#maert">
+                    <speaker>Märt.</speaker>
+                    <p>Ja muidugi.</p>
+                </sp>
+                <sp who="#kaarmann">
+                    <speaker>Kaarmann.</speaker>
+                    <p>Ma panen seda ka oma protokolli raamatusse — mälestuseks <stage>(kirjutab).</stage></p>
+                </sp>
+                <pb n="30"/>
+                <sp who="#maert">
+                    <speaker>Märt.</speaker>
+                    <p>Ja muidugi.</p>
+                </sp>
+                <sp who="#andres">
+                    <speaker>Andres.</speaker>
+                    <p>Ei, ei! wast juhtub sakste ette!</p>
+                </sp>
+                <sp who="#kaarmann">
+                    <speaker>Kaarmann.</speaker>
+                    <p>Nüüd on walge wäljas! Kellel saksal minu protokolli raamatuga tegemist? Ega see ommeti kogukonna kohtu protokoll pole. See on minu enese priwaat asi, sest niisugune raamat wõib igal suuremal ametimehel olla ja seda ei ole sugugi seaduses keelatud. <stage>(Loeb:)</stage> "See on nenda olnud. Seda tunnistab oma nime ja kirja allapannes Jüri Kaarmann. 1872." Waatke, ma ei ütle ka mis on nenda olnud, waid see on nenda olnud. Mis see see on, seda teame meie ise.</p>
+                </sp>
+                <sp who="#maert">
+                    <speaker>Märt.</speaker>
+                    <p>Ja muidugi.</p>
+                </sp>
+                <sp who="#andres">
+                    <speaker>Andres.</speaker>
+                    <p>Ja nüüd, wäimees ja naabrid! Täna oleme minu juures! Ning mis minu talu keldrid ja kambrid kannawad, peab täna lauale tulema.</p>
+                </sp>
+                <sp who="#maert">
+                    <speaker>Märt.</speaker>
+                    <p>Ja muidugi.</p>
+                </sp>
+                <sp who="#kaarmann">
+                    <speaker>Kaarmann.</speaker>
+                    <stage>(waatab raamatusse)</stage>
+                    <p>Ei näita wõimalik olema! Mul on weel üks kroonu tallitus ees.</p>
+                </sp>
+                <sp who="#maie #kaie">
+                    <speaker>Maie ja Kaie.</speaker>
+                    <stage>(Kaarmann'i kätest kinni)</stage>
+                    <p>Onu, jätke tallitused homseks! Ega Teil sest Muru Miku meelehaigust ei sigine! Lähame nüüd ühes kõik kosja pidule.</p>
+                </sp>
+                <sp who="#kaarmann">
+                    <speaker>Kaarmann.</speaker>
+                    <p>Lapsed, Teie üleannetumad, käristate mu protokolli raamatu lõhki! <stage>(ära.)</stage></p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Mikk.</speaker>
+                    <stage>(Andresse ja Mardi poole.)</stage>
+                    <p>Ei ma poleks seda uskunud, et minu meelehaigus nii metsa läks. <stage>(Maretale:)</stage> Nüüd, Maret, lähame esite Arule ja pärast Murule!</p>
+                </sp>
+                <sp who="#maert">
+                    <speaker>Märt.</speaker>
+                    <p>Ja muidugi! <stage>(Kõik ära.)</stage></p>
+                </sp>
+                <stage>Ots.</stage>
+            </div>
+        </div>
+        </body>
+    </text>
+</TEI>
