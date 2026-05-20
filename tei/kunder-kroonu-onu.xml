@@ -1,0 +1,1633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="est000014" xml:lang="et" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Kroonu onu</title>
+                <title type="sub">Nali kahes näituses</title>
+                <author>
+                    <persName>
+                        <forename>Juhan</forename>
+                        <surname>Kunder</surname>
+                        <idno type="wikidata">Q12365486</idno>
+                    </persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>University of Tartu digital archive ADA</name>
+                    <idno type="URL">http://hdl.handle.net/10062/8006</idno>
+                    <availability>
+                        <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <author>
+                            <persName>
+                                <forename>Juhan</forename>
+                                <surname>Kunder</surname>
+                            </persName>
+                            <idno type="wikidata">Q12365486</idno>
+                        </author>
+                        <title type="main">Kroonu onu.</title>
+                        <title type="sub">Nali kahes näituses</title>
+                        <date when="1885">1885</date>
+                        <publisher>H. Laakmann</publisher>
+                        <pubPlace>Tartu</pubPlace>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="priidu" sex="MALE">
+                        <persName>Priidu</persName>
+                    </person>
+                    <person xml:id="madis" sex="MALE">
+                        <persName>Madis</persName>
+                    </person>
+                    <person xml:id="kadri" sex="FEMALE">
+                        <persName>Kadri</persName>
+                    </person>
+                    <person xml:id="elsa" sex="FEMALE">
+                        <persName>Elsa</persName>
+                    </person>
+                    <person xml:id="wiiu" sex="MALE">
+                        <persName>Wiiu</persName>
+                    </person>
+                    <person xml:id="aadu" sex="MALE">
+                        <persName>Aadu</persName>
+                    </person>
+                    <person xml:id="abram" sex="MALE">
+                        <persName>Abram</persName>
+                    </person>
+                    <listRelation>
+                        <relation name="parent_of" active="#priidu" passive="#elsa"/>
+                        <relation name="spouses" mutual="#madis #kadri"/>
+                        <relation name="parent_of" active="#madis #kadri" passive="#aadu"/>
+                        <relation name="lover_of" active="#elsa #aadu"/>
+                        <relation name="friends" mutual="#abram #madis"/>
+                    </listRelation>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-05-20">Encode txt to TEI</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <standOff>
+        <listEvent>
+            <event type="print" when="1885">
+                <desc/>
+            </event>
+        </listEvent>
+        <listRelation>
+            <relation active="https://dracor.org/entity/est000014" name="wikidata" passive="http://www.wikidata.org/entity/Q61403220"/>
+        </listRelation>
+    </standOff>
+    <text>
+        <pb n="1"/>
+        <front>
+            <titlePage>
+                <titlePart type="main">Kroonu onu.</titlePart>
+                <titlePart type="sub">Nali kahes näituses,</titlePart>
+                <byline>kirjutanud<lb/>J. K.</byline>
+                <docImprint>
+                    <pubPlace>Tartus.<lb/></pubPlace>
+                    <publisher>Trükitud H. Laakmann'i kulu ja kirjadega.</publisher>
+                    <date>1885.</date>
+                </docImprint>
+                <pb n="2"/>
+                <imprimatur>Дозволено цензурую. Дерптъ 26. Іюля 1885 года.</imprimatur>
+                <note>
+                    <p>(Järeltrükk lubamata.)</p>
+                </note>
+                <note>
+                    <p>Kes seda tükki mängida soowib, piab wäljaandja käest seks luba küsima. "Adres: Meelejahutaja" toimetuse kaudu.</p>
+                </note>
+            </titlePage>
+            <pb n="3"/>
+            <castList>
+                <head>Näitlejad.</head>
+                <castItem>
+                    <role>Metsa Priidu, </role>
+                    <roleDesc>rikas päris peremees.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Elsa, </role>
+                    <roleDesc>tema tütar.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Jõepära Madis, </role>
+                    <roleDesc>rendi peremees.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Kadri, </role>
+                    <roleDesc>Jõepära perenaine.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Aadu, </role>
+                    <roleDesc>nende poeg, Jõepära noor peremees.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Aabram Andreiwitsh Sikk, </role>
+                    <roleDesc>lahti lastud soldat, nimega Kroonu onu.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Wiiu Ellerhein, </role>
+                    <roleDesc>külatädi.</roleDesc>
+                </castItem>
+            </castList>
+        </front>
+        <pb n="4"/>
+        <pb n="5"/>
+        <body>
+            <div type="act">
+                <head>Esimene näitus.</head>
+                <stage>Mängimise koht: Jõepära talu esine.</stage>
+                <div type="scene">
+                    <head>1. Etendus.</head>
+                    <stage>Metsa Priidu ja Jõepära Aadu.</stage>
+                    <sp who="#aadu">
+                        <speaker>Aadu:</speaker>
+                        <stage>(istub ukse ees ja teeb reha)</stage>
+                        <p>See reha saab minu armsale Elsale tehtud, see on minu nõuu. Ilusad walged pulgad panen ma talle sisse ja teen wanad Eesti kirjad peale, aga warre tahan ma talle hästi siledaks teha, weel siledamaks, kui mõisa opmanni kepp. Sest sile piab ta olema, et Elsa siledad käed teda kandes mitte wiga ei saaks. Ja minu Elsal on käed ja sõrmed kui siid, need ei tohi mitte wiga saada. Ja kui nad weel minu tehtud reha warre läbi wiga saaksiwad, kuhu ma siis weel omad silmad kõlbaks panna!<pb n="6"/> Elsa ütleks kohe: Kas see mõne Aadu on, kes mulle niisuguse reha warre tegi?! Ma ütlen, ma laseks niisuguse reha warre ennem oma piha peal puruks peksta, enne kui ma ta oma Elsa kätte annaks. Minu Elsa ei ole mitte niisugune neiu, kes minu tööd ei tunneks. Ta silmitseb ja katsub kõik läbi, mis minu tehtud on. Näe, minewal nädalal oli tema all nurme peal minu adra juure seisma jäenud ja küsinud: Kelle ader see on? Siis oli sulane Hans talle ütelnud, et: see on Jõepera Aadu ader. Küll ta siis oli teda waatlenud ja katsunud ning wiimaks ütelnud weel ära minnes: Hea küll! — Jah, hea küll! Piaks nüüd wana Priidu onu minu kohta ka ütlema: Hea küll! Külap mina mitu tuhat korda Elsa kohta ütleks: Hea küll! — Kus seda hea-küll-sõna tarwis on, seal ei ütelda teda mitte kulla eest, aga kus teda tarwis ei ole, seal on teda kui sammalt.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu</speaker>
+                        <stage>(tuleb, tahab esite Aadust mööda minna. Aadu tõuseb ülesse ja teretab: Tere, tere, armas Metsa onu!)</stage>
+                        <p>Tee läheb teie õuest<pb n="7"/> läbi, muidu ei oleks ma siit poolt tulnudki. Teie ehk arwate muidu, nagu oleks mull mõnda iseäralist asja olema, teie mudasest õuest läbi käia.</p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu.</speaker>
+                        <p>Kudas meie nüüd, Metsa onu, seda wõiksime arwata, et Sull mõnda iseäralist nõuu oleks, meie õuest läbi minna! Meil on see ju suureks auuks, kui Sa ennast ka mõni kord siin pool näitad.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Seda ma arwan. Auu ajate teie taga, aga selle järele ei waata teie sugugi, kudas teie maja asjad ja wärgid piawad korras seisma. Lähete ikka aast aastast waesemaks ja alatumaks.</p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu.</speaker>
+                        <p>Onu, ega see meie süü ei ole! Rent on kallis ja wiimsed aastad oliwad ka waesed.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Rent kallis, aastad waesed! Kes käsib wana Jõepära Madist poega koolitada ja raha wälja pilduda?! Kuhu niisugune kehwa mehe poeg oma koolitamisega ja ninatarkusega läheb? Hobusid wargile, muiale kuhugi!</p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu.</speaker>
+                        <p>Noh, Metsa onu pani oma<pb n="8"/> tütrekese Elsa ka kooli. Ega see ometi halbus ei olnud.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Oh sina ninatark! Kas sina siis tahad seda sama olla, mis minu Elsa on? Jumal, Issa Jumala Pojuke, kudas nüüd need Jõepära armetumakesed ometi nina püsti tõstawad? Wai nemad julgewad weel mind mu Elsaga oma wäärilisteks pidada! — Aadu, tule seie! Ma olen nagu ääri weeri mööda kuulnud, et sina minu Elsat külas kiita ja rääkida, et ta su meele pärast olla ja et sina selle eest kolm sööma wahet ilma söömata künda lubanud, kui sa Elsaga kolm sõna rääkida wõiksid ja nenda edasi. Kas seesugune jutt on õige, Aadu? Anna mulle wastust! Ma nõuan seda tõsise meelega, et niisugused narri jutud ühes juurtega saaksiwad külainimeste seast wälja kistud ja sinu nina lühendatud. Ütle nüüd, kas on need jutud sinu oma tehtud!</p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu</speaker>
+                        <stage>(Häbelikult)</stage>
+                        <p>Mis ma nüüd ütlen wõi olen... Mõnikord saab mõndagi<pb n="9"/> räägitud, wõi nüüd Metsa onu seda pahaks wõib panna.....</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Mina ei ole mitte sinu onu, kas sa mõistad! Ma olen Metsa päris peremees ja selleks piad sa mind pidama ja nimetama! "Mõnikord saab mõndagi räägitud," kellele sa seda tohid ütelda! Kas sina noor ninatark tohid minu Elsast oma "mõndagi" rääkida. Elsa on auusa abielu rahwa laps ja koolitud ja tark ja ilus.....</p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu:</speaker>
+                        <p>Ilus on ta küll....</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Jah seda ta on, aga mitte sinu tarwis ega sinu "mõndagi rääkimise tarwis! Ma tean, juba, pois, sina luusid minu Elsa järele, nagu rebane. <stage>(Pahaselt)</stage> Ära tee wagat tui nägu! Sa oled kui üks tige waim, kes esite minu Elsa meele ärasegada püüab ja siis Elsa segatud meelte abil minu raha punga poole tüürib ja siis seda ära kääpada himustab ja siis ühes Elsaga ja raha pungaga ära wõerale maale põgeneb, Elsa tee peal ära näljutab ja raha wõeral maal äraraiskab. Waata niisugune<pb n="10"/> sa oled, seda ma tean, sest sinu isa on niisama sugune, — ja käbi ei kukku kannust kaugele!</p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu.</speaker>
+                        <p>Kudas nüüd Metsa peremees wõib ometi niisugusi jutte minu ja mu auusa isa kohta ajada. Ma tean isegi, et Elsa rikkas on, kudas ma siis, kui waese mehe poeg, ometi selle peale wõin mõtelda, et Elsa Jõepära perenaiseks tuleb!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Nagu ma sind ja sinu isa ei tunneks! Teie mõtlete ammugi selle peale, Aga ma ütlen: nii kaua, kui minu silmad weel lahti on, ei tohi sina oma jalga Metsa talule tua. Ma hurjutan sulle koerad peale ja wiskan sulle kapsta rauaga jalgu. Sest mu tütre õnn ja ilu ja mu warandus on ülemad, kui sina ühes oma ninatarfuse ja isaga. Kas mõistad? Nüüd mine ära tarre! Sealt tuleb mu Elsa heinamaalt, ma tahan talle ütelda, kes sa oled ja mis sa tahad ja mis ta niisuguse olemise ja tahtmise juures piab mõtlema <stage>(Aadu ära).</stage> Niisugused noorte inimeste lapsikud tembud, üksteise kiitmised ja üks teisele kirja kirjutamised<pb n="11"/> ja nõnda edasi, ei kõlba mitte minu Elsale, kellel Jumal tänu iga sõrme otsas wiis kosilast on, wali aga wälja, kas saks wõi muidu mõni suur herra, wõi mis sa ise tahad. <stage>(Elsa tuleb wikatiga.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>Teine etendus.</head>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p><stage>(Lahkelt)</stage> Ime lugu, et minu hea isa Jõepära ukse ette seisma on jäenud! Kas nüüd lepitust teete Madissega, wõi mis nõuu sull on?</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>See seismine siin on sinu elu õnne kinnituseks.</p>
+                    </sp>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p><stage>(ruttu)</stage> Kas Aadu kõneles juba...</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p><stage>(Pahaselt)</stage> Mis ta kõneles, sina üleannetu tüdruk! Sina minu surnu kirstu nael! Kas ma sind selle pärast koolitasin ja olin, et sa nüüd ühele waese mehe pojale tahad mehele minna! Kas sull on weel Metsa Priidu weri soontes? Kui ta on, kus on siis minu rikkuse uhkus? Sa tead, sa oled minu laps ja sa piad uhke olema, nagu su isa! Meil on ju raha ja wara — ja mis on sull wiga selle peale uhke olla?!</p>
+                    </sp>
+                    <pb n="12"/>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p>Mis sest uhkusest nüüd saab, armas isa.....</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Ole wait! Tule seie Elsa! <stage>(Wõtab Elsa kätt pidi kinni)</stage> Kuule laps! Ma juba nuusutan, kudas see asi on! Kas Jõepära Aadu on sind juba meelitamas käinud? Kas ta on sulle kirja saatnud ja niisuguseid lori laulukesi teinud ja su pead pöörma hakkanud, et sind selle waese Jõepära talu pärisorja wääriliseks perenaiseks teha? Kas on nii? Ütle wälja!</p>
+                    </sp>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <stage>(põigeldes)</stage>
+                        <p>Mis sa siis sest nüüd nii pärid! Lase olla peale, wõi mina siis mõni laps olen, käisin juba minewa aasta leeris ära....</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Wai nii, wai nii! Wai nii, minu Elsekene! Nii moodi kamandad sina minu selja taga Jõepära Aaduga. Kas sull häbi ei ole! Ma ütlen sulle, sa teutad mu nime! Ja sõkud mu suurt raha punga jalgadega! Ma ütlen sulle: Wau maa sisse! Lange maha!</p>
+                    </sp>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p>Aga, armas isa, mis sa nüüd nii pahandad! Sa oled ju ikka hea isa ol<pb n="13"/>nud. Täna näen ma sind esimest korda nii kurja olema. Saa nüüd jälle heaks, ja ole endine wana hea isa!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Mina tean, mis ma olen ja kes ma olen ja mis mina teen! Seda ma sulle ütlen, Elsa, et sa selle Jõepära Adu rahule jätad! Niisugune mees ei tee mulle muud kui häbi, ja häwitab mu auu ja raha ja wara ära. Kui sa mu sõna mitte ei kuule, siis langed sa mu isaliku põlgduse alla. Su päranduse annan ma waestele ja santidelle ja kas minu pärast wõi joodikutele ja siis müün ma oma Metsa päris koha ära ja lähen ise ära Saaremaale elama. Ela ja ole siis! Loe siis Aadu lori laulusi ja orja teist meest waesuses ja wiletsuses ja häbis ja põlgduses, kuna sa nüüd esimene neiu meie külas oled. Jah, kui sa siis küsid: kes tegi? Üteldakse: Ise tegi! Waat nii, Elsa! Wahi nüüd seda Jõepära wiletsat talu siin, kui sa tahad. Aga pia meeles, mis ma sulle ütlesin! Ma wõin weel homme päew oma sõna tõeks teha. <stage>(Läheb.)</stage></p>
+                    </sp>
+                    <pb n="14"/>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p>Isa, oota nüüd weel natukenegi.....</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Küll Jõepära Aadu sind ootab. <stage>(ära.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>3. Etendus.</head>
+                    <stage>Elsa. Pärast Abram.</stage>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p>"Küll Jõepära Aadu sind ootab!W" Kui sa seda oleks heast südamest ütelnud, armas isa, siis ei oleks ma ka mitte palunud: Isa, oota nüüd weel natukene! Oh sina raha ja wara, sina päris talu koht ja uhkus, kas teie ei oleks mitte wõinud minu oma sülle kukkuda! Ma ei oleks neist oma isale mitte sõnagagi kiidelnud, oleks ütlenud: Mis minu oma, isa, see on ka sinu oma, ja mis minu oma, see on ka Aadu oma. Jah, kui see nii oleks, et see minu teha ja minu jätta oleks, siis mõistaks ma Aadu laulu peale ka oma laulu teha, kui ta ütleb:</p>
+                        <l>Sull olen end annud</l>
+                        <l>Suu südamega etc.</l>
+                        <p>Üksi Aadu on mu armastus ja ilma temata ei maksa mull Metsa rikkus ja isa<pb n="15"/> uhkus midagi. Aadu ütles alles heile õhtu, ta ei jätta mind, kui ma ka Soomemaal ehk ilma otsas elaksin. Ja mina ütlen ka omalt poolt: Sind ma ka ei jätta, Aadu, kui ma ka Metsa wara ja rikkuse piaksin kautama. Ma teeks ennem Jõepäral orjana tööd ja oleksin Aadu perenaine enne kui ma Metsal külluses ja kurbduses elaksin. Ma tahan paluda ja paastuda, et mu tahtmine täide läheks ja ühe neiu palwet ei jäta taewa Isa mitte täitmata. Küll Aadu ka omalt poolt teeb, mis ta mõistab ja ma tean, ta armastab mind. Seda ütles ta, kui ta mulle selle kuld preesi Jaani päewa õhtul kinkis. Piaks ometi üks hea waim tulema, kes mulle ja Aadule abiks heidab. Tasumata ei piaks tema töö mitte jäema!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p><stage>(tuleb kikiwarwul)</stage> Ah, a, mojaa miilaja Elsa Priidowna! Strastui, trastu, doobraja mojaa goluubushka! Kudas käsi käib, Metsa lillekene, maasikmarjakene? Ah? Kas sa ei tunne mind, kroonu meest Abram Andreiwitshi Sikku?</p>
+                    </sp>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p>Tere tere, kroonu onu! tunnen<pb n="16"/> küll, aga mull ei ole sugugi lusti täna naljatada.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram</speaker>
+                        <stage>(wõtab Elsa käe)</stage>
+                        <p>Dai rutshku! Ega mina nii sugune mees ei ole, kes Elsa saladusi teada tahab. Aga siin südames on wist mõni ilus ja sirge ja noor poiss, kes Elsa neiu südamele walu teeb! Tean küll! Mull oli ise Türgimaal Aradawaania linnas seesama lugu. Snaju, snaju!</p>
+                    </sp>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p>Onu, ära heida nalja, mull ei ole kedagi noort ega wana meest südames!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Ei, ei Elsushenka, meie kroonu mehed teame seda lugu wäga heaste. Meie järele on mitmed neiud igatsenud ja ohkanud, nagu wiimategi weel Pariisi maal Gorodowi linnas, kus üks suurt sugu preili Abram Andreiwitshi omale meheks soowis, aga Abram Andreiwitsh ütles: Netu! — Ehk on mõni ilus pois Elsale ka "netu" ütelnud? Ah? Kas ei? wõi ja? Goworii goluubushka!</p>
+                    </sp>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p>Mis sa mind nüüd ikka jälle mõnitad, onu! Ei ole mull kellegi "netuga" tegemist.</p>
+                    </sp>
+                    <pb n="17"/>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Ei ole "netuga" tegemist! Wõi on siis sull wast sellega tegemist, kus ilus poiss ütleb: Tulen küll sulle kaasakeseks, Elsakene, kanapojakene. Ah? Mis see on? <stage>(näitab Elsale kirja).</stage> Tshto takoje? Ah, a, see on pisma, mis on sinu keeli kiri!</p>
+                    </sp>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p>Näita onu! <stage>(wõtab kirja).</stage> — See on ju Aadu kiri.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Aadu kiri jah!</p>
+                    </sp>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <stage>(lueb, Abram püüab sisse wadata)</stage>
+                        <p>Mis sa nüüd jälle minust piinad, onu! Ma lähen parem ära! <stage>(ära).</stage></p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Prashtshai, prassai! Mine peale! Tean juba, mis Metsa Elsel ja Jõepära</p>
+                        <p>Aadul wiga on.</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>4. Etendus.</head>
+                    <stage>Abram Andreiwitsh.</stage>
+                    <sp who="#abram">
+                        <speaker>Abram_nimeta</speaker>
+                        <p>Ah, ah, ah, aaaaa! Snaju, snaju! Mull on ka hea meel, kui ma aidata wõin. Elsa on hea laps ehk wana Metsa Priidu küll nii tore ja uhke on, et ta seie maani weel Abram Andreiwitshi peale waatanudgi<pb n="18"/> 'pole. Tall pole ka kroonu mehega midagi tegemist olnud. Kui ta mind ükskord piaks tundma õppima, siis ta ka näeks, mis mees ma olen. Kes tundis Abram Andreiwitshi Türgi sõas? Aga waata, mis Andreiwitsh tegi ja kudas tema nimi tuttawaks sai. Olime Plewna linna all lahingis ja kuulid hulusiwad kui öökullid, aga Andreiwitsh oli ikka esimeste meeste seas. Üks kord olin ma just eesotsas ja kindral küsis kaprli käest: "Kes mees seal ees otsas on?" Kapral wastas: "See mees on Abram Andreiwitsh!" Kindral ütles: "horoshoo!" Ja mina paugutasin edasi. Seal tuli siis üks Türklane, kellel oli suur punase otsaga nina peas. Ja karpral karjus: "Abram Andreiwitsh anna säru!" Ja Abram Andreiwitsh andis ka nii moodi säru, et Türklase punane nina kui ubin peast metsa lendas. Jälle küsis kindral:</p>
+                        <p>"Kes see laskja mees oli?" Kapral wastas jälle: "See on Abram Andreiwitsh!" Ja kindral ütles: "horoshoo!" — Nüüd wõtsime meie Osman pasha wangi ja mina olin see mees, kes Osmanile Eesti keeli ütles: "Kindrali<pb n="19"/> herra, nüüd läheme ära Wenemaale pogrisse!" — Osman ütles: "Ära mind trötsi!" Mina aga wastu: "Ära räägi enam, ma olen Abram Andreiwitsh." Ja kindral jäi wait. Waat siis kutsuti mind oma kindrali ette. See küsis: "Kes sa oled?" Ma ütelsin: "Abram Andreiwitsh, Washe Wõissokorodie!" Ja kindral ütles: Horoshoo! Ja pani mulle raha rinda. — Wat nii sai minu nimi Türgimaal tuttawaks. Ja ma ütlen: Metsa Priidu, sa piad mind ka kord tunda saama ja see aeg ei ole enam kaugel: Siis saab mulle Elsa see eest ka raha — tasku pakkuma, aga Abram Andreiwitsh ütleb: "Netu! dengi ne hatshuu!" Ras, dwa, tri <stage>(teeb soldati harjutust ja jäeb siis kui tulp seisma).</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>5. Etendus.</head>
+                    <stage>Abram ja Kadri (tulb tuast.)</stage>
+                    <sp who="#kadri">
+                        <speaker>Kadri.</speaker>
+                        <p>Mis sõda see kroonu onu siin piab. Päris üksi päinis? Tere ka!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Strastui hasaika! Tuli mulle siin oma endine waper tegu Türgi sõast meelde<pb n="20"/> ja sõamees on siis ikka nagu sõas, kui ta oma wägewaid tükkisi meelde tuletab. Oh sina heldene päewa walgekene, Kadri, kui sina seda oleks näinud, kudas mina Türgimaal Sakermündi linna juures Türgi soldatile järel plagasin, kui ta meie lipu ära oli näppanud. Ma karjusin just Eesti keeli: "Kus sa kuriwaim meie lipuga lähed! Lipp seie! Ma su naha nüllin!" Siis wisas waenekene enne püssi maha, siis pudenes shapka maha, siis wiskas ta oma suure pussnua maha ja wiimaks wiskas weel lipu maha. Ma karjusin talle weel järele: "Hoia sa end, sina durak, kui ma su Konstantinoopoli linnas kätte saan!" Wõtsin siis lipu, tulin tagasi ja kindral ütles: "Horoshoo, Abram</p>
+                        <p>Andreiwitsh!" Wot tebe ras! Jälle raha rinnas! Wat niisugune mees olen mina, Kadri!</p>
+                    </sp>
+                    <sp who="#kadri">
+                        <speaker>Kadri.</speaker>
+                        <p>Ära kõnele niisuguseid jutte, mulle tuleb wärin peale!"</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Sedap ma arwan ka! Aga mina olen see mees, kellel niisugused tembud selged on, mis naised wärisema panewad. Aga ma armastan sellegi pärast naisi<pb n="21"/> ja kaitsen neid, sest nad on õrnem sugu ja sõamehe kohus on neid kaitsa. Türgimaal ütlesiwad küll ka mõned üle annetumad: "Andreiwitsh, lase selle Türgi naise peale märki!" Aga mina wastasin: "Netu, ta on õrnem sugu!"</p>
+                    </sp>
+                    <sp who="#kadri">
+                        <speaker>Kadri.</speaker>
+                        <p>Hea nüüd küll, kroonu onu! Sina oled mitmed maad läbi käinud ja mitu keelt sull suus — seleta mulle nüüd ka ära, mis minu Aadul wiga on!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Jumal Issa Jumala Pojuke! Ära juttu wälja tee! Ega Aadu ometi haige ei ole?!</p>
+                    </sp>
+                    <sp who="#kadri">
+                        <speaker>Kadri.</speaker>
+                        <p>Mis sa nüüd Jumala nime sellepärast suhu wõtad! Haigus ei ole mitte suur, aga Aadu wõib meelest segaseks jäeda.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Wot tebe ras! Wõib meelest segaseks! Seleta mulle see haigus ära! Kui wõin, siis aitan. Kudas see haigus on?</p>
+                    </sp>
+                    <sp who="#kadri">
+                        <speaker>Kadri.</speaker>
+                        <p>Kudas ta on? Näe, Aadu käib peale ümber nagu lollike, nutab sagedaste ja ohkab ja kirjutab kirju, kisub jälle katki ja ütleb wahete wahele: "Isa, lepi nüüd ometi Metsa Priiduga ära! Ostame Jõe<pb n="22"/>pära koha ära!" Ei söö teine enam palju, ütleb südame walutawat.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Kas ta ka mõnikord Metsa talu poole waatab?</p>
+                    </sp>
+                    <sp who="#kadri">
+                        <speaker>Kadri.</speaker>
+                        <p>Kes seda nüüd tähele pannud! Ta ikka räägib küll sagedast niisugusi jutte, nagu oleks talle Metsa rahwas suured head inimesed ja nende mets palju ilusam, kui meie kaasik.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Kas ta siis ka mõnest noorest neiust räägib, nagu oleks see tema meele järele ja nõnda edasi?</p>
+                    </sp>
+                    <sp who="#kadri">
+                        <speaker>Kadri.</speaker>
+                        <p><stage>(Pool naerus.)</stage> Mis sa nüüd jälle seda nalja ajad!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Ei ole nalja sõber ma. Aga kas ta Metsa Elsa järele ka mõni kord ei küsi wõi nii? Kas ta ka mõnda weikest pismakest Elsale ei kirjuta?</p>
+                    </sp>
+                    <sp who="#kadri">
+                        <speaker>Kadri.</speaker>
+                        <p>Kes seda nüüd teab! Ei ole küsinud ja Metsa Priiduga ei wõi ja niisugusest asjast rääkida. Ta ei tea enam, mis ta omas uhkuses teeb wõi on. Teutab meie wana Madist ja meid, kus ta aga saab. Ja meie Madis on selle üle ka nii<pb n="23"/> pahane, et ta Priidule mõnikord koerad peale ässitab, kui ta end näitab.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>So, so! Wäga tobri! Nüüd ma tean juba, kudas ma Aadut arstima pian. Ja ma tahan ta ka ära arstida. Siin pole muud wiga, kui et ta on ära nõiutud ja selle nõia piame meie kätte saama, ja see nõid piab teile pärast üheks armsaks inimeseks saama ja teie saate minuga rahul olema. Niisuguse tükki tegin ma kord juba Mahorka linnas ära, kus mu nimi kohe kuulsaks sai.</p>
+                    </sp>
+                    <sp who="#kadri">
+                        <speaker>Kadri.</speaker>
+                        <p>Kui sa nüüd oled niisugune tohter, siis katsume meie omalt poolt ka kõik ära teha, et sa auusaste selle eest tasutud saad.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Harashoo! tobri! Teen oma teu ära. Küll ma siis isegi ütlen, mis teil mulle maksta tuleb.</p>
+                    </sp>
+                    <sp who="#kadri">
+                        <speaker>Kadri.</speaker>
+                        <p>Tee ära jah! Waata sealt meie Aadu isegi seie poole tuleb <stage>(ära).</stage></p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Harashoo, Harashoo!</p>
+                    </sp>
+                    <pb n="24"/>
+                </div>
+                <div type="scene">
+                    <head>6. Etendus.</head>
+                    <stage>Abram. Aadu.</stage>
+                    <sp who="#abram">
+                        <speaker>Abram..</speaker>
+                        <stage>(Aadule wastu minnes)</stage>
+                        <p>Strastui, brat! Tule seie poole ja lähemale ja minu kõrwa ja juure ja manu! Niimoodi, jah! Räägi mulle nüüd oma südame walu ära! Wõi jäta rääkimata! Ma tean ise juba kõik ja Elsa, see teab ka. Aga ma ütlen sulle, Aadu pojakene, see Elsa on üks peenikene, hea, ilus, armas, lahke, kallis ja pehme lapsuke, ta on dobraja, horooshenkaja, gut ja gants gut! Oleks ma weel noorem olema, ma meelitaks ta ära eneselle; aga nüüd olen juba onu wanaduses; noored tütarlapsed ei pane mind tähelegi. Olgu peale, minul on mitmed keeled suus ja ma olen mitmed maad ja kuningriigid läbi käinud ja würstidega ja kindralitega ühes lauas söönud. Ning see on mu troost mu onu põlwes.</p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu.</speaker>
+                        <p>Jah, onu, sinul on troosti küllalt, aga minul?</p>
+                    </sp>
+                    <pb n="25"/>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Noh, pojake, kui troosti puutub, küll onu annab.</p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu.</speaker>
+                        <p>Kui onu wõiks anda?</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Miks ei? Aga sinu troost on Elsa. Sa arwad, et ma sulle seda troosti ei wõi anda? Wõi mis? Wõi kas? Wõis ei?</p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu.</speaker>
+                        <p>Ei tea onu, kas sa wõid?</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Miks ei? Ma tahan siin niisamasugune tükk ära mängida, kui Türgimaal Rooma linnas.</p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu.</speaker>
+                        <p>Kas Rooma linn Türgimaal on?</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Kus siis? Kas sa minust tahad tarkem olla?</p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu.</speaker>
+                        <p>Mina arwan: Rooma linn on ikka Italias.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Ah, mis Iitalias! See Room, kellest mina räägin, on Türgis ja mina olen ta läbi uurinud.</p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu.</speaker>
+                        <p>Olgu peale! Räägi aga tröösti lugu ära!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Nii jah! No hea küll, meie polk oli nüüd Rooga linnas.....</p>
+                    </sp>
+                    <pb n="26"/>
+                    <sp who="#aadu">
+                        <speaker>Aadu.</speaker>
+                        <p>Ei, ei Rooma linnas!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram..</speaker>
+                        <stage>(kögeleb)</stage>
+                        <p>Ei Rooba linnas, ei, ei mis ta nüüd oli taas — Roosa linnas......</p>
+                        <p>Abdu.</p>
+                        <p>Rooma linnas ikka!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Nii jah, Rooma linnas. Seal oli nüüd üks suurt sugu preili. Ta oli keha ümbert nii peenike, nagu minu käewarss, nii peenike, et meie — wõi minu soldatid — ikka ütlesime: Ei tea, kas sell piaks ka hinge sees olema? Noh, hea küll, meie kapral Peter Wedrowitsh himustas seda preilit omale prouaks, aga ei teadnud, kudas teda kätte saada. Siis ütles teine minule: "Armas Abram Andreiwitsh, anna nõuu!" Mina ka hakkan nõuu uurima ja lähen siis kord sellele peenikesele preilile wastu. See preili nähti ka meie kaprali armastama, sest ta käis ikka päewas paar korda meie kaprali korterist mööda. Noh mina lähen nüüd temale lausa wastu ja teretan Türgi keeli: "Salem aleikum!" Tema wastu: "Strastui, Abram Andreiwitsh! Kudaa wõ idjootje? Noh, mina põletasin nii Wenekeelt wastu, et lase aga olla.<pb n="27"/> Ja kui ma oma asja talle ära seletasin ja sagedaste Peter Wedrowitshi nime nimetasin, siis punastas ta ikka wahete wahel ära ja wiimati oli näha, et tahtis ära Wenemaale tulla. Ma andsin asja kapralile teada ja näe! Kihlused ja pulmad oliwad pea käes ja Wedrowitsh tänas mind, kui mõnda suurt meest, ja pärast andis mulle noor proua, kelle nimi nüüd oli Sulamit Wedrowitsh, wäga tihti wodkat ja põske pistetawat nii, et mina kui parun elasin. Waat nii Aadu! Ja Elsa ja sinu wahel tahan ma asjad ka korda ajada, nii et kõik maailma inimesed ütlewad: "Seda on Abram Andreiwitsh teinud!"</p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu:</speaker>
+                        <p>Jah, kui sa seda jõuaks teha, siis ma kuulutaks ja kiidaks ilma inimeste ees: "Seda on tõeste Abram Andreiwitsh teinud!"</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Küll toimetan! Aga, Aadu, sa piad kõik minu teha jätma, muidu ei saa minu mõistuse ja kawaluse raiskamisest midagi wälja tulema. Kas lubad seda? Anna käsi selle peale!</p>
+                    </sp>
+                    <pb n="28"/>
+                    <sp who="#aadu">
+                        <speaker>Aadu.</speaker>
+                        <p>Olgu! Siin mu käsi on! Ma annan kõik woli sinu kätte.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Waata, wana Madis tuleb! Mine nüüd eest ära! <stage>(Aadu ära).</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>7. Etendus.</head>
+                    <stage>Abram. Madis.</stage>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Noh, kudas siis! Madis ise! Strastui, brat! Kudas käbarad käiwad? Jäin seie teie talu õue peale seisma, waatan wana tuttawat kohta ja saan nüüd wiimaks wana sõbra Madisega enne surma ka weel kokku.</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Tere, tere wana sõber! Rõõmustan wäga, et sind ka weel enne surma näha saan! Kudas sa siis nüüd ometi seie said? Räägiti ikka, et sa Türgi maal olla surma saanud ja wana Metsa Priidu ütles weel, keegi Abram olla kelmuse eest wiis korda läbi lipu aetud ja siis ära Siberisse saadetud. Aga waata, Priidu on jälle paha jutu wälja ajanud, nagu ta seda ikka teha armastab.</p>
+                    </sp>
+                    <pb n="29"/>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <stage>(Wihaselt.)</stage>
+                        <p>See on üks wäga paha jutt ja auu ja kroonu mehe teutamine. Kes on see Priidu, et ta tohib minu auusa nime külge oma sõrme pista. Waata, siin pikk rida rahasid, mis mull rinnas on, — kas need on kelmuse wõi wahwuse eest saadud? Nii sugune turak, see Priidu. Ma ütlen sulle, Madis, mu nimi on terwe Türgimaa wärisema pannud. <stage>(Aegamööda)</stage> Ja sina, Priidu, sina Metsa Priidu, piad ka kord seda aega ära nägema, kus Abram Andreiwitsh sulle pussi ja wingerpussi hakkab mängima, oota aga, brat Priidu!</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Ära ähwarda, wend, ilma aegu! Sina ei jõua talle midagi teha. Tema raha ja rikkus paneb sinu suu kõigil pool kinni ja tema oma suu on kui piirituse tuli — see põletab ju silmad peast ära.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Oho, brat Madis! Ära sa mind selles tükis usu! Küll mull on ka keel ja meel. Mull on Wenekeel suus — ja sellega lähen ma kunni Sinatisse, kui tarwis. Kui Priidu mind laimab, siis laimab ta seega<pb n="30"/> ka üht kroonu meest. Ja selle eest piab tema natuke pinnitud saama. Küll sa näed!</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Noh, eks saame näha!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Ja see nägeminne peab hirmus olema, seda ütleb Abram Andreiwitsh, endine 45ma Krasnojarski polgu underwits, kes praegu siin seisab. Waata, brat, Türgimaal, Tirilisti linnas ütles mulle üks Türgi parun: "Abram Andreiwitsh on turak!" Ma ütelsin: "Nimeta seda sõna weel üks kord!" Mehikene kohkus ära, läks walgeks, kui kase toht. Aga sellegi pärast tahtis ta näidata, et ta nagu uhke mees kedagit ei karda ja ütles wärisewa healega: "Abram Andreiwitsh on turak!" Mina ütelsin oma soldatile: "Iwan Tarinowitsh, tule seie!" — Parun läks walgemaks. Ma ütlesin: "Sa oled üht Wenemeest teutanud, kellel palju rista ja rahasid rinnas on ja ära panne nüüd pahaks, et ma sind selle eest karistan. Lähme polkowniku ette. Ma ütlen, sinu pea saab täna ümber käima!" Noh, siis hakkas waene mehikene wärisema, kui haawa leht ja palus andeks, wõttis minu põlwede<pb n="31"/> ümbert kinni ja pakkus mulle raha. Aga mina käristasin: "Maltshii, turetski tsheloweek, see tähendab meie keeli: Pia suu, sina Türgi mõrrake! Kas sa tead ka, et ma seesama Abram Andreiwitsh olen, kes Osman pasha wangi wõttis ja Plewna linna wärisima pani!" Nii pea kui ta seda kuulis, jäi waene mehike korraga keeletumaks. Mina arwasin, et ta kawalust teeb ja andsin talle ühe kämara wastu nägemist. Aga mis tumm, see tumm: —— näitab ikka käega oma südame peale ja jälle minu rahade peale — ning ma sain nüüd ta tumma keelest aru, mis wist nenda oli: "Suur auus underwits, — mull on niisamuti inimese süda sees, nagu sullgi ja sull on palju auu tähta rinnas, heida selle pärastki mu peale armu!" — Noh, mis ma tast siis weel piinasin! Ütlesin oma soldatile: "Iwan Torinowitsh; laseme ta minna!" Waat nii! Paljalt minu ähwardamise ees sai Türgi parun, kelle nimi oli Ali Kadman Pasha, tummaks. Mis saab siis weel Priidust, kui ma tema rumalusega tõrelema ja sõitlema hakkan. Aga ma seda<pb n="32"/> ei tee! Ma tahan aga teda oma krutskidega ja kuntskopidega natuke wintsutada!</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Mull tuleb juba hirm peale selle tõutamise juures, mis saab weel siis saama, kui kohus ütleb: Jõe pära Madis, kas sa mitte nõuu ei annud, et ta Priidut pinniks? Mis ma siis ütlen?</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p><stage>(naerdes)</stage> Ma näen ära, sa 'pole Türgimaad näinud! Sa kardad! Ega ma siis ometi seaduse wastu teda ei pinni. Ma pinnin teda nii, et kui ta selle pärast kohtusse läheb, siis hakkawad kohtu saksad suure healega naerma ja põrutawad Priidule wastu: "Idi wonn! see on: Kasi wälja!"</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Ah, so, so! Wõi mina niisuguseid asju tunnen! Aga, wana sõber! Mull on sulle weel üks asi ära rääkida.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p><stage>(lahkeste)</stage> No muidugi Madis! Ma rõõmustan selle üle, et sa mind usaldad; ja sinu kahjuks ei pia see mitte olema. Too mulle enne kapaga taari, joogi jänu tikub peale. <stage>(Madis läheb tuppa).</stage> Juba näen, et wana Madis Aadu ja Elsa pärast purjed üles tõmbab ja minu sadamasse sõuda<pb n="33"/> tahab. Tule peale, wana sõber, seda parem mull Priiduga mängida. <stage>(Ähwardates).</stage> Ja wana Priidu, sa saad nägema, mis see sõna "kelmus" ja "wiis korda läbi lipu ajamine" sulle maksma tuleb ja kellele sa "Siber" ütlesid! Oot, oot!</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis..</speaker>
+                        <stage>(Tuleb suure taari nõuuga)</stage>
+                        <p>Tõin õige piima wana kroonu mehele! Taar rikub kõhu ära ja sulle, Abram, annan ma hea meelega, mis mull aga on.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Spassibo, Madis! <stage>(Joob).</stage> Päris hea piim. Ma rõõmustan, et sa minuga nii auusal wiisil ümber käid. <stage>(Joob)</stage> Türgimaal toodi mulle küll sagedaste hirmu pärast piima, <stage>(joob)</stage> aga sina tood armu pärast <stage>(joob).</stage> Noh, räägi siis mulle nüüd oma asi südame pealt ära! Ma panen kapa seniks maha <stage>(paneb kapa maha).</stage></p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Ei, ei! Lase ma hoian kapa oma käes, kui sull jälle jänu peale tuleb, siis wõta!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Spassibo, spassibo, Madis!</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Ja, waata, Abram! See asi on nii kirju, et paneb minu pea ümber käima. Mina olen Priiduga, mis öeldud<pb n="34"/> — weriwaenlane, sest ta teutab mind laisaks ja kõlwatumaks ja mina seda ei ole. Minu poega Aadut pilkab ta igal pool, nimetab teda hobuse wargaks ja nenda edasi. Noh, mis ma teen? Olen tahtnud kohtusse kaewata. Arwan jälle: Ta wõiks mind pärast kesk kiriku teed sõimama hakata; mis niisugune hoolib!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Õige jah, Madis, ei maksa!</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Nüüd ei sa meie mõlemad sugugi enam toime. Kus meie kokku juhtume, seal on nägelemine ja jägelemine lahti. — Olgu nüüd sellega kudas on, aga üks hull asi on weel ees.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p><stage>(Wõtab kapa)</stage> Nüüd tuleb wist wiimne ots.</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Minu poeg Aadu, nagu ma näen, armastab Priidu tütart Elsat....</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Ah, aa — aaaaa! Wai nii! Wäga hea!</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Minul ei oleks selle wastu midagi, Elsa on, mis ütelda, hea ja lahke tütarlaps.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Nagu piim ja koor <stage>(rüüpab)</stage> totshno tak! <stage>(= just nii).</stage></p>
+                    </sp>
+                    <pb n="35"/>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Nii jah! Ja Aadu näikse temaga juba ühes toonis olema. Waata seda kirja siin, mis Metsa Elsa käest meie Aadule tuli. Ma ei oska ise lugeda — aga Aadu kätte ma seda sedelit ka ei annaks.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Näita seie! Wõta seniks kapp oma hoiu alla! <stage>(Lueb)</stage> Ahm! hmmm! Ja, hm, hm, hm, hm, hmmmm! Ja, hmm, hmm! Ja, hmm! hmm! hm! So, nii! Totshno tak. Wäga hea! Kirjal ei ole midagi paha sees. Jäta ta minu kätte. Ma ütlen sulle, mull on teda tarwis! Aga kurjaste ma teda ei pruugi!</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Wõta siis peale! Ja siis Abram ole mulle nüüd nõuuks: Mina ei taha mitte, et Aadu Elsa omale naiseks wõtab. Kui ka Elsa armas laps on, siiski, ta on mu weriwaenlanlase tütar. Ja mis laste õnn see on kui laste wanemad wihas ja waenus elawad!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Kas teie wahel lepitust ei wõiks saada?</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p><stage>(tõsiselt)</stage> Ei saa mitte! Ei pia ka saama!</p>
+                    </sp>
+                    <pb n="36"/>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Hea küll! Kudas ma sind siis wõin aidata?</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Jäe üheks pooleks aastaks minu juure elama ja wõta mu poeg oma walitsuse alla. Pane tähele, et ta Elsaga enam kokku ei puutu ja siis katsume talle mõni muu neiu naiseks sobitada. Mull on ta pärast küll hale meel, ta näikse Elsat wäga armastama, — aga mis ei wõi sündida, see ei wõi sündida. Seda teate teie kroonu mehed kõige paremine!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Totshno tak! Snaju, snaju! Harasho, snaju! Too mulle midagi seie pima juure ka weel; kõht näpistab; siis leime kohe hea nõuu kätte!</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Muidugi, muidugi! Sa tead, et ma sulle midagi ei keela, ja iseäranis weel nüüd, kus mu armsa poja Aadu eluõnn sinu wabritseda on <stage>(ära).</stage></p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p><stage>(naeratab ja rüüpab enne)</stage> Kõht on ka pagana päralt tühi. Üks kõik; totshno tak! Aga ajad on just minu meele järele! Sõber Madis, meie saame korda ja wiimaks ütleb mulle pinnitud Priidu: "Sõber<pb n="37"/> Abram, ma näen sa oled Türgimaal olnud. Sinuga ei maksa eitlemine ega hooplemine. Jah, totshno tak!</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p><stage>(Tuleb, weike saia kakk käes)</stage> Ei kõlwanud sulle musta leiba tuua. Siin on natuke linna saia, sinule ma ikka annan kõik ära; sa oled mu parem sõber.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p><stage>(sööb ja joob piima)</stage> Totshno tak! Sõprus on kallim, kui kuld ja armsam, kui magus wiin. <stage>(Sööb edasi).</stage></p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Kudas sa siis mu nõuust nüüd arwad?</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <stage>(Sööb edasi.)</stage>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Kas sa jäed täna juba seie?</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram..</speaker>
+                        <stage>(Nikutab peaga ja sööb edasi)</stage>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Siis on hea küll! Kui sa nüüd oma ametit algad, siis katsu ka Elsale ära seletada, et sest armastuse kraamist tema ja Aadu wahel ometi midagi ei saa.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Totshno tak! Pia kinni ma rüüpan selle wiimse tilga weel ära. Mis ta ilma aegu kapa sisse jäeb, läheb hapuks.<pb n="38"/> <stage>(Rüüpab ja joob kõik ära).</stage> Spassibo, Madis! Säh kapp ja pane tähele!</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Pia, pia, Abram! Ma toon enne weel midagi. <stage>(Jookseb tuppa, ruttu wälja).</stage></p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Saame näha, mis sealt siis tuleb.</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis..</speaker>
+                        <stage>(Pudeliga)</stage>
+                        <p>Pikk tee teil täna ära käidud. Ehk katsute suu täie rohtu ära?</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p><stage>(lustakult)</stage> Spassibo, spassibo, moi starõi drug! Mina teda küll palju ei pruugi, aga olgu natuke katsutud. Ma näen sest ju sinu sõprust minu wastu <stage>(Rüüpab mitu korda järjestiku).</stage> Waata, Maadis <stage>(rüüpab)</stage> see asi on nii! Sull on õige mõte! Anna kõik see wärk minu toimetada, ja küll sa näed, kuda mina sinu ja sinu Kadri ja sinu Aadu ja jällegi Metsa Priidu ja Elsa meele heaks teen ja tüli kautan, ja Aadule ühe naise sobitan, kellega sina kui ingliga rahul oled. Rumeenia maal Josseli linnas tegin ma ühe rikka Juudi tütrega ja tema peiuga ühe imeliku tembu ära. Seal õppisin ma ühe ainsa kuuga juudiks. Ja kui ma juba Juutidega mängida oskan, mis<pb n="39"/> mull siis weel wiga ühe Metsa Priidukesega mängida, kes ei ole Juut ega ole ka Türgimaad näinud! Padashdii toljko, brat Priidu! Ja tebja proutshuu, tõi bolwan, takoi tolstoi gluupõi medewjedtshik! Propastj! Aga seda ma sulle ütlen, Madis, et sa ennast nüüd enam minu wärgi ja plaani sekka ei sega! Kas sa lubad seda teha?</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Luban jah! Kümme korda luban. Ja pian ka sõna!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Harashoo! Totshno tak! Sii hakkab tänase päewaga minu tallitus js seadmine peale. Aga enne tahan ma weea mõni tund puhata.</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Puhka, sõber! Wõta omale kõige pehmem woodi meie talus ja küsi süüa ja juua, mis aga süda himustab!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Hea küll! Lase ma rüüpan selle tilgakese siit pudeli põhjast ära! Mis ta sinna ilmaaegu jäeb! Läheb wiimati hapuks! <stage>(Joob pudeli tühjaks.)</stage> Spassibo, Wedor Wedrowitsh! Nüüd lähen ära tua poole <stage>(läheb)</stage> Pia, pia! Ma wiin kapa ja pudeli ka ära. Mis nad siin ilma aegu kuiwawad <stage>(ära.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>8. Etendus.</head>
+                    <stage>Madis. Pärast Priidu.</stage>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Oota nüüd, wana Priidu! Kui sa oma nahka nüüd mitte turule ei wii, siis ma ei joo mitte üht tilka taari enam! Ja seda pussi ja wingerpussi soowisin ma sulle juba ammugi, mis sa nüüd kroonu onu käest saad! Sina oled mind ja minu Aadut ja Kadrit laimanud ja sõimanud ja oma rikkust ja uhkust maailmale kuulutanud. Küll niisuguste hooplejate nina ka mõnikord lühendatud saab! Ja kroonu onu on see mees, kes sulle näitab, mis sinust saab. Ja kuda ta seda soldatit Abram Andreiwitshi weel on teutanud! Seda ma ei julge rääkidagi. Kes teab, kas ta teda piaks weel ära tundma! Ta ei waatanud enne seda omas uhkuses Abrami pealegi. Oota aga, wana Priidu! <stage>(kohkudes)</stage> Aha, sealt ta ise tuleb! Saab näha, kas ta meie õuest läbi ka läheb! Tuleb! Tuleb! Ma lähen eest ära! Wõi miks ma ära lähen, kas ma teda kardan, wõi mis? Iseäranis<pb n="41"/> weel nüüd, kus mull adwokat kodus on? Ei, seda ei ole! Jäen seisma. <stage>(Teeb ukse ees tegemist, ei pane Priidut tähelegi.)</stage></p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Tulen weel siit kord mööda, ei tea mis see tähendab, kas head wõi paha! Ah, a, wana Jõepära sarw koperdab ukse ees. Ma annaks talle jalaga wopsu selga. Aga mis ma sest saan, kui ma niisugusele puu paljale inimesele haiget teen, ta ei jõua omale 3me kopikugi eest rohtu osta, — niisugune pool santi! Mis sa siis seal koperdad, Jõepära poolsanti ja wõlarott?</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Nii pea kui sa mind näed, siis on sull jälle wanad laimu ja teutuse sõnad suus. Kas sa ei mõista teiste inimeste wiisi teretada ja siis oma teed minna? Kellel sinu lorisemist siin tarwis on? Kas sa mu wõlga maksad? Kas ma olen sulle midagi wõlga? Jumal hoidku mind selle eest!</p>
+                    </sp>
+                    <sp who='#priidu'>
+                        <speaker>Priidu. </speaker>
+                        <p>Ära mögise midagi, wana Madis! Mull oli juba ammugi nõuu, sind käsile wõtta, aga ma ei tahtnud sinuga tegemist teha. Pärast sa ehk kiitled jälle: "Metsa Priidu otsib minuga sõbrust teha!" Ei, ei<pb n="42"/> seda ei pia keegi minust arwama, weel wähem sina ühes oma lagunud talu loksiga. Aga et sa mull nüüd just risti tee peal ees oled, sellepärast tahan ennast ka halwaks teha ja sinuga tõrelda.</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Priidu, kui sa mitte teisite ei räägi, siis kutsun ma oma karja Muri ja ajan sind omast õuest koeraga minema!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Ära nüüd hoople! Ma löön ju Muri teibaga maha ja hoia siis weel oma enese nahk terweks!</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Katsu nüüd, kus mull lööja! Wiisrajakas!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Kuule, Madis! Ära tee minu südant täis, muidu wõib weel suur õnnetus ära sündida!</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Räägi siis, mis sa siin otsid! Ära wiida ilma aegu minu kallist aega! Mina ei ole harinenud, sinu wiisi tööpäewal püha päewa pidama.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Madis!</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Jah!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Küla rahwas mögisewad juba<pb n="43"/> ammu, et su Aadu minu Elsa järele keelt nilpsata ja teda teiste ees teutada.</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Priidu, minu poeg ei teuta kedagi inimest, — sinu ütelus on wale ja minu Aadu teutas!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Sinu Aadu kiita minu Elsat ikka teiste ees ja ühe niisuguse waese roti kiitust pian mina oma tütre teutuseks. Minu Elsat piab üks koguni teine mees kiitma, aga mitte üks waese rentniku waene pojakene. Kas sa mõistad nüüd?</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Priidu, ma ütlen: Ära lobise! Seda ma ei pane mitte sugugi pahaks, et minu poeg sinu tütart kiidab, aga õige ei ole see mitte, et sa minu poega nii halwaks piad, et sa tema kiitust juba teutamiseks nimetad. Mina ei ole oma poega mitte põõsa alt leidnud ja ei taha ka mitte, et keegi teda põõsa taha püüab heita, nagu sina. Niisuguse loriga ära tule sina mind mitte seie narrima! Ma ütlen sulle suu sisse, et sinu Elsa üks mõistlik ja hea tütarlaps on, kümme kord mõistlikum, kui sina ise! Kahju, et su Reet nii wara ära suri, ta oleks sind<pb n="44"/> waus pidanud. Aga seda ära sina mitte looda, et minu poeg sinu wäimeheks saab. Kas sa nüüd kuuled?</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Wai nii, wana sarw! Sinul on siis tõeste mõte, et mina oma armsa lapse nälga nägema saadan? Ei, Madis, enne saadan ta Siberisse, kui sinu talule! Kas mõistad?</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p><stage>(tõstab jala ülesse)</stage> Näe, Priidu, enne kui sina minu jalale mitte suud ei anna, ei luba ma ka mitte, et Aadu sinu wäimeheks saab. Kas sa nüüd aru said?</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Näe, Madis, kui sa kümme korda minu saapa kannale suud annad, siis ma alles luban, et minu Elsa sinu Aadu peale waatab.</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Kasi mu õuest wälja! Ja ma ütlen: Sull üks wingerpuss saab mängitud, mida sa oma elu aeg meeles piad! Jah, üks wingerpuss saab sulle mängitud, wana Metsaline!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Ma ütlen sulle: Sa wõid oma wingerpuss Möldri Matsi karja poisile mängida, aga mitte mulle, sina wana sarw!</p>
+                    </sp>
+                    <pb n="45"/>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Kasi minema, ma ässitan sulle koerad peale, sina teutaja! Muri, Muri! Tule seie, Muri! <stage>(koer tuleb)</stage> Wõta kinni, Muri! <stage>(wõtab pingi)</stage> Ma löön sind pingiga, kui sa mitte minema ei saa! <stage>(Priidu tahab pingist kinni hakata)</stage> Muri, söö ta ära! Wõta kinni! <stage>(Madis ajab Priidu minema, wiskab pingiga järele).</stage></p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p><stage>(teatri taga)</stage> Sarw, sarw! Wana sarw-Madis!</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Karju aga weel, sa ülejäenud! Wai ta tuleb mind seie minu oma talu ukse alla sõimama, niisugune hundi sööt!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>9. Etendus.</head>
+                    <stage>Madis ja Aadu.</stage>
+                    <sp who="#aadu">
+                        <speaker>Aadu.</speaker>
+                        <p><stage>(tuleb wemmal seljas)</stage> Isa, isa mis siin on? Ma löön? Kes see kurja tegija oli? Ma kuulsin alla koplisse juba selle kära ära.</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Lase olla peale! Mull oli siin Metsa Priiduga natuke jagelemist ees. Tead isegi, mis mees ta on. Ja sina tahad weel selle mehe tütart minu minijaks teha!<pb n="46"/> Ära wäsitas kuriloom. Ma joon külma taari natuke peale. Oh sina wiimane risu! <stage>(ära)</stage></p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu.</speaker>
+                        <p>Oh minu taewakene ja minu Elsa! Mis piab minu mõrsjakesest sell wiisil saama? Ära lõpetawad wiimse lootuse! Jah, mis ma weel elan wõi olen. Ei lähe mull söök ega jook enam sisse. Elsa unes ja ilmsi ees, — aga ta jäeb Metsale! Kroonu onu ütles küll: "Aadu küll ma asjad tooni ajan!" Aga mis tooni siin weel ajada on? Ta wõib oma kroonumehe tooniga weel täitja pilli lõhki ajada. Ta näikse ka weel kaunis heaste waletama, nagu mitu teist wana kroonu onut. Mis mull temast palju lootust on! Metsa Priidu wiskab ta wälja, kui ta oma tooniga tuleb.</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>10. Etendus.</head>
+                    <stage>Aadu. Abram.</stage>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Strastui! Mis see on? <stage>(Annab isa käest saadud Elsa kirja Aadule).</stage></p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu.</speaker>
+                        <p><stage>(Lueb ja näikse naeratama)</stage> Kust sa selle kätte said?</p>
+                    </sp>
+                    <pb n="47"/>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Kust ma Plewna linna juures Osman pasha kätte sain? Kust ma oma lipu Türgi sõas kätte sain? Sa küsid weel kust ma kätte sain! Ma ütlesin sulle jo, et ma mõne asja tooni ajan.</p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu.</speaker>
+                        <p>Kulla onu, sa oled osaw! Katsu mind nüüd aidata. Ma annan sulle eluks ajaks prii leiwa.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Ei ole tarwis! aga ma ajan asja tooni. Aga nüüd pian ma sind, su sõnast kinni. Sa piad kõik tegema, mis ma nõuan. Kas piad oma sõna?</p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu.</speaker>
+                        <p>Pian küll! Kulla onu, ma pean oma sõna!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Tobri! totshno tak! Sinu isa on mind sinu wahiks pannud ja käskinud, et ma sind Elsast lahutan. Ma tahan aga nii toimetada et sina ja wana Madis minuga rahul, olete! Nüüd hakkab mäng! <stage>(Tõsiselt)</stage> Aadu! Nüüd lähed sina jala pealt Metsa perele ja ütled, et sina Elsat enam ei taha, waid ühe teise neiu omale naiseks wõtad. Seda ütled sina wana Priidule. Aga Elsale annad sina kawalalt jälle märku,<pb n="48"/> et ta homme õhtu alla koplisse minu jutule tuleb. Kas mõistad, Aadu?</p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu.</speaker>
+                        <p>Mõistan mõistan onu! <stage>(annab onule rõõmu pärast suud)</stage></p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Mis sa nüüd mõllad, ega ma Elsa ei ole! Mine nüüd otse teed Metsale ja tee, nagu ma seletasin!</p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu.</speaker>
+                        <p>Lähen! Ma lendan, ma jooksen, kulla onu! <stage>(ära.)</stage></p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Totshno tak! Aga Priidu, ma ütlen: Sa saad mu wingerpussi tundma! Jah, seda ma wõin ja ütlen selle peale: Horoshoo tobri, totshno tak! Ras dwa tri! <stage>(Läheb marssides ära. Wahe telk langeb).</stage></p>
+                    </sp>
+                </div>
+            </div>
+            <div type="act">
+                <head>Tõine näitus.</head>
+                <stage>Mängimise koht: Metsa Priidu talu tuba, ilusaste sisse seatud.</stage>
+                <div type="scene">
+                    <head>1. Etendus.</head>
+                    <stage>Priidu; pärast Wiiu.</stage>
+                    <sp who="#priidu">
+                        <p>Ma ütlesin juba ammugi ära: Ega minu Elsal palju pole tarwis ümber waadata. Kosilasi on iga sõrme otsas kaks tükki, wõta<pb n="49"/> siis kas saksa wõi muud suurt härrat. Jah. nii ta ka nüüd on. See Madis Põder! Oh sina taewakene! Küll saawad meie küla rahwas ja wana Jõepära sarw silmad lahti kiskuma, kui nad kuulewad, missugune wäimees minule sülle sattunud! Pikk sirge mees, nagu kuusk, kaks päris kohta Pärnu maal, rahapung nagu teiste jahu kott ja wedrudega wanger ja troska ja pritska tallis, mis sa weel tahad! Küll mu Elsa süda tunneb rõõmu siis! Aga nii moodi need tütarlapsed on. Wanemate sõna nad siis ei panne mikskiks, kui neil mõni Jõepära Aadu pähä tikkub. Kui ma nüüd isegi waatan, mis on Aadu selle suure ja targa mehe wastu, kes nüüd Elsale kosja tuleb! waene kassike ja kiriku rotike! Ja kudas see uus kosilane weel minu wasta lahke on: ikka papa ees, papa taha! Ütleb: Ei ma teie talu kohta ega warandust ei himusta, mull on, Jumalalle tänu, isegi kõike maa ilma wara ja rikust. Mu ülem püüdmine ja auu on teie Elsa, see taewa inglike. Ma kanan teda käte peal ja süles,<pb n="50"/> taldriku peal, suu juures! Süda, kui sa nüüd rõõmu ei tunne!</p>
+                    </sp>
+                    <sp who="#wiiu">
+                        <speaker>Wiiu.</speaker>
+                        <p>Tere, tere, armas Metsa onu!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Tere, tere, armas Wiiu, armas küla tädi, kallis sõber! Sa oled just sell silma pilgul, kus minu rõõm otsata suur on. Kas sa mu tulewast wäimeest Madis Põtra Pärnu maalt, rikast kahe koha pärisperemeest ka oled näinud?</p>
+                    </sp>
+                    <sp who="#wiiu">
+                        <speaker>Wiiu.</speaker>
+                        <p>Miks ei, mina ep talle seie poole teed juhatasin! Sinu Elsa õnn on ju minule wäga tähtis olnud.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Wat nii, nii, tädi! <stage>(Wõtab Wiiu ümbert kinni, tahab tantsi keerutada).</stage></p>
+                    </sp>
+                    <sp who="#wiiu">
+                        <speaker>Wiiu.</speaker>
+                        <p>Ja ma tahan nüüd ka asjad nii toimetada, et ta täieste sinu wäimeheks jäeb. Eilegi alles küsis ta minu nõuu oma kosja asja kohta ja ma ütlesin talle südame põhjust: jah, on hea!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Kallis küla tädi! Minu kõige armsam sõber! Mu rõõm sinu üle on otsata suur <stage>(püab Wiiule suud anda).</stage></p>
+                    </sp>
+                    <sp who="#wiiu">
+                        <speaker>Wiiu.</speaker>
+                        <p>Mine ikka! Mis sa nüüd halbid!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Sa tead, et rõõmus inimene<pb n="51"/> on 30 aastat ikka noorem. Ja, Wiiu, kui sa need asjad lu’ud nüüd joonele ajad, siis sa näed, et mis wõib tulla. Mina olen leskmees, Elsa wiiakse ära ja siis mis ma ütlen: üksi on aga ka igaw elada ja perenaist on mull tarwis ja nii edasi ja sina oled mu meele järele — —</p>
+                    </sp>
+                    <sp who="#wiiu">
+                        <speaker>Wiiu.</speaker>
+                        <p>Noh, kes seda ära teab, aga mull on eest otsa üks koguni teine lootus. Üks noorem mees, kui ka rendi peremees, on oma silma juba minu peale heitnud; ja kes teab, mis sest weel wälja tuleb!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Wõi nii, tädi! Kas tohin siis ka teada, kes see noormees on?</p>
+                    </sp>
+                    <sp who="#wiiu">
+                        <speaker>Wiiu.</speaker>
+                        <p>Miks ei! See noorem mees on Jõepära Aadu.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p><stage>(Imestates ja rõõmuga)</stage> Kas tõsi? Wiiu tädi, kas tõsi? Waat seda meest ma sulle küll sowitan: See on sinu wääriline. Soowin tuhat kord õnne! <stage>(Iseendamisi).</stage> See on hea! Nüüd lähewad minu nõuud tooni. Nüüd ei lase Elsa enam Aadut suudgi lahti teha. See lugu on just selle korral sündinud, kus rauud kõige soojem on. Elsa! Elsa!<pb n="52"/> Tule sisse! Tule sisse! Oh mina wiimane õnne seen! Oh mu armas Wiiu! Oh sa ilmamaa, oh sa Elsa, oh sa Madis Põder! Oh sa Pärnumaa! Oh sa wiimane nali!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>2. Etendus.</head>
+                    <stage>Endised ja Elsa.</stage>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Elsakene, tütrekene, lillekene! Meie õnn on otsata. Sina mõrsja, Aadu peig.</p>
+                    </sp>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p>Ei, Aadu pole mitte minu peig!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Ega ma seda ei ütelnud! Kudas Aadu siis weel sinu peale wõib mõtelda! Waata siin on Aadu mõrsja! Waata, Aadu wõtab Wiiu tädi ära! Ja Wiiu tädi, ma ütlen: Aadu on auus mees ja waene ka mitte, ja koolis on ta ka heaste käinud. Sinul saab kullane põlw olema, armas Wiiu! Ja siis saame meie suureks sõbraks weel Aaduga ja Jõepära rahwaga. Ma kingin sulle pulmadeks ilusa, kahe aastase härg mullika.</p>
+                    </sp>
+                    <sp who="#wiiu">
+                        <speaker>Wiiu.</speaker>
+                        <p>Suur tänu, Priidu onu! See<pb n="53"/> on ikka hea asi, kui naabrid sõbruses elawad. Kudas siis! Mis Elsa neiu siis selle asja kohta ütleb?</p>
+                    </sp>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p>Mis ma ütlen? Mu rõõm on niisama suur, kui isa rõõmgi! Aadu on hea poiss ja ma soowin talle südamest hea perenaise.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Oled ikka mu mõistlik ja tark laps. Waata, nii oled sa mu kulla terake! Ja Elsake, wiimane raha kopikas, mis mu pungas on, see on sinu päralt, see läheb Pärnumaale. <stage>(wõtab Elsa ja Wiiu ümbert kinni ja keerutab ümber).</stage> Minul wanal mehel on aga uus elu sisse tulnud. Oh seda lusti ja rõõmu, mis ma omast Elsast, mu silma terakesest, weel omas wana põlwes näen. Head lapsed on ikka Jumala õnnistus!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>3. Etendus.</head>
+                    <stage>Endised ja Abram. (Ilusates, juudi moodi riietes, juudi habemega).</stage>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>See on hea, äia papa, et Teie meel nii rõõmus on ja mina tahan<pb n="54"/> selle eest ikka muret kanda, et ta ikka nii rõõmsaks peab jäema.</p>
+                    </sp>
+                    <sp who="#wiiu">
+                        <speaker>Wiiu.</speaker>
+                        <p><stage>(Priidule)</stage> Küll on ilus mees!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Jah, tädi, seda ta on! Ja waata ja oota, kudas ta weel Elsa ümber libe ja usin on, nii et rõõm waadata.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Kes see naisterahwas siin on, wist mu armsa ja kalli mõrsja tädi wõi onunaine?</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>See on minu hea sõber ja tuttaw, Wiiu, küla tädi, Jõepära noore peremehe mõrsja.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Wäga hea! Siis on Teie meel ka kergem, äia papa, kui näete, et Teie tütar mitte üksi ei lähap kaugele maale mehele.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Kui mull niisugune mees wäimeheks on, nagu Teie, siis ma oma Elsa kas wõi Ameerikasse saadaks.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Wäga hea! Ja minu Elsakene on sellega rahul? Kas olep, wõi ei olep?</p>
+                    </sp>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p>Miks ei ole? Ja pea asi on weel, et isa nii rahul on.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Kanapojuke, miks ma nüüd<pb n="55"/> rahul ei ole. Aga mõrsja ja Wiiu, nüüd minge Teie kõrwale, meil on kahekesi siin wähe juttu ajada.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Nii ta olep! Head terwit, minu kallis ja kullake Elsake! Head terwit Wiiu mõrsja! Küll Madis Põder tulep jälle teie meelt rõõmustama.</p>
+                    </sp>
+                    <sp who="#wiiu">
+                        <speaker>Wiiu.</speaker>
+                        <p>Nii, nii! Küll on mõistlik mees! Tule, Elsa!</p>
+                    </sp>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p>Head terwit, mu Põdrakene, mu peig! <stage>(Põder wõtab Elsa ümbert kinni ja saadab ta tuast wälja. Priidu lööb käega wastu püksa ja rõõmustab).</stage> Oh seda ilu ja õnne! Oh ma õnne seen, oh ma kuulus äia papa! See on mees!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>4. Etendus.</head>
+                    <stage>Priidu ja Abram.</stage>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Wäimees, siin on tool! Istume maha ja ajame pulma jutu! Säh, siin on sinu koha paberid ja minu 1000 rubla, mis meie heile õhtu kauba kinnituseks wastastiku üksteisele andsime. Mina niisugusid asju ei pruugi. Tulewal pühal kuulutakse<pb n="56"/> Teid kirikus ülesse ja siis oleme sugulased, teie wäimees ja mina äia papa! Oh Põder, mu meel on hea! Teie olete wäga minu meele pärast!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Kui Teie ei soowip mitte kohtu ees seda kosja kaupa kinnitop, siis mino wotab küll omad paberid takasi, aga Teie raha, 1000 rubla, mina ei tahap.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Wõtke esimeseks kingituseks! See on Elsa nõela raha. Küll pärast tuleb enam.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram..</speaker>
+                        <stage>(Juba hästi juudi murdes)</stage>
+                        <p>Noh, kui äia pappa soowep, siis minu wotab. Aga äia pappa piab ennast minu üle wege rõõmustama. Seda mina utlep. Ja mina ei waleta. Jumala pärast, minu ei waletab.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Seda ma ei usu ilmaski, et üks niisugune mees waletab, kellel kaks päris kohta käes on ja minu koht saab wiimaks ka tema kätte.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Nii ep ta olep. Mina ei tahap muud medegi, kui teie armas Elsad ja see on minu kullahauk ja raha hunik.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Oh minu kallis wäimees!<pb n="57"/> Teie teete mulle wäga palju rõõmu. Mu naaber Jõepära Madis on mind oma pojaga wäga palju pahandanud, aga nüüd läheb minu tütar mehele, tema poeg wõtab naise ja ma ei pane seda wiha enam tähelegi.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>See on wege oige äia pappa. Mis maksab wiha, mitte medegi; ei ole temal protsenti ega kasu, ei ole kopik ega rubla, ei ole tema peenike kaup ega ei ole tema ka iles Elsa! Teil olep wege suur oigus, äia pappa.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Kudas teie keel nii kange on, wäimees?</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Äia papa, see tuleb sellest, et mina mitu woerast keelt reegib ja Pärnu maalt elep.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Oh seda lusti ja rõõmu! See on mu uhkus, et mull nii sugune wäimees on, kes mitu keelt oskab ja maakeelt kangelt räägib, — see annab talle peenikese Saksa moodi ja see on minu meele pärast. Ja meie küla mehed ja naised saawad mind mu õnnega imeks panema.</p>
+                    </sp>
+                    <pb n="58"/>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Nii ep ta olep! Kui äiapapa soowip, minu reegib ka selge maa keel.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Ei, ei wäimees, see keel on ilusam, sest ta on kange ja igamees kuuleb kohe ära, et Teie palju teisa keeli oskate. Ja kes palju keeli oskab, sell on ka palju raha ja see on kõik kohad ära näinud.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Nii on küll eige! Minu olep ka palju näinud. Olep Weru ja Wiliandi ja Paide ja Baltiski ja keik laadad lebi keinud. Aga äiapapa, nüüd läheb minu ära. Minu sälu olep kõrtsi juures, minu toob tema seie. Minu olep palju kraami wankril. Kui tulep waras, siis tema wotap kraami ära ja minul olep kahju.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Ja, jah! wäimees, ega uskuda ei wõi! Too hobu seie! Meil on ruumi küllalt ja wäimees puhkab siis mõni päew ja aiab Elsaga magust juttu. Siis tema sõidab kodu ja tuleb pulmadeks jälle seie. Ja siis on meie rõõm otsata suur. Ja Priidu tahab suiks omad rahapaberid linnast ära tuua ja annab nemad wäimehe kätte.</p>
+                    </sp>
+                    <pb n="59"/>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Nii olep eige! Küll mino teeb, kudas minu äiapapale reemu teeb! <stage>(ära.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>5. Etendus.</head>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Priidu, sa tuline õnne seen! Kas sa nägid, missugune wäimees sull on! Oh seda pidu ja põlwe! Ja kui ilusaste ta Saksa moodi maakeelt räägib. See on imekspanemise wäärt. Ma ütlen ikka: Tark mees on wäimeheks ikka teine tubak.</p>
+                        <p>Priidu! hakka ka seda peenikest maakeelt rääkima! See piab wäimehe meele järele olema. Katsume järele, tema ütles: "Minu läheb kõrtsi manu, toop oma sälu ära. Mul olep kraami wankris ja kui tuleb waras, tema wotap minu kraam ära!" Keel on käes, Priidu! Nüüd kutsume Elsa seie poole! — Elsa! Elsa! Kas sinu ei kuulep, kui äiapapa heikap! Elsa, tulleb ruttu mene poole!</p>
+                    </sp>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p>Mis isa soowib!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Kus jäip küla tädi Wiiu? Kas tema ei tulep seie? Minu tahab temale midagi reekima.</p>
+                    </sp>
+                    <pb n="60"/>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p>Mis keelt nüüd isa räägib?</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Waatab, minu kallis Elsa! Põder reegib niisugune kange maakeel ja see olep iles. Nüüd minu reegib ka niisugune maakeel ja see olep wäimehe meel hea. Ja Elsa, katsub sina ka seda keelt reegima, siis olep tema meel weel parem. Kas moistab Elsa reekima?</p>
+                    </sp>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p>Miks ei moistab, kui reegib isa seda keelt ja kui reegib Poder seda keelt, siis reegib Elsa ka seda keelt, sest tema armastab ile wäga oma isa ja Poder.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Kus olep Wiiu? Tema peep ka seda keel reekima!</p>
+                    </sp>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p>Wiiu tädi leks era. Tema tahap oma peigmees Aadu waatama.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Olep wega hee! Elsa lehap nüüd oma peigmehele wastu ja toob temma seie, siis meie ajap ilest ja magust juttu.</p>
+                    </sp>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p>Küll minu lehep! Minu armastab wega oma Poder. Minu lehep! <stage>(ära)</stage></p>
+                    </sp>
+                    <pb n="61"/>
+                </div>
+                <div type="scene">
+                    <head>6. Etundus.</head>
+                    <stage>Priidu ja pärast Wiiu.</stage>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Nüüd olep keik hee! Elsa reegib, minu reegib, kui tulep Wiiu, — Wiiu reegib ka ja meie reegime siis pulmas keik ilesat kanget saksa moodugi maakeelt. Ja seda olep minu tark weimees Madis Poder teinud. Oh reemu, oh lusti!</p>
+                    </sp>
+                    <sp who="#wiiu">
+                        <speaker>Wiiu.</speaker>
+                        <p><stage>(tuleb jookstes ja hinge waakudes)</stage> Priidu, Priidu, armas kallis Priidu!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Mis olep, mis sinu karjub nii?</p>
+                    </sp>
+                    <sp who="#wiiu">
+                        <speaker>Wiiu.</speaker>
+                        <p>Jõepära Madis räägib weel praegu Põdraga.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Kas tema sarw tohip reegeda! Minu wotap kapusta raud, wiskab kapusta raud tema jala peele!</p>
+                    </sp>
+                    <sp who="#wiiu">
+                        <speaker>Wiiu.</speaker>
+                        <p>Priidu, Priidu, sinu wäimees ja Elsa peigmees on Juut! Päris sula Juut!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Mis sino reegib? Kuis tema olep Juut? Tema reegib peenikest kange keelega, saksamoodi maakeelt? Tema olep rikas<pb n="62"/> peris koha peremees. Kes tohip ütelda: tema olep Juut!</p>
+                    </sp>
+                    <sp who="#wiiu">
+                        <speaker>Wiiu.</speaker>
+                        <p>Armas Priidu, mull on sula tõsi! Ta olewat küll ümber ristitud, aga muidu päris Juut. Mine kõrtsi juure waatama! Seal on tall suur kauba koorm peal ja müüb kaupa. Küsi Jõepära Madise käest! Tema ütles, kui ma seal juures seisin: "Nüüd mull ei olep ni palju raha, aga kui minu wotab Metsa Priidu Elsa ära, siis olep mull palju raha, wega palju raha." Teised naerawad kui koerad ümberringi, muud kui Jõepära Madis wangutab aga pead.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Jumala pärast, Wiiu ära heida minuga nalja! See on hirmus! Kus Elsa on!</p>
+                    </sp>
+                    <sp who="#wiiu">
+                        <speaker>Wiiu.</speaker>
+                        <p>Issa Pojake, Püha Waimuke, kudas ma siis niisugust jõledat nalja wõin heita! Elsa seisab tema juures ja ei lausu midagi, muud kui ütleb: "Poder, tulep meile, isa ootab!"</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>See keel on küll peaaegu Juudi keele moodi. Issa ristike, kui see jutt tõeste õige on, Wiiu, mis mina siis teen?!</p>
+                    </sp>
+                    <pb n="63"/>
+                    <sp who="#wiiu">
+                        <speaker>Wiiu.</speaker>
+                        <p>Kui sa mind ei usu, siis mine ometi waatama!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p><stage>(Pool haledalt)</stage> Ei minu lehap! Ei, ei, minu ei lehep, see hebi teeks mind surnuks.</p>
+                    </sp>
+                    <sp who="#wiiu">
+                        <speaker>Wiiu.</speaker>
+                        <p>Kutsu Jõepära Madis seie, küll ta ära seletab.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Madis! Ei, ei! See on waene rentnik.</p>
+                    </sp>
+                    <sp who="#wiiu">
+                        <speaker>Wiiu.</speaker>
+                        <p>Mis see Madise waesus sinusse puutub, kas sa selle pärast oma armsa Elsa lased maailma naeruks saada — Juudi emmadaks, wat see oleks Metsa Priidule auuks? Jah?</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Mine palu Madist Jumala keeli, et ta seie tuleks! Oh mina õnnetu isa! Juudi kätte ei pia minu Elsa oma warandusega mitte saama. Ei ilmaski! Armas, kallis Wiiu, mine nüüd ja jookse ruttu! Armas Wiiu, aita! <stage>(Wiiu ära)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>7. Etendus.</head>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Oh mina waene hing! Oh mina õnnetuse kott. Waata nüüd kus pee<pb n="64"/>nike ja kange maakeel on! Nüüd hirwitawad teised kui koerad. Jah ütle nüüd weel Priidu: Minul olep ilus weimees! Oh mina raha punga põletaja! Ja 1000 rubla on weel tema käes. Ja minu Elsa, ta on ka nii sõna kuulelik kui weike laps! Oh, oh, oh, mina waene mees! Anna nüüd tüttar Juudi naiseks wõi kauta 1000 Rbl. käe raha ära! Oh, oh, oh, oleks mull nüüd mõni abimees olema. Jõepära Madisse wihastasin hiljuti ka weel enam ära ja mis tall wiga nüüd hirwitada. Waat nüüd on sull wingerpuss käes! Jah, seda ma pian ütlema, see on üks wingerpuss! Jumal Issa Jumala Poeg! Kus minu silmad ometi oliwad! Nüüd mine weel Jõepära Madissega kõnelema! Kas mull teda tarwis oli! Wõtku pagan selle Põdra maa pealt ära! Ta waim mõistis ka nii libe olla, kui Juut kunagi! Kust minu sugune seda kurja ilma elu ja petust ometi nii wõib tunda ja kas ma niisugust saadana petust ometi wõisin wõimalikuks arwata! Oh, mina waene hing! Olen seie maani ligi 10,000 rubla<pb n="65"/> raha kogunud, ei wõinud mind keegi ära petta, nüüd tuleb üks Juudi näru kael ja petab mind puu paljaks! Oh mina lamba pea! Tema ütleb: Kil minu teep, et eiapapa wega minust reemustab! "Reemusta" nüüd, Priidu! Nüüd on sull "reem" käes. Hõissah, pulmad, Priidu! <stage>(Tambib jalgadega wasta põrandat).</stage> Hõissah pulmad, Juudi pulmad! Ja kui Elsa tuleb wana isale pärast Juudi wankril külaliseks, weike Mooses ja Aabram ja Iisak kaasas! Wat siis! Oh mina jamps! Ma annaks oma Elsa sellesama korraga Jõepära Aadule, kui see wõimalik oleks. Ja sellel wiisrajakal pidi ka häda käes olema, wanat tüdrukut Wiiut kosida. Häbi niisuguse poeglapse pärast! Kas ta ei oleks wõinud mind ikka weel meelitada?!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>8. Etendus.</head>
+                    <stage>Madis ja Priidu.</stage>
+                    <stage>(Mõlemad wõerastawad. Ei lausu esiotsa midagi. Aega mööda hakkawad juttu tegema).</stage>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Tere, Priidu, ka!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Jumaleme Madis.</p>
+                    </sp>
+                    <pb n="66"/>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Ilmake näis, kaunis hea olema.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Andku Jumal, heinad maas, ehk saaks nad pea kätte.</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Ehk saaks kätte — <stage>(Kõnniwad ümber).</stage></p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Madis!</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Jah!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Kas sa seda Pärnu meest Madis Põtra tunned, kes praegu kõrtsi juures piab kaupa müüma?</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Miks ei tunne? See on ju Juut. Ta päris nimi olla Mooses Hersch.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu..</speaker>
+                        <stage>(Lööb käed kokku)</stage>
+                        <p>Jumal Issa Jumala Pojuke! — Mooses Hersh! Kust sina teda tunned?</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Juuti ei tunne nüüd inimene ära! Ütles isegi tõine: Maakeeli nimi olep mull Madis Poder, aga saksa nimi olep Mooses Hersch. Minu saab rikka naisu, siis minu ostab enam kauba. Kui minu ei saa naisu, siis minul on 1000 rubli taskus.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Oh, oh, oh, kudas on minul ometi see karistus peale pantud!</p>
+                    </sp>
+                    <pb n="67"/>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Juba ma kuulsin: Sina olla temale 1000 rubla käeraha annud ja pühapäew pidada tema Elsaga juba kirikus maha kuulutatud saama.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Oh, et see kõik õige on! Mind on petetud, poolemees! Hirmsal kombel petetud. Mu Elsast pidi mu wanaduse tugi saama ja nüüd piab ta ühe kauba Juudiga laulatatud saama! Oh! mu jüda lõhkeb, kui ma selle peale mõtlen.</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Lastega on küll sagedaste meele haigust. Minu Aadul on ka imelik mõte päha tulnud, — tahab wana küla tädit Wiiut ära wõtta! Küll noomin ja pahandan, aga ei aita midagi. Mull oli küll hea nõuumees, üks wana soldat. See on nüüd ka kolmest päewast saadik kadunud. Mis ta seal weel tegi; ta nägi ära, et ükski nõuu ei aitanud ja pani siis putkama! Oh poolemees, wanematel on lastega küll suur mure ja meele haigus!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <stage>(Langeb nuttes Madise kaela.)</stage>
+                        <p>Uuu, uuu, uhuuu! Armas Madis mu süda läheb lõhki — uuuuu — uhuuuu!</p>
+                    </sp>
+                    <pb n="68"/>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p><stage>(Nutab ka)</stage> Uhuuu! Priidu, armas poolemees, armas naber, — uhuuu!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Minu süüd kõik! Uhuuu! Jumalukene! Oleks ma oma Elsa sinu Aadule annud — uhuuu, ui, ui, uhuuuu! Nüüd oleks meil ilusad rahulised pulmad olnud — uhuuuu, ui, ui, ui, uhuuuuu! Ja sinu Aadu on mõistlik poiss ja oli Elsa meele järele! Uhuuuuu!</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Uhuuu! ui, ui, uhuu! Ja Aadu armastas wäga südamest ja sügawast sinu Elsat — ja nüüd Wiiu — uhuuuuu!</p>
+                    </sp>
+                    <sp who="#priidu #madis">
+                        <speaker>Priidu ja Madis</speaker>
+                        <p><stage>(nutawad waljuste)</stage> Uuuu, uuu, uhuuu!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Madis, ära nuta enam!</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Miks ma ei piaks nutma! Noorel agaral pojal wana tüdruk mõrsjaks! Uhuuu!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Ja minul Juut wäimees....</p>
+                    </sp>
+                    <sp who="#priidu #madis">
+                        <speaker>Priidu ja Madis</speaker>
+                        <p>Uhuuu! uhuuuuu!</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Lepime ära!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Madis, seda ma tahan süda<pb n="69"/>mest teha! — Meie lubasime oma jalgadelle suud anda! Uhuuu, ui, ui, uhuuu!</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Ära seda ilma aegu tehkem, see oli jo naeru wäärt nõuudmine!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Ei, see piab tehtud saama, meie naeru wäärilised nõuudmised piawad ka meie naeruks täidetud saama! Anna jalake seie, Madis! <stage>(Priidu wõtab Madise jala kinni ja annab suud).</stage></p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis..</speaker>
+                        <stage>(Tahab Priidu jalga kinni wõtta)</stage>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Ei, Madis, lase ma wõtan mudase saapa maha.</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Ei, lase olla, Priidu! Mu karistus piab niisama suur olema, kui mu narrilane nõudmine! <stage>(Annab Priidu saapale suud).</stage></p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Mu süda on kümme naela kergemaks läinud!</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Minu oma kõige wähemast kakskümmend naela.</p>
+                    </sp>
+                    <stage>(Mõlemad pühiwad silmi.)</stage>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <stage>(nutab nuesti)</stage>
+                        <p>Kudas meie mõlemat karjas käisime ja sõbrad olime, ning nüüd pidi meie wahel niisugune tüli olema!</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Ära nüüd nuta enam, Priidu!<pb n="70"/> See teeb ilmaaegu südame haledaks! Katsume nüüd oma õnnetust rahulikul meelel ära kanda!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Jah, Madis, seda oleme meie ise tahtnud. Aga ehk aitab meid weel siiski Jumal! Ega meie ometi nii ülearu õnnetumad ei wõi olla! — Oh sina, <stage>(tambib jalgadega)</stage> sina pool hullu, sina Juut Mooses! Sina maja õnne rikkuja! Sinna sahkerdaja Juut!</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p><stage>(Niisamuti)</stage> Oh sina Wiiu, sina wana tüdruk! Sina Aadu tädi, aga mitte Aadu mõrsja!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>9. Eteudus.</head>
+                    <stage>Endised. Abram ja Elsa.</stage>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p><stage>(suur kast kaenlas)</stage> Kui mine itleb, et minu eiapapal olep suur reem minu perest, sis peep temal ka suur reem olema!</p>
+                    </sp>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p>Olep kill! Waatab Jõepära onu olep ka tulnud!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Miks ei tulep, kui kuulep, et on pulm ja naaber paneb ilesa neie rikkale mehele. Mine itleb: Peep olema terwe<pb n="71"/> külas suur reem, kui Madis Poder tantsip oma ilesa noorikuga pulma tantsi ja eiapapa annab Podrale ilesa punase paberi raha iks tuhat ja weel iks tuhat ja weel kaks tuhat ja mitu tuhat!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Päris juut! Oh minu Jumal! — Kuule Elsa, sina oled weel natuke noor mehele minemiseks. Jäta edasi poole! Ja, Poder, mis Teie armate, kui meie teeme pulma kaup tagasi. Tulge mõne aasta pärast, siis on Elsa wanem ja mõistlikum.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Põder.</speaker>
+                        <stage>(= Abram)</stage>
+                        <p>Mis tema itleb: Kas minu ei teap, et Elsa on iles neie ja on rikkas neie ja et eiapapa on annud iks tuhad rublat käe raha ja on ütelnud: linnast tulep weel wege palju paberi raha jerele.</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>See on ikka paljas lubamine, auus kosilane. Kes nii wara kõik raha kätte annab? Ja Elsa ise ehk ei taha ka nii wara mehele minna ja isa kodust kaugele ära lahkuda?</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Põder.</speaker>
+                        <p>Mis tema reegib, weeras mees? Kas olep Elsa tema tütri woi olep see iles raha tema raha, mis eiapapa meile andma? He?</p>
+                    </sp>
+                    <pb n="72"/>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Minu arwates ei saa meie kaubast küll midagi, Põdra saks. Elsa ei taha mind wana meest mitte üksi jätta ja ära kaugele maale minna. Eks ole nii, armas Elsa?</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Põder.</speaker>
+                        <p>Kui elep nii, siis elep nii. Ega minu ei woi Elsa wegese wottap. Aga kui Elsa minu armastap, siis minu wottap Elsa. Noh, hee kill! Mis itleb Elsa? Kas tulep minu naeseks?</p>
+                    </sp>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p>Tulep kill, armas peigmees, ega minu isa ometi nii halastamata ei woi olla, et ta mind wanaks tidrekus jetab. Kill on iles olla iles kauba saksa naene!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Põder.</speaker>
+                        <p>Noh, mis itleb nuud eiepapa! Minu arwab, kui papa on kord lubanud ja iks 1000 rublat käeraha annud, siis elep kaub walmis. Weeras mees waatab, kudas oma titrikuga korda saab. Ja waatap eiapapa! Siin olep kingitus <stage>(wõtab kastist asju)</stage> Iks ilis piip, iks iles kaela retik? Kas ei elep iles? <stage>(annab Priidu kätte, see waatab asju ja wiskab sülitates nurka. Põder wõtab hulga liht sitsi riiet wälja, annab Elsa kätte.)</stage> Waatab, minu armas Elsa,<pb n="73"/> minu magus morsja! Siin olep iks ilekond, siin elep weel iks ilekond, ja siin elep weel iks ilekond! Kas pele iles! Ai, wai?</p>
+                    </sp>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p>Minu tenap wege! Kill olep iles</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Elsa, ära räägi seda Juudi keelt! Madis Põder on Juut. Kahju, et ma seda mitte ennemast ei teadnud, — ma oleks ta uksest wälja wiskanud.</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Jah, see on õige, naaber!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Põder.</speaker>
+                        <p>Mis elep eige, kila mees? Kas Juut ei ele peenekene mees? Ai, wai? Kas mine keskis Juudi wottap omale weimeheks. Iles kill, kui teie ei tahap Juuti weimeheks, siis wetab mine see 1000 rubli era ja nouap weel enam rublit kahju tasumeseks.</p>
+                    </sp>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p>Ära kardap, Poder! Minu olep sinu morsja!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Põder.</speaker>
+                        <p>Noh, itle, mis minu siis kardap! Kas on see kilemees sinu isa woi on minu eiapapa, sine isa ja papa. Wat, Elsa, kui sine selle ilekonna omale selga tombap, <stage>(paneb riide Elsa ümber)</stage> siis meie leheme kendima ja minu laulap: <stage>(Laulab)</stage></p>
+                        <l>"Lehep minnu illes megede peele</l>
+                        <l>"Tuule erna ehhu peel,</l>
+                        <l>"Waatab minu alla pellu peele</l>
+                        <l>"Waatab mine, kudes jegi plagab</l>
+                        <l>"Lebe illesa metaste</l>
+                        <l>"Hiab minu illesa jegede poole:</l>
+                        <l>"Illes olep papamaa!"</l>
+                    </sp>
+                    <pb n="74"/>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Sina püsti Juut, anna minu raha seie ja mine ära. Oma last ma sinu kätte ei anna!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Põder.</speaker>
+                        <p>Mis itleb eiepapa? Kudes minu woib kallis raha ja illes tidrek anda tagese? Kas minu elep siis messuge?</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Anna siis oma päris koha paberid seie?</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Põder.</speaker>
+                        <p>Ai mer wai? Mes olep peris koha paber? Eiepapa wots peris koha paber eile ere. Kas eiepapa mine reewib? Annap tema minu paber, minu annap tema iks 1000 rubla kätte.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Ta on püsti walelik. Pool hullu! <stage>(Ise endamisi)</stage> Oh, oleks Aadu nüüd siin, ma langeks ta ette põlwili maha ja<pb n="75"/> pakuks kahe käega Elsat talle perenaiseks. Oh mina loll! Oh mina toter!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Põder.</speaker>
+                        <p>Minu lehep sälu waatama. Kui tulep tagasi, siis minu palup weel iks 1000 rubli ja siis mina lehep ere, muidu minu wotap Elsa ja kik tuhat rubli ja eiepapa talu ka. Illes Elsa, jeep seni terweks! Kill minu sinu wotap! <stage>(ära )</stage></p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>See on püsti Juut ja hull Juut!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Päris püsti hull! Elsa, kas sull ei ole armu heitmist minu wana mehe peale! Tahad sa tõeste ühe kauba Juudiga ära minna?</p>
+                    </sp>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p>Mina armastan teda. Sina ei lubanud mind mitte Jõepära Aadule minna ja nüüd lubasid mind Põdrale ja nüüd ma ka lähen. See on teine asi, kui Põder ise mind enam ei taha, ehk kui sa mind tagasi ostad.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Sina Juudi nägu! Kas see on su tänu, et ma sind ülesse kaswatasin!</p>
+                    </sp>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p>Isa elep minud Juudile soowitanud ja nuid mine ka Juudile lehep.</p>
+                    </sp>
+                    <pb n="76"/>
+                </div>
+                <div type="scene">
+                    <head>10. Etendus.</head>
+                    <stage>Endised. Aadu. Kadri. Wiiu ja Põder.</stage>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p>Waata, pidulised tulewad ka juba!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Nüüd läheb asi alles hukka! Jumal peasta mind nüüd seekord weel ära! Oleks ma ennem ära läinud!</p>
+                    </sp>
+                    <sp who="#kadri">
+                        <speaker>Kadri.</speaker>
+                        <p>Meie kuuleme, et Priidu oma Elsa koguni rikkale Pärnu maa mehele naiseks anda. Tuleme ka õnne soowima.</p>
+                    </sp>
+                    <sp who="#aadu">
+                        <speaker>Aadu.</speaker>
+                        <p>Soowin palju ja suurt õnne!</p>
+                    </sp>
+                    <sp who="#wiiu">
+                        <speaker>Wiiu.</speaker>
+                        <p>Mina soowin ka palju head ja pikka iga: Olgu mees Juut wõi sant, ta on ikka mees — ja peaasi — Elsa armastab südamest oma meest.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Ei, ei, nabri rahwas! Minge tagasi, meie asi ei ole weel selge! Siin on üks eksitus.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Põder.</speaker>
+                        <p>Kudes teme itlep: siin olep eksitus? Ei olep eksitus. Minu on saanup iks 1000 kese raha ja Elsa olep minu. Ai wai eiepapa, miks tema waletap?! Woi kui<pb n="77"/> tema ei taha anda Elsa, siis leheb mine selle iks 1000 ruble ilesa rahaga minema.</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Kas sa siis sugugi ei häbene, niisugust tempu mängida? Wõta 10 rubla waewa palka ja mine ära!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Põder.</speaker>
+                        <p>Mine jeep seie. — Ehk eiepapa! Olge tehtud, kui teie annap Elsa sellele noore mehele, mis siin on, siis minu lehep ära.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Kas tõsi? Hea mees, küll annan, aga sellel on ju ise mõrsja.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Põder.</speaker>
+                        <p>He kill! Kule iles morsja, Wiiu tädi, kas tema tuleb minele, kui mina annap talle kik ilesa asja, mis on tarwis, ilekond ja serk ja saabas ja ratas ja kik, mis on iles ja kallis.</p>
+                    </sp>
+                    <sp who="#wiiu">
+                        <speaker>Wiiu.</speaker>
+                        <p>Miks ma siis ei tule! Aadu ongi mulle üle liiga noor!</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Jumal õnnistagu teid, auus Põder ja armas Wiiu! Mina annan teile omalt poolt weel hea kaasande.</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Põder.</speaker>
+                        <p>Kas neep nuid Metsa piremees, et Juut on ka auus mees, tema ei wotap mitte teise mehe morsjat, mite ilesa suure raha eestki era. <stage>(Annab raha tagasi).</stage> Siin olep<pb n="78"/> sinu iks tuhat rubli! Ja nuid minu neitab, kes minu olep. <stage>(Tõmbab habeme suust ja wiskab kuue maha, — endine Abram Andreiwitsh walmis).</stage> Strastui brat! <stage>(Suur imestellemine).</stage> Waata, Metsa Priidu, see oli minu mäng! Aadu ja Elsa ja Wiiu teadsiwad seda küll, aga teised mitte. Kas sa oled mu peale wihane?</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu</speaker>
+                        <p>Jumal Issa Jumala Pojuke! See on ju soldat Abram!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.,</speaker>
+                        <p>Jah, see ma olen! Ma teadsin et teie lapsed üks teisi armastawad ja teil ilma aegu wiha üks teisi wahel oli, selle pärast näitasin ma oma osawust.</p>
+                    </sp>
+                    <sp who="#priidu">
+                        <speaker>Priidu.</speaker>
+                        <p>Tuhanda wõrra maksan ma su waewa ära! Elu otsani saan ma sulle armu leiba andma.</p>
+                    </sp>
+                    <sp who="#madis">
+                        <speaker>Madis.</speaker>
+                        <p>Ei, seda annan mina!</p>
+                    </sp>
+                    <sp who="#elsa">
+                        <speaker>Elsa.</speaker>
+                        <p>Ja mina ka!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Tehke ots peale! Mis saab siis nüüd Elsast ja Aadust?</p>
+                    </sp>
+                    <sp who="#priidu #madis">
+                        <speaker>Priidu ja Madis.</speaker>
+                        <p>Üks paar ja weel kord: Üks paar! Üks ilus paar!</p>
+                    </sp>
+                    <sp who="#kadri">
+                        <speaker>Kadri.</speaker>
+                        <p>Oh sa taewake, seda õnne ja asja! Mull saab nüüd üle ilma ilus minija.</p>
+                    </sp>
+                    <pb n="79"/>
+                    <stage>(Senni on Aadu Elsale liginenud ja rõõmu näu all talle kätt annud j. n. e.)</stage>
+                    <sp who="#abram">
+                        <speaker>Abram..</speaker>
+                        <stage>(wõtab Wiiu kätt pidi kinni ja toob ette poole)</stage>
+                        <p>Sellega ma oma tüki nii hästi mängisin ja ütelge nüüd mis siis meist saab?</p>
+                    </sp>
+                    <sp who="#elsa #aadu">
+                        <speaker>Elsa ja Aadu</speaker>
+                        <p>Üks paar! Üks ilus kroonu paar!</p>
+                    </sp>
+                    <sp who="#abram">
+                        <speaker>Abram.</speaker>
+                        <p>Totshno taks! Spassibo! Wot tebe ras! Kahed pulmad! Dischen harascho!</p>
+                    </sp>
+                    <sp who="#madis #priidu">
+                        <speaker>Madis ja Priidu.</speaker>
+                        <stage>(Üks teise ümbert kinni wõttes)</stage>
+                        <p>Kolm paari! Suur rõõm! Hõissa pulmad! Elagu pruutpaarid ja elagu — kroonu onu!</p>
+                    </sp>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
