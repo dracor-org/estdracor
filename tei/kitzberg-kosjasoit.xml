@@ -1,0 +1,3367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="est000016" xml:lang="et" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Kosjasõit</title>
+                <title type="sub">Jant kolmes waatuses, laulu ja tantsuga</title>
+                <author>
+                    <persName>
+                        <forename>August</forename>
+                        <surname>Kitzberg</surname>
+                    </persName>
+                    <idno type="wikidata">Q376410</idno>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>DIGAR Digital Archive</name>
+                    <idno type="URL">http://www.digar.ee/id/nlib-digar:36554</idno>
+                    <availability>
+                        <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <author>
+                            <persName>
+                                <forename>August</forename>
+                                <surname>Kitzberg</surname>
+                            </persName>
+                            <idno type="wikidata">Q376410</idno>
+                        </author>
+                        <title type="main">Kosjasõit</title>
+                        <title type="sub">Jant kolmes waatuses, laulu ja tantsuga</title>
+                        <date when="1915">1915</date>
+                        <publisher>J. Mällo trükk</publisher>
+                        <pubPlace>Tartu</pubPlace>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="raeaestas" sex="MALE">
+                        <persName>Räästas</persName>
+                    </person>
+                    <person xml:id="liisa" sex="FEMALE">
+                        <persName>Liisa</persName>
+                    </person>
+                    <personGrp xml:id="koor" sex="UNKNOWN">
+                        <name>Koor</name>
+                    </personGrp>
+                    <person xml:id="womm" sex="MALE">
+                        <persName>Wolmer Womm</persName>
+                    </person>
+                    <person xml:id="kaegu" sex="MALE">
+                        <persName>Kägu</persName>
+                    </person>
+                    <person xml:id="oeoepik" sex="MALE">
+                        <persName>Ööpik</persName>
+                    </person>
+                    <person xml:id="talumats" sex="MALE">
+                        <name>Talumats</name>
+                    </person>
+                    <personGrp xml:id="kuelapoisid" sex="MALE">
+                        <name>Külapoisid</name>
+                    </personGrp>
+                    <personGrp xml:id="kuelatuedrukud" sex="FEMALE">
+                        <name>Külatüdrukud</name>
+                    </personGrp>
+                    <person xml:id="poiss" sex="MALE">
+                        <name>Trükipoiss</name>
+                    </person>
+                    <person xml:id="mulk" sex="MALE">
+                        <persName>Mats Mürk</persName>
+                    </person>
+                    <person xml:id="woorimees" sex="MALE">
+                        <name>Woorimees</name>
+                    </person>
+                    <person xml:id="looke" sex="MALE">
+                        <persName>Lõoke</persName>
+                    </person>
+                    <person xml:id="kompa" sex="MALE">
+                        <persName>Kompa</persName>
+                    </person>
+                    <person xml:id="jaak" sex="MALE">
+                        <persName>Jaak</persName>
+                    </person>
+                    <personGrp xml:id="truekipoisid" sex="MALE">
+                        <name>Trükipoisid</name>
+                    </personGrp>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-05-22">Convert txt to TEI</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <standOff>
+        <listEvent>
+            <event type="print" when="1915">
+                <desc/>
+            </event>
+            <event type="premiere" when="1917">
+                <desc/>
+            </event>
+        </listEvent>
+    </standOff>
+    <text>
+        <pb n="1"/>
+        <front>
+            <titlePage>
+                <titlePart type="main">Kosjasõit</titlePart>
+                <titlePart type="sub">Jant kolmes waatuses, laulu ja tantsuga</titlePart>
+                <byline>A. Kitzberg'i tekst</byline>
+                <byline>Juhan Simm'i muusika</byline>
+                <epigraph>
+                    <p>Motto: Talupoja jant käib kõige ette.</p>
+                </epigraph>
+                <docImprint>
+                    <pubPlace>Jurjewis </pubPlace>
+                    <date>1915.</date>
+                </docImprint>
+                <pb n="2"/>
+                <imprimatur>Дозволено военную цензурую — Юръевъ, 20 февраля 1915.</imprimatur>
+                <note>
+                    <p>Eesolewa näidendi mänguluba saab "Wanemuise" näitelawa kaudu. Noodid, soowi järele orkestrile ehk klawerile, laenatakse. Partituri ärakirjutamine keeldud. Tekstiraamatud raamatukauplustele antawa hinnaalandusega, saatmise kulud tellija kanda.</p>
+                </note>
+                <docImprint>
+                    <publisher>J. Mällo trükk, Rüütli uul. 4.</publisher>
+                </docImprint>
+            </titlePage>
+            <pb n="3"/>
+            <castList>
+                <head>Osalised:</head>
+                <castGroup>
+                    <castItem>
+                        <role>Ööpik,</role>
+                    </castItem>
+                    <castItem>
+                        <role>Kägu,</role>
+                    </castItem>
+                    <castItem>
+                        <role>Lõoke,</role>
+                    </castItem>
+                    <roleDesc>ajalehe "Waatleja" toimetuse liikmed.</roleDesc>
+                </castGroup>
+                <castItem>
+                    <role>Räästas, </role>
+                    <roleDesc>metsawaht.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Liisa, </role>
+                    <roleDesc>selle tüdruk.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Jaak, </role>
+                    <roleDesc>Räästa sulane.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Talumats.</role>
+                </castItem>
+                <castItem>
+                    <role>Woorimees.</role>
+                </castItem>
+                <castItem>
+                    <role>Mats Mürk, </role>
+                    <roleDesc>peremees Mulgimaal.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Wolmer Womm, </role>
+                    <roleDesc>wallawanem.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Kompa, </role>
+                    <roleDesc>walla wahimees, wana soldat.</roleDesc>
+                </castItem>
+                <castItem>
+                    <roleDesc>Trükipoisid, külapoisid ja külatüdrukud.</roleDesc>
+                </castItem>
+            </castList>
+            <set>
+                <p>Aeg : paarkümmend aastat tagasi, ehk ka mitte.</p>
+            </set>
+        </front>
+        <pb n="4"/>
+        <pb n="5"/>
+        <body>
+            <div type="act">
+                <head>Esimene waatus.</head>
+                <stage>Tuba ajalehe "Waatleja" toimetuses. Pahemat kätt uks õue, tubli kuljusega, tagaseinas teine, kust trepp ülesse trükikotta wiib. Seintel raamatute riiulid, kõiksugused reklamelehed, kodumaa kaart ja suur plakaat päälkirjaga: Ajaleht "Waatleja" ilmub nädalas korra, hind aastas 3 rubla, kuulutuste korpusrida 5 kop. — Kolme laua taga, mis ajelehti, paberid ja raamatuid täis, istuwad Ööpik, Kägu ja Lõoke, kirjutawad ja laulawad.</stage>
+                <spGrp>
+                    <head>№ 1. Terzett.</head>
+                    <sp who="#oeoepik #kaegu #looke">
+                        <l>~Laskem suled kribiseda,</l>
+                        <l>Laskem, laskem libiseda,</l>
+                        <l>Suuri mõtteid, kuulsaid mõtteid,</l>
+                        <l>Üle ilma uusi mõtteid,</l>
+                        <l>Kribiseda paberisse,</l>
+                        <l>Libiseda lehe sisse!</l>
+                    </sp>
+                    <sp who="#kaegu">
+                        <speaker>Kägu.</speaker>
+                        <stage>(käega laua pihta põrutades)</stage>
+                        <l>Tadiramp, tadiramp — — —</l>
+                    </sp>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <l>Nii saab kirju, nii saab kirju —</l>
+                    </sp>
+                    <sp who="#looke">
+                        <speaker>Lõoke.</speaker>
+                        <l>Nii saab kirju, nii saab kirju —</l>
+                    </sp>
+                    <sp who="#oeoepik #looke">
+                        <speaker>Ööpik ja Lõoke.</speaker>
+                        <l>Nii saab kirju, nii saab kirju —</l>
+                    </sp>
+                    <sp who="#oeoepik #kaegu #looke">
+                        <speaker>Kõik kolm.</speaker>
+                        <l>Nii saab kirjutatud "Waatleja"!</l>
+                        <l>Mis on kuskil kuulda olnud,</l>
+                        <l>Juhtumisi ette tulnud,</l>
+                        <l>Suuri asju, wäikseid asju,</l>
+                        <l>Üle ilma uusi asju,</l>
+                        <l>Paneme kõik paberisse,</l>
+                        <l>Mahutame lehe sisse!</l>
+                    </sp>
+                    <pb n="6"/>
+                    <sp who="#kaegu">
+                        <speaker>Kägu.</speaker>
+                        <stage>(nagu enne)</stage>
+                        <l>Tadiramp, tadiramp — — —</l>
+                    </sp>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <l>Nii saab kirju, nii saab kirju —</l>
+                    </sp>
+                    <sp who="#looke">
+                        <speaker>Lõoke.</speaker>
+                        <l>Nii saab kirju, nii saab kirju —</l>
+                    </sp>
+                    <sp who="#oeoepik #looke">
+                        <speaker>Ööpik ja Lõoke.</speaker>
+                        <l>Nii saab kirju, nii saab kirju —</l>
+                    </sp>
+                    <sp who="#oeoepik #kaegu #looke">
+                        <speaker>Kõik kolm.</speaker>
+                        <l>Nii saab kirjutatud "Waatleja"!</l>
+                    </sp>
+                </spGrp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Minu härrad, tubli, hüwa, waimustaw! Ja waimustus on pääasi, kirjanikul — liiatigi weel ajakirjanikul — peab waimustust olema. Kirjanik ilma waimustuseta on kelluke, mis ei helise, on nagu — wana mõraga pada! Mõistlik meist, mu härrad, et "Karskuse Sõbrast" mööda "Gothenburgi" kaudu kontorisse tulime, tõesti mõistlik! Wanad eestlased juba olid nii targad, et ilma linnupetet wõtmata majast ei läinud. Nemad maitsesid enne iwa. Meie, kui nende järeltulew sugu, Kalewite kange wõsu — meie peame esiwanemate pruukidest kinni. — See on rahwusline, see on hubas, see on suur! Muidugi, meie oleme hariduses neist ette jõudnud, meie wõtame linnupetet keemilisel kujul ja oletame: iwa on iwa!</p>
+                </sp>
+                <sp who="#oeoepik #looke">
+                    <speaker>Ööpik ja Lõoke.</speaker>
+                    <p>Mhmh! Jah!</p>
+                </sp>
+                <spGrp>
+                    <head>№ 1-a. Terzett.</head>
+                    <sp who="#kaegu">
+                        <speaker>Kägu.</speaker>
+                        <l>Tadiramp, tadiramp — — —</l>
+                    </sp>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <l>Nii saab kirju, nii saab kirju —</l>
+                    </sp>
+                    <sp who="#looke">
+                        <speaker>Lõoke.</speaker>
+                        <l>Nii saab kirju, nii saab kirju —</l>
+                    </sp>
+                    <sp who="#oeoepik #looke">
+                        <speaker>Ööpik ja Lõoke.</speaker>
+                        <l>Nii saab kirju, nii saab kirju —</l>
+                    </sp>
+                    <sp who="#oeoepik #kaegu #looke">
+                        <speaker>Kõik kolm.</speaker>
+                        <l>Nii saab kirjutatud "Waatleja" !</l>
+                    </sp>
+                </spGrp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Kuule, Kägu, sina tont oskad ju suuri sõnu teha, nagu oleksid sa tõepoolest — päätoimetaja ise!</p>
+                </sp>
+                <pb n="7"/>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Kas ma siis ei ole! Kui wana Sarw kodunt ära ärireisule sõitis —, kelle ta oma asemele nimetas, kes pidi lehe eest hoolitsema ja wastutama, kes?</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>No ja, sina!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Noh siis — külalt! Tööle, mu härrad: Siin, juhtkiri on juba peaaegu walmis. <stage>(Paatosega).</stage> Tartu ja Tallinna meestele — kaikaga kindrekontide wahele! Makabeus maha!</p>
+                </sp>
+                <sp who="#oeoepik #looke">
+                    <speaker>Ööpik ja Lõoke.</speaker>
+                    <stage>(suure waimustusega üles karates ja korrates)</stage>
+                    <p>Makabeus maha, kand taha!</p>
+                </sp>
+                <spGrp>
+                    <head>№ 1-a. Terzett.</head>
+                    <sp who="#kaegu">
+                        <speaker>Kägu.</speaker>
+                        <l>Tadiramp, tadiramp — — —</l>
+                    </sp>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <l>Nii saab kirju, nii saab kirju —</l>
+                    </sp>
+                    <sp who="#looke">
+                        <speaker>Lõoke.</speaker>
+                        <l>Nii saab kirju, nii saab kirju —</l>
+                    </sp>
+                    <sp who="#oeoepik #looke">
+                        <speaker>Ööpik ja Lõoke.</speaker>
+                        <l>Nii saab kirju, nii saab kirju —</l>
+                    </sp>
+                    <sp who="#oeoepik #kaegu #looke">
+                        <speaker>Kõik kolm.</speaker>
+                        <l>Nii saab kirjutatud "Waatleja" !</l>
+                    </sp>
+                </spGrp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Kuule, Kägu, kui sina nüüd ajutine päätoimetaja oled, siis muretse ka, et me ajutiselt wähe seda wa' näpuwalget saame. Täna on minu teades nagu palgapäew.</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Lõoke on su nimi, aga — tihane sa oled! Mõtled ainult raswa ja raswa pääle. Näpuwalget — palgapäew! Ära seo oma meeli maisete asjade külge, mida koi ja rooste rikuwad. Rahwa kasuks töötada, sellest olgu sulle tasu küllalt! Ööpik — politika ringwaatus? Mis sa laulad, kaugel sa temaga oled?</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Walmis, walmis! Wõtsin "Birshewõja Wedomostist", kärpisin eest ja tagant, tõmbasin maha, lisasin juure — ühe sõnaga: tubli ringwaatus ja täitsa algupärane, meie lehe seisuko<pb n="8"/>hast waadates. Ümberpanek ladus, kõne waimurikas, ühe sõnaga — suurepärane!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Soo?</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Jaa!</p>
+                </sp>
+                <spGrp>
+                    <head>№ 1-a. Terzett.</head>
+                    <sp who="#kaegu">
+                        <speaker>Kägu.</speaker>
+                        <l>Tadiramp, tadiramp — — —</l>
+                    </sp>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <l>Nii saab kirju, nii saab kirju —</l>
+                    </sp>
+                    <sp who="#looke">
+                        <speaker>Lõoke.</speaker>
+                        <l>Nii saab kirju, nii saab kirju —</l>
+                    </sp>
+                    <sp who="#oeoepik #looke">
+                        <speaker>Ööpik ja Lõoke.</speaker>
+                        <l>Nii saab kirju, nii saab kirju —</l>
+                    </sp>
+                    <sp who="#oeoepik #kaegu #looke">
+                        <speaker>Kõik kolm.</speaker>
+                        <l>Nii saab kirjutatud "Waatleja" !</l>
+                    </sp>
+                </spGrp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <stage>(käega keelates)</stage>
+                    <p>Jatkub! Jatkub! Ja sina, Lõoke, mis sa kodumaa nurmedelt lõõritad?</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Lõõri, lõõri, lõoke —</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Piiri, pääri, pääsuke —</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Pidage, seda laulurohkust ma juba tunnen. Mis sääl siis katki on?</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Kodumaa näib koiduund magawat, ei kihku ega kahku, riksu ega raksu kuskil pool. Hariduseseltsides — jaa, peetakse harilikka hariduslisi koosolekuid, aga — et sääl keegi harida oleks saanud...</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Eh! Mitte koergi ei ole kuskil kaewu kukkunud?</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Ei!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Hm! Paha. Siis ei ole parata, wana armas abinõu, awita. Siin:</p>
+                    <l>"Olewik" ja "Sakala".</l>
+                    <l>"Päewaleht" ja "Kodumaa",</l>
+                    <l>"Kaja", "Hääl" ja "Postimees" —</l>
+                    <l>Wast on mõnel uudist sees.</l>
+                    <p><stage>(Jagab lehed wälja).</stage> Igamees lõikab ühe maanurga sõnumid wälja, Riia lehed riisun ise.</p>
+                </sp>
+                <sp who="#oeoepik #looke">
+                    <speaker>Ööpik ja Lõoke.</speaker>
+                    <p>Mhmh! Jah!</p>
+                </sp>
+                <pb n="9"/>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Kus käärid? <stage>(Lööb rusikaga wastu lauda, kuulda, kus käärid tirisewad).</stage></p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <stage>(wõtab lehe alt käärid)</stage>
+                    <p>Siin nad tirisewad. <stage>(Kõik kibedasti ametis, pikad käärid wälguwad).</stage></p>
+                </sp>
+                <spGrp>
+                    <head>№ 1-a. Terzett.</head>
+                    <sp who="#kaegu">
+                        <speaker>Kägu.</speaker>
+                        <l>Tadiramp, tadiramp — — —</l>
+                    </sp>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <l>Nii saab kirju, nii saab kirju —</l>
+                    </sp>
+                    <sp who="#looke">
+                        <speaker>Lõoke.</speaker>
+                        <l>Nii saab kirju, nii saab kirju —</l>
+                    </sp>
+                    <sp who="#oeoepik #looke">
+                        <speaker>Ööpik ja Lõoke.</speaker>
+                        <l>Nii saab kirju, nii saab kirju —</l>
+                    </sp>
+                    <sp who="#oeoepik #kaegu #looke">
+                        <speaker>Kõik kolm.</speaker>
+                        <l>Nii saab kirjutatud "Waatleja" !</l>
+                    </sp>
+                </spGrp>
+                <sp who="#poiss">
+                    <speaker>Poiss.</speaker>
+                    <stage>(trükikojast, tahmane ja määrdinud, trepist alla jookstes prantsatab ühes uksega tuppa)</stage>
+                    <p>Trükikoda palub juhtkirja!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Tasa, pagana pihta! <stage>(Tõstab sõrme nina kõrwale).</stage> Mis ma's sääl weel tahtsin ütelda ? — Ülemaalisele leiwakadedusele weel üks wäike watt. <stage>(Hakkab tuhatnelja kirjutama, käristab, kui rida jälle täis, paberi küljest ribasid maha ja pillab põrandule, kust poisike neid korjab).</stage> Ega's juhtkirjad pruugi pikad olla, neid ei loeta. — Mõjub tänaseks, punkt! <stage>(Poisikesele, imeks pannes).</stage> Kas sa weel siin wahid? Miks sa järjest ei wõtnud ja ei wiinud?</p>
+                </sp>
+                <sp who="#poiss">
+                    <speaker>Poiss.</speaker>
+                    <p>Hõhõhõ! Es jõwwa ju! <stage>(Tormab minema).</stage></p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <stage>(lipakaid Käo kätte wiies)</stage>
+                    <p>Siin Tartu ja Tallinna tarkus!</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <stage>(nõndasama)</stage>
+                    <p>Siin Pärnu, Wiljandi ja Narwa natuke!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Ja siin Riia riismed. Säh, Lõoke, muuda nad meie erasõnumiteks ümber; seda kunsti sa oskad.</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Mhmh, jah!</p>
+                </sp>
+                <pb n="10"/>
+                <spGrp>
+                    <head>№ 1-a. Terzett.</head>
+                    <sp who="#kaegu">
+                        <speaker>Kägu.</speaker>
+                        <l>Tadiramp, tadiramp — — —</l>
+                    </sp>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <l>Nii saab kirju, nii saab kirju —</l>
+                    </sp>
+                    <sp who="#looke">
+                        <speaker>Lõoke.</speaker>
+                        <l>Nii saab kirju, nii saab kirju —</l>
+                    </sp>
+                    <sp who="#oeoepik #looke">
+                        <speaker>Ööpik ja Lõoke.</speaker>
+                        <l>Nii saab kirju, nii saab kirju —</l>
+                    </sp>
+                    <sp who="#oeoepik #kaegu #looke">
+                        <speaker>Kõik kolm.</speaker>
+                        <l>Nii saab kirjutatud "Waatleja" !</l>
+                    </sp>
+                </spGrp>
+                <sp who="#poiss">
+                    <speaker>Poiss.</speaker>
+                    <stage>(tormab sisse)</stage>
+                    <p>Trükikoda palub kodumaad.</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Säh! Kahma kätte ja kao!</p>
+                </sp>
+                <sp who="#poiss">
+                    <speaker>Poiss.</speaker>
+                    <p>Hõhõhõ! Ku pallu! <stage>(Walab minema).</stage></p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Ja nüüd meie omad algupärased uuemad sõnumid. Mu härrad, kes teist teab ühe hää uuema sõnume? Pudel Saku ubinaali auupalgaks, kelle uuem sõnum kõige uuem on! Pidage silmas, uuemad sõnumid peawad hästi uued olema, tuliuued, mäherdusi weel kellegile teisele enne meelde ei ole tulnud, aga — ometi ka niisugused, et neid keegi waleks tunnistada ei wõi, ja et neid tagajärele tarwis õiendada ei ole. Mõistate, mu härrad?</p>
+                </sp>
+                <sp who="#oeoepik #looke">
+                    <speaker>Ööpik ja Lõoke.</speaker>
+                    <p>Mhmh! Jah!</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <stage>(lugemise wiisil)</stage>
+                    <p>"Suure-Jaani kihelkonnas on üks poiss püssi lahti lasknud!"</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Hüwa! Muutke: "püssi lõhki lasknud," ja lisage juure: "ettewaatust tuleriistadega!"</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <stage>(lugemise wiisil)</stage>
+                    <p>"Tartus on üks üliõpilane ära surnud!"</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Hüwa! Muutke: "Tartus on üks üliõpilane äkki ära surnud. Õhtul enne seda oli ta weel rõõmsasti sõprade seltsis konwendi korteris õlut joonud." Ja lisage juure: "ah see joomine, see joomine!" Siis meeldib see karskusemeestele.</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <stage>(lugemise wiisil)</stage>
+                    <p>"Wiljandis on minewal nädalal hullu koera nähtud!"</p>
+                </sp>
+                <pb n="11"/>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Hüwa! Jätke "minewal nädalal" wälja, muidu on sõnum juba wana. Ja lisage juure: "hoolsal politseil on korda läinud tigedat looma kohe kahjutaks teha." — Muidu jääwad Wiljandi mehed rahutuks ja — on sünnis walitsuse organisid igal ajal kiites nimetada.</p>
+                </sp>
+                <sp who="#poiss">
+                    <speaker>Poiss.</speaker>
+                    <stage>(tormab sisse)</stage>
+                    <p>Trükikoda palub politikat!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Siin! Lase jalga!</p>
+                </sp>
+                <sp who="#poiss">
+                    <speaker>Poiss..</speaker>
+                    <stage>(Walab minema)</stage>
+                    <p>Hõhõhõ! Täämpe lääb leht lõhki!</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Tadiramp, tadiramp...</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Sst! Siin tadiramptitan mina! Kuulge mu enese uuemat sõnumit, mu härrad! Ma leian, teie uuemad sõnumid on wähe wäärt, pidin neid kõiki parandama. Ma olen sellepärast otsuseks teinud auupalgaks määratud ubinaali ise ära juua. Olete nõuus, mu härrad?</p>
+                </sp>
+                <sp who="#oeoepik #looke">
+                    <speaker>Ööpik ja Lõoke.</speaker>
+                    <stage>(nukralt)</stage>
+                    <p>Mhmh! Jah!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Rõõmustab mind, et ühel meelel oleme, nagu Walga wolikogu. Tänutunnistuseks, kui täna üks tellija tuleb, lisan ma weel kaks — ütleme kolm — kollast juure, — tühjendame nad selle uue tellija hää õnne pääle...</p>
+                </sp>
+                <sp who="#oeoepik #looke">
+                    <speaker>Ööpik ja Lõoke.</speaker>
+                    <stage>(rõõmsalt)</stage>
+                    <p>Mhmh! Jah!</p>
+                </sp>
+                <sp who="#poiss">
+                    <speaker>Poiss.</speaker>
+                    <stage>(tormab sisse)</stage>
+                    <p>Uuembid sõnumid on waja!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Tuhat ja tuline! Kas ei saa juba ükskord leht täis?</p>
+                </sp>
+                <sp who="#poiss">
+                    <speaker>Poiss..</speaker>
+                    <stage>(Näitab nööriga)</stage>
+                    <p>Weel on umbes küünra wõrra puudus.</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Säh! Sellest saab.</p>
+                </sp>
+                <sp who="#poiss">
+                    <speaker>Poiss.</speaker>
+                    <p>Hõhõhõ! Siin on kaits kortelt pääle küünra. <stage>(Walab minema).</stage></p>
+                </sp>
+                <pb n="12"/>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Wiimane leib, jah, ajalehe toimetaja olla! Lõhu kirjutamist, kas higi tilgub, aga — <stage>(Ukse kuljus kõliseb).</stage> St! mu herrad, ruttu igaüks oma asemele! Tuleb keegi tellija, saagu ta aimu, et meie siin rahwa kasuks töötame, et pääajud aurawad — Sisse!</p>
+                </sp>
+                <sp who="#talumats">
+                    <speaker>Talumats.</speaker>
+                    <stage>(sisse astudes ja läwe kõrwale seisma jäädes)</stage>
+                    <p>Tere ommukust kah, siit maja rahwas!</p>
+                </sp>
+                <sp who="#kaegu #oeoepik #looke">
+                    <speaker>Kägu, Ööpik, Lõoke.</speaker>
+                    <p>Teree!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Millega ma teid wõin teenida, mu härra?</p>
+                </sp>
+                <sp who="#talumats">
+                    <speaker>Talumats.</speaker>
+                    <stage>(kukalt sügades)</stage>
+                    <p>Mis ta nüüd küll teenida wõi — kos nüüd sel ajal see teenistus om wõi midagi! Ole rahul, ku palakse leibä kätte saad. Käsu pääl wällän, ku iki monake.</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Mis te soowite, mu härra?</p>
+                </sp>
+                <sp who="#talumats">
+                    <speaker>Talumats.</speaker>
+                    <p>Wõi mia tää, mis härra esi soowiwe wõi om!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu:</speaker>
+                    <p>Ega ma ju kellegist teisest ei kõnelenud, — mis teie ise soowite?</p>
+                </sp>
+                <sp who="#talumats">
+                    <speaker>Talumats.</speaker>
+                    <p>Ah me'e? Mis te nüüd hakkade ennäst kuluteme wõi oleme...</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Kuidas nii? Ma küsin ainult: mis te tahate?</p>
+                </sp>
+                <sp who="#talumats">
+                    <speaker>Talumats.</speaker>
+                    <p>Olgu 's pits wiina wana inimesele waewa pääle, ku te just pakude ja käeperäst om!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Juhm!</p>
+                </sp>
+                <sp who="#talumats">
+                    <speaker>Talumats.</speaker>
+                    <p>Kes see? Mia wõi?</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Kes siis muu?</p>
+                </sp>
+                <sp who="#talumats">
+                    <speaker>Talumats.</speaker>
+                    <p>Mikeperäst 's nõnda?</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Ega siin ometi kõrts wõi wirtsipood ei ole, et te siit wiina tahate.</p>
+                </sp>
+                <sp who="#talumats">
+                    <speaker>Talumats.</speaker>
+                    <p>Kudas? Esi a'ade wägisi pääle...?</p>
+                </sp>
+                <sp who="#oeoepik #looke">
+                    <speaker>Ööpik ja Lõoke.</speaker>
+                    <p>Hahaha!</p>
+                </sp>
+                <pb n="13"/>
+                <sp who="#kaegu">
+                    <speaker>Kägu:</speaker>
+                    <p>Hahaha! See oli siis wäike eksitus! Mis siis külamehel õige päris asja oli?</p>
+                </sp>
+                <sp who="#talumats">
+                    <speaker>Talumats.</speaker>
+                    <stage>(haawatult)</stage>
+                    <p>Es te's wõinu kohe küsta. Narride siin miut wana inimest! Härra saat's selle kirja... <stage>(Otsib ja annab).</stage></p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <stage>(kirja wõttes)</stage>
+                    <p>Soo. Wõite minna!</p>
+                </sp>
+                <sp who="#talumats">
+                    <speaker>Talumats.</speaker>
+                    <stage>(kukalt sügades)</stage>
+                    <p>Tää nüüd, ma pidawet siit iki midägi wastu ka saama? Nööpnõgel anti ka manu ja kästi tasku kinni pista, et ära ei kao...</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>No jaa jaa, aga päätoimetaja ei ole kodus...</p>
+                </sp>
+                <sp who="#talumats">
+                    <speaker>Talumats:</speaker>
+                    <p>Oah, ka kuule! Tää kus ta ka läits, et ma tää ütelde?</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Petrograadi! Ütelge Petrograadi!</p>
+                </sp>
+                <sp who="#talumats">
+                    <speaker>Talumats.</speaker>
+                    <p>Wõi Pitrograadi? Jajah, sakste asja käiwe laialt! Küll ma's ütle. Jumalege s' kah! <stage>(Ära).</stage></p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Ööpik ja Lõoke:</p>
+                    <p>Mhmh, jah, jumalaga kah!</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <stage>(naerdes)</stage>
+                    <p>Mis ütleks nüüd päätoimetaja Sarw kirja pääle, mis sa praegu said, Kägu?</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu:</speaker>
+                    <p>Kiruks! Rahwawalgustaja pead olema, aga — näpuwalge pärast wõitle nagu kurat Jumalaga! Kirjuta nagu see tahab, <stage>(wiskab kirja käest),</stage> siis oled tagurlane, kirjuta nagu teine tahab, siis oled kodanlane, kirjuta nagu kolmas tahab, siis — siis..., Ööpik!</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Jah!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Minge ümber nurga poodi — <stage>(kõnelemine laulu laadi: Minge üles mägedele).</stage></p>
+                    <l>Tooge mulle tubakat,</l>
+                    <l>Hülsenid ja tuletikka,</l>
+                    <l>Bostanjoglo wabrikust! —</l>
+                </sp>
+                <pb n="14"/>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <l>Kulla härra, andke raha,</l>
+                    <l>Kaupmees ammu pahane,</l>
+                    <l>Wõlgu anda ta ei taha,</l>
+                    <l>Mitte enam sugugi!</l>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Mis? Ja seda ütlete teie, kui politikamees, kelle kätte ma politika ringwaatuse kirjutada olen annud? Politika ja diplomatika, need kaks asja käiwad käsikäes ja teie kui politikamees ei peaks niipalju diplomatikat oskama, et tühja weerand naela tubakat kätte ei saa? Andke suuri tõotusi, suuri tõotusi andke! Minge!</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Lähen juba, lähen! Kuu ja tähed taewas ei pea minu eest julged olema! <stage>(Ära).</stage></p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Nõnda ainult, nõnda on õige! <stage>(Laulab).</stage> Tadiramp, tadiramp — — <stage>(Ukse kuljus kõliseb waljusti).</stage></p>
+                </sp>
+                <sp who="#kaegu #looke">
+                    <speaker>Kägu ja Lõoke.</speaker>
+                    <p>Ukse taga on üks tellija! <stage>(Tõttawad oma asemele ja kirjutawad).</stage></p>
+                </sp>
+                <sp who="#womm">
+                    <speaker>Womm.</speaker>
+                    <stage>(sisseastudes)</stage>
+                    <p>Tere! Ma tahan tääda, kes teist siin see — toimetaja on?</p>
+                </sp>
+                <sp who="#kaegu #looke">
+                    <speaker>Kägu ja Lõoke.</speaker>
+                    <p>Teree!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <stage>(üles tõustes)</stage>
+                    <p>Teie soowite, mu härra?</p>
+                </sp>
+                <sp who="#womm">
+                    <speaker>Womm.</speaker>
+                    <p>Mina ei ole teie härra, mina olen Wolmer Womm, wallawanem Wolmer Womm, aga — ma tahan tääda, mis härrad teie mul siin olete?</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Ei oie sugugi auu teid lähemalt tunda, auus wallawanem ja Wolmer Womm.</p>
+                </sp>
+                <sp who="#womm">
+                    <speaker>Womm.</speaker>
+                    <p>Soo, tunda ei mõista, aga teotada mõistate!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Kuidas? Kes teotas?</p>
+                </sp>
+                <sp who="#womm">
+                    <speaker>Womm.</speaker>
+                    <p>Teie oma lehenarmaga! <stage>(Wõtab taskust suure ajalehe ja laotab enese ette laiali).</stage> "Pärnumaalt K. wallast kirjutatakse meile: Hiljuti oli meil wallaametnikkude walimine. Wallawanemaks sai keegi W. W., kellele kõik kõrtsimehed<pb n="15"/> nädalate kaupa enne hääli olid kogunud. Arwatakse, et ametisse saamine W. W-le wähemast 100 rubla maksma läinud! Oh Eesti rahwas, millal saad sa nii kaugele, et sa oma ametnikkude walimist enam sinikaelte abil ei toimeta!" — Kuidas teie julgete niisugust teotust minu kohta lehte panna? Seda ma teile ei jäta. <stage>(Astub ähwardawalt lähemale).</stage></p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <stage>(eest taganedes)</stage>
+                    <p>Aga auulik härra Womm ja wallawanem! Kuidas te ometi wõite mõtelda, et selles kirjatükis teist kõne on? Teie olete täitsa eksiteel. Jumala eest, ma tõendan teile, teid ei ole sugugi mõeldud.</p>
+                </sp>
+                <sp who="#womm">
+                    <speaker>Womm.</speaker>
+                    <p>Mis? keda te tahate wõrgutada? Kas K. wald ei tähenda Kariste ja W. W. — Wolmer Womm? — Mis?</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Aga ma kinnitan teile, auus Womm ja wallawanem, mõtelge ometi, Pärnumaal on ju palju waldade nimesid, mis K. tähega algawad — Koonga, Kõima, Käru, Kalli ja Kilingi — ja W. W. wõib ju niisama hästi Willem Warik ja Wiilup Warblane tähendada kui Wolmer Womm! — Ega teie ei ole ju ometi omale kõrtsimeeste kaudu hääli kogunud ja 100 rubla ära kulutanud? — Mis?</p>
+                </sp>
+                <sp who="#womm">
+                    <speaker>Womm.</speaker>
+                    <p>Muidugi ma ei ole, iseenesestki mõista, ma ei ole.</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>No waadake, auus Wolmer Womm, siis on ju selge, et selles kirjatükis teist kõne ei ole. Teie olete auus mees, kes alati otseradasi käib — eks ole?</p>
+                </sp>
+                <sp who="#womm">
+                    <speaker>Womm.</speaker>
+                    <p>Seda ma arwan. Häda igaühele, kes teisiti julgeb mõtelda. Teile ja teie lehenarmale tahan ma aga näidata, kust Luukas Õlut toob. Mitte ühte ainust nummert ei lase ma enam terwele Pärnumaale sisse! Saate aru? Mis?</p>
+                </sp>
+                <pb n="16"/>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Kägu, kas wiskame selle suure suuga Pärnumaa mehe läwest wälja?</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Jah, õige! Wiskame ta wälja! Keda ta siin ähwardab!</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <stage>(ette astudes)</stage>
+                    <p>Auus wallawanem Wolmer Womm! Rahwameelse ajalehe "Waatleja" toimetus paneb teile ette walida: kas lähete hääga õige ruttu ära, ehk teid wisatakse wägisi wälja?</p>
+                </sp>
+                <sp who="#womm">
+                    <speaker>Womm.</speaker>
+                    <p>Katsuge! Tahate maitsta, mida maiku Pärnumaa soolatud silgud on? Teate, need, miile eest Räämas palwet peeti: Issand! Lase taewast räga soola sadada nende haisema läinud kehade pääle? <stage>(Haarab Lõokese kinni).</stage></p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <stage>(sipeldes)</stage>
+                    <p>Appi, appi!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <stage>(jookseb kõnetoru juurde ja karjub trükikotta)</stage>
+                    <p>Trükipoisid alla! Appi!</p>
+                </sp>
+                <sp who="#womm">
+                    <speaker>Womm.</speaker>
+                    <p>Kuripatt ja kõik!</p>
+                </sp>
+                <sp who="#poiss">
+                    <speaker>Poiss.</speaker>
+                    <stage>(tormab sisse)</stage>
+                    <p>Mis om? Mis om? Mis waja?</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Wisake see jäme talumats siit wälja!</p>
+                </sp>
+                <sp who="#poiss">
+                    <speaker>Poiss.</speaker>
+                    <p>Aha! Seesama, kes Lõokesele liiga teeb? <stage>(Jookseb trepist üles, hüüab üle ukse trükikotta).</stage> Tutu, luttu, poisid ruttu! Tulge wälja, siin saab nalja! <stage>(Trepist alla tuleb kolinal ja mürinal tahmaste nägudega poisikeste (täheladujate õpilaste)</stage> kari ja asub Wommile kallale. Kõik tõukaWad teda kisa ja käraga läwe poole</p>
+                </sp>
+                <sp who="#womm">
+                    <speaker>Womm.</speaker>
+                    <stage>(nagu ennegi)</stage>
+                    <p>Toho, toho — tahmalased!</p>
+                </sp>
+                <sp who="truekipoisid">
+                    <lg>
+                        <head>№ 2. Poisikeste koor.</head>
+                        <lg>
+                            <l>Küll me temast jagu saame,</l>
+                            <l>Libedasti wälja aame!</l>
+                            <l>Läwe poole nihutame,</l>
+                            <l>Trepi pääle kihutame!</l>
+                        </lg>
+                        <lg>
+                            <l>Tõugake ja tõmmake.</l>
+                            <l>Tirige ja tassige!</l>
+                        </lg>
+                        <lg>
+                            <l>Kuklasse siis wäike wõmm,</l>
+                            <l>Et ta lendab nagu pomm!</l>
+                        </lg>
+                    </lg>
+                </sp>
+                <pb n="17"/>
+                <stage>Sel silmapilgul astub Ööpik sisse. Kokkupõrkamine. Paberossikestad lendawad wikerkaarina üle näitelawa. Kisa ja käraga tassitakse Womm wälja. Womm ja trükiladujad jääwad ukse taha).</stage>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <stage>(ust lukku pöörates)</stage>
+                    <p>Toimetatud, härra toimetaja, ja — siin on ka tubakas! Kestasid korjame põrandalt. <stage>(Hakkawad korjama).</stage></p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Tänan!</p>
+                </sp>
+                <sp who="#womm">
+                    <speaker>Womm.</speaker>
+                    <stage>(eeskoja aknast sisse hüüdes)</stage>
+                    <p>Näljawaresed! Ma panen omale ametiraha kaela, puutuge siis weel ametnikku! Ma lähen politseisse otseteed! Lutikapüüdjad! Üht ainsamatki tellijat te terwelt Pärnumaalt nägema ei pea! Wilistage siis wiimase windi pääl! Kui te mu näppu peaks puutuma...!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Karju aga pääle, ninasarwik! Tulge, mu härrad, paneme piibud pähe — rahupiibud. <stage>(Paberossa tehakse).</stage> Õnnetu päew täna, mitte ühte ainustki tellijat, aga — pahandust palju. Tuleb nüüd weel keegi, — sisse me teda enam ei lase...</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Ehk, kui laseme, siis teeme temaga sada wigurit!</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Seda teeme!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Aga nüüd: <stage>(hakkab laulma).</stage></p>
+                </sp>
+                <spGrp>
+                    <head>№ 1-a. Terzett.</head>
+                    <sp who="#kaegu">
+                        <speaker>Kägu.</speaker>
+                        <l>Tadiramp, tadiramp — — —</l>
+                    </sp>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <l>Nii saab kirju, nii saab kirju —</l>
+                    </sp>
+                    <sp who="#looke">
+                        <speaker>Lõoke.</speaker>
+                        <l>Nii saab kirju, nii saab kirju —</l>
+                    </sp>
+                    <sp who="#oeoepik #looke">
+                        <speaker>Ööpik ja Lõoke.</speaker>
+                        <l>Nii saab kirju, nii saab kirju —</l>
+                    </sp>
+                    <sp who="#oeoepik #kaegu #looke">
+                        <speaker>Kõik kolm.</speaker>
+                        <l>Nii saab kirjutatud "Waatleja" !</l>
+                    </sp>
+                </spGrp>
+                <stage>(Ukse taga kõlistab keegi).</stage>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Ega seegi tellija ei ole, küll te näete.</p>
+                </sp>
+                <pb n="18"/>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Waatame järele. <stage>(Keerab ukse lukust lahti).</stage></p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Las ta tulla! <stage>(Istuwad igamees oma asemele ja kirjutawad).</stage></p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Aga ikka mõistlikult, ikka mõistlikult, tasa ja targu!</p>
+                </sp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <stage>(sisse astudes)</stage>
+                    <p>Tere!</p>
+                </sp>
+                <sp who="#oeoepik #kaegu #looke">
+                    <speaker>Kõik kolm.</speaker>
+                    <p>Teree!</p>
+                </sp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <stage>(Ööpikule)</stage>
+                    <p>Ma tahtsin...</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <stage>(üles karates)</stage>
+                    <p>Bitte, mein Herr, Sie wünschen?</p>
+                </sp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <stage>(temale)</stage>
+                    <p>Wintsen, wüntsen, witsen-watsen ti patsen. Kas te siis maakeelt ei mõista?</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <stage>(istub)</stage>
+                    <p>Kann nichts verstehn!</p>
+                </sp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <stage>(Lõokesele)</stage>
+                    <p>No teie ometi Eesti keelt oskate?</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <stage>(üles karates)</stage>
+                    <p>Koa jums wajak? Runat par Latwisk. Jgaunis es nemag.</p>
+                </sp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <stage>(käed puusas)</stage>
+                    <p>Keda te siin narrite? Arwate, et mina ka mõnda sihukest wärki ei oska? Mibis kubiradi lebihe tobiimetus seebii sibiin obin, kubis Ebiisti kebiilt ebii obisata? <stage>(Wõtab kolmerublalise westitaskust ja hoiab kõrgele).</stage> Mis see on?</p>
+                </sp>
+                <sp who="#oeoepik #kaegu #looke">
+                    <speaker>Kõik kolm.</speaker>
+                    <l>Üks tellija, üks tellija,</l>
+                    <l>Hurraa, hurraa, hurraa!</l>
+                    <l>Üks tellija, üks tellija,</l>
+                    <l>Hurraa, hurraa, hurraa!</l>
+                    <stage>(Kargawad kõik üles ja igaüks näpuga raha otsas kinni).</stage>
+                </sp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <stage>(neid eemale kaitstes)</stage>
+                    <p>Aega on? <stage>(Paneb raha tasku tagasi).</stage></p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Wend!</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Kallis sõber!</p>
+                </sp>
+                <pb n="19"/>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Auus suguwend ja seltsimees, isamaa altarile ohwerdaja ja waimuwalguse sõber, wõtke istet!</p>
+                </sp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <stage>(nokutab pääd)</stage>
+                    <p>Ja ja ja ja! Nüüd oskate Eesti keelt küll? Nüüd on teil kõigil maakeel sula?</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Ah, see oli muidu — nali, sõber. Mis keel see ometi on, mis teie rääkisite?</p>
+                </sp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <p>Mis keel see oli, mis teie rääkisite?</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <stage>(ruttu)</stage>
+                    <p>See oli Saksa —</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <stage>(niisama)</stage>
+                    <p>See oli Läti keel.</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>No waadake, sõber. Tubli ajalehe toimetuses peab ometi kõiki keelesid mõistetama. Me wõiksime ka weel Soome keelega lagedale tulla, kui see — kui see ajakohane oleks! Aga see — ei ole nüüd ajakohane.</p>
+                </sp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <p>Aga Mulgil on oma keel, mis igalpool maksab. <stage>(Wõtab westitaskust raha, näitab ja paneb tagasi).</stage> Näitab näpust, ja — kõik on sõbrad, kõik oskawad ja saawad aru.</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Aga mis keel see ometi oli, mida te näpuwahel ei näidanud, mida te rääkisite?</p>
+                </sp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <p>Sedagi te weel ei tea? Ja ise tahate rahwale ajalehte kirjutada? Tulge enne Mulgimaale karjaseks, meie karjapoisid räägiwad kõik seda keelt.</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Kuidas?</p>
+                </sp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <p>Muidugi, ja nimelt isekeskes. Noh, olgu pääle, kui te ka Mulgi karjaste keelt ei oska, teie lehe wõin ma siiski tellida. <stage>(Paneb raha laua pääle).</stage></p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <stage>(kähku kirjutamas)</stage>
+                    <p>Teie nimi?</p>
+                </sp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <p>Mats Mürk.</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <stage>(niisamati)</stage>
+                    <p>Wald ja postijaam?</p>
+                </sp>
+                <pb n="20"/>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <p>Abja walda, Mõisaküla kaudu.</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Waadake, kallis kaim, meie kõik siin, nagu te näete, oleme ju õieti ka mulgid, pseudomulgid, järeltehtud mulgid, meele poolest mulgid..</p>
+                </sp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <p>Olge te nüüd sõidu-mulgid wõi mis tahes, aga läbi wõib teiega saada, seda peab teile jätma. Sõimate omas lehes mulkisid küll, aga noh — mis mulk sellest hoolib.</p>
+                </sp>
+                <spGrp>
+                    <head>№ 3. Mulk ja terzett.</head>
+                    <sp who="#mulk">
+                        <speaker>Mulk.</speaker>
+                        <l>Sa sõimad mulki? mulk on mees,</l>
+                        <l>Ta kõnnib musta kuue sees,</l>
+                        <l>Ei kohku sandi, saksa ees —</l>
+                        <l>Kel saabas jalas,</l>
+                        <l>Ja warwas wäljas — !</l>
+                    </sp>
+                    <sp who="#kaegu #oeoepik #looke">
+                        <speaker>Kägu, Ööpik, Lõoke.</speaker>
+                        <l>Mulk, mulk, mulk, mulk!</l>
+                    </sp>
+                    <sp who="#mulk">
+                        <speaker>Mulk.</speaker>
+                        <l>Mulk pastlaga ja wiisuga.</l>
+                        <l>Lööb tantsu oma Liisuga!</l>
+                    </sp>
+                    <sp who="#kaegu #oeoepik #looke">
+                        <speaker>Kägu, Ööpik, Lõoke.</speaker>
+                        <l>Mulk pastlaga ja wiisuga,</l>
+                        <l>Lööb tantsu oma Liisuga!</l>
+                    </sp>
+                    <sp who="#mulk">
+                        <speaker>Mulk.</speaker>
+                        <l>Ja mõnikord läeb tarwis ka,</l>
+                        <l>Mulk rotta püüab raswaga,</l>
+                        <l>Ja saksu paksu pungaga —</l>
+                        <l>Kel käsi puusas</l>
+                        <l>Ja tühi pungas — !</l>
+                    </sp>
+                    <sp who="#kaegu #oeoepik #looke">
+                        <speaker>Kägu, Ööpik, Lõoke.</speaker>
+                        <l>Mulk, mulk, mulk, mulk!</l>
+                    </sp>
+                    <sp who="#mulk">
+                        <speaker>Mulk.</speaker>
+                        <l>Mulk pastlaga ja wiisuga!</l>
+                        <l>Lööb tantsu oma Liisuga!</l>
+                    </sp>
+                    <sp who="#kaegu #oeoepik #looke">
+                        <speaker>Kägu, Ööpik, Lõoke.</speaker>
+                        <l>Mulk pastlaga ja wiisuga,</l>
+                        <l>Lööb tantsu oma Liisuga!</l>
+                    </sp>
+                    <pb n="21"/>
+                    <sp who="#mulk">
+                        <speaker>Mulk.</speaker>
+                        <l>Sa hullu lugu näha saad,</l>
+                        <l>Ja omad silmad punni aad,</l>
+                        <l>Kui talupoeg saab mõisa maad —</l>
+                        <l>See oleks lugu</l>
+                        <l>Ja tõstaks pugu!</l>
+                        <p>Oi põlwekest, oi põlwekest, mis mulgil siis on! Hõissa poiss, Mats puhu sarwe, rubla kuus ja peremehe leib! Elagu saunamees ja tema põrs's!</p>
+                    </sp>
+                    <sp who="#kaegu #oeoepik #looke">
+                        <speaker>Kägu, Ööpik, Lõoke.</speaker>
+                        <l>Mulk, mulk, mulk, mulk, mulk!</l>
+                    </sp>
+                    <sp who="#mulk">
+                        <speaker>Mulk.</speaker>
+                        <l>Mulk pastlaga ja wiisuga,</l>
+                        <l>Lööb tantsu oma Liisuga!</l>
+                    </sp>
+                    <sp who="#kaegu #oeoepik #looke">
+                        <speaker>Kägu, Ööpik, Lõoke.</speaker>
+                        <l>Mulk pastlaga ja wiisuga,</l>
+                        <l>Lööb tantsu oma Liisuga!</l>
+                    </sp>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <l>Kui Jumal suure tuule tooks,</l>
+                        <l>Ja tuhat mulki mõrda lööks,</l>
+                        <l>Ja igast ühest kopik saaks — !</l>
+                        <l>Siis napsiraha</l>
+                        <l>Saaks sellest näha!</l>
+                    </sp>
+                    <sp who="#mulk">
+                        <speaker>Mulk.</speaker>
+                        <stage>(pistab Ööpikule rusika nina alla)</stage>
+                        <l>Kae, toda ei ole!</l>
+                    </sp>
+                    <sp who="#kaegu #oeoepik #looke">
+                        <speaker>Kägu, Ööpik, Lõoke.</speaker>
+                        <l>Mulk, mulk, mulk, mulk, mulk!</l>
+                    </sp>
+                    <sp who="#mulk">
+                        <speaker>Mulk.</speaker>
+                        <l>Mulk pastlaga ja wiisuga,</l>
+                        <l>Lööb tantsu oma Liisuga!</l>
+                    </sp>
+                    <sp who="#kaegu #oeoepik #looke">
+                        <speaker>Kägu, Ööpik, Lõoke.</speaker>
+                        <l>Mulk pastlaga ja wiisuga,</l>
+                        <l>Lööb tantsu oma Liisuga!</l>
+                    </sp>
+                </spGrp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <p>Pill katki, torud kotti, saatan selga, läwest wälja — jumalaga! <stage>(Tahab minna).</stage></p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Pea, mulk, sõber, kuhu nii kähku?</p>
+                </sp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <p>Tont, olekski ära ununud: mul oli ju weel kuulutus lehte panna. Andke tükk paberit, ma kirjutan üles. <stage>(Kirjutab.)</stage></p>
+                </sp>
+                <pb n="22"/>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Wäga hää, hüwa! Wiis kopikat korpusrida; kui enam korda kuulutate, siis odawamalt.</p>
+                </sp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <p>Katsume ära, mõjub ehk ühestki korrast. <stage>(Annab kuulutuse).</stage></p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu</speaker>
+                    <stage>(loeb)</stage>
+                    <p>... "Et ma tütrele peigmeest tarwitan... kakskümmend aastat wana... koolitatud ja ilus, kaasawara kuustuhat rubla." 40 kopikat!</p>
+                </sp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <p>Mis? 40 kopikat? Kuustuhat! — Kuustuhat maksab äiapapa pulmapäewal laua pääle.</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Kuulutus maksab 40 kopikat.</p>
+                </sp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <p>Maksku <stage>(paneb raha lauale),</stage> aga koolitud, noor, ilus, tark ja rikas! Jaaah, kuustuhat rubla!</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Mis?</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Kus?</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Kuustuhat rubla?</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Noor ja ilus?</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Kas see on ka õige asi?</p>
+                </sp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <p>Mhmh! jah! Miks siis õige ei peaks olema?</p>
+                </sp>
+                <sp who="#kaegu #oeoepik #looke">
+                    <speaker>Kägu, Ööpik, Lõoke.</speaker>
+                    <p>Tõesti?</p>
+                </sp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <p>Muidugi!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Toho tont! Ja nii rikkale tüdrukule, kui ta weel noor ja ilus, ei tule peigmeest?</p>
+                </sp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <p>Kust ta's sinna taha metsanurka peab tulema? Sinna ei tule juut ega harjukegi, weel wähem siis rikkale tüdrukule paras peigmees!</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Imet ime pääle!</p>
+                </sp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <p>Pole Mulgimaa kohta ime midagi, trükkige aga lehte. Jumalaga! <stage>(Ära).</stage></p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <stage>(toibudes)</stage>
+                    <p>Kuustuhat rubla?</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Ja noor ja ilus?</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Ja koolitatud?</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>See neiu oleks üht noort kirjanikku wäärt!</p>
+                </sp>
+                <pb n="23"/>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Seda ma arwan!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Nimelt!</p>
+                </sp>
+                <sp who="#oeoepik #kaegu #looke">
+                    <speaker>Kõik kolm.</speaker>
+                    <p>Imede ime!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Poisid! Pühade ajal sõidame Mulgimaale kosja!</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Kõik kolm?</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Mulgimaa elagu!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <l>Mulk pastlaga ja wiisuga,</l>
+                    <l>Lööb tantsu oma Liisuga!</l>
+                </sp>
+                <sp who="#oeoepik #kaegu #looke">
+                    <speaker>Kõik kolm.</speaker>
+                    <l>Mulk pastlaga ja wiisuga,</l>
+                    <l>Lööb tantsu oma Liisuga!</l>
+                </sp>
+                <stage>Eesriie.</stage>
+            </div>
+            <div type="act">
+                <head>Teine waatus.</head>
+                <stage>Aed metsawahi Räästa juures. Tagapool maja uksega. Läwe kohal põdrasarwed j. n. e.</stage>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <stage>(istub ja loeb ajalehte, korraga)</stage>
+                    <p>Mis? Tont wõtku! Kas ma õieti näen? <stage>(Wõtab prillid pääst, pühib üle, waatab uuesti).</stage> Oh teie wõllaroad! Hahaha, see on tükk, mis tükk! <stage>(Loeb).</stage> "Et kaugel metsanurgas elan, annan ma teada, et tütrele peigmeest tarwitan. Laps on 20 aastat wana, koolitatud ja ilus. Kaasawara 6000 rubla. Palun auusaid peigmehi lähemal kallil pühade ajal mind waatama tulla. Metsawaht Karl Räästas, Tagakülas". — Karl Räästas? See olen ju mina. Tont neid! Minu auusat nime kurjaste tarwitada! Ja minul tütar? Hahaha! Parem ometi wõinud lehte panna: "Wanadlane poissmees, kes kaugel metsanurgas elab, tarwitab abikaasat. Palun tütarlapsi ja noori leski kallil pühade ajal mulle kosja tulla." — Waat see oleks ometi nali olnud! — Minul tütar? Miks mitte, aastate järele oleks mul mehelemineja tütar olla wõinud! Pagana hambamees, kes selle tüki wälja mõtelnud. Saab näha, kas tõesti kosilasi tuleb. Wähe wist küll, ehk olgu siis õige kaugelt mõni narr. — Noh, minu poolt ei pea takistust olema. <stage>(Hüüab tuppa).</stage> Liisa! Liisa!</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <stage>(tulles)</stage>
+                    <p>Mis on, peremees?</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Pea sa meeles, Liisa, mis ma ütlen: tänasest päewast nimetad sa mind papaks. Kas mõistad? — Pea sa hästi meeles.</p>
+                </sp>
+                <pb n="25"/>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <p>Jah küll!</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>No saame näha. Pea sa hästi meeles! Mine nüüd pääle.</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <p>Jah. <stage>(Ära).</stage></p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <stage>(astub paar sammu, siis uuesti)</stage>
+                    <p>Liisa! Liisa!</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <stage>(tagasi tulles)</stage>
+                    <p>Mis on, peremees?</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <stage>(pahaselt)</stage>
+                    <p>Kuidas ma õpetasin? Kuidas sa pidid ütlema? "Papa" pidid sa ütlema, mitte "peremees". Sa ei pea ka mitte midagi meeles. Mine nüüd pääle.</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <p>Jah, papa! <stage>(Ära).</stage></p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Kui aga tüdruk ennast wähe pidada oskab, siis wõib sellest nali mis nali saada. <stage>(Hüüab).</stage> Liisa, Liisa, Liisa! Liisa, tule ruttu!</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <stage>(tulles)</stage>
+                    <p>Heldeke, mis ometi on, per... papa?</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <stage>(naerdes)</stage>
+                    <p>No waata, hakkab juba meelde jääma. Näita, missugune sa ka oled? Ah, mine, kallil pühade ajal nii lohakasti riides ja määrdinud põll ees. Häbene ennast ometi ka, oled noor tütarlaps, — näita ennast <stage>(käänab tüdruku selja enese poole).</stage> Kui sind kosilased nõndawiisi näewad!</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <stage>(nutuselt)</stage>
+                    <p>Jah, tea kus siin metsanurgas need kosilased, wõi midagi. Oleks seda teadnud, ei oleks teile teenima tulnudki.</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Ära lobise tühja, kosilased tulewad mõnikord ootamata. Näita, missugune pää sul ka on? <stage>(Tõmbab Liisal rätiku pääst).</stage></p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <p>Uih, mis nüüd?</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Ei ole siin midagi uihtada ega aihtada. Pää on sul wähemasti sile. Rätti ära pane enam pähe, rätita oled ilusam.</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <stage>(lapsikult)</stage>
+                    <p>Kas minule kosilased tulewad?</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Ega's minule ometi mitte. Minust mehe naist ei saa.</p>
+                </sp>
+                <pb n="26"/>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <p>Oh sa heldekene! Kas täna tulewad?</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Ega minagi selgesti tea, kas ja millas nad tulewad, aga eks nad wõi tulla.</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <stage>(rõõmsalt)</stage>
+                    <p>Uih heldekene, minule tulewad kosilased! Peremees, ma...</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <stage>(põrutades)</stage>
+                    <p>Papa!</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <p>Wõi papa — <stage>(Tahab Räästa käele suud anda).</stage></p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Ära jända. Mine nüüd pääle ja — ehi ennast. Pane omale paremad hilbud ümber, täna ja kõik see pühade aeg.</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <p>Jah, papa! <stage>(Ära).</stage></p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Soo, mis tütresse puutub, siis on asi korras! Kõik see kuulutus on ju arwatawasti mu sõprade nali. Külap nad ise ka kosilaste eest muretsewad. Tulgu minugi pärast. Peawad oma enese lõksu langema. Mina neile tütart ei keela, häda neile, kui ise kosja-kaubast taganeda tahawad. <stage>(Wõtab jälle ajalehe).</stage> Täna on keskmine püha, kui nad täna ei tule, siis nad ei tulegi. <stage>(Loeb).</stage></p>
+                </sp>
+                <sp who="#jaak">
+                    <speaker>Jaak.</speaker>
+                    <stage>(tuleb wähe aja pärast ja on hästi häbelik)</stage>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Noh? Mis on?</p>
+                </sp>
+                <sp who="#jaak">
+                    <speaker>Jaak.</speaker>
+                    <p>Ei tea nüüd. Tahtsin peremehelt küsida, mis kurja mina siis teile teinud olen?</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Kuidas nii?</p>
+                </sp>
+                <sp who="#jaak">
+                    <speaker>Jaak.</speaker>
+                    <p>Jaa, aga noo — Liisa ütleb, te tahtwat teda mehele panna.</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Kas see siis hää ei ole, kui tütarlaps tanu alla saab?</p>
+                </sp>
+                <sp who="#jaak">
+                    <speaker>Jaak.</speaker>
+                    <p>Jaa, aga noo — kuhu siis mina jään?</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Kas sina siis ka teda wõtta tahad?</p>
+                </sp>
+                <sp who="#jaak">
+                    <speaker>Jaak.</speaker>
+                    <p>Mõtlesin korra küll.</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>See on ju wäga hää.</p>
+                </sp>
+                <pb n="27"/>
+                <sp who="#jaak">
+                    <speaker>Jaak.</speaker>
+                    <p>Jaa, aga noo — kui teie temale kosilased tellinud olete —</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Siis ole sina ise mees.</p>
+                </sp>
+                <sp who="#jaak">
+                    <speaker>Jaak.</speaker>
+                    <p>Jaa, aga noo — Liisa ei tea nüüd enam, mis ta häämeelega teeb!</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Mis sa's nõnda aeglane oled? Sul oli ju aega küllalt, pool aastat. Miks sa ennast warem temaga ei kihlanud?</p>
+                </sp>
+                <sp who="#jaak">
+                    <speaker>Jaak.</speaker>
+                    <p>Jaa, aga noo — kuidas ma siis ennast weel temaga pidin kihlama? <stage>(Liisa kuulab ukse wahelt).</stage></p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Kas te's juba kihlatud oletegi?</p>
+                </sp>
+                <sp who="#jaak">
+                    <speaker>Jaak.</speaker>
+                    <p>Eks me ikka ole.</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Mis ajast saadik?</p>
+                </sp>
+                <sp who="#jaak">
+                    <speaker>Jaak.</speaker>
+                    <p>See oli juba jüripäewal, kui ma teie teenistusesse tulin, sest ajast kihlasime me ennast ikka ja ikka enam...</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <stage>(ukse wahelt)</stage>
+                    <p>Peremees, see ei ole õige!</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <stage>(põrutades)</stage>
+                    <p>"Papa!" — Siia tule!</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <stage>(tulles, nutuselt)</stage>
+                    <p>Jaa, papa, see ei ole õige, mis Jaak ütleb.</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Kas te's ei ole kihlatud?</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <stage>(pirtsakalt)</stage>
+                    <p>Mina ei ole midagi kihlatud.</p>
+                </sp>
+                <sp who="#jaak">
+                    <speaker>Jaak.</speaker>
+                    <p>Jaa, aga noo — kas me's juba kohe jüripäewal kaewu juures ei kihlanud? Sina kiskusid wett wälja ja mina tulin sulle appi...</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <p>Ja siis?</p>
+                </sp>
+                <sp who="#jaak">
+                    <speaker>Jaak.</speaker>
+                    <p>Ja siis — — jaa, aga noo — ma ütlesin sulle ju, et su ära wõtan.</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <p>Sa ütlesid, kas see siis mõni kihlamine on?</p>
+                </sp>
+                <sp who="#jaak">
+                    <speaker>Jaak.</speaker>
+                    <p>Jaa, aga noo — kas sa sest ajast ei ole alati mu pastlad paiganud ja sukad kohendanud? Kas sa seda ka wastu ajad?</p>
+                </sp>
+                <pb n="28"/>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Hahaha! — Minge nüüd pääle ja kihlake ennast edasi. Ja sina, Liisa, pea meeles, et üks warblane pihus on parem, kui kümme katusel. <stage>(Jaak ja Liisa ära; Räästas neile järele naerdes).</stage> Ja nüüd ütelgu weel mõni, et kosjakuulutuse läbi lehtedes inimesed paari ei saa! Peaks aga kuulutuse lehte paneja ise nüüd ka tulema, naljakas oleks neid Jaaguga wõistelda lasta. Noh, eks me saa näha. <stage>(Wõtab jälle ajalehe).</stage></p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <stage>(jookstes ja kahte kätt kokku lüües)</stage>
+                    <p>Peremees, peremees, oh heldeke, oh —</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>"Papa!" Kas sa ikka weel meeles ei pea!</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <p>Papa, papa! Kosilased juba siin, kolm tükki kohe. Troskaga sõitsid õue, oh heldeke! Kuhu ma nüüd jooksen!</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Kuhugile ära jookse. Waia kannudesse õlut walmis. Tundsid, kes nad on!</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <p>Heldekene, ei tunnud! Kolm Saksa meest, selged noorisandad! Kahehobuse troskaga, kutsar kah.</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Soo? Seda parem. Pea aga ennast wiisakalt ülewal, nagu oleksid sa mõni päris peenike preili. Ja ära sa ära unusta alati "papa" ütelda.</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <p>Ei unusta, papa, küll te näete.</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Küll näeme. Mine aga nüüd pääle.</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <p>Jah, lähen, papa, — kas ma kohe õlut toon?</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Mine, mine, küll ma ütlen, kui sa tood. <stage>(Liisa ära)</stage></p>
+                </sp>
+                <sp who="#kaegu #oeoepik #looke">
+                    <speaker>Kägu, Ööpik, Lõoke.</speaker>
+                    <p>Teree!</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Tere jumalime! Päris tundmata külalised...</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Külap wist. Ärge pange pahaks, et teid tülitame...</p>
+                </sp>
+                <pb n="29"/>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Tee wiis teie õue alt mööda...</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Tulime sisse paberossi otsa tuld paluma...</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Pikal pühade ajal on iga külaline oodatud külaline. Tuld saab, — aga tee, mis siit weel edasi wiib, on puuwedajate tee ja lõpeb raismiku pääl ära. Edasi sõita te enam ei saa, peate tagasi pöörama. Aga — olge hääd, pange üleriided ära. Kallil pühade ajal mina kedagi nii kergesti oma katuse alt minema ei lase.</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Te olete wäga lahke...</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Ja sõbralik...</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Ja isalik...</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Ärge laske ennast pikalt paluda.</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Sõber!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Suguwend!</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Wend!</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <stage>(waimustatult)</stage>
+                    <p>Lubage, et ma teid kaenlustan!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Ei oleks uskunudki Eestis weel nii lahket wõõraste wastuwõtmist leida! <stage>(Wapustab Räästa kätt).</stage></p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Jumala eest, ei!</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <stage>(ennast lahti rabeledes)</stage>
+                    <p>Sakardiment! härrad, watid maha!</p>
+                </sp>
+                <sp who="#kaegu #oeoepik #looke">
+                    <speaker>Kägu, Ööpik, Lõoke.</speaker>
+                    <p>Mhmh! Jah! <stage>(Wõtawad päälisriided seljast).</stage></p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <stage>(weinipudelit andes)</stage>
+                    <p>Siin meie reisipass ka!</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Soo, soo, soo! See on ju päris õigete meeste wiis! <stage>(Tuppa hüüdes).</stage> Liisa! Liisa ae!</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <stage>(pääd läbi ukse pistes)</stage>
+                    <p>Mis on, papa?</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Õlut too! Ja — wii külaliste riided tuppa.</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <p>Silmapilk! <stage>(Ära).</stage></p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Oi, oi, wanahärra, mis kena tütar teil on!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Just kui õun!</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Tõesti kena laps!</p>
+                </sp>
+                <pb n="30"/>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Ja kui wiisakas!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Usin ja kärmas...!</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Ja, Liisa on ikka hää laps küll, ega mul ju ka enam ei ole.</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Soo?</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Wõi ainus ongi?</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <stage>(õllekannuga)</stage>
+                    <p>Siin, papa!</p>
+                </sp>
+                <sp who="#kaegu #oeoepik #looke">
+                    <speaker>Kägu, Ööpik, Lõoke.</speaker>
+                    <p>Teree!</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Lubage preili, ja wanahärra ka, et ennast teile tutwustame; minu nimi on Ööpik.</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Minu nimi on Kägu.</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Ja minu nimi on Lõoke!</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Ja minu nimi on Räästas. Siin selle lillekese nimi on Liisa! — Tõepoolest, päris kewade, mis kewade! —</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>On ju ka!</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Niipalju laululindusid korraga minu metsas: ööpik, kägu, lõoke — ja kõik räästa pesas! Kas te aga ka kõik oma nimede järele laulda oskate, mu härrad?</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Eks ikka ka.</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Seda saab!</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Saame näha! Katsuge meie pühade taari ka. <stage>(Annab kannu).</stage></p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <stage>(joob)</stage>
+                    <p>Oi, see on ka isegi tubli taar! <stage>(Annab Käole).</stage></p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <stage>(joob)</stage>
+                    <p>Mehine märjuke! <stage>(Annab Lõokesele).</stage></p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <stage>(joob)</stage>
+                    <p>Keele wiib ühes alla!</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Laske enestele maitsta, mu härrad, ja — wabandage silmapilguks! Ma waatan, et teie hobuste eest hoolt kantakse. <stage>(Ära).</stage></p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Wennad, asi sigineb ju paremine, kui ette arwata oli, see on ju peenike!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Räästa isanda sarnast meest peab tulega otsima, see on õige!</p>
+                </sp>
+                <pb n="31"/>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Jaa, aga —</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Mis — jaa, aga?</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Ega me ometi kõik kolm siia wäimeheks hakata ei saa, tütrid on ju kõigest üks!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Õige, see asi annab küll mõtelda.</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Siin ei oie enam midagi mõtelda. Meie teeme kõik kolm praegu siinsamas lepingu elu ja surma pääle — ühistegevuse mõttes! 6000 rubla. Üks saab tütre, asutab uue ajalehe ja trükikoja, teised kaks hakkawad toimetajateks ja kasu tehakse kolme pääle peenikeseks.</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Õige, wend, olgu nõnda. Aga, kes see peab olema — see üks?</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Meie heidame liisku!</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Jaa, aga —</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Mis siis weel?</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Ehk jagame sulgi, enne kui lind weel käes!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Lindu peame püüdma!</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <stage>(tõmbab aia seest warwa)</stage>
+                    <p>Siin — kelle käsi pääle jääb, on peigmees — teised kaks jääwad isameheks.</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Olgu!</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Minugi pärast! <stage>(Heidawad liisku. Ööpiku käsi jääb pääle).</stage></p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Soowin õnne, wend! <stage>(Wapustab Ööpiku kätt).</stage></p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Ka mina soowin südamest õnne!</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Tänan! Ja lehe nimi olgu "Tungal".</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Kas "tüli-tungal", mille me kõikide Eesti parteide wahele heidame?</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Ei, waid — "tule-tungal", millega me igasse pimedasse nurka walgust heidame ja warjud minema peletame!</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Ah mis! "Tungal" — see ei lähe, tuletab wähe nagu kihwtiseid tungalteri meelde!</p>
+                </sp>
+                <pb n="32"/>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Mis sellest! Natuke kihwti peab iga hää lehe hamba all olema.</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Õige ka! <stage>(Käole).</stage> Ära sina aga oma mune Ööpiku pesasse mune! Käol on sihuke amet.</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <stage>(sisse astudes)</stage>
+                    <p>Ma tulin waatama, kas külalistel õlut ei puudu... <stage>(Waatab kannu).</stage></p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <stage>(wastu tõtates)</stage>
+                    <p>Täname wäga, preili...</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <stage>(hoiab teda kuue sabast tagasi ja toob tema pahemale poole ette)</stage>
+                    <p>Kas ma ei ütelnud, jäta Ööpiku pesa rahule!</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <stage>(Liisale)</stage>
+                    <p>Teie olete wäga lahke, preili, aga olge ometi nõnda hää ja jääge ka wähe meie seltsi juttu puhuma!</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <stage>(aralt)</stage>
+                    <p>Ei tea, kuhu peremees on läinud...</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Teie papa läks õue, aga mina tahaksin weel palju parema meelega teiega juttu westa, mu preili. Kas teate, preili Liisa, ainult siin teie sügawas sinises metsas, talwel nii waik ja wagune, suwel nii täis linnulaulu ja lillelõhna, siin üksi jääb inimene süütaks ja lapselikuks, nagu loodus ise!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <stage>(Lõokesele)</stage>
+                    <p>Kuule, kuule, kuidas Ööpik laksutab!</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Wait, wait!</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Siin, kus linnukesed alatasa igawest wana wiisi lõpmata armastusest laulawad, mets salatasa kui imelises igatsuses sinna juure kohiseb, silm läbi puude latwade üles sinise taewa poole ulatab tõusema ja kõrw maailma mürinast ja kärinast midagi ei kuule, — ainult siin salajas salus wõis õiekene õitsema lüüa, õrn, ilmsüüta ja ilus, kui — teie, mu preili!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <stage>(Lõokesele)</stage>
+                    <p>Kuule! Küll lõhub!</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Wait, wait!</p>
+                </sp>
+                <pb n="33"/>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Õnnelik see käsi, kes seda õiekest tohib noppida, ta on kui pühapäewalaps muinasjutus, kes uinuwa kuningatütre unest äratada tohtis... Aga — teie ei räägi midagi, mu preili?</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <stage>(häbelikult)</stage>
+                    <p>Oh kui ilusasti teie meie metsa kiita oskate, härra, ja seda teie ei teagi weel, kui suured seened siin kaswawad, pilwikud ja piimaseened!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <stage>(Lõokesele)</stage>
+                    <p>Mis see siis oli?</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Teie pilkate mind, preili?</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <p>Uih heldeke, kuida mina saksu pilgata julgen...</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Aga...</p>
+                </sp>
+                <sp who="#jaak">
+                    <speaker>Jaak.</speaker>
+                    <stage>(üle läwe)</stage>
+                    <p>Eks sa tule wahest ära, Liisa!</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <p>Uih! <stage>(Ära).</stage></p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Kes see siis oli?</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <stage>(waimustatult)</stage>
+                    <p>See oli selle muinasjutulise kuningatütre walwaja, tige nõid! Aga minu suuandmine peab neitsi selle nõia wõimu alt päästma!</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <stage>(pikkamisi, hoiatawalt)</stage>
+                    <p>Ära ole oma asja pääle liiaks julge, sõber Ööpik! Mina kardan,    mina kardan, kõik see asi wõib sinu suuandmisel ennast muuta ka — mõneks pilwikuks wõi piimaseeneks!</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Soo! Wabandage, härrad! Hobused on ulu all, nüüd wõime mureta olla. Kuhu meie jutt pooleli jäi?</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Ei tea isegi ütelda. Pidime ju alles algama.</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Maitske õlut! Minu poolt pühade kali, teie poolt nali.</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Kui teil üht ei puudu, meil teist ammugi mitte. Hahaha. Nali ja kali!</p>
+                </sp>
+                <pb n="34"/>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Elagu kali ja nali!</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Teate, härra Räästas, teil siin Pärnumaal on õige suure suuga mehi. Ühega olime meie teel kõrtsi juures wõrakis. Tahtis meiega wägisi tüli norida. Saime weel tuhknai terwe nahaga tulema.</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Nonoh, mis mees see siis oli?</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Wallawanem Wolmer Womm!</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>No muidugi! Mis nüüd teda rääkida! Mis tal siis teiega, wõõraste inimestega, asja tüli otsida oli?</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Wana wiha. Waadake, meie kõik kolm oleme linnast, ajalehe "Waatleja" toimetuse liikmed...</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Soo? Ja tegite pühiks maale wäikese lõbusõidu? See on ju tore! Mul ju ka sääl teie leht laua pääl.</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Jaa. Ja meie wiskasime Wommi kord toimetuse toast, kuhu ta meiega tüli norima tuli, wälja. Seda tahtis ta meile nüüd kätte tasuda.</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Käratas külapoistele korwi õlut wälja ja ässitas neid üles untsakaid uhtma. Tal waesel mehel näis kangesti hinge pääl kipitawat, et meie trükipoisid ta läbi lobisid. Ta oleks häämeelega näinud, kui meie käsi siin halwemini oleks käinud.</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Juba kippusidki külapoisid ähwardawalt kallale. Siis arwasime paremaks taganeda.</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Oli ka mõistlik, muidu oleksite ehk siniste silmadega siia jõudnud. See mees on tuttaw tülinorija. Aga kõneleme parem midagi muud. Hää, et teil temaga suuremat pahandust ei juhtunud. Mis linna pool uudist kuulub?</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Uudist? Meie uudised on kõik lehes, meie ei pea midagi enese teada. Aga mis teie pool uut kuulub.</p>
+                </sp>
+                <pb n="35"/>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Siin metsanurgas ka midagi uut! Et teie täna siin ja minu armsad külalised olete, see on meie kõige suurem uudis. Ja nüüd oleme rõõmsad. Laululinnud me siin kõik koos oleme, siis laseme ka laulu lahti. Mis?</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Seda wõime! Kui lubate, mina ürgan kohe otsa üles.</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Ilus! Mina olen laulu sõber ja teen, kui teisiti ei saa, ise ka weel tembu ära ja laulan kaasa!</p>
+                </sp>
+                <sp who="#jaak">
+                    <speaker>Jaak.</speaker>
+                    <stage>(tuleb toast ja on äritatud)</stage>
+                    <p>Peremees!</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <stage>(natuke pahaselt)</stage>
+                    <p>No — mis on, Jaak?</p>
+                </sp>
+                <sp who="#jaak">
+                    <speaker>Jaak.</speaker>
+                    <p>Ei tea, peremees — kui kutsuksite selle — sakste woorimehe ka teiste juure tuppa!</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Mispärast?</p>
+                </sp>
+                <sp who="#jaak">
+                    <speaker>Jaak.</speaker>
+                    <p>Jaa, aga noo — tema ei jäta Liisat rahule.</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <stage>(puhkeb naerma)</stage>
+                    <p>Kas nüüd ei ole lugu? Mis amet sul siis enesel on, kui sa järele ei walwa?</p>
+                </sp>
+                <sp who="#jaak">
+                    <speaker>Jaak.</speaker>
+                    <p>Jaa, aga noo...</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Noh, mine aga pääle! <stage>(Jaak ära).</stage></p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <stage>(äritatud, tahab Jaagule järele minna)</stage>
+                    <p>Aga see on ometi kuulmata! Kuidas woorimees nii häbemata tohib olla?</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <stage>(Ööpikut pidades)</stage>
+                    <p>Laske olla. Jätke igaühele tema hää olek ja pühade nali!</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Jaa, aga pagan wõtku —</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Pole katki midagi. Ärge laske oma tuju rikkuda. Hakkame laulma, see parandab pahanduse. Laulu juure aga lonks õlut.</p>
+                </sp>
+                <sp who="#kaegu #oeoepik #looke">
+                    <speaker>Kägu, Ööpik, Lõoke.</speaker>
+                    <p>Olgu!</p>
+                </sp>
+                <pb n="36"/>
+                <spGrp>
+                    <head>№ 4.</head>
+                    <sp who="#looke">
+                        <speaker>Lõoke.</speaker>
+                        <l>Kui lumi sulab märtsikuul,</l>
+                        <l>Ja soojemine puhub tuul,</l>
+                        <l>Siis juba kuuled põllu pääl,</l>
+                        <l>Kuis lõõritamas lõo hääl:</l>
+                        <l>Tsir-tsir, tsir-tsir,</l>
+                        <l>Tsir-tsir, tsir-tsir,</l>
+                        <l>Tsir-tsir-tsir!</l>
+                    </sp>
+                    <sp who="#kaegu">
+                        <speaker>Kägu.</speaker>
+                        <l>Ei maga siis ka kukulind,</l>
+                        <l>Kui kewade ju ehib end,</l>
+                        <l>Waid metsast, kuuse otsast, säält</l>
+                        <l>Ta laseb kuulda oma häält:</l>
+                        <l>Kukku, kukku,</l>
+                        <l>Kukku, kukku,</l>
+                        <l>Kukk-kukk-kukk!</l>
+                    </sp>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <l>Kui mets ja maa ju haljendab,</l>
+                        <l>Ja tooming õitest walgendab,</l>
+                        <l>Siis ööpikul ka kibe töö:</l>
+                        <l>Ta hõiskab õndsalt läbi öö:</l>
+                        <l>Ööpik, ööpik,</l>
+                        <l>Too piits, too piits,</l>
+                        <l>Tsäh-tsäh-tsäh!</l>
+                    </sp>
+                    <sp who="#raeaestas">
+                        <speaker>Räästas.</speaker>
+                        <l>Kuis räästaski saab waikida,</l>
+                        <l>Kui teised laulwad lustila,</l>
+                        <l>Siis temagi kui laulumees</l>
+                        <l>On siristamas põõsa sees:</l>
+                        <l>Räk-räk, räk-räk,</l>
+                        <l>Räk-räk, räk-räk,</l>
+                        <l>Räk-räk-räk!</l>
+                    </sp>
+                    <sp who="#woorimees">
+                        <speaker>Woorimees.</speaker>
+                        <stage>(tuleb toast, õllekann käes)</stage>
+                        <l>Kui ööpik, lõo, kukulind,</l>
+                        <l>Ja saksad rõõmustawad end,</l>
+                        <l>Siis woorimeeski puki päält</l>
+                        <l>Ka laseb kuulda laulu häält:</l>
+                        <l>Alle wint, alle wint,</l>
+                        <l>Waläi, tuhknai,</l>
+                        <l>Hõp-hõp-hõp!</l>
+                    </sp>
+                </spGrp>
+                <pb n="37"/>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Ohoo, sääl on ju weel keegi laulumees. Astuge aga lähemale.</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Oh — ei!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>See ei lähe!</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>See on piinlik! Päälegi on ta weidi wintis.</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Minule on see üks kama kõik. Meie siin — maal — oleme demokradid, elame laiemal rahwalikul alusel. Woorimees wõi moonake, kui ta aga muidu mees on..!</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Maal, — wõib olla, jaa. Linnas — paberi pääl näeb see ju kõik wäga kena wälja, aga tegelikus elus..? Ma ei taha ju ütelda, me näeme linnas ju ka wäga hää meelega, kui näituseks, woorimees oma naese ja lastega teatrisse tuleb, agaa... <stage>(Eemalt kostab pillimäng).</stage></p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Hahaha! Ma arwan, me peame täna tahes ehk tahtmata demokratideks saama.</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Kuidas nõnda?</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Kuulake, säält kostab pillimäng, mis lähemale tuleb. Külapoisid ja tüdrukud tulewad simmanile.</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Härra Räästas, teie ei pea arwama, et meie upsakad oleme. Ei, me oleme rahwamehed läbi ja läbi, nagu te meie lehestki näete...</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Maapidu teeme häämeelega kaasa. See käib ju kõigist lõbust üle, agaa...</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Purjus woorimeest ma ei kannata! Talupoja jant, see on ise asi!</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Suure hulga sisse kaob see sõber oma kilgiga ära, nõnda et tähelegi ei pane. Las ta teeb lõbu kaasa.</p>
+                </sp>
+                <sp who="#oeoepik #looke #kaegu">
+                    <speaker>Ööpik, Lõoke, Kägu.</speaker>
+                    <p>Noh, meiegi pärast! <stage>(Kostab laul, mis ikka lähemale tuleb).</stage></p>
+                </sp>
+                <sp who="#woorimees">
+                    <speaker>Woorimees.</speaker>
+                    <p>Ai Juku! Las looss!</p>
+                </sp>
+                <pb n="38"/>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <stage>(sisse tormates)</stage>
+                    <p>Tulewad! Tulewad!</p>
+                </sp>
+                <sp who="#woorimees">
+                    <speaker>Woorimees.</speaker>
+                    <stage>(püüab teda kinni wõtta)</stage>
+                    <p>No Liisake, kuhu sa lippad?</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Woorimees, näpud eemale!</p>
+                </sp>
+                <sp who="#jaak">
+                    <speaker>Jaak.</speaker>
+                    <stage>(tulles)</stage>
+                    <p>Liisa, mis sa nüüd jälle siia jooksed!</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Jaak! Lase külarahwas aeda tulla ja muretse õlut!</p>
+                </sp>
+                <sp who="#jaak">
+                    <speaker>Jaak.</speaker>
+                    <p>Tule sa ka, Liisa. <stage>(Mõlemad ära).</stage></p>
+                </sp>
+                <stage>(Külapoisid ja tüdrukud tulewad lauldes sisse).</stage>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Tubli, lapsed, tubli! Nüüd wõtke kõige päält tilk pühade kalja keelekasteks ja siis oleme rõõmsad. Siin need kolm linnasaksa on minu hääd sõbrad ja oskawad maa naljast lugu pidada, neid ei maksa karta.</p>
+                </sp>
+                <stage>(Jaak ja Liisa pakuwad õlut).</stage>
+                <sp who="#woorimees">
+                    <speaker>Woorimees.</speaker>
+                    <stage>(kes seni truisti õlut on pumbanud)</stage>
+                    <p>Majaperemehe pühade jook on kangesti mõnus. Kas härrad ei käse üks wäikene woorimehe laul?</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Ja muidugi, ja muidugi! Härrad lubawad ometi?</p>
+                </sp>
+                <sp who="#oeoepik #kaegu #looke">
+                    <speaker>Ööpik, Kägu, Lõoke.</speaker>
+                    <p>Mhmh! Jah! Palume! Meil ei ole midagi selle wastu.</p>
+                </sp>
+                <spGrp>
+                    <head>№ 5. Woorimehe laul kooriga.</head>
+                    <sp who="#woorimees">
+                        <speaker>Woorimees.</speaker>
+                        <l>Ma olen woorimees,</l>
+                        <l>Ilm lõhki minu ees —</l>
+                        <l>Kuis saksad soowiwad,</l>
+                        <l>Ja sõita käsiwad:</l>
+                        <l>Kas wäikest sea-sörki,</l>
+                        <l>Wõi kohe Wine wärki?</l>
+                        <l>Mis sääl nüüd kiidelda,</l>
+                        <l>Eks sõita ikka saa —</l>
+                        <l>Walai! Tuhknai! Las leekida,</l>
+                        <l>Kas läbi terwe ilmamaa!</l>
+                    </sp>
+                    <sp who="#koor">
+                        <speaker>Koor.</speaker>
+                        <l>Walai! Tuhknai! Las leekida,</l>
+                        <l>Kas läbi terwe ilmamaa!</l>
+                    </sp>
+                    <pb n="39"/>
+                    <sp who="#woorimees">
+                        <speaker>Woorimees.</speaker>
+                        <l>Kui saksad soowiwad,</l>
+                        <l>Ja pääle istuwad —</l>
+                        <l>Kas olgu Imperjaali,</l>
+                        <l>Wõi wälja Wissentaali,</l>
+                        <l>Eks saksad ise tea,</l>
+                        <l>Et igalpool on hea,</l>
+                        <l>Kui aga soe pea!</l>
+                        <l>Siis sina muud kui wea!</l>
+                        <l>Walai! Tuhknai! Las leekida,</l>
+                        <l>Kas läbi kõige ilmamaa!</l>
+                    </sp>
+                    <sp who="#koor">
+                        <speaker>Koor.</speaker>
+                        <l>Walai! Tuhknai! Las leekida,</l>
+                        <l>Kas läbi terwe ilmamaa!</l>
+                    </sp>
+                    <sp who="#woorimees">
+                        <speaker>Woorimees.</speaker>
+                        <l>See pagana Bellewüü,</l>
+                        <l>Om puha selle süü,</l>
+                        <l>Et saksa täis kui tõpra,</l>
+                        <l>Ei sõida Karskuse-Sõpra!</l>
+                        <l>Ja iki käsewe,</l>
+                        <l>Ja sõita lasewe:</l>
+                        <l>Walai nüüd wastla-sõitu,</l>
+                        <l>Kas saadanaga wõitu!</l>
+                        <l>Walai! Tuhknai! Las leekida,</l>
+                        <l>Kas läbi terwe ilmamaa!</l>
+                    </sp>
+                    <sp who="#koor">
+                        <speaker>Koor.</speaker>
+                        <l>Walai! Tuhknai! Las leekida,</l>
+                        <l>Kas läbi terwe ilmamaa!</l>
+                    </sp>
+                    <sp who="#woorimees">
+                        <speaker>Woorimees.</speaker>
+                        <l>Kui tuleb linnapea,</l>
+                        <l>Siis pole asi hea,</l>
+                        <l>Siis pagema ma naksi,</l>
+                        <l>Saks peab kangest taksi!</l>
+                        <l>Wiistõisku kopkaga,</l>
+                        <l>Sa sõida Ropka maa.</l>
+                        <l>Noh, pagan wõtku küll,</l>
+                        <l>See on ju kangest hull!</l>
+                        <l>Walai! Tuhknai! Las leekida,</l>
+                        <l>Siis muud kui kiirest pagema!</l>
+                    </sp>
+                    <sp who="#koor">
+                        <speaker>Koor.</speaker>
+                        <l>Walai! Tuhknai! Las leekida,</l>
+                        <l>Siis muud kui kiirest pagema!</l>
+                    </sp>
+                </spGrp>
+                <pb n="40"/>
+                <sp who="#jaak">
+                    <speaker>Jaak.</speaker>
+                    <stage>(toob Räästa ettepoole, on juba wähe wintis)</stage>
+                    <p>Peremees, kuidas siis nüüd jääb Liisaga? Kas panete ikka linnauntsakatele ära wõi?</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Muidugi! Mis siis muud?</p>
+                </sp>
+                <sp who="#jaak">
+                    <speaker>Jaak.</speaker>
+                    <p>Ja, aga noo — mis siis minust saab?</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Kas ma sulle ei ütelnud — ole ise mees! Kasi keldrisse ja otsi õlut!</p>
+                </sp>
+                <sp who="#jaak">
+                    <speaker>Jaak.</speaker>
+                    <p>Ja — aga Liisa peab ka ühes tulema.</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Liisa jääb siia. Tee, et minema saad!</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Härra Räästas, miks te lubate, et sulane teie tütrega nii labaselt ümber käib.</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Maal on nii lihtsad kombed. <stage>(Külarahwa poole).</stage> Lapsed, laske tants lahti!</p>
+                </sp>
+                <sp who="#kuelapoisid #kuelatuedrukud">
+                    <speaker>Külapoisid ja tüdrukud.</speaker>
+                    <p>Ja, ja! Tants lahti! Laul ja tants!</p>
+                </sp>
+                <spGrp>
+                    <head>№ 6. Simman.</head>
+                    <sp who="#koor">
+                        <speaker>Koor.</speaker>
+                        <l>Poisid! Nüüd lõbu lööma tulge!</l>
+                        <l>Tüdrukud! Tantsma kerged olge!</l>
+                    </sp>
+                    <sp who="#kuelatuedrukud">
+                        <speaker>Tüdrukud.</speaker>
+                        <l>Poisid, jalad joonde seadke,</l>
+                        <l>Muidu simman sassi ju läeb!</l>
+                        <l>Kes ei tantsi, seda teadke,</l>
+                        <l>Mõrsjast wiimaks ilma jääb!</l>
+                    </sp>
+                    <sp who="#kuelapoisid">
+                        <speaker>Poisid.</speaker>
+                        <l>Waadake ette, neiukesed,</l>
+                        <l>Et ei ise kimpu wast ei jää!</l>
+                        <l>Teil on kingad kitsakesed,</l>
+                        <l>Kergesti läeb keeru teil pää!</l>
+                    </sp>
+                    <sp who="#koor">
+                        <speaker>Koor.</speaker>
+                        <l>Hüppa ja tantsi kergel kujul!</l>
+                        <l>Laula ja mängi rõõmsal tujul!</l>
+                    </sp>
+                </spGrp>
+                <sp who="#jaak">
+                    <speaker>Jaak.</speaker>
+                    <p>Peremees, kuramuse pihta, kui teie tahate Liisa neile linna antwärkidele anda, siis peawad nad ka teadma, et mina oma pruuti nii kergesti käest ära ei anna!</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Kas sa pead oma suu!</p>
+                </sp>
+                <pb n="41"/>
+                <sp who="#jaak">
+                    <speaker>Jaak.</speaker>
+                    <p>Ei, mitte ei pea! Liisa on tubli talutüdruk ja auusa talupoja pruut, linna untsakad otsigu omale linnast lipakaid!</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <p>Peremees, ajage ta minema! <stage>(Lööb omale käega suu pääle).</stage> Oh sa taewas, nüüd läks meelest ära!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Aga härra Räästas, mis kommetit te oma tütrega mängite?</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Ah mis! Minul ei olegi tütart!</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Kuidas...?</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Mis?</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Aga kuulutus?</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Kõik nali. Mina olen wanapoiss. Kelmid, wõib olla, mu enese sõbrad, on selle kuulutuse lehte pannud, minul ei ole sellega midagi tegemist. — Ega te mulle ometi ette luisata ei taha, et teie ka kosjamõttega kodust wälja sõitsite? Tulite muidu nalja waatama — eks ole?</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Muidugi mõista, härra Räästas. Mina omalt poolt, minu nimi on Kägu, mina tulin waatama, kas kuhugi pesasse wõõrast muna muneda ei saa, ja minu seltsimehed — kõik oleme "päewakaja" materjali tabamise pääl wäljas.</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Härra Räästas, teie olete mõnus mees. Teile ei maksa waletada. Kui kusagil noor, ilus rikas tüdruk otse meie pääle peaks ootama — ära wõtaksime kah.</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Kui meile ainult hullemat ei juhtu!</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Ah, mis! Nüüd peame muud kui pühi.</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Õiendame oma õnnetuse sellekohase salmiga ära. Millest süda täis, sellest jookseb suu üle.</p>
+                </sp>
+                <spGrp>
+                    <head>№ 7.</head>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <l>Ma wõtaksin naese, kuid lugu on paha,</l>
+                        <l>Et tüdrukud keegi mull' tulla ei taha,</l>
+                        <l>Küll kümme kord kosjateed tallanud ma,</l>
+                        <l>aga ikka ja ikka sest asja ei saa!</l>
+                        <p>Waadake, me oskame luuletada, salmikuid teha, jutukesi kirjutada ja nõnda edasi, aga ilm ütleb: See töö ei toida! Siis muud kui:</p>
+                    </sp>
+                    <pb n="42"/>
+                    <sp who="#oeoepik #looke #kaegu">
+                        <speaker>Ööpik, Lõoke, Kägu.</speaker>
+                        <l>Tee luuda, too luuda,</l>
+                        <l>Pühi wäimees wälja!</l>
+                    </sp>
+                    <sp who="#koor">
+                        <speaker>Koor.</speaker>
+                        <l>Tee luuda, too luuda,</l>
+                        <l>Pühi wäimees wälja!</l>
+                    </sp>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <l>Ma naabruses tundsin noort, ilusat leske,</l>
+                        <l>Kel raha ja wara, ja ostetud weske,</l>
+                        <l>Ma tahaksin teda, ta tuleks mull' ka,</l>
+                        <l>Aga ikka ja ikka sest asja ei saa!</l>
+                        <p>Mine tahtma, siis küsiwad sugulased kohe: Kas jahwatada ja kiwi sagada oskad? Seletad: Ma olen kirjamees, sulemees, politikamees, rahwamees, — öeldakse kohe: See töö ei toida! — Ei muud kui:</p>
+                    </sp>
+                    <sp who="#oeoepik #looke #kaegu">
+                        <speaker>Ööpik, Lõoke, Kägu.</speaker>
+                        <l>Tee luuda, too luuda,</l>
+                        <l>Pühi wäimees wälja!</l>
+                    </sp>
+                    <sp who="#koor">
+                        <speaker>Koor.</speaker>
+                        <l>Tee luuda, too luuda,</l>
+                        <l>Pühi wäimees wälja!</l>
+                    </sp>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <l>Ja Kasemäe Mardil, oh sa elu ja walu,</l>
+                        <l>On tütar kui maasikas, kaasa saab talu,</l>
+                        <l>Häämeelega koduwäiks läheksin ma,</l>
+                        <l>Kuid ikka ja ikka sest asja ei saa!</l>
+                        <p>Mart küsib ka: Kas künda ja külida oskad? Ütled: Ma oskan rahwa elukorra parandamisest: põllutöö tõstmisest, karjakaswatusest ja piimatalitusest juhtkirju kirjutada ja nõnda edasi ja nõnda edasi — Mart wangutab pääd ja ütleb: See töö ei toida! — Muud kui jällegi:</p>
+                    </sp>
+                    <pb n="43"/>
+                    <sp who="#oeoepik #looke #kaegu">
+                        <speaker>Ööpik, Lõoke, Kägu.</speaker>
+                        <l>Tee luuda, too luuda,</l>
+                        <l>Pühi wäimees wälja!</l>
+                    </sp>
+                    <sp who="#koor">
+                        <speaker>Koor.</speaker>
+                        <l>Tee luuda, too luuda,</l>
+                        <l>Pühi wäimees wälja!</l>
+                    </sp>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <l>Ja täna siinsamas on hullem weel lugu:</l>
+                        <l>Ma kuulen, siin tütart ei olegi sugu.</l>
+                        <l>Kui tütart ei ole, on arwata ka,</l>
+                        <l>Et tänagi jälle sest asja ei saa!</l>
+                        <l>Siin ütleb härra Räästas ka:</l>
+                    </sp>
+                    <sp who="#oeoepik #looke #kaegu">
+                        <speaker>Ööpik, Lõoke, Kägu.</speaker>
+                        <l>Tee luuda, too luuda,</l>
+                        <l>Pühi wäimees wälja!</l>
+                    </sp>
+                    <sp who="#koor">
+                        <speaker>Koor.</speaker>
+                        <l>Tee luuda, too luuda,</l>
+                        <l>Pühi wäimees wälja!</l>
+                    </sp>
+                </spGrp>
+                <stage>(Laulu lõpul astub Womm oma meestega sisse).</stage>
+                <sp who="#womm">
+                    <speaker>Womm.</speaker>
+                    <p>Aha, linnud lõksus! Wäga hää! No jaa! Eks mets ole ikka waraste warjaja!</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Ohoo, see on ju meie wallawanem ja Wolmer Womm! Saab teid ka jälle näha!</p>
+                </sp>
+                <sp who="#womm">
+                    <speaker>Womm.</speaker>
+                    <p>Jah, saab! Ja see jällenägemine peab hirmus olema! — Passid näidake ette!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Reisipass sai peremehe kätte ja — muud passi meii ei ole.</p>
+                </sp>
+                <sp who="#womm">
+                    <speaker>Womm.</speaker>
+                    <p>Ah ei ole? Seda ma arwasin?</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <stage>(toob pudeli)</stage>
+                    <p>Siin on nende härrade reisipass; maitske ka, wallawanem!</p>
+                </sp>
+                <sp who="#womm">
+                    <speaker>Womm.</speaker>
+                    <p>Kuida sa julged mind pilgata. Tead, mis mees ma olen!</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Nonoh, pole ju wiga, ega me täna teineteist esimest korda ei näe.</p>
+                </sp>
+                <sp who="#womm">
+                    <speaker>Womm.</speaker>
+                    <p>Esimest korda ehk mitte! Teate ka, mis mehed need on, kes siin teie juures lusti lööwad?</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Miks ei tea, nad on minu külalised!</p>
+                </sp>
+                <pb n="44"/>
+                <sp who="#womm">
+                    <speaker>Womm.</speaker>
+                    <stage>(wihaselt)</stage>
+                    <p>Hobusewargad on nad! Mulle on üles antud; hobusewargad on nad, kes waatamas käiwad, kust maa lahti!</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Mis? — Meie — hobusewargad? Kes seda tohib ütelda?</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Mina wastutan nende eest!</p>
+                </sp>
+                <sp who="#womm">
+                    <speaker>Womm.</speaker>
+                    <p>Teie wastutate? Siin ei ole wastutamist! Kinni! Homme teeme protokolli!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Kas te wägiwalda tahate pruukida? Te tunnete meid wäga hästi ja teate, kes me oleme.</p>
+                </sp>
+                <sp who="#womm">
+                    <speaker>Womm.</speaker>
+                    <p>Siin ei ole wägiwalda. Seadus käsib kahtlasi ja ilma passita inimesi kinni wõtta!</p>
+                </sp>
+                <sp who="#jaak">
+                    <speaker>Jaak.</speaker>
+                    <stage>(rõõmsalt Liisale)</stage>
+                    <p>Waata nüüd, Liisa, waata nüüd! Kas näed nüüd, missuguste wanderite kätte sa oleksid sattunud!</p>
+                </sp>
+                <sp who="#womm">
+                    <speaker>Womm.</speaker>
+                    <stage>(oma meestele)</stage>
+                    <p>Poisid, wõtke ohjad! Siduge!</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <stage>(hädaldades)</stage>
+                    <p>Püha ätike, kosilased wiiakse kinni! Kas kõik kolm?</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Nõnda küll, kallike. Nagu näha. Wägiwalla wastu me ju ei saa. Teil, Pärnumaal, näib teine pruuk olewat. Muidu öeldakse: Tee luuda, too luuda, pühi wäimees wälja! Aga teil kohe:</p>
+                </sp>
+                <spGrp>
+                    <head>№ 7-a.</head>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <l>Too nööri, too paelu,</l>
+                        <l>Wii wäimees wangi!</l>
+                    </sp>
+                    <sp who="#koor">
+                        <speaker>Koor.</speaker>
+                        <l>Too nööri, too paelu,</l>
+                        <l>Wii wäimees wangi!</l>
+                    </sp>
+                </spGrp>
+                <stage>Eesriie.</stage>
+            </div>
+            <pb n="45"/>
+            <div type="act">
+                <head>Kolmas waatus.</head>
+                <stage>Ootamisetuba walla kohtumajas. Tagumises seinas üksteise kõrwal kolm wangikambri ust näha, ukse sees parajasti nii suured augud, et inimesel pääd wälja pista wõimalik. — Ööpik, Kägu, Lõoke wangis, ees laua juures tukub wahimees Kompa.</stage>
+                <spGrp>
+                    <head>№ 8. Terzett.</head>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <stage>(pistab pää läbi augu wälja)</stage>
+                        <l>Päppä!</l>
+                    </sp>
+                    <sp who="#kompa">
+                        <speaker>Kompa.</speaker>
+                        <stage>(kohkub, kuulatab ja haigutab; jääb jälle tukkuma)</stage>
+                    </sp>
+                    <sp who="#kaegu">
+                        <speaker>Kägu.</speaker>
+                        <stage>(nagu Ööpik)</stage>
+                        <l>Pippi!</l>
+                    </sp>
+                    <sp who="#kompa">
+                        <speaker>Kompa.</speaker>
+                        <stage>(kargab üles, kuulatab, sirutab liikmeid, jääb tukkuma)</stage>
+                    </sp>
+                    <sp who="#looke">
+                        <speaker>Lõoke.</speaker>
+                        <stage>(nagu teisedki)</stage>
+                        <l>Puppu!</l>
+                    </sp>
+                    <sp who="#kompa">
+                        <speaker>Kompa.</speaker>
+                        <stage>(jalga põrutades)</stage>
+                        <l>Wait!</l>
+                    </sp>
+                    <sp who="#oeoepik #kaegu #looke">
+                        <speaker>Ööpik, Kägu, Lõoke.</speaker>
+                        <stage>(pistawad kõik kolm korraga pääd wälja, trambiwad jalgadega)</stage>
+                        <l>Päppä, pippi, puppu! Päppä, pippi, puppu!</l>
+                    </sp>
+                </spGrp>
+                <sp who="#kompa">
+                    <speaker>Kompa.</speaker>
+                    <stage>(kurjalt)</stage>
+                    <p>Wait, teie sunnikud! Wõi ei oska wagusi ka olla! Küll ma teile näitan!</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Auulik Cerberus, wägew wangimaja walitseja...!</p>
+                </sp>
+                <sp who="#kompa">
+                    <speaker>Kompa.</speaker>
+                    <stage>(põrutades)</stage>
+                    <p>Wait, sina wõllaroog! Kuidas sa tohid sõimata? Kas ma su "kärwand uss" olen?</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Aga auulik wangimaja ülem! Ma ei ütelnud ju mitte kärwand uss, waid Cerberus! Cerberus oli muinasjutu järele altilma uksehoidja ja warandusewaht. Sisse ta laskis igaüht, aga wälja mitte kedagi.</p>
+                </sp>
+                <pb n="46"/>
+                <sp who="#kompa">
+                    <speaker>Kompa.</speaker>
+                    <stage>(rusikaga ähwardades)</stage>
+                    <p>Õõh!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Meie tahame süüa, süüa ja juua! Tooge meile toitu ja jooki!</p>
+                </sp>
+                <sp who="#kompa">
+                    <speaker>Kompa.</speaker>
+                    <p>Jaah, wett ja leiba! Peate saama, ja — kui waja, midagi muud ka mõne pehmema koha pääle. Wäikene käsk ainult ja — wana Kompa lööb teil naha üle kui luuaga!</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Pai peremees, ärge olge nii kuri! Teie olete ju wana auus soldat ja meist saawad, wõib olla, ka omal ajal soldatid!</p>
+                </sp>
+                <sp who="#kompa">
+                    <speaker>Kompa.</speaker>
+                    <p>Kas nüüd! Niisugustest ka soldatid! Õõh! <stage>(Näitab rusikat).</stage> Et te mul wagusi olete, kuni ma tagasi tulen: <stage>(Ära).</stage></p>
+                </sp>
+                <spGrp>
+                    <head>№ 9. Ööpik ja terzett.</head>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <l>Mina esimese numbri mees,</l>
+                        <l>Kes kommisjonis kõige ees,</l>
+                        <l>Mul julge süda, kindel meel,</l>
+                        <l>Kes minust toredam on weel!</l>
+                    </sp>
+                    <sp who="#oeoepik #kaegu #looke">
+                        <speaker>Kõik kolm.</speaker>
+                        <l>Taaderit tai tiridam, tiridam,</l>
+                        <l>Taaderit tai tiridam, tiridam,</l>
+                        <l>:,: Taaderit tai ralla! :,:</l>
+                    </sp>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <l>Mind wiiaks ära Wenemaal',</l>
+                        <l>Mu pruut jääb siia Eestimaal',</l>
+                        <l>Ta nuttes taga leinab mind,</l>
+                        <l>Et walust lõhki kipub rind!</l>
+                    </sp>
+                    <sp who="#oeoepik #kaegu #looke">
+                        <speaker>Kõik kolm.</speaker>
+                        <l>Taaderit tai tiridam, tiridam,</l>
+                        <l>Taaderit tai, tiridam, tiridam,</l>
+                        <l>:,: Taaderit tai ralla! :,:</l>
+                    </sp>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <l>Ma palun suuri ülemaid</l>
+                        <l>Ja kommisjoni wanemaid,</l>
+                        <l>Ei nende südant liiguta</l>
+                        <l>Ma oma ärda palwega!</l>
+                    </sp>
+                    <sp who="#oeoepik #kaegu #looke">
+                        <speaker>Kõik kolm.</speaker>
+                        <l>Taaderit tai, tiridam, tiridam,</l>
+                        <l>Taaderit tai, tiridam, tiridam,</l>
+                        <l>:,: Taaderit tai ralla! :,:</l>
+                    </sp>
+                    <pb n="47"/>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <l>Ei seda luba anta mull',</l>
+                        <l>Et ma wiin pruudi Wenemaal';</l>
+                        <l>Sääl pean üksi olema,</l>
+                        <l>Ja kõrget kroonut teenima!</l>
+                    </sp>
+                    <sp who="#oeoepik #kaegu #looke">
+                        <speaker>Kõik kolm.</speaker>
+                        <l>Taaderit tai, tiridam, tiridam,</l>
+                        <l>Taaderit tai, tiridam, tiridam,</l>
+                        <l>:,: Taaderit tai ralla! :,:</l>
+                    </sp>
+                </spGrp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <stage>(on esimese salmi ajal toidukorwiga sisse astunud ja erutatult kuulatama jäänud; Ööpikule)</stage>
+                    <p>Mis? Kas teid ära wiiakse Wenemaale?</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Jah, Liisake! — Näed ju, kartsas olemegi juba! Kõik sinu pärast, Liisakene!</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <p>Oh heldus! <stage>(Käole).</stage> Kas teid ka ära wiiakse?</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Ära ikka! Ühes müüdud, ühes poodud!</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <p>Taewakene! <stage>(Lõokesele).</stage> Aga teie ometi jääte siia maale?</p>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Ei, Liisakene. Mis minulgi paremat palka oodata!</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Näed nüüd, Liisake, kuida mõnikord lood lähewad!</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <stage>(mõttes)</stage>
+                    <p>Ei jah, ei minust küll teile tulijat ei saa.</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Aga mispärast siis mitte, Liisa?</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <p>Uih, ei mina soldatile lähe.</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Mis sind siis muidu siia tulema ajas?</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <p>Peremees saatis waatama, kas saksad süüa ei taha. Ise sõitis kommissari järele.</p>
+                </sp>
+                <sp who="#oeoepik #kaegu #looke">
+                    <speaker>Ööpik, Kägu, Lõoke.</speaker>
+                    <p>Süüa? Süüa me tahame, süüa ja juua! <stage>(Hakkawad jalgadega trampima).</stage> Hei, wangiwaht, hei! Päppä, pippi, puppu — päppä, pippi, puppuu!</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <stage>(tõstab kähku toidukorvi keset tuba)</stage>
+                    <p>Wuih, härrad, mis te kisate! <stage>(Wõtab korvist keedetud kana, kisub kintsu küljest ära ja annab Ööpikule).</stage> Sähke!</p>
+                </sp>
+                <pb n="48"/>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Oi! Kuke kints! Mis nüüd wiga!</p>
+                </sp>
+                <sp who="#kaegu #looke">
+                    <speaker>Kägu ja Lõoke.</speaker>
+                    <stage>(sirutawad käed august wälja ja kisawad)</stage>
+                    <p>Mulle ka, Liisake, mulle ka!</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <stage>(annab Käole teise kintsu ja Lõokesele tiiwa)</stage>
+                </sp>
+                <sp who="#looke">
+                    <speaker>Lõoke.</speaker>
+                    <p>Oi, Liisa, nüüd oled kuke ära tapnud?!</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <p>Jah! Wana äbarik kukk oli.</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Jaa, aga — mis nüüd siis saab? Kes see nüüd kanu karjatab!</p>
+                </sp>
+                <spGrp>
+                    <head>№ 10. Terzett.</head>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <l>Ära sina kukke maha löö,</l>
+                        <l>See ei ole mehe töö...</l>
+                    </sp>
+                    <sp who="#oeoepik #kaegu #looke">
+                        <speaker>Kõik kolm.</speaker>
+                        <l>Ära sina kukke maha löö,</l>
+                        <l>Maha löö,</l>
+                        <l>See ei ole mehe töö,</l>
+                        <l>See ei ole mehe töö!</l>
+                    </sp>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <l>Kanad on ühed kenad loomad, kes meil palju kasu toowad...</l>
+                    </sp>
+                    <sp who="#oeoepik #kaegu #looke">
+                        <speaker>Kõik kolm.</speaker>
+                        <l>Kanad on ju kenad loomad,</l>
+                        <l>Kenad loomad,</l>
+                        <l>Kes meil palju kasu toowad,</l>
+                        <l>Kes meil palju kasu toowad!</l>
+                    </sp>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <l>Kewadel, kui ilmad soojad, toowad kenad kirjud pojad...</l>
+                    </sp>
+                    <sp who="#oeoepik #kaegu #looke">
+                        <speaker>Kõik kolm.</speaker>
+                        <l>Kewadel, kui ilmad soojad,</l>
+                        <l>Ilmad soojad,</l>
+                        <l>Toowad kenad kirjud pojad,</l>
+                        <l>Toowad kenad kirjud pojad!</l>
+                    </sp>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <l>Linnast tuleb palju saksu, nende käest saab kallist maksu...</l>
+                    </sp>
+                    <sp who="#oeoepik #kaegu #looke">
+                        <speaker>Kõik kolm.</speaker>
+                        <l>Linnast tuleb palju saksu,</l>
+                        <l>Palju saksu,</l>
+                        <l>Nende käest saab kallist maksu,</l>
+                        <l>Nende käest saab kallist maksu!</l>
+                    </sp>
+                    <pb n="49"/>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <l>Sellepärast, Liisakene, ära sa kukke maha löö...</l>
+                    </sp>
+                    <sp who="#oeoepik #kaegu #looke">
+                        <speaker>Kõik kolm.</speaker>
+                        <l>Ära sina kukke maha löö,</l>
+                        <l>Maha löö,</l>
+                        <l>See ei ole mehe töö,</l>
+                        <l>See ei ole mehe töö!</l>
+                    </sp>
+                </spGrp>
+                <sp who="#kompa">
+                    <speaker>Kompa.</speaker>
+                    <stage>(tuleb pika leiwapätsiga ja weepangega)</stage>
+                    <p>Soo! Siin on teie pruukost!</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Larbi ise wett ja leiba, kui tahad, meie sööme kuke kintsu! <stage>(Näitab).</stage></p>
+                </sp>
+                <sp who="#kompa">
+                    <speaker>Kompa.</speaker>
+                    <stage>(põrutades Liisale)</stage>
+                    <p>Kuidas sa julgesid?</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Liisa.</speaker>
+                    <stage>(karjatades nurka)</stage>
+                    <p>Uih!</p>
+                </sp>
+                <sp who="#kompa">
+                    <speaker>Kompa.</speaker>
+                    <stage>(ähwardades)</stage>
+                    <p>Ma panen su enese ka wangi!</p>
+                </sp>
+                <sp who="#oeoepik">
+                    <speaker>Ööpik.</speaker>
+                    <p>Hurraa! Liisa ka wangi, minu juurde pogrisse!</p>
+                </sp>
+                <sp who="#kaegu #looke">
+                    <speaker>Kägu ja Lõoke.</speaker>
+                    <p>Ei, minu juurde, minu juurde. <stage>(Trambiwad ja käratsewad).</stage></p>
+                </sp>
+                <sp who="#kompa">
+                    <speaker>Kompa.</speaker>
+                    <p>Seda teile weel waja, wa' sälusuksutajad!</p>
+                </sp>
+                <sp who="#kaegu">
+                    <speaker>Kägu.</speaker>
+                    <p>Mis? "Sälusuksutajad"? Uus sõna, uus algupärane sõna! See pistame paberisse!</p>
+                </sp>
+                <sp who="#kompa">
+                    <speaker>Kompa.</speaker>
+                    <stage>(põrutades)</stage>
+                    <p>Pea! Siin ei pisteta midagi paberisse, siin pistetakse pogrisse! Kui siin keegi paberisse pista wõib, siis on see wallawanem ja kirjutaja! — Wõi nemad pistawad paberisse, ööh!</p>
+                </sp>
+                <stage>(Külapoisid harmonikate, wiiulitega ja mollpillidega, Jaak. Mulk, käed puusas, tantsib sisse).</stage>
+                <spGrp>
+                    <head>№ 11. Mulk ja koor.</head>
+                    <sp who="#looke #oeoepik #kaegu">
+                        <speaker>Lõoke, Ööpik, Kägu.</speaker>
+                        <l>Mulk, mulk, mulk, mulk!</l>
+                    </sp>
+                    <sp who="#mulk">
+                        <speaker>Mulk.</speaker>
+                        <l>Ise mina hilpsan, kampsan, kargan,</l>
+                        <l>Noa tupp lööb tuuben, teiben!</l>
+                    </sp>
+                    <sp who="#kompa">
+                        <speaker>Kompa.</speaker>
+                        <stage>(käratab)</stage>
+                        <l>Kas sa ei tea, siin on kohtutuba, siin pole lulli lüüa luba!</l>
+                    </sp>
+                    <pb n="50"/>
+                    <sp who="#mulk">
+                        <speaker>Mulk.</speaker>
+                        <stage>(ühest ja teisest august sisse waadates)</stage>
+                        <l>Kanäe, kanäe, mis tuttaw nägu,</l>
+                        <l>Kas see ei ole härra Kägu?</l>
+                        <l>Ja see sääl, oh sa reoke,</l>
+                        <l>See on ju sõber Leoke!</l>
+                        <l>Jawaa, ka härra Kiriküüt —</l>
+                        <l>Ma rõõmustan teid leida siit!</l>
+                        <l>Wõi toimetajad korraga</l>
+                        <l>On kolind siia elama!</l>
+                    </sp>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <l>Te ärge heitke halba nalja,</l>
+                        <l>Päästke meid parem pogrist wälja!</l>
+                    </sp>
+                    <sp who="#kaegu">
+                        <speaker>Kägu.</speaker>
+                        <l>Kas seda lopsu waja oli,</l>
+                        <l>Mis teie nalja läbi tuli!</l>
+                    </sp>
+                    <sp who="#looke">
+                        <speaker>Lõoke.</speaker>
+                        <l>Ei ole raha, ei ole pruuti,</l>
+                        <l>Ei ole muud kui kasi kuuti!</l>
+                    </sp>
+                    <sp who="#mulk">
+                        <speaker>Mulk.</speaker>
+                        <stage>(tantsib Liisaga)</stage>
+                        <l>Ise mina hilpsan, kampsan, kargan,</l>
+                        <l>Noa tupp lööb tuuben, teiben!</l>
+                    </sp>
+                    <sp who="#kuelapoisid">
+                        <speaker>Külapoisid.</speaker>
+                        <stage>(pillidega)</stage>
+                        <l>Ei ole raha, ei ole pruuti,</l>
+                        <l>Ei ole muud kui kasi kuuti!</l>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(Liisaga)</stage>
+                        <l>Jaaku-Liisat teewad esi</l>
+                        <l>Pulmad ära kahekesi!</l>
+                    </sp>
+                    <sp who="#kuelapoisid">
+                        <speaker>Külapoisid.</speaker>
+                        <l>Jaaku-Liisat teewad esi</l>
+                        <l>Pulmad ära kahekesi!</l>
+                    </sp>
+                    <sp who="#mulk">
+                        <speaker>Mulk.</speaker>
+                        <l>Ise mina hilpsan, kampsan, kargan,</l>
+                        <l>Noa tupp lööb tuuben, teiben!</l>
+                    </sp>
+                    <sp who="#woorimees">
+                        <speaker>Woorimees.</speaker>
+                        <stage>(tuleb)</stage>
+                        <l>Ma sõitsin ruunadega ette,</l>
+                        <l>Kas saab ju wahest saksad kätte?</l>
+                    </sp>
+                    <sp who="#kompa">
+                        <speaker>Kompa.</speaker>
+                        <l>Ei nõnda ruttu see ei lähe,</l>
+                        <l>Waid sakstel läeb weel aega wähe!</l>
+                    </sp>
+                    <sp who="#liisa">
+                        <speaker>Liisa.</speaker>
+                        <stage>(nutuselt)</stage>
+                        <l>Saksa wiias ära puha</l>
+                        <l>Poolamaale Moskwa taha!</l>
+                    </sp>
+                    <sp who="#woorimees">
+                        <speaker>Woorimees.</speaker>
+                        <stage>(Liisat enese poole tõmmates)</stage>
+                        <l>No sõidame siis ära linna,</l>
+                        <l>Me saame õhtus aikselt sinna!</l>
+                    </sp>
+                    <pb n="51"/>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(Liisat oma poole tõmmates)</stage>
+                        <l>Sa ära kuula tema juttu,</l>
+                        <l>Waid läeme ära koju ruttu!</l>
+                    </sp>
+                    <sp who="#woorimees">
+                        <speaker>Woorimees.</speaker>
+                        <stage>(nagu enne)</stage>
+                        <l>Kui oled woorimehe ruwwa,</l>
+                        <l>Saad ega päe kohwi juwwa!</l>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <stage>(nagu enne)</stage>
+                        <l>Musta sigurileeme solki,</l>
+                        <l>Joobnud pääga ka weel kolki!</l>
+                    </sp>
+                    <sp who="#woorimees">
+                        <speaker>Woorimees.</speaker>
+                        <stage>(nagu enne)</stage>
+                        <l>Sõidad kate obesega,</l>
+                        <l>Kummirehwi-ratastega!</l>
+                    </sp>
+                    <sp who="#liisa">
+                        <speaker>Liisa.</speaker>
+                        <stage>(kisub ennast lahti)</stage>
+                        <l>Ma jää üsna peris hättä,</l>
+                        <l>Kellel minna, keda jätta!</l>
+                    </sp>
+                    <sp who="#mulk">
+                        <speaker>Mulk.</speaker>
+                        <stage>(tantsib Liisaga)</stage>
+                        <l>Ise mina hilpsan, kampsan, kargan,</l>
+                        <l>Noa tupp lööb tuuben, teiben!</l>
+                    </sp>
+                </spGrp>
+                <spGrp>
+                    <head>№ 12.</head>
+                    <sp who="#raeaestas">
+                        <speaker>Räästas.</speaker>
+                        <stage>(tuleb rääkides)</stage>
+                        <p>Huraa, sõbrad, tulen praegu kommissari juurest, asi tükib hästi minema! <stage>(Lauldes läwe poole).</stage></p>
+                        <l>Härra wallawanem Wolmer Womm —</l>
+                    </sp>
+                    <sp who="#oeoepik #kaegu #looke">
+                        <speaker>Ööpik, Kägu, Lõoke .</speaker>
+                        <l>Härra wallawanem, komm, komm, komm!</l>
+                    </sp>
+                    <sp who="#kuelapoisid">
+                        <speaker>Külapoisid.</speaker>
+                        <stage>(pillidega)</stage>
+                        <l>Taderidi pomm, taderidi pomm!</l>
+                        <l>Härra wallawanem Wolmer Womm!</l>
+                    </sp>
+                    <sp who="#womm">
+                        <speaker>Womm.</speaker>
+                        <l>No, ma'i pea pikka wiha — <stage>(Kompale).</stage></l>
+                        <l>Las' siis saksa wälja puha!</l>
+                    </sp>
+                    <sp who="#oeoepik">
+                        <speaker>Ööpik.</speaker>
+                        <stage>(pogrist tulles mulgile)</stage>
+                        <l>Põrgu mulk! Wõi ära tegi</l>
+                        <l>Wingerpussi ometegi!</l>
+                    </sp>
+                    <sp who="#looke #kaegu">
+                        <speaker>Lõoke ja Kägu.</speaker>
+                        <stage>(nõndasamuti)</stage>
+                        <l>Wõtku susi! Wõtku susi!</l>
+                        <l>Teie kosjakuulutusi!</l>
+                    </sp>
+                    <pb n="52"/>
+                    <sp who="#mulk">
+                        <speaker>Mulk.</speaker>
+                        <stage>(waigistades)</stage>
+                        <l>Mulk wõib massa wäike trahw,</l>
+                        <l>Ja wälja osta mõni klahw!</l>
+                    </sp>
+                </spGrp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <stage>(mulgile)</stage>
+                    <p>Mis sa tühja lori ajad, kellele su klahwe waja om! Aga mis meil waja oles — oma ajalehte! Mulk, wõta meel-mõistus kokku, sa oled nii kui nii süüdlane — kui õige heidame mesti ja teeme üits wäike Kirjastuse-ühisus? <stage>(Käo, Ööpiku ja Lõokese pääle tähendades).</stage> Toimetajad on meil juba käepärast.</p>
+                </sp>
+                <sp who="#womm">
+                    <speaker>Womm.</speaker>
+                    <p>Mis? Oma leht? Mo sellega olen mina ka peri!</p>
+                </sp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <p>Õige! Linn meil om, aga oma lehte ei ole! Meil peab puha oma wärk olema...</p>
+                </sp>
+                <sp who="#oeoepik #kaegu #looke">
+                    <speaker>Ööpik, Kägu, Lõoke.</speaker>
+                    <stage>(läbisegi)</stage>
+                    <p>Linn ? Missugune linn?</p>
+                </sp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <stage>(käsa kokku lüües)</stage>
+                    <p>Toho ime! Meil om ju Abja-Paluoja!</p>
+                </sp>
+                <sp who="#oeoepik #kaegu #looke">
+                    <speaker>Ööpik, Kägu, Lõoke.</speaker>
+                    <p>See on liiga wäike, mulk, wäike!</p>
+                </sp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <p>Mis? Wäike? No kui sellest ei jätku, siis om meil ju weel — Mõisaküla! <stage>(Räästale).</stage> Mõtsasaks, palju sa raha annad?</p>
+                </sp>
+                <sp who="#raeaestas">
+                    <speaker>Räästas.</speaker>
+                    <p>Ära iki — wäike tuhat..!</p>
+                </sp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <stage>(õhinal)</stage>
+                    <p>Mina ka tuhat! Ja sina, wallawanem? Palju sina? <stage>(Heidab käega).</stage> Mis sind weel waja küsida, sul kolm ilusat tütart, suurest laastust üle löödud ja puha koolitatud ja supikursuses ära käinud, — palju sa igale tütrele kaasa annad?</p>
+                </sp>
+                <sp who="#womm">
+                    <speaker>Womm.</speaker>
+                    <p>No — tuhat ikka!</p>
+                </sp>
+                <sp who="#mulk">
+                    <speaker>Mulk.</speaker>
+                    <p>Kuramus, ja linnasaksad siin puha poissmehed — <stage>(laulab).</stage></p>
+                </sp>
+                <pb n="53"/>
+                <spGrp>
+                    <head>№ 13. Lõpp.</head>
+                    <sp who="#mulk">
+                        <speaker>Mulk.</speaker>
+                        <l>Kui me oma lehe saame,</l>
+                        <l>Siis me asju laialt aame,</l>
+                        <l>Oma mehi ülistame,</l>
+                        <l>Teisi muud kui paljastame!</l>
+                        <l>Ei jäta ma, ei jäta ma,</l>
+                        <l>Enne kui asjast asja'i saa!</l>
+                    </sp>
+                    <sp who="#mulk #liisa #jaak #oeoepik #looke #kaegu #womm #woorimees #raeaestas #kuelapoisid #kompa">
+                        <speaker>Kõik.</speaker>
+                        <l>Ei jäta ta, ei jäta ta,</l>
+                        <l>Enne kui asjast asja'i saa!</l>
+                    </sp>
+                    <sp who="#liisa">
+                        <speaker>Liisa.</speaker>
+                        <stage>(kes kõige selle aja kärsitu oli, ette tungides)</stage>
+                        <l>Laske mind ka laulda wähä'!</l>
+                        <l>Ma küll soldanil ei lähä!</l>
+                        <l>Sest kui läheb soldan sõtta,</l>
+                        <l>Keda asemele wõtta.</l>
+                        <l>Ei jäta ma, ei jäta ma,</l>
+                        <l>Enne kui asjast asja'i saa!</l>
+                    </sp>
+                    <sp who="#mulk #liisa #jaak #oeoepik #looke #kaegu #womm #woorimees #raeaestas #kuelapoisid #kompa">
+                        <speaker>Kõik.</speaker>
+                        <l>Ei jäta ta, ei jäta ta,</l>
+                        <l>Enne kui asjast asja 'i saa!</l>
+                    </sp>
+                    <stage>(Woorimees tikub Liisale lähemale).</stage>
+                    <sp who="#jaak">
+                        <speaker>Jaak.</speaker>
+                        <l>No katsu sa, no katsu sa,</l>
+                        <l>Katsu, et saad minema!</l>
+                        <l>Kui oma näpu külge a'ad,</l>
+                        <l>Siis minu käest sa wati saad!</l>
+                        <l>Ei jäta ma, ei jäta ma,</l>
+                        <l>Enne kui asjast asja'i saa!</l>
+                    </sp>
+                    <sp who="#mulk #liisa #jaak #oeoepik #looke #kaegu #womm #woorimees #raeaestas #kuelapoisid #kompa">
+                        <speaker>Kõik.</speaker>
+                        <l>Ei jäta ta, ei jäta ta,</l>
+                        <l>Enne kui asjast asja'i saa!</l>
+                    </sp>
+                    <sp who="#mulk">
+                        <speaker>Mulk.</speaker>
+                        <l>No tulge sõbrad, wollmer je'en,</l>
+                        <l>Küla neidusid bese'en!</l>
+                        <l>Wallaesä Wolmer Womm,</l>
+                        <l>Tal ju tütrid om, om, om!</l>
+                    </sp>
+                    <sp who="#oeoepik #kaegu #looke">
+                        <speaker>Ööpik, Kägu, Lõoke.</speaker>
+                        <l>Komm, wallawanem, komm, kom, kom,</l>
+                        <l>Kui sul aga tütrid om!</l>
+                    </sp>
+                    <pb n="54"/>
+                    <sp who="#kuelapoisid">
+                        <speaker>Külapoisid.</speaker>
+                        <stage>(pillidega)</stage>
+                        <l>Komm, wallawanem, komm, kom, kom,</l>
+                        <l>Sul ju tütrid om, om, om!</l>
+                    </sp>
+                    <sp who="#womm">
+                        <speaker>Womm.</speaker>
+                        <l>Tulge pääle, toimetus,</l>
+                        <l>Unustame pahandus!</l>
+                        <l>Rikas mees om Wolmer Womm,</l>
+                        <l>Tütred temal — kärts ja põmm!</l>
+                    </sp>
+                    <sp who="#woorimees #jaak">
+                        <speaker>Woorimees ja Jaak.</speaker>
+                        <l>Ei jäta ma, ei jäta ma,</l>
+                        <l>Enne kui asi ritta'i saa!</l>
+                    </sp>
+                    <sp who="#mulk #liisa #jaak #oeoepik #looke #kaegu #womm #woorimees #raeaestas #kuelapoisid #kompa">
+                        <speaker>Kõik.</speaker>
+                        <l>Ei jäeta, ei jäeta,</l>
+                        <l>Enne kui asjast asi ei saa!</l>
+                    </sp>
+                </spGrp>
+                <stage>(Külapoiste mäng. Kohalikud naljasalmid.)</stage>
+                <stage>Eesriie.</stage>
+            </div>
+        </body>
+    </text>
+</TEI>
