@@ -53,7 +53,7 @@
                     <person xml:id="kirjauelem" sex="MALE">
                         <name>KIRJAÜLEM</name>
                     </person>
-                    <person xml:id="siseülem" sex="MALE">
+                    <person xml:id="siseuelem" sex="MALE">
                         <name>SISEÜLEM</name>
                     </person>
                     <person xml:id="kuningas" sex="MALE">
