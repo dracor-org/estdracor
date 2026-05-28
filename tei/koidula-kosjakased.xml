@@ -1,0 +1,1947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="est000018" xml:lang="et" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Kosjakased</title>
+                <title type="sub">Naljamäng 4 vaatuses</title>
+                <author>
+                    <persName>
+                        <forename>Lydia</forename>
+                        <surname>Koidula</surname>
+                    </persName>
+                    <idno type="wikidata">Q237056</idno>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>University of Tartu digital archive ADA</name>
+                    <idno type="URL">http://www.digar.ee/id/nlib-digar:947644</idno>
+                    <availability>
+                        <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                    </availability>
+                    <note>While the plays are in public domain, the afterword is protected until 2044</note>
+                    <bibl type="originalSource">
+                        <author>
+                            <persName>
+                                <forename>Lydia</forename>
+                                <surname>Koidula</surname>
+                            </persName>
+                            <idno type="wikidata">Q237056</idno>
+                        </author>
+                        <title type="main">Kosjakased</title>
+                        <title type="sub">Naljamäng 4 vaatuses</title>
+                        <date when="1946">1946</date>
+                        <publisher>RK "Ilukirjandus ja Kunst"</publisher>
+                        <pubPlace>Tallinn</pubPlace>
+                        <biblScope unit="page" from="41" to="101">41-101</biblScope>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="liisu" sex="FEMALE">
+                        <persName>Liisu</persName>
+                    </person>
+                    <person xml:id="juku" sex="MALE">
+                        <persName>Juku</persName>
+                    </person>
+                    <person xml:id="miina" sex="FEMALE">
+                        <persName>Miina</persName>
+                    </person>
+                    <person xml:id="siim" sex="MALE">
+                        <persName>Siim</persName>
+                    </person>
+                    <person xml:id="maret" sex="FEMALE">
+                        <persName>Maret</persName>
+                    </person>
+                    <person xml:id="hans" sex="MALE">
+                        <persName>Hans</persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-05-29">Convert txt to TEI</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <standOff>
+        <listEvent>
+            <event type="print" when="1946">
+                <desc/>
+            </event>
+            <event type="premiere" when="1870">
+                <desc/>
+            </event>
+            <event type="written" when="1870">
+                <desc/>
+            </event>
+        </listEvent>
+    </standOff>
+    <text>
+        <pb n="41"/>
+        <front>
+            <titlePage>
+                <titlePart type="main">KOSJAKASED</titlePart>
+                <titlePart type="sub">NALJAMÄNG 4 VAATUSES</titlePart>
+            </titlePage>
+            <pb n="42"/>
+            <pb n="43"/>
+            <castList>
+                <head>TEGELASED:</head>
+                <castItem>
+                    <role>Suli Miina</role>
+                </castItem>
+                <castItem>
+                    <role>Nääri Maret</role>
+                </castItem>
+                <castItem>
+                    <role>Kadaka Liisu, </role>
+                    <roleDesc>Tõkkesilma kõrtsinaine</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Tõlla-Hans, </role>
+                    <roleDesc>ratassepp</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Luige Siim, </role>
+                    <roleDesc>talunik</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Karja-Juku, </role>
+                    <roleDesc>Suti küla karjapoiss</roleDesc>
+                </castItem>
+            </castList>
+        </front>
+        <pb n="44"/>
+        <pb n="45"/>
+        <body>
+            <div type="act">
+                <head>ESIMENE VAATUS</head>
+                <stage>Maantee. Tõkkesilma kõrtsi esine. Tagapool rukkiväljad ja puud-põõsad; nende vahelt näikse Suti küla katuseid paistvat. Ees maantee ääres verstapost ja mõni suur kivi. Parem ja pahem pool tuleb järjendajate kohast arvata.</stage>
+                <div type="scene">
+                    <head>1.</head>
+                    <stage>Hans (üksi).</stage>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(teekäija riides, jõuab kõrtsi ette, higi otsaeest pühkides)</stage>
+                        <p>Soo. See on siis jälle vana Tõkkesilma kõrts! Ja sealt paistab ka Suti küla eemalt: on imeväiksemaks ja madalamaks läinud sest ajast saadik, kui mina, poisijõmpsikas, siin veel kurni mängisin, ratast lõin ja tamme kasvatasin, ja-jah! Aga puhkame pisut, väsinud olen! <stage>(Istub maha.)</stage> Vana tuttav paras ruum siin! Kus need ajad, millal õndsa eidega siitkaudu pühapäeviti õndsa Kärt-tädi juures külas käisin — sina kallike! Näib mõni katus sestsaadik juurde olevat tekkinud, — aga vaim olla endine alles: niisama tuim ja visa ja udune, nagu vanasti, — kui tõsi on. Saame ju näha. — Siin on kõik alles veel, ja vist vana Tõkkesilma Liisu ka, vana nobe kadakas. Kaitse mind, jumal, tema kärme keele eest! Ju ta, vanake, ometi elab alles? Liisu, ae, Liisu-tädi!</p>
+                    </sp>
+                </div>
+                <pb n="46"/>
+                <div type="scene">
+                    <head>2.</head>
+                    <stage>Liisu. Hans.</stage>
+                    <sp who="#liisu">
+                        <speaker>Liisu:</speaker>
+                        <stage>(uksest)</stage>
+                        <p>Kesse hüüab? — Tere — noorsand!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Tere, vana kõrtsimamma! Kae, imet, või ikka alles jalul oled? Aga seleta, taevataadike, minu silmi: nooremaks sa neis viies-kuues aastas ka ei ole läinud. Seda ei maksa sulle ette valetadagi!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu:</speaker>
+                        <p>Ei mina mõista, mis külaline minu ristimise-tähest tahab? Mina pole oma aastaid kellegi käest varastanud! Ja — kes te olete siis?</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>No-noh, Liisu-tädi, — mis sa siis varsti nõgestad? Kus su pea? Nüüd sa ei tunne enam Tõlla-Else poega? Eks ma ole su marjapuid küllalt nosinud omal ajal? Tuleta meelde!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu:</speaker>
+                        <stage>(käsi kokku lüües)</stage>
+                        <p>Hans! Taevataadike! Kas ise oledki? Sinu nimi, kallis aeg! Ja muidugi, nüüd ma tunnen su ära ka! Aga mis suureks ja pikaks sa oled kasvanud sestsaadik! Kui seda Kärt-tädi veel oleks näinud! Vist sa juba tead: tunaeile pandi vanakene hauda.</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(nukralt)</stage>
+                        <p>Miks ma ei tea — ei saanud ju nii ruttu siia! Olen teda taga leinanud siiski, ehk ta mulle küll mõnda rasket sõna on andnud! Andku jumal ta hingele rahu! <stage>(Silmapilgu pärast.)</stage> Ja mis Näärid ütlevad nüüd?</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu:</speaker>
+                        <p>Mis nad ütlevad? Nad pole ju veel kodugi, Hans!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Kuidas? Kodugi?</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu:</speaker>
+                        <p>Mitte märki. Just kui Kärt-tädi surma peal oli, sõitis Maret isaga kottu ära külasse pulma, seal nad veel praegu on. Täna üteldakse koju tulevat.</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Tule, jumal, appi — soo, soo! Sealt ep see tuleb siis, et tädi viimne seadus mind meelde tuletab! Hm!</p>
+                    </sp>
+                    <pb n="47"/>
+                    <sp who="#liisu">
+                        <speaker>Liisu:</speaker>
+                        <stage>(elavalt)</stage>
+                        <p>Jah, vaata, Hans, see on just üks päris püsti pettus ja ülekohus, kuidas Maret Kärdu vastu on teinud! Aga viimsel tunnil on Mareti ristiemal silmad ka lahti läinud! Oi, ta arvas, et see tema Miina pidi olema, kellele ta alati võib nina peale hüpata ja head tasast last nagu koerapoega tallab —!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Mis Miinast sa räägid?</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu:</speaker>
+                        <p>Oh, tema naabrineiust, Suli Miinast, sina teda ei tunne! Kõige armsam ja kaunim ja tasasem laps kõiges Suti külas, aga vaene nagu hiirepojuke ja sellepärast pool-teed Mareti ori. — Aga oot, oot, Kärdu-ristiemaga oli teine lugu! Kui see aru sai, et Maret ristiema aina tema raha pärast armastab, siis tal tuli veel enne surma aru pähe, laskis peakohtumehe ja kälimehe tulla. Nüüd sa tead, kust su õnn tuleb, Hans! Paraku, õnnetusel ei olnud ka muud allikat, jah!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Imet, imet! Ja-jah, oli va käre eideke, õnnis Kärt, oskas mind tulistada omal ajal ja paitada ka, mõlemaid! Kes mulle oleks ütelnud, et ta veel kasupojaga nõnda riidu pidi minema? Aga sestsaadik, kui ma linna sain ja mu oma pea ka selguma hakkas ja suu lahti läks maailma teo ja käigu kohta, sestsaadik ta ju nõelas ja torkis ühtepuhku; — ma ei tohtinud enam ligemale andagi.</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu:</speaker>
+                        <p>Jah, Hans, see tuli kõik sellest, et ristitütar Maret tädi majas ja südames ohjad pihus pidas. Kõik tuli sellest! Ristiema rahakott oli sidet ristimise-vee sisse lisanud. Oi, ta oskas nii mahe olla ja nii sile — nagu kassipoeg. Ja siis, Hans, vaata, sul olid ka need mässajad mõtted peas, "rahva õigusest" ja "harimisest" ja "edasisaamisest", mis sulle olid linnas pähe tekkinud ses ilmlikus seltsis — tühi, mis ta pagana usku nimi on, olen ära unustanud —, kus sa need kõned pidasid? Ja siis sa olid seitungis ka kirjutanud neist kooliasjust meie vallas, et nad ei pidanud head olema ja et see vallavalitsuse süü, ja seda oli vallavanem jälle teada saanud koolmeistrite käest ja suges<pb n="48"/> sind läbi ja Kärtu ka sellepärast, — nad rääkisid siin tuhat neist hirmsaist asjust! Ja nad ütlesid: niisugune rahvasegaja olla kõige valla teotuseks, ja nõnda läks siis Kärdu-tädi viha ikka suuremaks, ja ega see õige ka ei olnud sinust meid nõnda laimata, Hans, seda sa tead, jah!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(irooniliselt)</stage>
+                        <p>Soo, soo, kuula, kuula! No kuidas siis Maret niisugusele ülejäänud loomale veel tahtis tulla, ae? Seda imet ma ei mõista!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu:</speaker>
+                        <p>No vaata, vana Kärt-tädi värises ikka ometi sinu pärast, ei olnud tal südant sind hoopis maha jätta, ja rääkis Nääri rahvaga nõu kokku, kuidas sind tuleks parandada. Ja seks pidi Maret sind tanu alla panema, sest vaata, Hans: iga naine parandab, olgu mees iseenesest ka kes teab kui hea, teda ometi veel ikka tüki paremaks, — iga naine, seda ma tean omast õndsast Matsist saadik ära — kus ta, va kadund, praegu puhkab! No nõnda tahtis Maret sind siis ka parandada, sest muidu ei oleks Kärt-tädi kõike temale andnud. No aga sina, kiusupunn ja kõverpea, olid ju nagu visa tael: ei hakanud külge.</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Aga kas siis mees naist onudele-tädidele võtab, või võtab ta enesele! Mis mina tema Maretist hoolisin? Kas ma põrsast kotis pidin ostma? Oodake senikaua!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu:</speaker>
+                        <p>Võib küll olla, Hans, — mis sa nüüd varsti möllad? Aga mis minagi selle ette võin parata, kui nüüd vibu õige pingu tõmbas! Karvapealt teadis tädi Siimu läbi kõik, mis vallavanem ja Luige rahvas maailmaparandajast ütlesid — mõistad, nõnda sind nimetati —, ja no paar nädalat enne tädi surma oli siis kõik vara Maretile lubatud ja sina tervelt ilma. Luige Siim elas taevariigis ja Mareti heast meelest ei maksa nimetadagi. Nõnda see oli.</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Luige Siim? Eks see ole mõisakupja poeg ja tänine vallakirjutaja? Mis temal sellest oli siis?</p>
+                    </sp>
+                    <pb n="49"/>
+                    <sp who="#liisu">
+                        <speaker>Liisu:</speaker>
+                        <p>No eks ta ole ju Mareti kosilane ka — see'p see on! Muidu mõistlik poiss, kes väga harva endistest jumala seatud asjust kinni peab, aga jookseb Mareti järele, nagu tall ute järele. No kus ta siis ei pidanud rõõmus olema, kui sinust-Maretist paari ei saanud?</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Soo. Ja nüüd? Mis nad kõik ütlevad, et lugu nõnda läinud?</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu:</speaker>
+                        <p>No mis nad ütlevad? Eks igaüks näinud küllalt, mis nägu Näärid näitasid, kui tädi luba neil käes oli? Ei nad hoolinud sestsaadik vanakesest sõrme otsa enam, kas tal kuiva või märga oli omal tõvevoodil. Aga seda nägu ma tahaksin näha, kui Maret koju tuleb ja teine lind pesas ees — Ahahah! Oi-oi!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(õlgu kehitades)</stage>
+                        <p>Tädi raha ma veel ei kahetseks. minu ratassepa-amet toidab mind isegi ja käsi ma ka pole harjunud sülle panema. Aga et nad tädi armastuse mu käest ära petsid, selle eest ma küll sooviksin neile natuke nuhtlust. — Noh, Liisu-tädi, nüüd ma ju jään Sutile, siis peame head sõprust! Sina näitad mulle ära, keda sünnib kosida.</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu:</speaker>
+                        <stage>(rõõmsasti)</stage>
+                        <p>Hans? Tõesti! Kuule, see on mõnus nõu! Neiusid ma tahan sulle näidata, ilusaid nagu õunad, ja kõik tulevad sulle kahe käega! Oled ju — mis ütelda, esimene mees. Hans, kolme nädala pärast on pulmad, usu mu sõna!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Tasa, tasa! Anna ikka aega veel! Ole hea inimene, too mulle seniks parem suutäis õlut: mul on joomajanu tulnud! Ja siis jumalaga! Ma pean edasi minema. <stage>(Naeratades.)</stage> Kui mul oma kodu on, siis tule, räägi mulle oma Miinast, kes nii "tasane ja ilus ja armas" pidi olema! Seniks jää terveks!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu:</speaker>
+                        <p>Paremat sa küll kõigest kihelkonnast ei leiaks, ega ka ilusamat, — aga — <stage>(pead kõngutades)</stage> vaene! Jumalaga, Hans! Õlut ma saadan! <stage>(Läheb tuppa.)</stage></p>
+                    </sp>
+                    <pb n="50"/>
+                </div>
+                <div type="scene">
+                    <head>3.</head>
+                    <stage>Hans (üksi).</stage>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Päris naiste viis. Kui neil aga mõni käepärast, keda tanu alla võib panna, siis neil tuli takus. — Või nõnda on siis Suti küla lood! Vastaseid näib mul hea hulk juba enne siin valmis olevat, kõigepealt Kupja-Siim ja Nääri talu: kõik rikkamad ja kõige kiusakamad! Olgu! Mina ei lähe pead ega südant ära müüma raha ega hea meele pärast! Ma kardan, nad ei saa mitte suurt head meelt minust nägema! — Aga teada ma ometi tahaksin, mis nägu mu vana vihavaenlane Maret ise on? Pole mulle veel kellegi naise suu head temast kõnelnud, olgu siis õnnis tädi üksi! No tõsi küll, naised ei ole palju millegi asja poolest nii ühemeelelised, kui et üksteist kõigest väest laidavad. See peab ime tuvisüda olema, kes hea külge head jätab; pole ma aga veel eluajal seda näinud, et mõni neist, kaheksandat käsku pidades, kurjast õest head tunnistas! Noh, kes mind ka käsib tänavu veel imetegu tahta.</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>4.</head>
+                    <stage>Miina (pütid käes, tee poolt tulles). Hans.</stage>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Tere, tere!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Oi, noor neiu! <stage>(Suure häälega.)</stage> Tere, jumalime, kaunis laps! <stage>(Kõrvale.)</stage> Ja ilus pealegi! No, Hans, näita nüüd ka, et sa puust ei ole raiutud!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Kes see võõras peaks olema? Siiski, mis ta minusse puutub?</p>
+                    </sp>
+                    <pb n="51"/>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Tal näib suur rutt taga olevat; mis ma nüüd kohe küsin? <stage>(Suure häälega.)</stage> Kuule, kuule, pai laps, pea raasuke kinni, ütle mulle: kelle jagu see suur, uus talu seal eemal sauna kõrval peaks olema? <stage>(Kõrvale.)</stage> Ilusamaid linakarva juukseid ma veel ei ole näinud, ja silmad teisel peas — otsekui tuvikesel! Kes ta küll peaks olema?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Võõras küsib suurt klaasakna-hoonet? Eks ta ole Nääri talu, mis muud!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Ohoo! Nääri talu? <stage>(Kõrvale.)</stage> Vaata imet, minu vaenupesa! <stage>(Suure häälega.)</stage> Ja kõik need põllud-maad siin ümberkaudu on siis —</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Nääri jah, kelle muu! Kõigel Suti külal pole ju seda välja, mis Nääril on!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Oled vist ise ka Suti külast?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Olen ikka.</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>No kas sa siis, hea laps, tunned ka Nääri peret ise?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Miks ep tunne, oleme ju naabrirahvas.</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Naabrirahvas? Vaata imet! No kas nad peaksid nii rikkad olema, kui rahvas räägib?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>No see on tõsi, ega nad vaesed küll ei ole. <stage>(Kõrvale.)</stage> Mis tühja ta sellest ometi kõik taga pärib, peaaegu nagu kiriksand ise!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Hm — mis ma tahtsin küsida: räägitakse, et seal peab üksainus tütar olema?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Sellepärast! Eks ma arvanud! <stage>(Suure häälega.)</stage> Maret! Seesama üks jah!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Soo, soo, või Maret. See üteldakse väga ilus piigakene olevat. Kas see peaks ka nõnda õige olema?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>No muidugi! Jälle üks kosilane! <stage>(Vaatab kõrvalt Hansu peale ja ohkab siis.)</stage> Ja muidugi on Maret ilus piiga! Ilusamat teie nii hõlpsasti kusagilt ei leia!</p>
+                    </sp>
+                    <pb n="52"/>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>No-noh! <stage>(Kõrvale.)</stage> Kas ta sinust enesest ilusam veel võib olla? <stage>(Suure häälega.)</stage> Teil Suti külas ei näi ilusaist piigadest mitte puudus tulevat! <stage>(Kõrvale.)</stage> Jah, nüüd sul puna palgeil! Kui kena, armas laps ta on! <stage>(Suure häälega.)</stage> No kas siis Maret muidu ka laitmata ja usin on, ae?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Mis ma ütlen nüüd? <stage>(Silmapilgu pärast.)</stage> Teadupärast. Kes teda laitis, see teda laimas, Maret on usin ja terane ja peab majatalitust üksi oma õlgadel! <stage>(Kõrvale.)</stage> Anna, jumal, mu pattu andeks!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Mis ma veel pidin küsima: No kas siis mõne külapoisi nimi juba peaks südamepõhjas kirjas seisma!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(naeratades)</stage>
+                        <p>Jah, külamees, seda peate tema enese käest küsima, ega mina või teise südant läbi näha. Ja kui ma ka võiksin, kas siis minu kohus oleks seda teisele-kolmandale välja lobiseda, kes mind tee peal küsima hakkab?</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(kõrvale, naeratades)</stage>
+                        <p>Paras mulle!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(lahkesti)</stage>
+                        <p>Ei, ega ma teid sellega pahandada ei tahtnud. Ülehomme on ju jaaniõhtu: siis võite tema kosjakaski ise lugeda!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Kosjakaski? Mis asjad need on?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Kas teie ei tea? Meie külas panevad vanast saadik noored mehed neile neiudele, keda, keda nad — <stage>(Kõhetab.)</stage></p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(naeratades)</stage>
+                        <p>Noh keda nad? Edasi, laps! Keda nad kosja käivad, ae?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(hädaga)</stage>
+                        <p>No-jah — neile panevad jaaniöösel kase akna alla maa sisse seisma. Maretil on neid iga aasta suur hulk, sest —</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Sest, — sest — juba mõistan! <stage>(Kõrvale.)</stage> Ma usun, minu soovitud imetegu on tulnud? See laps peab kaheksandat käsku. <stage>(Miina käest kinni võttes ja tema silmi vaadates.)</stage> Ja sinul enesel, pai laps, — hm? Ae?</p>
+                    </sp>
+                    <pb n="53"/>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(kõrvale pöördudes)</stage>
+                        <p>Teie küsite ka õige kentsakalt! Mina olen vaese rahva saunalise tütar: neile ei kasva kosjakaske. Aga ma olen juba palju aega ära viitnud — Jääge terveks!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Pea, pea, kas me ei või siis seltsis käia? Lähen ka Sutile!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Mis tühja temal seal peaks tegemist olema? <stage>(Suure häälega.)</stage> Siis olge nõnda hea, minge ees ära. Vaese rahva laps peab enam oma nime hoidma kui iga muu. Kui meid keegi koos näeks. Homme oleks kõik küla kõla täis.</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Jumal hoidku — paha ma sulle ei taha teha! Mina parem lähen! Aga ütle mulle ikka, pai piigakene: kuidas siis sinu nimi on?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Minu nimi on Suli Miina! <stage>(Võtab nõud kokku.)</stage></p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(ruttu)</stage>
+                        <p>Suli Miina? <stage>(Kõrvale.)</stage> Ega seesama või, kellest Kõrtsi-Liisu rääkis, muidu ta Maretit ei kiidaks? <stage>(Suure häälega.)</stage> No kuule, Miinakene, kas ma siis tohin ka korra sulle külasse tulla, ae?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Ei — võõras, ei see lähe korda! Mis rahvas räägiks! Jääge jumalaga!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(kätt andes)</stage>
+                        <p>Jumalaga siis, — ma pean sind meeles, Miinakene! <stage>(Kaob, mitu korda tagasi vaadates, küla poole.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>5.</head>
+                    <stage>Miina (üksi).</stage>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(salaja Hansu järele vaadates, üksi)</stage>
+                        <p>Kes ta ometi võib olla? Küsida ma ei tahtnud. Ta oleks kes teab võinud arvata, mis minul temast on? Nagu mõni kohtusaks ta oskas<pb n="54"/> kõik ära uurida. Aga siiski, ta oli viisakas ja terane poiss, tulnud temal kõige selle aja üle mitte üht parkimata sõna suust! Ja mis pikk ja sirge ta on: nagu püsti pilliroog! — Nõnda on ikka peretütarde lugu! Oh, et neid rikkaid nii vähe on! Kahju, kahju, kui see viisakas poiss Mareti peaks enesele saama! Siiski, küll ta näeb isegi, mis ta väärt on! Ega mina teda ometi keset maanteed võinud laimama hakata, jumal hoidku! Aga mis minulgi võõrast külamehest kahetseda jääb? Midagi! <stage>(Kärsitult.)</stage> Mitte midagi! Võtku keda võtab, mis minul sellest on? <stage>(Mõteldes.)</stage> "Ma pean sind meeles, Miinakene" — Juba! Võib praegu juba meelest läinud olla! Nõnda ta on! Kuhu sinu nina tarvis ei ole, Miina, sinna ära sa teda topi, muidu teda kõrvetad, — seda on isa ikka ütelnud ja see on terve tõsi. <stage>(Võtab riistad pihku, vaatab veel korra ohates ümberringi ja kaob siis küla poole.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>6.</head>
+                    <stage>Karja-Juku (üksi).</stage>
+                    <sp who="#juku">
+                        <speaker>Karja-Juku:</speaker>
+                        <stage>(õllekannuga toast, leivakoorik käes, sassis peaga, viisud jalas, vits käes)</stage>
+                        <p>Siin ta õlut — — No kus nad on nüüd? Liisu-tädi ütles mulle: "Juku," ütles ta, "viks poiss sa ikka oled, vii see kannutäis õlut ukse ette võõra kätte." Ja mis ma nägin, kui ma välja vaatasin? Miinat ma nägin, ja võõras mees rääkis temaga, minu Miinaga, ja nüüd neid pole kuskil mõlemaid! <stage>(Vingudes.)</stage> Mis ta tahab minu Miinast? Kas ta tahab minu Miinat enesele? Kas ta ise tahab võileiba saada? Mina tahan aga teda ise kosida ja mina tahan ise temale kosjakase panna, ja tema ei pea aga muu peale<pb n="55"/> vaatama kui minu peale — ää! Ja siin istus, minu Miina kõrval, ja seda mina ei salli, ja Liisu-tädi ütles, viks poiss ma ikka olen, ja ma oleksin ta lõhki löönud, lõhki — ää! Kui mitte punik parajalt ei oleks rukkisse läinud — <stage>(Vitsaga uhtudes ja leiba närides.)</stage> Lõhki! Ja kuhu nad jäid nüüd? Kuhu? Oota — seal? Ei! Kes sealt tuleb? <stage>(Aralt.)</stage> Kes sealt tuleb? <stage>(Leiba ära peites.)</stage> Minul ei ole midagi, mitte midagi mul ei ole, mina — mina olen viks poiss! Oh-oh! see on Luige Siim! <stage>(Mõteldes.)</stage> Luige Siim tuleb ka Miina õue, Luige Siim vaatab ka minu Miina otsa — Luige Siimu ma mitte sugugi ei salli — ää!</p>
+                        <stage>(Läheb varjule, närib salaja ja vahib.)</stage>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>7.</head>
+                    <stage>Luige Siim (lauldes "Sind, armastus, sa helde anne"). Juku.</stage>
+                    <sp who="#juku">
+                        <speaker>Juku:</speaker>
+                        <stage>(tõmbab lauljat takka kuuekäisest)</stage>
+                        <p>Kuule, ae, kuule! Kas see Miina on? Miina või Maret, Siim? Miina või Maret?</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <p>No mis sina siis tahad, sasipea? Miina või Maret? Vaata, et su veised paha peale ei lähe!</p>
+                    </sp>
+                    <sp who="#juku">
+                        <speaker>Juku:</speaker>
+                        <p>Mitte Miina? <stage>(Rahule jäädes.)</stage> No siis on Maret — Maretist ta rääkinud ka, Liisu-tädi ütles.</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <p>Kes see rääkis Maretist? Mis sa jälle lobised? Kes Maretist rääkis? Mis Liisu-tädi ütles?</p>
+                    </sp>
+                    <sp who="#juku">
+                        <speaker>Juku:</speaker>
+                        <p>Võõras mees aga rääkis, kes siin kivi peal istus! Ja ta küsis järele ja andis Miinale kätt, ja seda ma mitte sugugi ei salli — ää!</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(rahutult)</stage>
+                        <p>Küsis kõik? Mis ta küsis? Kes ta oli siis? Kas sa ei tundnud?</p>
+                    </sp>
+                    <pb n="56"/>
+                    <sp who="#juku">
+                        <speaker>Juku:</speaker>
+                        <p>Midagi ma ei tundnud. Hans tal nimi, Liisu-tädi ütles: Linnast ta tuli, külasse ta läks — mina olen viks poiss!</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <p>Hans —? <stage>(Äkisti.)</stage> Tõlla-Hans viimati? — Tõlla-Hans ta siis oli, Tõlla-Hans! <stage>(Rõhuta.)</stage> Maretit on ta järele pärinud? Miks ta Maretit järele päris? Ta ise ju ei võtnud õnneks tänini Kärt-tädi nõu, ja nüüd? Nüüd ta pärib ise Maretit taga? — Kas ma jälle uuesti pean kartma hakkama? Kas ma sellepärast olen tema ja tädi tahtmist teinud ja sõna kandnud ühest teise ja Hansu ja tema sõprade nõu nurja ajanud igal pool? Ammuks see oli, et mulle ütlesid veel: Kupja-Siim, kui sa aga mehemoodi endisest vagast viisist kinni pead, mis jumala ja kõigi vagade, vagusate inimeste meelepärast, siis sa mitte ei pea oma südamesoovist ilma jääma! Kas ma ei ole teinud küllalt, mis nad tahtsid? Kas ma ei ole kohtulaual ja koolimajas küllalt sõdinud valla ja nende kasu eest, ja eemal hoidnud kõik, mis nende vastu käis? Ja seda, mis ma enesele sellega arvasin teenivat: seda tahab nüüd niisugune minu käest ära kiskuda, kes ei ole sõrme liigutanud tema pärast? Tuline! — Aga ei tea, kas ongi Tõlla-Hans! Hanssusid on palju — vahest ma kardan muidu! Kõrtsi-Liisu tundnud teda? Teda ma tahan küsida! Ja ma tahan tähele panna — hästi tähele! <stage>(Ähvardades.)</stage> Maretit ta mitte ei pea saama, mitte! <stage>(Kaob kõrtsi.)</stage></p>
+                    </sp>
+                    <sp who="#juku">
+                        <speaker>Juku:</speaker>
+                        <stage>(kes senikaua kivi peal kükitades koorukest on närinud, kargab üles)</stage>
+                        <p>Urjah! Punik jälle rukkis! Urjah! Seda ma sugugi ei salli! Urjah!</p>
+                    </sp>
+                    <stage>(Eesriie.)</stage>
+                    <pb n="57"/>
+                </div>
+            </div>
+            <div type="act">
+                <head>TEINE VAATUS</head>
+                <stage>Suti küla tänav Suli ja Nääri taluesiste vahel, värav tänava ees. Värava taga koplis kiik. Paremal pool Suli toa nukal paks pärnapuu, puu all pink, puu najal vikat seismas, pingi kõrval pesuküna. Ees pahemal pool Nääri ukse ees koristamata nõud ja riistad maas.</stage>
+                <div type="scene">
+                    <head>1.</head>
+                    <stage>Siim (üksi).</stage>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(tuleb tänavast, ümberringi vaadates)</stage>
+                        <p>Kedagi näha! Kas ta peaks juba siin olnud olema? Sestsaadik, kui tema külas on, ei ole ju rahulikku silmapilku enam! Nad kummardavad kõik tema ette — nagu sõgedad, minu sõna ei maksa enam musta küüne all! Kohtulaualt kuuldi täna juba sõna nimetatavat: tema olla rikas pärisperemees, teda sündida nüüd valla-ametisse panna? Valla-ametisse? Siis on kits kärneriks saanud. Siis pane omad riistad kotti, Siim, siis on maailma viimne tund tulnud! Eks kõik küla kaltsakad, kelle ninad enne minu ja vallavanema ees alati norgus pidanud seisma, täna pole juba koos olnud tema juures? Nüüd neil pead püsti otsas! Ja õpetaja? Sellest ei ole ka lootust, hoiab tema poole, seda ma näen — selgesti näen! Mis ta mulle praegu kiriku<pb n="58"/>mõisast tulles ütles? "See on mees, Siim, see valige kiriku vöörmündriks, ja tehke rahu, Siim, nagu ristiinimeste kohus!" Maret temale rahupalgaks! <stage>(Hambaid kiristades.)</stage> Rahu teha — jah! Ja pagana väärt! — Ta on tagasi tulnud, aga tüdruk hoopis teine nüüd. Ei anna ennast nähagi! Mis see tähendab? Kokku tahan ma temaga saada, enne kui asi hoopis hukka läheb! <stage>(Akna taga.)</stage> Maret, Maret! Kas sa toas oled? Maret, tule raasuke välja?</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>2.</head>
+                    <stage>Siim. Maret.</stage>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(pahane)</stage>
+                        <p>Siim, ae, mis sa tahad minust? Mis häda sul taga on? Ruttu, räägi!</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(mures)</stage>
+                        <p>Mis sul on, kallis laps, pääsuke, silmatera? Kes sind on pahandanud? Nimeta teda mulle, kanapoeg, küll ma tahan teda —</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(tigedalt)</stage>
+                        <p>Säh, mine too vana Kärt haua põhjast veel! Sinna ta on meie eest ära põgenenud! Ja kõik, kõik see ilus vara, mille pärast ma kukalt kummardasin tema ees — ma lõhuksin ennast lõhki vihaga! Oh mina, rumal loom, et ma ei mõistnud siia jääda seniks, kui ta, vana konts, silmad kinni pani! Aga ta oli ju nii tõesti lubanud. <stage>(Kõrvale.)</stage> Mis nägu ka see Hans peaks olema?</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(kõõrdsilmil)</stage>
+                        <p>Mis nägu ta siis võib olla, niisugune linnahuntsakas! Küllap mina tean. Kas sa teda pole näinud veel? Kust —?</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Mitte silma otsagi! Vana Tõkkesilma kadakas oli meil koju tulles esimene õnnetuse-harakas! Näis veel rõõ<pb n="59"/>mustavat pealegi! Kus sina siis nokitsed, et sa mulle ka teadet ei toonud enne juba?</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <p>Kus ma nokitsen? Kelle pärast ma õues olin siis? Eks sa tea, et Hans eile Miinaga koos olnud Tõkkesilmal, et ta Liisu enese käest kõik taga pärinud ja ka —</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Ja ka — ja ka? Mis ka?</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <p>Ka — ka Kärt-tädi pärast, ja nüüd on ta siin külas ja — Maret! Maret! <stage>(Teise käest kinni võttes.)</stage> Luba mulle, Maret, et sa mind mitte, et sa mind elades maha ei jäta! Luba mulle seda, Maret, pai, kulla südamelill, luba ikka.</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(paha meelega)</stage>
+                        <p>Oh mine metsa, Siim, oma jutuga! Kust ma sind siis maha jätan! — <stage>(Peale käies.)</stage> Või Miinaga on ta koos olnud? Ja niisugune salakoi pole mulle sellest rääkinud midagi!</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <p>No kust ta siis sai? Sa tulid ju alles hiljuti koju!</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Soo! Hakka sina teda vabandama veel! Ja mis ta siis on küsinud? Ja mis ta tahab teha siis nüüd? <stage>(Lipitsedes.)</stage> Räägi mulle kõik ära, Siimukene, räägi mulle kõik ilusasti kätte! Kas läheb jälle linna nüüd tagasi, ae?</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <p>Ei, paraku, ei! Siia Sutile tahab ta jääda, sepikoja tahab ehitada tädi majasse, põllumeheks heita, ja siis võtab nai — <stage>(Vihaga.)</stage> Mis mina tean, mis ta, nurjatu, teeb! Mingu ta kus pagan! Tead ju, Maret, niisugune uue peaga ninatark, nagu sa ikka ütelnud, küll sa näed, see ajab nüüd kõik meie kihelkonna oma uusi mõtteid täis, ja kui ta alles võimu kätte saab — — Õpetaja ütles ka! Vist teda meil hingekirja vastu ei võetagi! Maret, meie peame kokku hoidma tema vastu; eks ole tõsi, Maretikene?</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Oh, mine kassi saba alla! Mis õpetaja sellest teab? Vana nõdraks läinud mees — ei tea siinsest rahvast midagi! Ligimest, hm, hm, ei pea ka enneaegu hukka mõistma. Ja kes teab, kas see Hans nii hull ka on? Ehk saab temast veel<pb n="60"/>head riista? — Või siia jääb? Ametisse heidab? — Meistriks saab? Soo, soo! <stage>(Kõrvale.)</stage> Siis oleks ju veel nõu temaga!</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Mis ta mõtleb? Mu süda ei seisa rahul! <stage>(Suure häälega.)</stage> Maret, pai, armas Maret, kas sa mind ka armastad ikka veel? Tõesti ka? Ja lubad mulle edaspidigi jääda? Ütle ometi, Maretikene! Vaata, mina ei otsi ju sinu raha, vaid sind ennast! Oleksid sa vaene nagu kirikusant, ma võtaksin sinu siiski! Mis vaeva ma ei kannaks sinu pärast! Maret, mõtle selle peale!</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Kui ta ometi oma vingutamise järele jätaks! <stage>(Suure häälega.)</stage> No hea küll, Siim, mine nüüd, kuulata järele, kuidas lugu Hansu — ei, Kärt-tädi pärandusega on, ja räägi siis mulle! Jumalaga! Mul ei ole aega, töö ootab! Mine peale!</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <p>Jumalaga! <stage>(Äkisti ümber pöördudes ja tema käest kinni võttes.)</stage> Maret —! <stage>(Ruttu ära.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>3.</head>
+                    <stage>Maret (üksi).</stage>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>No mis siis? Tühja paljast! Kas mina tema kiunumise pärast oma mõnusad mõtted pean maha jätma? Oota seni! Niisuguseid saan ma veel kümme tükki iga sõrme otsa, ega nad veel ei tea, kuidas lood õieti on! Aga ma pean nõu aegsasti käsile võtma: Lohu mölder käib kangesti oma raha peale. Kui nad teada saavad, et Nääri talul enam võlga on kui kive katusel — nad näitavad sõrmega meie peale! Ma olin nii kindlasti ristiema raha peale lootnud: see oleks mind kõigest hädast päästnud! Võtku teda, kes — veel haua põhjal — Hans peab mind võtma! Muu nõu ei aita! Ma pean Miina<pb n="61"/> käest taga pärima, kuidas ta ka on, Siim ei tahtnud mulle tõtt ütelda, seda ma nägin küllalt. Pea, sealt teine! Aga seal kuulukse mõni muu olevat? Parem ma tulen tagasi, kui ta üksi on, mis teine-kolmas sellest kuuleb! <stage>(Tuppa minnes.)</stage> Tema ma pean saama, jah, teist abi ei ole!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>4.</head>
+                    <stage>Miina (saadab) Juku (kannikaga uksest välja).</stage>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Mine nüüd peale, Juku, ja vaata ilusasti ka meie kahe mullika järele, siis saad koju tulles tüki veel!</p>
+                    </sp>
+                    <sp who="#juku">
+                        <speaker>Juku:</speaker>
+                        <p>Aitäh, Miina, — ja — kuule, Miina, ära sa mitte sellele teisele mine! Mina võtan sind ise, ja-jah, seda sa näed, seda ma teen — mina olen viks poiss!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(naeratades)</stage>
+                        <p>No muidugi viks poiss, Juku! Aga mine ikka, mis sa nüüd ennast hakkad minuga vaevama; mis head minagi sulle võin teha?</p>
+                    </sp>
+                    <sp who="#juku">
+                        <speaker>Juku:</speaker>
+                        <p>Jah — sinul — sinul on ikka nii ilusad suured — suured —</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Mis "suured" siis?</p>
+                    </sp>
+                    <sp who="#juku">
+                        <speaker>Juku:</speaker>
+                        <p>Suured võileivad! <stage>(Paneb putkama.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>5.</head>
+                    <stage>Miina (üksi).</stage>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>No see'p see oli, sellepärast! See kosilane on alles leivakapi armastaja! <stage>(Tõsiselt.)</stage> Kus ta, parakul vanade<pb n="62"/> inimeste juures parem lugu on? Mida suurem võileib sul anda, seda enam tahtjaid sul on, muudkui et vanad inimesed nii lahedasti kõik välja enam ei ütle, nagu meie Juku! — Kas tema sellesama mõõduga mõõtis eile, kui Mareti järele päris? — Ja miks mitte? — Aga tal näis ometi nii mõistlik, õiglane nägu peas olevat, ja — — <stage>(Märku pähe võttes.)</stage> Oh, jumal, jumal! Ma olen ometi üks sõge ja rumal tüdruk! Esimene püstirumal. Kas ma siis ära olen tehtud, või mis mul muidu on? Taevataadike, ma olen sind ometi palunud eile õhtu nii õige südamest, et sa mulle mõistlikke mõtteid pähe annaksid, ja — mis nüüd nägin ma unes! Teda, ühtepuhku teda, ja täna ärkvel ei kao ta kuhugi mu silmist! Nagu unes tuigun ma mööda tuba — õue, igal pool seesama sõna kõrvas! "Ma pean sind meeles, Miinakene!" <stage>(Vangutab ohates pead, siis kärsitult.)</stage> Tööle parem! Ehk sinna kaovad kiusakad mõtted paremate sekka ära! <stage>(Istub küna äärde.)</stage> Ah, Maret tuleb! Anna nüüd, jumal, jälle kannatust!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>6.</head>
+                    <stage>Maret (toast). Miina (peatub).</stage>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Üksi ta on — kas ma nii ääri-veeri mööda küsin või räägin ma lausa? Miinast tühjast mul küll pole karta; ometi — saame näha! <stage>(Suure häälega.)</stage> Miina, miks sina siis ka eile meie kiigel ei käinud, kus tüdrukud-poisid koos olime? Mis sa ööd-ilma kui päeva ikka isa selja taga vahid? Või pead sina, varesesaba, ennast meist paremaks? Vaata kikknina!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Isa ei salli palju väljaskäimist, sellepärast seisan kodu.</p>
+                    </sp>
+                    <pb n="63"/>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Katsu tühja, mis sina sellest hoolid? Küllap mina palju selle järele vaataksin, kas isa sallib või ei? Aga minu isa ei ole ka nõnda pärdik, nagu sinul on!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(tõsiselt)</stage>
+                        <p>Minu isa on minu isa — jäta nimetamata. Muidu sul tihti õpetaja suus, Maret: mis ta ütles lugemisel neljandast käsust?</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Oh mine kus see ja teine! Ega ma ometi eluaeg lugemisel ei käi! Kuule nüüd imet, mina, ammu lugend inimene, pean veel neljandat käsku peas pidama? Kes seda enam minu käest küsib? On isal mind tarvis, siis peab ta mulle ka oma voli andma. Aga kuidas voor, nõnda vanker! Pane tähele: mida enam sa ennast kummardad, seda enam su kaela astutakse! Seda mina ei tee!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Igal linnul oma laul! Minul ei ole ka seda jõudu mis sinul!</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>No muidugi, saunalapsel võib küll teine viis olla kui peretütrel, aga oleme ometi koos lugemisel käinud, võid ka minu sõna võtta. Aga mis ma pidin ütlema, jah: mõtle, kui kurjasti on vana õel Kärt-tädi meie armastust tasunud! Kõik saab nüüd Hansule, meie võime sõrmi tagajärele lakkuda! See on see suur ristiema armastus, sellepärast olen ma kõik selle suure vaeva näinud! Oh sina, viimane tige poiss!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Mine ikka! Tõesti? Aga, Maret, see oli ka raske küllalt, kuidas teie tema pärast ei hoolinud, ja oli ometi nii suurt head sulle teinud.</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Tõsi, tõsi, see oleks mu kümnes töö olnud! No eks ma ütle ikka! Seal vana haige naise nina ees vahtida nagu vares haige varsa silma. Jah, kui ma oleksin teadnud, et ta seda lipsu meile lõi —</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Maret, häbene! Hirmu või kasu pärast üksi! Kas õpetaja ütles seda lugemisel?</p>
+                    </sp>
+                    <pb n="64"/>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Mine sina soo peale kõige oma õpetajaga! Muud kui õpetajat ja lugemise-aega sinu suust ei kuulegi! Hans ei teeni ka tädi raha ära, tema on rahvasegaja! Parem, et teda mõni teine saab, kes seda jumalasõna ja kiriku kasuks tarvitab. Aga sina, teravnina, tahad mind alati õpetada. Pühi esmalt oma nina alt puhtaks, siis tule mind pühkima!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Minul on nina alt ja pealt, igalt poolt puhas — aga, nüüd sa näed ju! Kust see Tõlla-Hans siis nii ruttu välja tuli ja mis nägu inimest ta on siis?</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(teravalt)</stage>
+                        <p>No taga paremaks! Seda sina ei tea, ja oled teda ometi eile Tõkkesilmal näinud! Kas sa arvad, et ma nii rumal olen?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(punastades)</stage>
+                        <p>Ah soo — — See ta oligi! Mis mina küsima hakkasin, aga üks noor inimene tuli küll minu ees Sutile. Või see ep see sinu vihamees Hans oligi? Näis küll hoopis saksik mees olevat.</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Mis sellest viga? Seda parem. Muidu ma ei arvaks temast midagi.</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(suuril silmil)</stage>
+                        <p>Kuidas? Tänini sa teda just sellepärast vihkasidki?</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(vagaselt)</stage>
+                        <p>Meie ei pea mitte viha kandma üksteise vastu, ütleb õpetaja, ja mitte teineteist põlgama! Sinule võis tema haritud viis küll ime olla, sest mis ta sinusugusega suuremat võiks teha!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Kas mina siis mõni jooksik koer olen, et auväärt inimene minuga ei või juttu ajada? Või arvad sa, et ma vaene olen, siis ei küsi ükski teisi külatüdrukuid minu käest järele?</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Pea — see oli rumal temp! Vist nad on juttu ajanud — minust ehk? <stage>(Suure häälega.)</stage> No sina, Miina, saad ka varsti vihaseks! Minu süda ei mõtelnud ju kurja! — Mis ta siis küsis ka sinu käest?</p>
+                    </sp>
+                    <pb n="65"/>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Mine küsi ta enese käest! Kuidas ta minusugusega rääkima hakkas?</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Mine ikka, Miina, kuidas sa nüüd nõnda pahaseks tahad jääda? Ütle ometi, kas Hans küsis ka minu järele? Lase viha lahkuda, räägi mulle kõik ära! Ma tahan siis sulle ka rääkida, mis minu isa ütles. Isa ütles: Et Kärdu-nõid meid ilma rahata on jätnud, siis pean mina katsuma Hanssu oma teisekspooleks saada, siis tuleb ometi kõik jälle meile tagasi. Hans on üle küla kõige rikkam poiss, valla-amet on tal sama hea kui käes, amet aitab meistriks — mis tal viga elada? Mina arvan ka: kellele ma muidu siin pean minema! Olen ma ometi üle küla kõige rikkam peretütar, ja rahvas ütleb — hm —, et ma ka kõige ilusam pean olema. — Nüüd ütle ometi, Miina, kas ta küsis minu järele ja mis sa temale vastasid? Sa näed, seda läheb mulle väga tarvis teada.</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(natukese aja pärast)</stage>
+                        <p>Küll küsis, kõik ta küsis järele, kõik teie lugu —</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Ja sina, Miina? Mis sina ütlesid, Miinakene? —</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Mina ütlesin head, Maret, aina head, ja kiitsin sind, Maret! Ära karda! Ta ei ole sinust mitte paha sõna kuulnud.</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>No vaat, see oli hea, väga hea, Miina. Ja kas sa oled ka mu rikkust ja mu usinust ja ka mu nägu nimetanud. Miina, ja mis ta siis ütles ka?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(vaevaga)</stage>
+                        <p>Kõik ma nimetasin, ja tal näis õige hea meel olevat, niipalju kui mina mõistsin.</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>See oli õige, väga õige! Sina oled terane tüdruk, Miina, ja kui Hans mind võtab, siis pead sina ka pulmas olema, olgu sa nii vaene, kui sa oled! Ja mind ta võtab, seda on ju käpuga katsuda: miks ta mind muidu on taga pärinud? Küll sa näed! Täna õhtu ma lasen teda kiigele kutsuda, siis ta saab mind näha! Seda ma teen!</p>
+                    </sp>
+                    <pb n="66"/>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Aga, Maret, ammuks see oli, kui sa Hanssu silma otsas ei sallinud ja kõigele maailmale "petist linnahuntsakat" sohu ja samblasse laitsid? Kuidas sa siis nüüd hoopis temaga tahad elada?</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Tühja ka! Küll mina tema mõtteid muudan, sellest ärgu olgu sul karta! Kui ta mu mees on, siis saab ta mind kuulma, mitte oma sõgedaid sõpru, küll ta näeb! Mis naine see on, kes oma meest ei kääna kui kangast käes — olgu heaga või kurjaga. Küll mina teda "rahvasõbrast", või milleks ta ennast hüüab, enese sõbraks teen, et ta pärast ise peab endisest tujust häbenema! Sellega saame õigeks!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Kes teab! See ei näi paari tunniga teiseks minevat, nagu sina — seks näib tal pea liig oma jaoks otsas olevat!</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Ahahahaa! See olgu minu mure! Aga ütle ometi, hm, ütle, ometi, Miina: mis mees Hans ka näo poolest on?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(pikaldaselt)</stage>
+                        <p>Noh, mis nüüd teine-kolmas seal palju mõistab rääkida? Ühele on see armas, teisele teine.</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>No kuidas ta siis sinu meelest oli?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(küna peale kummardades ja pikkamisi)</stage>
+                        <p>Sina oled õige kena oma küsimisega, Maret! Minule oleks ta õige meelepärast olnud, aga mis see sulle aitab.</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>On ta ka pikk ja sirge?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Nagu kõrkjas!</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Mida moodi juuksed tal on ja silmad?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Mustad nagu sõstraterad!</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Kas ta peaks ilusam olema kui Luige Siim?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Ma usun küll. Ta on ülepea mees, kelle sarnast ma enne ei ole näinud. Aga ütle ometi, Maret, kui Hans sind tahtma hakkab, kas sa siis vaese Siimu maha jätad?</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>No muidugi! Mis ma siis enam ootan? Kohe.</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Maret, Maret, mõtle ometi, kuidas Siim sind südamest armastab!</p>
+                    </sp>
+                    <pb n="67"/>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Katsu tühja, võtku teine, kes enam tema kohane on, sest ütle ise, Miina, olgu ta nii hea ja ilus ja rikas, kui ta on: Nääri Mareti kohta — <stage>(Kehitab õlgu.)</stage></p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Siis ma ei soovi Siimule paremat, kui et ta sind nii ruttu meelest viskaks kui sina teda! Temal on kindel süda rinnus. Sina aga oled nagu liblikas, kes ühelt lilleõielt teisele lendab ja —</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Jumalaga, Miina! Minul ei ole aega! <stage>(Kõrvale.)</stage> Pea iseenesele jutlust! Hans peab varsti kiigele tulema! <stage>(Koju.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>7.</head>
+                    <stage>Miina (üksi).</stage>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Sinna ta jookseb! Vaene, vaene Hans! <stage>(Kuivatab silmi.)</stage> Häbene, Miina! Keda sa ka kahetsed! Nüüd liialt — eks ta ole rikkam kui teised kõik? — Maret rääkis tõtt: kui ta teda ei tahaks, mis ta teda nii järele päris? Ja sellepärast: kes teab, kas ta ka mitte ei ole tõesti kanga eest käända käsirahaga! — Ja ometi! Jumal, tule ise mu segasele peale appi! — <stage>(Õitselaulu kuulukse eemalt koplist.)</stage> Kuula — seal hakkab kopli kiik hüüdma! Nüüd on ka temagi seal ja ajab Maretiga juttu — Vait, süda sees! — Ma lähen parem eemale talitama, et ma ei kuule! — Ei kuule? Oh, siin <stage>(käsi südamele rõhudes)</stage> kuulen ma ju iga sõna, mis ta teistega räägib. Kuidas on see esimest korda nähtud nägu nii nõiduse kombel mind kinni mässinud, taevas teadku! <stage>(Võtab koti kätte.)</stage> Aga — tule, jumal, appi — tema tuleb! Tema ise! Kuhu ma poen ära! <stage>(Ennast kõrvale peites.)</stage> Mis ta tahab siit? Avita, heldus!</p>
+                    </sp>
+                    <pb n="68"/>
+                </div>
+                <div type="scene">
+                    <head>8.</head>
+                    <stage>Hans (Nääri õuest). Miina (varjul).</stage>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>See oli see Nääri talu siis! Kuidas nad kõik mind vahtisid nagu imelooma! "Rahvasegajad" võivad siin rahulikult tukkuvas kihelkonna nurgas haruldane vili olla! Kui palju siin veel tööd teha, enne kui mõistuse ja õiguse koit taeva serva palistama lööb! Aga käsi rüppe ma veel ei pane — küll ta siis nihkub! Lahket sõna ma leian nüüd igalt poolt, endine viha "rahvasegaja" vastu on kadunud nagu tina tuhka — olen ju rikas poissmees, ja "loodusel on libe, libe jalga, sile sammu"! Vallavanem ja volinikud olid nii imelahked, et Luige Siimul süda viha pärast ümber pööras sees! Päris vagalaste viis! Esmalt on ta neid poisse minu vastu kassikäpaks ässitanud Kärt-tädi ees, kes palavad silgud sütelt püüdis; nüüd, et nad minust jagu ei saa ja muud siledat nõu appi kutsuvad, nüüd ta on neile liiaks — viskavad nurka! Kahju mehest! Ta on muidu viks poiss, nagu Liisugi ütles, ja usaldab vähemalt ometi mulle kortsus kulme näidata! Kui ta aga tüdrukut selge silmaga läbi näeks! Ja-jah, mu vana vihamees Maret on nagu ära vahetatud nüüd! Vahtis ta täna õhtu läbi minu otsa, nagu tahaks mind põue pista; ei raatsinud mind lahti lastagi! Aga — uih! Siin nurgas vedeleb sõnnik, teine mädaneb, õlgi täis, aida ees ja sees kõik nagu oksjoni tarbeks kokku ja kummuli aetud, ja kõik see ilus hoone kõigi oma klaasakende ja korstnaga — nagu lojuste laut musta täis! Sealt tahavad Näärid rikkust ja uhkust näidata. Ja seda hullemini paistab harjunud laiskus ja korratu viis välja! Naisterahvas on maja puhtus ja ehe; kus ta seda ei ole, seal on ta maja teotus. Siin näikse paraku vett ja tuld kullaga ostetavat. — No aga Maret ise selle eest hom<pb n="69"/>mikust õhtuni nagu kirikuline ehitud! Ilus tüdruk ta on, seda ei tohi salata, lipitsevad kõik tema ümber nagu kassid palava pudru ümber: eks ta ole rikas! Aga — aga — <stage>(Ennast raputades.)</stage> Kõigi harkide hulgas on tulehargid mulle kõige halvemad! — Mulle on mitu libedat nägu eilsest saadik vastu sattunud. — Jäägu Tõkkesilma eide õigus: ilusad nagu õunad kõik ja — hm — mis ma nüüd iseenese ette salgan: tuleksid mulle kõik! Aga keda ma kusagilt ei leia, see on seesama üks lahke ja tasane nägu... ja need kaks tuvisilma, mis nagu ilus kevadine hommik mind külasse tulles kõigepealt teretasid! Miina — Suli Miina! Kust nimi korraga nii ilusaks on läinud minu meelest? Keda va kadakatädi nõnda juba kiidab, see peab pool-ingel olema, kui ta täis-ingel ei ole! Häbi kõige Suti poistele, et niisugune kannatlik, tasane laps alles tanuta käib! Hm — no ma ei taha parem selle üle kaevata! — Ta on ju vaene — <stage>(Naeratades.)</stage> Vaene? Seda parem! — Kui ma tema lahkeid silmi ometi kuidagiviisi kogemata näha saaksin! Nõnda lugu ei lähe. Suli õue ta keelas mind tulemast — ma pean ennast kõrvale peitma — tahan siin varjul oodata, ehk ta tuleb kogemata toast välja! <stage>(Läheb kõrvale — ja juhtub ehmatanud Miinaga kokku.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>9.</head>
+                    <stage>Hans. Miina.</stage>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(kohkunult ja häbelikult)</stage>
+                        <p>Jumaluke!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(suuril silmil)</stage>
+                        <p>Kes see linnupoeg — <stage>(Rõõmsalt.)</stage> Miina! Kas sina oledki? Tere tuhat korda, tere!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Te-re teile!</p>
+                    </sp>
+                    <pb n="70"/>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Ja kuhu sa —? Ma olen sind otsinud igalt poolt! Miinakene, kuhu sa tahtsid minna nüüd?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Lehma rohtu noppima. <stage>(Kõrvale.)</stage> Oh, jumal, mis ta nüüd minust arvab?</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Oot, oot, millal sa sellega saad! Seal on vikat, ma niidan sulle valmis.</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Ei, ei! Ärge ennast vaevake! Saan muidugi!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(hoolimata)</stage>
+                        <p>Kuule, pai laps, — miks sa —</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Jumala pärast, Hans! Kui teid mõni näeb! Mina — vajuksin maa alla!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>No, miks siis? Kas ei sünni sinu seltsi? Las kõik küla näha! Keda ma kardan? "Maa alla"? Miks sa maa alla tahad vajuda? <stage>(Naeratades.)</stage> No tänu jumalale siis, et muru nii kõva on!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Aga ma olen vaenelaps — ja teie rikas pärija —</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Miina, kas ma seda enne ei teadnud? Kas sa mind mõneks koerahambaks arvad, kes ausa neiu nimest ei hooli? Miina?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Ärge pange pahaks — aga —</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Kuule, pai laps, miks sina üksi "teie" ütled minu vastu? Kas sa pahane oled minuga? Siis ütle, mispärast, Miinakene?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Jumal hoidku! Mis pahandust minul teie vastu võib olla? Aga ma olen vaene, ja see on minu kohus, et alandlik olen.</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Ei, laps! Kui sa mulle "sina" ei ütle, siis sa oled pahane minuga, ja see teeks mulle suurt — valu! <stage>(Käest kinni võttes.)</stage> Ütle "sina", Miinakene! Pai Miina, ütle "sina"!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(värisedes)</stage>
+                        <p>Mina — ma tahan siis "sina" ütelda, Hans.</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(rõõmsalt, Miina kätt pigistades)</stage>
+                        <p>Tänu, tuhat tänu, armas — Ohoo, kes sealt tuleb? <stage>(Laseb ta lahti, Maret ja Siim lähevad takka mööda.)</stage></p>
+                    </sp>
+                    <pb n="71"/>
+                </div>
+                <div type="scene">
+                    <head>10.</head>
+                    <stage>Karja-Juku. Endised.</stage>
+                    <sp who="#juku">
+                        <speaker>Juku:</speaker>
+                        <stage>(kisendades)</stage>
+                        <p>Vaata, nõnda sa oled! Sa oled mulle ometi võileiba lubanud õhtule tulles, ja et ma sulle ise pidin kosjakaske panema, ja nüüd sa räägid temaga! Seda ma mitte sugugi ei salli — ää — ja sina ei kõlba kuhugi ja tema ei kõlba ka kuhugi, ja kõik maailm on hukkas — mina olen viks poiss!</p>
+                    </sp>
+                    <stage>(Eesriie.)</stage>
+                    <pb n="72"/>
+                </div>
+            </div>
+            <div type="act">
+                <head>KOLMAS VAATUS</head>
+                <stage>Liisu (üksi, väravast tulles).</stage>
+                <sp who="#liisu">
+                    <speaker>Liisu:</speaker>
+                    <p>Pole teda veel kuskil! Hans, ae? — "Liisu-tädi," ütles ta mulle, "kuulata järele, kuidas lugu on ja mis ta mõtleb; aga ära sa sest asjast kellelegi sõna lausu, temale enesele ka mitte." Kellelegi? Mis niisuke meesterahvas mõtleb õieti? Nagu see suupidamine üsna ütelda üks naljatemp oleks? Seda südamevalu, mis säärane keeld mulle sünnitab, seda ta ei arva millekski. Aga oma Miinakese pärast kannatan ma kõik viimase ära, kõik puha, kipitagu keel kes teab kui kangesti suus! — Maret seisis koplikiigel, kui ma tulin! Kõik kosjakased õitsesid juba tema näol! No, no, pole veel öö läinud! No muidugi! Vaat kus päris kaunike kasvamas Hansule — siis ta küll õige õnnega koos! Süda tuleb täis, tõesti, kui sa juba silma ta peale tõstad! Kapinurgad ja nõud-riistad hallitand ja seenetand, ei raatsi sõrmeotsa külma vette kasta, aga rätik rätiku järele ostetakse juudi käest — üks parem kui teine! Sulased-tüdrukud kaebavad, et leeme vedelas ajavat üks tang teist taga, ja kes ei oska sõimata, see mingu Nääri peresse kooli! — Seda nad ütlevad! Aga vanemate, auväärt perenaiste üle kohut mõista, seda ta oskab, niisugune nõges! Nagu naabrinaine mulle kõik kätte ei ütelnud? Oot,<pb n="73"/> oot! — Aga kuhu ta, Hans, nüüd jääb? Pea, sealt üks tuleb! Ei — Miina ise on! Õige paras. Kuulame, palju kell hüüab. Tere ka, Miina, pai laps! Kuhu sa siis lähed?</p>
+                </sp>
+                <div type="scene">
+                    <head>2.</head>
+                    <stage>Miina. Liisu.</stage>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(kangaga toast)</stage>
+                        <p>Liisu-tädi! Tere-tulemast! Jõuate ka meie poole? Kangast viin aeda. Kuidas teil käsi ka käib?</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu:</speaker>
+                        <p>Ole terve küsimast, eks ma lonka ikka omasoodu tallalt teisele. Näe, mis ilus peenike kangas? <stage>(Naerab. )</stage> Veimevaka põhja rullid, ae?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Minge ikka, Liisu-tädi! Kuidas teie ka räägite! Mis veimevakka minul võib olla? Aga kas te ei taha pisut ka toa poole tulla südant karastama? Olge hea!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu:</speaker>
+                        <p>Teine kord, tütrekene, pai laps, täna on aeg kasin! Tahan siin — Tõlla-Hansuga kokku saada. <stage>(Kõrvale pead noogutades.)</stage> — Soo, soo, juba puna palgeil. Arvasin küll. <stage>(Suure häälega.)</stage> Ega sa teda vist enam ei mäleta: juhtusite ju ka korra minu ukse ees kokku — Juku rääkis mulle pärast. Jah, no vaata: nüüd on ju kõik küla temast kõla täis. <stage>(Kõrvale.)</stage> Ta on ju punane nagu maasikas näost juba!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Mul — mul on veel sooja leent toas ahju-augus, Liisu-tädi!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu:</speaker>
+                        <p>Ole terve, tütreke, sinul on süda alati pihus! — Jah, vaata, ma usun, Hansul on ka nüüd kosjajärjed ukse ees: rahvas räägib seda ja teist. Siiski, või niisugune enam vaest<pb n="74"/>last võtab! No kauaks ta ka nõnda võib kestagi! Jah, sina jumaluke! Kui meid, naisi, on, siis ei oska meid ükski väärt pidada; aga kui meid alles ei ole, siis neil häda taga, — nagu ma oma va kadund Matsile ikka olen ütelnud! No, ja vaata, Hans on mees: pikk, sirge, kena ja sile ja haritud käänu ja kombe poolest! Ja seda vara — kallike! Seda vara! Otsekui tehtud teiste kadeduseks! Ja mis tema viisist nüüd kiita: kange nagu kivi ja tasane nagu tall! Eks nad olnud kõik sappi tema vastu täis, ja nüüd tal sõpru terve Suti küla täis? Jah, nii- sugune mees ta on! <stage>(Kõrvale.)</stage> Kui ma nüüd ei lõpeta, siis ta nägu lööb elavasse leeki!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(häda täis)</stage>
+                        <p>Liisu-tädi, kui te ehk minu kapsataimi näha soovite —</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu:</speaker>
+                        <p>Homme, pai laps, homme — sina oled ikka usin perenaine! Jah, kui Nääri Maret niisugune perenaine oleks, siis teda sünniks Hansule soovida! — No — kõik küla on muidugi neist kahest täis nüüd, ei tea, millal küll pulmad tulevad? Aga — jumalukene! Niisugune mõistab ka peret pidada! Siiski, keel temal suus nagu kaheterane mõõk! Mina olen parem vait, aga —</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Pai Liisu-tädi, ta on ju alles noor! <stage>(Kõrvale, valusalt.)</stage> Temal ka teada juba!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu:</speaker>
+                        <p>Noor? Katsu mulle mähkmelast! Eks sina ole niisama noor? Miks siis siin kõik korrapärast seisab ja puhas? <stage>(Naeratades salaja.)</stage> Miina, mina tunnen kaht silma, kes seda on näinud — kas ma nimetan?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(ruttu)</stage>
+                        <p>Olge terve, tänan südamest teie soovimise eest, Liisu-tädi, aga... mina mehele ei lähe!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu:</speaker>
+                        <stage>(suuril silmil)</stage>
+                        <p>No-no, taga paremaks ikka? Ei lähe? Ja miks...? Kas sul aru peas?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Terve aru! Aga — aga sealt isa kutsub! Varsti, tädi, tulen tagasi! <stage>(Tuppa.)</stage></p>
+                    </sp>
+                    <pb n="75"/>
+                </div>
+                <div type="scene">
+                    <head>3.</head>
+                    <stage>Liisu (üksi).</stage>
+                    <sp who="#liisu">
+                        <speaker>Liisu:</speaker>
+                        <p>No taga hullemaks ikka! Kas inimene maa peal seda on näinud? Tema mehele ei lähe! Ja seda pean ma Hansule nüüd ütlema? Täna, kus ta iga silmapilguga siin võib olla, minu käest aru pärima? Kas ta käest ära on? Kui mina oma noores eas seda oleksin julgenud ütelda: ei oleks ükski enam silma minu peale visanud! Tema mehele ei lähe! Tema mehele ei lähe! Kas mõni mõisnik teda peab võtma tulema? Eks ma ikka ütle: meieaegsed piigad on kõik poole meelega maa peale loodud! — Ei ole neile üks hea, ei teine paras, laidavad seda ja põlgavad teist, kuni kanavarbad kulmul; siis, jah, siis neil vesi ahjus: kus nüüd kõik lootus ja uhkus? — Paras! — Aga Miinale ma tahan veel meele pähe panna! Kui ta nime näeb ja kosilast kuuleb, küllap võtab tõsist nõu! Seniks aga pean siit eest ära minema, et Hans, nurjatu, mulle enne kaela ei tule, sellele ma seda sõnumit ei tohi tuuagi! <stage>(Ära minnes.)</stage> Tema mehele ei lähe! Kas seda on maailmas kuuldud! Ei lähe! Vaata tüdrukut! <stage>(Ära.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>4.</head>
+                    <stage>Miina (üksi).</stage>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(tagasi tulles)</stage>
+                        <p>Kas Liisu-tädi juba läinud? Tänu jumalale! — Ega ta ometi ei pahandanud? Aga ma ei võinud ju tema kosjajuttu pealt kuulata! Mu süda tahtis lõhkeda sees! Olgu tema tahtja nii hea või mis ta muidu on kui ingel taevas:<pb n="76"/> mu süda ei kannatanud sellest rääkida — nagu noaga käis mulle sisse! <stage>(Käed risti.)</stage> Iga sõna, mis ta mulle ütles sel õhtul — eks ta käinud nagu lõokese laul mu südamesse! Aga — oh jumal, — mis pean ma ütlema ja arvama sest kõigest? Ta oli nii lahke, nii armas minu vastu... <stage>(Iseenese ette.)</stage> "Ma olen sind otsinud igalt poolt..." <stage>(Matab näo käte vahele; natukese aja pärast, pikalt.)</stage> Ma — unistan. Kas Liisu-tädi ei ütelnud ka: "Või niisugune enam vaestlast võtab?" Kas tema ka pidi teda kiitma minu ette?... Ma oleksin maa alla pugenud. Kas ma ei tundnud oma südamega palju paremini, mis ta väärt on? Ja ometi... Miina, Miina! Kus su pea otsast on läinud? Kas see ilus on? Kas sa ei kaetse ju Mareti peigmeest? Ta nägi meid koos — mis ta sellest peab mõtlema ja ütlema? Helde jumal taevas! Kuidas ometi võib võimalik olla, et niisugune tundmus selle üürikese ajaga nii suureks on läinud minu sees! — Ma teen ülekohut! Kõik küla räägib juba mõlemaist — ta on Mareti peiu, ja mina — mina olen sõge laps, sõge ja rumal laps, kes oma segast südant ei oska korras hoida! <stage>(Kindlalt.)</stage> Aga ma tahan aru pähe võtta — jah — kõigest väest ma seda tahan! <stage>(Tagasi pöördudes.)</stage> Issa pojuke!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>5.</head>
+                    <stage>Hans (pärna takka). Miina.</stage>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Miinakene, kas ma ehmatasin sind? <stage>(Miina ei saa sõna suust.)</stage> Anna andeks, pai laps!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Pole — viga! <stage>(Kõrvale.)</stage> Sina heldene jumal! Kas ta just praegu ka pidi tulema? <stage>(Suure häälega.)</stage> Mis — mis asja pärast —?</p>
+                    </sp>
+                    <pb n="77"/>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Mis asja pärast? Kas sellest küllalt ei ole, kui ma sinu pärast tulen? Kas mulle veel asja juurde tarvis läheb?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Ei, ei, — ma ei taha mitte tema sõna kuulda! Need puistavad mu mõistuse puhtalt peast! <stage>(Suure häälega.)</stage> Teie — vist otsite Liisu-tädi? Ta läks praegu siit ära!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(tema silmi vaadates)</stage>
+                        <p>Teie? Kuidas see oli? <stage>(Kõrvale.)</stage> Kas Liisu ei oleks head vastust saanud? <stage>(Rahutult.)</stage> Miina! — Miks sa "teie" ütled? Mis seal vahele on tulnud? — Miina!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(võtab hädaga kanga ja tahab minna; kõrvale)</stage>
+                        <p>Oh mis ma ütlen temale? Ega ma ju ei tohi, ja siiski —!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Kui ma ometi Liisuga kokku saaksin! <stage>(Suure häälega.)</stage> Miks "teie", Miina? — Too, ma kannan su kangast, Miinakene! See on sulle väga raske!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(hädaga)</stage>
+                        <p>No seda oleks veel tarvis! Mis — mis ma siis ise teen?</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>No anna ikka, kulla laps. <stage>(Kõrvale.)</stage> Parem ma kõnelen kohe, tulgu mis tuleb! Kui kaua ma nõndagi kannatan? <stage>(Suure häälega.)</stage> Anna siia — ma tahaksin su koormat nii hea meelega kergitada! Sa ei tea, Miinakene, kuidas ma alati su peale mõtlen!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(värisedes)</stage>
+                        <p>Hans, jumala pärast, oh mis te pilkate! Minge omasuguste juurde! Mis teil minusuguse vaeselapse vaevamisest võib olla? Teate ju ise, et meie teed kokku ei käi! Kui Maret kuuleb, et teil minuga juttu on; sealt ta tuleb! Minge ära, Hans, minge kõrvale! Ma palun teid kõigest väest, minge, enne kui ta teid siit leiab! Oh jumal, jumal, Hans, minge ära!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(poolvägisi)</stage>
+                        <p>Aga, Miina, kuule ometi. — <stage>(Läheb varjule, iseeneses.)</stage> Pagan võtku! Igal pool on tema põigiti ees! Nüüd oleks just paras aeg olnud — võtku teda, lobasuud, see ja teine!</p>
+                    </sp>
+                    <pb n="78"/>
+                </div>
+                <div type="scene">
+                    <head>6.</head>
+                    <stage>Maret. Hans. Miina.</stage>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(pilgates)</stage>
+                        <p>No, Miina, kus su niidumees siis täna on? Oli ju õige kena pealt näha, kui usinasti eile seltsis tööd tegite — ohahaha!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(hädaga)</stage>
+                        <p>Ta tuli ise — vägisi! Mina ajasin teda küll tagasi, aga tema ei läinud.</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(vihaselt)</stage>
+                        <p>Tema "tuli vägisi"!? No kuula nüüd hullu juttu! Miks ep Hans pea vist suureks auks arvama, et ta Miina-mamsliga võib rohtu niita? Ja ometi oled sa Hansu vastu nagu pool kopikat hõberubla kõrval. Pane tähele, sina, vilets mutikas, arvad vist, et tema sind võtab? Lase sina, sandikott, niisugused mõtted oma peast kaduda! Mis peab Suti küla rikkam mees sinusuguse väetiga tegema?</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Oh sina, kibuvitsa-ohakas! See on ju vahedam veel kui noa tera!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(nuttes)</stage>
+                        <p>Oh, Maret, häbene oma õelast kõnest! Kas vaesus patt on! Jumal on rikkaid ja vaeseid loonud! Ja kust sina siis tead, et sa külla otsa sured? Millal ma sinu õnne kaetsesin? Miks sa mind siis rahule ei jäta?</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Kuidas see oli? "Külla otsa ei sure”? Ega <stage>(rahutult)</stage> ta ometi veel ei tea, et meil vesi suu ääres seisab? <stage>(Suure häälega.)</stage> Kuidas? Mis sa arvad? "Külla otsa ei sure"? Mis see peab tähendama, mis?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Mis ta siis peab tähendama? Olgu sa nii rikas kui tahes. Õnnetus ei käi kive-kände mööda! Ja mina sinu Hanssu veel iial ei ole otsima läinud ega lähe ka!</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Aga teie rääkisite ometi kokku! Ise ma nägin!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Vist temal on rendiõigus üksi iga poisi jutu peale?</p>
+                    </sp>
+                    <pb n="79"/>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>No, ma tahan siis alata ja igal pool temale selja pöörda! Kas sellega oled rahul?</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>No-noh, minul jääb ometi ka sõnake selle kauba sekka ütelda!</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>No see on ka õige, Miina, sellepärast ma sind kiidan! Ma ütlen ikka, sina nii ilma peata ammu ei olegi, aga õpetust sulle peab antama —</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Tüükaga silmi pähe lööma — no muidugi!</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Siis sa saad aru küllalt! <stage>(Kõrvale.)</stage> Ma pean temal viimase kui kübeme meelest kiskuma, — mul läheb Hanssu liiaks tarvis! Kas niisugune narukael peaks ka julgema mõtelda —? <stage>(Suure häälega.)</stage> No vaata, Miina, sellepärast ma tahan sulle ka ütelda: Hans oli, mis nimetada, eile hoopis nagu käest ära minu järele! Muu silma ei vaadanudki, muu ümber ei lipitsenudki, kui ikka mina ja mina! Oleksid sa näinud, kuidas nad kõik kadedad olid minu peale — nagu karuohakad! Üksi minuga rääkis, üksi minu poole ohkas: mul oli — hm! hm! õige häda käes temaga, läks juba peaaegu nagu pisut liiaks!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Tule, taevake, appi! — Sellega sünniks ju veskiratast veeretada?</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>No aga mis minagi selle ette võisin parata? Olin ju ka kõige rikkam ja — hm! — ilusam teiste hulgas: eks tal olnud ka silmi peas!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>No see on terve tõsi: silmi tal on!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(pikalt)</stage>
+                        <p>Aga — Siim?</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Oh, mis tühja Siim! Sellele ei kasva Mareteid! Tahtis teise lõhki murda silmaga, aga mis Hans sellest hoolib? Küll sa näed, Miina, homme näeb kõik küla tema kosjakaske minu ukse ees: tema ja tema raha minu käest enam ei pääse, kadeda Kärdu ja kõige maailma kiuste. Las tänane õhtu veel mööda minna, siis ta pistaks mind põue!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Kust mul siis himu elust täis peaks olema?</p>
+                    </sp>
+                    <pb n="80"/>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Soovin — head — õnne!</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Ole terve! Vaata imet, nüüd saan ometi meistriemandaks pealegi! No ega ma niisuguse lühikese püksiga külapoisile ka ei oleks läinud.</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>No kuidas siis? Aga nüüd ma astun välja, muidu ta teeb pulmatoidud valmis ja loeb õllekannud kokku täna õhtu juba! Naisekeele imetegude vastu pole Johannese ilmutamise-raamat midagi! <stage>(Välja astudes suure häälega.)</stage> Tere õhtust!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(tasakesi)</stage>
+                        <p>Tere, tere!</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(hea meelega)</stage>
+                        <p>Ah, Hans, tere-tulemast! Kas teised juba kiigel? Vist sa tuled minu järele?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Ta silmad läigivad peas — et Maret siin on!</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(kõrvale, Miinale)</stage>
+                        <p>Eks sa näe, kuidas ta mind südamesse pistaks rõõmu pärast?</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Vaata imet, mina leian sind, armas Miinakene, õige kogemata! Kus sa olid selle aja?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina.</speaker>
+                        <stage>(pöördub ära)</stage>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>No eks sa mõista vastata, kui Hans vaevaks võtab sind küsida.</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(Mareti poole)</stage>
+                        <p>Olen üksipäini: tead ju, Maret, väike majatalitus tahab ka talitada.</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(naerdes)</stage>
+                        <p>Oh minul asja! Aga mõtle ometi meie majatalitust, mis kolmkümmend korda suurem kui sinu tühi talitus! Ja see on kõik üksi minu kaelas, ja mul on aega veel küllalt!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(haavatud)</stage>
+                        <p>No ega mina ka nii nobe perenaine ole nagu sina.</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Hm! — teadupärast! Kuidas lind, nõnda laul! <stage>(Kõrvale.)</stage> Kes koera saba kergitab —?</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(ruttu)</stage>
+                        <p>No see'p see on! Aga vaata, Hans, see on ka ime, kuidas kõik minu käes sünnib! Mõnele on talitamine<pb n="81"/> nagu käsis-jalus kinni, ei nad saa päist-jalust edasi, aga minu käes ta läheb nagu välk! Kas pole tõsi, Miina? Õhtu hilja ja hommiku vara olgu mul silmad ees ja taga, hommiku kõige esimene üles, õhtu kõige viimane voodisse! Jah, kus sada vakamaad põldu peab tehtud saama, kakskümmend lehma laudas, sulased, tüdrukud, päilised ja popsid, kõik vahivad hommikust õhtuni minu silma: seal peavad inimesel jalad all olema! Ja tüdruku-lontrused, neist pole mul niipalju abi kui midagi! <stage>(Natuke vait jäädes kõrvale.)</stage> Tema ei ütle midagi? Miks ta midagi ei ütle —? <stage>(Näeb kõrvalt, kuidas Hans Miina poole vaatab, kärsitult.)</stage> Lähme peale! Mis me siin tukume? Kuula — <stage>(Kiige hääl.)</stage> Kiik juba hüüab! Tule, Hans! Jumalaga, Miina! <stage>(Hakkab minema.)</stage></p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Aga — Miina — kas sina siis ka ligi ei tule?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina.</speaker>
+                        <stage>(pöördub Mareti salajase keelamise peale kõrvale)</stage>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(toob Hansu ära)</stage>
+                        <p>Hans, eks sa kuule õitseliste häält?</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(tagasi pöördudes)</stage>
+                        <p>Miina, sina peaksid ometi ka ligi —</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina.</speaker>
+                        <stage>(nagu ülemal)</stage>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(nagu ülemal)</stage>
+                        <p>Hans, eks sa vahest tule ometi? Mis sa temast nuiad? Las ta jääda ometi, kui ta ei tule!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(nagu ülemal)</stage>
+                        <p>Miina, kas sa sugugi ei taha —</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Ei saa minust täna küll mitte tulijat! Soovin teile head ööd ja palju rõõmu! Jumalaga! <stage>(Tuppa.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>7.</head>
+                    <stage>Maret. Hans.</stage>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Aga, Maret, miks sa Miinat ka ometi kaasa ei kutsunud?</p>
+                    </sp>
+                    <pb n="82"/>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Seda oleks veel tarvis olnud! <stage>(Suure häälega.)</stage> No taga paremaks! Kas mina tema tühja järele pean jooksma ja kummardama hakkama? Katsu mul asja! Va vaese rahva laps! Hakka kana kummardama, siis kargab kana kukla peale! Kas mina teda keelasin? Aga tema nina on alati püsti! Sina teda veel ei tunne, küll sa muidu teaksid!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Olgu küll, Maret, naabrineiud peaksid ometi sõprust pidama!</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Pugegu kassi saba alla! Mis minul tema tühja sõprusest on? Mis niisugune minu käest võib võtta või minule anda? Kui tahab sõber olla, siis olgu, mulle ükskõik! Aga tule vahest! Kiik hüüab.</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(minnes)</stage>
+                        <p>No, no, Maretikene, kes teab? <stage>(Läheb.)</stage> Parem kümme sõpra kui üks vihamees! Mõni väike kivi viskas juba suure koorma ümber! <stage>(Kaovad koplisse.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>8.</head>
+                    <stage>Miina (üksi).</stage>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(sügavas meelehaiguses)</stage>
+                        <p>Laisk, vaene, salalik — mis viga mul veel puudub? Ja seda kõik Hansu ees! Maret, Maret! <stage>(Peidab näo kätesse.)</stage> See kipitab — oh, väga kangesti kipitab südames! Kui mul temast midagi ei ole: miks ta peab mind veel kui ülejäänud looma põlgama? Armas jumal taevas, ma palun sind: anna mu vaesele südamele rahu ja vala kannatust ja vagadust temasse, et ma ilma kadeduseta tema õnne võiksin näha, sest <stage>(tasakesi)</stage> — sest ma tean, ma tean nüüd, et ma, et ma Hanssu — armastan <stage>(põlevalt nuttes),</stage> et ma teda sügavast südame põhjast armastan, et tema õnn minu<pb n="83"/> õnn on, ja tema õnnetus, ja et ma — nutma pean kõige oma eluaja, sest tema — tema armastab — teist — Maretit ta armastab, seda Maretit ta armastab, kes teda, nagu kõik teised, aina tema raha pärast võtab! — Vait, süda, vait! Mis sa nii kangesti tuksud sees? Kannata ometi! Mis asja elab maailmas, mida sina ei jõuaks ära kannatada?</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>9.</head>
+                    <stage>Juku (joostes). Miina.</stage>
+                    <sp who="#juku">
+                        <speaker>Juku:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Juba ta tuleb jälle siiapoole! Mis ta otsib siit? Nagu ma ei tea? Minu Miinat ta otsib! Aga seda ma mitte sugugi ei salli —! <stage>(Suure häälega.)</stage> Tule nüüd, Miina, tule, anna mulle kannikas leiba! Mullikad on kodu: tule nüüd, Miina!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Sinul on ju õige rutt taga täna: mis sul on siis?</p>
+                    </sp>
+                    <sp who="#juku">
+                        <speaker>Juku:</speaker>
+                        <p>Kõht tühi, mullikad kodu, — mina olen viks poiss. <stage>(Kõrvale.)</stage> Sealt ta tuleb, tuleb juba sealt! <stage>(Suure häälega.)</stage> Tule nüüd, tule, Miina! Mina olen viks poiss, panen sulle ise kosjakase, — tule nüüd tuppa. <stage>(Tuppa mõlemad.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>10.</head>
+                    <stage>Hans (kopliväravast).</stage>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Sain ma temast ometi raasuke lahti! Oh sina, nõgesenõel! Ja seda nimetas Miina, pai laps, "tasaseks tüdrukuks"? Jah, terane nagu noa tera! Risti-põigiti igal pool ees ja vahutab<pb n="84"/> ja tahurdab nagu teraveski. Vastasemat looma ma ometi maailmas ei tunne kui hämmelgat ja edevat tütarlast! Ja kui ta veel tige pealegi on — noh! Olgu peale! — Kuhu ta nüüd Miina-vaese on kihutanud oma libeda keelega? Vaesel lapsel tahtis süda lõhki minna sees — nagu ma ei näinud? — Istun siia pingile puu varju maha, ehk ta tuleb tagasi — enne kui öö kätte jõuab ja ma pean minema kosjakaske otsima! — Kosjakaske! Hm, no muidugi! Maret loodab ju nii kindlasti sellele, kust ma teda siis ilma tohin jätta? Kosjakase ma ikka pean tooma, sinna ei aita midagi! — Aga oot, oot, sealt ta ise tuleb! Ja Siim ka, mu verivaenlane! Mis neil on ometi? <stage>(Kuulatab pahemalt poolt varjust.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>11.</head>
+                    <stage>Maret (koplist). Siim (tema taga).</stage>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Kuhu ta võib jäänud olla? See ei näi mulle õige asi, et ta nii hea meelega Miinaga tahtis koos olla! — — Kui ta kõrvale lööks? — Pagana lugu! Ja iga silmapilk, ütles isa, on Lohu veski kaebus oodata! Ei! Lahti ma teda ei lase enam! Kuhu ta jooksis nüüd?</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(ette tulles, tuhinal)</stage>
+                        <p>Seda ma kauemaks ei kannata, Maret! Ütle, mis sa mulle oled lubanud? Ja nüüd? Nüüd sa ei tee muud, kui vahid Hansu otsa ööd-ilma kui päeva ja nopid sõnad tema suust! Maret, ära sa mängi minuga, muidu —</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>No mis siis "muidu"? Sina julged mind ähvardada? Mis?</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(ikka elavalt)</stage>
+                        <p>Sest päevast saadik, kus sa mulle lubasid tulla ja mind ütlesid armastavat, ei ole mul rahulikku tundi olnud enam. Sa tead, et ma sind ei jõua maha jätta, ja selle<pb n="85"/> teadmisega piinad sa mind poolsurnuks! Aga sestsaadik, kui Hans siin on, oled sa hoopis nagu meelest ära! Ma näeksin, et ta —</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Siim!</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(niisama)</stage>
+                        <p>Esmalt sa oleksid teda orgi otsa ajanud, nüüd sa pistaksid ta villavakka! Vallavanem, kõik küla, sina — nagu ümber vahetatud olete kõik! Ja kelle muu kui sinu pärast olen ma kõik esmalt nõnda ajanud?</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(vihaselt)</stage>
+                        <p>Kas ma siis sinule palgatud olen, et ma muud ei pea kuulma ega nägema kui sind? Arvad sa, et mina sind kinni pean? See oleks veel mu kümnes töö! Minul on paremat ja peenemat, kes minu silmi vaatab! Kes sind kutsub minu järele jooksma? Aja ometi silmalaud pärani ja saa aru, et sa minu kohta liig rumal ja liig näljane oled!</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <p>Maret!</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Sina'p see olid, kes Hanssu igal pool minu vastu laitis. Sina kõigi teistega. Ära sa looda, et ma enam nii rumal olen! Veel pole meie laulatatud, ega saa ka, seda sa tead! Sellepärast pühi suu puhtaks ja jäta mind edaspidi rahule, see on mu viimne sõna! Ja nüüd jumalaga! <stage>(Kõrvale.)</stage> Soo! Nüüd ta ei pea mind enam segama tulema, muidu jääb Hans tema pärast viimati veel araks! Kus ta ometi peaks olema? Vahest läks juba kosjakase järele? <stage>(Heal meelel.)</stage> Tõsi! Nõnda on, seda ta tegi! Ootame ööseni! <stage>(Läheb oma uksest tuppa.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>12.</head>
+                    <stage>Siim (üksi).</stage>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(kes valusas mõttes seisma on jäänud)</stage>
+                        <p>Ja sellepärast — sellepärast olen ma seda kõik näinud ja teinud? Sellepärast?<pb n="86"/> Oh, see on mulle paras! Miks ma ei hoolinud iseenese arust peas ja otsisin vabadust sealt, kus mulle kasu lubati: nüüd on mul palk käes! Ja seda kõva südant olen mina armastanud ja tema pärast vaeva näinud ja iseenese ja teiste silmis halvaks läinud aastate kaupa? Kes tegi? Ise tegi. Maret, Maret! <stage>(Natukese aja pärast, äkitselt.)</stage> Aga see on kõik selle Hansu tegu! Hansu süü! See on temale sääsed pähe pannud oma uue viisi ja kõvera keelega, et ta nüüd enam minu ega õpetaja ega kellegi keeldu ei kuula! Kui ma teaksin, kust ma teda kätte saaksin, küll ma — —</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>13.</head>
+                    <stage>Hans. Siim.</stage>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(välja astudes)</stage>
+                        <p>Siin ta on!</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(tagasi pöördudes)</stage>
+                        <p>Pagan ja põrgu! <stage>(Teda hambakirinal silmaga mõõtes.)</stage> Kas sina'p see oled, kes siin kõik küla kahisema ajab, mis? Kes vanemate ja noorte päid segaseks sorib, ae? Kas sina'p see oled, kes kõige valla rahu rikub, et riid nagu elav tuli igal pool lakka lööb ja kõigele meie nõule ja arupidamistele jalad ülespidi ja pea alaspidi pöörab? Millega oled sa tema südant petnud, ae? Ütle, kosta!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(vagusi)</stage>
+                        <p>Tasa, tasa, sõber! Sina sõidad ju nelja posthobusega! Et mina'p see kõigi niisuguste suurte imetegude tegija olen, seda ma tänini ei teadnudki, ja kelle süda minule siis petta oli?</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(kiristades)</stage>
+                        <p>Nagu sa ei tea veel, et ma Maretist räägin — si-na! —</p>
+                    </sp>
+                    <pb n="87"/>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(irooniliselt)</stage>
+                        <p>Oi, Siim, nagu mulle Maret oleks aegagi andnud seda tööd katsuda? Kas sa siis ei jõua näha, või kas sa ise ei taha? Ütle!</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <p>Vabanda ka veel! Kui sul temaga midagi asja ei ole, mis sa laulsid ööd-ilma kui päeva siin tema maja lähedal? Miks sa ei jõua tema jälilt jääda? Tahad sa mind kurdiks või pimedaks teha, mis?</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Nägema tahaksin sind panna, Siim, nägema! Aga sina ei taha ju und maha jätta, see'p see on! Ja muidugi, mul on ka asja siin lähedal ümber luusida, Siim, sest kuule, Siim, <stage>(naeratades)</stage> mina tahan kosjakaske istutada täna öösel, sellepärast!</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(vihaga)</stage>
+                        <p>Vaata — sina! Nüüd sa ütled ise välja.</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Pea, pea ometi! Sina ise pead nägema, kui ma seda teen; sest ega sina vist muud ka ei tee? No muidugi! Seniks, kui meil see töö mõlemal tehtud ei ole, peame rahu: siis on meil mõlemal voli käes teineteist sugeda, sest — rehnung rehnungi vastu, Siim, — sinu võlg minu ja hulga muude vastu on suurem, hulga suurem, kui sa arvad ja ise teada tahad!</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <p>Mis võlg! Kas sa peast ära oled? Tahad sa mind narrida?</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(vagusi)</stage>
+                        <p>Ei taha, Siim. Aga lase nüüd mind ka korraks küsida: kas sina'p see olid, kes mind on laimanud ja sõimanud ja teotanud siit kogukonnakotta ja sealt koolimajasse ja siis Kärt-tädile õndsale ja sealt kümne paiga peale veel, ae? Ja minust enesest hoolimata: kas sina'p see olid, kelle mure läbi veel tänini meie valla asjus ei ole sammu edasi astutud, et koolid kusagil ei ole viletsamad, et vallavalitsus kusagil nõrgem, et rumalus kusagil suurem ei ole kui siin? Kas sina'p see oled, kes iga parema elujärje iva rõõmuga välja kitkus, kes mõistust paastuma pani ja käte-jalgadega vastu tõrkus, kui tarkuse küünal vallas — paraku! kui teda, otsakest, nimetada<pb n="88"/> maksab — ähvardas elu ja surma vahelt ennast välja püüda võidelda? Sina'p see olid jah, Luige Siim, sina, mõisa kubjas ja vallavanema parem käsi, kelle peale see süü langeb. Sest — paraku! iseenese aru on nende juurest tihti veel väga pisut leida, keda meie rahvas oma eestvedajaks valib!</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <p>Ja sellepärast ma kiidan ennast, jah! Eks kõik rikkad pered kinnita ka, et see õige on, teiesuguste segajate mõtete vastu sõdida! Ja kui meie rikkamad ja suuremad mitte kokku ei hoia, siis on uue aja ja rahva pagan lahti! Seda ei tohi aga mitte olla!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(kibedalt)</stage>
+                        <p>No muidugi! Rumalus ja rikkus käsikäes, ja kott-pimedal taeval on õlilatern valmis, ja teie kõik sõimate seda püsti-päikeseks! Siim, ae, mis see on: uue rahva ja aja pagan, mis ei tohi olla? Kas sa tead seda ka ise?</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(kiusus)</stage>
+                        <p>Küllap ma viimati veel siin koolipoiss olen täna? Eks ma ütle ikka: sina oled see maailmatark, teised olgu kõik rumalad! Eks sa näe küllalt, mis maailm sinust arvab! Eks teised pea ka veel sinu kannul käima!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>No-jah — see on ju kõigi nende viga peaaegu, kes ennast tänavu mehiks lasevad sõimata! Palvetavad ja lobisevad järele, mis teine mahedalt ja keeruliselt neile jumala või inimeste nimel ette laulab, ja kui kogemata siiski mõnele oma aru pähe tekib <stage>("Et vaata, et nõnda lugu on, ja nõnda peaks olema, ja nüüd hakka kui mees sarvepidi tõe küljest kinni!"),</stage> siis neil süda saapasääres ja hirm pobiseb põues: "Oh, mis suur kari ütleb!" Häbi niisuguste kahe-jala-lonkajate üle! Nad ei saa mitte aru, et nad muud ei ole kui käsipuud, mille varal teised oma kasu poole üles ronivad. — Mis maailm minust arvab? Kui ta pahemat minust ei tea arvata, kui et mind mitte, nagu härga ja oinast, pea pärast ei loeta, vaid aru järele peas, — siis, kuule, siis ma soovin palju, jah, õige palju teisi minu kannule ja kõigepealt — sind, Siim!</p>
+                    </sp>
+                    <pb n="89"/>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <p>Mind! Oota seni!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Meie peaksime sõbrad olema, Siim, mitte vihamehed! Kas meie ei ole ühe rahva lapsed? Kas meid üks muld ei ole kasvatanud suureks ja üks õhutiik meid ei jooda? Ja meie eesti südant ja pead ei oska meie paremaks pruukida kui tüliks ja riiuks? Ühe tütarlapse pärast, kes seda ei oska väärt pidada, kes sind nagu jalaga tõukab, keda kes teab kes ja mis taga kihutab, annad sa rahu ja südame tugevust ära, mis kallim on kui kuld ja hõbe? Saagu sellest aru, kes saab!</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(kahtlase vihaga)</stage>
+                        <p>Mis sina tead, mis ta väärt on? Sinu pärast ta mind — pagana väärt — põlgab! Sinu tarku mõtteid kuulen ma ka juba tema suust!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Mina ei lähe Mareti pärast mitte sinuga vaidlema, Siim, küll sellepoolest aeg head nõu annab. Kui sa aga ülemal arvasid, et mina'p see olen, kes siin vallas solgevett pisut selguma paneb; kui minu süü pärast siin kümme hädalist küsimust elusse ähvardab ärgata, mis seni rahuliselt pimeduse hõlmas nõrgastust on maganud; kui minu teo pärast siin mitu silma pärani läheb: Oi, maailm ulatab ju veel kaugemale üle Suti tänava, ja õigus olgu õigusele, mitte suurema kukru ega täiema viinatoobi teener. — No vaata, Siim, sõber! Siis ma tunnistan ette ära: Jah, mina'p see olin ja saan pärastki olema ja — igaüks vastaku iseenese ette! Head ööd! <stage>(Läheb oma teed.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>14.</head>
+                    <stage>Siim (üksi).</stage>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(vaatab viha ja kahtlusega temale järele)</stage>
+                        <p>Sina tarkusepoiss! Ja et talle siiski valet ei või ette visata, see on see<pb n="90"/> kõige hullem asi! Oh Maret, Maret! Seda kõik kuulen ma sinu pärast, ja sina viskad veel mulle ette, mina olevat teda sinu ette laimanud! — Mis ta ütles? Kosjakaske tahtvat ta tuua? Kellele muidu kui mitte Maretile? Kui ta teda siiski armastab! Pea! Mina teda ei usu! Kes võib ilusam olla kui Maret? — Kõiges külas ma teist niisugust ei tunne! Aga siis ma maksan talle kõik kätte, kõik viimase! Oot, see on hea, sealt tuleb Karja-Juku.</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>15.</head>
+                    <stage>Juku (Suli toast). Siim.</stage>
+                    <sp who="#juku">
+                        <speaker>Juku:</speaker>
+                        <stage>(vahib ette vaadates ümberringi)</stage>
+                        <p>Ära ta on läinud! Ja-jah, mina olen viks poiss! Mina ise tahan teda võtta ja mina ise tahan kosjakaske panna. <stage>(Kadedalt.)</stage> Luige Siim? Miks Luige Siim siin on?</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <p>Kuule, Juku, sina oled viks poiss: kas sa oled ka Hanssu siin näinud, ae?</p>
+                    </sp>
+                    <sp who="#juku">
+                        <speaker>Juku:</speaker>
+                        <stage>(pead noogutades)</stage>
+                        <p>Näinud! Hanssu ma mitte sugugi ei salli!</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <p>No see on hea. Kuule, sa tead, täna on jaaniöö —</p>
+                    </sp>
+                    <sp who="#juku">
+                        <speaker>Juku:</speaker>
+                        <p>Niisama jaaniöö! Siis ma panen Miinale kosjakase!</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(kärsitult)</stage>
+                        <p>Mine kassi saba alla oma — — — Kuule, sa oled hea poiss, Juku: kui sa näed, et Hans siia tuleb, Näärile, kosjakasega, siis — siis kutsu mind appi, siis me <stage>(kiristades)</stage> tahame teda õpetada!</p>
+                    </sp>
+                    <sp who="#juku">
+                        <speaker>Juku:</speaker>
+                        <stage>(uhtudes)</stage>
+                        <p>Õpetada! Ja kui sa näed, et ta siia tuleb, Sutile, siis kutsu mind appi, siis — <stage>(niisama)</stage> siis me tahame teda ka õpetada!</p>
+                    </sp>
+                    <pb n="91"/>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <p>Sind oma —! No muidugi! — Kuule, nüüd ma lähen koplisse kaske otsima. — Pane seniks hästi tähele! Kui ta tuleb — siis sa tead! <stage>(Koplisse ära.)</stage></p>
+                    </sp>
+                    <sp who="#juku">
+                        <speaker>Juku:</speaker>
+                        <p>Ja mina — lähen ka — koplisse — mina — mina — tahan kosjakaske otsida! Siim pangu ise tähele — mina teda sugugi ei salli, — mina olen viks poiss! <stage>(Ära.)</stage></p>
+                    </sp>
+                    <stage>(Eesriie.)</stage>
+                    <pb n="92"/>
+                </div>
+                <div type="scene">
+                    <head>NELJAS VAATUS</head>
+                </div>
+                <div type="scene">
+                    <head>1:</head>
+                    <stage>Pime Öö.</stage>
+                    <stage>Eesriide tõusul astub ette vaadates Suli toa uksest välja Miina.</stage>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Öö — jaaniöö hingab üle maailma! Kõik vait ümberringi ja vagane, kuid siin minu põues ei taha tuksumine järele anda — ei taha ega taha! Kosjakaske nad panevad täna öösel — kosjakaske! Kuidas ma muidu rahul olen maganud seda-aegu! Ma teadsin ju küll, et minul midagi varitseda ei olnud, et vaesele saunapiigale ükski kosjakaske ei istutanud! Miks ma siis täna niisama vagusi sängi ei lähe? Ega ju lugu teiseks ei läinud? — — Ma tahan näha, oma silmaga tahan ma pealt näha, kuidas ta Maretile kosjakaske istutab! Ja siis? Mis siis, kui seda olen näinud? — Miina! Kui jõledaks ja lapsikuks oled sa läinud! Kui sind mõni näeks siin öösel varitsevat? Mis maailm ütleks? Oh et mingi nõu seda valusat väge minu rinnust välja ei jõua kiskuda! Mis sellest peab saama siis? — Vait — üks tuleb! Ma lähen varjule. <stage>(Puu taha, pool-nähtavalt.)</stage></p>
+                    </sp>
+                    <pb n="93"/>
+                </div>
+                <div type="scene">
+                    <head>2.</head>
+                    <stage>Siim (kasega).</stage>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <p>Kõik lage alles? Pole veel ükski siin? Ja Juku tühipaljas ka ära läinud? Mulle ükskõik, seda parem, ma võin teda üksi oodata! Siin istutan ma kase maha, saab näha, kelle õigus tuleb teda välja kiskuda! <stage>(Kaevab auku.)</stage> Ma ei tohi iseenese ette salata: iga sõna, mis ta ütles, käis nagu noapiste südamesse! Helisevad mulle praegu veel nagu pasunad kõrvus! Aga tema? Kas temal oli õigus mulle nõnda ütelda? Temal, kes ise salapettusega teise südant minu käest ära ahvatleb, ja siis õigusest ja kohusest ja kes teab mis kõrgeist asjust mul kõrvad täis puhub? Oi, vennike, kas sa mind rumalaks lapseks arvad? Ära sa usu, pole minagi eilsest saadik sündinud! Maret oleks mind ometi võtnud, aga Hans, Hans üksi on süüdlane! Olgu temale jumal armuline, kui ta täna mu küüsi satub! Kuidas ta ütles: "Igaüks vastaku iseenese ette!" — Soo. Siin mu kask seisab nüüd! Ja nüüd ma tahan oodata, kes esimene teda julgeb siit seest nihutada! <stage>(Läheb kase kõrvale varjule.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>3.</head>
+                    <stage>Maret (Nääri uksest). Siim ja Miina (varjul).</stage>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Ma pean ometi vaatama, kas juba? Õigus! Seal ta seisab! Eks ma ütelnud: Hans ja tema raha minu käest enam ei pääse! Kas tema nii jõle pidi olema, minust mööda minema. Ta oleks ju pime ja kuulmata pidanud olema!</p>
+                    </sp>
+                    <pb n="94"/>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Ta arvab Hanssu juba pärijaks.</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Tuline tuhat!</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Kui sirge ja ilus puu ise! Niisugust poleks Siim elades mõistnud panna!</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <p>Soo? Või mitte?</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Aga oli ka aeg käes, et jaaniöö tulek kauemaks ei oleks pidanud kestma, võlapärija läks juba väga nuiajaks!</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Võlapärija!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Mis ta räägib?</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Ja-jah, kui nad teaksid, et sest katusest mitte laua nael enam meie päralt ei ole! Aga kui nüüd hommiku Lohu vana tuleb raha küsima, siis võime temale vastata: "Vaata, seal seisab küla kõige rikkama poisi kosjakask! Nüüd kannata!"</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Kas mu pea otsas veel? Nõnda on lugu?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Sina jumalukene!</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Mis ma oleksin Siimuga teinud? Tema kukkur ei oleks mitte poolt meie võlga tasunud! Aga kust siinpool parema pidin võtma? Oli asjaks ka! Nüüd ma olen temast lahti!</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Hoia, jumal, mu mõistust paigal!</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Miina on jälle ilma tänavu — no muidugi! Ikka ma ka kartsin, et Hans viimati tema poole ei löönud; — aga no kus ta jääb, eks ma pannud poisile aegsasti silmad pähe! Mis niisugune sandi-eestvedaja rikkaga teeb? Tema on vaesega harjunud, ega see teda ei sureta! Kust mina seda kannataksin?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Kuidas ta ometi nõnda võib rääkida?</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Aga kas ei tule kahinat kopli poolt? Kes seal veel liigub? Veel ehk mõni kosjakasklane? <stage>(Astub kõrvale.)</stage></p>
+                    </sp>
+                    <pb n="95"/>
+                </div>
+                <div type="scene">
+                    <head>4.</head>
+                    <stage>Hans (kasega). Endised (varjul).</stage>
+                    <sp who="#maret #miina #siim">
+                        <speaker>Maret, Miina, Siim:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Hans!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(värisedes kõrvale)</stage>
+                        <p>Seal ta on! Oh jumal, jumal! kinnita mu südant!</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Tondi tegu! Kas tema'p see esimene mitte ei olnud siis? Mis tükk see on?</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Vaata! On ta mind ometi petnud! No tule! Tule!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(lauldes: "Sind jaaniöösel kosjakaskedeta")</stage>
+                        <p>Soo. Siia ma panen kase maha! Kus mu tüügas siis jäi? Mina ei mõista, miks nad sest armastusest nii suure salaloo teevad? Minu meelest on ta nii magus asi, et seda peaks kõigele maailmale kiitma! Teadku ometi igaüks, mina ei salga kellelegi: ma armastan teda! Ma armastan teda nii südame põhjast, et ma hommikust õhtuni tema silmi vaataksin, et ma teda käte peal kannaksin ja iga sammu ette talle õisi maha pilluksin, et tal pehme käia oleks — minu kallikesel! — Kas see patt on? Minu armas, minu kallis piigakene: siis aita sina ise mul seda pattu kanda!</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Kuula — ta räägib minust!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(kõrvale, käed risti rinnul)</stage>
+                        <p>Oh minu jumal, minu jumal! Mina õnnetu laps!</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Sina kahekeelne madu! Tõtta lõpetama, et ma sind kallalt kätte saan!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>See on ometi — <stage>(naeratades)</stage> — õige üks kena, ilus viis, see kosjakase panemine siin Sutil! Seda sünniks mujal järele teha. Ja seal näikse ka juba oma jagu seisvat. Nääri<pb n="96"/> akna all! Siimu kask, kelle muidu! Ma tahaksin ometi seda nägu näha homme Siimul, kui ta minu endise jutu põhja kätte saab — ahahah!</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(hambaid kiristades)</stage>
+                        <p>Tema, võrukael, irvitab ka veel?</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Siimu kask? Aga selle ma kisun välja, niipea kui teine sees on! Tema, näljane loom, tohib mulle ka veel kosjakaske panna?</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Nüüd töösse! Kui ta ühe hoobiga sees seisab, siis ma usun, et ta, lapsuke, mind armastab!</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Muidugi ma sind armastan, muidugi, Hans! Seda sa tead!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Kes, oh, kes teda ei peaks mitte armastama?!</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(kõrvale, nagu ülemal)</stage>
+                        <p>Küll ma sind õpetan armastust ootama! Küll ma õpetan!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(Suli akna poole astudes)</stage>
+                        <p>Katsume õnne! <stage>(Tõstab kase kõrgele.)</stage></p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Mis ta sealt otsib?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Jumal, tule appi!</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(korraga)</stage>
+                        <p>Mis nüüd?</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(valjult ja tõsiselt)</stage>
+                        <p>Selle hoobiga kosin ma Suli Miinat enesele armsaks ja kindlaks abikaasaks oma elutee peale! Andku helde jumal minu kosjatulekule lahket vastuvõtmist! <stage>(Puu seisab.)</stage></p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(suure häälega)</stage>
+                        <p>Igavene Issand!</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(suure häälega)</stage>
+                        <p>Oih — pagana lugu!</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(suure häälega)</stage>
+                        <p>Või nõnda'p see oli?</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(kuulatades)</stage>
+                        <p>Kas see ei olnud Miina hääl? Miina, Miina! Kus sa oled, kallis laps? <stage>(Toob väriseva piiga põõsa takka välja.)</stage></p>
+                    </sp>
+                    <pb n="97"/>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(lauldes)</stage>
+                        <l>Nõnda nagu puu siin seisab</l>
+                        <l>Kindlalt halja pinna pääl,</l>
+                        <l>Soovin ma sind omal' hoida</l>
+                        <l>Kindla armastuse väel!</l>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <l>Näen ma und? Või kuidas? Köidab</l>
+                        <l>Silmamoonutus mind vast?</l>
+                        <l>Mind sa vistist valitsenud?</l>
+                        <l>Põlatud, vaest saunalast?</l>
+                    </sp>
+                    <sp who="#siim #maret">
+                        <speaker>Siim ja Maret:</speaker>
+                        <stage>(välja tulles)</stage>
+                        <l>Näeme und? Või kuidas? Köidab</l>
+                        <l>Silmamoonutus meid vast?</l>
+                        <l>Teda, vaest saunalast?</l>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(vihaga)</stage>
+                        <l>Nõnda, kaval, sa mind petsid?</l>
+                        <l>Armu sa mull' valetand!</l>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <l>Valet ise pähe võtsid:</l>
+                        <l>Nüüd su kõrkus nuhtlust saand!</l>
+                        <stage>(Miina poole):</stage>
+                        <l>Siin on minu ilus helme,</l>
+                        <l>Minu õnne-õilmeke!</l>
+                        <l>Tigedus on teed mull' näidand,</l>
+                        <l>Et ei eksind eemale!</l>
+                        <p><stage>(Miina ümbert kinni hakates):</stage> Miina! Ma olen sind meeles pidanud sest tunnist saadik, kui ma sind kõige esmalt Liisu-tädi ukse ees nägin! Miina, iga halb sõna, iga Mareti keeletõukamine on sind mulle armsamaks teinud, sest et sinu tasadus ja helde süda seda hiilgavamalt sealt läbi paistsid! Miina, kuuljate ja nägijate ees küsin ma sind, nagu ma sind ammugi üksipäini oleksin küsinud, kui sinu argus oleks aega andnud, — Miina, kas sa tahad mu armsaks abikaasaks heita? Ütle!</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Põrgut ja hukatust!</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <p>Hm! Hm!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <p>Hans, jumala pärast, kas kõik tõsi on? Kas ma ei unista?</p>
+                    </sp>
+                    <pb n="98"/>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Ja Lohu mölder! Ja Lohu mölder! — Niisugune kerjatüdruk!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Elav tõsi! Kas sa mind siis sugugi ei usu, tuikene? Kas tahad, pai, kulla Miinakene? Jah?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(tasakesi)</stage>
+                        <p>Jah, Hans! <stage>(Nuttes.)</stage> Ma tänan sind, helde, armuline jumal taevas.</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>5.</head>
+                    <stage>Liisu. Endised.</stage>
+                    <sp who="#liisu">
+                        <speaker>Liisu:</speaker>
+                        <stage>(koplist)</stage>
+                        <p>Hans, Hans, ae! <stage>(Välja tulles.)</stage> No ometi ükskord. Siin olete ju kõik õige ilusasti koos! Hans, mina otsin sind nagu nööpnõela iga jaanitule äärest, ükski sind pole näinud. <stage>(Kõrvale tõmmates.)</stage> Mõtle, Hans, tema "ei taha mehele minna"! Mehele ei taha? Kes on seda kuulnud? Niisugune kiusupunn!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(naeratades)</stage>
+                        <p>Ei taha? Kuule, Miina, Liisu-tädi ütleb, sina ei tahtvat mehele minna? Ja praegu ütlesid ometi "jah"? Kuidas sellega siis õigeks saame?</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>6.</head>
+                    <stage>Juku (kaske järele vedades). Endised.</stage>
+                    <sp who="#juku">
+                        <speaker>Juku:</speaker>
+                        <p>Soo! Vaata — ää! Nüüd teie olete siin kõik koos ja — seal on ju Miinal kosjakask! <stage>(Laseb kase maha kukkuda.)</stage> Seda ma sugugi ei salli mitte — ää!</p>
+                    </sp>
+                    <pb n="99"/>
+                    <sp who="#liisu">
+                        <speaker>Liisu:</speaker>
+                        <p>"Jah"? Miina kosjakask? Mis lugu te luiskate?</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(häbelikult)</stage>
+                        <p>Mina ei teadnud ju, et see tema oli — kes —</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>Liisu:</speaker>
+                        <p>Saagu tont teist, meieaegseist neitsitest, aru! Kust neil tuul, sealt neil meel! Aga hea, et sa aru pähe veel võtsid! No kuidas see siis tuli? <stage>(Võõriti vaadates.)</stage> Võib mõnda inimest omajagu kollasemaks ajada. — Pea! — Kuule, Maret, õues kopli tänavas ootab Lohu mölder, tulnud läbi ööd teine: näib õige rutt tal taga olevat, et sinu isaga kokku saada! Tea, mis ta "rahasaamisest" rääkis või muust! Eks sa lähe vaatama?</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Üks õnnetus teise järele! Mis ma teen nüüd? <stage>(Mõtetes.)</stage></p>
+                    </sp>
+                    <sp who="#juku">
+                        <speaker>Juku:</speaker>
+                        <stage>(Siimu peale karates)</stage>
+                        <p>Sina ometi ütlesid, et me pidime teineteisele "appi tulema" ja et me tahtsime teda "õpetada", ja nüüd sa ei räägi midagi? Teie olete kõik hukkas ja Miina on ka hukkas ja kes nüüd need — need suured võileivad saab? Mina olen viks poiss, ää!</p>
+                    </sp>
+                    <sp who="#miina">
+                        <speaker>Miina:</speaker>
+                        <stage>(vaigistades)</stage>
+                        <p>Sina ikka, Juku, sina saad! Lase nüüd olla peale — suuremad saad nüüd veel!</p>
+                    </sp>
+                    <sp who="#juku">
+                        <speaker>Juku:</speaker>
+                        <stage>(kahtlaselt)</stage>
+                        <p>Suuremad? Kas tõesti!</p>
+                    </sp>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <p>Tõesti, Juku, üsna tõesti!</p>
+                    </sp>
+                    <sp who="#juku">
+                        <speaker>Juku:</speaker>
+                        <p>No — minugi pärast siis! Aga mina olen viks poiss ja siin on minu kosjakask. <stage>(Istutab.)</stage></p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Ta on mulle ometi kosjakase pannud — kes teab? <stage>(Suure häälega, lipitsedes.)</stage> Siim, ae, sina oled ikka mu armas poiss ja sina oled ikka kõige enam minu meelepärast olnud ja oled mulle nii ilusa kosjakase istutanud. Sind ma mitte maha ei jäta, sinu ma võtan, kõigi teiste kiuste, ära sa karda midagi, Siimukene! Homme päev võid sa õpetaja juurde minna ja kolme nädala pärast teeme pulmad: seda ma sulle luban, Siimukene!</p>
+                    </sp>
+                    <pb n="100"/>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <stage>(pilgates)</stage>
+                        <p>Tõesti? Näe imet! Ma kardan aga, et ma sugugi enam selle õnne väärt ei ole! <stage>(Tõsiselt.)</stage> Nääri Maret! Täna hommiku veel oleks see teade mind taevani tõstnud; täna õhtu ma teda enam — ei taha!</p>
+                    </sp>
+                    <sp who="#maret">
+                        <speaker>Maret:</speaker>
+                        <p>Siim! Kas sa —?</p>
+                    </sp>
+                    <sp who="#siim">
+                        <speaker>Siim:</speaker>
+                        <p>Maret, sa oled minuga mänginud nagu mängukanniga! Nagu kassipoega õlekõrre otsas vedasid sa mind mu oma südame otsas õnnest ja õnnetusest läbi! Sest tunnist saadik, kus mu süda sinu vastu põlema lõi, ei ole mul mitte rahulikku silmapilku enam olnud. Aga armastanud, tõesti armastanud ei ole sa mind mitte iialgi! Ma olin rikkam kui teised, sul läks minu raha tarvis: sellepärast sa mind tahtsid, ja tõukasid mind nurka, kui lootus sulle teist, rikkamat näitas! Nüüd, kui su nõu nurja läinud, nüüd olen ma sulle jälle hea küllalt! Nüüd aga saab ka minu südame kannatus täis! Meist kahest ei saaks elades õnnelikku abielupaari, sest minu silmad on lahti läinud: mina ei jõua sinu südant austada enam, ja selle varal kustub ka mu armastus põues sinu vastu. — Jää jumalaga! <stage>(Hansu poole.)</stage> Hans — sul oli õigus: ma olen tuult külvanud ja tormi lõiganud.</p>
+                        <l>Tigedus on teed mull' näidand,</l>
+                        <l>Et ei eksind eemale!</l>
+                        <stage>(Maret poeb koplisse ära.)</stage>
+                        <p>Kõik need sõnad, mis sa täna ennist mu pähe külvasid, ei pea mitte kaljuse maa peale langenud olema! Tõesti, löödud haavu parandab aeg — oma südametunnistusest löödud haavad on visad paranema, seda ma olen tunda saanud ka. Ma olen tänini sinu vihamees olnud teiste pärast; ma tahan sest tunnist saadik sinu sõber olla iseenese pärast! Kui ühe rahva pojad    tahame üht teed käia! Ma räägin õiglasest meelest, Hans: kas tahame?</p>
+                    </sp>
+                    <pb n="101"/>
+                    <sp who="#hans">
+                        <speaker>Hans:</speaker>
+                        <stage>(rõõmuga)</stage>
+                        <p>Siim, — see on mehe sõna! Ma rõõmustan, ma rõõmustan südamest sest nõust! Käsikäes õiglased eesti pojad isamaa põllul töös: ja seda ma tahaksin näha, kes meie vaimu- ja ihulikku õigust peaks jõudma kütkes pidada! Samm-sammult, nagu seal koit hommikuse taeva veerele, peab vaimu vabadus Eesti taevale tõusma — aga niisama kindlalt! Ühendus kasvatab, ühendus kangestab, ühenduses astugem edasi. Elagu meie Eestimaa ja tema rahvas. — Hurraa!</p>
+                    </sp>
+                    <stage>(Eesriie.)</stage>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
