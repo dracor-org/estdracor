@@ -1,0 +1,1916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="est000019" xml:lang="et" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Kosjaviinad ehk kuidas Tapiku pere laulupidule sai</title>
+                <title type="sub">Naljamäng 3 vaatuses</title>
+                <author>
+                    <persName>
+                        <forename>Lydia</forename>
+                        <surname>Koidula</surname>
+                    </persName>
+                    <idno type="wikidata">Q237056</idno>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Digital Archive DIGAR</name>
+                    <idno type="URL">http://www.digar.ee/id/nlib-digar:947644</idno>
+                    <availability>
+                        <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                    </availability>
+                    <note>While the plays are in public domain, the afterword is protected until 2044</note>
+                    <bibl type="originalSource">
+                        <author>
+                            <persName>
+                                <forename>Lydia</forename>
+                                <surname>Koidula</surname>
+                            </persName>
+                            <idno type="wikidata">Q237056</idno>
+                        </author>
+                        <title type="main">Kosjaviinad ehk kuidas Tapiku pere laulupidule sai</title>
+                        <title type="sub">Naljamäng 3 vaatuses</title>
+                        <date when="1946">1946</date>
+                        <publisher>RK "Ilukirjandus ja Kunst"</publisher>
+                        <pubPlace>Tallinn</pubPlace>
+                        <biblScope unit="page" from="169" to="215">169-215</biblScope>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="mall" sex="FEMALE">
+                        <persName>Mall</persName>
+                    </person>
+                    <person xml:id="toomas" sex="MALE">
+                        <persName>Toomas</persName>
+                    </person>
+                    <person xml:id="kelk" sex="MALE">
+                        <persName>Kristjan Kelk</persName>
+                    </person>
+                    <person xml:id="triinu" sex="FEMALE">
+                        <persName>Triinu</persName>
+                    </person>
+                    <person xml:id="kaarel" sex="MALE">
+                        <persName>Kure Kaarel</persName>
+                    </person>
+                    <person xml:id="eeva" sex="FEMALE">
+                        <persName>Eeva</persName>
+                    </person>
+                    <person xml:id="mart" sex="MALE">
+                        <persName>Mätta Mart</persName>
+                    </person>
+                    <person xml:id="jueri" sex="MALE">
+                        <persName>Jõepere Jüri</persName>
+                    </person>
+                    <person xml:id="rummu-jueri" sex="MALE">
+                        <persName>Rummu-Jüri</persName>
+                    </person>
+                    <listRelation>
+                        <relation name="parent_of" active="#toomas #mall" passive="#eeva"/>
+                        <relation name="lover_of" active="#kelk" passive="#eeva"/>
+                        <relation name="spouses" mutual="#toomas #mall"/>
+                    </listRelation>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-05-29">Convert txt to TEI</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <standOff>
+        <listEvent>
+            <event type="print" when="1946">
+                <desc/>
+            </event>
+            <event type="written" when="1880">
+                <desc/>
+            </event>
+        </listEvent>
+    </standOff>
+    <text>
+        <pb n="169"/>
+        <front>
+            <titlePage>
+                <titlePart type="main">KOSJAVIINAD <lb/>EHK<lb/>KUIDAS TAPIKU PERE LAULUPIDULE SAI</titlePart>
+                <titlePart type="sub">NALJAMÄNG 3 VAATUSES</titlePart>
+            </titlePage>
+            <pb n="170"/>
+            <pb n="171"/>
+            <castList>
+                <head>TEGELASED:</head>
+                <castItem>
+                    <role>Tapiku Toomas, </role>
+                    <roleDesc>endine vallavanem ja taluperemees (teine bass)</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Mall, </role>
+                    <roleDesc>tema naine</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Eeva, </role>
+                    <roleDesc>nende tütar</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Kristjan Kelk, </role>
+                    <roleDesc>vallakirjutaja ja koorijuhataja</roleDesc>
+                </castItem>
+                <castGroup>
+                    <castItem>
+                        <role>Mätta Mart</role>
+                    </castItem>
+                    <castItem>
+                        <role>Kure Kaarel</role>
+                    </castItem>
+                    <castItem>
+                        <role>Jõepere Jüri</role>
+                    </castItem>
+                    <roleDesc>taluperemehed ja pasunapuhujad, valla-ametnikud</roleDesc>
+                </castGroup>
+                <castItem>
+                    <role>Trahteri Prits Treier (Rummu-Jüri)</role>
+                </castItem>
+                <castItem>
+                    <role>Triinu, </role>
+                    <roleDesc>Tapiku pere ümmardaja</roleDesc>
+                </castItem>
+            </castList>
+        </front>
+        <pb n="172"/>
+        <pb n="173"/>
+        <body>
+            <div type="act">
+                <head>ESIMENE VAATUS</head>
+                <div type="scene">
+                    <head>1.</head>
+                    <stage>Toomas (üksi puhub ja rüüpab).</stage>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Kui kallisti ta kõlab! Kuidas nad ilma minuta võivad läbi ajada? Mõtetki. See on veel mu ainus rõõm selle vallavanema-tüli juures, see kallis teine bass! Kui minu Mall seda teaks! Ta ei salli seda armast pilli silma otsas, — aga naised on <stage>(vaatab selja taha)</stage> rumalad, mis nendesugune "Bositsarahranist" teab! Kuidas see hakatus jälle oli? <stage>(Puhub.)</stage> Kui ma aga juba siit pääsenud oleksin! See sõit, see sõit! Ei taha nõu leida kuidagiviisi! <stage>(Puhub jälle võõriti.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>2.</head>
+                    <stage>Toomas. Kelk.</stage>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>A! Puhu ometi a peale, peremees, pool tooni kõrgemini! Nõn-nõnda. Tere hommikust, Tapiku taat!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Tere, Kelk! Mina valmistan pilli! Kas ei kõla kenasti? Mis sõnumeid sa tood? Kas valivad minu jälle?</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Pole veel ammugi valmis — võtab veel mitu aega! Üks jagu peremehi ütlevad —</p>
+                    </sp>
+                    <pb n="174"/>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <stage>(ruttu)</stage>
+                        <p>Mis nad ütlevad? Mis neil on ütelda? Kas ma peremees ei ole? Kas ma ei või niisama hästi vallaametit pidada kui Kure Kaarel ja Mätta Mart? Kes võib selle vastu olla, ae?</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Muud ühti, kui et Mätta Mart ütleb — teie pilli- ja õllearmastus saada teid kogukonna-tööst eemal hoidma, ja nüüd, kus Rummu-Jüri jälle lahti, pidada meil tubli vallavanem olema.</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Kas ma tubli kogukonna-valitsus ei ole? Aga küll ma tean: Mätas kaetseb teise bassi pärast! Ennäh! Kas ta ise ka pilli ei puhu? Meile see Rummu ometi ei saa, meile mitte! Küll mina selle eest seisan. Teda tunneb ju kõik maailm!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <stage>(pead vangutades)</stage>
+                        <p>Ja siiski ei taha temast jagu saada — ärge olge liig julge tema kohta, Tapiku taat! Jah, kui te temast jagu saate, siis võite küll vallavanema paiga kohta julge olla — aga sellest ei maksa nimetadagi! — Meil on täna viimane proov ja täna öösel sõidame ära, seda tahtsin ütelda, Tapiku taat!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Jah, Kelk, jah, aga <stage>(pead sügades)</stage> sina oled tubli poiss, Kelk, — Mall? Ega tema ei lase!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Hm — ei lase? Mullu ju olite ka?</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>See'p see on ju, Kelk, sellepärast! Mullune voorivedu alles tal meeles! Välja oli saanud, et ma Tartus pilli puhusin — olen terve aasta otsa tema käest haugutada saanud. Mis nüüd heaks nõuks?</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Sellepärast peame veel nõu pidama — kas, kus teie tütar on?</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Eeva? Õue peal! Mis nõu temaga?</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Head päeva, peremees, ja — mis ma pidin küsima: kas Trahteri-Prits elab ikka alles teil, perenaise tädipoeg Rakverest?</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <stage>(pool-pahaselt)</stage>
+                        <p>Miks ep ela. Mis sa sest Püha-Jürist pärid?</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Mina muidu aga küsin!... Head päeva! <stage>(Ära.)</stage></p>
+                    </sp>
+                </div>
+                <pb n="175"/>
+                <div type="scene">
+                    <head>3.</head>
+                    <stage>Toomas. Mall.</stage>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Tea, mis tal peas! Eevat ja Pritsu ja...! <stage>(Puhub jälle.)</stage> Selle ilusa pilli pärast üksi võiksid nad mind juba valla-ametisse jätta. <stage>(Joob.)</stage> Oh sa kallike — Mall!</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>No-jah! Eks ma ütle! Seal sa istud ja viidad aega, ja mina, väeti tõbine inimene, kas lõppegu ära töö kätte! Ja mis sul... oh sa, jumalakartmata inimene! Pudel nina ees! Kuule, Toomas, mullu paastupühal alles oleme lauakirikust tulnud, ja täna sa vihastad oma väeti laulatatud naise halvatuks ja haigeks! Mina olen ükskord tasane ja pehme naine — kas sa siis sugugi pattu ei karda?</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Aga, Malleke-talleke, ma pidin ju valla-ameti pärast —</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Lakkuma ja pilli ajama? Ja muidugi. Ega nad nii lollid ometi ei ole — sind ametisse jätta, kelle tarkust kass sabaga ära kannab, kas jooda neid ja ennast kaelani täis! Oh ma, vaene vaevatud naine — <stage>(Kurvalt.)</stage> Mina olen ükskord tasane ja pehme, nagu Prits, armas inimene, ütleb, aga see mees — <stage>(Silmi kuivatades, järsku.)</stage> Niipalju sa hoolid, paha inimene, oma lihasest lapsest, kas ta seenetagu ära ahju taha — ehk sa küll tead, et minu tädipoeg Eevale kosja on tulnud! —</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Prits? Oh tühja! Niisuguse Püha-Jüri leiab ta igalt poolt!</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Ah soo! Või Püha-Jüri! Oh sina, tige inimene, nõnda palju sa armastad oma naise suguvõsa! Või Püha-Jüri? Pilli ta küll ei aja, tänu jumalale, nagu sina! Ma ütlen sulle, Toomas, see poiss ei ole mitte kullaga ära mõõta, nii tark ta on ja nii peenike! Esiotsa ta küll näis mulle pisut võõras, sest et ma peaaegu viisteist aastat enam ei ole Rakvere kihelkonda<pb n="176"/> saanud ja Kadri-tädi poisid pidid kõik minu meelest nooremad veel olema, aga Prits ju oli ikka terane poiss, ja kirjas, mis ta tädi käest tõi, seisavad nii armsad ja vagad sõnad — ja Eeva võib jumalat tänada selle peenikese ja vaga mehe eest! Tark nagu päevane valgus ja minu vastu pehme nagu siid! See oma naist mitte ei peta, nagu teised — ma ei taha nimetada —, kes voori lähevad vedama ja selle asemel Tartus kolm päeva laulupidu purjutavad, aga naised-lapsed tehku kodu tööd, et luud-kondid ragisevad! Mina olen ükskord tasane ja pehme naine, aga siis veel? "Püha-Jüri!" Sina!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Hea küll, Malleke, hea küll. <stage>(Kõrvale.)</stage> Seal ta vana leem jälle soeneb! <stage>(Suure häälega.)</stage> Pilli pärast peab mõnikord inimene...</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <stage>(järsku)</stage>
+                        <p>Oma laulatatud naist petma, ae. Ei tea, kes sinu kaagutamist tarvitab? Õige sind sekka vaja teistele!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <stage>(järsku)</stage>
+                        <p>Ah soo? Kas ma ei ole teine bass? Kuidas nad minuta läbi ajavad? Tule sa mulle ütlema! Kui ma ei ole mees pasuna peale, kas nad mind võtaksid Tallinna keisripidule, häh?</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <stage>(suuril silmil)</stage>
+                        <p>Kesse? Tallinna? Mis asi?</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <stage>(hädas)</stage>
+                        <p>Noh, noh? Kelk ju ütleb, meie koor ju läheb ka Tallinna.</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Vaat, ae? Või Tallinna? Ja Kelk jälle tagakihutajaks? No sealt sulle need suured puhumised tekivadki ja need kurjad mõtted! Kelk on kõige selle kurja tõstja! Minupärast kiitku nad kas tolm taga! Mina olen ükskord tasane ja pehme naine, nagu Prits ütleb, aga seda ma ütlen sulle, Toomas, sina jääd koju oma <stage>(nuuksudes)</stage> — oma väeti naise ja lapse juurde, kelle õnnest sa kübetki ei hooli!...</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Aga, Malleke-talleke, miks ma siis ei hooli? Ega ma teile seda sõidu-tüli kaela ei lao, näen selle vaeva üksi ära!</p>
+                    </sp>
+                    <pb n="177"/>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <stage>(järsku)</stage>
+                        <p>Ja muidugi! Meie kas seenetagu ära, lustid sa näed ikka üksi ära! <stage>(Paneb kirstu lukku.)</stage> Soo! Võti jääb minu kätte! Saab näha, kuidas sa lähed ilma raha ja riieteta üle värava välja! Mina olen ükskord tasane ja pehme naine, aga — kui sa täna mitte lahke pole Pritsuga — siis sa näed! Ega mind väetit muidugi kaua ei jäeta siia kurja maailma — selle — mehe — risuks. Anna siia pill! Parem ta kappi panna! Nõnda! Tule sa mulle küsima, kui sa oma pead armastad! <stage>(Õuest hüütakse: "Ema, mis ma panen patta?")</stage><stage type="inline">(Õue poole.)</stage>
+                            Oota, varsti ma tulen! <stage>(Mehele.)</stage> Mine tapa seapõrsas ära, seniks Prits tuleb väljast koju, et talle, väsind inimesele, midagi ette ka anda! Tõtta minema! <stage>(Ära minnes.)</stage> Vaata Tallinna! Seda tal vaja! <stage>(Ära.)</stage></p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Seda ma arvasin! Mis nüüd? Tema ja tädipoeg — mis ma kahe vastu teen? Oh ma, vaene patune! <stage>(Joob lonksu.)</stage> Aga sinu ma ometi tahan sest kiusatusest päästa! <stage>(Seab pärast joomist pudeli kõrgesse akna peale auku. Ära.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>4.</head>
+                    <stage>Prits (üksi).</stage>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Tuba nii ilus tühi — nüüd oleks õige aeg! <stage>(Kirstu ja kasti juurde minnes.)</stage> Tuhatnelja — kinni kõik! Kes harahakk mul seda on teinud? Muidu neil ikka võtmed ees! Ega — ega neil hais pole ninasse tekkinud? Oh tühja! Kadri-tädil kui oli nii ilusasti kirjutatud: esimene liigutav tükk, hahahaa! Kus ta on jälle? Oot, oot! <stage>(Toob vestitaskust välja.)</stage> Kogemata vanamoori lauluraamatu vahelt kätte! <stage>(Loeb.)</stage> "Armas õetütar Mall! Saadan sulle palju tuhat terviseid, ja saadan<pb n="178"/> sinu mehele palju tuhat terviseid ja sinu tütrele palju tuhat terviseid, ja jumala vaim on selle mõtte minu südamesse ilmutanud, et mu vanem poeg Prits sinu juurde kosja tuleb, sest et sa oma tütre nii ilusasti oled kasvatanud, nagu sul alati tasane ja pehme süda on olnud. Ja temal on oma trahter Rakvere kihelkonnas, ja arva teda omaks pojaks ja usu teda nagu mind ennast, sest ma kuulen, et teid jumal rahaga on õnnistanud! Ja tuhat tervist kõigile, ja sinu armas tädi Madli." Ahahah! <stage>(Paneb kirja kokku.)</stage> Kui ta teaks, et ma tädil Rakvere all ka kosjas käisin ja sealt Tapiku pere lugu põhjani kuulda sain! Kuidas va Malleke üsna vagaks läks kõike seda kuuldes. Pani mind varsti aita magama — oli ka rutt taga, sest sillakohtu kuulajad nuusivad mu kannul nagu hurdad: õnneks, et parukas ja tutsparid avitasid! Oi vennike, kui Malleke-talleke pajuperemeest tunneks: kallis ämmaeit paneks pagema nagu kana kulli eest! See Kelk või saan või mis ta on — seda ma ei usu! Ta vahib kõrvalt nii teravasti mu otsa — see laulupidu-tuhin tuleb õige nagu sarvilisest saadetud mulle appi! Eevaga ei taha lugu edeneda — see mulle ka üks kuri kõik! Seda hullemad on vanamoor ja Riinuke-roosike minu taga! Ohohoh! Kahju, et võtmeid kuskilt ei leia! Ma pean oma päris-riistu muretsema! <stage>(Ära.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>5.</head>
+                    <stage>Eeva (üksi).</stage>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Nüüd ajame eidega teineteist taga nagu vardad suka sees. Täna meil maja jälle taplust täis nagu reht tolmu, kõik va Trahteri-Pritsu pärast! See ka mõni tädipoeg on — mina teda ei salli silma otsas! Tea, mis eidel temast on? Nii<pb n="179"/> salalikud silmad mehel peas, käib mul ikka nagu kananahk üle ihu, kui ta mu otsa vaatab! Mina teda ei taha ja tuppa ma ka ei tule, kui ta jälle koju tuleb, mitte, kiusu pärast! Teised <stage>(nopib põllenurka)</stage> — teised on ometi ka targad ja nägusad ja — ja — mina ei mõista, miks Kelgu Kristjan eilsest saadik enam meil pole käinud? Tal oli muidu isaga ikka ema selja taga pilli pärast juttu! See on väga ilus nõu, see laulupidunõu, kui seda <stage>(mõtetes)</stage> keisripidu ometi kuidagiviisi näha ka saaks? Kristjanist küll seal keegi üle ei käi! Kui kenasti ta pulka lööb ehk "takti", nagu nimetavad, — esimene meister üle teiste! Jah, see on nüüd tõsi: küll on Kristjanil mõnus jutt, ja kui isa oma vallavanema-nõust ikka räägib — minu meelest vist Kristjanist saaks palju parem valitsus! Viimati, kui ta isa pilli kiitis, oli üsna võõriti tükk — vaatas nii palavalt minu otsa — üsna kuum käis rinnust läbi! See tuli sest soojast õue-ilmast. Et seda laulupidu sugugi — uih! kui sa hunti hüüad... ei, hunt ta küll ei ole, aga ometi — — —</p>
+                        <stage>(Hakkab tuhinal tuba pühkima.)</stage>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>6.</head>
+                    <stage>Kelk. Eeva.</stage>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Ei taha teda leida! <stage>(Näeb Eevat.)</stage> Heldekene — seal ta on ju! Eevakene, sina! See õnn on mulle jumalast tulnud, otsin sind kõik selle hommiku! Eevakene, õiekene, mina — kas oleme üksi? Kus ema?</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <stage>(kartlikult)</stage>
+                        <p>Ei tea, õues talitab vist. Kas kutsun?</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Jumal hoidku! Mul oli — isa ju tahab ka keisripidule Tallinna tulla — temaga juttu ja — sinuga ka.</p>
+                    </sp>
+                    <pb n="180"/>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Minuga?</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Ma pistaksin ta põue, nii armas ta on! <stage>(Võtab piiga käest kinni.)</stage> Eevakene, õiekene, ema praegu keelas mind sinuga kokku saamast...</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <stage>(kohkudes)</stage>
+                        <p>Kes? Ema? Mispärast?</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Mina olevat esmalt isa kõigele sellele laulupidule taga kihutanud...</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <stage>(ruttu)</stage>
+                        <p>See pole tõsi! Kas isa ise ei kipu kõigest väest Tallinna? Kas see sinu süü on? Ennäe juttu!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Ja sina võtvat Trahteri-Pritsu, ema õepoja, enesele kosilaseks —</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Mina? Heldene Jeesuke! <stage>(Pool-nuttes.)</stage> Kuidas ometi eit ise seda juttu võib minu peale tõsta? Usu veel vanemat! Mina Pritsu! Tema ise on Pritsu nõus, see on tõsi, — aga —</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>On? See on kurb lugu! Ja hale ka — ja võib väga kurjaks minna! <stage>(Kõrvale.)</stage> Kas ma räägin? Ei! Ei tohi! <stage>(Suure häälega.)</stage> Ja kui ma enam ei tohi sinuga kokku saada, Eevakene, siis on mul kõik magu elust ära ja õnne ega rõõmu kusagil enam!</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Minul ka!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <stage>(tähele pannes)</stage>
+                        <p>Sinul ka? Tõesti? Eevakene, kallis laps, ütle, Eeva, kas sul on kahju minust, kas on? Kallis, armas Eeva, kas on kahju?</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <stage>(hädas)</stage>
+                        <p>Sina — sina küsid õige kenasti, Kristjan.</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Eevakene, armukene, kas sa siis kõige selle aja üle mitte pole aru saanud, mis asi see oli, mis mind nii tihti teile kihutas? Ütle, kulla laps, kas sa seda ei näinud?</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>No-no pill ikka! Isa ju ütleb: teine bass!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <stage>(tuliselt)</stage>
+                        <p>Pill? Jah, aga mitte bass: südame pillid ja pasunad sees, mis sinu silmad on hüüdma pannud, kallis, kulla Eevakene! Armas ilu-õiekene, ma ei mõtle ju ööd-ilma kui päeva muu kui sinu peale sestsaadik, kostavad veel, kui sa<pb n="181"/> palmipühal teiste leerilastega esimest korda lauakirikust tulid! Kas sa, õieke, siis ei näinud, kuidas sind kiriku ukse ees kõigest südamest teretasin? Kas on meeles?</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <stage>(maha vaadates)</stage>
+                        <p>Küllap ikka?</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>On? Oh sa, südame lill! Ütle mulle, armuke, millal sa mind nõnda ära oled nõidunud, et ma päeva ega ööd muud ei näe kui sind? Oh kallis, kulla laps, mina ilmaski teist õnne ei otsi, kui sinu seltsis elada,    — kas — kas sa tuled mulle, kui ma viinad koju toon? Kas võtad mind, ütle?</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Kristjan — mis nalja sa ajad?</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kristjan:</speaker>
+                        <p>Nalja? Mina? Tõtt, igavest tõtt ma räägin? Kas jah, Eeva, jah?</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <stage>(tasakesi)</stage>
+                        <p>Jah!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <stage>(tuliselt)</stage>
+                        <p>Nüüd ma ei hooli enam kellegi keelust! Eeva, südame-õis, sa oled päris ingel, muudkui tiivad puuduvad! Kui sa teaksid, mis mure mind on vaevanud seni! Nüüd tulevad kosjad ja siis pulmad ja siis —</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Issa pojuke, Prits?! See oli mul hoopis meelest ununenud! Mis me sellega teeme?</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Kuule, tema on ju tädi "kirjaga" tulnud — kas tal pass on ka, või olemata? See on väga tähtis asi.</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Ega mina tea! Miks nii? Ega mina tema passi ei küsi!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Hm, hm! Sillakohtu härra muudkui soovib teada!</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Oh Kristjan, ema ju kiidab teda kes teab kui targaks ja vagaks, aga sina — sina oled ometi palju targem ja nägusam, ja kirjutaja ka, ja.</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Ja, ja, ja — kõige esimene mees halja taeva all, ae?</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Ja muidugi!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Oh sa, pai laps! Patused oleme kõik! Ja nüüd, Eeva, ma panen kosjapudeli siia, kui ma pärast parajal ajal vanematega kokku saan!</p>
+                    </sp>
+                    <pb n="182"/>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Tullakse! Triinu!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Jumalaga, südame-õis! Enne õhtut olen tagasi! <stage>(Läheb)</stage></p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <stage>(käsi rinnule kokku pannes)</stage>
+                        <p>Tänu jumalale!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>7.</head>
+                    <stage>Eeva. Triinu.</stage>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Eeva, heldene aeg, kus sa nokitsed? Ema kutsub aita — kes, kes sealt ära läks? Kas Rits?</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <stage>(hädas)</stage>
+                        <p>Mina — pole kedagi näinud. Prits? Võib olla, et mööda nurki luurib, kui koju on tulnud.</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Vahest nad ajasid üksi juttu? Eeval nõnda mõttes nägu. <stage>(Suure häälega.)</stage> Kas sa ei lähe vahest? Ema ei saa laudilt kausse kätte ja minul ka kondid —</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <stage>(pilgates)</stage>
+                        <p>Kondid vanadusest kanged! — Lähen, lähen!</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Kanged? Vanadusest? Minul? Ennäe kikknina! Tänu jumalale, niisugune kollanokk ma küll ei ole, kellel ila veel suust jookseb!</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <stage>(niisama)</stage>
+                        <p>Oota veel aastat kaks, Triinu, küll siis jookseb jälle! Siis teeme kumbki pulmad.</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Oh sa jumalakartmata jõmpsikas, noki aga teise ema lapsi, küll teised sind ka nokivad! Ei tea, kas saab sinul, mängijal, sedagi meest, mis minul, kui sa meelt ei paranda! Mina nägin unes, et sinu akna alusel õunapuul kõik õied külmast olid ära võetud. Küll sul tuleb nuhtlust, kust meel ei mõista mõtelda! Pane aga tähele!</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <stage>(niisama)</stage>
+                        <p>Triinuke, tuike, mis sa siis varsti pahandad? Kui ma muidu meest ei saa, siis sõidame keisripidule Tallinna, seal on see kosilaste keskpaik, vaat ae!</p>
+                    </sp>
+                    <pb n="183"/>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <stage>(kahtlaselt)</stage>
+                        <p>Tallinnas? Keisripidul?</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>No-jah! Sealt lähevad poisid pruuti otsima ja tüdrukud peigmehi — tuttav asi ammugi!</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Tõesti? A vahest valetad?</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Terve tõsi! Kõik vanatüdrukud saavad seal mehele — sina ka!</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Vanatüdrukud? Oh sa, päris piimahabe! Jumal sind veel karistab su sõimamise eest, oota aga! Ma ei taha rääkida, mis unenägu mulle täna näitas, et meie maja oli katuse alt maha põlemas, — iga laps teab, et siis kosjad korda ei lähe! Pane aga tähele, mis sa Ritsust veel näha saad!</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Triinu, kas tõesti? Triinu, sa oled üks kuldne inimene, ja kui sinu õigus jääb: varsti kingin ma sulle oma punasesiidi kirikupärja — tõesti, seda ma teen! Aga nüüd läki lendu!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>8.</head>
+                    <stage>Triinu (üksi).</stage>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Lõõrita aga peale, — küll sa laulad täna õhtu teist laulu! Kahju, et ma pahandusest nii targu rääkima hakkasin! Aga kust tema võib uskuda, et Rahteri-Rits teda maha jätab? Sest ta on nii suureline, aga uhkus tuleb enne langemist! Ritsul ka silmad peas, mis väärt inimene ma olen maailmas, ja küllap nende omad silmad suureks lähevad, kui ma neile sugulaseks saan. <stage>(Läheb aknale.)</stage> Oot, oot, vaatame järele, — ennäh! Pudel on valmis pandud, — oh sa, kallis mees! Selle ingli on jumal saatnud mind selle maja kiusatusest välja päästma! "Riinu," ütles ta eile veel, "ära sa usu, roosike" — nõnda ta, kallis inimene, ütles — "et ma selle<pb n="184"/> tühja Eeva pärast tulin! Sinu käsi mulle kõige kallim!" Ja ta silmad põlesid mu käe peal, millega ma sukasääre rahaga kinni sidusin, mis ma temale näitasin! Oh küll on see Rits mees, nii vagane ja rikas! Mis ma enam Tallinnast otsin? Seal ta kallis kosjaviin seisab! Rahteri-Ritsu Riinu Reier — kui magus, pikk nimi! Ega ma neile enne ei ütle, et ma kolmest kümnest möödas olen, näost olen ise libe ja valge veel küllalt! Las nad vihastavad endid surnuks — oota, Eevakene! Too siis ise keisripidult peigmeest. <stage>(Vaatab pudelit.)</stage> Seisa nüüd seal, tuvike, kuni ta sind tooma tuleb! Rahteri-Ritsu Riina! Perenaine läheb lõhki vihast —</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>9.</head>
+                    <stage>Triinu, Toomas.</stage>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Kui ta sind pudeli eest leiab — seda ma usun. Uih, häbi!</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Pude-pudeli eest, ae?</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Mis sa rüüpad seal? Oh, minu oma pudel vist!</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Rüüpan? Kui siin majas vahest küll rüübatakse — mina see lakevasikas mitte ei ole ja —</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Lorise ka veel? Kasi töösse! Vasikale jooki vaja! Küta! <stage>(Ära.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>10.</head>
+                    <stage>Toomas (üksi).</stage>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Mis ta seal katsus ja nuuskis? Vahest leidis minu pudeli? Ei, alles on — tule sina, jumalake, appi, mis see<pb n="185"/> on? Pudel on karva heitnud! Teine oli must — see on ju punane? Oh sa, tüdruku-naru! See on Riinu vedelimagasin! Sellepärast ta nii kohkus! Tühi vanatüdrukuid uskugu! Aga seda parem — saab mulle mõneks ajaks, ega ta taga pärida ei tohi! Tubli märjuke! Jumal omakseid maha ei jäta! Ja seda läheb mulle vaja, väga vaja, minu süda on väga raske selle pilli ja sõidu pärast! Lukkus! Kurjemat looma kui laulatatud naine siin maa peal ei olegi, ja nüüd veel minu Malleke-talleke! Sinul hea siin — sina oled kõigest kiusatusest lahti! Ja saab näha, mis sõnumeid alles kohtumajast mulle saadetakse, kas ma jään vallavanemaks? Oh, maailm on kuri ja kade, ja see pill, see sõit! Ilma minuta nad läbi ei saa, ja Rummu-Jüri? Tühi jutt! Selle ma tunnen saja sammu pealt ära, ja mis eest siis Kelk kirjutaja on? Aga see sõit, see sõit! Kui ma teaksin...</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>11.</head>
+                    <stage>Toomas, Prits, Mall, Eeva.</stage>
+                    <sp who="#rummu-jueri #mall #eeva">
+                        <speaker>Prits, Mall, Eeva:</speaker>
+                        <p>Peremees, isa, Toomas, kas kuulsid, kas tead ka?</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Mis ae?</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Sina oled ametist lahti! Säh sulle!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Ke-kes ütleb?</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Prits tuleb kohtumajast! Nüüd said kätte!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Oh, ma ütlesin küll: sina oled kiusatusest lahti! Aga mina!</p>
+                    </sp>
+                    <stage>(Eesriie.)</stage>
+                </div>
+            </div>
+            <pb n="186"/>
+            <div type="act">
+                <head>TEINE VAATUS</head>
+                <div type="scene">
+                    <head>1.</head>
+                    <stage>Prits (üksi).</stage>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Kui va sarviline appi tuleb, siis saan täna hundile saba taha! Kuidagiviisi ei võtmeid leida, aidas ei ole rahalipakatki võtta — siis peab siit saama! Sest lipitsemisest naiste-reode ees on himu mul ammugi kaelani täis! <stage>(Ahjule minnes.)</stage> Ametiriistad paneme siia, seda nüüd ei köeta! Ennäe, see aken nagu minu jaoks loodud, siia ehitaja augu jätnud! Pisut kõrge? Pole viga! Nüüd võiks õhtu ka tulla, — ennäh — tuvikesed tulevad!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>2.</head>
+                    <stage>Prits. Mall. Eeva, Triinu. (Toitu tuues.)</stage>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Pane siia, lapsuke, nõnda! <stage>(Triinu poole.)</stage> Rutta, lõuna muidugi hiljaks jäänud! Varsti saame lõunat, armas tädipoeg, varsti. <stage>(Eeva vastu salaja.)</stage> Et sa mul mitte nii kärssus nina ei näita Pritsule, seda ma sulle ütlen. <stage>(Suure häälega.)</stage> Eeva, kulla laps, too leib laudilt maha, sinul noored jalad!</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <stage>(vahele)</stage>
+                        <p>Varsti, perenaine, juba lähen — <stage>(Kukub maha.)</stage></p>
+                    </sp>
+                    <pb n="187"/>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Mis vana inimene läheb õnnetust otsima! Paras sulle! Sina oled ikka see ninatark. <stage>(Eeva poole.)</stage> Jookse, laps, ruttu. <stage>(Kõrvale.)</stage> Mis sa ronid nagu täi? Oota, küll ma sulle näitan. <stage>(Suure häälega.)</stage> Ma ütlen ikka — noored jalad, noored jalad! Millal mina või Riinu nii ruttu jõuaksime?</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <stage>(Pritsule kõrvale)</stage>
+                        <p>Nüüd sa näed, kallis Rits: oh küll on raske siin majas elada! Ka-kas sa juba nimetasid?</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <stage>(poole häälega)</stage>
+                        <p>Küll ma pärast jutustan. <stage>(Kõrvale.)</stage> Pagan teda võtku!</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Kasi aita, Riinu, too sealt maast nurgast need kolm õllepudelit mäele! Korista kondid kokku!</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <stage>(ruttu)</stage>
+                        <p>Mina lähen, eit, tema luud valutavad veel. <stage>(Kõrvale.)</stage> Ehk saan siit lahti!</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Sooh? Mis sinul minu luudega tegemist. <stage>(Kõrvale.)</stage> Mall ei salli mind siin olemast, aga ma pean noorust näitama — küll ta on üks kallis mees! <stage>(Ära.)</stage></p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <stage>(Eevale)</stage>
+                        <p>Kus sa kipud? Siin on tööd küllalt! Säh! <stage>(Pritsule.)</stage> Jah, armas tädipoeg, sinul on õigus: see on kõik selle Kelgu süü! Kallis jumal: mina olen ükskord —</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <stage>(vagalt)</stage>
+                        <p>— tasane ja pehme naine.</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Ja sinule on jumalast antud, et sa kelmi ära tunned —</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Kelmi? Tõesti? Mis kelmitükki siis Kelk juba on teinud?</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Veel mitte, aga — kes teab, kes teab? Jumala teed on imelikud: kirjutajal ei ole vaga vaimu südames ja —</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <stage>(kindlasti)</stage>
+                        <p>Angerjas Kelk küll vist ei ole!</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Pea sina oma nokk! Mina olen ükskord —</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>— tasane ja pehme naine — jah, Malle-tädi, sinule on Saalomoni tarkust antud, ja iga väimees võib püha Issandat tänada nii rabeda ja tulise ämma eest.</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Rebasesaba!</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Kuula, kui peenike ta on — nagu siid! <stage>(Eevale kõrvale.)</stage> Oota, sina karuohakas. <stage>(Suure häälega Prit<pb n="188"/>sule.)</stage> No ei tea ka ühti — sina ka kiidad liiga! Iga väimees ka ei austa ämma nii kui sina, Prits, lapsed väga hoolimatuks läinud meie päevil! Ja mina olen väga selle armsa kirja nõus, mis Madli-tädi kirjutanud, aga mis Toomaga teha? Oh küll on see mees mulle ristiks loodud maailma!</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Oot, oot: paneme talle kirbu kõrva! <stage>(Suure häälega.)</stage> Küll me Tooma-onust jagu saame, aga see kirjutaja, tädi, see Kelk. Sellega ei ole õige asi!</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <stage>(imeks pannes)</stage>
+                        <p>Ei ole õige asi?</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Tema viib vanamehe Tallinna, vaim on mulle seda ilmutanud! Seda sa näed!</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <stage>(järsku)</stage>
+                        <p>Seda ta ärgu lootku! Mitte märki!</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Aga, armas tädikene, jumala teed on imelikud — kui nad ööajal ilma sinu kalli teadmata —</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Võti on minu käes — kus ta läheb palja kätega! Mina olen ükskord —</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>— tasane ja pehme naine, aga, kallis tädi Mall: kui see kuri Kelk teda käsib — parem oleks, kui ma selle öö siin valvan, sest kurat käib ümber kui möirgaja lõukoer ja —</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <stage>(ehmatades)</stage>
+                        <p>Oh sina, kallis Jeesuke, — leemepada üle keenud! <stage>(Ära.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>3.</head>
+                    <stage>Eeva. Prits.</stage>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Kurat teda oma leemega — oli nii ilusal järjel! Ma meelitan teist — see on noor veel ja rumal!</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Head nõu see Prits ei pea — kui nad aga Kelku ei nõela. <stage>(Suure häälega.)</stage> Isa on õues, Prits, mis sa ennast siin minuga vaevad?</p>
+                    </sp>
+                    <pb n="189"/>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <stage>(suure häälega)</stage>
+                        <p>See on mulle üks armas vaev, õiekene, sest vaga Siirak ütleb, et aus naine on kui taba ja lukk maja ees, ja seda taba siia kirstu ja kapi ette poleks vajagi, kui sina siin toas oled! Sest sinu armas nägu on — isegi juba sõlmeks küllalt — igale mehele.</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <stage>(naerdes)</stage>
+                        <p>No-noh — pea-pea —</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Kanake, kassike, — jumala vaim on meid ometi kokku andnud. <stage>(Kavalalt.)</stage> Kas palju veimi siin kirstus sul juba valmis on? Hea jagu vara, aeh?</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <stage>(kindlalt)</stage>
+                        <p>Kuule, Prits, selge sõna on selge sõna: mind jäta sa hoopis rahule! Sinu kosjaviinad viskan ma aknast välja, kui sa ilmaski tõe pärast nendega tuled, seda ma ütlen sulle suu sisse! Jumala vaim? Alpuse vaim on sind siia saatnud ja rebase vaim sind kiidab kõigi nende vagade sõnade peale — mind sa sellega lõksu ei püüa! Minu mees peab tõsine olema ja ustav ja lahe, mitte niisugune Püha-Jüri, kes veimekirstu taga küsib, — ahahah! Mine küsi ise ema käest võtit, see on tema veimekirst ja vara on seal omajagu ka — kui sa varastada tahad! Kohus küsib muidugi juba, kas sul passi on ka...</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Soo? Vaata vallatut! Selle eest ma maksan sulle palka! <stage>(Püüab teda kinni saada, Eeva jookseb uksest välja sel silmapilgul, kui Kristjan tuppa astub.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>4.</head>
+                    <stage>Prits. Kristjan.</stage>
+                    <sp who="#kelk">
+                        <speaker>Kristjan:</speaker>
+                        <p>Pagana päralt, võtku kuri!</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <stage>(vihaselt)</stage>
+                        <p>Soo, soo! Kus kanad kaagutavad, sealt pole kukk kaugel. See'p see pillimeister vist ongi!</p>
+                    </sp>
+                    <pb n="190"/>
+                    <sp who="#kelk">
+                        <speaker>Kristjan:</speaker>
+                        <p>Vist! Ja kus kanakarja nimetad, seal alati rebane lähedal luusib! Tahaksin sinu mustri-tööd ka hea meelega tunda saada, — mis saba sa õieti kannad?</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <stage>(hoobeldes, tigedalt)</stage>
+                        <p>Seda võivad mu pruut ja mu sugulased sulle iga päev kuulutada! Kui sa Trahteri-Pritsu pulmaks pilli puhud, siis sul silmad lähevad veel lahti! Oota seniks!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <stage>(niisama)</stage>
+                        <p>Ei vist oota! Trahteri-Pritsust ei ole Rakvere kihelkonna kirikuraamatus midagi lugeda, ja mis Madli-tädi sinust, oma kallist pojast, teab, seda saab aeg arutama! Tal on väga ilus kiri oma vana ea sees, sellel Madli-tädil, — pidin seda lugedes väga imeks panema. Saab näha, mis pilli me teineteisele puhume omal ajal! Muudkui niipalju ma sulle ütlen, Trahteri Prits Treier: tuleb sulle veel korra meelde Eevat karjule ajada, siis olgu jumal sinu kontidele armuline! Seda pea meeles! <stage>(Ära.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>5.</head>
+                    <stage>Prits (üksi).</stage>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Mis see oli? Tema ähvardab ka? Ja Eeva? Passi küsis? Vist ta on järele hakanud kuulatama? Ei ole õige asi! Ei ole aega enam — nüüd peab ruttu tegema! Kui ma selle öö veel aega saan — jah, selle öövahi-nõuga oleks kõige parem —, siis nad pühkigu mu jälgi järele! Kuidas ma selle va Riinu sukasääre — — — Ennäh! Katsume ometi!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>6.</head>
+                    <stage>Prits. Triinu.</stage>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <stage>(pudelitega)</stage>
+                        <p>Rits, sa armas, kallis mees! <stage>(Komistab üle ukse, pudelid maas.)</stage> Püha Jeesuke!</p>
+                    </sp>
+                    <pb n="191"/>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Pagan võtku! <stage>(Suure häälega.)</stage> Tuike, terake, ennäe, mis äpardus! Kõik see kallis õlu maas! Mis nüüd perenaine ütleb? Oh sa, vaene lapsuke!</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Jah, see küll hale asi, ei tähenda head kosjakäiku! — Ka-kas sa juba neile rääkisid? Hm, hm!</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Ma annaksin sulle viimse kopika hinge takka ära paha paranduseks, aga — pole ligi!</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Küll sa oled üks armas mees, kallis Rits, aga mul enesel ka on, hm, oma kopikas, muudkui kõrts kaugel!</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Oh, mis mul see tee on sinu eest, Riinuke-roosike? Midagi! Varsti jooksen! <stage>(Kõrvale.)</stage> Tuline tuleb appi! <stage>(Suure häälega.)</stage> Sina oled ju mu ainus armuke, kelle eest ma tulest ja veest läbi lähen! Kus sul sukasäär seisab? Too aga siia, armuke!</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Varsti ma kargan! <stage>(Kõrvale.)</stage> Oh kuidas ta mind armastab! See on üks päris inglilaul! Küll ta on üks kallis inimene! <stage>(Ära.)</stage></p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Õnn hakkab õitsema! Naiste edevus minusuguse kukrule parem kui arsti abi! Kui ta aga terve sääre kaasa tooks! Ohoo! Vanamees tuleb!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>7.</head>
+                    <stage>Prits. Toomas.</stage>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Küll ma olen üks vaene inimene! Vallavanemaks ei ole enam lootust, see on kurb, väga kurb lugu! Jumal teab, mis sest keisripidust sedaviisi veel peab saama! Kelk, hea mees, küll on mulle oma pilli tänaseks laenanud, aga mis sa võõra riistaga teed? Läheb alati viltu. Kui aga Malleke-talleke ei kuule! Oh häda-lugu! Ja kui ilusasti ma ometi<pb n="192"/> oleksin vallavanemat teinud keisripidul Tallinnas — täht rinnas ja pill suus! Mis nüüd keiser sellest peab mõtlema? Häbi küll! See on see Mätta Mart olnud, kes seda nõu neile on andnud, mind lahti lasta. <stage>(Läheb pudeli-akna poole.)</stage></p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Oot, oot, teda on sarviline mulle saatnud!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Mätas jah! Muud ükski! Kõik kadedusest!</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <stage>(suure häälega)</stage>
+                        <p>Jumala rahu olgu sinuga, onu! Ei ole tõsi!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <stage>(kohkudes)</stage>
+                        <p>Heldeke — mis sa jändad! — Mis ei ole tõsi?</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Vaim on minu siia ajanud...</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Püha-Jüri. <stage>(Suure häälega.)</stage> Vaim? Mis siis vaim sind, väetit, nõnda vaevab? Segab mu joomist!</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Kallis Tooma-onu, tema teed on imelikud, ja sinulgi veel saavad silmad lahti pääsema — kui ma läinud olen —, sest et vaenlane, kes sinu läve tallab, pole mitte Mätta Mart, vaid ajab pilli taga ja pasunat ja mõnda muud veel!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Pill on kallis asi — mis sa segad? Mitte Mätta Mart? Kes siis?</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Kelk ta on! Kristjan Kelk! Kui sa ei usu —</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Mine metsa! Ei ma usu ühti! Kelk? Hullemaks veel!</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Kuidas sa muidu oleksid valla-ametist lahti saanud. Tema nõu käib üle teiste! Ja küll sa näed, Tooma-onu, mis sulle sellest veel sünnib, vaim on mulle ilmutanud, et tema'p see olnud, kelle kihutusel teie kallis perenaine teile keisripidu ära keelab. <stage>(Kõrvale.)</stage> Oot, oot, ma löön talle siin ka lõksu.</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Tohoo? Kelk, ae?</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Muidugi jah! Aga mina olin Malle-tädile teist nõu andnud, kuidas mulle ilmutati, sest vaim teab, et tädil pehme süda on ja — —</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Soo? Seda vaim teab? Imet ka! Siis ma vaimu väga ei usu!</p>
+                    </sp>
+                    <pb n="193"/>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Ära pilka, kallis Tooma-onu, sest... <stage>(Kõrvale.)</stage> Mis ma nüüd ütlen temale? <stage>(Suure häälega.)</stage> ... sest — jah! tema väga häbeneb sulle õigust andmast, aga kui sa ise oled meheks ja tood pilli kapist välja, siis ta laseb sind minna küll. Nõnda on vaim mulle ilmutanud, et ma talle nõu andsin! Aga salaja pead seda tegema, pimedas, ilma tema nägemata, muidu ta ei lase! Mina tunnen teda! Nõnda läheb!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Mina tunnen ka, aga enne ma veel temast kunagi pole niisugust kometit näinud. Ise välja tooma? Pimedas? Pilli? Aga võti? Võti tema käes!</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Olgu! Sa oled ju ise kapi ja kirstu peremees — kui sa kaaned tõesti lõhud: kas see ei ole su enese oma? Ja tema on siis sinu nõus, kui ta su julgust näeb. <stage>(Kõrvale.)</stage> Las ta teeb mulle ise lahti!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <stage>(hoopleb)</stage>
+                        <p>Ja muidugi, kui ta mu julgust näeb! Prits, seekord on sind tõesti vaim ajanud! Sinul on õigus, — ja Kelk? Vaata meest! Tema tahab mind tagasi hoida? Ja on Mallele nõu andnud? Ja muidugi on see tema süü, et ma ametist lahti saan — ta'p ikka ju rääkis Rummu-Jürist, et ta pidada lahti olema, et nad nüüd mind sellepärast ei usu —</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <stage>(pärast ehmatust)</stage>
+                        <p>Oh jõledust! Rummu on ju Tallinnas jälle kinni! <stage>(Kõrvale.)</stage> Tuline lugu! <stage>(Suure häälega.)</stage> See võib olla, et tema — tema ise vahest Rummuga koos on, aga — mis sinul temaga tegemist, Tooma-onu? Ja, Tooma-onu, — meie kaks peame kokku hoidma! Tooma-onu, sest vaim on mind ajanud sinule abiks olema, kui sa üksi selle raske asjaga õigeks ei saa, sest meie oleme ju lähedased sugulased ja, Tooma-onu, ja kuule, Tooma-onu —</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <stage>(ühes nõus)</stage>
+                        <p>Jah, Prits, muidugi, pimeda aegu ma tahan katsuda jah! Aga ütle Mallekest-tallekest! Temal ikka nii kirjud tembud! Tema häbeneb ise andmast? Ega mina teda selle eest poleks tapelnud. Aga hea küll! Kui ma aga<pb n="194"/> pilli kätte saan! Kuidas see Kelk nii tige võis olla? Kuhu nad ilma teise bassita lähevad? Rumalust ometi! Ja kuule, Prits, ma küll olen sind mõnikord Püha-Jüriks pidanud, aga see nõu on sul õige kena, väga hea! Ja nüüd, kus meie ühes nõus oleme, nüüd mul läheks keelekastet vaja selle pika peavaevamise peale — kus ta jälle? — — oot, oot.</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Teeme veel julgemaks! <stage>(Suure häälega.)</stage> Tooma-onu, pea kinni, Tooma-onu, kas ei ole jumala sõrme näitus? Vaim sundis mind Toru kõrtsist mööda tulema ennist ja siia aknaauku olen ma karastuse tallele pannud! Sest vaim on minu südant liigutanud sinu tütre Eevakese kohta, kellele mind kosja saadeti. Ja siin on kosja... <stage>(Leiab võõra pudeli.)</stage> Pagana päralt! Ei ole minu! Karva heitnud?</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <stage>(naerab)</stage>
+                        <p>Sinul ka? Seekord, tädipoeg, on vaim sind petnud: see on va Triinu viinamagasin, selle pudelid heidavad tihti karva!</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Riinu?</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Anna aga siia! Selle kosjaviina-kappi ma tunnen! Ega ta ei hammusta! Ennäh! <stage>(Kelk tuleb.)</stage> Seal tuleb ise — õige parajal ajal! Sellega ma pean aru! —</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Kelk? Ei ole aega! <stage>(Ruttu ära.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>8.</head>
+                    <stage>Toomas. Kelk.</stage>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Mis tuli talle nüüd püksi lõi?</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Peremees, ma tahtsin paluda: kas võite mulle ruttu oma hobuse laenata sillakohtu härra juurde sõita? Kogukonnaamet on praegu sealt kirja saanud Rummu pärast!</p>
+                    </sp>
+                    <pb n="195"/>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <stage>(pilgates)</stage>
+                        <p>Sooh? Kas on ikka veel lahti?</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Lahti jah — ei ole kaugelgi! Üsna, kelm, meie lähedal!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <stage>(pahaselt)</stage>
+                        <p>Jah, kelmid võivad küll väga meie lähedal olla, sellepärast ma kaotasin ju valla-ameti ja teine bass on kapis lugu taga kinni. Aga mõnikord on naistegi sugulane siiski võõrast õigem ja veri on paksem kui vesi! Küll ma sõidan, kirjutaja-härra, sõidan siiski Tallinna, püüdku siin Rummut kodu taga kes tahes! Teie lasete mind tema pärast ametist lahti, aga kes Tallinnas istub luku taga, ae? Ütle veel, et ma vallavanem ei oleks! Ütle veel!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Tallinnas? Mis jamps see on?</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Mina olen targem kui teie kõik ja kelmi ma tunnen kolme sammu pealt ära! Küll ma kõik kätte saan, mis varjul on!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <stage>(peremehe käes pudelit nähes rõõmsalt)</stage>
+                        <p>Kätte saite, peremees? Leidsite pudeli? Kas ta ise juba tunnistas? Olime aknale valmis pannud kosjaviinad! Ma tänan südamest, peremees, südamest tänan, et olete vastu võtnud! Tahame seda teile eluks ajaks tänada ja meeles pidada, tema ja mina! —</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Tema ja sina? Meeles pidada? <stage>(Kõrvale.)</stage> Tule, jumal, appi, poiss on selle vana lakekoera — kosilane? Sellepärast ta, vana ronk, oli nii ninatark! <stage>(Suure häälega.)</stage> Aga, Kelk, kas sa tõesti seda va tüdruku-roni tahad võtta? Mõtle ise, ega ta enam laps pole, ja —</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <stage>(naeratades)</stage>
+                        <p>Oh need paar aastat vahet, minge ikka! Neid ju ei maksa nimetada! — Kus naised on ka?</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Küllap mina tean? <stage>(Kõrvale.)</stage> Ta on püstihull! <stage>(Suure häälega.)</stage> Aga, Kelk, tema ju võtab viina ja — see vana konts!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <stage>(kahtlevalt vanamehe otsa vaadates)</stage>
+                        <p>Peremees, hm! Ma kardan, teil enesel on pisut liiga saanud täna lõuna — kuidas muidu seda laimdust võiksite ise enese maja peale tõsta? Nii noor tüdruk alles! Aga see on naljajutt! Ma lähen<pb n="196"/> otsin ta üles, muudkui — jah! Mispärast ma tulin — täna õhtu peame viimase proovi enne sõitu, sellepärast ma ise sillakohtu sõita ei saa — väga kauge koju minna! Olge nii hea, hobuste pärast, armas äiataat!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <stage>(ägedalt)</stage>
+                        <p>Ohoo?!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Saatke oma poiss hobusega ja minu kirjaga sillakohtu, väga hädalise asja pärast — homme võib hilja olla!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <stage>(järsku)</stage>
+                        <p>Kuidas ma siis ise Tallinna saan? Sina oled ju õige kena? <stage>(Kõrvale.)</stage> Pritsul oli õigus. Ei pilli ega hobuseid taha mulle jätta!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Eks teil ole seniks minu pill? Ja homme sõidate minuga koos, kui õhtu hobused ei peaks tagasi olema, armas äiataat. <stage>(Kõrvale.)</stage> Tea, mis tal täna on?</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <stage>(järsku)</stage>
+                        <p>Äiataat? Mis äiataat? Pead sa mind selle vana lakevasika vanemaks? Minupärast saada teine hobune järele, sest et sa kohus oled, teine jääb koju! Küll mina teise bassi kätte saan ja Tallinna ka — sina mind keisripidust tagasi ei pea! Sinu sõgeda pilliga ei saa keegi pagan õigeks!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>See pill ja pidu on ta pea paigast üsna ära ajanud! Tea, mis vanamehel täna on! <stage>(Suure häälega.)</stage> Head päeva, armas isa! <stage>(Ära.)</stage></p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Isa? Jälle ju? Rutta aga oma kena armukest otsima, ahehoh! Poiss on jampsiks läinud! Riinu kosilane! Ohohoh!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>9.</head>
+                    <stage>Eeva. Toomas. Mall.</stage>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>No muidugi! Sinul siin aega irvitada. Mis ma ometi, väetikene, olen pattu teinud, et jumal mind selle mehega on nuhelnud? Kas sa paremini ei mõista oma last<pb n="197"/> noomida, et ta ema sõna võtab? Ta, kangekaelne loom, ei oska oma õnne mikski panna!</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Aga, eit, Prits ei ole ju minu õnn! Kuidas ma siis teda pean mikski panema?</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Sest et sa loll oled! Kas rikas emanda-põli ükskord õnn ei ole? Tead sina, rumal, ka, mis õnn on? <stage>(Mehele.)</stage> Aga sellest, et sina, sitke, igal pool mulle vastu paned, sellest see laps on ka nii kiusakaks kasvanud!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Hm, hm — — — Ega ma pilli asjus ka vastu ei panegi!</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Seda ma usun! Kust sa — <stage>(Näeb pilli.)</stage> Kallis aeg! Seal on ju jälle — kust sa selle jälle välja võtsid? Oh see mees! See mind ometi siia maa peale ei jäta! Kust sa selle said, ah?</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Aga, Malleke-talleke, see pole ju veel minu oma! Kelk aga laenas!</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Kelk ja jälle Kelk! Ära sa usu, et ma ei tea, mis ta sinust tahab ja kuhu ta sind...? See Prits on mulle jumalast siia abiks saadetud! Mina olen ükskord tasane ja pehme naine, aga — — —</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Jah, vaim on teda ajanud mulle ütlema, mis ma pean tegema ja —</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Ke-kes? Vaim? Sind? <stage>(Näeb pudelit ka.)</stage> Issa pojuke? Kust said?</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Oh jumal — nüüd isa käes!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Aknalt leidsin... kosjaviinad! Hm.</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Taevake — Kelgu Kristjani!</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Kosjaviinad? Ah, Pritsu! <stage>(Suure häälega.)</stage> Või kosjaviinad? Ja sina, sõge, lakud ta varsti tühjaks? Ennäe, kuidas õnn majasse tuleb, ja sina, rumal laps, ei oska seda au kiitagi, mis sulle selle mehega saab: tõsta sina kaks kätt üles taeva poole, kui sa ei seeneta ahju taha!</p>
+                    </sp>
+                    <pb n="198"/>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Aga, eit, kas need siis siin, tema viinad, vastu võtate?</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Muidugi, mis sellest meil keelata?</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Muidugi! Sina kallis aeg! Kui mul oleks noores põlves seda õnne olnud mis sinul, siis ma, väeti, poleks nüüd ka jäänud kõige maailma tallata oma nõdra ihuga! Minu lapsel saagu paremad päevad!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>No-noh! Malleke-talleke! Pill on kallis asi, ja inimene võib mõnda tema pärast ära kannatada, aga millal ma sind juba tallasin? Mine metsa!</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>No seda sa ka katsugu veel? Mina olen ükskord tasane ja pehme naine, aga —</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Ema, eit —! Mina ju võtan ka need — viinad seal hea meelega — —</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Vastu? Tõesti? Oh sa, hea laps!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Aga, Eeva — laps — ära enneaegu — need on ju — kuule, ae, enne —</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Kas sa peast rumal oled? Sina, jumalakartmata mees, hakkad veel keelama? Mina olen ükskord tasane ja pehme naine — ja tule, hea laps! Sina oled ikka mu sõnavõtja, armas Eeva, olnud, see on ilus ja õige, et sa kuuled, mis katekismus ütleb, ja mis ilusad pulmad sul veel saavad ja mis rikka mehe selle eest!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Aga, Malleke-talleke, see ei ole tõsi! Need viinad...</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Sooh? Mitte tõsi? Kas ma ei tea, kui jõuka pere poeg tema on? Neil on vara! Tule, laps, otsime ta üles, kas tal ei lähe aeg igavaks! Kosilasega peab õrnalt ümber käima, seda sa tead! Need on viinad!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Pilli pärast peab palju ära kannatama ilma peal — aga tema on, Malleke-talleke, käest nõnda ära! Nüüd võtab Kelgu viina vastu? Õnneks unustas pilli ära! Oh sa, kallis teine bass!</p>
+                    </sp>
+                    <stage>(Eesriie.)</stage>
+                </div>
+            </div>
+            <pb n="199"/>
+            <div type="act">
+                <head>KOLMAS VAATUS</head>
+                <div type="scene">
+                    <head>1.</head>
+                    <stage>Eeva. Toomas.</stage>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Mis sa'nd muidu keelad, taat, kust ta "võõra" on? Ma ju teadsin ammugi, et ta kosja tahtis tulla, — ennäh, eks need ole tema viinad?</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Mis sa — tont sind võtku sinu edevusega, kahe käega enam poisile kipud — tema ju tahab Riinut!</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Prits? Triinut? Ahahah! Tõesti? Minupärast võtku ta lombakas Karja-Kärt. Mina ei kaetse! Seda parem! Ahahah!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Prits jälle? Seda parem! Sina oled täna vist peast nõrk!</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Isa — mina, mina räägin ju temast, ja Triinu ja eit ja Prits on ju ka ühes nõus, ja meie oleme kahekesi hoopis üksi — heida sina siis meie poole, taat!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Pergel ka veel! Teie poole? Teie poole? —</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Ja kui sa laulupidule lähed...</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Laulupidule mina! Kust ta teab?</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Kelk ju läheb ka —</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Kelk? Kelk? Temaga on teine lugu! Olgu mis ta on, aga meie, mehed, paneme kõik vaevad mikski keisri ja isamaa eest —</p>
+                    </sp>
+                    <pb n="200"/>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Siis — võta mind ka ligi!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Li-ligi?! Sind! Keisripidule? Kas sa hull oled? See laps on käest ära! Kallis Jeesuke, ja mina ise pean veel tea mis kiusatusest läbi minema, enne kui ma teise bassi ja riided ja — ei tea, millega ma veel kapi lahti saan? Mis sina, rumaluke, kes kellegi bassi ei mõista, seal tahad teha? Ja mis Riinu sellest ütleks?</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Oh, mis ma Triinust hoolin? Mis see talle korda läheb?</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Minu vaese pea käib nagu veskiratas ümber — kas see minu laps on? Kas sa ei häbene, teise, võõra peigmehe seltsis...</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Teise, võõra peigmehe — mis?</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Keda sa õieti tahad võtta, tüdruk? Seda ütle mulle nüüd!</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Noh — seda ikka! Kelgu Kristjanit!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Kelku! Oh sa, rumaluke! Kas sa siis ei kuule? Kristjan ju kosib meie Riinut.</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Kristjan? Oh, tühi jutt!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Tühi jutt? Ta ju ise rääkis minuga — seal on Riinu viinad! Ja sina ju olid ema nõus — tuhat teist aru saagu! Üks hullem kui teine.</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Oh sa, heldene Issand taevas!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Seal on Riinu ise — küsime temalt!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>2.</head>
+                    <stage>Triinu. Eeva. Toomas.</stage>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Soo — on ise toonud! Oh sa, kallis, armas mees! Raha ta annab mulle pärast kätte, need 49 rubla 50 kopikat —<pb n="201"/> ega ma temale nii peenikest raha võinud anda, oleks ju häbi olnud! Kuidas see oli: "Sinu pärast ma jooksen tulest ja veest läbi, roosikene!" Oh see on üks elav ingel maailmas!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Riinu, tule siia!</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Jah? Juba väljas? Ritsu viinad! Las nad ajavad silmad ammuli nüüd!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Kas sa tunned seda pudelit, ae?</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Miks ep tunne? Eks tema kosjad!</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Kelle "tema"?</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Noh, minu peigmehe, kui sa veel ei tea! Näed sa nüüd, Eeva, et unenäod tulevad jumalast? Juba minu õnnis ema...</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Ära lorise, lakevasikas! Parem oleks sul Liiva-Hannusele minna!</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Ahah? Või Liiva-Hannusele? Siin majas on muid lakevasikaid, kui mina olen, ja uhkus tuleb enne langemist ja vaese ohe kuulukse kaugele! Teised võivad nüüd sõrmi lakkuda ja ise Tallinna minna peigmehi otsima, minul, tänu jumalale, pole seda vaja ühti. Mis ma ütlesin unenäost, ae, et puud seisid raagus sul enne koidu tõusu? Aga tema teab ka, mis inimene väärt on maailmas, ja jumal on väetite eestkostja! Las ta neid kipitab! <stage>(Ära.)</stage></p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Kas usud nüüd? Las nad kerglased teha mis tahes. Mehi ei või — hm, hm, mõnda küll ei või palju uskuda. See vana kont! Küll sina mehe saad, ja kui Pritsu tahad...</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Hea küll — minul on himu ära, taat, jätame kõik pooleli!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Teadu pärast, laps, teadu pärast! Ja mis sina ka Tallinnas teed? Kui sa veel pilli puhuksid! Minge metsa! Jumala õnn, et ta sest mõttest kinni ei pea! Naiste paik on kodu voki taga, mees peab ilma tööd ja vaeva kannatama keisri ja isamaa eest! Ja teine bass on raske, väga raske,<pb n="202"/> iseäranis vene keeli! Kuule, Eeva: ega sa eide võtit ei tea? Seda jumal ka teab, mis mõtted naisel mõnikord võivad tulla ja mis tujud! Aga Kelgu-tühja bass ei sünni, — kust ma veel riistu saan kapi jaoks? Olen ma küll üks vaevatud mees! <stage>(Ära.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>3.</head>
+                    <stage>Eeva. Kelk.</stage>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>See on nüüd kõik see tänane rõõm! Üsna halvaks ja tigedaks läheb inimene niisuguse piinaga! Mis ta mulle kõik lubas, ja nüüd —? Va Triinu! Usu veel poisi sõna! Kas ta usub, et siin Tapikul võib kahe pere koera teha? Ja mina — mina teda nõnda armastasin — ja veelgi !— Triinu uhkust! — Mis tal sest vanast...? Oli ometi tema pudel!? Sellest ei saa ju ükski mõistlik inimene aru!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Eeva, oh kui hea, et ma sinu leian! Tahtsin ammugi ütelda: kas sa juba tead? Sinu isa on viinad vastu võtnud, kas ei ole õnn?</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Soo? No mis siis teil minuga veel juttu-tegemist on? Minge siis otsige oma õnn üles!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Aga, Eeva? Mis sa nii tõsine ja kena oled? Kas sa siis sellest ei rõõmusta? Ehk oled sa minu kohta meelt muutnud, ae?</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Sinu kohta mina? Ja nõnda küsid sina, kes — oh häbene, Kelk, häbene omad silmad peast! Mina olen ikka kuulnud, et poisi sõna ei tohi uskuda, aga sinust ma seda mitte poleks lootnud, sinust mitte!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Aga, igavene aeg, mis sul on, Eeva? Mis kurja ma siis olen teinud? Minu hing ju ei tea midagi! Eevakene, hel<pb n="203"/>dus, räägi ometi, mis see kõik tähendab? Isa oli ka nii imelik, rääkis Rummust ja vanast tüdrukust ja et sa —</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Noh? Et ma? —</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Ega ma — <stage>(Kõrvale.)</stage> Kust ma teda suu sisse võin napsivõtjaks nimetada? <stage>(Suure häälega.)</stage> Täna öösel kukelaulu ajal läheb koor siit ära Tallinna. Aga enne seda pean ma siin veel ühe inimesega selgust saama, keda ma üle ukse ei usu, — perenaise Pritsuga! Kas lubad enne kukelaulu veel siia minu jutule tulla, Eevakene, kallis laps? Siis räägime kõik selgeks! Jah!</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Mis meil enam seletada? Sinul on viinad ära antud — mis Triinu sellest peaks arvama? Kas ma võin pimedas teise peigmehega kokku saada? Mis maailm ütleks!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Triinu? Teise peigmehega? Maailm? Aga, Eeva? Hahahaa!</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Naera sina ka veel!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Triinu peigmees! Viinad? See on kulla väärt. Sellepärast isa kiitis "vanast kondist" ja "lakevasikast"! Ja seda sina oled tõeks... Pagana lugu — ei ole aega! Proov algab. Eevakene, armukene, tule sina julgesti pärast siia, sellega saame õigeks! Triinu kosilane — ahahah! <stage>(Ära.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>4.</head>
+                    <stage>Eeva. Prits.</stage>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>See on jumala sõna näitus, nagu Prits ütleb ikka. Mu süda on õige kergeks läinud!</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Ja minul on raske — tema jälle siin ees!</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Olin temale ehk — ülekohut teinud, kõik selle —<pb n="204"/> isa süü! Aga Triinu? Ahahah! Sest sinu päralt on riik ja see vägi ja see au igavesti.</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Aamen.</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Issa —</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Vaim on mind siia ajanud —</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Kelk tuleb!</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Oot — Kelk? Oota! <stage>(Ära.)</stage></p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Seekord on vaim teda ruttu ka tagasi kihutanud. <stage>(Ära.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>5.</head>
+                    <stage>Kelk. Mätta Mart. Kure Kaarel. Jõepere Jüri. Tapiku Toomas.</stage>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>"Na slavu, na slavu nam!" Soo! Läheb natuke paremini juba! Ikka minu kepi järele, nõnda — "Bositsarahrani" — — —</p>
+                    </sp>
+                    <sp who="#kaarel">
+                        <speaker>Kaarel:</speaker>
+                        <p>Pagana lugu, Tapiku, pane ometi tähele! Sina ju segad!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Sooh? Vai mina? Kuule asja!</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>Mart:</speaker>
+                        <p>Kui sa, sõge, nii kalkuni viisil kisendad, siis läheb kõik hukka käes!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Ise oled kalkun! Sina'p see esimene ööbik oledki! Ei tea, kust inimene võõra pilliga peab õigesti puhuma! Vaat ae!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Tasa, tasa! Aga, taat, kui te nüüd pilli ei saagi kätte? Ilma teise bassita...</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Jah, seda te kõik loodate! Aga ei! Oma liha ja vere vastu kuri nõu ei mõju! Küll mina pilli saan! Ööseks on ta mu käes!</p>
+                    </sp>
+                    <pb n="205"/>
+                    <sp who="#jueri">
+                        <speaker>Jüri:</speaker>
+                        <p>Kutsu Rummu appi — teda ju muidugi nüüd otsitakse! Tema on mees lukkus asja välja tooma!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Pea suu — Tallinnas on kinni!</p>
+                    </sp>
+                    <sp who="#kaarel">
+                        <speaker>Kaarel:</speaker>
+                        <p>Ohoo, mis veel? See kinni? Seda ei saa keegi, sina veel õieti mitte!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Kas mina? Ei tea, mis mina temast enam hakkan hoolima? Olete ju mul ameti käest ära võtnud! Saab näha, mis uue luua enesele nüüd võtate pühakirjaks! Aga pilli ma saan ilma tema ja teieta — Mallekese-tallekese kiuste!</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>Jüri:</speaker>
+                        <p>Mis sa ka oled, niisuke unimüts!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Sinul hea nüüd hurjutada — sinul seisab teist aastat kirikuaia peal!</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>Mart:</speaker>
+                        <p>No siis ajame ilma Toomata läbi! Eks ühest bassist ka saa?</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Et kõik linn teid naerab? Ega sa sellest ei hooli, kas keiser ja kõik kihelkond meie kooriga häbisse jäävad, kui aga sina oma kadedust saad!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Rahu, mehed, sõbrad, rahu! Mätta Mart, teine bass peab olema, ilma selleta ei saa läbi!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>See on tõsi, Kelk, sa oled õigem, kui ma lootsin! Peab olema!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Muudkui pead a peale võtma, Tapiku taat, ikka a peale! Jäägu siis Kiriku-Kaarli nõu: kell kaks öösel sõidame välja. Mehed, tulete siia Tapikule kokku, — seniks saab minu töö ka valmis. Hakkame veel kord peale, mehed: "Bositsarahrani"! Tapiku taat, pool tooni kõrgemini! Pill annab veel niipalju välja! Nõn-nõnda! Tallinnas ei tohi häbisse jääda, seal on kõik need villased ja kanepised koos, ega need armu ei anna! Nüüd teine rida: "Tsarstvuina trahvragam!" Jõepere Jüri, tasasem, pisut madalam, et Kaarli tenor selja taha ei jää, — nüüd tuleb selgesti välja! Nüüd on parem! Soo! "Bositsarahrani, tsarahrani"! <stage>(Kõik ära.)</stage></p>
+                    </sp>
+                </div>
+                <pb n="206"/>
+                <div type="scene">
+                    <head>6.</head>
+                    <stage>Mall. Prits.</stage>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Olen sulle siia, armas tädipoeg, ööseks pisut südamekinnitust pannud — jumal olgu ise sulle kinnituseks selle raske töö juures, ta sind on ise minule appi saatnud selle mehe kiusatuse vastu. Oh sina, mahajäetud loom! Vai välja tahab varastada? Mina olen ükskord —</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>— tasane ja pehme naine — jah, seda ma talle ka ütlesin, ja mis vaim mind ajas, et ärge seda tehke, Tooma-onu, sest jumala vits on kange tubli abikaasa käes...</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Aga ma tahan teda õpetada selle vitsaga. Oh mu väeti, nõrk ihu küll selle mehe kurjust kaua enam ei kanna. Aga see Kelk! <stage>(Järsku.)</stage> Kust tema, loll, üksi sellega õigeks oleks saanud? Ja kui ta su küüsis on, siis aga hüüa mind, armas väimees, küll ma siis... ma jään ootama nagu vaht õues!</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Kui ta aga läheks! <stage>(Suure häälega.)</stage> See võtab ootamist, kallis ämmaeit, ära viida aega — tema on kaval! Aga jumala abiga —</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <stage>(järsku)</stage>
+                        <p>Kaval? Mats ta on! <stage>(Rõhutades.)</stage> Head ööd, ja jumala ingel jäägu sinu juurde, Prits, et sa kurjast vaimust jagu saad! Pean seda tüdrukutele ka jutustama. <stage>(Ära.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>7.</head>
+                    <stage>Prits. Triinu.</stage>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Hahah! Kavalus on enam väärt kui hunnik kulda, päneb ise kitse kärneriks. Mina, Rummu-Jüri, valvan siin<pb n="207"/> peremeest Tapiku Toomast, et ta vargile ei tule, — oled esimene poiss, Trahteri Prits Treier Rakvere kihelkonnast! <stage>(Ahjust võtmeid võttes.)</stage> Tulge aga välja, sõbrakesed-riistakesed, ööde armsad abilised! <stage>(Läheb laua juurde.)</stage> Võtame enne ruttu jõudu, pärast pole enam aega! Kus mu pudel jäi — kas kallis Tooma-onu ta, valgeks kahvatanud looma, jälle tagasi pani? <stage>(Pudeliga.)</stage> Sina, va sarviline! Nüüd on jälle minu oma? See on üks põrgumäng siin majas täna!</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Perenaine ütles Ritsu, armast meest, täna siin vanameest valvavat — ehk saan — ahah! Oh sa, kallis mees! Tere õhtust, armas peigmees, mina juhtusin kogemata siia: jah, mis kurja tigedust küll võib maailm täis olla! Kes seda vanamehest oleks arvanud — vaata, ta ikka nimetas mind lake... hm, hm. Aga nüüd tal tuleb nuhtlus kätte, ja sina oled just nagu jumala ingel siia seatud põleva mõõgaga paradiisi ukse ette — — —</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Oot, oot, nõnda. Jah, Riinukene-marjukene, mina olen selle maja lukk, — kuule, kus sa oma sukasäärt rahaga hoiad? Täna on vana kuri lahti —</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Oh sa Jeesuke, tõesti? Kambris peatsi all! Sest mulle unenägu näitas —</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Jumala teed on imelikud — mine nüüd, õieke, küll ma su vara valvan, et keegi kurivaim teda mu küüsist ei kisu! Ennäh — rüüpa veel enne meie kosjaviina! <stage>(Kõrvale.)</stage> Ehk jääb joobnuks!</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Oh sa, kallis mees. Aga ega see kosjaviin ju pole? Kosjad ju minu käes?</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Sinu käes? Praegu akna pealt võtsin, kullarong!</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Aga, Rits, kallis pojuke, nemad ju siit ise leidsid akna pealt, minu juures on!</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Ta on juba purjus? Selle siin?</p>
+                    </sp>
+                    <pb n="208"/>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Aga heldeke — mul on ju teine pudel! Palju mulle siis kosilasi saab? Oota, ma toon!</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Homseks, tuike! Mine nüüd, kallike, varas tuleb varsti! Mine kõrvale, kui ta, reo, ei lähe. Küta! <stage>(Triinu ära.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>8.</head>
+                    <stage>Prits (üksi).</stage>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Et sa paika ära seenetaksid! Va tüdruku-naru! Nagu pigi mu küljes kinni, et tõuka jalaga! Töösse nüüd! Ruttu, ruttu. <stage>(Läheb kambri ja tuleb sukasäärega tagasi.)</stage> Soo! Nüüd on ta kõigest kiusatusest paigal, et kurivaim teda mu küüsist ei kisu, nagu lubasin, ja jumala teod on imelikud! Küll Riinuke-roosike homme oma tunnistab, kui kosjaviinaga tuleb! Edasi nüüd! <stage>(Lõhub kapi ja kirstu lahti.)</stage> Lurjuse-sabad! Paljalt kolmsada rubla! Kas see minu vaeva maksab?. Ohoh! Pantpaberid — sosososoo! maksab ikka siiski! Hahahaa! Homme leiate kalli väimehe jäljed eest. Tühjad narud! Ei maksa tööd! Siidirätikud — preesid? Pistan tasku! Kes pergel sealt tuleb? Ei jäta inimest ametisse rahule!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>9.</head>
+                    <stage>Toomas (üksi). Prits (varjul).</stage>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Päris ütelda: päris naise rumalus — ega Malleke-talleke kuule, et minusugune siin pimedas vagasel<pb n="209"/> öö-ajal peab pilli välja tooma, kui temal võti julgesti taskus! Kui ma selle Eeva oleksin appi saanud, aga ei tohi kutsuda ka — pean ju salaja tegema, et ma mehejulgust näitan! Prits pidi mulle appi tulema, aga nagu maa alla vajunud, ja selle pimedaga ei leia Riinu viinagi kappi: julgust võtaksin — keel mul suu lae küljes nagu pigiga kinni sellel harjumata vargusetööl. Kes seda ametit on noorest peast kätte saanud, sellel vast hõlbus asi, tänagu jumalat! Aga — oh, ei maksa ütelda! küll olen kimpus. Tule, jumaluke, ise mulle appi, ega ma muidu ei pääse. Mädand tikud ka! Ei ela ega sure! Oh Malleke-talleke! Mis sa seda koormat mu kaela oled ladunud! Mine nüüd, inimene, esimest korda niisuguse viletsa tulega õppimata ametile — vargile! Kinni! No-jah! kellegi ingel ei tule appi! Oh Malleke-talleke, eks sa võinud ka salaja lahti teha, et mul kergem oleks olnud julgust näidata. Aga ei! Kõik teise bassi pärast! Pean noaga kangutada katsuma! Vaim on mind ajanud, ütleb Prits! Aituma, õige karastus! Vist Malleke-talleke mulle siia paigale pani, temal on kõik nii kenad viisid ja tembud nüüd külge tekkinud — ega ta viimati surema ei hakka? Aituma sellegi eest!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>10.</head>
+                    <stage>Eeva. Toomas. Prits.</stage>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>See küll õige vist ei ole, et ma Kelgu kutsumist kuulen, aga tal olid nii julged sõnad — vahest on ometi lugu teisiti, kui isa ütleb! Mis vana inimene kosjast teab? Kelgu pudel ta küll oli, aga Triinu ehk rääkis jälle muud? Ei saa aru ega otsa teha!</p>
+                    </sp>
+                    <pb n="210"/>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Katsume jälle uue jõuga! Ei aita, teine bass peab olema, muud sinna ei mõju! Mätta õigus ei tohi jääda!</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Mis siin nagu kobiseb läbi toa? Kas kass jookseb rotte? Kui see kelm ometi tuleks! Mis see võib olla, mis ta Pritsust ütles, ja — mina seda Pritsu ka ei usu! Ära sõidab vara hommiku! Oh kahju! Kui ma ometi ka laulupidule saaksin!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Siin nagu mõni liiguks? Kui mind keegi kuuleb? Prits küll ütles: mu oma kapp, aga see vargus on üks hirmus asi! Kui see keiser ja isamaa teaksid, mis vaeva ma väeti nende pärast ära pean nägema, nad paneksid mulle — mind vallavanemaks vähemalt eluks ajaks! Ma päris Rummu-Jüri!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>11.</head>
+                    <stage>Kelk. Toomas. Prits. Eeva. Mätta Mart. Kure Kaarel. Jõepere Jüri.</stage>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>See ta on! Appi!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Issand Jeesuke, heida mulle patusele armu!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Tuld siia! Oota sina, vana kurivaim, mina sind tahan õpetada — ausasse peresse röövima tulla! Mina tahan sulle trahterit näidata, kust sa pärit oled, sina põrgu poeg! Ma olen sind ammugi valvanud — nüüd ma sind tunnen! Nüüd on su lõõg täis!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Igavene — heldus — mina — tema ju ise nüüd õpetanud.</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Tema? Oh sa! Sina, röövlinägu, tahad peretütre igavesti õnnetuks teha — sina, võllaroog, sina, Rummu!</p>
+                    </sp>
+                    <pb n="211"/>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Aga — mina — ei keela — keela ju sulle Eevat — võta — võta! Lase aga lahti!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Mis? Kes? Kes see on? Tule jumal, tuld! Tuld siia!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>12.</head>
+                    <stage>Endised. Mall.</stage>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Isa!</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Igavene Issand — Toomas! Kohtu all! Maailm läheb hukka!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Äiataat! Ohoo pergel! Tagaspidi! Politsei! Siia! Siin on see õige lind.</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Seda sa otsisid, mind vargile saates — — —</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Mina? Sind? Oh sa, rongaisa! Püha Õnnistegija, mis see? Eeva! — Tühi! Ära! Tühi! Kus raha? Kus paberid? Anna välja!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Kas mina tean? Oh see on üks hirmus keisripidu!</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Oh see Kelk! See nõuandja! See kurivaim!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>So-oh? Või mina see patune. Pöörake ta taskud ümber!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>13.</head>
+                    <stage>Endised. Triinu.</stage>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Siin see Kosjapudel —— püha Ristus! Rits! Mis te teete ta vaesega? Jätke ta rahule! Oh mu vaene, armas peigmees!</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Tema peigmees?</p>
+                    </sp>
+                    <pb n="212"/>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Sinu peigmees?</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>See ka veel?</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Õige armas peiuke küll! Kakssada, kolm-nelisada, — pantpaberid, hõberaha, preesid — kelle see on kõik? Ja siin on täditütre Madli nimel kiri Rakvere kihelkonna kirikumõisast: et trahteri-pidajat Prits Treierit terves kihelkonnas olemas ei olegi, aga et üks tuttav lind selle nime all oli tädi majas ka pesa hakanud ehitama — ja siis on kolmesaja rublaga ühel ööl majast nagu tuhka ära kadunud! — Lähme veel lähemale! Tulge! No Trahteri-Prits: vaim sind on vist meie hõlma siia ajanud? Jumala teed on imelikud!</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Püha Ristus!</p>
+                    </sp>
+                    <sp who="#kõik">
+                        <speaker>Kõik:</speaker>
+                        <p>Ohoo! Mis see on? Oi heldeke!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Hoidke teda kinni! Köied siia! Kinni tal käed! Ma näitan teile midagi! Kaarel, Tapiku taat, tulge siia — kas tunnete lindu?</p>
+                    </sp>
+                    <sp who="#triinu #kelk #toomas #mall #eeva #mart #kaarel #jueri">
+                        <speaker>Kõik:</speaker>
+                        <p>Rummu-Jüri!</p>
+                    </sp>
+                    <sp who="#rummu-jueri">
+                        <speaker>Prits:</speaker>
+                        <p>Rummu jah! Mis te nüüd vahite mind nagu lambad heinakuhja? Pagana päralt! Seekord läks tühja!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Läks küll, Jüri, — vaim ajas viltu seekord ja jumala teed on imelikud. Sellepärast mulle olid nii tuttav mullusest Tallinna sõidust Kaarli ja Tapiku peremehega veel? Aga pea ja habemega ei saanud aru! Suur tükk ajab suu lõhki! Viige ta kambri ja sandarmid seisku juures! Kihelkonna kohtuhärra tuleb ise meiega ligi teda Tallinna viima — see oli jumala õnn, et ma varsti kohtuabi sain!</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Oh sa igavene!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Aga, Tapiku taat, kuidas sina siia öösel temaga?.. Sa lubasid teda ju varsti ära tunda?</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Oh Kelk, kallis poeg, sest et sa Mallekesele olid nõu andnud, et ta pilli kappi pani —</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Mina? Taga paremaks?</p>
+                    </sp>
+                    <pb n="213"/>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Ja Mall saatis teda ja käskis mind salaja ise pilli kapist tuua —</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Mina? Oh sa herits! Oh sina, pagana valelik! Ja sina niisugune loll ka uskuma. Kas ma seda enne iial olen teinud? Aga Eeva? Oh mw väeti laps! Seda teotust minu vaese ihu ei kannata! Mina olen ükskord tasane ja pehme naine — aga ta oli nii vaga ja peenike.</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Eit, ära minu pärast ühti kurvasta, minul on juba peigmees.</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Mis? Kes? Sinul?</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Ära on! Tühi kõik! Oh sa, hirmus loom! Ja mu viiskümmend rubla ka! Oh see on mu unenägu, et must kukk õues teri sõi, — unenäod on jumalast! Oh sa, õnnetu inimene! Ei raha, ei peigmeest!</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Tule, Triinu, otsime, siin on kõike kukkunud!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Ja nüüd veel, Tapiku taat, ja kõigepealt, eit. Mina olen teile ühe Eeva kosilase lõõga pannud ja siiski soovisin teile uue väimehe, kes küll tahaks niisama ämma austada ja naise eest hoolt kanda, et neil paras põli on ja et nad vaeva all liiga ei näe, — ja kui te mind vastu võtate ja Eeva ka — siin, need on minu viinad! Seekord on õiged!</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Kallike! Nii äkki? Eeva, kas tema? Soo!</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Tema pudel? Ja — mina? Oh see Rits, see Rummu!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Kõigest südamest, Kelk! Kõigest südamest! Või mitte Riinu?</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Ega sa napsi ei võta, Eevake?</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Eksitus oli?</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Eksitus.</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Malleke-talleke!</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Oh, sina ka midagi tead. Teil on ausad kosjaviinad, vallakirjutaja, väga ausad, ja see on meile küll õige kiituseks, ja meie laps on ilusti kasvatatud, ja kui tõe pärast räägite,<pb n="214"/> siis meil küll midagi ei ole selle vastu rääkida, olgu siis, et Eeva ise — —</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Oh eit, see oli ju ennegi ikka tema pudel!</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>No-no!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Hõissa! Tuhat tänu, armas ja kallis eit, ja ega ma seda igavesti ära ei unusta! Ma tahan sulle alati heaks pojaks olla. Ja nüüd — koit tõusmas — muudkui et see saab teile suureks kiituseks olema, et teie majas see kuulus Rummu on kinni saadud, ja liiati, et peremees ise —</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Ja muidugi, näh!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Ise teda on töö pealt leidnud ja kinni aidanud püüda — eks ole, mehed? Sest tema läbi on see õieti tulnud ja tema hobused on kohtud siia toonud: see peab kohtu protokollis seisma!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Seisma — jah! Aga, Kelk, armas poeg —</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Ja ma küsin teilt, mehed, kas üks mees, kes nii suure kasu on kõigele kihelkonnale ja vallale toonud — kas teda ei või valla-ametisse panna? Mehed! Mina annan nõu: Tapiku Toomas, kes Rummu kinni püüdnud, olgu jälle meie vallavanem! Eks ole?</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Oh, Kelk, küll sa oled — — —</p>
+                    </sp>
+                    <sp who="#kaarel">
+                        <speaker>Kaarel:</speaker>
+                        <p>Olgu!</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>Jüri:</speaker>
+                        <p>Olgu peale!</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>Mart:</speaker>
+                        <p>Hm — minugipärast! Aga ära sa pilli sega!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Kelk! Mall! Ma tänan teid, mehed, Tallinnas peame — Tallinnas —?</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Armas ema, sa näed ise, kuidas nad teda austavad, ja kui see lugu kuulsaks saab ja kui nad küsivad: kes ta on siis, see Toomäs? Ja kuidas välja näeb? —</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Ja muidugi, ema, ja kas tal on peret ka ja naisi-lapsi? —</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Mis siis, kallis eit, mis siis?</p>
+                    </sp>
+                    <pb n="215"/>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Kelk, sina oled tark poiss. Kelk: seda nad küll küsivad, ja kui keiser seda nüüd kuuleb, et see Rummu kinni on —</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Muidugi, Malleke-talleke, ja ilma teise bassita keisripidu korda ei lähe.</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Kassisaba alla mine! Keiser midagi sinust teab või sinu pillist! Aga sa oled tark poiss, Kelk, ja kes teda on kinni võtnud, neid kõiki küsitakse taga! Säh, siin on sinu pill, Toomas, ja et sa mul ilmaaegu palju ei purjuta, sellepärast, Eeva, otsi meie lauluraamat välja ja uued riided valmis! Meie kahekesi sõidame ka laulupidule!</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Jah, eit, küll ikka!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Hõissa, poisid! See saab laulupidu!</p>
+                    </sp>
+                    <sp who="#toomas">
+                        <speaker>Toomas:</speaker>
+                        <p>Malleke-talleke — sa kuldne inimene! Hoopis teine lugu! Oh sa, minu kallis teine bass! Tulgu veel Mätas mulle ütlema! Ja kui ma nüüd vallavanema au peale puhun ja see Rummu — küll me Tallinnas naiste silme alt kõrvale saame —, siis ma teile maksan niipalju, kui pudel kannab! Aga läki teele, kus meie lind, — küll teid vallavanem õigesti juhatab! Kõigile ma tahan jutustada, kuidas ma ta kinni võtsin! Ilma tarkuseta seda ei saa! Aga ega ta minu silma ei peta. Oi, Kelk — küll sa oled üks tubli väimees!</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Kas mina ka ligi tulen keisripidule, perenaine?</p>
+                    </sp>
+                    <sp who="#mall">
+                        <speaker>Mall:</speaker>
+                        <p>Seda veel vaja! Mine anna põrsale toitu!</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Üks käsib vasikaid joota, teine põrsaid sööta. See on mul jälle tühja läinud!</p>
+                    </sp>
+                    <sp who="#eeva">
+                        <speaker>Eeva:</speaker>
+                        <p>Siin, Triinu, kingin sulle ilusa punase lindi —</p>
+                    </sp>
+                    <sp who="#triinu">
+                        <speaker>Triinu:</speaker>
+                        <p>Ole terve! "Rahteri Ritsu Riinu Reier" — küll oleks ilus olnud! Unenäod on ka tühjad!</p>
+                    </sp>
+                    <sp who="#kelk">
+                        <speaker>Kelk:</speaker>
+                        <p>Ja nüüd, mehed! Lõpetame selle päeva auks viimse sooviga — siis teele! Pasunad välja — kõik koos! "Bositsarahrani"! Hurraa! Tallinna laulupidule!</p>
+                    </sp>
+                    <stage>(Eesriie.)</stage>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
