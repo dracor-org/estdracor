@@ -28,21 +28,21 @@
                 <bibl type="digitalSource">
                     <name>DIGAR Digital Archive</name>
                     <idno type="URL">http://www.digar.ee/id/nlib-digar:444464</idno>
-                        <availability>
-                            <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
-                        </availability>
-                </bibl>
-                <bibl type="originalSource">
-                    <author>
-                        <persName>
-                            <forename>Hugo</forename>
-                            <surname>Raudsepp</surname>
-                        </persName>
-                        <idno type="wikidata">Q920207</idno>
-                    </author>
-                    <date when="1931">1931</date>
-                    <publisher>Noor-Eesti Kirjastus</publisher>
-                    <pubPlace>Tartu</pubPlace>
+                    <availability>
+                        <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <author>
+                            <persName>
+                                <forename>Hugo</forename>
+                                <surname>Raudsepp</surname>
+                            </persName>
+                            <idno type="wikidata">Q920207</idno>
+                        </author>
+                        <date when="1931">1931</date>
+                        <publisher>Noor-Eesti Kirjastus</publisher>
+                        <pubPlace>Tartu</pubPlace>
+                    </bibl>
                 </bibl>
             </sourceDesc>
         </fileDesc>
