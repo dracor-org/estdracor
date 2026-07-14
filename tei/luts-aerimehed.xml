@@ -1,0 +1,1654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="est000025" xml:lang="et" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ärimehed</title>
+                <title type="sub">Pilkenali ühes waatuses</title>
+                <author>
+                    <persName>
+                        <forename>Oskar</forename>
+                        <surname>Luts</surname>
+                    </persName>
+                    <idno type="wikidata">Q2005705</idno>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>DIGAR Digital Archive</name>
+                    <idno type="URL">http://www.digar.ee/id/nlib-digar:431751</idno>
+                    <availability>
+                        <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <author>
+                            <persName>
+                                <forename>Oskar</forename>
+                                <surname>Luts</surname>
+                                <idno type="wikidata">Q2005705</idno>
+                            </persName>
+                        </author>
+                        <title type="main">Ärimehed</title>
+                        <title type="sub">Pilkenali ühes waatuses</title>
+                        <date when="1913">1913</date>
+                        <publisher>Postimees</publisher>
+                        <pubPlace>Tartu</pubPlace>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="jalak" sex="MALE">
+                        <persName>Jalak</persName>
+                    </person>
+                    <person xml:id="ekspress" sex="UNKNOWN">
+                        <name>Ekspress</name>
+                    </person>
+                    <person xml:id="paun" sex="MALE">
+                        <persName>Paun</persName>
+                    </person>
+                    <person xml:id="unik" sex="MALE">
+                        <persName>Unik</persName>
+                    </person>
+                    <person xml:id="hr-koiw" sex="MALE">
+                        <persName>Hr. Koiw</persName>
+                    </person>
+                    <person xml:id="kippel" sex="MALE">
+                        <persName>Kippel</persName>
+                    </person>
+                    <person xml:id="prl-koiw" sex="FEMALE">
+                        <persName>Prl. Koiw</persName>
+                    </person>
+                    <person xml:id="hans-oili" sex="MALE">
+                        <persName>Hans Oili</persName>
+                    </person>
+                    <person xml:id="saeaelik" sex="MALE">
+                        <persName>Säälik</persName>
+                    </person>
+                    <person xml:id="tint" sex="MALE">
+                        <persName>Tint</persName>
+                    </person>
+                    <person xml:id="pr-jalak" sex="FEMALE">
+                        <persName>Pr. Jalak</persName>
+                    </person>
+                    <person xml:id="andres-oili" sex="MALE">
+                        <persName>Andres Oili</persName>
+                    </person>
+                    <listRelation>
+                        <relation name="spouses" mutual="#jalak #pr-jalak"/>
+                        <relation name="parent_of" active="#hr-koiw" passive="#prl-koiw"/>
+                        <relation name="parent_of" active="#andres-oili" passive="#hans-oili"/>
+                    </listRelation>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-07-15">Convert txt to TEI</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <standOff>
+        <listEvent>
+            <event type="print" when="1913">
+                <desc/>
+            </event>
+        </listEvent>
+    </standOff>
+    <text>
+        <pb n="3"/>
+        <front>
+            <titlePage>
+                <docAuthor>O. LUTS</docAuthor>
+                <titlePart type="main">ÄRIMEHED</titlePart>
+                <titlePart type="sub">PILKENALI ÜHES WAATUSES</titlePart>
+                <docImprint>
+                    <publisher>EESTI KIRJAST.-ÜHISUSE "POSTIMEHE" TRÜKK </publisher>
+                    <pubPlace>TARTUS </pubPlace>
+                    <date>1913</date>
+                </docImprint>
+            </titlePage>
+            <pb n="4"/>
+            <pb n="5"/>
+            <castList>
+                <head>TEGELASED:</head>
+                <castItem>
+                    <role>JALAK, </role>
+                    <roleDesc>keskealine herra, sõprade keskel "Marabu" nime all tuttaw.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>PROUA JALAK, </role>
+                    <roleDesc>tema abikaasa.</roleDesc></castItem>
+                <castItem>
+                    <role>KOIW, </role>
+                    <roleDesc>majaperemees; wanapoolne, punase habemega mees.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>WILHELMINE JOSEPHINE FRIEDERIKE ALEKSANDRA NORA, </role>
+                    <roleDesc>tema tütar.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>HANS OILI, </role>
+                    <roleDesc>keskkooli haridusega noormees.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>ANDRES OILI, </role>
+                    <roleDesc>tema isa; rikas linakaupmees.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>PAUN, </role>
+                    <roleDesc>endine ajakirjanik.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>KIPPEL, </role>
+                    <roleDesc>endine ärijuht; praegu kõigi wäljamaa äridega kirjawahetuses. Sõprade keskel "Wiilias Wooks".</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>SÄÄLIK, </role>
+                    <roleDesc>tugew noormees; muu lähem teadmata.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>UNIK, </role>
+                    <roleDesc>pikk ja küürakas noormees.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>WOLDEMAR TINT, </role>
+                    <roleDesc>igawene üliõpilane.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>EKSPRESS.</role>
+                </castItem>
+            </castList>
+            <pb n="6"/>
+            <pb n="7"/>
+            <set>
+                <head>Tuba Jalaka juures.</head>
+                <p>On üks neist lõpmata suurtest üksikutest tubadest, mis wanade hoowipäälsete kiwimajade kõige ülemistel kordadel tihti leida on, ja mis, oma määratu suurte, tuhanderuutuliste akende pääle waatamata, ikkagi poolpimedad püüawad olla ja ennem wangikoda, kui eluruumi meelde tuletawad. Nad ei wõigi walged olla, sest kaks kuni kolm jalga aknast on hall, määrdinud kiwisein, mis päikese paiste ja elanikkude hää tuju kinni matab. Niisuguste tubade ehitajad on wist ainult poissmeeste pääle mõtelnud, kes nii kui nii kunagi kodus ei ole ja halwa wäljawaate üle juba nurisema ei hakka, aga ometi sattub neisse aeg-ajalt ka mõni perekond. Akna all, mis waatajate poolt paremat kätt, on suur, wahariidega kaetud laud; pahemat kätt — uks wäiksesse kõrwalruumi, mida praegu köögiks tarwitatakse, kuna eeskoda ja wälimine uks näitelawa tagaseinas on. Laua ja eeskoja ukse wahel nurgas on madal wanamoodi kummut raamatute ja paari pildiga, kuna köögi (kõrwalruumi) ja wälimise ukse wahel olew sein ja nurk sirmi läbi eraldatud on ja magamise ruumiks tarwitatakse. Pääle selle on laua pool köögi ust weel üks lauakapp ja raamaturiiul. Seinte pääl paar õliwärwipilti. Toolid jne. Eeskoja uks, mis wälimise uksega kohakuti, on lahti, nii et kõik selgesti näha on, mis niihästi eeskojas, kui ka wälimise ukse juures sünnib. Eeskoda saab walgust wälimise ukse läbi, mille ülemine klaasist osa niisama, nagu elutoa aken, wäikestesse ruutudesse jaguneb.</p>
+                <p>Aeg: Olewik.</p>
+                <p>Koht: Tartu.</p>
+            </set>
+        </front>
+        <pb n="8"/>
+        <body>
+            <div type="act">
+                <div type="scene">
+                    <head>Esimene etteaste.</head>
+                    <stage>Hra Jalak üksi. Siis pr. Jalak</stage>
+                    <stage>(Hra Jalak seadib tuba koosoleku jaoks. Proua Jalak tuleb köögist ja waatab paar silmapilku tema toimetust päält. Küsib siis:)</stage>
+                    <sp who="#pr-jalak">
+                        <speaker>Pr. JALAK</speaker>
+                        <p>Kuule, mis asja sa sekeldad siin täna?</p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <p>Ah mina wõi? Mina seadin siin natuke korda... Meil on täna awamisekoosolek.</p>
+                    </sp>
+                    <sp who="#pr-jalak">
+                        <speaker>Pr. JALAK</speaker>
+                        <p>Mis koosolek?</p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <p>Wabriku asutamise koosolek.</p>
+                    </sp>
+                    <sp who="#pr-jalak">
+                        <speaker>Pr. JALAK</speaker>
+                        <p>Mis sa lorid? Mis wabriku asutaja sina oled? Katsu, et sa —</p>
+                    </sp>
+                    <pb n="9"/>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <p>Ei, ei — oota! See ei ole nalja asi, see toob raha kui puru! Paari kuu pärast kolime siit sarast <stage>(täh. oma korterit)</stage> wälja ja wõtame kesklinna alumise korra pääle kuue toaga korteri.</p>
+                    </sp>
+                    <sp who="#pr-jalak">
+                        <speaker>Pr. JALAK</speaker>
+                        <p>So, wõi niiwiisi. Mis te s' hakkate waleraha tegema wõi?</p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <p>Waleraha? Raha küll, aga õiget raha!</p>
+                    </sp>
+                    <sp who="#pr-jalak">
+                        <speaker>Pr. JALAK</speaker>
+                        <p>Noh, see peab siis küll nõidus olema, mis nii kohe kühwliga raha sisse toob.</p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <p>On ka oma wiisi nõidus! Meie teeme silikaadi wabriku. Kas sa tead, mis praegusel ajal silikaadi kiwid maksawad?</p>
+                    </sp>
+                    <sp who="#pr-jalak">
+                        <speaker>Pr. JALAK</speaker>
+                        <p>Ei tea. Aga mis wabrik see oli? Sibikaadi? See on seesama, mis ta on see pudreti wabrik wõi?</p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <p>Ah mine — pudreti wabrik! Silikaadi wabrik! Silikaadi-kiwi, see on midagi nii<pb n="10"/>sugust telliskiwi sarnast, lubjast ja liiwast... millest majasid ehitatakse.</p>
+                    </sp>
+                    <sp who="#pr-jalak">
+                        <speaker>Pr. JALAK</speaker>
+                        <p>Mispärast siis teistest telliskiwidest majasid ei ehitata?</p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <p>Mispärast, mispärast — rumal küsimine! No sellepärast, et me silikaadi wabriku asutame ja — ja et meie kiwid paremad ja odawamad on, kui lihtsad telliskiwid. <stage>(Pr. Jalak nokutab uskumatalt pääga.)</stage> No miks me ei tee s' noh? <stage>(Pr. Jalak tahab ära minna.)</stage> Kuule, sa anna mulle õige wiis-kuuskümmend kopikat raha, ma toon paar pudelit õlut ja natuke suupistet walmis... Et kui tulewad, siis on ka midagi anda.</p>
+                    </sp>
+                    <sp who="#pr-jalak">
+                        <speaker>Pr. JALAK</speaker>
+                        <p>Tänan! <stage>(Läheb kööki, ukse päält.)</stage> Tänan!</p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <stage>(Pahaselt.)</stage>
+                        <p>Näe, tee mis sa tahad! <stage>(Wälimise ukse pihta koputatakse.)</stage></p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <p>Jah! Sisse!</p>
+                    </sp>
+                    <pb n="11"/>
+                </div>
+                <div type="scene">
+                    <head>Teine etteaste.</head>
+                    <stage>(Jalak, Paun ja Säälik, kes kähku sisse astuwad.)</stage>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Tere, Marabu! <stage>(Teretus.)</stage> Noh, wana sõber, kuidas on? Tulen praegu waksalist. Esimene käik oli muidugi siia. Tee pääl sain sellele <stage>(Säälikule)</stage> järele. See rühkis ka siiapoole. Kuidas käsi käib? Ja kaugel meie asjad on?</p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <p>On kah ikka... nii... kaunis kaugel. <stage>(Istutakse.)</stage></p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Nojaa... aga ei ole ikka seda elawust ja seda hoogu ärilistes asjades, mis, näituseks, Tallinnas. Waat' Tallinn on ärilinn! Läbi ja läbi ärilinn! Ma rääkisin sääl kah paarile mehele, et waat' nii on, et tahame Tartusse silikaadi tööstust asutada — kohe: oo, oo! — nemad kah! No ma ei tahtnud, meil isegi oma selts. Noh, aga kaugel s' oma asjadega olete? Sina, Jalak, pidid Rudiweres ära käima — waatama, kuidas liiwaga on? Sest liiw on silikaadi tööstuses pääasi. Kas käisid?</p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <p>Ei saanud minna.</p>
+                    </sp>
+                    <pb n="12"/>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>No miks?</p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <p>Naene õrises wastu, et kuhu sa lähed ja kuhu sa lähed? Ma ei tahtnud ka kohe teisele seletama hakata, et wast räägib edasi. Saatsin Uniku.</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Ah Uniku saatsid? No mis sõnumid ta sulle tõi?</p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <p>Ei ole teist sestsaadik näinud, kui ära läks. Ei tea, kas ongi weel tagasi. Igatahes jätsin talle koju käsu, et ta täna siia tuleks.</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Noh waat' — wäga hää! Siis saame ju kohe wärskeid sõnumid, kuidas see asi sääl liiwaga on.</p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <p>Aga ma käisin selleasemel siin ja sääl järelkuulamas, kuidas kiwide müügiga on.</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Noh?</p>
+                    </sp>
+                    <sp who="#saeaelik">
+                        <speaker>SÄÄLIK</speaker>
+                        <p>Mis sa kuulsid?</p>
+                    </sp>
+                    <pb n="13"/>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <p>Oh, see on wäike mure. Mõtelge, mis Tartus praegu kõik ehitama hakatakse <stage>(loeb sõrmede pääl):</stage> Linna teist elektriwabrikut, Eesti Rahwa Muuseumi, Saksa Handwerkervereini teatrit, uut postkontori —</p>
+                    </sp>
+                    <sp who="#saeaelik">
+                        <speaker>SÄÄLIK</speaker>
+                        <p>Mina kuulsin, ülikool tahtwat Karlowa orgu uut tähetorni ehitada?</p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <p>No waata, see kah weel! Oh, ostjaid on maailm, muud kui ole mees ja tee. Oi, me teeme niisugust äri, mis Tartu weel pole näinud, kui me kord pääle hakkame. Naene ei taha mul uskuda, aga küll ta siis näeb!</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Wäga hää! Aga sina, Säälik? Sina pidid põhjuskirja wäljatöötamiseks sammusid astuma?</p>
+                    </sp>
+                    <sp who="#saeaelik">
+                        <speaker>SÄÄLIK</speaker>
+                        <p>Ja-ah. <stage>(Wõtab taskust määratu paki paberisi wälja.)</stage> Siin on kõiksugused põhjuskirjade formelid, mis iganes ette wõiwad tulla <stage>(Sorib paberisi.)</stage> See siin on õlle ja porteri<pb n="14"/> wabriku aktsiaseltsi jaoks, see on karskuseseltsi asutamise jaoks, see on loomakaitseseltsi... See on wastastiku hobusewarguse kinnituse seltsi... See on ametiühisuste... See on sugupullide ühisuse... Ühispiimatalituse... Ühe sõnaga: siin on kõik. Ja siis, kas teate, ma sain ka ühe kirjutajaga tuttawaks — jõime eila ühes Rattmanni juures — kuradi hästi mõistab Wene keelt — see lubas kõik teha ja kokku seada, kui waja tuleb.</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>No waata — tore! Mis siis weel! Aga ei tea, kurat, kuidas Oili oma isaga walmis sai? Ega te ei ole teda näinud?</p>
+                        <stage>(Ukse pihta koputatakse.)</stage>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>Kolmas etteaste.</head>
+                    <stage>Endised. Hans Oili.</stage>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <p>Näe, sääl ta on!</p>
+                    </sp>
+                    <sp who="#hans-oili">
+                        <speaker>OILI</speaker>
+                        <p>Tere! <stage>(Teretab ja istub lauda.)</stage> Noh?</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Ütle kõigepäält, kuidas sa wanamehega õigeks said? Mis ta ütles?</p>
+                    </sp>
+                    <pb n="15"/>
+                    <sp who="#hans-oili">
+                        <speaker>OILI</speaker>
+                        <p>Wanamees on nõus.</p>
+                    </sp>
+                    <sp who="#jalak #paun #saeaelik">
+                        <speaker>KÕIK</speaker>
+                        <p>Tõesti?</p>
+                    </sp>
+                    <sp who="#hans-oili">
+                        <speaker>OILI</speaker>
+                        <p>Jah. Ma seletasin talle lihtsalt ära, et nii ja nii on asjad, ja et just wõib raha teha, et muud kui põhjuskapital on aga waja kokku panna, mitte et sääl just kohe kes teab kui palju raha waja on kinni panna, aga... Noh, et kes nad on? Mina muidugi: kõik tublid ja korralikud mehed ja kõigil on ettewõtlik waim.</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Toredasti kah, kurat! Edasi!</p>
+                    </sp>
+                    <sp who="#hans-oili">
+                        <speaker>OILI</speaker>
+                        <p>Noh, wanamees sellepääle, et: jah, tema on nõus kompaniisse astuma, kui asi tõesti niiwiisi on ja iga osanik oma jao wälja paneb.</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Aa, seda ka ütles?</p>
+                    </sp>
+                    <sp who="#hans-oili">
+                        <speaker>OILI</speaker>
+                        <p>Jah. Ärimehe asi.</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Hm...</p>
+                    </sp>
+                    <pb n="16"/>
+                    <sp who="#saeaelik">
+                        <speaker>SÄÄLIK</speaker>
+                        <p>Aga meil ei ole nii palju, et igaüks oma osa wälja wõiks panna.</p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <p>Meil ei ole —? Kippel toob ju allkirjad! Me saame raha maailm!</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Õigus! Ja mis sääl alguses siis weel ära ei lähe? Oota: plats ei tule rohkem kui... Ah, mis me tühja harutame! Küll saab! <stage>(Oilile.)</stage> No aga wanamehega? Kuidas, kas ta s'...?</p>
+                    </sp>
+                    <sp who="#hans-oili">
+                        <speaker>OILI</speaker>
+                        <p>Wanamehega jäi asi lõpulikult nii, et tuleb ise täna siia waatama.</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>No näe — brawoo! Siis ei ole muud, kui, niipea kui Kippel allkirjadega tuleb, trrah, raha wälja ja —</p>
+                    </sp>
+                    <sp who="#jalak #saeaelik #hans-oili">
+                        <speaker>TEISED</speaker>
+                        <p>Nojah, mis siis... siis ei ole midagi.</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Nüüd wõiks ehk harutada, keda me nii nagu wabriku ametisse walime?</p>
+                    </sp>
+                    <pb n="17"/>
+                    <sp who="#jalak #saeaelik #hans-oili">
+                        <speaker>KÕIK</speaker>
+                        <stage>(Segamini.)</stage>
+                        <p>Wo, wo! Dobra! Just paras aeg.</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Kõigepäält oleks siis muidugi direktor!</p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <stage>(Tahab kööki minna.)</stage>
+                        <p>Oodake, ma küsin, kas naene mind lubaks —</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Ee, see küsimus tahab pikemat läbiharutamist. Direktor — see on juba midagi niisugust...</p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <stage>(Istub.)</stage>
+                        <p>Olgu minugi pärast! Minul on pääasi, et ma siit kuradi sarast wälja saaks. Kuradi rõske korter!</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Jaa... Siis on ju sääl weel asjaajaja ja raamatupidaja ja kassameistri koht ja juhatuse ja nõukogu liikmed ja rewisjoni kommisjoni liikmed ja... Oh, küll jätkub kõigile! Aga kas ei saaks kuidagi natuke sakuskat, minu soolikad mängiwad marjast...<pb n="18"/> ei ole täna weel midagi hamba alla saanud. Kuule sa, Jalak, lase meile õige natuke suupistet ja paar õlut tuua.</p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <stage>(Hädas.)</stage>
+                        <p>Jah, jah, aga... Naene läks turgu ja wõttis kogemata kapi wõtme ühes... Ja rahakott jäi õhtu kappi.</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Waat' kus direktor! Nah, siin on! <stage>(Wiskab raha laua pääle.)</stage> Säälik, mine sa too!</p>
+                    </sp>
+                    <sp who="#saeaelik">
+                        <speaker>SÄÄLIK</speaker>
+                        <p>Õlle järele — nagu õlitatud wälk! <stage>(Ära)</stage></p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Jah, sõbrad, midagi peab tegema, midagi peab ette wõtma, sest kui inimene oma paremad eluaastad tegewuseta mööda saadab, ei suuda ta wanemas eas seda enam kunagi tagasi wõita. <stage>(Koputatakse.)</stage></p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <p>Sisse!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>Neljas etteaste.</head>
+                    <stage>Jalak. Paun. Oili. Kippel, kes longus pääga sisse astub.</stage>
+                    <sp who="#jalak #paun #hans-oili">
+                        <speaker>KÕIK</speaker>
+                        <p>O, Wooks! Tere, Wooks! Isand Kippel on tulnud!</p>
+                    </sp>
+                    <pb n="19"/>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <stage>(Läheb Kippelile wastu, teretab.)</stage>
+                        <p>Noh mitukümmend tuhat allkirja Te meile nüüd toote? Wõtke aga kohe wälja, me peame jalamaid raha ära tooma. <stage>(Kippel laiutab nõutult käsa.)</stage> Mis? No ega Te ometi ilma allkirjadeta ei tule? <stage>(Oili ja Jalak tõusewad kohkunult üles.)</stage></p>
+                    </sp>
+                    <sp who="#kippel">
+                        <speaker>KIPPEL</speaker>
+                        <p>Ma olen täna kõige wähem kuuskümmend wersta ära jooksnud. Kui te muidu ei usu, ma tõmman saapad maha; waadake, missugused mu jalad on!</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Ah, mis n'd sellest, see on kõrwaline asi! Mis on allkirjadega?</p>
+                    </sp>
+                    <sp who="#kippel">
+                        <speaker>KIPPEL</speaker>
+                        <p>Kas teate: ma oleks täna ilmtingimata kümme allkirja saanud. Ma olin kaksteistkümmend aastat kadunud Nossowi juures ärijuht ja tõin wanamehele küllalt allkirju. Pääle selle on mul turus mitu tuttawat lihunikku, ma tellisin neile Engelswärgi käest lihahakkimise masinaid. <stage>(Saab waimustatud.)</stage> Ma ütlen: mis ikka wäljamaa kaup, see<pb n="20"/> wäljamaa kaup! Masinatel on nii terawad noad, et juukse karwa lõikawad pikuti pooleks. <stage>(Jalak ja Oili teewad kärsitu liigutuse.)</stage></p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Isand Kippel, see on meile kõik wähem tähtis! Kuidas allkirjadega lugu on? Kas saite?</p>
+                    </sp>
+                    <sp who="#kippel">
+                        <speaker>KIPPEL</speaker>
+                        <p>Jah kust — ei ole.</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Inimene, no mispärast mitte?</p>
+                    </sp>
+                    <sp who="#kippel">
+                        <speaker>KIPPEL</speaker>
+                        <p>Õigust ütelda, sellepärast, et mul raha ei olnud wekslipaberit osta.</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Pagan wõtaks Teid! No siis oleks wõinud tulla ja kas wõi Jalaka käest wõtta.</p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <p>Hm, hm... Nojaa, muidugi, siis oleks ju minu käest wõinud wõtta. <stage>(Kippel kehitab õlgu.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>Wiies etteaste.</head>
+                    <stage>(Endised. Säälik, worsti, saia ja õllepudelitega. Tint.)</stage>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <stage>(Säälikule.)</stage>
+                        <p>No waata nüüd ometi, kurat, nüüd tuleb Kippel siia — ja mitte ühte allkirja. Põle raha olnud wekslipaberit osta.</p>
+                    </sp>
+                    <pb n="21"/>
+                    <sp who="#saeaelik">
+                        <speaker>SÄÄLIK</speaker>
+                        <stage>(Paneb õllepudelid laua pääle.)</stage>
+                        <p>No waat — sääl on s'! Tulnud s' minu juurde, küll mina oleks annud.</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Ah, nii wõi teisiti! <stage>(Kippelile.)</stage> Aga igatahes poleks Te ilma allkirjadeta tohtinud tulla! See on ju nüüd pagan teab mis! No, no, no, mis me's nüüd teeme? Ainukene lootus oli Teie pääl! Nüüd tühja wekslipaberi pärast...</p>
+                    </sp>
+                    <sp who="#kippel">
+                        <speaker>KIPPEL</speaker>
+                        <p>Einoh, mina oleks toonud ilmtingimata! Ma olin kaksteistkümmend aastat Nossowi juures, aga ilma wekslipaberita ei saanud kunagi läbi.</p>
+                    </sp>
+                    <sp who="#tint">
+                        <speaker>TINT</speaker>
+                        <p>Moen, sõbrad, mis on? Ah wekslipaberist on puudus? <stage>(Wõtab wekslipaberi wälja.)</stage> Siin on. Kirjutage alla!</p>
+                    </sp>
+                    <sp who="#kippel #jalak #saeaelik #hans-oili">
+                        <speaker>TEISED</speaker>
+                        <p>Mis, mis? Kellele? Sulle?</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Sulle allakirjutada? Nüüd, kus meil oma ettewõtte jaoks iga allkiri isegi kallis<pb n="22"/> on, nüüd hakka weel sulle allakirjutama! Ole hää mees, jäta meid rahule! <stage>(Istutakse lauda ja hakatakse õlut jooma. Tint jääb püsti.)</stage></p>
+                    </sp>
+                    <sp who="#tint">
+                        <speaker>TINT</speaker>
+                        <p>Pardon, kui ma küsida tohin, mis ettewõte see niisugune on?</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>See põle sinu asi.</p>
+                    </sp>
+                    <sp who="#hans-oili">
+                        <speaker>OILI</speaker>
+                        <stage>(Uhkelt.)</stage>
+                        <p>Meie ehitame Rudiwere-Liiwale silikaadi wabriku.</p>
+                    </sp>
+                    <sp who="#tint">
+                        <speaker>TINT</speaker>
+                        <p>So, no waat', kurat, ise hakkate tuhandeid kokku ajama, kas see s' palju on, kui te minule kärnase kolmesaja rubla pääle alla kirjutate. Kirjutage alla, mis te jamate.</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Waata, kus on ometi kuradi mees! Nüüd on tema kah weel kaela pääl! Kurat sind kah, Säälik, käskis teda siia ühes wedada!</p>
+                    </sp>
+                    <sp who="#saeaelik">
+                        <speaker>SÄÄLIK</speaker>
+                        <p>Kas mina teda wedasin! Tint nägi mind uulitsal õllega ja oli küljes nagu pigi:<pb n="23"/> muud kui kirjuta alla! Niisugusest mehest ei saa muidu lahti, kui raputa talle puudrit pääle, muidu kleebib külge.</p>
+                    </sp>
+                    <sp who="#tint">
+                        <speaker>TINT</speaker>
+                        <p>Kuradi kass! <stage>(Wõtab Sääliku eest õlleklaasi ja joob tühjaks.)</stage></p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Ole, ole, hää mees, lase jalga! Meil on siin praegu waja tähtsamaid asju ajada, kui et sinuga jagada. Tee endale rahalaenamise masin, kui tahad, aga meie alla ei kirjuta.</p>
+                    </sp>
+                    <sp who="#tint">
+                        <speaker>TINT</speaker>
+                        <p>Kurat, küll sa oled wäiklane mees, Paun! Ise oled sa ajakirjanik ja räägid ühistegewusest! Mis ärimees sa oled, kui sa sedagi ei tea, et mida rohkem sa allkirju annad, seda tuttawamaks sa äriilmas saad. Kirjutage Teie alla, Wooks!</p>
+                    </sp>
+                    <sp who="#kippel">
+                        <speaker>KIPPEL</speaker>
+                        <stage>(Raputab pääd.)</stage>
+                        <p>Põhjusmõttelikult mitte. Nagu Te teate, olin ma kaksteistkümmend aastat kadunud Nossowi juures ärijuht, aga mis nii... allakirjutamisesse puutus — sääl olin ma<pb n="24"/> konsekwent. Kui mina korra "ei" ütlesin — siis oli ka "ei".</p>
+                    </sp>
+                    <sp who="#tint">
+                        <speaker>TINT</speaker>
+                        <p>Ja kui Te "ja" ütlesite, siis oli ka "ja". Ma tean... Kirjuta sina alla, Säälik!</p>
+                    </sp>
+                    <sp who="#saeaelik">
+                        <speaker>SÄÄLIK</speaker>
+                        <p>Seda ma ei tee! Mina olen juba allkirjadega mitu korda sisse kukkunud, pagan wõtku, nüüd ma enam nii loll ei ole.</p>
+                    </sp>
+                    <sp who="#tint">
+                        <speaker>TINT</speaker>
+                        <p>Te olete kuradi nahksed mehed siin kõik! Aga ladna, ladna! Ärge arwake, et teie ainsad olete, kes silikaadi wabrikut tahawad teha. He, siin on weel üks teine selts kah, kes nagu pirru tulega silikaadi liiwa otsib. Neile on waja natukene kõrwa sisse ütelda, et... nii... et Rudiweres on ja et teist kaunis odawasti saada wõib, et kui juba teiesugused mehed osta jõuawad, siis —</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Waata, kus saadan, nüüd läheb annab selle teise seltsile üles, et Rudiweres liiwa on!</p>
+                    </sp>
+                    <sp who="#saelik #kippel #jalak #hans-oili">
+                        <speaker>TEISED</speaker>
+                        <p>Jah, nüüd läheb jah, saadan! Niisugune koi!</p>
+                    </sp>
+                    <pb n="25"/>
+                    <sp who="#tint">
+                        <speaker>TINT</speaker>
+                        <p>Noh, moens! Waja minna teie ametiwendi waatama! <stage>(Tahab ära minna.)</stage></p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Pea kinni, kuhu sa lähed? <stage>(Teistele.)</stage> Kirjutame kuradile alla, mis?</p>
+                    </sp>
+                    <sp who="#saeaelik #kippel #hans-oili #jalak">
+                        <speaker>TEISED</speaker>
+                        <stage>(Üksteisele.)</stage>
+                        <p>Ei tea... Mis sa arwad?...</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <stage>(Tindile.)</stage>
+                        <p>Too oma lipakas siia! <stage>(Tint annab naerdes paberi, Paun kirjutab alla.)</stage> Säh, söö! Aga kui sa weel kunagi oma nägu näitad!</p>
+                    </sp>
+                    <sp who="#tint">
+                        <speaker>TINT</speaker>
+                        <p>Einoh, teised härrad kirjutawad ka, ega s' ma selle ühe allkirja pärast ütlemata ei jäta. <stage>(Lükkab paberi Sääliku ette.)</stage> Säälik, usu ometi kordki inimese aususe sisse ja hakka kokkuhoidlikumalt elama!</p>
+                    </sp>
+                    <sp who="#saeaelik">
+                        <speaker>SÄÄLIK</speaker>
+                        <p>Ei, see on, kurat, wäljapressimine! Niisugune mees peaks kinni pandama! <stage>(Kirjutab alla.)</stage></p>
+                    </sp>
+                    <pb n="26"/>
+                    <sp who="#tint">
+                        <speaker>TINT</speaker>
+                        <stage>(Lükkab paberi Oili ette.)</stage>
+                        <p>Wiska sa kah oma wapp alla; ma tean, sa mõistad kuradi toredasti oma nime kirjutada!</p>
+                    </sp>
+                    <sp who="#hans-oili">
+                        <speaker>OILI</speaker>
+                        <p>Sa oled inimesesoo koeranael! <stage>(Kirjutab alla.)</stage></p>
+                    </sp>
+                    <sp who="#tint">
+                        <speaker>TINT</speaker>
+                        <p>Noh, härr Kippel! Härr Wooks!</p>
+                    </sp>
+                    <sp who="#kippel">
+                        <speaker>KIPPEL.</speaker>
+                        <p>Nagu teate, ei kirjuta mina põhjusmõttelikult alla.</p>
+                    </sp>
+                    <sp who="#tint">
+                        <speaker>TINT</speaker>
+                        <p>No siis lähen mina põhjusmõttelikult teise seltsi juurde ja... Pean ma minema?</p>
+                    </sp>
+                    <sp who="#kippel">
+                        <speaker>KIPPEL</speaker>
+                        <p>Ma olin kaksteistkümmend aastat kadunud Nossowi juures, aga niisugust asja ma weel põle näinud. Mis aitab nüüd see, et Te rimski praawat olete õppinud!</p>
+                    </sp>
+                    <sp who="#tint">
+                        <speaker>TINT</speaker>
+                        <p>Härr Wooks, katsuge kord palja rimski praawaga päew ära elada, ehk ärge sööge<pb n="27"/> ja jooge, muud kui mõtelge oma Nossowi pääle, kelle juures Te —</p>
+                    </sp>
+                    <sp who="#kippel">
+                        <speaker>KIPPEL</speaker>
+                        <p>Ma näen, ma pean ühise kasu pärast oma põhjusmõtte ohwerdama. <stage>(Kirjutab alla.)</stage></p>
+                    </sp>
+                    <sp who="#tint">
+                        <speaker>TINT</speaker>
+                        <p>Ilmtingimata, härr Wiilias Wooks! <stage>(Jalakale.)</stage> Noh, Marabu, lase kah ruttu, enne kui mammi tuleb ja tuhwlit näitab!</p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <p>Sa oled niisugune saadan, kes teise saadana seljas kah ei seisa! <stage>(Kirjutab alla.)</stage></p>
+                    </sp>
+                    <sp who="#tint">
+                        <speaker>TINT</speaker>
+                        <stage>(Paneb paberi tasku.)</stage>
+                        <p>Jaah, miks ei seisa. Mina seisan igal pool, isegi mitme saadana seljas... nagu teie siin, sest... niisuguseid mehi ostan mina igal ajal rubla kakskümmend kopikat tosin, franco Tartu täiturg. <stage>(Lauasistujad teewad wihase liigutuse.)</stage> Ee-ee-egas meil sellepärast pahandust tarwis ei ole! Päälegi ei ole mul selleks praegu aega, ma pean minema waatama, kas teie allkirjade pääle ka midagi saab. Ehk leian mõne lolli, kes annab. Nõnda siis... <stage>(Üleloomulikult kõwa häälega).</stage> Jällenägemiseni, sõbrad! <stage>(Joob klaasi<pb n="28"/> õlut ja taganeb ukse poole.)</stage> Ja kui teil wabriku märki waja on, siis wõin ma soowitada: wõtke kukerpalli laskja täi worsti rõnga sees.</p>
+                    </sp>
+                    <sp who="#kippel #jalak #hans-oili #saeaelik">
+                        <speaker>KÕIK</speaker>
+                        <p>Wälja! Wälja!</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Wälja! <stage>(Wiskab Tinti õllepudeliga. Tint jookseb ära. Suur sõimamine. Pr. Jalak, laps süles, tuleb wihaselt köögist.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>Kuues etteaste.</head>
+                    <stage>Endised ilma Tindita. Pr. Jalak.</stage>
+                    <sp who="#pr-jalak">
+                        <speaker>Pr. JALAK</speaker>
+                        <p>Palun mitte lärmi teha, ma tahan last magama panna! Ega's siin kõrts ole. <stage>(Ust enese järel wihaselt kinni tõmmates, ära.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>Seitsmes etteaste.</head>
+                    <stage>Endised, ilma pr. Jalakata.</stage>
+                    <stage>(Häkiline waikus, siis aegamööda jutt.)</stage>
+                    <sp who="#saeaelik">
+                        <speaker>SÄÄLIK</speaker>
+                        <stage>(Paunile.)</stage>
+                        <p>Mis sa's ka lõhud!</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <stage>(Sosinal.)</stage>
+                        <p>Mis ma's teen, ta kurat ajas hinge täis. Wiis saadan allkirjad ja teotab päälegi.</p>
+                    </sp>
+                    <pb n="29"/>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <p>Nojaa... aga ega ta's meie allkirjadega midagi ei saa. <stage>(Lööb käega.)</stage></p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>No see on, et ei saa. Jumala õnn, et ei saa! Aga ütelge mulle, mis me's nüüd ise teeme? Raha on tingimata waja. Kui me nii... paarsada rublagi saaks.</p>
+                    </sp>
+                    <sp who="#hans-oili">
+                        <speaker>OILI</speaker>
+                        <p>Ja, kui meil näidatagi oleks, et raha ülepää käimas on.</p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <p>Pagana häda!</p>
+                    </sp>
+                    <sp who="#kippel">
+                        <speaker>KIPPEL</speaker>
+                        <p>Kadunud Nossow, kelle juures ma kaksteistkümmend aastat teenisin, wõttis alati, kui tal puudus tuli, selle — kui te mäletate — selle, mis ta oligi, selle paksu Pambergi käest.</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Nossow, Nossow... See oli Nossowi asi. Aga meie? Kurat sa tahad teha? Lase nüüd selle näljase paarisaja rubla pärast terwe asi luhta minna! <stage>(Lööb pääle lühikese järelmõtlemise käega wastu otsaesist.)</stage> Idee! Sõbrad, idee!</p>
+                    </sp>
+                    <pb n="30"/>
+                    <sp who="#saeaelik">
+                        <speaker>SÄÄLIK</speaker>
+                        <p>Tasa, laps ärkab üles!</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <stage>(Tasa.)</stage>
+                        <p>Kas teate, kust me raha saame? Las' Oili läheb toob äia käest.</p>
+                    </sp>
+                    <sp who="#saeaelik #jalak #kippel">
+                        <speaker>KÕIK</speaker>
+                        <p>Õigus! Waat' see on tõesti idee!</p>
+                    </sp>
+                    <sp who="#hans-oili">
+                        <speaker>OILI</speaker>
+                        <p>Mis, kurat, mul põle pruuti ega äia. Ja ülepää on minu waated wiimasel ajal —.</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Ära lori! Näät, nüüd temal juba waated korraga! Soola sisse oma waated; kuula, mis sulle räägitakse. Sina lähed kohe alla — ära n'd puikle wastu, ma ei salli seda igaüks teab wäga hästi, et sa majaperemehe Koiwa tütrega sehwti teed — lähed alla jah, ja palud tütre kätt. Muidugi öeldakse sulle "ja" ja siis tood wana Koiwa üles, ja küll me siis siin juba tema käest raha wälja pigistame.</p>
+                    </sp>
+                    <sp who="#jalak #kippel #saeaelik">
+                        <speaker>TEISED</speaker>
+                        <p>Õigus! õigus! Waat' see on tore plaan!</p>
+                    </sp>
+                    <pb n="31"/>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <stage>(Oilile.)</stage>
+                        <p>Noh?</p>
+                    </sp>
+                    <sp who="#hans-oili">
+                        <speaker>OILI</speaker>
+                        <p>Ei, mina ei lähe. Mina ei ole ühegi Koiwa tütrega sehwti teinud ja... Ja kui ka oleks... siis... lihtsalt: armastuse asjad ei lase end sundida!</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <stage>(Wihaselt.)</stage>
+                        <p>Waata, kus on ometi lambapää! Sa räägi talle, mis sa tahad, aga tema ajab üksi sõnu: armastus ja armastus! Nüüd on ometi sõna kätte saanud! Just kui koer kondi kallal! Kus on nüüdsel ajal armastus? Kas sa tõesti ajast sedawõrt maha oled jäänud, et sa meeste keskel weel seda sõna tarwitad? Armastuse asemel on nüüd äri. Mõistad? Oled ennemalt kuulnud niisugust sõna "äri"?</p>
+                    </sp>
+                    <sp who="#hans-oili">
+                        <speaker>OILI</speaker>
+                        <p>Olen küll, aga —</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Mis aga! Jalamaid käi alla, sa tead, et me aega kaotada ei tohi! Siin on kümned ja sajad tuhanded kaalu pääl. Saa aru, mis sulle räägitakse!</p>
+                    </sp>
+                    <pb n="32"/>
+                    <sp who="#kippel #jalak #saeaelik">
+                        <speaker>TEISED</speaker>
+                        <p>Mine, mine; ära lase ennast paluda, ole mees!</p>
+                    </sp>
+                    <sp who="#hans-oili">
+                        <speaker>OILI</speaker>
+                        <p>Hmh... No mõtelge n'd ise: nüüd korraga mine alla ja küsi wana tüdrukut...</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Jah ei tea, mis sääl s' ära ei ole. Ega sa wõllasse ei lähe. Ja kas tead, Hans, kui sa n'd alla lähed ja sääl ilusti kõik maha teed, ja meie raha saame, siis — Kas tead, mis me siis teeme? <stage>(Pühalikult.)</stage> Meie paneme sind siis silikaadi wabriku direktoriks!</p>
+                    </sp>
+                    <sp who="#saeaelik #kippel #jalak">
+                        <speaker>KÕIK</speaker>
+                        <p>No waat! Tore mõte! Nii, nii! Direktoriks jah!</p>
+                    </sp>
+                    <sp who="#saeaelik">
+                        <speaker>SÄÄLIK</speaker>
+                        <p>Tasa, laps ärkab üles!</p>
+                    </sp>
+                    <sp who="#hans-oili">
+                        <speaker>OILI</speaker>
+                        <stage>(Tasa.)</stage>
+                        <p>Aga kui wanamees teada saab, siis on kurat lahti!</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Ah mis! Kui meie wabriku asi joones, siis kao wana Koiwa ja pruudi juurest kui tina tuhka. Mis sa kaupled!</p>
+                    </sp>
+                    <pb n="33"/>
+                    <sp who="#hans-oili">
+                        <speaker>OILI</speaker>
+                        <stage>(Tõuseb pikkamisi üles.)</stage>
+                        <p>Olgu, ma olen nõus.</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <stage>(Saadab teda ukseni.)</stage>
+                        <p>Waat' see on mõistlik sõna! Nii kuula alati, mis sulle targemad inimesed ütlewad. So, mine siis pääle. Ja, kuule, mida ennem sa sääl walmis saad, seda parem. Ja kuule, kui muidu ei saa, ütle, et isa saatis sind kätt paluma. Noh, küll sa ise juba tead. <stage>(Oili ära.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>Kaheksas etteaste.</head>
+                    <stage>Endised ilma Oilita.</stage>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <stage>(Istub endisele kohale.)</stage>
+                        <p>So, nüüd on ometi, Jumal tänatud, niikaugel! Nüüd on pääasi, kui ruttu ta sääl walmis saab. Et ta enne tagasi saaks, kui wana Oili tuleb! No, ma arwan, ta saab: wanatüdruk on igaweses mehelemineku hädas. Küll tuleb wana Koiw warsti üles nagu tiriseb. <stage>(Walab õlut.)</stage> Noh, lapsed! Hää õnne ja uue silikaadi wabriku õitsmise pääle!</p>
+                    </sp>
+                    <sp who="#saeaelik">
+                        <speaker>SÄÄLIK</speaker>
+                        <p>Aga tasa, laps ärkab üles!</p>
+                    </sp>
+                    <pb n="34"/>
+                    <sp who="#kippel #saeaelik #paun #jalak">
+                        <speaker>KÕIK</speaker>
+                        <stage>(Tasa.)</stage>
+                        <p>Elagu! Proost! <stage>(Joowad.)</stage></p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Muidu jää ju põrgu hädasse: mul endal ei ole praegu rohkem hinge taga, kui kuus rubla kolmkümmend neli kopikat.</p>
+                    </sp>
+                    <sp who="#saeaelik">
+                        <speaker>SÄÄLIK</speaker>
+                        <p>Mina hommiku kaks rubla rebistasin ema käest wälja, rohkem ka ei ole. Wanamoori pagan ei taha mulle enam raha anda, muud kui, et: "Täis mees — teeni ise!" No ma ütlesin talle siis, et: oota weel natuke, küll ma hakkan nüüd teenima, et warsti on mul nii palju raha, et rublatükkidega koeri wõin pilduda, et siis kuldan su üle, kui tahad, wana krõmps! Noh, ära siis jäi rahule ja andis kaks nälga.</p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <p>Mnjaa... Ja mul jäi rahakott kappi ja wõtmed...</p>
+                    </sp>
+                    <sp who="#kippel">
+                        <speaker>KIPPEL</speaker>
+                        <p>Ei, raha on ilmtingimata niisugune asi — wahel on teda küllalt, aga wahel — <stage>(Teeb liigutuse, et ei ole.)</stage> Mis ma ütelda taht<pb n="35"/>sin, et kui... nii nagu... et direktor sai juba ära walitud, et kui te mind asjaajajaks paneks. Ma olin kadunud Nossowi juures kaksteistkümmend aastat kaheteistkümne mehe üle ja kui sääl wahel ütlemist tuli, siis ütlesin kohe lausa ära, et: niipea kui teie minuga krillima hakkate, et siis nummerdage juba oma kondid enne ära, et kui mina ühe kähmu annan, et siis teie neid enam naljalt kokku ei korista. Einoh, ilmtingimata. <stage>(Katsub oma musklid.)</stage> Mul on siin paremas käes kaunis tubli jõud!</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Et Teie tööliste üle tahate saada, selle pärast wõib ju läbi rääkida. Minul isiklikult ei ole midagi selle wastu, aga... mis n'd nii... direktorisse puutub, siis... ei ole ju weel kindel, kas ka Oili selleks tõesti kõlbab. Sest, esiteks, on ta noor ja meie ei tea sugugi, kas tal ka korraldusewaimu on. Ja, teiseks, olen mina juba wana ajakirjanik, kes... Ma ei taha ju ütelda, et sääl n'd Jumal teab mis, aga... wähemalt elu tundmist ja ärilist wilumist on minul igatahes rohkem, kui temal. Nii et siis... Lõpukorral wõiks ju ka mina direktori ameti enese pääle wõtta.</p>
+                    </sp>
+                    <pb n="36"/>
+                    <sp who="#jalak #saeaelik">
+                        <speaker>JALAK ja SÄÄLIK</speaker>
+                        <stage>(Korraga.)</stage>
+                        <p>Ja, aga milleks siis mina saan!</p>
+                        <stage>(Ukse pihta koputatakse.)</stage>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Tsst!</p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <p>Sisse!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>Üheksas etteaste.</head>
+                    <stage>Endised ja Andres Oili.</stage>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <stage>(Tasa.)</stage>
+                        <p>Wana Oili, kurat! Mis nüüd saab? <stage>(Suur kohmetus.)</stage></p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <p>Tere!</p>
+                    </sp>
+                    <sp who="#kippel #jalak #saeaelik">
+                        <speaker>LAUASISTUJAD.</speaker>
+                        <p>Tere!</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Tere! <stage>(Tõuseb üles ja läheb Oilile wastu.)</stage></p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <p>Ei tea, kas ma õigesti olen tulnud? Minu poeg rääkis nimelt, et siin üks koosolek olla, mis silikaadi wabrikut tahtwat ehitada.</p>
+                    </sp>
+                    <pb n="37"/>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Ja, ja, wäga õigesti olete tulnud. Meie siin need olemegi. Minu nimi on Paun.</p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <p>Oili.</p>
+                        <stage>(Käeandmine.)</stage>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Wäga rõõmustaw! Tohin ma tutwustada... Siin härra Säälik... härra Kippel... härra Jalak, minu kooliwend.</p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <p>Wäga rõõmustaw!</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <stage>(Annab tooli.)</stage>
+                        <p>Olge nii lahke, wõtke platsi.</p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <p>Tänan! <stage>(Istub.)</stage> Noh, kuidas siis on selle asjaga? <stage>(Waatab Sääliku toodud põhjuskirjade kimpu.)</stage> Plaanid? Eelarwed?</p>
+                    </sp>
+                    <sp who="#saeaelik">
+                        <speaker>SÄÄLIK</speaker>
+                        <p>Ei, need on põhjuskirjade proowid... Tõin teised ühe kõrgema ministeriumi ametniku käest... oleme wanad südamesõbrad... Et waatame siin järele...</p>
+                    </sp>
+                    <pb n="38"/>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <p>So, so. Aga wabrik ise? Kas koht juba walmis on?</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Waadake, härra Oili. Wabrik tuleb Rudiwere-Liiwale.</p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <p>Rudiwere-Liiwale?</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Waadake, härra Oili, silikaat seisab, nagu teada, lubjast ja liiwast koos, pääasjalikult liiwast. Ja Rudiweres on seda liiwa määratumad lademed. Säält see nimigi: "Rudiwere-Liiwa."</p>
+                    </sp>
+                    <sp who="#jalak #kippel #saeaelik">
+                        <speaker>TEISED</speaker>
+                        <p>Ja, liiwa on maailm.</p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <p>Ah, so! Noh, edasi?</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Plats — ma arwan kõiki neid liiwalademeid — ei tule rohkem kui kümmetuhat<pb n="39"/> rubla; see on, kui me kõwasti rehkendame, aga ta wõib weel odawam tulla.</p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <p>Noh?</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Hooned — nagu neid ülepää wiimasel ajal ehitatakse — teeme obligatsionidega.</p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <p>Obligatsionidega — tubli!</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Ja masinad — need teewad kõige wähem muret — need antakse wäljamaalt järelmaksu pääle. Nõnda, et siis esiteks —</p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <p>Nõnda, et siis esiteks oleks ainult see kümmetuhat, platsi ostmiseks, mis lausa puhta rahaga wälja peaks panema?</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Ei! Nüüdsel ajal ei tehta seda ka enam! Ainult ühe osa maksame ära ja siis teeme platsi pääle kohe hüpoteegi.</p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <p>So, so!</p>
+                    </sp>
+                    <pb n="40"/>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Lubage, ma seletan weel kord. Rahad pannakse kokku ja wõetakse wabriku asutamiseks luba. Selle luba pääle wõib juba pangast mõni tuhat rubla saada. Ei, ei, ma tean, niisugune punkt, isikliku kredidi ja tööstuse edendamise hääks, on rahaasutustes olemas, mille järele tööstuse ettewõtete jaoks raha wõlgu antakse. Noojah, see mõni tuhat makstakse platsi eest sisse ja tehakse platsi pääle hüpoteek. Ja see raha makstakse meistrile käsirahaks, kuna meister hooned omal kulul üles ehitab. Kui hooned walmis, tehakse hoonete pääle obligatsion. Sellest saab käsiraha masinate jaoks. Masinad ise tulewad wõlgu siia ja nende pääle wõib jällegi laenu saada. Selle laenuga wõetakse töölised, pannakse wabrik käima ja tehakse kiwa. Kiwid müüakse hirmsa kasuga ära ja raha tuleb nagu puru. Ja siis wõib ka aeg-ajalt wõlgasid tasuma hakata.</p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <p>Ahhaa! Saan aru. Ja silikaadi tööstus toob siis praegusel ajal tõesti nii palju kasu?</p>
+                    </sp>
+                    <pb n="41"/>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Ja, kasu on lõpmata suur!</p>
+                    </sp>
+                    <sp who="#kippel #jalak #saeaelik">
+                        <speaker>TEISED</speaker>
+                        <p>Einoh, kasu on käega katsuda.</p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <p>Ma arwan, kui me nii mõne kuu seda wabrikut peame, siis wõime juba paremates ruumides kokku tulla, kui see siin... Wa' pime ja rõske tuba.</p>
+                    </sp>
+                    <sp who="#kippel">
+                        <speaker>KIPPEL</speaker>
+                        <p>Ja, igatahes. Aga lubage küsida, härra Oili — Teie olete, nagu ma Teie poja käest kuulsin, linakaupmees — kas Teie kadunud Nossowiga äriühenduses ei ole olnud? Mina teenisin tema juures kaksteistkümmend aastat.</p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <p>Ja, olin küll. Sellepärast mul tuleb nii ette, nagu oleks ma Teid enne kuskil näinud.</p>
+                    </sp>
+                    <sp who="#kippel">
+                        <speaker>KIPPEL</speaker>
+                        <p>Einoh, ilmtingimata! Mina olin ju kadunud Nossowi parem käsi, töötasin kaheteistkümne mehega...</p>
+                    </sp>
+                    <pb n="42"/>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <p>Nojaa, aga et nüüd asja juurde tagasi tulla, siis lubatagu mulle kõigepäält küsida, et kas on ka austatud asutajatel igalühel wõimalik oma jagu kohe wälja panna? Ärge pange pahaks, aga äriasi on juba niisugune.</p>
+                    </sp>
+                    <sp who="#kippel">
+                        <speaker>KIPPEL</speaker>
+                        <p>Ei, ei, ei! Kadunud Nossow oli punkt niisama: kõigepäält raha!</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <stage>(Köhatades.)</stage>
+                        <p>Ja ja... igatahes ja... Küll me juba selle eest hoolt kanname, et... Ei, sellepääle wõite julge olla, sest —</p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <p>Kui nii on, siis olen ma nõus. Meid on wiis meest...</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Kuus, isand Oili. Teie poeg Hans kah.</p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <p>Ah mis! Poisikese tattnina! Tema n'd mõni osanik wõi midagi! Aga kus ta siis ise on? Ta pidi ju siin olema?</p>
+                    </sp>
+                    <pb n="43"/>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Ta... tuleb kohe. Ta läks natukeseks ära. Ta tuleb...</p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <stage>(Rehkendab.)</stage>
+                        <p>Nõnda siis wiis meest — <stage>(Wälimise ukse taga kobistatakse. Kostab kõne. Kõik kohmetawad. A. Oili jätab rehkenduse pooleli ja waatab osanikkudele küsiwalt otsa.)</stage></p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Ei ole midagi. See on — see on —</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>Kümnes etteaste.</head>
+                    <stage>(Endised. Hans Oili. Hr. Koiw ja prl. Koiw.)</stage>
+                    <sp who="#hans-oili">
+                        <speaker>HANS OILI</speaker>
+                        <stage>(Hr. ja prl. Koiwile.)</stage>
+                        <p>Olge hääks, olge hääks, astuge aga sisse, ega siin wõõraid ei ole. Siin oleme ainult oma seltsiga. <stage>(Silmab A. Oilit, ehmatab, iseeneses:)</stage> Wanamees siin! Nüüd olen ma küps!</p>
+                    </sp>
+                    <sp who="#hr-koiw">
+                        <speaker>Hr. KOIW</speaker>
+                        <p>O, siiski... õige palju härrasid... <stage>(Kumardab.)</stage> Kunn Daah!</p>
+                    </sp>
+                    <pb n="44"/>
+                    <sp who="#kippel #jalak #paun #saeaelik #andres-oili">
+                        <speaker>LAUASISTUJAD</speaker>
+                        <stage>(Tasa).</stage>
+                        <p>Tere!</p>
+                    </sp>
+                    <sp who="#hr-koiw">
+                        <speaker>Hr. KOIW.</speaker>
+                        <p>O, wana Oili härra ise kah siin. See rõõmustab mind! <stage>(Teretab Oilit.)</stage></p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <stage>(End tutwustades.)</stage>
+                        <p>Paun. <stage>(Tutwustab teistega)</stage> Siin härra Säälik.... härra Kippel... härra Jalak... <stage>(Käepigistused.)</stage></p>
+                    </sp>
+                    <sp who="#hr-koiw">
+                        <speaker>Hr. KOIW</speaker>
+                        <p>Rõõmustab mind, rõõmustab mind! Ja sääl see on minu tütar, Willemine Josehwine Wriederike Aleksandra Nora <stage>(Kumardused kõigi lauasistujate poolt.)</stage> Komm toh äär, Willemine!</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p><stage>(Pakub tooli, kusjuures ta Hans Oilit silmadega julgustab.)</stage> Olge nii lahked, wõtke platsi.</p>
+                    </sp>
+                    <sp who="#prl-koiw">
+                        <speaker>Prl. KOIW</speaker>
+                        <p>Tanke! Tänan Teid wäega! <stage>(Istutakse.)</stage></p>
+                    </sp>
+                    <sp who="#hr-koiw">
+                        <speaker>Hr. KOIW</speaker>
+                        <p>Aga mu härrad, ärge ennast mitte schtöörida laske! <stage>(Tütrele.)</stage> Willemine, ast tu auh tüüre kuut tsuujemaht?</p>
+                    </sp>
+                    <pb n="45"/>
+                    <sp who="#prl-koiw">
+                        <speaker>Prl. KOIW</speaker>
+                        <p>Ja, papi, ti schlüssel is hiir. <stage>(Näitab wõtit.)</stage></p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <p>Preili Koiw näitab wist südame wõtit?</p>
+                    </sp>
+                    <sp who="#prl-koiw">
+                        <speaker>Prl. KOIW</speaker>
+                        <p>Fui, äeei! See on meie tua wöti.</p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <p>Ah so. <stage>(Naerab.)</stage></p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Hm, hm... ja...</p>
+                        <stage>(Hans Oili nihutab end hirmuga Pauni selja taha.)</stage>
+                    </sp>
+                    <sp who="#hr-koiw">
+                        <speaker>Hr. KOIW</speaker>
+                        <p>No, kuidas käsi käib, härra Oili, teete wist hääd schefti?</p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <p>Jah, läheb kah, keskmist wiisi... ei ole wiga... Muidugi ei ole enam endised ajad, kus...</p>
+                    </sp>
+                    <sp who="#kippel">
+                        <speaker>KIPPEL</speaker>
+                        <p>Einoh, ilmtingimata! Sestsaadik, kui kadunud Nossow mulla alla läks, on ärielus seisak.</p>
+                    </sp>
+                    <pb n="46"/>
+                    <sp who="#hr-koiw">
+                        <speaker>Hr. KOIW</speaker>
+                        <p>Nojaa, aga Oili härral on ju wana, suur scheft, see —</p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <p>Nüüd tahame siia weel midagi uut asutada... ühte silikaadi wabrikut.</p>
+                    </sp>
+                    <sp who="#hr-koiw">
+                        <speaker>Hr. KOIW</speaker>
+                        <p>Ja ja, seda Hans rääkis, jah. See on tore nõu!</p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <p>A, wõi juba rääkis? <stage>(H. Oilile.)</stage> Kuule, sina poiss, räägid enne juba kõige ilmale wälja, kui me midagi ära teha saame. Sa ära lõhwerda nii palju!</p>
+                    </sp>
+                    <sp who="#hans-oili">
+                        <speaker>HANS OILI</speaker>
+                        <p>Ei, ma niisama... <stage>(Kõrwale.)</stage> Nüüd ta mind õnneks wõtab!</p>
+                    </sp>
+                    <sp who="#hr-koiw">
+                        <speaker>Hr. KOIW</speaker>
+                        <p>Einoh, ega's sellest midagi ei ole! See on ainult meie wahel..! <stage>(H. Oilile.)</stage> Tuut nihts, Hans! At nihts su saagen!</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Hm, hm, ja... Aga sõda hakkab wist meil ka pääle. Türklased on juba —</p>
+                    </sp>
+                    <pb n="47"/>
+                    <sp who="#kippel #saeaelik #jalak">
+                        <speaker>KIPPEL, SÄÄLIK, JALAK</speaker>
+                        <p>Ja, sõda wõib wäga kergesti lahti minna.</p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <stage>(Ei pane sõjajuttusid tähele. Hr. Koiwile.)</stage>
+                        <p>Olgu pääle, aga poisikese klunn ei tohi nii palju suud pruukida. Kas tema teab, mis ta räägib! <stage>(Hans Oilile.)</stage> Ja mis sa sääl all s' käisid? Käid igal pool plaramas, jah, et meie wabriku teeme? Ja mis ma n'd weel küsida tahtsin —</p>
+                    </sp>
+                    <sp who="#hans-oili">
+                        <speaker>H. OILI</speaker>
+                        <stage>(Paunile salaja.)</stage>
+                        <p>Räägi sõjast! Räägi sõjast! Ütle, et türklased tahawad linu osta!</p>
+                    </sp>
+                    <sp who="#hr-koiw">
+                        <speaker>Hr. KOIW.</speaker>
+                        <p>Ei, ei, härra Oili, tema käis ikke selle teise asja pärast... selle —</p>
+                        <stage>(H. Oili müksab Paunile külge.)</stage>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <stage>(Köhatab.)</stage>
+                        <p>Hm, ja... Aga nagu n'd mina, kui ajakirjanik, Europa politikale ikka kaunis lähedal seisan, siis wõin ma kindlasti ütelda, et — wõi wähemalt on see minu arwamine, et sõda — et sõda — Isand Oili, kas Teie ka wiimati wana sõjamees ei ole?</p>
+                    </sp>
+                    <pb n="48"/>
+                    <sp who="#hans-oili">
+                        <speaker>H. OILI</speaker>
+                        <stage>(Paunile salaja.)</stage>
+                        <p>Ütle, et türklased ostawad bulgarlaste poomiseks linu!</p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <p>Ei, mina ei ole sõjamees! Ja sõda ei huwita mind üleüldse mitte!</p>
+                    </sp>
+                    <sp who="#kippel">
+                        <speaker>KIPPEL</speaker>
+                        <p>Wäga õige! Sõda toob kaubandusele ainult kahju.</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <stage>(Kippelile salaja.)</stage>
+                        <p>Pea lõuad! <stage>(Säälik ja Jalak tõmbawad Kippelit käiksest. Paun räägib Oilile edasi.)</stage> Nojaa, See wõib ju kõik olla, aga kui meie sõja pääle üleüldis-inimlikust seisupunktist waatame, siis —</p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <stage>(Rõhuga.)</stage>
+                        <p>Sõjaga ei tee ma enne tegemist, kui ta Tartu all on, ehk wähemalt Nuustakul, sääl on mul linaaidad! Mis kaugemal sünnib — põle minu asi! Mis ma aga küsida tahtsin —</p>
+                    </sp>
+                    <pb n="49"/>
+                    <sp who="#hans-oili">
+                        <speaker>Hr. OILI</speaker>
+                        <stage>(Paunile salaja.)</stage>
+                        <p>Ütle Jumala pärast midagi!</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Nojaa, Nuustakule nad ju sõjaga ei ulata, aga kui me majanduslisest küljest waatame —</p>
+                    </sp>
+                    <sp who="#hr-koiw">
+                        <speaker>Hr. KOIW</speaker>
+                        <p>Ja, ja, härr Oili, mis puutub sõda meile! Lass sein! Lass andere menschen mahhen, was tii wollen! Aga mis ma ütelda tahtsin, et kui Hansul ja Willeminel see plaan on — miks mitte!</p>
+                    </sp>
+                    <sp who="#prl-koiw">
+                        <speaker>Prl. KOIW</speaker>
+                        <p>Schprih toh nih, papi!</p>
+                    </sp>
+                    <sp who="#hr-koiw">
+                        <speaker>Hr. KOIW</speaker>
+                        <p>Noh, was tenn?</p>
+                        <stage>(A. Oili ei saa aru, millest jutt on. H. Oili müksib suures hirmus Paunile ühtelugu külge.)</stage>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <stage>(Prl. Koiwile.)</stage>
+                        <p>Preili Koiw — hm, hm — Teie armastate muidugi ka lillesid?</p>
+                    </sp>
+                    <pb n="50"/>
+                    <sp who="#prl-koiw">
+                        <speaker>Prl. KOIW</speaker>
+                        <p>Ja, wäega! Ah, ma armastan nii wäega lillesid!</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Ja missugune on Teie kõige armsam lill, kui ma küsida tohin?</p>
+                    </sp>
+                    <sp who="#prl-koiw">
+                        <speaker>Prl. KOIW</speaker>
+                        <p>Werjessmennih!</p>
+                    </sp>
+                    <sp who="#hans-oili">
+                        <speaker>H. OILI</speaker>
+                        <p>Oh sa seitsmesabaga nõid! Wõi werjessmennih!</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>So? Imelik, see on ka minu kõige armsam lill!</p>
+                    </sp>
+                    <sp who="#hr-koiw">
+                        <speaker>Hr. KOIW</speaker>
+                        <stage>(A. Oilile.)</stage>
+                        <p>Ei, ega, õigust ütelda, minul küll midagi selle wastu ei ole, kui meie lapsed... <stage>(H. Oili müksib Paunile selga.)</stage> Kui nad ise arwawad, et nad üksteisega õnnelikuks saawad ja see nende kindel tahtmine on —</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <stage>(Tahab wahele rääkida.)</stage>
+                        <p>Hm, hm, ja... nagu öeldud: sõda —</p>
+                    </sp>
+                    <pb n="51"/>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <stage>(Paunile.)</stage>
+                        <p>Jätke mind ükskord oma sõjaga rahule! Ma tahan kord teada, mis see tähendab, et — <stage>(Hr. Koiwile.)</stage> Kuda? Teie ütlete, et meie lapsed üksteisega õnnelikuks saawad? No aga kas on s'sellest juba juttu olnud, wõi nii?</p>
+                    </sp>
+                    <sp who="#hr-koiw">
+                        <speaker>Hr. KOIW</speaker>
+                        <p>Härjee, nagu Te n'd ise ei teaks! Praegu käis ju Teie poeg Hans all ja palus minu tütre kätt.</p>
+                        <stage>(H. Oili ja Paun on wäga piinlikus seisukorras.)</stage>
+                    </sp>
+                    <sp who="#prl-koiw">
+                        <speaker>Prl. KOIW</speaker>
+                        <p>Schprih toh nih, papi! Ih hab schande!</p>
+                    </sp>
+                    <sp who="#hr-koiw">
+                        <speaker>Hr. KOIW</speaker>
+                        <p>Was tenn?</p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <stage>(H. Oilile.)</stage>
+                        <p>Poiss, kalkun, mis tegu see on? <stage>(Tõuseb püsti.)</stage></p>
+                    </sp>
+                    <sp who="#hans-oili">
+                        <speaker>H. OILI</speaker>
+                        <p>Ei, papa, ma ainult nalja pärast —</p>
+                    </sp>
+                    <sp who="#prl-koiw">
+                        <speaker>Prl. KOIW</speaker>
+                        <p>Papi, äär maht schpaass!</p>
+                    </sp>
+                    <pb n="52"/>
+                    <sp who="#hr-koiw">
+                        <speaker>Hr. KOIW</speaker>
+                        <p>Mis nalja pärast? Noormees, see ei olnud nali! Niisuguste asjadega ei tehta nalja. <stage>(Tõuseb üles, sedasama teeb prl. Koiw, kes wäga ära ehmatab.)</stage></p>
+                    </sp>
+                    <sp who="#prl-koiw">
+                        <speaker>Prl. KOIW</speaker>
+                        <p>Mein Kott! mein Kott wool!</p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <stage>(H. Oilile.)</stage>
+                        <p>Oh sa põis! Wõi tema wõtab naist?</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Lubage, härra Oili — ainult nalja pärast!</p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <stage>(H. Oilile)</stage>
+                        <p>Tule siia, poiss! <stage>(Wõtab tal kõrwast kinni.)</stage> Seda sa mul kooserdad mööda linna ümber ja teed lollusi. Kasi kodu! Marsch! Tema wõtab naist ja saab õnnelikuks! Pasun! Ma tahaks su teha õnnelikuks... köieotsaga — waata siis! Seda ma mõtlen, et pagana jutt see niisugune on: ei ole siit ega säält pärit.</p>
+                    </sp>
+                    <sp who="#hr-koiw">
+                        <speaker>Hr. KOIW</speaker>
+                        <p>Ja, aga lubage, härra Oili, see on juba kindlaks tehtud asi! Minu tütar Willemine ei ole mitte, ei ole mitte —</p>
+                    </sp>
+                    <pb n="53"/>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <stage>(Lööb käega.)</stage>
+                        <p>Mis kindlaks tehtud! Kes ta kindlaks tegi? Poisi klunn ajab lori suust wälja — ja juba neil kindlaks tehtud!</p>
+                    </sp>
+                    <sp who="#prl-koiw">
+                        <speaker>Prl. KOIW</speaker>
+                        <p>Mein Kott! Mein Kott!</p>
+                    </sp>
+                    <sp who="#hr-koiw">
+                        <speaker>Hr. KOIW</speaker>
+                        <p>Ei, ei, ei! Lubage, lubage! <stage>(Wehkleb kätega.)</stage></p>
+                    </sp>
+                    <sp who="#hans-oili">
+                        <speaker>H. OILI</speaker>
+                        <stage>(A. Oilile.)</stage>
+                        <p>Meil oli ju raha tarwis, papa.</p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <p>Mis raha?</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Tsst!</p>
+                    </sp>
+                    <sp who="#hans-oili">
+                        <speaker>H. OILI</speaker>
+                        <p>Wabriku asutamiseks.</p>
+                    </sp>
+                    <sp who="#andres-oili">
+                        <speaker>A. OILI</speaker>
+                        <p>Ahhaa! Nüüd ma mõistan! Ah s' niiwiisi tahetakse wabrikut asutada! No siis jäägu ta minust küll igawesti asutamata. Kasi kodu! <stage>(Tõukab H. Oili ukse poole.)</stage> Wabrikuasutajad!</p>
+                    </sp>
+                    <pb n="54"/>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Ei, lubage, härra Oili —</p>
+                    </sp>
+                    <sp who="#hr-koiw">
+                        <speaker>Hr. KOIW</speaker>
+                        <p>Ei, ei, lubage, härra Oili — <stage>(Andres Oili lööb käega ja tõukab poja wihaselt uksest wälja. Mõlemad ära.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>Üksteistkümnes etteaste.</head>
+                    <stage>Endised ilma Andres ja Hans Ollita.</stage>
+                    <sp who="#prl-koiw">
+                        <speaker>Prl. KOIW</speaker>
+                        <p>Fui, wii kroosse schande! Komm, papi, wolme weih jeen! <stage>(Hakkab nutma.)</stage></p>
+                    </sp>
+                    <sp who="#hr-koiw">
+                        <speaker>Hr. KOIW</speaker>
+                        <stage>(Prl. Koiwile.)</stage>
+                        <p>Lass sein! <stage>(Lauasistujate poole.)</stage> Härrad! Mis temp see niisugune on? Ma wõtan teid wastutusele!</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Nojaa no, no... ega's meie sääl süüdi ei ole. See on juba Oili asi.</p>
+                    </sp>
+                    <pb n="55"/>
+                    <sp who="#hr-koiw">
+                        <speaker>Hr. KOIW</speaker>
+                        <p>Ma kaeban teid kõiki, niipalju kui teid siin on, plameerimise pärast kohtusse. Pange tähele!</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <stage>(Kehitab õlgu.)</stage>
+                        <p>Taewane Jumal, ega s' meie midagi... Meie saime kah kahju: meie kaotasime oma kõige parema osaniku. Muidugi, ma kahjatsen wäga, et —</p>
+                    </sp>
+                    <sp who="#hr-koiw">
+                        <speaker>Hr. KOIW</speaker>
+                        <stage>(Ähwardab.)</stage>
+                        <p>Pange te tähele! Teie tahate minu majas kõiksugu musta äri ajada ja siis plameerite minu tütart! Pange te tähele! <stage>(Prl Koiwile.)</stage> Gomm, mein gint! <stage>(Minnes Jalakale.)</stage> Ja Teie, härr Jalak, katsuge, et Te esimeseks minu majast läinud olete! Sest kelmusi ja kõrilõikamisi mina omas majas ei salli! Wolme jeen, Willemiine! <stage>(Ühes prl. Koiwiga kes waljusti nuuksub, ära.)</stage></p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <stage>(Koiwile järele.)</stage>
+                        <p>Isand Koiw, isand Koiw —</p>
+                    </sp>
+                    <sp who="#hr-koiw">
+                        <speaker>Hr. KOIW</speaker>
+                        <stage>(Wihaselt.)</stage>
+                        <p>Alts maul! <stage>(Lööb ukse paukudes kinni.)</stage></p>
+                    </sp>
+                </div>
+                <pb n="56"/>
+                <div type="scene">
+                    <head>Kaksteistkümnes etteaste.</head>
+                    <stage>Paun. Säälik. Kippel. Jalak. Siis pr. Jalak.</stage>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <stage>(On nagu taewast kukkunud.)</stage>
+                        <p>Noh... noh... kas nüüd näete! <stage>(Paneb käed risti.)</stage></p>
+                    </sp>
+                    <sp who="#saeaelik #kippel #jalak">
+                        <speaker>TEISED</speaker>
+                        <p>Jah, kes kurat wõis arwata, et n'd niiwiisi läheb!</p>
+                    </sp>
+                    <sp who="#jalak">
+                        <speaker>JALAK</speaker>
+                        <p>Majast ajab wälja! See on see kõige hullem! <stage>(Köögist kostab häkki lapse karjumine.)</stage></p>
+                    </sp>
+                    <sp who="#pr-jalak">
+                        <speaker>Pr. JALAK</speaker>
+                        <stage>(Tuleb köögist, pudrunui käes.)</stage>
+                        <p>No ära tapawad nüüd lapse oma lärmamise ja ukse paugutamisega! <stage>(Jalakale.)</stage> Ja sina ise muud kui kah sääl hulgas? Teed silikaadi wabrikut, jah? Silikaadi wabrikut temale waja! Waata, kui ma annan sulle sellega ühe wõmmu <stage>(kõigutab nuia),</stage> siis on silikaadi wabrik walmis! Kasi kööki ja kiiguta last! <stage>(Jalak läheb süüdlase näoga kööki.)</stage></p>
+                    </sp>
+                    <pb n="57"/>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Wabandage, proua, ega's meie... lubage, et ma — <stage>(Pr. Jalak astub paar sammu Paunile lähemale, kusjuures ta temale wihaselt otsa wahib. Paun taganeb.)</stage></p>
+                    </sp>
+                    <sp who="#pr-jalak">
+                        <speaker>Pr. JALAK</speaker>
+                        <p>Teie..! Kes Teie olete?</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <stage>(Kogeledes.)</stage>
+                        <p>Mina — mina — mina olen Teie sõber — ee — ee — Teie mehe sõber, tahtsin ütelda. Minu nimi on Paun.</p>
+                    </sp>
+                    <sp who="#pr-jalak">
+                        <speaker>Pr. JALAK</speaker>
+                        <p>Mis Paul?</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Ei: Paun. P-a-u-n... n lõpus — Paun...</p>
+                    </sp>
+                    <sp who="#pr-jalak">
+                        <speaker>Pr. JALAK</speaker>
+                        <p><stage>(Tähendab Sääliku ja Kippeli pääle, kes endid hirmuga kaugemale nihutawad.)</stage> Ja need?</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Need on kah... Teie mehe sõbrad.</p>
+                    </sp>
+                    <sp who="#pr-jalak">
+                        <speaker>Pr. JALAK</speaker>
+                        <p>So. Ja mis te tahate siit?</p>
+                    </sp>
+                    <pb n="58"/>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Meie... Waadake, austatud proua, meie tahame Tartusse ühte suurt silikaadi tööstust asutada, mis —</p>
+                    </sp>
+                    <sp who="#pr-jalak">
+                        <speaker>Pr. JALAK</speaker>
+                        <p>Silikaadi tööstust! Silikaadi tööstust! Teie? Kas teate, kes te siin kõik olete? Te olete üks kompaljong päewawargaid, kes kõige muu pääle walmis on, ainult mitte töö pääle! Ma tahaks teile näidata silikaadi tööstust! Waat see siin on silikaadi tööstus! <stage>(Näitab pudrunuia.)</stage> Ja nüüd tehke, et see konwerents siit kaob! Muidu aitan sellega <stage>(nuiaga)</stage> tagant järele! <stage>(Wihaselt kööki, ust enese järel klõmmdi kinni tõmmates.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>Kolmasteistkümnes etteaste.</head>
+                    <stage>Paun. Säälik. Kippel.</stage>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Oh sa juudas! Taga hullemaks asi läheb!</p>
+                    </sp>
+                    <sp who="#saeaelik">
+                        <speaker>SÄÄLIK</speaker>
+                        <p>Küll on Marabul, kurat, kihwtine eit! Niisama kui Oili wanamees ja minu ema!</p>
+                    </sp>
+                    <pb n="59"/>
+                    <sp who="#kippel">
+                        <speaker>KIPPEL</speaker>
+                        <p>Ei, siit katsume, et minema saame! Siit wõib tappa kah saada. <stage>(Tõuseb püsti ja pöörab pinsaku kaeluse üles.)</stage></p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Einoh, siit lähme ära küll, aga mujal peame ikka nõu edasi. Ega's sellepärast lootust ei maksa kaotada! Edasi! Ikka edasi, määratud sihi poole! <stage>(Topib õllepudeli ja worsti tasku, kusjuures worsti ots taskust wälja jääb.)</stage> Julgust ei tohi kaotada! Mis ütles Wiilias Wooks, kui ta üle — noh, mis kuradi jõgi see oligi —? Noh, ükskõik! Las' Jalak jääda, kus see ja teine, kui ta nii oma naist kardab. Argpüksa põle meil wajagi! Meie teeme ise kõigi kuradite kiuste wabriku walmis ja hakkame tuhandeid tasku panema, sest mees — ettewõtlik ja julge mees — <stage>(Köögis kukub midagi maha ja läheb katki. Kõik ehmatawad.)</stage></p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <stage>(Kohkunult köögi poole waadates.)</stage>
+                        <p>Wiskab kurat mõne asjaga! Ega seda nõida uskuda ei ole, see on kui karuohaka nupp! Lähme pääle siit ära.</p>
+                    </sp>
+                    <pb n="60"/>
+                    <sp who="#saelik #kippel">
+                        <speaker>TEISED</speaker>
+                        <p>Lähme ära jah!</p>
+                        <stage>(Säälik wõtab põhjuskirjad. Minnakse ukse poole. Ukse pihta koputatakse.)</stage>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>Neljasteistkümnes etteaste.</head>
+                    <stage>Endised. Unik, kes kohe pääle koputamist sisse astub.</stage>
+                    <sp who="#kippel #saeaelik #paun">
+                        <speaker>KÕIK</speaker>
+                        <stage>(Imestawad.)</stage>
+                        <p>Unik!</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Unik! Noh, sõber, tuled Rudiwerest? Kuidas liiwaga on?</p>
+                    </sp>
+                    <sp who="#unik">
+                        <speaker>UNIK</speaker>
+                        <stage>(Wihaselt.)</stage>
+                        <p>Liiwaga! Annan sulle praegu ühe kõlaku mööda kõrwu, siis tead, mis liiwaga on!</p>
+                    </sp>
+                    <sp who="#kippel #paun #saeaelik">
+                        <speaker>KÕIK</speaker>
+                        <p>Mis on siis? Mis on?</p>
+                    </sp>
+                    <sp who="#unik">
+                        <speaker>UNIK</speaker>
+                        <p>Mis on? Põrgulised, saadate mind Rudiwerest liiwa otsima! Pidin turba auku ära uppuma. Sest muud sääl ei ole, kui turba augud igal pool. Puhas turba maa<pb n="61"/> mitukümmend wersta ümberringi — nemad saadawad mind säält liiwa otsima! Kuradi nahikud!</p>
+                    </sp>
+                    <sp who="#kippel #paun #saeaelik">
+                        <speaker>KÕIK</speaker>
+                        <p>Mis? Mis?</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Mis?</p>
+                    </sp>
+                    <sp who="#unik">
+                        <speaker>UNIK</speaker>
+                        <stage>(Haugutab.)</stage>
+                        <p>Mis, mis! Rudiweres põle liiwa piuksugi, saa aru! Puhas turba maa igal pool, ja nüüd selle wihmaga on kõik pehmeks läinud, nagu sea songermaa auk. Ma ütlen ju, et pidin ära uppuma! <stage>(Haugutab.)</stage> Mis!... Wihma tuleb maha nagu mammu warrest, mina aga paterda sääl keewa muda sees ringi ja otsi teile liiwa! Ma ütlen, oleks sa sääl olnud, Paun, ma oleks su pimeda toppinud peadpidi turba auku, eks sa s' oleks näinud, kas on liiw wõi on turba muld! Sest sina see olid, kes selle plära wälja ajas, et Rudiweres liiwa on.</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Inimene! Siis Rudiweres ei ole liiwa?!</p>
+                    </sp>
+                    <sp who="#unik">
+                        <speaker>UNIK</speaker>
+                        <p>Ei. Kõige wanemad inimesed põle sääl uneski liiwatera näinud!</p>
+                    </sp>
+                    <pb n="62"/>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Äraneetud! Siis on kõik otsas! Siis on kõik, kõik otsas!</p>
+                    </sp>
+                    <sp who="#kippel">
+                        <speaker>KIPPEL</speaker>
+                        <p>Einoh, ilmtingimata! Sest ega ilma liiwata silikaadi kiwa teha ei saa.</p>
+                    </sp>
+                    <sp who="#saeaelik">
+                        <speaker>SÄÄLIK</speaker>
+                        <p>Oh pagan! Ja missuguse kisklemisega ma ema käest raha sain, et kirjutajat joota! Nüüd on kõik mokas! Ja ütle, Paun, ütle n'd ometi: mis pääle me Tindile need allkirjad andsime, kui Rudiweres liiwa ei ole? No siis ei ole ju ühtegi teist seltsi kah olemas!</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Muidugi ei ole! Midagi ei ole! Aga see on kõik tühine, see ei tähenda midagi — meie allkirjadega ei saa keegi punast krossi — kuid meie wabrik! Wabrik! Wabrik! Ah, mispärast pidi nüüd weel see minu wiimane lootus —</p>
+                    </sp>
+                    <sp who="#unik">
+                        <speaker>UNIK</speaker>
+                        <p>Rudiwere turbaauku ära uppuma, jah? Seda pidin mina ka sinu tõpra pärast.</p>
+                    </sp>
+                    <sp who="#saeaelik">
+                        <speaker>SÄÄLIK</speaker>
+                        <p>Kus minu wiis rubla!</p>
+                    </sp>
+                    <pb n="63"/>
+                    <sp who="#kippel">
+                        <speaker>KIPPEL</speaker>
+                        <p>Ja minu allkirjade otsimine ja põhjusmõte!</p>
+                    </sp>
+                    <sp who="#unik">
+                        <speaker>UNIK</speaker>
+                        <p>Kas tead, Paun, sul oleks kõige selle eest waja kõrwad üles lüüa! <stage>(Teistele.)</stage> Mis? Anname talle õige ühe nahatäie?</p>
+                    </sp>
+                    <sp who="#kippel #saeaelik">
+                        <speaker>TEISED</speaker>
+                        <p>Anname jah! Anname jah! Mis ta kuriwaim..! <stage>(Sekeldus ja kära. Pauni tahetakse peksta. Ukse pihta koputatakse.)</stage></p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Tsst! Ärge jännake, kuradid!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>Wiiesteistkümnes etteaste.</head>
+                    <stage>Endised. Ekspress kirjaga.</stage>
+                    <sp who="#ekspress">
+                        <speaker>EKSPRESS.</speaker>
+                        <p>Siin on üks kiri. <stage>(Loeb.)</stage> Silgu — wõi ma ei saa aru, mis "waadi" koosoleku nime pääle.</p>
+                    </sp>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Ahah! Hää küll. Andke siia! <stage>(Wõtab kirja. Ekspress ära.)</stage></p>
+                    </sp>
+                </div>
+                <pb n="64"/>
+                <div type="scene">
+                    <head>Kuuesteistkümnes etteaste.</head>
+                    <stage>Endised ilma ekspressita.</stage>
+                    <sp who="#paun">
+                        <speaker>PAUN</speaker>
+                        <p>Kelle käest see s' peaks olema? <stage>(Wõtab kirja lahti ja loeb.)</stage> "Kõrgesti austatud silikaadi wabriku asutajatele, Tartus!" Hm... <stage>(Waatab teistele küsiwalt otsa.)</stage> "Sellega on mul au teatada, et ma teie näruste allkirjade wastu, kõigi raskuste pääle waatamata, siiski raha sain, mille eest teile wäga tänulik olen. Ühtlasi julgen teile ka meelde tuletada, et teie selle summa, kolmsada rubla, kuu aja pärast härra Aabram Nühkamile kolmekümnekuue protsendiga ära maksaks, sest et wiiwitus ainult protsentisid suurendaks, kuna minu enese ajalik warandus, nagu te wast isegi teate, minu wõlgade maksmiseks ei jätku. Terwisid! Elagu silikaadi wabrik ja täi worstirõnga sees! Sügawa tänutundmuse ja aupakkumisega. Woldemar Tint".</p>
+                    </sp>
+                    <sp who="#kippel #paun #saeaelik #unik">
+                        <speaker>KÕIK</speaker>
+                        <stage>(Ühest suust.)</stage>
+                        <p>No, kurat!</p>
+                    </sp>
+                    <stage>(Eesriie.)</stage>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
