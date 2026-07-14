@@ -72,7 +72,7 @@
                     <person xml:id="toomas" sex="MALE">
                         <persName>Tõistre-Toomas</persName>
                     </person>
-                    <person xml:id="lätlane" sex="MALE">
+                    <person xml:id="laetlane" sex="MALE">
                         <name>Lätlane</name>
                     </person>
                     <person xml:id="raettsepp-1" sex="MALE">
@@ -2337,7 +2337,7 @@
                 <div type="scene">
                     <head>Teine etendus.</head>
                     <stage>Õhk, Lätlane.</stage>
-                    <sp who="#lätlane">
+                    <sp who="#laetlane">
                         <speaker>Lätlane.</speaker>
                         <p>Labriiht! Tere hummungus ka!</p>
                     </sp>
@@ -2345,7 +2345,7 @@
                         <speaker>Õhk.</speaker>
                         <p>Tere, tere!</p>
                     </sp>
-                    <sp who="#lätlane">
+                    <sp who="#laetlane">
                         <speaker>Lätlane.</speaker>
                         <p>Kas ta Ehku, rattsepp Ehku maaja om?</p>
                     </sp>
@@ -2353,7 +2353,7 @@
                         <speaker>Õhk.</speaker>
                         <p>Ei ole kodus. Mis teie temast siis tahate?</p>
                     </sp>
-                    <sp who="#lätlane">
+                    <sp who="#laetlane">
                         <speaker>Lätlane.</speaker>
                         <p>Ma ta'a natuks kokku saama.</p>
                     </sp>
@@ -2362,7 +2362,7 @@
                         <p>Rääkige asi minule ära, ehk ma wõin temale ütelda.</p>
                     </sp>
                     <pb n="64"/>
-                    <sp who="#lätlane">
+                    <sp who="#laetlane">
                         <speaker>Lätlane.</speaker>
                         <p>Ma kuule, kus ta teme om nuid paillu ra'a Mina om ra'a wajag. Mina om naabur, teine lätlan, teme tee oplikats un wota igaun-pus ra'a wellgu. Sis ma ka tee oplikats, un ta'a ka ra'a wellgu wotamen. Ma ei saa maakjiel niants sellge, bet ee...</p>
                     </sp>
@@ -2370,7 +2370,7 @@
                         <speaker>Õhk.</speaker>
                         <p>Mis te' rahaga tahate tegema hakata?</p>
                     </sp>
-                    <sp who="#lätlane">
+                    <sp who="#laetlane">
                         <speaker>Lätlane.</speaker>
                         <p>Ma ta'a nain wotamen un tee eerban. Bet nu ei om jouud, permand ei om walmis.</p>
                     </sp>
@@ -2378,7 +2378,7 @@
                         <speaker>Õhk.</speaker>
                         <p>Mis pagana "permand" see on?</p>
                     </sp>
-                    <sp who="#lätlane">
+                    <sp who="#laetlane">
                         <speaker>Lätlane.</speaker>
                         <p>Sisama permand. <stage>(Näitab põranda pääle.)</stage></p>
                     </sp>
@@ -2386,7 +2386,7 @@
                         <speaker>Õhk.</speaker>
                         <p>Ahaa!</p>
                     </sp>
-                    <sp who="#lätlane">
+                    <sp who="#laetlane">
                         <speaker>Lätlane.</speaker>
                         <p>Slikt, kausch slikt, wega pa'a, kus ta Ehku ei om maaja. Ma juba ta'a waremb on siia, bet eege kjulm ilm om wälla, siis ma ljää kertsi sissi un wota suutäis wi-in, un sis tule ilja. — Ei kjedegi, sis ma era leits un tule teine kjerd. Ar deawin! <stage>(Ära.)</stage></p>
                     </sp>
