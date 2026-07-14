@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="est000024" xml:lang="et" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pärijad</title>
+                <title type="sub">Nali ühes waatuses</title>
+                <author>
+                    <persName>
+                        <forename>Oskar</forename>
+                        <surname>Luts</surname>
+                    </persName>
+                    <idno type="wikidata">Q2005705</idno>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>DIGAR Digital Archive</name>
+                    <idno type="URL">http://www.digar.ee/id/nlib-digar:431750</idno>
+                    <availability>
+                        <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                    </availability>
+                    <bibl type="originalSource">
+                        <author>
+                            <persName>
+                                <forename>Oskar</forename>
+                                <surname>Luts</surname>
+                                <idno type="wikidata">Q2005705</idno>
+                            </persName>
+                        </author>
+                        <title type="main">Pärijad</title>
+                        <title type="sub">Nali ühes waatuses</title>
+                        <date when="1913">1913</date>
+                        <publisher>Postimees</publisher>
+                        <pubPlace>Tartu</pubPlace>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="mart" sex="MALE">
+                        <persName>MART</persName>
+                    </person>
+                    <person xml:id="kadri" sex="FEMALE">
+                        <persName>KADRI</persName>
+                    </person>
+                    <person xml:id="mann" sex="FEMALE">
+                        <persName>MANN</persName>
+                    </person>
+                    <person xml:id="liisu" sex="FEMALE">
+                        <persName>LIISU</persName>
+                    </person>
+                    <person xml:id="jüri" sex="MALE">
+                        <persName>JÜRI</persName>
+                    </person>
+                    <person xml:id="jaak" sex="MALE">
+                        <persName>JAAK</persName>
+                    </person>
+                    <person xml:id="leenu" sex="FEMALE">
+                        <persName>LEENU</persName>
+                    </person>
+                    <listRelation>
+                        <relation name="spouses" mutual="#jueri #leenu"/>
+                        <relation name="parent_of" active="#jueri #leenu" passive="#mann"/>
+                        <relation name="spouses" mutual="#mart #liisu"/>
+                    </listRelation>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-07-14">Convert txt to TEI</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <standOff>
+        <listEvent>
+            <event type="print" when="1913">
+                <desc/>
+            </event>
+        </listEvent>
+    </standOff>
+    <text>
+        <pb n="3"/>
+        <front>
+            <titlePage>
+                <docAuthor>O. LUTS</docAuthor>
+                <titlePart type="main">PÄRIJAD</titlePart>
+                <titlePart type="sub">NALI ÜHES WAATUSES</titlePart>
+                <docImprint>
+                    <publisher>EESTI KIRJAST.-ÜHISUSE "POSTIMEHE" TRÜKK </publisher>
+                    <pubPlace>TARTUS </pubPlace>
+                    <date>1913.</date>
+                </docImprint>
+            </titlePage>
+            <pb n="4"/>
+            <pb n="5"/>
+            <castList>
+                <head>OSALISED:</head>
+                <castItem>
+                    <role>KADRI, </role>
+                    <roleDesc>Altwälja saunanaene.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>JÜRI, </role>
+                    <roleDesc>Uiska saunamees.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>LEENU, </role>
+                    <roleDesc>tema naene.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>MANN, </role>
+                    <roleDesc>tema 7—8-aastane tütar.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>MART, </role>
+                    <roleDesc>päewiline. Elab Jüri juures, Uiska saunas.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>LIISU, </role>
+                    <roleDesc>tema naene.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>JAAK, </role>
+                    <roleDesc>taluperemees.</roleDesc>
+                </castItem>
+            </castList>
+            <set>
+                <p>Aeg: Olewik.</p>
+                <p>Koht: Pime nurk Eestis.</p>
+            </set>
+        </front>
+        <pb n="6"/>
+        <pb n="7"/>
+        <body>
+            <div type="act">
+                <div type="scene">
+                    <stage>Altwälja saun. Pisikene, suitsunud seinapalkidega saunakamber kahe kägisewa uksega ja tibatillukese, üheruutulise aknaga. Wälimine uks — saunakambrist saunaesikusse. Sauna uks — saunakambrist wihtlemise sauna. Akna all wäike laud paari kausiga ja leiwakanikaga. Akna kõrwal pisike seinakapp. Seina ääres wilets woodi, paigatud waibaga. Selle kohal, seina pääl, ilma raamita "Hää karjase" pilt. Teisel pool wanamoodi kirst ja paar halli kotti millegagi. Nende kohal, warna otsas, elaniku riided ja muu pudi-padi. Pliit. Pliidi ees natuke hagu ja kirwes. Pliidi pääl paar pesemata kaussi, pann ja padakene. Pliidi kõrwal, wäikese pingi pääl, puust weepang weega. Paar kõwerate jalgadega tooli, wäike pink jne. On talwe õhtupoolik.</stage>
+                    <stage>Saunakamber on tühi. Wihtlemise saunast kostab haige Kadri hoigamine. Siis tuleb Leenu hiilides wälimise ukse kaudu sisse, kuulatab, waatab enese ümber ja silmitseb toakraami, nagu tahaks ta selle wäärtust hinnata. Läheb siis kikiwarbil saunaukse juurde ja wahib läbi prao wihtlemise sauna. Liisu, käiksed üles kääritud, märg põll ees, tuleb wälimisest uksest. Leenu kargab saunaukse juurest kohkunult kaugemale.</stage>
+                    <pb n="8"/>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>No mes sa ütled! Tema siin! Las' aga mina arutan külmaga üksipääni soolikid, nii't näpud jääwad kangeks! No mes sa teed siin?</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Keda ma siin teen — tahtsin Kadri minna waatama, et nagu aige teene, et sureb wiimati ära, nooja-noh, et saaks teest enne surma weel ometi nähagi. Mes ma siin ära ei tee. Mes sa s' jälle nii kohe plihwa-plahwa järele joosed?</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>No mes sa ütled! Wõi mina joosen sulle järele! No kas mina tiadsin, et sina siin oled. Mina käin igapää kaks korda Kadrikest talitamas, kas mina kellegi järel olen joosnud. Mes sa räägid! Aga ise kaob siapõrsa juurest salaja ära ja tuleb siia. Ja ei tia — mes? Mes otsima? Las' mina arutan üksipääni soolikid nii 't... Olgu see wiimane sinuga kokku siga tappa. Parem söön pisikeisi kiwa!</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Nooja-noh, lähme s' nüüd, arutame soolikad ära.</p>
+                    </sp>
+                    <pb n="9"/>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Jah, ega kedagi! No mul ometi waja enne Kadrike ära talitada. Kos ma s' enne siit lähen, ku ma ometi järel waatan, mes ta siin teeb kah. Kuule, ku oigab! <stage>(Kuulatab.)</stage></p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Kuule, Liisu, mes ma sulle ütlen —</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>No mes?</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Sina ei käi siin kedagi Kadrit talitamas, sina luurad aga Kadri pärandust. Et ku Kadri ära sureb, et siis sina kõik omale saaks. Wot!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>No mes sa ütled! Oh sa kuri inime! No ütle nüid, kas on praegu —</p>
+                    </sp>
+                    <sp who="#kadri">
+                        <speaker>KADRI</speaker>
+                        <stage>(Hõikab wihtlemise saunast.)</stage>
+                        <p>Liisu! Liisu! Tule siia!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Jah, jah, Kadrikene! Tulen, tulen! <stage>(Läheb. Leenu tahab temaga ühes minna, aga Liisu tõrjub ta ukse päält tagasi.)</stage> No kos sina! Kos sina! Ära sina tule siia!</p>
+                    </sp>
+                    <pb n="10"/>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Nooja-noh, las' ma n'd tulen kah ometi! Mes õigus sul s's rohkem on ku minul?</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>No mes sa ütled! Kos on ometi inime! Saa aru, mes sulle öeldasse! Ku ei saa, siis ei saa! <stage>(Läheb sauna ja tõmbab ukse Leenu nina eest kinni.)</stage></p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p><stage>(Pahaselt.)</stage></p>
+                        <p>No waata, kos on ometi! Oh sa! Wõi tema käib siin talitamas! Mes sa siin talitad! Mes sul siin talitada on! Aga pärandust tahab — see on see talitamine! Oota sa: ühed sugulased oleme mõlemad, ei tia mes õigus sul rohkem on ku mul. <stage>(Waatab seinakappi.)</stage></p>
+                    </sp>
+                    <sp who="#mann">
+                        <speaker>MANN</speaker>
+                        <stage>(Mann tuleb sisse.)</stage>
+                        <p>Ema, ae ema, mes sa ära tulid põssa juurest! Ja milla sa worsti teed? Tee täna worsti! Worsti tahaks!</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>No kassa saad kodu!</p>
+                    </sp>
+                    <sp who="#mann">
+                        <speaker>MANN</speaker>
+                        <p>Ma tahaks worsti! Ema tule tee worsti! Ja tee sülti kah, ma tahaks sülti kah!</p>
+                    </sp>
+                    <pb n="11"/>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <stage>(Raputab Manni õlast.)</stage>
+                        <p>Mes sa kooserdad igale poole järele justku koerakutsikas. Tahaks sul soomata kere täis, küll sa siis nääd!</p>
+                    </sp>
+                    <sp who="#mann">
+                        <speaker>MANN</speaker>
+                        <p>Jah, aga worsti tahaks!</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <stage>(Wõtab luua seest raagusi.)</stage>
+                        <p>Oota, ma tahaks sulle anda worsti!</p>
+                    </sp>
+                    <sp who="#mann">
+                        <speaker>MANN</speaker>
+                        <stage>(Nutab.)</stage>
+                        <p>Ee-ee-ee —</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <stage>(Mõtleb järele.)</stage>
+                        <p>No las' jääda seekord pialegi. Kuule, jäta n'd oma wirin, joose kodu ja ütle isale, et ta kohe siia tuleb. Aga kuule — kuule n'd, põrguline, jäta oma wirin ühekorra, ma raputan su pimeda tühjaks! — Mine jah kodu ja ütle isale, et ta kohe siia tuleb. Aga ära sa Mardi kuuldes ütle. Ütle nii, et Mart ei kuule, mudu on see kah kohe siin seda suurt saamas ja jämedat jagamas.</p>
+                    </sp>
+                    <sp who="#mann">
+                        <speaker>MANN</speaker>
+                        <p>Kas siis teed worsti? <stage>(Kratsib pääd.)</stage></p>
+                    </sp>
+                    <pb n="12"/>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>No kas sa lähed juba minema! Soe oma piad peenikese kammiga... tõmma peeli piale ja tapa kõik ilusti ära... mudu kääd mujal ei seisagi ku ühtelugu pias. Sa oled ju täiu täis ku aganid! Kasi minema! <stage>(Mann nuttes ära.)</stage> Õige mul risukukal! Worsti ja worsti! Ei tia, kost ma sulle selle worsti nüid kohe wälja kisun! <stage>(Läheb sauna ukse taha ja kuulatab.)</stage> Mitte ei kuule, mes ta räägib! Nooja-noh, ega kedagi. Ära sureb see Kadri küll. Ei ole tast enam jääjat ühti, ei jõua teene enam rääkidagi. Oleks ma saaks kudagi ukse praokile. <stage>(Teeb ukse praokile).</stage> Oota, oota! Kuulen, kuulen nagu! Mes ta nüid ütlebki: <stage>(Kordab haige sõnu.)</stage> Ku ma — ära suren — Liisu — ole siis — ia inime — ja wõta — pliita alt — <stage>(Kuulatab kramplikult.)</stage> Nooja-noh, mes asja? Mes asja? <stage>(Kuulatab uuesti.)</stage> Oh sa Jumal, äkitselt jäi teene wait! No mes asja ta käskis ometi wõtta pliita alt? <stage>(Läheb pliidi juurde ja peab aru.)</stage> Mes asi siin s' peaks ometi olema? Prussakid aga — oh sa mu pääwad! — justku punane kalew liigub pliita pial. Oota, ma waatan õige, mes siin pliita all augus on. Ega ia ta s' peris pliita alla ikke kedagi pand:<pb n="13"/> seal põleb jo ära. Ku on, s' on siin. Mine tia, ehk peitis siia kedagi ära. <stage>(Ajab käe pliidi auku. Karjatab.)</stage> Ai! Mes asi see oli? <stage>(Waatab.)</stage> Pudeli põhi, raisk! Sõrme aas puruks, nää! <stage>(Pistab sõrme suhu.)</stage></p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <stage>(Tuleb wihtlemise saunast. Iseeneses.)</stage>
+                        <p>No mes sa ütled! Ometi ära suri loomake enne, ku oma wiimase sõna wälja ütelda sai! Aga waja õige kohe waadata, mes tal kadunukesel siin pliita all — <stage>(Silmab Leenut).</stage> Woeh, ega kedagi! No mes sa ütled! Leenu aga koogitseb siin! No mes sa siit pliita alt otsid? Mes sa püiad siit? Mes sa õngitsed? Mina mõtlen, et inime arutab n'd ikke soolikid — tema siin!</p>
+                    </sp>
+                    <sp who="#kadri">
+                        <speaker>KADRI</speaker>
+                        <stage>(Hõikab saunast nõrga häälega.)</stage>
+                        <p>Liisu! Liisu!</p>
+                        <stage>(Liisu ja Leenu kohkuvad.)</stage>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Kuule, kuule! Õikab!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Issa wägi! No kas ta s' ikke weel — kas ta s' ikke weel — No mes sa ütled!</p>
+                    </sp>
+                    <pb n="14"/>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Nooja-noh, mine s' waata ometi, mes sa ootad!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <stage>(Tahab minna, aga pöörab tagasi.)</stage>
+                        <p>Ei, no mine n'd ometi wahel sina kah. Mina olen teda juba küllalt põetand ja waewa näind.</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Näh nüid, waata kus kena! Isi sõdid küinte ja ammastega wasta ja seisad nagu Keerup ukse pial, et: ära mine ja ära mine — ei tia mes ma sinna s' otsin nii kibedasti. Mine aga isi!</p>
+                    </sp>
+                    <sp who="#kadri">
+                        <speaker>KADRI</speaker>
+                        <stage>(Hõikab.)</stage>
+                        <p>Liisu! Liisu!</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Nooja-noh, ta õikab jo sind, ega ta mind ei õika! Lase jalga!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>No mes sa ütled! No mine s' ometi, ullwaim, aruta soolikadki ära, mes sa siin konutad! Justku wana —!</p>
+                    </sp>
+                    <pb n="15"/>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Nooja-noh. Külm akkas wäljas, las' ma soendan!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Ega kedagi! Oma saana juures tapab siga ja Kadri saana juures käib soendamas! Mine aga mine kodu, aruta soolikad ära ja... Ma pian siia jääma ja waatama, et kõik ilusti on ja... Wõi siin s' kedagi muud järelwaatajat on!</p>
+                    </sp>
+                    <sp who="#kadri">
+                        <speaker>KADRI</speaker>
+                        <stage>(Hõikab jälle, aga nõrgema häälega, kui enne.)</stage>
+                        <p>Liisu! Liisu! Liisu, tule n'd ometi!</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Nooja-noh, eks sa s' lähe ometi! Kuuled ometi! Isi lubad waadata, et kõik ilusti on ja... No mes sa s' ei waata?</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <stage>(Läheb sauna ukse poole, kusjuures ta Leenut hoolega silmas peab. Hõikab sauna.)</stage>
+                        <p>Mes sa tahad, Kadri? Mes? <stage>(Kadri wastab tasa, millest aga aru saada ei ole.)</stage> Mes? Mes sa ütlesid? <stage>(Kuulatab.)</stage> Mes? <stage>(Lööb käega.)</stage> Ooh, sind kah! Mina sinu pominast aru saan! <stage>(Leenu püüab pliidi alt salaja midagi wälja wõtta. Liisu näeb seda ja tuleb ruttu pliidi juurde.)</stage></p>
+                    </sp>
+                    <pb n="16"/>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>No mes sa salt kaabid? Justku kass püiab iirt, ikke kaaps ja kaaps käpaga!</p>
+                        <stage>(Jüri tuleb wälimisest uksest sisse.)</stage>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Tohoo ime säh! Juba see kah siin!</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>No mes siin s' on? Mes sa tahad mu'st, Leenu?</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <stage>(Wihaselt.)</stage>
+                        <p>No mes sa ütled! Justku kaarnad lendawad raisa kallale kokku! Justku ais kurjel waimudel ninas, et teene inge waagub. Muudku tulewad teesed aga wolks ja wolks! Laske n'd ometi, põrgulised, las' ta lääb enne külmakski, jagage siis!</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Mes kaarnad sul lendawad wolks ja wolks?</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <stage>(Haugutab.)</stage>
+                        <p>Mes kaarnad, jah! Ega kedagi! Sina oled jo ikke see õige mees jah; õige justku oina sarw! Ega sina kedagi ei nää ega kuule! Sina oled see tõsine Israeli mees<pb n="17"/> jah! Eks sa tule s' nüid kah kükita pliita ette maha ja aita Leenul soendada! Nää, Leenu kraabib külma pärast omal juba küined otsast ära.</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Mes sa lõhwerdad? Mes soendada ja küüsi kraapida?</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>No ega mina ei tia. Küsi Leenu käest. Küll Leenu ütleb.</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>No seda ma ütlen sulle, Jüri, ku sina kõik Kadri kraami siin Mardi-Liisul laiali lased kanda, siis oia oma nahk! Ühed sugulased oleme kõik, ja ühe suu tasa jagame kõik ära kah!</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>No milla see Kadri s' ära suri?</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Nooja-noh, waagub teene wiimast ingekest praegu.</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Einoh, siis ühe suu tasa ikke, kuda sa s' mudu!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>No mes sa ütled! Wõi nemad jagawad juba ühe suu tasa! Aga mina isi, waata,<pb n="18"/> just mina isi oma käega panin kadunukese silmad kinni ja kadunukese oma enese wiimane sõna oli just, et: kõik tema maapialne warandus, nii palju ku seda on, jääb minule. Kõik puha minule! Sina, Leenu, ei saa siit mitte ühte lõnga otsagi! Mitte sõrme küine wäärt! Mitte ühte —</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <stage>(Tõuseb wihaselt püsti. Jürile.)</stage>
+                        <p>Nooja-noh, kuula n'd ometi, Jüri, mes juttu ta aab! Kas see on kellegi õige inimese jutt.</p>
+                        <stage>(Mart tuleb wälimise ukse kaudu sisse.)</stage>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <p>Messe on? Mes te põrgulised s' kõik sia juurest ära joosite! Mina mõtlen ja mõtlen, et kos nad n'd ometi on, et aitaks ometi sia ülesse jahtuma tõmmata, et kakesta üksipääni, tõsta wõi naba paegast ära, et... Mina ei mõsta, kuda see köieots mul kääst lahti läks, aga siga, trinndi, pori ja wirtsa sisse pikali maha... Werepang kolksti ümber... Mina isi tagumist otsa pidi kuuma wee pange...</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>No mes sa ütled!</p>
+                    </sp>
+                    <pb n="19"/>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Nooja-noh, s' werepange aasid kah ümber?</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Einoh, kos on ikke puukaru, tema aab werepange ümber!</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <p>Mina teda aasin! Läks noh! Mes te s' lendate kõik juurest ära, justku tuuletallajad!</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>No, nää, sul weel õigus pialegi! No sul jääb weel õigust ülegi! Mida imet sa siis salt juurest s' isi ära tulid nüid? Teind siga puhtaks! Mine tagasi, tee siga puhtaks!</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <p>Messe on? Ah siga puhtaks wõi? No mes narri siis teie siin mängite? Teie Manni ütleb, et isa läks salaja Kadri-tädi sauna, nüid naeste kupatus kah siin, suud silmad ammuli. Ei tia mes? No kas teil muud kedagi enam teha põle? Tulge ära kodu! <stage>(Tahab ära minna.)</stage></p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <stage>(Hoiab teda tagasi.)</stage>
+                        <p>No mes sa ütled! Kos on ometi puupia meheks! Kos sa Loku-Aabram lähed?<pb n="20"/> Kas sa s', pime inime, ei nää, kuda Uiska omad Kadri pärandust walwawad! Ja sina lähed ära! Mes su arus on? Oled ikke wana tuhkapuss! Tosu!</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <p>Mes lori see s' nüid on?</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <stage>(Mardile.)</stage>
+                        <p>Mes lori! Ära tahwad Uiska omad wägisi kiskuda sellegi natukese kääst, mes kadund Kadri isi oma sõnaga meile jättis.</p>
+                        <stage>(Mart ei saa aru, millest jutt on.)</stage>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Kõik olgu ühe suu tasa! Pia seda meeles, Mart!</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Einoh, ühe suu tasa ikke, kos sa s' —</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Ära kuulagi, Mart! Põleks mina just isi kadunukese juures olnd ja tema wiimseid sõnu kuulnd, siis olgu weel, et —</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Mes sa lorid, Liisu! Mes sa aad niisukest kiusu juttu! Mine aga mine, Mart, pese siga puhtaks, ma tulen kah kohe.</p>
+                    </sp>
+                    <pb n="21"/>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Ei tohi minna kuskile!</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <p>No mes see on siis? Kas siis Kadril ots juba kää wõi?</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>No muidugi, kas sa s' ikke weel aru ei saa?</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <p>Woijäh! Jaa-ah!...</p>
+                        <stage>(Leenu püüab kätt pliidi auku ajada.)</stage>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Jäta nüid, Leenu, jäta, ole ia inime, see pliita auk rahule, seda ma ütlen sulle! Justku kass! Kas nääd nüid, Mart, mes ta teeb?</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <p>No mes ta teeb?</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Nooh, kas sa s' ei nää — raha otsib pliita august.</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <p>Mes raha?</p>
+                    </sp>
+                    <sp who="#jueri #leenu">
+                        <speaker>JÜRI ja LEENU</speaker>
+                        <stage>(Nagu ühest suust.)</stage>
+                        <p>Jah, ei tia mes raha!</p>
+                    </sp>
+                    <pb n="22"/>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <stage>(Haugutab.)</stage>
+                        <p>Mes raha jah! Ooh-ooh, ärge n'd ikke teesi inimesi nii lolliks tehke! Kas ma s' aru ei saand, et Leenu ukse taga kuulas, ku Kadri mulle enne surma raha lubas. Nooh!</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Raha?</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Nooja-noh, mes siis?</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>No mes sa waletad! Kuule, tema ei ütlend mitte poole sõnagagi, et pliita augus raha on, tema ütles aga, et: ku ma ära suren, wõta siis —</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Nooja-noh, et: ku ma ära suren, et wõta siis —</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Nooja-noh, aga mes asja! Mes asja?</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Noh, just tahtis ütelda, et raha, aga enne tuli surmaingel.</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Mes sa waletad, ta õikas sind jo weel pärast kah.</p>
+                    </sp>
+                    <pb n="23"/>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Aga siis jäi wait ja ma nägin just läbi ukse, ku ingeke wälja läks.</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <p>No mes ta ütles kah enne surma?</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Oh sa juhmide juhm! No ma ütlesin sulle jo, et: kõik lubas meile.</p>
+                    </sp>
+                    <sp who="#jueri #leenu">
+                        <speaker>JÜRI ja LEENU</speaker>
+                        <p>Ega kedagi!</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <p>Aa! Wõi meile lubas?</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Soo, wõi teile? Mes asjamehed s' teie paremad olete, ku meie? Ühed sugulased oleme kõik. Sa wõid nüid, Liisu, paljugi waletada, kes seda s' usub. Kos su tunnismehed on? Kes kuulis, et Kadri kõik sulle lubas?</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <stage>(Mardile.)</stage>
+                        <p>Einoh, kuula sa n'd naeste plära! Mine parem pese siga puhtaks, ma tulen kah kohe järele, siis tõmmame teese üles.</p>
+                    </sp>
+                    <pb n="24"/>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Ära ole loll, Mart, et sa ära lähed! Nüid, kos wara jagamine käsil, nüid lähed sina ära!</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <p>Noo jah, las' mina lähen aga ära, keda muud! Küll sa Jüri oled aga krutsikid täis! Las' mina lähen ära, siis tema wõtab kõik omale ja meie ei saa kedagi. Ei, parem siis waatame juba üheskoos kõik järele, mes sal pliita augus on.</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>No waatame järele minugi pärast! Ja olgu siis. No olgu piale! Et n'd just tunnismehi juures ei olnd, kes isi oma kõrwaga oleks kuulnd, ku kadunuke kõik mulle lubas — siis olgu! Jagame minugi pärast kõik ühe suu tasa, mina rotsessima ei akka. Aga seda ma ütlen teile, et kõik raha olgu ühe suu tasa!</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Nooja-noh, ühe suu tasa ikke! Kessi s' teesiti tahabki! Sa oled justku unt!</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>No, las' ma waatan!</p>
+                    </sp>
+                    <pb n="25"/>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <p>Messe on? Oota, pia, las' mina waatan, mina tegin wanasti müirissepa tööd, mina tunnen ahju paremini ku sina!</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Oota n'd ometi, Mart! Mes sina!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Lase nüid ometi olla, Jüri. Sa oled justku tige siga, ei lase teesi süia ega söö isi!</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <stage>(Hoiab end kõrwale.)</stage>
+                        <p>No wõta, wõta s' noh! Egas' Jüriga ei saa keegi, tema on jo justku puuk!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>No las' wõtab piale, aga waatame meie ästi järele, et nad kedagi ära ei peida. Waata sa n'd oolega, Mart! Waata n'd oolega! Sa wõta omal ometi wahel see piibu-kolks lõugest ära! Mes sa ta'st ühtelugu imed! Eks sul pärast ole aega teda imeda! Wa kuiwad tallukad siin maas — aad weel saana põlema! Ja surnu ja... Kessi surnu juures piipu kisub!</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <p>Ei saa arugi, et surnu juures ole. Justku tööl oleks kuskil.</p>
+                    </sp>
+                    <pb n="26"/>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Mes ta piaks lorima! Kos on ometi...! Waata nüid oolega järele! Waata sina sealt poolt, ma waatan isi Leenu poolt! Kuule, kuule, justku kõlises kedagi! Tule n'd sina, Leenu, ometi natuke kaugemale siit pliita juurest! Istub nigu köhmus ees ja ei lase teesi waadata!</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>No mes sa tõugid! Ega sa tõuk ei ole! <stage>(Jüri koobitseb ahjuargiga pliidi augus. Teised on tihedalt tema ümber ja ootawad põnewusega, mis ta säält päewawalgele toob.)</stage></p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Kuule n'd, ku kõliseb! Ma ütlesin jo kohe, et raha!</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <p>No on ikke wist raha jah. Mes ta mudu sal kõliseb.</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Einoh, pia n'd kinni! Oota, oota! Tuleb!</p>
+                    </sp>
+                    <sp who="#leenu #liisu #mart">
+                        <speaker>LEENU, LIISU, MART</speaker>
+                        <p>Tõmma-tõmma-tõmma!</p>
+                        <stage>(Kõik krapsawad pliidi august wäljatõmmatud asja järele.)</stage>
+                    </sp>
+                    <pb n="27"/>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <stage>(Karjub.)</stage>
+                        <p>Ai, ai, kurat, ärge selga tulge!</p>
+                    </sp>
+                    <sp who="#leenu #liisu">
+                        <speaker>LEENU ja LIISU</speaker>
+                        <stage>(Imestades.)</stage>
+                        <p>Wana saapa laba!</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <p>Messe on? Näh, on wana saapa laba jah!</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Tõmma uuesti! Tõmma uuesti! Kos siis see jäi, see mes sal kõlises?</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Tõmma uuesti, tõmma uuesti jah!</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Einoh, oodake n'd, küll ma tõmman! Andke aega! Mes te pimedad jõlate mul kõrwa ääres! Oodake, ärge litsuge selga! Oidke kaugemale! Oidke n'd kaugemale!</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <p>No tõmma, tõmma! Temal wõib sal all jo mitu sada rubla olla, kes seda tiab.</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Noo-jah, noo-jah! Miks ei wõi? Wõib olla küll! Eks te mäleta, ku Wirpli-Kai<pb n="28"/> ütles, ku Punasoo Mari temale rääkind, et Kadril olla kakssada rubla õberaha. Mari isi näin'd läbi akna, ku teesi suka sisse lugend.</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>No mes sa s' weel ootad, Jüri? Waata ruttu!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Mart, ku me sada rubla saame, siis wõtame kohe kandi koha, mes?</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <p>Wõib wõtta küll, jah, ku n'd...</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Kuule, Jüri! Jüri, ae!</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <stage>(Pühib higi otsaesiselt.)</stage>
+                        <p>Mes?</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Kuule, ku me sada rubla saame, siis lähme kohe Tuisule pooletera piale.</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Einoh, Tuisule wõib minna küll!</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Ja kes tiab, kas Punasoo Mari õieti nägi, ehk on mõni tuhat kohe.</p>
+                    </sp>
+                    <pb n="29"/>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Noo-jah, ehk on weel enamgi. Ehk ei olndki rublad, mes ta luges, waid kuld rahad, nüid olla jo wiiesajalisi rahasid olemas.</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Oodake, las' ma tõmman weel! Just nagu akkas kedagi argi otsa. Ot-ot-ot! Tuleb-tuleb-tuleb! Oidke kaugemale! Oidke kaugemale!</p>
+                    </sp>
+                    <sp who="#leenu #liisu">
+                        <speaker>LEENU ja LIISU</speaker>
+                        <p>Kuule, ku kõliseb! See ongi see kõliseja! No nüid! No nüid! <stage>(Kõik on walmis kõlisewast asjast küünte ja hammastega kinni haarama.)</stage></p>
+                    </sp>
+                    <sp who="#jueri #mart #leenu #liisu">
+                        <speaker>KÕIK</speaker>
+                        <stage>(Läbisegamini.)</stage>
+                        <p>Üks pott! Ahhaa! Nojah, nojah, poti sees on raha!</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Siia see pott! <stage>(Krapsab poti oma kätte.)</stage></p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <stage>(Püüab potti Leenu käest ära wõtta.)</stage>
+                        <p>Kõik ühe suu tasa! Kõik ühe suu tasa! Kuuled, Leenu! Kas sa kuuled!</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Ei anna, ei anna! Mitte ei anna! Jüri, säh wõta pott!</p>
+                    </sp>
+                    <pb n="30"/>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Anna siia! <stage>(Wõtab poti.)</stage></p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Mart, Mart, wõta ära! Ära wiib raha! Kas ma ei ütelnd! Kas ma ei ütelnd!</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <stage>(Rüseledes, Jürile.)</stage>
+                        <p>Oh sa metsaeksitaja! Oh sa kuhjalawawai! <stage>(Krapsab poti järele. Pott kukub puruks, räti sees nutsak weereb wälja.)</stage></p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>No mes sa ütled! Wägisi tahawad ära rööwida!</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Oota, põrguline, waatame n'd enne ometi järele, mes sa sajatad!</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Jätke oma lori! <stage>(Waatab järele. Teised wahiwad hinge kinni pidades päält.)</stage> Oota, see siin pial põle küll muud ühti, ku üks näru. <stage>(Wiskab näru maha.)</stage> See siin on wana suka säär.</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>No mes sa ütled! Aga waata, wast on sukasääre sees raha!</p>
+                    </sp>
+                    <pb n="31"/>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <stage>(Katsub järele.)</stage>
+                        <p>Põle siin kedagi! Tühi nigu soolikas! Säh! <stage>(Wiskab sukasääre Liisule ja wõtab järgmise asja.)</stage> Kont. Wa' särgi käiss. <stage>(Wiskab kõik leidised maha. Äkki:)</stage> Ai, ai, kurat! Ära ninasse karga! <stage>(Teeb liigutuse, nagu tahaks ta ärajookswale hiirele pääle astuda.)</stage></p>
+                    </sp>
+                    <sp who="#leenu #mart #liisu">
+                        <speaker>TEISED</speaker>
+                        <stage>(Kohkunult.)</stage>
+                        <p>Mes see oli?</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Iire raisk! Ptüi! Kargab wõi abemesse kinni sunnik! Ära ehmatas raisk! Kõhust käis justku walus juga läbi. Leenu, kas sul waha ja pipart on kodu?</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <p>Waha ja pipar ei aita kedagi! Lase parem aptiigist tuua — <stage>(Liisule.)</stage> Liisu, mes asi see oligi?</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Mes asi jah — Ülemere kuradi wanaema soolikawenituse terad oliwad. Wot mes oli!</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>No waata, waata edasi, mes sa nii...</p>
+                    </sp>
+                    <pb n="32"/>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Jah, mes ma siit waatan? Polegi enam kedagi waadata. Säh! Tükk kase tohikut! Söö ära, ku tahad! Muud põle kedagi! <stage>(Lükkab potitükid jalaga laiali.)</stage></p>
+                    </sp>
+                    <sp who="#liisu #leenu #mart">
+                        <speaker>TEISED</speaker>
+                        <p>No põle ka kedagi!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>No kos ta pime — kos ta kadunuke — No ta jo ütles ometi, et wõta pliita alt... Katsu weel, Jüri, argiga. Wast on weel kedagi.</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <stage>(Katsub.)</stage>
+                        <p>Põle siin enam kedagi!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>No mes sa ütled! No mes sa ing tahad teha! Põleks ta n'd, kadunuke, isi oma suuga ütelnd, et pliita all on, ega siis kedagi, ega siis põleks tiadnud otsidagi, aga ta jo isi, kadunuke, oma enda suuga ütles, et mine wõta pliita alt. No ega tas' ometi siia pand, kus tuli on, seda põle mõteldagi, ta pani ikke siia alla, kus tuld ei ole.</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <p>Messe on? No kangutame s' siit kõrwalt mõne kiwi wälja, mes sal s' on.<pb n="33"/> Eks siis nää. Kos tal see raha siis mõjal weel on, ku siin.</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Nooja-noh, kangutage kiwi wälja, mehed, mes te ootate!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Ei, katsuge enne kerwe silmaga, kost kohalt kõmiseb.</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <stage>(Katsub, kust kohalt kõmiseb.)</stage>
+                        <p>Mitte kedagi ei saa kurjastwaimust aru! Pliita ikke pliita.</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Aga ei tia, mes tal waja kõmiseda on: tema pätserdas pialt kõik ilusti sawiga kinni, kos sa s' nii kohe aru saad! Ega sinna s' mõnda tühja auku jäänd. Ei tia misuke kiwisein wõi kundament weel ära ei ole! Mes ta ikke kõmiseb! Anna kerwe silmaga!</p>
+                        <stage>(Jüri murrab pliidi seest kiwi wälja. Pliit langeb mürisedes kokku.)</stage>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>No mes sa ütled!</p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Oh sa Looja arm! No mes nüid saab?</p>
+                    </sp>
+                    <pb n="34"/>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <stage>(Leiab pliidi rusude alt weel ühe poti.)</stage>
+                        <p>Messe ikke saab? Nää, siin on jo weel üks pott!</p>
+                    </sp>
+                    <sp who="#jueri #leenu #liisu">
+                        <speaker>TEISED</speaker>
+                        <p>Weel üks pott? No mes sal sehes on?</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <stage>(Waatab.)</stage>
+                        <p>Paksud kapsad.</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>No mes sa ütled! Näita siia!</p>
+                        <stage>(Waadatakse potti.)</stage>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>Nooja-noh, on jah paksud kapsad, jah, aga eks nad ole nüid liiwa ja sawi täis, kes neid nüid enam sööb. Ei tia, kas liha kah sehes piaks olema?</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Einoh, pane n'd pott ära kõrwale, seda on pärast aega jagada. Waatame nüid järele, kos tal ikke see raha on.</p>
+                    </sp>
+                    <sp who="#leenu #liisu #mart">
+                        <speaker>TEISED</speaker>
+                        <p>Jah, jah, nüid waatame järele jah. Pane, Mart, pott kääst ära!</p>
+                        <stage>(Mart paneb poti kõrwale ja wõtab potist suure kamaku kapsaid suhu. Teised lähewad pliidi rusude alt hoolega raha otsima, kui äkki sauna ukse pääle Kadri ilmub. Teda silmab kõige enne Leenu.)</stage>
+                    </sp>
+                    <pb n="35"/>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <stage>(Kadrit silmates.)</stage>
+                        <p>Püh-püh-püha risti usu isa! Nää! <stage>(Näitab Kadri poole.)</stage></p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Issa wägi!</p>
+                        <stage>(Kõik kohmetawad kangeks. Taganewad siis ühte nurka kokku.)</stage>
+                    </sp>
+                    <sp who="#kadri">
+                        <speaker>KADRI</speaker>
+                        <p>No mes te teete ometi, kurjad waimud! oh sa armas aeg — ära lõhkunuwad pliita! No mes te sest pliitast tahtsite?</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <stage>(Hirmu pärast lõdisedes.)</stage>
+                        <p>Kah — Kah — Kah — Kadri, kas sa — kas sa — kas sa siis surnud põle?</p>
+                    </sp>
+                    <sp who="#kadri">
+                        <speaker>KADRI</speaker>
+                        <stage>(Wihaselt.)</stage>
+                        <p>Mes? <stage>(Wõtab nurgast luua ja sammub pärijate poole.)</stage></p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Issa Pojuke — Püha Waimuke —</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <stage>(Poeb Mardi selja taha.)</stage>
+                        <p>Ega mina — ega mina — mina niisama; — mina — mina —</p>
+                    </sp>
+                    <pb n="36"/>
+                    <sp who="#kadri">
+                        <speaker>KADRI</speaker>
+                        <p>No mes asja te siit pliita sehest otsisite õige, mes? Raha? Oh s'te juudalised, ei lase õieti äragi surra — juba nemad päriwad! Oh s' te! <stage>(Ärgitab pärijaid luuaga lüüa.)</stage></p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>Oh sa jumaluke, ei me otsind kedagi raha! Mes sa ilmaasjata pahandad, Kadrikene! Eks sa kadunuke isi — wõi näh nüid, segamini lähen mina kah oma jutuga — eks sa isi ometi oma suuga käskind wõtta pliita alt, et: ku ma ära suren, et wõta siis pliita alt —</p>
+                    </sp>
+                    <sp who="#kadri">
+                        <speaker>KADRI</speaker>
+                        <p>Nooja-noh, et: ku ma ära suren, et wõta siis see pott paksu kapstega pliita alt wälja, et mudu kõrbewad põhja. Ega ma s' muud kedagi käskind wõtta. Pimedad!</p>
+                    </sp>
+                    <sp who="#leenu #liisu #jueri #mart">
+                        <speaker>PÄRIJAD</speaker>
+                        <p>Wõi pott paksu kapstega!</p>
+                    </sp>
+                    <sp who="#kadri">
+                        <speaker>KADRI</speaker>
+                        <p>Pott paksu kapstega jah! Aga mes teie — Teie põrgulised ei kuule ega nää kedagi, muudku lõhute aga pliitat ja otsite raha! No kas on lollidel aru pias! — Oh te ro<pb n="37"/>jased! Ku te tänapää pliitat üles ei tee — toon urätniku ja lasen teid kõik kinni wiia. Oodake mul! Ja kos mu paksud kapsad?</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <stage>(Näitab.)</stage>
+                        <p>Seal nad on. <stage>(Ulatab poti kaugelt Kadri kätte.)</stage></p>
+                    </sp>
+                    <sp who="#kadri">
+                        <speaker>KADRI</speaker>
+                        <stage>(Waatab potti.)</stage>
+                        <p>Noo-jah! Eks ma ütle! Tuhka ja sawi ajanuwad poti täis, no kes seda nüid weel sööb!</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <p>Ei ole kedagi, tõmma käpaga pialt ära, ja —</p>
+                        <stage>(Peremees Jaak tuleb.)</stage>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>JAAK</speaker>
+                        <p>No Uiska omad, Uiska omad, kaua te seda siga tapate täna? Kas teist saab kah täna metsa tulijaid wõi ei? Mes te siin wahite?</p>
+                    </sp>
+                    <sp who="#kadri">
+                        <speaker>KADRI</speaker>
+                        <stage>(Jaagule.)</stage>
+                        <p>Kuule, peremees, nemad jagawad jo siin minu warandust juba. Ära lõhkusid raha otsimisega pliita, nää!</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>JAAK</speaker>
+                        <p>Tohoo pime säh!</p>
+                    </sp>
+                    <pb n="38"/>
+                    <sp who="#kadri">
+                        <speaker>KADRI</speaker>
+                        <p>Ole sa ia inime, Jaak, ja säh wõta see minu rahanatuke õige oma kätte ja wii ta ära oiukassasse intressi piale. <stage>(Wõtab põuest nartsukese rahaga wälja.)</stage></p>
+                    </sp>
+                    <sp who="#leenu #liisu #jueri #mart">
+                        <speaker>PÄRIJAD</speaker>
+                        <stage>(Tasa.)</stage>
+                        <p>Nää, põues oli!</p>
+                    </sp>
+                    <sp who="#kadri">
+                        <speaker>KADRI</speaker>
+                        <stage>(Edasi, Jaagule.)</stage>
+                        <p>Ega teda kes tiab ku palju ole — wiisteistkümme rubla on —</p>
+                    </sp>
+                    <sp who="#leenu #liisu #jueri #mart">
+                        <speaker>PÄRIJAD</speaker>
+                        <stage>(Tasa.)</stage>
+                        <p>Wiisteistkümme rubla kõigest!</p>
+                    </sp>
+                    <sp who="#kadri">
+                        <speaker>KADRI</speaker>
+                        <p>Aga wõta aga oma kätte, mudu tulewad Uiska omad jälle ja rebiwad kas wõi naha sellast maha. Need on jo metsa undid, ega need kellegi ristiinimesed põle. Ja ku ma siis ühekorra ikke kohe tõesti suren, siis mitte ühte punast krossi ei pia nad saama, seda ma ütlen!</p>
+                    </sp>
+                    <sp who="#jaak">
+                        <speaker>JAAK</speaker>
+                        <stage>(Wõtab raha oma kätte.)</stage>
+                        <p>No ia n'd küll. Ma wõtan su siis mõni pää wallamajasse ühes, tee siis sal<pb n="39"/> oma testament ära ja luba oma raha kellele sa tahad.</p>
+                    </sp>
+                    <sp who="#kadri">
+                        <speaker>KADRI</speaker>
+                        <p>Ole ia inime jah, wii mind wallamaja juurde. Küll ma siis tian, kellele ma ta jätan. <stage>(Pärijate poole.)</stage> Aga neile untidele ma küll oma kopikid söödaks ei jäta.</p>
+                        <stage>(Mann jookseb kisaga wälimisest uksest sisse.)</stage>
+                    </sp>
+                    <sp who="#mann">
+                        <speaker>MANN</speaker>
+                        <p>Jah, mes te ära läksite sia juurest! Koerad tulid ja närisid sia kõik ümbert ringi ära mes kole. Ja siis tulid weel kaks õige suurt koera juurde ja nüid weawad teesed siga metsa poole. Ee — ee — ee — <stage>(Nutab.)</stage></p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>No mes sa —</p>
+                    </sp>
+                    <sp who="#mann">
+                        <speaker>MANN</speaker>
+                        <stage>(Nuttes.)</stage>
+                        <p>Ee — Ja waresed on kõik soolikad pangest ära tassinud! Mitte ühte soolikat ei ole enam panges. Kellest sa nüid, ema, weel worsti teed! Ee — ee — ee! — Worsti tahaks!</p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>No mes sa ütled! <stage>(Mannile.)</stage> No mes sa pialuu s' ennem ei tuln'd ütlema! <stage>(Lööb.)</stage></p>
+                    </sp>
+                    <pb n="40"/>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <p>No mes sa tapad last!</p>
+                    </sp>
+                    <sp who="#mart">
+                        <speaker>MART</speaker>
+                        <p>Messe on?</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Lähme ruttu! Ehk saame weel sia kätte! <stage>(Ühes Mardiga ära.)</stage></p>
+                    </sp>
+                    <sp who="#liisu">
+                        <speaker>LIISU</speaker>
+                        <p>No mes sa ütled! No mes sa ütled! <stage>(Käsi kokku lüües ära.)</stage></p>
+                    </sp>
+                    <sp who="#leenu">
+                        <speaker>LEENU</speaker>
+                        <stage>(Jookseb Liisule järele.)</stage>
+                        <p>Kas ma sulle küll põle ütelnd! Kas ma sulle küll põle ütelnd! <stage>(Ära.)</stage></p>
+                    </sp>
+                    <sp who="#mann">
+                        <speaker>MANN</speaker>
+                        <p>Ema, ema worsti tahaks! <stage>(Nuttes emale järele.)</stage></p>
+                    </sp>
+                    <sp who="#kadri">
+                        <speaker>KADRI</speaker>
+                        <p>Jah, jah, jagage weel pärandust! <stage>(Waatab kapsaid.)</stage> Aga ära solkisiwad teesed ikke minu kapsad!</p>
+                    </sp>
+                    <stage>(Eesriie.)</stage>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
