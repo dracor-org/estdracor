@@ -608,7 +608,7 @@
                         <speaker>PAUN</speaker>
                         <p>Waata, kus saadan, nüüd läheb annab selle teise seltsile üles, et Rudiweres liiwa on!</p>
                     </sp>
-                    <sp who="#saelik #kippel #jalak #hans-oili">
+                    <sp who="#saeaelik #kippel #jalak #hans-oili">
                         <speaker>TEISED</speaker>
                         <p>Jah, nüüd läheb jah, saadan! Niisugune koi!</p>
                     </sp>
@@ -1526,7 +1526,7 @@
                         <p>Wiskab kurat mõne asjaga! Ega seda nõida uskuda ei ole, see on kui karuohaka nupp! Lähme pääle siit ära.</p>
                     </sp>
                     <pb n="60"/>
-                    <sp who="#saelik #kippel">
+                    <sp who="#saeaelik #kippel">
                         <speaker>TEISED</speaker>
                         <p>Lähme ära jah!</p>
                         <stage>(Säälik wõtab põhjuskirjad. Minnakse ukse poole. Ukse pihta koputatakse.)</stage>
