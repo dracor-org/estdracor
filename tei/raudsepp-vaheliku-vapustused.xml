@@ -61,7 +61,7 @@
                     <person xml:id="sakarias" sex="MALE">
                         <persName>SAKARIAS</persName>
                     </person>
-                    <person xml:id="tilde" sex="FEALE">
+                    <person xml:id="tilde" sex="FEMALE">
                         <persName>TILDE</persName>
                     </person>
                     <person xml:id="rein" sex="MALE">
@@ -4482,7 +4482,7 @@
                     <speaker>REIN:</speaker>
                     <p>Nii et kui see Eevast tütar meile lõpuks sündis, siis ta polnud ainult sündinud..</p>
                 </sp>
-                <sp who="#ants:">
+                <sp who="#ants">
                     <speaker>ANTS:</speaker>
                     <p>Mis ta siis veel oli?</p>
                 </sp>
@@ -4490,7 +4490,7 @@
                     <speaker>REIN:</speaker>
                     <p>Nii et kui see Eevast tütar meile lõpuks sündis, siis ta polnud ainult sündinud..</p>
                 </sp>
-                <sp who="#ants:">
+                <sp who="#ants">
                     <speaker>ANTS:</speaker>
                     <p>Mis ta siis veel oli?</p>
                 </sp>
@@ -4628,7 +4628,7 @@
                     <speaker>REIN:</speaker>
                     <p>Näed, vahib meie õue! <stage>(Tõuseb)</stage> Mida see pasatski sihib!? <stage>(Astub mõned sammud edasi, tunneb Imaanueli ära, kohkub)</stage> Oeh! <stage>(Põrkab tagasi)</stage> Sa halastus!</p>
                 </sp>
-                <sp who="#ants:_mis?_mis_on?">
+                <sp who="#ants">
                     <speaker>ANTS:</speaker>
                     <p>Mis? Mis on?</p>
                 </sp>
