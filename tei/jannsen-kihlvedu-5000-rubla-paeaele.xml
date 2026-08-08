@@ -27,26 +27,34 @@
             <sourceDesc>
                 <bibl type="digitalSource">
                     <name>DIGAR Digital Archive</name>
-                    <idno type="URL">http://www.digar.ee/id/nlib-digar:947638</idno>
+                    <ref target="URL">http://www.digar.ee/id/nlib-digar:947638</ref>
                     <availability>
                         <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
                     </availability>
                     <note>While the plays are in public domain, the prologue and design are not</note>
-                    <bibl type="originalSource">
-                        <author>
-                            <persName>
-                                <forename>Johann Voldemar</forename>
-                                <surname>Jannsen</surname>
-                            </persName>
-                            <idno type="wikidata">Q362138</idno>
-                        </author>
-                        <title type="main">Kihlvedu 5000 rubla pääle</title>
-                        <title type="sub">Lustmäng viies vaatuses</title>
-                        <date when="1993">1993</date>
-                        <publisher>Tartu Ülikooli Kirjastus</publisher>
-                        <biblScope unit="page" from="35" to="95">35-95</biblScope>
-                    </bibl>
                 </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>Johann Voldemar</forename>
+                            <surname>Jannsen</surname>
+                        </persName>
+                        <idno type="wikidata">Q362138</idno>
+                    </author>
+                    <title type="main">Kihlvedu 5000 rubla pääle</title>
+                    <title type="sub">Lustmäng viies vaatuses</title>
+                    <date when="1993">1993</date>
+                    <publisher>Tartu Ülikooli Kirjastus</publisher>
+                    <biblScope unit="page" from="35" to="95">35-95</biblScope>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1993">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1873">
+                        <desc/>
+                    </event>
+                </listEvent>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -130,16 +138,6 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <standOff>
-        <listEvent>
-            <event type="print" when="1993">
-                <desc/>
-            </event>
-            <event type="premiere" when="1873">
-                <desc/>
-            </event>
-        </listEvent>
-    </standOff>
     <text>
         <pb n="35"/>
         <front>
