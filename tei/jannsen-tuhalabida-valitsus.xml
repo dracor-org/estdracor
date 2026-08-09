@@ -1,0 +1,1376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="est000030" xml:lang="et" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Tuhalabida valitsus</title>
+                <title type="sub">Rõõmulik näitemäng ühes vaatuses</title>
+                <author>
+                    <persName>
+                        <forename>Johann Voldemar</forename>
+                        <surname>Jannsen</surname>
+                    </persName>
+                    <idno type="wikidata">Q362138</idno>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>DIGAR Digital Archive</name>
+                    <ref target="URL">http://www.digar.ee/id/nlib-digar:947638</ref>
+                    <availability>
+                        <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                    </availability>
+                    <note>While the plays are in public domain, the prologue and design are not</note>
+                </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>Johann Voldemar</forename>
+                            <surname>Jannsen</surname>
+                        </persName>
+                        <idno type="wikidata">Q362138</idno>
+                    </author>
+                    <title type="main">Tuhalabida valitsus</title>
+                    <title type="sub">Rõõmulik näitemäng ühes vaatuses</title>
+                    <date when="1993">1993</date>
+                    <publisher>Tartu Ülikooli Kirjastus</publisher>
+                    <biblScope unit="page" from="97" to="119">97-119</biblScope>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1993">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1875">
+                        <desc/>
+                    </event>
+                </listEvent>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="rein" sex="MALE">
+                        <persName>REIN</persName>
+                    </person>
+                    <person xml:id="hannus" sex="MALE">
+                        <persName>HANNUS</persName>
+                    </person>
+                    <person xml:id="mikk" sex="MALE">
+                        <persName>MIKK</persName>
+                    </person>
+                    <person xml:id="viiu" sex="FEMALE">
+                        <persName>VIIU</persName>
+                    </person>
+                    <person xml:id="truuta" sex="FEMALE">
+                        <persName>TRUUTA</persName>
+                    </person>
+                    <listRelation>
+                        <relation name="spouses" mutual="#hannus #truuta"/>
+                        <relation name="parent_of" active="#hannus #truuta" passive="#viiu"/>
+                        <relation name="lover_of" active="#rein" passive="#viiu"/>
+                    </listRelation>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-08-09">Convert txt to TEI</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <pb n="97"/>
+        <front>
+            <titlePage>
+                <docAuthor>Johann Woldemar Jannsen</docAuthor>
+                <docTitle>
+                    <titlePart type="main">TUHALABIDA VALITSUS</titlePart>
+                    <titlePart type="sub">Rõõmulik näitemäng ühes vaatuses</titlePart>
+                </docTitle>
+                <docImprint>
+                    <publisher>Eesti Postimehe Kalender ehk aasta-raamat 1880 aasta pääle<lb/></publisher>
+                    <pubPlace>Tartu <lb/></pubPlace>
+                    <docDate>1879</docDate>
+                </docImprint>
+            </titlePage>
+            <pb n="98"/>
+            <castList>
+                <head>Mängijad:</head>
+                <castItem>
+                    <role>HANNUS KÜÜR </role>
+                    <roleDesc>päriskohaomanik</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>TRUUTA</role>
+                    <roleDesc>tema naine</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>VIIU </role>
+                    <roleDesc>nende tütar</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>REIN NIRK </role>
+                    <roleDesc>vallakirjutaja</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>MIKK </role>
+                    <roleDesc>Hannuse poiss</roleDesc>
+                </castItem>
+            </castList>
+        </front>
+        <pb n="99"/>
+        <body>
+            <div type="act">
+                <head>
+                </head>
+                <stage>(Peretuba. Keskel uks. Paremal pool aken. Sääl lähedal laud, laua pääl kalender. Laua ääres Hannuse tool. Paremal pool kõrge sirm, mis kõrvalise ukse osast ära katab).</stage>
+                <div type="scene">
+                    <head>1. etendus</head>
+                    <stage>HANNUS. TRUUTA. (Istuvad seljad vastastikku)</stage>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Magad sa, või tukud sa muidu, Hannus?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Ei mõlemist kumbgit, mu kallis; mõtlesin oma õnne pääle, ja sest on alati küllalt.</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Sina ei ole muidugi oma õnne väärt. Kui kaugele jäime eile oma maja arutegemisega?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Ma usun, me jäime "kurja Seitsme" juure seisma. Säält ei saanud enam edasi.</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Ets kae! Minu vaga Hannus hakkab ka, kiuste ja targu rääkima, hakkab torkima ja trotsima! "Kuri Seitse" pean küll mina olema, mu armas mees? Eks ole nii?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Sa teed mulle ülekohut, kallis naene. Eks sa tea, et ma alati...</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Pea suu! Ma tunnen sind läbi ja läbi, ja tean küll, et sa ka nende kurja, salakavalate meeste seltsist oled, kes oma kihvtised nooled salakorkadest hõrna naese südame pääle laseb. Sa ilmsüdameta timmukas!</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Anna jumal andeks, oleksin mina seda kunagi julgenud olla, siis jääb ommeti sinu auuks, mind väga taltsaks teinud olevat</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Võtku pagan lugu! Mis eest ma siis perenaene olen?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Eks ta ole! Teised hüüavad mind ka peremeheks, mis see peaks tähendama?</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>See tähendab, et sa perenaese abiks pead olema, kus meesterahvast väljaspoolses elus tarvis; et sa hää mehe viisil naese sõna kuuled ja kõik tema käsud täidad; et sa alati meeles pead, kui sa oma naest, kelle käe ala sind pandud, pead auustama, armastama ja tema sõna kuulama ja...</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Ja peremees olema ka, ja jah!</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Hannus, ära saa nüüd jälle ilmasjata tühja jampsi — mõtteid taga aja! Selle maja sääduste järele pead sa ikka —</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Jah, selle maja säädusi oled sina üksi teinud, ega minu käest midagi küsinud.</p>
+                    </sp>
+                    <pb n="100"/>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Jah sina oled nende sääduste ala heitnud, sest on küllalt. Ega sa seda ommeti vana ea sees enam salgama ei hakka?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Mispärast seda tarvis? Aga mull peab ommeti ka natuke õigust olema, kanapojake.</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Kui sa tead, mis su kohus on, mis õigust sull siis enam tarvis? Hannus, ära püüa asju, mis sulle ei kõlba <stage>(Vihaselt ta pääle vaadates).</stage> Mis pagan, sina nuuskad tubakat, kuna mina sind parema elu pääle püüan käänata ja kasvatada?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Pakand teab, mis sa kõik kasvatamiseks nimetad, aga seda auu ei või sulle keegi keelda, et sa minust maailmatarga oled kasvatanud, see on, niisuguse inimese, kes midagi enam imeks ei pane, mingi asja eest ei kohku ega karda, ja oleks see ka emane kõuemüristamine alalise tuhalabidasauga. <stage>(Üles tõustes ja pilgates kummardades).</stage> Mu auustatud kasvataja, luba mind seekord natuke koolist ära jääda, mull on ka muud tööd ja mitte aega, alati lõuka otsas tuhalabida kõrval seista. <stage>(Läheb).</stage></p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Paigal seisa! Kui minul sinuga rääkimist on, siis on kõik asjad kõrvalised. Täna on minul tähtsaid asju sinuga läbi rääkida.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(kohkudes)</stage> Minuga? Jumal hoidku, ega täna jälle müristamine ja tuhalabidasadu ei tule? Kas ma ikka ei võiks täna koolist ära jääda?</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Aa-ah, n'agu ma ei mõista, et eest ära püüad pugeda? Su paha südametunnistus ütleb sulle, et süüdlane oled.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Tule jumal appi, millal mul sinu silma ees iial õigus olnud? — Pean ju alati süüdlane olema, kui naene...</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>No jah, kui naene sind paha tee pääl leiab käivat ja õige tee pääle tahab käänata. Mina pean ka täna kaebdusega sinu vastu algama.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Kaebdusega minu vastu, kes ma maja rahu pärast iial sinu vastu ei räägi ega vastu pane!</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Just sellepärast. Sa oleksid pidanud vastu panema.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(Rõõmsalt kohkudes)</stage> Kas sulle? Kas sulle? Jah —</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Mulle mitte, seda pead sa ju ammu teadma. Aga kuida oli lugu heile mõisa talgusel? —</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(kohkudes)</stage> Mõisa talgusel?</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(kõvem)</stage> Mõisa talgusel jah, sa üleannetu! Hambavalu pärast pidin ise koju jääma, lootsin ka sinu pääle, aga kus sull alati päitsed pääs ja tuhalabidas turja pääl ei seisa, sääl ei saa sull midagi tehtud. Kas ma mitte selge sõnaga kangeste ära ei keelnud, et teravnina Rein Nirk meie Viiuga mitte ei pidanud —</p>
+                    </sp>
+                    <pb n="101"/>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Mõisa rukkid lõikama? Mispärast siis muidu läksime?</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Pea suu, loba! Kõrvu 'polnud neil tarvis sedagi teha. Kus olid su silmad, kui sa ei näinud, kuda Nirk pea kõik see õhtu üksi Viiuaga rääkis, üksi temaga kõrvas istus jne? Kas sa hoolimata isa ja sõnakuulmata abikaas mitte ei ole sallinud, et Nirk Viiu veel tükk maad tohtis saatma tulla, — ja seda kõik minu kange käsu vastu?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>No ütle, mis sest viga? Talgusel ika pärast tööd kirpa maha raputatakse, kui pill hüüab, sääl juures kõneldakse, naerdakse — noorte inimeste asi!</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Oh sina — oled sa või teed sa ennast nii rumalaks? Eks tantsides ole aega, nii mõnda magust sõna neiule öelda, tema kätt tähtsal viisil rõhuda... Oh, mina tunnen seda kõik väga selgeste.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Soo-oh! Ega need elujuhtumised ommeti nii hilised ega uued ei või olla? Ma loodan, on vist endisest ajast veel meele jäänud — eks ole?</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Jäägu pääle — siin on muist asjust kõnelda. Olgu sa nii kohmetand kui oled, ma pean sind ommeti nagu viiet ratast vankre pääl taga vedama.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(Kõrvale)</stage> Nagu ma alati vankre taga ei peaks jooksma, ehk enamist vankre ees vedama! Kes mind pääle võtab? Noh, — kõik kalli majarahu pärast.</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Mis sa sääl pomised? Pane tähele, mis ma sulle ütlen. Sa tead, mis ma oma tütre Viiu pärast nõuuks olen võtnud.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Nõuuks võtnud? Kuule uudist ja imet! — Noh mina olen ka nõuuks võtnud, et...</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Sinul ei ole ühtegi nõuuks võtta, vaid minu nõuuvõtmisi täita — kas kuuled?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Kuulen küll, — no mis käsud ja kohused mull siis peavad täita tulema?</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Sina pead oma tagaselja salamässamist sedamaid maha jätma!</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <stage>(naerdes)</stage>
+                        <p>Ahahah! Salamässamist? Mina rahuline, kannatlik tallekene — mina mässaja? Siis on seda kõik mu kanad ja lambad ka — ahahah!</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <stage>(käed puusa pannes)</stage>
+                        <p>Tead sa ka, tõlplane, kui harimata, inetu ja toores see on, auväärt majaperenaesele nõnda suu sisse hirnuda?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Ma tean paljugi, mis ma sest saadik, kui tanu ala sain, enam ei tohi teada. Tuvike, luba ikka niigi palju õigust, et<pb n="102"/> omad mõtted võin —</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <stage>(valjuste)</stage>
+                        <p>Vait nüüd sest ja panne tähele: ma keelan sulle nüüd kangeste ära, tänasest päevast saadik mitte enam kirjutaja Rein Nirki pääle mõtelda, kes omad silmad on julgenud meie Viiu pääle pöörda, — kas kuuled?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Miks ep kuule, aga mõtle ommeti — Rein on minu kõige vanema ja parema sõbra poeg! Kas ma nüüd sinu ilma aegu põlgtuju pärast oma sõpra haua põhja pean pahandama? — Ei see lähe korda! Jumal teab, et ma majarahu armastuse pärast küll tihti liig pehme olen, liig palju järele annan, aga — ei sest saa midagi; ma pean mees olema. <stage>(Kõrvale).</stage> Aita Jumal, nüüd läheb pagan lahti!</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Hurjuh! Mis ma kuulen? Sina julged vastu rääkida? Oh, määratu teutus! Nii vähe on minu õpetuse ja maenitsuse seeme sinu kivisüdames juurdunud? — Issand Jumal, ma usun, sinu pää ei keelaks mitte, Viiut selle näljatäile viimaks koguni naeseks anda, kui asi sinu teha ja tallitada oleks?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Mis minul sellega asja. Rein on mees küllalt omast kohast, ja kui ma oma lapse õnne pääle vaatan, siis —</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Ja jah, siis võtku kes tahes, aga sina mälupää ommeti vahet tea! Õnneks on truu ema silmad alles lahti ja valvavad tema üle. Mu vaene laps, keda terve suur karjamõis, suured põllud, heinamaad, täied aidad, laudad ja 20 000 rubla puhast raha ootavad, — sind viskaks see jõle isa ühe palja konna kaisu, kui see truu ema varjuks ees ei seisaks! — Minu tütar palja vallakirjutajale, kes täna siin homme sääl, ja kuskil ei ulata leib peust suhu, peab igaveses paastumises elama — tohoo loru Hannus. sellele annaksid sina oma ainu tütre! Sähärdust hullutempu võib üksi see teha, kes nii meeletu on kui sina. <stage>(Pöörab selja mehe poole).</stage> Mine mu silma eest, tühipaljas! — Kannad mehe nime, aga mitte karvu pää pääl!</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Jah — mul on siin toas täna liig palav, vist üleliiga köetud, lähen välja lahutama. Jää terveks, mu magus Truutakene! <stage>(Tahab minna).</stage></p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(käredast)</stage> Ei mitte, jää paigale, häbemata loom! Küll sa näed, Viiu ema on alles pääl maa ja —</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(ohkates)</stage> Jah, alles pääl maa, ja vist kaua veel!</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(vihaga)</stage> Pilka aga, pilka, sa naese ja lapse õnnetus! Sinu kiuste ja sinu häbiks tahan ma kahevõrra rõõmus ja uhke olla, kui oma tütre rikka rentniku emanda näen olevat ja kutsar ja kaks hobust ees kiriku sõitvat.</p>
+                    </sp>
+                    <pb n="103"/>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(Tagasi kohkudes ja imestledes)</stage> Rentniku emand? Vist mõni kõrtsirentnik?</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Pea suu! Ega sinu tuhmid silmad kõrtsist kõrgemale ei ulata. Mõisarentniku emandaks peab minu tütar saama ja saab ka. Just täna hommiku on rentnik Hallits mulle kosimise pärast kirjutanud, mis ära lugeda lasksin, ja muidugi teada saan ma jah ütlema.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Tahab Hallits sind omale kosida? Mina ei keela.</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(vihaselt)</stage> Jäta oma häbemata pilkamist, muidu võtan sedamaid tuhalabida! Muud sa ei mõista. Mul on tütar anda ja selle annan ma.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Ah soo, see on jälle teine asi. Õnneks on Viiul veel armastaja isa, kes tema õnne üle valvab ja —</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Ma usun, sa hakkad jälle pilkama ja minu sõnu järele lugema?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Ei sugugi, tuvike. Aga vana lesk Hallits on minust 5 aastat veel vanem. Temal on juba 60 turja pääl ja Viiul alles 19. Ma arvan, et Hallits Viiu kohta liiga vara kiigust välja saanud. Eks ole nii?</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Abielu on jumalik säädus, kas mõistad?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Vai nii? — mõnikord küll! aga kaunis mõru säädus!</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Jumaliku sääduste juures ei tohi ilmlikku asja mitte mõõduks võtta.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>No eks ta ole. Aga tont — Hallistel on ka jooksja jalgus, et väga harva oma jalaga astuda võib. Kus jääb pulmatants?</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Seda ilusamad on ta hobused ja vankrid ja seda ennemalt võib meie laps ohjad oma kätte võtta. Seda õnne on ema kohus temale soovida.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Jah, magus õnn, kaunis elu 19-aastasele emandale oma isanda paistetanud jalgu iga päev kinni ja lahti mässida ja tema urisemist kuulda, üksi selle suure õnne eest, et tuhalabidat omas käes võib pidada. Ma ei tea mitte, kui maias meie Viiu selle õnne järele saab olema. Tuhalabidas ka alles kahtlane.</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Sest ei ole mul muret. Ma loodan, et Viiu omast emast ommeti vähegi on õppinud ja tema terasest meelest natuke kaasa pärinud.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Hää küll, hää küll! Siis tahan ka mina midagi ütelda: mina ei luba iial ega ilmas, et minu tütar vana rentnik Hallitse naiseks peab saama.</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTAL</speaker>
+                        <p><stage>(tagasi põrgates)</stage> Hannus! — hull! Sina — sina julged mulle vastu panna?</p>
+                    </sp>
+                    <pb n="104"/>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(pool värisedes)</stage> J-jah, julgen seekord seda küll, sest et-et-et mu lihane laps on õnnetumaks saamas. Sääl võib lammas lõviks saada.</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Õnnetu, kas julged selle kangekaelsuse juure jääda?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(värisedes)</stage> J-jah, liikumata <stage>(=taganemata).</stage></p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(jalgapõrutades)</stage> Suu vait <stage>(=kinni),</stage> pöörane!</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(kõrvale)</stage> Saagu mis saab, nüüd on kurat muidugi lahti. <stage>(Naese poole ja jalaga põrutades)</stage> Ei ole suu vait! Ei ole pöörane kedagit ühti. Mina kisendan aknast välja, et ma oma kohut täidan; ma karjun kõik maailma kokku, et 19 ja 60, päälegi paistetand jalgadega, mitte paari ei sünni, ja sina tahad neid paari panna, oma last ära müüa — jah, tahad jah, noh! <stage>(köha tuleb vahele).</stage></p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Palu silmapilk andeks, põlvili maas, et nii rumal oled olnud!</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(ähib, käies mööda tuba käed taskus).</stage> Ei, ei, seekord mitte — sina tahad lapse hukka saata! Sääl peab lammas lõviks saama — mis ei lähe, ei lähe!</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Oho! Sina tahad sõda? Sina? —</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Sõda ei ole kellegi rõõmuasi, aga millal on meie vahel kunagi rahu olnud?</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Eks sellepärast, et sina kangekaelne iial ei mõista järele anda ega tea mis su kohus naese vastu on! Aga mis ma siin oma kallist aega viidan? Lähen parem ja lasen Hallitsele kirjutada, et mulle otsuse andmiseks kolm päeva aega annaks. Kui sinu kangekaelsus seni veel ei nõrgu, siis ütlen ma üksi jah. Aga häda sulle, kui siis veel vastu tõrgud.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Kas tõeste lähed ja teed seda?</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Küll sa nalja näed! <stage>(Tahab minna).</stage></p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(veida hirmusegase julgusega ette astudes)</stage> Ei, ei, sa ei pääse paigast ära! Mees on mees. Naesed ei tea igakord, mis teevad. Jää aga paigale!</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Appi! Appi! — Ta tapab mu äta! — Aga siiski tahan oma tahtmist teha. <stage>(Tahab jälle minna).</stage></p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(veidralt)</stage> Ja mina oma tahtmist ka, sina ei pääse paigast ära. Mees on mees.</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(langeb tooli poole)</stage> Koerakoonuk! Lihane tont! Aeh! <stage>(Teeb valeminestust).</stage></p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(iseeneses)</stage> So-soo, nüüd saan natuke rahu. Oh, et minu kallis Truuta hommikust õhtuni iga pääv minestuses oleks, meie elaksime veel õnnelikumalt, kui nüüd. Tema omatehtud minestused kestvad mõnikord kaunis tükk aega. Eks ma ole neid küllalt<pb n="105"/> näinud, seepärast loen tormi vaheajal natuke zeitungi. <stage>(Istub laua ääre, võtab lehe kätte).</stage></p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(kargab ülesse, kisub lehe käest ära)</stage> Timmuk! — Kivisüda! — Puutomp! Sina tohid zeitungi lugeda, kuna su naene minestuses ära nõrkenud on? Aeh! Appi! — <stage>(Langeb jälle tooli pääle ja nõrkeb ära).</stage></p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(imetelles pääd vangutades)</stage> Vaata imet! Et mina mõistaks kaugelt mitte nii ilusaste ära nõrkeda — vaat! kui viisakalt ta ära on närtsinud. Hääd hingamist, mu tuvike!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>2. etendus.</head>
+                    <stage>ENDISED. VIIU.</stage>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p><stage>(isa poole minnes)</stage> Tere hommikut, isa! Sind ma' pole täna veel näinudki.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Tasa, tasa! Räägi tasa, laps! <stage>(Näitab käega ema poole).</stage> Eks näe, mis sääl on?</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p><stage>(ema nähes)</stage> Oh õnnetust — ema! — Kas ta haige on, armas isa?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Tasa! — Ära kisa — ema magab! —</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(üles karates)</stage> Karda mu ülesärkamist, sa raisku läinud loom! Kes on sind ära teinud, nõnda oma naese vastu mässama? Oot', oot', sa pead oma palka saama! <stage>(Viiule).</stage> Kuule laps, tunni aja pärast tule sa taha kambri, mull on sulle midagi ütelda. Ära unusta mitte ära! Kas kuuled? — <stage>(Hannusele).</stage> Ja sina nurjatu, sina tule varsi ühes, sinuga on mull kõige päält suur kirju kana katkuda. Tule, tule!</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(pool hirmul)</stage> Tulen, tulen. Jumala eest — kõik majarahu ja abielu õnne pärast, muidu ma — <stage>(lähvad).</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>3. ettendus</head>
+                    <stage>VIIU (vanematele järele vaadates).</stage>
+                    <sp who="#viiu">
+                        <p>Ma ei mõista sest kõigest mitte maiku, mitte kübenat. Ema kolistab <stage>(=müristab),</stage> isa kolistab, ehk küll muidu ümber sõrme mässida. — Ilm näitab siin jälle tormi ja tuisku tegevat. <stage>(Kätt rinna pääle pannes)</stage> Ja siin rinna-kambris koputab ka ja taub ilma vahe pidamata nagu sepikojas! — <stage>(Järel mõeldes ja ohates).</stage> Iial ei oleks ma uskunud, et armastus nii suurt valu võib teha, pidasin teda kes teab kui magusaks asjaks, kuna nüüd — <stage>(Teeb akna lahti)</stage> Oh! Kui leige, kosutav tuuleõhk liigub õues — pean armast päikest natuke aknast sisse<pb n="106"/> vaadata laskma. <stage>(Naerdes)</stage> Siiski, kui mõni praegu mu südamesse võiks vaadata, siis saaks ta varsi ütlema; Viiu, Viiu, sina ei tee akent mitte lahti päevapaistele, vaid et su silmad kedagit Rein Nirki juhtuksid nägema, kes sulle liig sügavasse rinna põhja on vahtinud! <stage>(Kätt silma ette pannes)</stage> Oh heldeke, see oleks terve tõssi. <stage>(Taganeb ruttu akna päält tagasi)</stage> Uih! paha inimene — sääl ta praegu majanurga takka välja pöörab! — <stage>(Veel natuke taganedes)!</stage> Ma usun tõeste, tema tuleb meie maja poole! Aga ta ei pea mind mitte nägema, ta ei pea mitte mõtlema, et mina üht sammu tema pärast astun! Meie tüdrukud peame kindlad olema, jah, kindlad! <stage>(Kikivarbil vahtides)</stage> Aga ma tahaksin ometi teada, mis näu ta teeb, kui mind varjult näeb. Ega üks samm lähemale midagi ei tähenda — meie tüdrukud peame kindlad olema! <stage>(Selsamal silmapilgul lendab kirjake lahtisest aknast sisse. Viiu kohkub tagasi)</stage> Uih! Mis ma näen? Kiri põrandal maas! — Oh teie ettevaatamatud mehed! Kesk päeva ajal kirja aknast sisse viskama! Kui ema seda oleks näinud — õnnetu Rein! <stage>(Vaatab kirja kaugelt, sirutab kätt, tahab üles võtta).</stage> — Ei, ei, meie tüdrukud peame kindlad olema! <stage>(Sirutab jälle kätt).</stage> Ei, ei, mitte koguni! Seda oleks mul veel tarvis! Poiste kirju üles võtma, et neil pärast hää naerda oleks: Viiu võtnud Reinu kirja vastu ja — oota senni! — Aga üles võiksin ikka võtta, mull pole ju tarvis lugeda! <stage>(Jälle ligemale astudes).</stage> Võtan üksi sellepärast ülesse, et ema ei juhtuks nägema! Üksi sellepärast — mitte Reinu pärast. Ema ju ei luba teda meile tulla. Mis ta vaene tarvilisel korral peab tegema? Ei, see oleks liiga vali, liiga külm ja ülekohtus, kui kirja senna maha järaksin. <stage>(Võtab ülesse).</stage> Ma julgen ommeti! Ema manitseb ju ikka, et ka paberitükk ei pea jalge ala maha jätma. <stage>(Vaatab adressi).</stage> Oh kui ilusaste kirjutatud: "Minu kõige kallimale Viiule." No eks ta ole! Oh sa armas Rein! <stage>(Annab kirjale suud, murrab lahti ja loeb).</stage></p>
+                        <p>"Minu südame põhjast armastatud Viiu! Sinu ema on paraku järele andmatu kõva minu vastu ja tahab sind, mu silmatera, vana poolhalvatud, uriseja rentnik Hallitsele mehele panna. Ole julge, seda ei tohi sündida! Seks on mull aga tarvis sinu armsa isaga kokku saada ja rääkida. Kui ema kottu välja läheb, olen ma varsi sääl. Vana hallitand Hallitse juure ei pea minu kuldne värske lilleke mitte hallitama saama! — Sinu surmani truu Rein N—."</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p><stage>(sojalt)</stage> Jah, mu truu Rein, kuida tema sind armastab! Ja mina peaksin selle vana Hallitse naeseks minema? Elades mitte, mitte. kui tema ka kaelani puhta kulla sees istuks! — Reinul on õigus, siin peab midagi tehtud saama! Mina tõttan varsi isa juure. Ma palun teda ümber kaela, et mind õnnetuse sisse ei laseks tõugata.<pb n="107"/> Mina vana Hallitse naeseks saama — Jumal hoidku mind tule ja vee eest! — Isa on küll ema vastu alati pehme ja annab järele, aga kui oma ainust last hingehädas näeb olevat, ehk tuleb siis mehe süda rindu. Ma loodan ommeti. <stage>(Tahab minna, aga isa tuleb ukse pääl vastu).</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>4. etendus</head>
+                    <stage>HANNUS. VIIU</stage>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(tütart tagasi hoides)</stage> Kuhu sa ruttad, hää laps? Ma näen sind muidugi nii haruldi, nagu elaksid teises külas.</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p>Oh isa, tahtsin sind praegu taga otsima tulla, seda oli väga hädaste tarvis!</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Aga Jumala pärast, laps, sina värised! Mis sull viga on? Kas midagi paha juhtunud?</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p><stage>(pehmelt)</stage> Armas isa, eks ole nii, sa armastad mind, nagu loodan?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(tütre pääd silitades)</stage> Veider küsimine! Eks sa ka mu ainus armas laps ei ole?</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p><stage>(Annab isa käele suud)</stage> Ega sa siis ka mitte ei luba, et mind vana poolhalvatud Hallitse naeseks antakse?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(kohkunud)</stage> Mis ma kuulen? Sina tead juba? Kust sa kuulda said?</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p>Paraku tean kõik, armas isa — aga need pulmad oleksivad minu surm. Sa võid seda isegi arvata. Istuks vana Hallits ka kullakuhja otsas ja oleks muidu terve mees, mina ei võiks iial temale minna, veel vähem nüüd kui ta halvatud ja vana puru on.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Tähendab küll osast ka nii palju, et sa juba mõne teise nooremale oma südame oled ära kinkinud?</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <stage>(kohkudes)</stage>
+                        <p>Isa, — kust sa seda juba tead?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <stage>(naerdes)</stage>
+                        <p>Äh, äh, äh! Ma tean kõik. Sina armastad Rein Nirki. Äh, äh, äh!</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p>See on — tema armastab mind —</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Ega seegi vale ei ole. Aga hää küll, ma olen eksinud, sina ei armasta teda mitte — emal on õigus.</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p><stage>(tuhinal)</stage> Oh ei, ei, isa, emal ei ole mitte õigus! <stage>(Häbelikult isa kaela langedes)</stage> Mina armastan teda ka ja nii palavalt ja südamest, kui aga armastada võin.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Vaene laps, mis nõuu sääl peab olema?</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p>Mina küll ei tea. Aga Rein näitab nõuu teadvat. Ta on mulle praegu läbi akna kirja läbi sõnumid annud.</p>
+                    </sp>
+                    <pb n="108"/>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Läbi akna? <stage>(Naerdes)</stage> Veider postkontor küll.</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p>Aga tema ei tohi ju ise meile tulla.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>No eks ta ole, meie ema on natuke vali. — Mis sääl kirja sees siis seisab, mis ta vaene Rein tahab? Kas tohin seda ka teada?</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p>Küllalt, armas isa, kiri ongi enam sulle kui mulle. Säh, siin ta on, loe ise! <stage>(Annab kirja kätte).</stage></p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(kui ära lugenud)</stage> Tema tahab ise seia tulle ja minuga rääkida?</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p>Jah, nõnda ta kirjutab. <stage>(Paludes)</stage> Armas isa, ära põlga tema palvet mitte ära. Pai kulla isa!</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(hirmul ümber vaadates)</stage> Armas laps, kui ema meid selle jutu päält juhtuks leidma. — Sa tead ju, abielulik kodune rahu —</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p>Ega see sull ommeti enam ei maksa kui su ainu lapse õnn?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Ei seda küll mitte <stage>(vaatab kartlikult ümber),</stage> aga arvad Reinu tulemisest tõeste nii suurt kasu tulevat?</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p>Mina loodan sest kõik. Mu süda ütleb mulle, et seeläbi õnn ehk õnnetus tuleb ehk tulemata jääb.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(vabisedes)</stage> So, soo, või nii, aga lapsuke — peame väga ettevaatlikud olema. Sa tead, ema on natuke vali — ja majarahu pärast —</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p>Ema tuleb alles lõunaks koju, sennamaale on veel aega, kui viibimata tallitame.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(seinakella vaadates)</stage> On veel paar tundi aega, aga, aga — mis ma pidin ütlema — on Rein siin lähedal kohegil saadavas? <stage>(Väriseb).</stage></p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p>Ma usun vissist. <stage>(Laheb akna pääle).</stage> Vaata, isa, sääl ta seisab üle õue Loge Matsi kapsaaia nurgal ja vaatab üksi silmi seia poole.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>No anna talle märki seia tulla.</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p>Kas tohin?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Olgu see ainus kord minu nimel.</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <stage>(valge rätikuga lehvitades)</stage>
+                        <p>Ta on juba näinud — ta tuleb —</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(mööda tuba käies)</stage> Oh Jumal, minu majarahu! Kui Truuta käksuma ja lõksuma hakkab!</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p><stage>(meelitades)</stage> Selle eest saab su tütar sind kahevõrra armastama ja tänama. <stage>(Kuulatab)</stage> Ma kuulen käivat — juba tuleb! <stage>(Isa kaela hakates).</stage> Olge julge, isake, — sa oled ju mees.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Ah, ja jah — mees, mees, ma olen mees ja päälegi peremees majas — kuida see julgust annab! — tuleta seda mulle tihti meele: — Pagana päralt, mina olen mees, tuline<pb n="109"/> mees! Uhtinoo, tulge välja?</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p>Ja mõtle, armas isa, et seda kõik oma ainu lapse eluõnne eest teed, kes sind igaveste saab tänama. <stage>(Tõttab pahemat kätt uksest välja).</stage></p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(üksi)</stage> Ja jah, mu tulehark — armas Truuta, tahtsin ütelda — peab ka aru saama, et tema üle peremees majas on. Ma tahan ka õiete vahva olla. <stage>(Seab ennast veidralt seisma).</stage> Mina olen ju mees — ütleb mu tütar. — Ih, ih, ih, kuida saab Truuta silmad pärani ajama, kui nii mehist meest näeb. Uhtinoo!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>5. etendus</head>
+                    <stage>HANNUS, REIN, pärast TRUUTA</stage>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p><stage>(keskuskest sisse tulles ja Hannuse poole minnes).</stage> Tuhat tänu Teie isaliku lahkuse eest! Jäete Teie oma laste sõbraks ja kaitsjaks, siis võib armastuse taim ka palava tuha sees veel haljendada.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(hirmul)</stage> Jah, jah, palava tuha, kuuma süte pääl, seda ma olen küll. <stage>(Vaatab arglikult ümber)</stage> Sina ei usu mitte, Rein, — ma seisan püssirohu püta pääl ja mängin tulega — kõige truuimast sulasest olen ma nüüd mässajaks saanud, ma jumalakartmata inimene! Aga mis ei tee inimene kõik armsa laste pärast — kes ilma teine teiseta ei ütle elada võivat.</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p>Ja kelle viimne lootus ja tugi Teie veel olete — kes Teid ka surmani armastama ja auustama saavad — kallis isa!</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(kartlikult)</stage> Ja jah, armastama, auustama — kas saate seda ka tegema? <stage>(Hakkab Reinu käest kinni)</stage> Ah ja — ega teie kumbki teiseti ei mõtle, kui räägite. Aga teie ei tea veel, mis hirm on. Pane varsi uks riivi, et keegi meil äkiste pääle ei tule. Sina ei tunne veel minu armast perenaist. Ta tuleb, vaatab ja mina värisen. Vastu panna? — Tühi töö, ei sest saa midagi. Pane uks riivi, pane riivi!</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p>Silmapilk! <stage>(Lükkab keskmise ukse kinni).</stage> Soo, nüüd võime kurja eest julged olla. <stage>(Kõrvale)</stage> Ei teist sellesarnast tuhalabida alust jänespüksi vissist ennam maa pääl ei ole. Paljad tühjad püksid, kus mehe haisugi sees ei ole.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Kas uks on nüüd julgeste riivis?</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p>Nii julgeste, et säält tuuleõhk sisse ei pääse.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Noh, siis istume maha ja räägi mulle oma plaani selgeste välja. Mehed peavad mehed olema, kui uks julgeste riivis on. <stage>(Kartlikult).</stage> Hm! — Hm! ma märkan juba! <stage>(Kahetsedes).</stage> Pagana kimbatus, kuhu sisse ennast olen annud.</p>
+                    </sp>
+                    <pb n="110"/>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p>Isake, 'pole nii suur asi, olge aga julge, läheb pea mööda. Natuke mehist meelt ja kõik läheb hästi.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Mis teie noored inimesed ikka huisapäisa olete! Teie ei tea, mis hirm on. Elage enne abielus, küll te siis... Aga see on tõsi... <stage>(ajab ennast julgeste)</stage> mehel peab mehine meel olema — jah — üsna tõsi — ent kellel seda ikka oleks! —</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p>Päälegi kui ühelhoobil mõnd enne kannatatud ülekohut võib kätte tasuda! —</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Kas arvad? Kuule Nirk, kui seda sünniks — oh sa südame rõõm! — Ära aja mu suud vett jooksma — ära saada mind kiusatuse sisse. Aga mis ma teie abiks siis pean tegema? Ütle, Nirk?</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>NIRK:</speaker>
+                        <p>Mitte palju — <stage>(kõrva sisse)</stage> Teie peate ise oma tütre ära varastama ja temaga põgenema.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(ehmatades)</stage> Nirk, kas sa pääst hulliks läinud? Kuida? Mis? — Mina ise oma tütre ära varastama ja põgenema? See on selge hullu jutt.</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p>Aga armas isa, väike lustisõit silmakirjaks. —</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Kena lustisõit silmakirjaks! Ja kuhu siis?</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p>Mitte kaugemale kui Tillukivi koolimajasse. Säälne koolmeister on Teie sõber ja võtab Teid mõlema kätega vastu — ja sääl sõidame varsi kirikumõisa ja —</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(vahele)</stage> Seda ma arvan! Ja mina oleksin iga päev põrgus ja Truuta kihutaks tuld ala. Tagane minust, saadanas!</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p>Aga armas isa, Teie vaeste laste õnn —</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Ei või ometi isa õnnetusest tulla. Ei, ei, hääd lapsed, mull juba ilmsüüta küllalt kanda, kas süü pärast ka veel?</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p>Kas tahate siis oma Viiu õnnetumaks teha?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Õnnetumaks? Jumal hoidku. Ma sureks mure pärast, kui mu ainus laps õnnetumaks peab saama.</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p>No hää küll, isa, siis näidake ommeti kui majaperemees ja isa, mis teha võite, ja põgenegem siiski Tillukivile, mis meid esiotsa vana Hallits'e eest kaitseb.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Hallits ei pea minu Viiut oma naeseks saama! Teil on õigus, lapsed, teeme nõnda. Ma tahan õiete südame rindu võtta, saagu mis saab.</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p>Tänu Jumalale, nüüd olete jälle oma laste nõuus! Ma kartsin juba, et —</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Jah, teie nõuus — ma võtan julgust nagu lõvi! Pääle selle — kas arvad tõeste, et ma mõnd kurja kätte võiksin tasuda ja minu nime au majas kasvaks?</p>
+                    </sp>
+                    <pb n="111"/>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p>Jah, vissist! Mida järsem hoop langeb, seda enam mõub.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(arglikult)</stage> Aga kui nõu raisku läheb, kui mu kütked veel halvemaks saaksivad! — Kas teie siis koguni ilma teine teiseta ei või elada? Kas sugugi ei lähe?</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p>Ei, armas isa, see on koguni ilmvõimata, muidu peame mõlemad surema.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(mõtleb järele)</stage> Olgu's — ma tean küll — kõue müristamine hakkab pääle! —</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p>Oh, sa kuldne isa! Elagu meie isa, hurrah!</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(ikka veel julgeste)</stage> Täna on Sutti Triinul villatalgud ja minu Truuta läheb ka senna — sennikaua võime teha mis tarvis on. <stage>(Ohkab iseeneses).</stage></p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN::</speaker>
+                        <stage>(käsi õerudes)</stage>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Kellu kolm pääle lõunat ole siin. Aga nüüd tee et minema saad, enne kui keegi meid siin koos leiab!</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(koputab väljast ukse pääle)</stage> Hannus, tee lahti! Mis tont uksest riivis pead?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(värisedes)</stage> Oh Jumal aita nüüd ise — kuri vaim koputab! <stage>(Koputatakse jälle)</stage> Tema hääl! Oh Jumal, tema hääl.</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(väljast)</stage> Hannus, kas kurt ehk surnud oled? Ruttu lahti!</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(hirmuga ümber joostes)</stage> Sääl ta nüüd on! Vangis n'agu rotid lõksus. Oh, et ma maa ala võiksin pugeda! Oh kuule kuis ta müristab!</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p>Armas isa, ära kauta pääd õlgade vahelt ära!</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Pääd? Seda ei olegi enam õlade pääl!</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p><stage>(Järel mõeldes)</stage> Pea kinni, isa — mull tuleb hää nõu! Tõmba oma kuub seljast maha.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(hakkab kuube maha kiskuma)</stage> Kui ma ommeti teaks, mis kasu sest peab tulema? Kas ehk sellepärast, et vanamoori tuhalabidas parem läbi käiks?</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p><stage>(rutuga)</stage> Viska kolinal mõned istmed ümber!</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(nagu kohkund laps)</stage> Oh Jumal. päästa mind — mina ei tea enam midagi, teen aga kõik mis kästakse. <stage>(Viskab istmed ümber).</stage></p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(väljast käredaste koputades)</stage> Mis pagana kolin sääl toas on. Kas teed ükskord ukse lahti ehk mitte?</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p><stage>(tasase häälega)</stage> Soo, nii on hää! Kuna ma aknast välja hüppan, tee sa uks lahti ja ütle, mina olla välja põgenenud.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Väga tulus nõu! Ehk saan mina selleläbi vähem kolki. —<pb n="112"/> Aga ei, see ei lähe ka mitte: Sa võid hüpates kaela murda, siis on Viiu ka mull kallal. Võtku Madis teie kallistamist, säält ep see on kõik tulnud! <stage>(Näitab parem poole ukse pääle).</stage> Vaata senna!</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(väljast)</stage> Uks lahti! Uks lahti!</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(hirmul)</stage> Lippa senna kambri, sääl võid julge olla, kunni müristamine mööda läheb. Säält käib teine uks õunapuuaeda!</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p>Vaat' nõnda, äiataat. Jumalaga! Tee sina asja hästi. <stage>(Poeb kambrisse ja Hannus tõmbab võtme eest ära).</stage></p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(teeb vahelt ukse lahti, karjub)</stage> Hing kinni! saatke õhku! värsket õhku! Ma kuulsin hüüdmist küll, aga ei pääsnud tulema.</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>6. etendus.</head>
+                    <stage>HANNUS. TRUUTA.</stage>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(kurja näuga sisse astudes)</stage> Aga loru Hannus! Mida tulise päralt sa siin teed? Oled sa täiesti hulluks läinud? Nõnda särgi väel? Näitad välja, nagu oleksid seitsmest kurjast vaimust vaevatud?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(kuube selga pannes)</stage> Ära pane pahaks, armas Truuta, et nõnda sulle vastu tulin, aga kuumalt võideldes —</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(imeks pannes)</stage> Võideldes? Sina ka võideldes? Vissist ise oma varjuga, mis seina pääl nägid ja karuks pidasid.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(suurustades)</stage> Nagu Simson lõviga olen võidelnud ja teda viimaks aknast välja viskanud.</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Teda, ikka teda, ütle ommeti keda? Kes oli sel vaheajal siin?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Eks tema — see ära-andja <stage>(= kurjategija)</stage> — kes meie last või mõnda teist vägise omale tahab.</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Kes ehk Nirk? — See paharet? —</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Ta pani pistoli südame pääle ja kisendas: Hannus, su elu ehk su —</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(kohkudes)</stage> Või pistoli? Või mõrtsuka viisil? Ja sina oled teda tõeste aknast välja viskanud? Hannus, sina ise?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(uhkest)</stage> Jah, mina ise! <stage>(Veidralt näidates)</stage> Ma võtsin teda nõnda — pääst ja jalust ja — Pasholl! Sa näed ju kuida lahingi koht siin välja näitab. Eesti Kalevi poja ja Juudi Simsoni võitlemised olivad lastemäng selle vastu.</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Kuule Hannus — mõtelgu ma su julgusest ja mehisest meelest kuida tahes, seekord näitad omma kohut naese ja lapse vastu ommeti täitnud olevat.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(kogeldades)</stage> Hm — Jah — No kes teab — Eks ta ole — Ent —</p>
+                    </sp>
+                    <pb n="113"/>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(hakkab mehe kääst kinni)</stage> Tule nüüd, mull on sinuga nelja silma all kõnelda.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(hirmul kõrvale)</stage> Kui ma aga jälle nelja silma all togida ei saa! <stage>(Mõlemad lähevad ära).</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>7. etendus.</head>
+                    <stage>REIN NIRK (pistab pea ukse takka välja, kuulab).</stage>
+                    <sp who="#rein">
+                        <p>Kõik vagusi — nagu tühi kirik — ma võin silmapilguks omast puurist välja tulla. <stage>(Kuulab jälle)</stage> Oho, ma kuulen vankre põrinat, külap Lahe perenaene vist kottu välja sõidab. Lahe perenaene! — <stage>(Õerub kulmu, mõtleb järele, ohkab)</stage> Siiski, õigust ütelda — parem oleks, kui ema tigedus meid seda sala teekonda mitte ei sunniks ette võtma. Aga tema tahab vägise oma kiusu ajada, siis peame natuke kavalust tigeduse vastu panema. — <stage>(Kuulab).</stage> Mis see on? Ma kuulen kedagi käivat! — Nüüd ruttu jälle puuri tagasi! Oh sa valu, kui vanamoor mind siit leiaks! <stage>(Paeb eest ära).</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>8. ettendus.</head>
+                    <stage>HANNUS. VIIU. (Pärast) REIN.</stage>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(Hoiab tütre käe kõrvas ja vahib kartlikult ümber)</stage> Usu mind, armas laps, kõik keha väriseb. Õnnetu isa, kes oma lapsi õnnelikuks tahab teha.</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p>Süda rindu, armas isa, süda rindu!</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Ehk pöörame parem tagasi? Sull hää ütelda! Sina oled minu läbi kaetud, aga kus on minu vari?</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p>Kallis isake, mis sääl siis nii karta on? Sina oled ju mees ja mehel on mehine meel.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Jah tõsi, väga tõsi, mehel on alati mehine meel. Tasa! Eks sa kuulnud midagi?</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p>Kuuldi säält kambrist tulevat, kus Rein sees on.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS::</speaker>
+                        <stage>(arglikult)</stage>
+                        <p>Kas kuulsid ka tõeste säält kambrist? — Kes võib teada ehk julge olla — sinu emal on kõik võimalik, ka läbi seinte kuulda ja näha.</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p>Aga isake, sina oled liig kartlik. Oleme ju mõlemad praegu alles näinud, kui ema ära sõitis — ja kahes kohas ei või ta ommeti korraga mitte olla.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>No kes teab? Tont uskugu teda, mina mitte.</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p>Tee siis Reinu kambri uks lahti ja kutsu ta välja, et minema saame.</p>
+                    </sp>
+                    <pb n="114"/>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(ohkades)</stage> No olgu siis Jumala nimel. <stage>(Astub kambri ukse ette)</stage> Kas oled valmis, Rein? Siis tule välja!</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p><stage>(välja tulles)</stage> Täieste valmis, ootasin aga teid.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Lapsed! lapsed! Mis tempu olete teie mind eksitanud tegema? —</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p>Pää ülespidi <stage>(= püsti),</stage> taadike, pää ülespidi! Kes midagi julgeb, selle päralt on naireaed ja marjamaa.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Ah ja — kes midagi julgeb! <stage>(Reinule)</stage> Sinu isa lubakiri jäi kambri laua pääle, too ta ruttu ära, et sääl kellegi silma ei puutu.</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p>Ma olen n'agu tuul silmapilk tagasi. <stage>(Lähäb säält uksest välja, kust isa ja tütar sisse tulivad).</stage></p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Õnneks peab truu Mikk ukse ees vahti, et sedamaid teada saame, kui mõni juhtuks tulema. Ega ta ommeti magama ei peaks jääma?</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p>Mikk on küll suur unimüts, aga karta pole ju midagi — ema võib alles vaevalt külasse jõudnud olla. Ega ta lind ega vaim ei ole.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Seda teadku Madis, mis ta on ehk olemata, kuid seda ma tean, et ikka sääl on, kuhu teda keegi ei oota. <stage>(Kuulab).</stage> Vait, vait! Ma kuulen müdinat!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>9. etendus.</head>
+                    <stage>HANNUS. VIIU. MIKK.</stage>
+                    <sp who="#mikk">
+                        <speaker>MIKK:</speaker>
+                        <p><stage>(sisse karates = tormates)</stage> Peremees! peremees! — Jumal olgu ise armuline! Kõik raiskus!</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(kahvatades)</stage> Mis sääl on?</p>
+                    </sp>
+                    <sp who="#mikk">
+                        <speaker>MIKK:</speaker>
+                        <p>Oh sa kallis heldekene, perenaene tuleb praegu minu kannul! Ruttage! Päästke!</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Keda tont ma enam päästan? Säh, sääl ta on, Jumala viha langeb ruttu süüaluse kaela. Aga kinni võtta ei lase ennast mitte — igamees on oma kõige lähem ligimene. Vaatku Rein, kuida läbi saab. Mina jooksen siit uksest välja. <stage>(Tahab minna).</stage></p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p>Aga isa, meie ei või ommeti Reinu üksi tulesse jätta ja ise pakku jooksta?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Tema eest ärgu olgu sull muret, laps! Tema on vallakirjutaja, see leiab ikka mõnd lahtist tagaust, kust välja pääseb kui kitsas käes on. — Lähme, lähme, põgeneme! <stage>(Tõmbab tütre enesega ühes ja kaob parempoolsest uksest ära).</stage></p>
+                    </sp>
+                    <sp who="#mikk">
+                        <speaker>MIKK:</speaker>
+                        <p>Pagana päralt, peremees annab jalgadele valu, tütar jookseb temaga ühes ja mina — kas mina üksi piksenooli ette pean lõhkuda jääma? Jumalaga! <stage>(Kargab pahempoolsest uksest välja).</stage></p>
+                    </sp>
+                </div>
+                <pb n="115"/>
+                <div type="scene">
+                    <head>10. etendus.</head>
+                    <stage>TRUUTA. (Hiljem) REIN. HANNUS. VIIU.</stage>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(lõkendava vihaga sisse astudes)</stage> Tont teab, mis hullu salatempu tahavad nemad minu selja taga teha? Kõik ühes nõuus, vanamees ise nende seas. — <stage>(Käib ühe ukse juurest teise juure).</stage> Pange kõik üksed kinni, vahid toa ümber, keegi ei pea neist põgenema pääsema! Toho! Loru-Hannus! Arvab, et ma midagi ei märka? Oi ei, peab mind suikujaks, kus ma nähevõrra valvasin!</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p><stage>(kõrvalt sisse tulles)</stage> Siin on paberid, armas isa! Nüüd edasi, et — <stage>(näeb vihast ema, kohkub)</stage> Võtku pergel äpardust! Jälle kõik raiskus! <stage>(Kõrvale)</stage> Kes pagan teda nõianägu just sell silmapilgul seia puhus? Kukub n'agu tige tõuk meepotti. Ma viskaks ta hargiga sõnnikuvankre pääle!</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(paar sammu edasi astudes)</stage> Mu auus kirjutaja noorsand, su pomisemine peab küll niipalju tähendama, et ma teile n'agu vesi paati olen tulnud? Ah, ah, ah! Kus sul tarkus nüüd jäänud? Sa ei saa ju sõnakest suust välja!</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN::</speaker>
+                        <stage>(ise-eneses)</stage>
+                        <p>Mis pergel ma temale nüüd ütlen? Oi, nüüd on häda käes! Heldeke — pea kinni, ehk nõnda saan õigeks! — vaat', see on ilus nõu. — Ma palun kohe Viiu pärast ja seletan kuidas asjad on, tulgu mis tuleb! Kui ma seda õige palavalt teen, — ega temagi rauast valatud ole.</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(pilgates)</stage> Mu auustatud sulesaks, eks sa ole ükskord nii armuline, mulle vastust andma? Ruttu, mina ootan patutunnistust! Salgamine ja puiklemine ei aita enam midagi.</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p><stage>(üle rinde kokku löödud kätega Truuta ette astudes)</stage> Sa ära angunud, surnuks külmetanud, kivisüdamega naesterahvas, kellel soja naeste veretilka rinna all ei tuksu!</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Mis sa ütled?</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p><stage>(vaimustatult, tuliselt)</stage> Oh, ära tule vahele, luba ma kõnelen edasi. Kes niipalju on võidelnud ja kannatanud kui mina, sellel peab ka kord luba olema, oma põlevat südant sinu jalge ette tühjaks puistada. Astu jalaga pääle, talla mu armastuse tuld kustunuks!</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(paha meelega)</stage> Aga mõtlemata noormees, mis õigusega julged sina minu kuuldes nõnda rääkida?</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p><stage>(ikka tulisemalt)</stage> Õigusega? Sa kõige heledam aga külm taeva täht, kes sa nagu jäätükk päevapaistes läigid ja minu kuuma südant surnuks kurnad, — millal on armastus küsinud, mis õigusega? Armastusel on alati õigus. Ta võtab küsimata kõik, sest et küsimata kõik annab ja ohverdab. Ma tean küll, et õnnetuse haua<pb n="116"/> ääre pääl seisan. Ma tean, et sa mu südame põlemist hukka mõistad ja mind ära nead. Oh, kui ma sinu külma südant võiksin soendada, jah, siis seisaksin tänagi taeva lävel.</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(kõrvale)</stage> Ta näitab püsti hull olevat. Seiamaale arvasin ikka, et ta Viiu järele luusib, aga nüüd näitab ju mind ennast — mind — ei, kes jõuaks seda mõista!</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p><stage>(vaimustub edasi)</stage> Oh kallis perenaene, Sina üksi võiksid mu südame haavu parandada, mind terveks teha ja nagu taeva tõsta <stage>(kõrvale):</stage> muidugi mõista, kui sa Viiut mulle lubad <stage>(Truuta poole).</stage> Terve aasta on mööda läinud sest saadik, kui talgusel esmalt kokku saime —</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Suu vait! Nüüd on sest küllalt! Häbenema peaksid ennast —</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p>Jah, küllalt sulle, aga mitte mulle! Mis eest olen ma kannatanud, mis eest su mehega võidelnud, surma ja elu pääle võidelnud, kui —</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Jah, mu mehega, kellele sa pistoli rinna pääle panid, et ta järele pidi andma ja sind väimeheks vastu võtma — kas salgad seda?</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p>Igavene heldus! Kui kivid rääkida võiksivad, siis räägiksivad n'ad nii külmalt kui sina! Mis ma mehest hoolin? Üks puhas kas teda on või olemata. Sind olen ma taga püüdnud, sinu jutule tahtnud, sinust õnne lootnud või õnnetust kartnud, sest sinu käes seisab ju kõik <stage>(kõrvale)</stage> kõige päält aga Viiu. <stage>(Truuta poole).</stage> Kui sina ka midagi ei tunne, siis kuule nüüd: Jah, mina tahtsin, kui muud nõuu ei oleks, üle su mehe surnukeha sinu juurde tungida ja — sinu jalge ees surra!</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(ähvardades aga mitte käredalt)</stage> Kuule, Rein, nüüd katsu et kord minema saad!</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <stage>(kõrvale)</stage>
+                        <p>Hirmuhigi seisab mull otsa pääl. Kui abi pea ei tule, siis olen lõksus. <stage>(Truuta poole).</stage> Kes ise ei armasta, see ei tea ka, mis armastus kõik sunnib katsuma ja tegema. Oh, Truuta, kallis perenaene, halasta ommeti vaese noorrahva pääle! <stage>(Langeb põlvili)</stage> Sinu ette langen ma maha, sa näed ju oma silmaga, et ma vägise meelt pean heitma, kui sa jah ja Aamen ei ütle. <stage>(Kuna Rein põlvili heidab, astub Hannus paremalt poolt uksest ettevaatlikult sisse ja seisab sirmi taga, kus mõlemaid võib näha).</stage></p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(silmi veidral pärani ajades)</stage> Mis ma kuulen? — See on ju selge armastuse tunnistus! Kas ta poiss hull on?</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Nüüd oled juba küll minu kannatust katkendanud. Ütle seepärast selgeste, mis su unistamine kõik tähendab, millest ma<pb n="117"/> sõnakestki ei mõista.</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p><stage>(sirmi poole vaadates, tasa)</stage> Ma arvan kahisemist kuulnud olevat — kui see ehk isa oleks! <stage>(Valjusti)</stage> Aeg läheb edasi, — kallis perenaene, ütle ommeti poolt sõna, et vähe lootust saaksin. <stage>(võtab Truuta käest kinni).</stage></p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(kätt lahti kiskudes, kellele Rein palavalt suud annab)</stage> Jäta mind rahule. Mina ei ole enam udusulgne neiuke, kelle veri sel viisil keema ja mõistus kaduma läheks. <stage>(Vaatab kõrvale, iseeneses)</stage> Oh mehed, mehed! Mis võib vaene hõrn puuvill tule ääres muud teha, kui viimaks põlema süttida? — <stage>(Käib liigutatud meelel mööda tuba. Rein taga, kes salaja sirmi poole vaatab).</stage></p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(iseeneses)</stage> Pagana pois, see Rein! Näe, kuida tiigri lambaks teeb. Vanamooril ei tule tuhalabidat enam meelegi. Võrukael, pois! — Aga, pea kinni, mul tuleb kaunis mõte. Ma astun sekka! Oh, et ma Reinule märki võiksin anda! <stage>(Näeb varsti pääle selle Reinust märki).</stage> So, so, ta on mind näinud.</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p>Olgu siis, saagu siis kõik maailm teada, et sinu kivisüda mind hauda on rõhunud. <stage>(Akna poole)</stage> Poisid, tüdrukud, hurjah! Lombi talu perenaene annab mind elavalt ära <stage>(= ajab mind elavalt hauda).</stage></p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(teda õrnalt tagasi hoides)</stage> Jumala pärast, Rein, kas sa tõesti meelest ära oled? Mis sa karjud? Ega nõnda — —</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p>Ma kisendan oma valu aknast välja, maailmas ei ole veel mitte kõik südamed raudkiviks külmetanud!</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(iseeneses)</stage> Oota, kallis kanake, nüüd hakkan mina ka pääle! <stage>(Ruttu sirmi tagant välja astudes valju häälega)</stage> Ennäh, sa hukka läinud naene!</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(Hannust nähes)</stage> Oh, — Hannus! <stage>(Temale vastu minnes)</stage> Jumal olgu tänatud, et sa tulid! Päästa mind selle meeletuma käest!</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(käed rinna pääle, suure põlastusega Truuta silma vaadates)</stage> Kommetimängija! Mina sind päästma? <stage>(Kibedalt ja kortsus kulmul).</stage> Kelle käest? Pean ma sind ju paradiisist välja kiskuma? Eks ma kuulnud, eks ma näinud, mis siin sündis? Kelle kaelas sa olid — ja tahad mulle jäile tuhka silma puhuda? Su kuumad paled tunnistavad nüüd ülesse, mis sa tänini suure kavalusega mõistsid varjul hoida, sa kõlvatu loom!</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Aga Hannus! Oled sina ka meelest ära? <stage>(Tahab läheneda).</stage></p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(Taganeb eest ära)</stage> Tagane minust, sa ära-andja! Meie vahel on igaveste kõik kablad <stage>(=köied)</stage> katki kistud. Nüüd tõttan kirikumõisa seletama <stage>(=teatama).</stage></p>
+                    </sp>
+                    <pb n="118"/>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(ehmatades)</stage> Jumala pärast, Hannus, kuule ommeti, mis ma ütlen! Sa oled ju muidu nii mõistlik ja tasane mees. Kuida võid sa uskuda, et ma nii hull võiksin olla, sinu õigust jalgega tallama?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Kus ma silmaga näen, sääl ei ole usku tarvis. Pääle selle näitad sa oma kohusest ja sinu õigusest rääkivat. Millal on sull mõni kohus ja mull nii õigus olnud? <stage>(Kibedalt)</stage> Eks sa sellega hommiku ülesse ei tõusnud ja õhtu magama ei läinud, et mul muud mõtelda, ütelda ega teha ei olla, kui mu hella Truuta pilli järele tantsida?</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(kahetsedes)</stage> Olen ehk küll mõni kord natuke liiale läinud, eks ma ole nõder naesterahvas.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Seda ka veel! — Natuke liiale läinud? Nõder naesterahvas? So? No otsi nüüd omale <stage>(=endale)</stage> teist pärisorja ehk heida ise kellegi pärisümmardajaks. Hääd teed!</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(kohkudes)</stage> Lahutatud? Mina lahutatud? Jumal hoidku, seda ei jõua ma elavalt ära kannatada!</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Kuida ise arvad, minu pärast surnult. Jah, hääd teed, Truuta, meie jutud on räägitud. Lähen nüüd natuke õpetaja jutule.</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(ette minnes)</stage> Ei, ära mine — ma ei lase sind mitte minna, — Ma vannun sulle, et ma ilmasüüta olen <stage>(hoiab põlle silma ees)</stage> — selle Jumala nimel, kelle õige nuhtlus nüüd mu pääle langeb. <stage>(Nutab).</stage></p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p><stage>(kõrvale)</stage> No mis nüüd lahti? Mina ei mõista — olen ainu üksi Viiu pääle mõtelnud ja Viiu pärast kõnelnud.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(kõrvale)</stage> Jumal tänatud, jää hakkab sulama. <stage>(Valjuste)</stage> Jumala õige nuhtlus — kas tunned seda õiete südamest ära?</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Jah, südame põhjast. Ma olen sulle palju ülekohut teinud ja sinu kannatust kurjaste pruukinud. <stage>(Ikka nuttes)</stage> Kallis Hannus — ega sa tõeste kirikumõisa ei lähe?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Ja mis võid sa mulle tunnistuseks anda, et su ümberpööramine ja meeleprandamine ka tõsine on?</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Olgu pääle, ma tõutan kõik teha, mis tahad.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Hää küll. Esiteks: Sa annad järele, et meie Viiu Rein Nirki naeseks saab.</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Selle Reinu naeseks, kes mind praegu nii sügavaste on pahandanud? See oleks ju —</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p>Aga kallis perenaene, pidin ju Viiu —</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Vait, — sina puikled juba esimese punkti juures?</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Aga mu kuldsed lootused —</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Saab nüüd kirjutaja Rein Nirk ära täitma, keda Viiu armastab. — Teiseks: rentnik Hallits ei tohi enam meie majasse tulla<pb n="119"/>gi. Seda keelan nüüd mina ära, nagu sina enne Reinu keelsid.</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Aga see rikast rentniku herra.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Võib rikkaks ja rentnikuks jääda, aga ei tohi meile tulla. — Noh, Hallits ehk — mina, valitse!</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p><stage>(mõteldes ja pool pahaselt)</stage> Noh olgu siis sinu tahtmine, piinaja!</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Mina ei sunni kedagit, sina teed seda priitahtlikult. Nüüd kolmas punkt: sina lubad oma kangekaelsust maha jätta ja meeles pidada: mees peab naese pää olema. Kas tahad?</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Mina olen alandatud küllalt ja pean oma äravõitja alla heitma, olgu nii ehk nii. Ma loodan, et sa oma võitu mitte kurjaste ei saa pruukima — seks on sul liiga pehme ja rahulik süda.</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p><stage>(veidralt käsi puusa pannes)</stage> No — kes teab? Eks saame näha. Mehega ei ole nalja teha.</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Hää küll, kui ma nüüd kannatlikult kõigi nende tingimiste ala heidan ja neid vastu võtan, kas tohin siis ka ühe soovimise täitmist nõuda?</p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Ja muidugi, kui see praegu kokkulepitud kontrahi vastu ei käi!</p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Siis pärin ma, et see noor kurjategija sääl, <stage>(näitab Reinu pääle)</stage> peab tunnistama, et ma patust puhas olen nagu talleke.</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p>Kallis perenaene, mina ei mõista sest suuremat midagi, kui nii palju tean küll, et sinu südant Viiukese pärast palava kõnega olen püüdnud liigutada. Ei läinud korda — peremees teadis paremine teha, eks ta ole ju maja pää, nagu sinagi maja kaunim kroon. <stage>(Hakkab Truuta käest kinni).</stage></p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p><stage>(astub nende sõnade ajal sisse).</stage></p>
+                    </sp>
+                    <sp who="#truuta">
+                        <speaker>TRUUTA:</speaker>
+                        <p>Olgu nüüd sest küllalt, Rein — vaat' säält tuleb sinugi kroon, — võta ta minu käest kümme korda, mina ei keela enam.</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p><stage>(astub argselt lähemale).</stage></p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>Mitte nii kartlikult, tütar. Siin valitseb, n'agu sa näed, selge rahu — sõnatuli on täiesti ära kustutatud. <stage>(Truuta poole).</stage> Eks ole tõsi, mu kanake?</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p>Ütle ommeti, Rein, kas see kõik tõeste tõsi on?</p>
+                    </sp>
+                    <sp who="#rein">
+                        <speaker>REIN:</speaker>
+                        <p>Kallike, kullake, kui mu silmad ei peta — oh sa tuline rõõm! <stage>(Võtab Viiust kinni ja hakkab mööda tuba keerutama).</stage></p>
+                    </sp>
+                    <sp who="#hannus">
+                        <speaker>HANNUS:</speaker>
+                        <p>No eks ma ikka ütelnud: kus mees naesega ühes nõuus, sääl kõik asjad ilusas korras. Aga ühte ma tähendan veel, — Viiu, kas kuuled? Et sinu majas Reinu kõrvas tuhalabidat kaugeltki nuusutada ei ole! Seda ma käsin — muidu —</p>
+                    </sp>
+                    <sp who="#viiu">
+                        <speaker>VIIU:</speaker>
+                        <p><stage>(pool häbelikult naeratades)</stage> Armas taat, mis me nüüd sellest täna seletama hakkame — jäägu edaspidise aja pääle.</p>
+                    </sp>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
