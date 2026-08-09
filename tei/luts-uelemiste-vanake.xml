@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="est000031" xml:lang="et" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ülemiste vanake</title>
+                <title type="sub">Muinasjutt 1 vaatuses</title>
+                <author>
+                    <persName>
+                        <forename>Oskar</forename>
+                        <surname>Luts</surname>
+                    </persName>
+                    <idno type="wikidata">Q2005705</idno>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>DIGAR Digital Archive</name>
+                    <ref target="URL">http://www.digar.ee/id/nlib-digar:436039</ref>
+                        <availability>
+                            <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                        </availability>
+                </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>Oskar</forename>
+                            <surname>Luts</surname>
+                            <idno type="wikidata">Q2005705</idno>
+                        </persName>
+                    </author>
+                    <title type="main">Ülemiste vanake</title>
+                    <title type="sub">Muinasjutt 1 vaatuses</title>
+                    <date when="1922">1922</date>
+                    <edition>Teine trükk</edition>
+                    <publisher>Noor-Eesti kirjastus</publisher>
+                    <pubPlace>Tartu</pubPlace>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1919">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1916">
+                        <desc/>
+                    </event>
+                </listEvent>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="juku" sex="MALE">
+                        <persName>Juku</persName>
+                    </person>
+                    <person xml:id="vanake" sex="MALE">
+                        <persName>Vanake</persName>
+                    </person>
+                    <person xml:id="vaeravavaht" sex="MALE">
+                        <persName>Väravavaht</persName>
+                    </person>
+                    <listRelation>
+                        <relation name="parent_of" active="#vaeravavaht" passive="#juku"/>
+                    </listRelation>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-08-09">Convert txt to TEI</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <pb n="3"/>
+        <front>
+            <titlePage>
+                <docAuthor>O. LUTS</docAuthor>
+                <docTitle>
+                    <titlePart type="main">ÜLEMISTE VANAKE</titlePart>
+                    <titlePart type="sub">MUINASJUTT ÜHES VAATUSES</titlePart>
+                </docTitle>
+                <docEdition>TEINE TRÜKK</docEdition>
+                <docImprint>
+                    <publisher>O/Ü. NOOR-EESTI KIRJASTUS, <lb/></publisher>
+                    <pubPlace>TARTUS </pubPlace>
+                    <docDate>1922.</docDate>
+                </docImprint>
+            </titlePage>
+            <pb n="4"/>
+            <castList>
+                <head>^Tegelased:</head>
+                <castItem>
+                    <role>Ülemiste Vanake.</role>
+                </castItem>
+                <castItem>
+                    <role>Väravavaht.</role>
+                </castItem>
+                <castItem>
+                    <role>Juku, </role>
+                    <roleDesc>väravavahi väike poeg.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Näkineitsid.</role>
+                </castItem>
+            </castList>
+        </front>
+        <pb n="5"/>
+        <body>
+            <div type="act">
+                <stage>Linnavärav. Väravavaht käib, oda-kirves õlal, põlev latern käes, wõtmekimp ja pasun vööl, edasi-tagasi. All uinuv linn.</stage>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <stage>(kuulatab)</stage>
+                    <p>Kes sääl käib?</p>
+                    <stage>(Vaikus.)</stage>
+                    <p>Just nagu sammud olid. Aga kedagi pole näha.</p>
+                    <stage>(Tornikell lööb.)</stage>
+                    <p>Hm. Kesköö on lähedal. <stage>(Istub värava kõrvale, kivipingile. Tukub. Linnast kostab aeg-ajalt mõni tume hääl. Tasa, nagu vaim, tuleb linna poolt üks poisike — Juku. Väravavaht tõstab pää, kuulatab.)</stage> Kes sääl käib?</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <stage>(tuleb värava juure)</stage>
+                    <p>Mina. Juku.</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Juku! Mis sa tahad? Kas ema saatis?</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Ei, ema ei saatnud. Ise tulin. Uni ei tulnud, siis jooksin vaatama, mis sa siin teed, isa.</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Mine, mine koju, Juku. Teised lapsed magavad ammugi. Kesköö on käes.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Tean küll, et on kesköö ja teised magavad, aga minule ei tule uni.</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravaht.</speaker>
+                    <p>Mis jutt see on. Mine, heida voodisse, küll uni tuleb.</p>
+                </sp>
+                <pb n="6"/>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Luba, isa, lase mind siin natukene istuda. Natukene. Ma ei ole kaua. <stage>(Istub isa kõrvale. Vaikus.)</stage> Isa!</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Jah?</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Kas tead, mispärast mulle täna uni ei tulnud? Mõtlesin kõik aeg Vanakese pääle.</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Missuguse Vanakese pääle sa mõtlesid?</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Selle pääle, kes siin iga aasta käib küsimas, kas Linn juba valmis.</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Hm.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Jah, et kes ta niisugune on? Ja mis on tal asja meie Linnaga? Kas talle ükskõik ei ole, kas Linn on valmis või mitte?</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Hm.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Ütle, isa.</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Küllap tal siis ikka asja on, kui ta küsimas käib</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <stage>(mõttes)</stage>
+                    <p>Küsimas käib... Kes ta siis on?</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Ülemiste Vanake.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Oled sa teda näinud, isa?</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Jumal tänatud! Kakskümmend viis aastat saab tänavu, kui igal ööl siin värava juures seisan. Ja igal aastal käib ta korra. Miks ei peaks ma teda näinud olema.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Iga aasta korra... On ta vana?</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Hall vanake, pika habemega ja vesihallide silmadega.</p>
+                </sp>
+                <pb n="7"/>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Ja küsib iga kord —</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Küsib: Kas Linn juba valmis?</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Ja sina?</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Mina pean vastama: Linn ei ole veel valmis.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Siis?</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Siis raputab Vanake kurvalt pääd ja läheb ära.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Kuhu? Kuhu ta läheb?</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Sinna, kust tuli.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Aga kust ta tuli?</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Ülemiste järvest.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Ülemiste järvest... Aga... Isa, kuule, isa!</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Ja?</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Aga kui... kui ütleks talle korra, et jah, Linn on valmis? Mis siis?</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <stage>(kohkunult)</stage>
+                    <p>Siis! Siis saadaks ta Ülemiste veed, purustaks Linna ja uputaks meid ära.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Mispärast? On ta Linna pääle pahane? On linnarahvas talle kurja teinud?</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Seda ei tea mina. Seda ei tea keegi. Ära nõua nii palju. Mine koju. Nüüd magavad vanadki. Sina oled laps.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Lähen kohe. Natuke istun veel. <stage>(Vaikus. Väravavaht suigub.)</stage> Isa!</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Jah?</p>
+                </sp>
+                <pb n="8"/>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <stage>(tähendab järve poole)</stage>
+                    <p>Udu tõuseb järve poolt.</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>See on vee-aur.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Ja säält tuleb alati Vanake?</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Jah. <stage>(Suigub. Kustunud piip langeb ta käest.)</stage></p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Isa! Isa, kas magad?</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Suigatasin. Silmad langesid kinni. Undki nägin.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Mis sa nägid, isa?</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Vanake oli värava taga.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Vanake? Mis ta ütles?</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Küsis, kas Linn — <stage>(Suigub)</stage> noojah, kas Linn juba valmis.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Ja sina? Mis sa vastasid talle, isa?</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <stage>(läbi une)</stage>
+                    <p>Mh?</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Mis sa vastasid talle?</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Kellele? Ah Vanakesele. Vastasin... Mis ma vastasingi? Noojah, et valmis... valmis... <stage>(Magab)</stage></p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Valmis! Ütlesid, et valmis? <stage>(Raputab mõttes olles pääd.)</stage> Ei, siis on linnarahvas teda kuidagi pahandanud. Mispärast on ta muidu pahane? Mispärast mina muidu pahane ei ole? Aga kui mind keegi petab, ehk lööb, — siis olen mina ka pahane. <stage>(Vaikib.)</stage> Isa! <stage>(Ootab.)</stage> Isa! Kas magad, isa? <stage>(Enesele:)</stage> Isa magab. <stage>(Vaatab Järve poole.)</stage> Oi, kui tihe udu Järve pool! See on vee-aur. Vee-aur. <stage>(Imestanult.)</stage> Aga need sääl? Kes on need? Nad mängi<pb n="9"/>vad ringmängu. Ja laulavad... tasa, tasa. Nüüd tulevad nad lähemale... Need on näkineitsid. Ja, need on näkineitsid! Missugune laul! <stage>(Näkineitsite ringmäng ja tasane, vaevalt kuulduv laul uduvinas.)</stage> Ja nüüd lähevad nad ära. Kaovad udusse. Laulugi ei kuule enam. <stage>(Kuulatab. Hüüab sosistades väravavahi poole:)</stage> Isa! Isa! <stage>(Väravavaht ei vasta. Vaikus ümberringi. Siis lööb Linnas tornikell.)</stage></p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <stage>(kohkub)</stage>
+                    <p>Ah, see on tornikell. Just kui hüüdis keegi. Nüüd peab koju minema. Jah, nüüd peab koju minema. Näkineitsid läksid ära. <stage>(Hüüab tasa:)</stage> Isa! <stage>(Enesele:)</stage> Magab. <stage>(Hakkab koju minema. Teisel pool väravat tasased sammud. Juku pöörab kähku ümber ja kuulatab.)</stage> Sääl nagu astus keegi. <stage>(Kuulatab uuesti. Tasa:)</stage> Kes sääl on? <stage>(Vaikus.)</stage> Keegi ei vasta. Aga just nagu sammud olid. Ah, kui tihe udu Järve pool! Ja varjud. Liiguvad. Võib olla, on näkineitsid ikka veel sääl? <stage>(Kuulatab jälle.)</stage> Kes sääl on?</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake</speaker>
+                    <stage>(ilmub värava taha. Hüüab tasa ja tumeda häälega.)</stage>
+                    <p>Väravavaht! Väravavaht!</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <stage>(kohkub, aga toibub kohe)</stage>
+                    <p>Tasa! Isa magab. Mis sa tahad, vanaisa?</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Väravavaht! Väravavaht!</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Kas sisse tahad tulla, vanaisa? Mispärast sa nii hiljaks jäid? Sa tead ju, linnaväravad pannakse päikese loojaminekul kinni.</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Võite nad keskpäeval kinni panna. Mina ei taha sisse tulla.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Mis sa siis tahad, vanaisa?</p>
+                </sp>
+                <pb n="10"/>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Tulin küsima, kas Linn juba valmis.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <stage>(väga kohkunult)</stage>
+                    <p>Linn... Linn... Kas sina oledki See, kes —</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Mina olen Ülemiste Vanake ja tahan teada, kas Linn juba valmis. Mõistad?</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Linn... Ülemiste Vanake... Ei, ei, Linn ei ole veel valmis. <stage>(Saab julgust.)</stage> Linn ei ole veel sugugi valmis. Linna pole veel hakatudki ehitama.</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Sa valetad, poiss!</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Ei valeta, ei valeta, vanaisa. Linn ei ole tõesti veel valmis. Pooleli kõik alles. Kes teab, millal veel valmis saab.</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Hm... Siis Linn ei ole veel valmis?</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Ei ole, ei ole.</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake</speaker>
+                    <stage>(raputab, kurvalt pääd ja hakkab minema.)</stage>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Vanaisa, kas ära lähed?</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Jah.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Kuhu sa lähed?</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Koju.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Kus on su kodu?</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Ülemiste on mu kodu.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Ülemiste... Vanaisa! Oota natuke, vanaisa, ma tahaksin sult midagi küsida.</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Mis on sul minult küsida?</p>
+                </sp>
+                <pb n="11"/>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Kuule, vanaisa, sa käid igal aastal siin?</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Igal aastal.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Tuleval aastal tuled jälle?</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Tulen.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Hm... Mispärast? Mispärast sa käid siin? Kas oled pahane meie pääle? Tead, vanaisa, sa tule siiapoole, läbi värava on halb kõnelda. Tule istu siin natuke ja puhka jalgu. Ma teen kohe lahti. Silmapilk. Oota natuke. <stage>(Võtab väravavahi vöölt võtmekimbu ja pöörab värava lukust lahti.)</stage> Nii. Tule, vanaisa.</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Mina ei tule.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Mispärast?</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Vihkan Linna ja olen tõotuse annud, et ma kunagi oma jalga sinna ei tõsta.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Vanaisa, ega siin Linn ei ole. Siin on ainult värav. Linn on sääl all. Tule, vanaisa. Ära karda. Kedagi ei ole lähedal. Kõik magavad. Isa magab ka. Tule, tule, puhka jalgu, sa oled vana. Kui vana sa oled, vanaisa?</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Sa oled liiga uudishimulik. Sa nõuad asju, mida sul vaja pole teada. <stage>(Seisatab avatud väraval.)</stage> Ja ja, siin on see Linn... Ülemeelikud! Linda järve juure ehitasid nad Linna. Seda peavad nad kahetsema. Kahetsema peavad nad seda, ütlen ma. <stage>(Astub väravast sisse ja vaatab ähvardavalt Linna poole.)</stage></p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Mispärast oled sa nii kuri, vanaisa? Tule istu siia, kivi pääle. Vast tahad suitsetada? Annan sulle isa piibu. <stage>(Pakub piipu.)</stage></p>
+                </sp>
+                <pb n="12"/>
+                <sp who="#vanake">
+                    <speaker>Vanake</speaker>
+                    <stage>(istub kivi pääle, mis teisel värava poolel, vastu väravavahti. Juku seisab tema ees püsti)</stage>
+                    <p>Ükskord, kui nad ta valmis ehitavad, lasen ma Ülemiste vetevood vabaks ja siis ei jää kõigest sest jälgegi, mis nad siia aastate jooksul sepitsenud. Kus praegu majad ja tänavad, sääl laksuvad siis Ülemiste lained ja tõuseb öösel udu ja mängivad mu tütred lumivalgeis riideis.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Mispärast?</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Kuulsid: Linda järve juure ehitasid nad Linna.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Sellepärast oledki pahane, vanaisa? Oleksid neile kohe pidanud ütlema: Ärge ehitage siia Linna, ehitage mujale.</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Tahtsin näha, kaugele lähevad inimesed endi jõleduses.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Hää küll, sa tahtsid näha, aga ütle —. Suitseta, suitseta, vanaisa. <stage>(Annab Vanakesele piibu ja lööb tulerauast tuld. Vanake suitsetab.)</stage> Noojah, sa tahtsid näha... Aga ütle, vanaisa, mispärast ootad sa, kunni Linn valmis saab? Mispärast ei saada sa juba nüüd Ülemiste vetevoogusid?</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Nüüd! Nüüd peaksin saatma Ülemiste vetevoogusid! Ei! Nüüd ei saada ma neid veel mitte.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Mispärast?</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Lasen teid vaevelda ja vaeva näha... ja ehitada... et siis kõiki teie töid ja toimetusi korraga purustada. Vaata, sellepärast ei taha ma Linna enne hävitada, kui ta valmis<pb n="13"/> on. <stage>(Talle läheb suits kurku. Ta läkastab. Juku naerab.)</stage> Mis sa naerad, poiss?</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <stage>(läbi naeru)</stage>
+                    <p>Sa suitsetad nii imelikult.</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Sul võib õigus olla, ma pole selle riistaga harjunud. See on jälle üks teine paha komme. <stage>(Viskab piibu maha. Sülgab. Juku naerab.)</stage></p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <stage>(istub Vanakese kõrvale)</stage>
+                    <p>Vanaisa? Kuule, vanaisa?</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Mis sa tahad?</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Kas sa tõesti arvad, et Linn kunagi valmis saab?</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Iga asi saab kord valmis, kui ta kallal tööd tehakse.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Aga Linn mitte kunagi. <stage>(Paneb käe vanakese põlvele.)</stage> Vaata, vanaisa. Kuida võib Linn valmis saada? Üksik maja saab valmis, aga Linn mitte. Sest vaata: kui sepp oma maja valmis teeb, siis algab puusepp. Kui puusepp lõpetab, algab mõni teine. Ja ikka nii edasi. Üks lõpetab, teine algab. Vahel on koguni mitu maja korraga teoksil.</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Kas teil siis pole kindlaks tehtud, mitu maja üleüldse Linnal peab olema?</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Ei. Kes tahab, see ehitab, nii palju kui tahab. Ja ehitab, kunas ta tahab.</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Oo! Seda ma ei teadnud.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <stage>(naerdes)</stage>
+                    <p>Arvasid vist, et ühel päeval antakse viimsele majale viimne kirvehoop — ja siis on Linn valmis? Jah?</p>
+                </sp>
+                <pb n="14"/>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>No jah. Kes seda teadis, et te isegi ei tea, mitu maja te ehitate.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <stage>(naerdes)</stage>
+                    <p>Vanaisa on hädas!</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Ma ei tea, mis ma siis veel ootan? Vesi alaneb järves iga aastaga. Linda Kivi, mis enne oli poolenisti vees, on peaaegu kuival. Järv kaob... <stage>(Lühike vaheaeg.)</stage> Ma ei tea, mis ma siis veel ootan?</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Mina ka ei tea, mis sa ootad, vanaisa.</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <stage>(tõuseb järsku üles)</stage>
+                    <p>Ei, siis lähen ma kohe ja —</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <stage>(kohkudes)</stage>
+                    <p>Kuhu sa lähed, vanaisa?</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Lähen ja päästan lahti Ülemiste veed, et nad hävitaksid selle Linna ja need tänavad ja — ja —</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <stage>(seisab värava ees)</stage>
+                    <p>Ei, vanaisa, seda ei tohi sa teha.</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Mina ei tohi? Mina ei tohi? Kes võib mind keelata? Olen lubanud ja tahan täita selle lubamise.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Ei, vanaisa, linna ei tohi sa hävitada. Ma poleks sulle ütelnudki, kui oleksin teadnud, et sa tõesti nii kuri oled. Mõtle, me saame ju kõik hukka, kui sa Ülemiste veed lahti päästad.</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Just seda tahangi.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Vanaisa! Pai vanaisa!</p>
+                </sp>
+                <pb n="15"/>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Su palved ei aita midagi. See on nii määratud ja saadetakse täide. Lase mind välja.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <stage>(pöörab värava lukku ja peidab võtmekimbu selja taha)</stage>
+                    <p>Mina ei lase sind välja.</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Sa ärritad mu vihale, poiss!</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Mis aitab su viha, võti on minu käes.</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Ma võtan võtme vägisi.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Ma äratan isa. <stage>(Taganeb väravavahi poole.)</stage></p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <stage>(sõrme suu pääle pannes)</stage>
+                    <p>Tsst! Isa ära ärata. Isa on väsinud, lase isa magab. Tema peab päeval rasket tööd tegema, lase ta ööselgi puhata.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Hää küll, las' ta puhkab. Aga võti jääb minu kätte.</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Võtme võid jätta, aga mind lase välja.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Ma ei või sind välja lasta. Sa uputad meid ära.</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Siia ei või sa mind ka ometi jätta.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku</speaker>
+                    <stage>(mõttes.)</stage>
+                    <p>Ma ei tea isegi, mis ma su'ga pean tegema. Küll on kahju, et sulle ütlesin, et Linn kunagi valmis ei saa!</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Pole midagi kahjatseda. Lase mind õhtule. <stage>(Tornikell lööb.)</stage> Kuuled, tornikell lööb. Mõtle, ka mina tahan päevatööd lõpetada ja puhkama minna. Sa näed, kui vana ma olen.</p>
+                </sp>
+                <pb n="16"/>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Ja vana oled sa küll. Aga mispärast sa nii tige oled? Vanad on hääd. Minu vanaisa ei taha kellelegi kurja teha. Ja lapsi hoiab ta väga. <stage>(Mõtleb pisut.)</stage> Hää küll, lasen su välja, aga... aga luba enne, et sa Ülemiste vesi lahti ei päästa.</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Tubli. Luban.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Aga sa ei tohi petta.</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Usutad mind nagu endasugust.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Hää küll, mine siis. <stage>(Pöörab värava lahti. Vanake astub välja.)</stage> Ja ära sa mitte Ülemiste vesi lahti päästa. Kuuled, vanaisa! Kas kuulsid? <stage>(Kuulatab. Vanake vastab midagi eemalt.)</stage> Mis sa ütlesid? Tahad päevatööd lõpetada? <stage>(Enesele:)</stage> Ei kuulnud, mis ta ütles. <stage>(Astub väravast välja.)</stage> Mis sa ütlesid? <stage>(Vanake vastab vaevalt kuuldavalt).</stage> .. Sina ise mitte, aga oma tütardele annad käsu, et nad... et nad lahti päästaksid Ülemiste veed... <stage>(Hüüab hirmuga:)</stage> Vanaisa! Vanaisa! <stage>(Jookseb Vanakesele järele. Hüüe kostab kaugemalt.)</stage> Vanaisa!</p>
+                </sp>
+                <stage>(Värav jääb pärani lahti. Väravavaht ärkab.)</stage>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Kes sääl karjub? Mis kisa see on? <stage>(Silmab lahtist väravat. Tõuseb kohkudes üles)</stage> Värav lahti? <stage>(Otsib vöölt.)</stage> Võtmekimp... Mis see tähendab? <stage>(Hüüab:)</stage> Hei, kes sääl on?</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <stage>(tuleb nuttes tagasi)</stage>
+                    <p>Isa! Isa! Ta laseb Ülemiste veed Linna pääle. Ta ei lubanud lasta, aga ta valetas... et välja saada.</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Kes? Kes?</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Vanake.</p>
+                </sp>
+                <pb n="17"/>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Vanake? Oli ta siin?</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Jah, ta oli siin. Ja mina ütlesin talle kogemata... või mitte kogemata... aga ütlesin päris ilmaaegu, et — et —</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Inimeseloom, mis sa ütlesid talle?</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>— et Linn ei saagi valmis, oodaku niikaua kui tahab.</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Noh?</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Siis lubas Ülemiste veed kohe lahti päästa. Praegu.</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Praegu! Ülemiste veed! <stage>(lööb meeleheites käsi kokku. Jukule:)</stage> Kus aru! Mis ma ütlesin sulle? Mis ma ütlesin sulle? Kas ma ei ütelnud, mine magama? Sa ei läinud. Vaata nüüd, mis sa oma sõnakuulmatusega tegid? Oota, poiss, selle eest saad sa hommikul naha pääle! <stage>(Talle tuleb asjade silmapilkne seisukord järsku meele)</stage> Aga Järv? Järv! Järv! See võib iga silmapilk kaela tulla. Peab midagi tegema. Peab linnarahva üles äratama... et nad põgeneksid, põgeneksid... Ära siit... kaugemale... mööda maad või merd... Ükskõik kuida... see pole minu asi. Minu asi on neid äratada. Kus mu pasun? Kus mu pasun? <stage>(Otsib pasunat, segaselt edasi-tagasi tammudes.)</stage> Mis tont siin prõgiseb jala all? <stage>(Vaatab.)</stage> Piip. Ptüi! Kus mu pasun? <stage>(Raputab Jukut õlust.)</stage></p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Pasun vööl.</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Väravavaht.</speaker>
+                    <p>Vööl? Missugusel vööl? <stage>(Leiab pasuna.)</stage> Ah siin, siin. Olen hirmust päris segane. <stage>(Puhub ägedalt pasunat ja jookseb siis<pb n="18"/> Linna poole, hüüdes:)</stage> Me oleme kadunud! Me oleme kadunud! Ärgake! Põgenege! Päästke endid! Järv! Järv! <stage>(Puhub uuesti pasunat. Läbilõikav pasuna heli kostab uinuvas linnas hirmuäratavalt vastu. Mõneks silmapilguks tekib vaikus, siis kostavad eemalt tumedad hääled, kellegi kriiskav hirmuhüüe ja uued pasunahelid. Siis valgustatakse linnas üks maja aken. Siis teine... kolmas... kuuldub, nagu läheneksid hääled ja sammude müdin; nagu tormaks Järv mühisedes kallastest välja ja murraksid veed endile teed linna poole. Läbi khaosi kõlavad kirikukella löögid. Juku seisab värava jujures ja vaatab kord Linna, kord Järve poole.)</stage></p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <stage>(Linna poole vaadates)</stage>
+                    <p>Nad põgenevad. Oi, missugune segadus! <stage>(Järve poole vaadates.)</stage> Udu! Kui tihe udu! Midagi pole näha.</p>
+                </sp>
+                <sp who="#vaeravavaht">
+                    <speaker>Keegi</speaker>
+                    <stage>(hüüab Linna poolt:)</stage>
+                    <p>Põgene, Juku! Päästa end!</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku</speaker>
+                    <stage>(teeb mõne rutulise sammu Linna poole, seisatab, pöörab tagasi värava juure ja istub kivile. Linnas kestab khaos edasi, nagu kauge merekohin. Värava juures on sügav vaikus. Juku toetab käed põlvile, ta pää langeb käte vahele. Väravale ilmub Vanake, vaatab esiti argselt ringi ja istub siis ohates kivipingile, väravavahi asemele. Juku ei pane teda tähele. Nii istuvad mõlemad vaikides teine teisel värava poolel. Siis ohkab Juku. Siis ohkab Vanake. Juku tõstab pää kohkunult üles.)</stage>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Vanaisa! Sina oled, vanaisa? <stage>(Läheb Vanakese juure.)</stage> Sa ei päästnud Ülemiste vesi? Ei? Ei päästnud? Sa hirmutasid ainult? Tegid nalja?</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <stage>(kurvalt)</stage>
+                    <p>Mis nalja. Minu vanaduses ei tehta nalja.</p>
+                </sp>
+                <pb n="19"/>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Kuidas? Sa siis päästsid? Järv tuleb?</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake</speaker>
+                    <stage>(pahaselt.)</stage>
+                    <p>Ei tule.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Ei tule?</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Ei. <stage>(Järsku ja pahaselt, nagu see, kelle viimne lootus nurja läinud:)</stage> Kuidas võib tulla Järv, kui ta peaaegu ära on kuivanud. Järv, mis enne mäel näis olevat, on nüüd orus, Järve ei olegi enam. Saad aru? Tegin kõik, mis võisin. Kogu vee lõid mu tütred kihama ja mässama, aga kaldad on kõrged — vesi ei tule Linna pääle.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku.</speaker>
+                    <p>Ei tule? <stage>(Tal hakkab Vanakesest kahju. Nõutult sügab ta enne kukalt, siis säärt.)</stage> Mis siis saab?</p>
+                </sp>
+                <sp who="#vanake">
+                    <speaker>Vanake.</speaker>
+                    <p>Mina ei tea, mis saab. Arvan, nüüd on mul aeg ära surra.</p>
+                </sp>
+                <sp who="#juku">
+                    <speaker>Juku</speaker>
+                    <stage>(mõtleb pisut, hüüab siis Linna poole:)</stage>
+                    <p>Järv ei tule! Kuulete — Järv ei tule!</p>
+                </sp>
+                <stage>(Eesriie.)</stage>
+            </div>
+        </body>
+    </text>
+</TEI>
