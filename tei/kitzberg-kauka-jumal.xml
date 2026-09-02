@@ -26,8 +26,7 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name>DIGAR Digital Archive</name>
-                    <ref target="URL">https://www.digar.ee/arhiiv/en/kollektsioonid/137947</ref>
+                    <ref target="https://www.digar.ee/arhiiv/en/kollektsioonid/137947">DIGAR Digital Archive</ref>
                     <availability>
                         <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
                     </availability>

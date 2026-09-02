@@ -26,12 +26,11 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name>DIGAR Digital Archive</name>
-                    <idno type="URL">http://www.digar.ee/id/nlib-digar:441030</idno>
-                        <availability>
-                            <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
-                            <p>Note: The text is in public domain while the illustrations are in copyright until the year 2040.</p>
-                        </availability>
+                    <ref target="http://www.digar.ee/id/nlib-digar:441030">DIGAR Digital Archive</ref>
+                    <availability>
+                        <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                        <p>Note: The text is in public domain while the illustrations are in copyright until the year 2040.</p>
+                    </availability>
                 </bibl>
                 <bibl type="originalSource">
                     <author>
@@ -45,6 +44,17 @@
                     <publisher>Noor-Eesti Kirjastus</publisher>
                     <pubPlace>Tartu</pubPlace>
                 </bibl>
+                <bibl type="wikidata">
+                    <idno>Q25507287</idno>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1927">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1927">
+                        <desc/>
+                    </event>
+                </listEvent>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -202,30 +212,25 @@
                     </personGrp>
                 </listPerson>
             </particDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle">Comedy</term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+            </textClass>
         </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-09-02">Add genre and update formatting</change>
+            </listChange>
+        </revisionDesc>
     </teiHeader>
-    <standOff>
-        <listEvent>
-            <event type="print" when="1927">
-                <desc/>
-            </event>
-            <event type="premiere" when="1927">
-                <desc/>
-            </event>
-        </listEvent>
-        <listRelation>
-            <relation name="wikidata" active="https://dracor.org/entity/est000008" passive="http://www.wikidata.org/entity/Q25507287"/>
-        </listRelation>
-    </standOff>
     <text>
         <pb n="1"/>
         <front>
+            <pb n="2"/>
+            <pb n="3"/>
             <titlePage>
-                <docTitle>
-                    <titlePart type="main">SINIMANDRIA</titlePart>
-                </docTitle>
-                <pb n="2"/>
-                <pb n="3"/>
                 <docAuthor>HUGO RAUDSEPP</docAuthor>
                 <docTitle>
                     <titlePart type="main">SINIMANDRIA</titlePart>

@@ -26,28 +26,39 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name>DIGAR Digital Archive</name>
-                    <idno type="URL">http://www.digar.ee/id/nlib-digar:442445</idno>
+                    <ref target="http://www.digar.ee/id/nlib-digar:442445">DIGAR Digital Archive</ref>
                     <availability>
                         <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
                     </availability>
-                    <bibl type="originalSource">
-                        <author>
-                            <persName>
-                                <forename>Eduard</forename>
-                                <surname>Vilde</surname>
-                            </persName>
-                            <idno type="wikidata">Q464207</idno>
-                        </author>
-                        <title type="main">Kogutud Teosed</title>
-                        <title type="sub">XXXII anne</title>
-                        <title type="sub">Näidendid II</title>
-                        <title type="sub">Pisuhänd / Side</title>
-                        <date when="1929">1929</date>
-                        <publisher>Kirjastus O.Ü. "Loodus"</publisher>
-                        <pubPlace>Tartu</pubPlace>
-                    </bibl>
-                </bibl> 
+                </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>Eduard</forename>
+                            <surname>Vilde</surname>
+                        </persName>
+                        <idno type="wikidata">Q464207</idno>
+                    </author>
+                    <title type="main">Side</title>
+                    <date when="1929">1929</date>
+                    <publisher>Kirjastus O.Ü. "Loodus"</publisher>
+                    <pubPlace>Tartu</pubPlace>
+                    <biblScope unit="page" from="87" to="207">87-207</biblScope>
+                </bibl>
+                <bibl type="wikidata">
+                    <idno>Q20528528</idno>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1922">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1917">
+                        <desc/>
+                    </event>
+                    <event type="written" when="1917">
+                        <desc/>
+                    </event>
+                </listEvent>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -115,29 +126,19 @@
                     </listRelation>
                 </listPerson>
             </particDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle">Tragicomedy</term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">Q192881</classCode>
+            </textClass>
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2026-05-22">Convert txt to TEI</change>
+                <change when="2026-09-02">Add genre and update formatting</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <standOff>
-        <listEvent>
-            <event type="print" when="1929">
-                <desc/>
-            </event>
-            <event type="premiere" when="1917">
-                <desc/>
-            </event>
-            <event type="written" when="1917">
-                <desc/>
-            </event>
-        </listEvent>
-        <listRelation>
-            <relation name="wikidata" active="https://dracor.org/entity/est000015" passive="http://www.wikidata.org/entity/Q20528528"/>
-        </listRelation>
-    </standOff>
     <text>
         <pb n="87"/>
         <front>

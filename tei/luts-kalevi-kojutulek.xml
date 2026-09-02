@@ -27,11 +27,10 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name>DIGAR Digital Archive</name>
-                    <idno type="URL">http://www.digar.ee/id/nlib-digar:44210</idno>
-                        <availability>
-                            <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
-                        </availability>
+                    <ref target="http://www.digar.ee/id/nlib-digar:44210">DIGAR Digital Archive</ref>
+                    <availability>
+                        <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                    </availability>
                 </bibl>
                 <bibl type="originalSource">
                     <author>
@@ -48,6 +47,11 @@
                     <publisher>Noor-Eesti kirjastus</publisher>
                     <pubPlace>Tartu</pubPlace>
                 </bibl>
+                <listEvent>
+                    <event type="print" when="1919">
+                        <desc/>
+                    </event>
+                </listEvent>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -80,42 +84,18 @@
                 </listPerson>
             </particDesc>
         </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-09-02">Update formatting</change>
+            </listChange>
+        </revisionDesc>
     </teiHeader>
-    <standOff>
-        <listEvent>
-            <event type="print" when="1919">
-                <desc/>
-            </event>
-        </listEvent>
-    </standOff>
     <text>
         <pb n="1"/>
         <front>
+            <pb n="2"/>
+            <pb n="3"/>
             <titlePage>
-                <docTitle>
-                    <titlePart type="main">KALEVI KOJUTULEK</titlePart>
-                </docTitle>
-                <pb n="2"/>
-                <note>
-                    <p>Samalt autorilt seni ilmunud näitemängud:</p>
-                    <p>Laul õnnest. Draama 3 vaatuses.</p>
-                    <p>Paunvere. Lustmäng 3 vaatuses.</p>
-                    <p>Kapsapää. Nali 1 vaatuses.</p>
-                    <p>Pärijad. Nali 1 vaatuses.</p>
-                    <p>Ärimehed. Pilkenali 1 vaatuses.</p>
-                    <p>Mahajäetud maja. Dramaatiline kavand 1 vaatuses.</p>
-                    <p>Viimne pidu. Näitemäng 1 vaatuses.</p>
-                    <p>Soo-tuluke. Muinasjutt 3 pildis.</p>
-                    <p>Sinihallik. Muinasjutt 1 vaatuses.</p>
-                    <p>Ülemiste vanake. Muinasjutt 1 vaatuses.</p>
-                    <p>Onu paremad päevad. Nali 1 vaatuses.</p>
-                    <p>Arusaamatu lugu. Nali 1 vaatuses.</p>
-                </note>
-                <note>
-                    <p>Ettekande luba annab<lb/>O. Luts, Tartus.</p>
-                    <p>Loata mängijad võetakse kohtulikule vastutusele.</p>
-                </note>
-                <pb n="3"/>
                 <docAuthor>O. LUTS</docAuthor>
                 <docTitle>
                     <titlePart type="main">KALEVI KOJUTULEK</titlePart>
@@ -127,6 +107,8 @@
                     <date>1919.</date>
                 </docImprint>
             </titlePage>
+            <p>Ettekande luba annab<lb/>O. Luts, Tartus.</p>
+            <p>Loata mängijad võetakse kohtulikule vastutusele.</p>
             <pb n="4"/>
             <castList>
                 <head>Tegelased:</head>

@@ -26,8 +26,7 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name>DIGAR Digital Archive</name>
-                    <ref target="URL">http://www.digar.ee/id/nlib-digar:436039</ref>
+                    <ref target="http://www.digar.ee/id/nlib-digar:436039">DIGAR Digital Archive</ref>
                         <availability>
                             <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
                         </availability>
@@ -77,7 +76,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2026-08-09">Convert txt to TEI</change>
+                <change when="2026-09-02">Update formatting</change>
             </listChange>
         </revisionDesc>
     </teiHeader>

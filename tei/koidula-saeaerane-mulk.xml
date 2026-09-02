@@ -26,8 +26,7 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name>University of Tartu digital archive ADA</name>
-                    <idno type="URL">https://dspace.ut.ee/items/495fbc83-8335-4124-8990-1dc30c7f5ac8</idno>
+                    <ref target="https://dspace.ut.ee/items/495fbc83-8335-4124-8990-1dc30c7f5ac8">University of Tartu digital archive ADA</ref>
                     <availability>
                         <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
                     </availability>
@@ -46,6 +45,17 @@
                     <publisher>W. Gläser</publisher>
                     <pubPlace>Tartu</pubPlace>
                 </bibl>
+                <bibl type="wikidata">
+                    <idno>Q31275100</idno>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1872">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1871">
+                        <desc/>
+                    </event>
+                </listEvent>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -83,21 +93,19 @@
                     </listRelation>
                 </listPerson>
             </particDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle">Comedy</term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+            </textClass>
         </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-09-02">Add genre and update formatting</change>
+            </listChange>
+        </revisionDesc>
     </teiHeader>
-    <standOff>
-        <listRelation>
-            <relation name="wikidata" active="https://dracor.org/entity/est000003" passive="http://www.wikidata.org/entity/Q31275100"/>
-        </listRelation>
-        <listEvent>
-            <event type="print" when="1872">
-                <desc/>
-            </event>
-            <event type="premiere" when="1871">
-                <desc/>
-            </event>
-        </listEvent>
-    </standOff>
     <text>
         <pb n="1"/>
         <front>
@@ -107,7 +115,6 @@
                     <titlePart type="sub"><lb/>ehk<lb/>Sada wakka tangusoola.</titlePart>
                 </docTitle>
                 <byline>"Saarema Onupoja" kirjutajast.<lb/></byline>
-                <note>Ümbertõlkimine tõiste keeledesse on ärakeeltud.</note>
                 <docImprint>
                     <pubPlace><lb/>Tartus, </pubPlace>
                     <date>1872,</date>
@@ -121,6 +128,7 @@
                     <date>1872.</date>
                 </docImprint>
             </titlePage>
+            <p>Ümbertõlkimine tõiste keeledesse on ärakeeltud.</p>
             <pb n="3"/>
             <castList>
                 <head>Mängijad.</head>

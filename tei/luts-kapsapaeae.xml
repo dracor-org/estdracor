@@ -26,8 +26,7 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name>DIGAR Digital Archive</name>
-                    <idno type="URL">http://www.digar.ee/id/nlib-digar:37371</idno>
+                    <ref target="http://www.digar.ee/id/nlib-digar:37371">DIGAR Digital Archive</ref>
                         <availability>
                             <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
                         </availability>
@@ -42,10 +41,21 @@
                     </author>
                     <title type="main">Kapsapää</title>
                     <title type="sub">Nali ühes waatuses</title>
-                <date when="1913">1913</date>
-                <publisher>Postimees</publisher>
-                <pubPlace>Tartu</pubPlace>
+                    <date when="1913">1913</date>
+                    <publisher>Postimees</publisher>
+                    <pubPlace>Tartu</pubPlace>
                 </bibl>
+                <bibl type="wikidata">
+                    <idno>Q55973128</idno>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1913">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1912">
+                        <desc/>
+                    </event>
+                </listEvent>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -84,37 +94,26 @@
                     </listRelation>
                 </listPerson>
             </particDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle">Comedy</term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+            </textClass>
         </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-09-02">Add genre and update formatting</change>
+            </listChange>
+        </revisionDesc>
     </teiHeader>
-    <standOff>
-        <listRelation>
-            <relation name="wikidata" active="https://dracor.org/entity/est000004" passive="http://www.wikidata.org/entity/Q55973128"/>
-        </listRelation>
-        <listEvent>
-            <event type="print" when="1913">
-                <desc/>
-            </event>
-            <event type="premiere" when="1912">
-                <desc/>
-            </event>
-        </listEvent>
-    </standOff>
     <text>
         <pb n="1"/>
         <front>
+            <pb n="2"/>
+            <p>Etendamise luba annab tüki kirjutaja<lb/>Adress: O. Luts, Tartus.</p>
+            <pb n="4"/>
             <titlePage>
-                <docAuthor>O. LUTS</docAuthor>
-                <docTitle>
-                    <titlePart type="main">KAPSAPÄÄ</titlePart>
-                    <titlePart type="sub">NALI ÜHES WAATUSES</titlePart>
-                </docTitle>
-                <pb n="2"/>
-                <note>Etendamise luba annab tüki kirjutaja<lb/>Adress: O. Luts, Tartus.</note>
-                <pb n="3"/>
-                <docTitle>
-                    <titlePart type="main">KAPSAPÄÄ</titlePart>
-                </docTitle>
-                <pb n="4"/>
                 <docAuthor>O. LUTS</docAuthor>
                 <docTitle>
                     <titlePart type="main">KAPSAPÄÄ</titlePart>

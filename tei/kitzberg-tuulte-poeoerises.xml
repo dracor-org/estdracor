@@ -26,26 +26,36 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name>DIGAR Digital Archive</name>
-                    <idno type="URL">http://www.digar.ee/id/nlib-digar:36790</idno>
+                    <ref target="http://www.digar.ee/id/nlib-digar:36790">DIGAR Digital Archive</ref>
                     <availability>
                         <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
                     </availability>
-                    <bibl type="originalSource">
-                        <author>
-                            <persName>
-                                <forename>August</forename>
-                                <surname>Kitzberg</surname>
-                            </persName>
-                            <idno type="wikidata">Q376410</idno>
-                        </author>
-                        <title type="main">Tuulte pöörises</title>
-                        <title type="sub">Draama wiies waatuses</title>
-                        <date when="1906">1906</date>
-                        <publisher>K. Sööt</publisher>
-                        <pubPlace>Tartu</pubPlace>
-                    </bibl>
                 </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>August</forename>
+                            <surname>Kitzberg</surname>
+                        </persName>
+                        <idno type="wikidata">Q376410</idno>
+                    </author>
+                    <title type="main">Tuulte pöörises</title>
+                    <title type="sub">Draama wiies waatuses</title>
+                    <date when="1906">1906</date>
+                    <publisher>K. Sööt</publisher>
+                    <pubPlace>Tartu</pubPlace>
+                </bibl>
+                <bibl type="wikidata">
+                    <idno>Q15851750</idno>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1906">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1906">
+                        <desc/>
+                    </event>
+                </listEvent>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -94,33 +104,28 @@
                     </listRelation>
                 </listPerson>
             </particDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle">Tragicomedy</term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">Q192881</classCode>
+            </textClass>
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2026-07-21">Convert txt to TEI</change>
+                <change when="2026-09-02">Add genre and update formatting</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <standOff>
-        <listEvent>
-            <event type="print" when="1906">
-                <desc/>
-            </event>
-            <event type="premiere" when="1906">
-                <desc/>
-            </event>
-        </listEvent>
-        <listRelation>
-            <relation name="wikidata" active="https://dracor.org/entity/est000027" passive="http://www.wikidata.org/entity/Q15851750"/>
-        </listRelation>
-    </standOff>
     <text>
         <pb n="3"/>
         <front>
             <titlePage>
                 <docAuthor>A. KITZBERG</docAuthor>
-                <titlePart type="main">TUULTE PÖÖRISES</titlePart>
-                <titlePart type="sub">DRAAMA WIIES WAATUSES</titlePart>
+                <docTitle>
+                    <titlePart type="main">TUULTE PÖÖRISES</titlePart>
+                    <titlePart type="sub">DRAAMA WIIES WAATUSES</titlePart>
+                </docTitle>
                 <docImprint>
                     <publisher>K. SÖÖTI TRÜKK, </publisher>
                     <pubPlace>TARTUS </pubPlace>

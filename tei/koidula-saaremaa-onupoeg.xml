@@ -26,8 +26,7 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name>University of Tartu digital archive ADA</name>
-                    <idno type="URL">https://dspace.ut.ee/items/fa239b1c-dab8-4386-b722-4c68e3299ce3</idno>
+                    <ref target="https://dspace.ut.ee/items/fa239b1c-dab8-4386-b722-4c68e3299ce3">University of Tartu digital archive ADA</ref>
                     <availability>
                         <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
                     </availability>
@@ -46,6 +45,17 @@
                     <publisher>W. Gläser</publisher>
                     <pubPlace>Tartu</pubPlace>
                 </bibl>
+                <bibl type="wikidata">
+                    <idno>Q31275086</idno>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1870">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1870">
+                        <desc/>
+                    </event>
+                </listEvent>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -66,21 +76,19 @@
                     </listRelation>
                 </listPerson>
             </particDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle">Comedy</term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+            </textClass>
         </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-09-02">Add genre and update formatting</change>
+            </listChange>
+        </revisionDesc>
     </teiHeader>
-    <standOff>
-        <listRelation>
-            <relation name="wikidata" active="https://dracor.org/entity/est000002" passive="http://www.wikidata.org/entity/Q31275086"/>
-        </listRelation>
-        <listEvent>
-            <event type="print" when="1870">
-                <desc/>
-            </event>
-            <event type="premiere" when="1870">
-                <desc/>
-            </event>
-        </listEvent>
-    </standOff>
     <text>
         <pb n="1"/>
         <front>
@@ -89,7 +97,6 @@
                     <titlePart type="main">Saaremaa Onupoeg</titlePart>
                     <titlePart type="sub">Eestikeele näitemäng</titlePart>
                 </docTitle>
-                <note>Mängitud kõigeesmalt Tartu "Wanemuine-seltsis"<lb/><date>Jaanipääwal 1870.</date></note>
                 <docImprint>
                     <pubPlace><lb/>Tartus, </pubPlace>
                     <date>1870.<lb/></date>
@@ -98,6 +105,7 @@
                 <pb n="2"/>
                 <imprimatur>Tsensuri poolest lubatud.<lb/>Riigas 13. Jaanikuu pääwal 1870.</imprimatur>
             </titlePage>
+            <p>Mängitud kõigeesmalt Tartu "Wanemuine-seltsis"<lb/>Jaanipääwal 1870.</p>
             <pb n="3"/>
             <castList>
                 <head>Mängijad.</head>

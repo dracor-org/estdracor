@@ -25,22 +25,32 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name>Eesti Teatri Agentuur</name>
-                    <idno type="URL">http://teater.ee/naitekirjandus/naidendid/vaheliku-vapustused/</idno>
+                    <ref target="http://teater.ee/naitekirjandus/naidendid/vaheliku-vapustused/">Eesti Teatri Agentuur</ref>
                     <availability>
                         <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
                     </availability>
-                    <bibl type="originalSource">
-                        <author>
-                            <persName>
-                                <forename>Hugo</forename>
-                                <surname>Raudsepp</surname>
-                            </persName>
-                            <idno type="wikidata">Q920207</idno>
-                        </author>
-                        <title>Vaheliku vapustused</title>
-                    </bibl>
                 </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>Hugo</forename>
+                            <surname>Raudsepp</surname>
+                        </persName>
+                        <idno type="wikidata">Q920207</idno>
+                    </author>
+                    <title>Vaheliku vapustused</title>
+                </bibl>
+                <bibl type="wikidata">
+                    <idno>Q25508085</idno>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="2003">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1943">
+                        <desc/>
+                    </event>
+                </listEvent>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -81,23 +91,10 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2026-07-24">Convert txt to TEI</change>
+                <change when="2026-09-02">Update formatting</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <standOff>
-        <listEvent>
-            <event type="print" when="2003">
-                <desc/>
-            </event>
-            <event type="premiere" when="1943">
-                <desc/>
-            </event>
-        </listEvent>
-        <listRelation>
-            <relation name="wikidata" active="https://dracor.org/entity/est000028" passive="http://www.wikidata.org/entity/Q25508085"/>
-        </listRelation>
-    </standOff>
     <text>
         <pb n="1"/>
         <front>

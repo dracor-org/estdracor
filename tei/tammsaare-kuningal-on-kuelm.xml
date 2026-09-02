@@ -26,25 +26,35 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name>DIGAR Digital Archive</name>
-                    <idno type="URL">http://www.digar.ee/id/nlib-digar:134208</idno>
+                    <ref target="http://www.digar.ee/id/nlib-digar:134208">DIGAR Digital Archive</ref>
                     <availability>
                         <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
                     </availability>
-                    <bibl type="originalSource">
-                        <author>
-                            <persName>
-                                <forename>Anton Hansen</forename>
-                                <surname>Tammsaare</surname>
-                            </persName>
-                            <idno type="wikidata">Q353637</idno>
-                        </author>
-                        <title type="main">Kuningal on külm</title>
-                        <title type="sub">Näidend kolmes vaatuses</title>
-                        <date when="2013">2013</date>
-                        <publisher>Tartu Linnaraamatukogu</publisher>
-                    </bibl>
                 </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>Anton Hansen</forename>
+                            <surname>Tammsaare</surname>
+                        </persName>
+                        <idno type="wikidata">Q353637</idno>
+                    </author>
+                    <title type="main">Kuningal on külm</title>
+                    <title type="sub">Näidend kolmes vaatuses</title>
+                    <date when="2013">2013</date>
+                    <publisher>Tartu Linnaraamatukogu</publisher>
+                </bibl>
+                <bibl type="wikidata">
+                    <idno>Q16408373</idno>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1936">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1936">
+                        <desc/>
+                    </event>
+                </listEvent>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -113,26 +123,22 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2026-05-24">Convert txt to TEI</change>
+                <change when="2026-09-02">Update formatting</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <standOff>
-        <listEvent>
-            <event type="print" when="2013">
-                <desc/>
-            </event>
-            <event type="premiere" when="1936">
-                <desc/>
-            </event>
-        </listEvent>
-        <listRelation>
-            <relation name="wikidata" active="https://dracor.org/entity/est000017" passive="http://www.wikidata.org/entity/Q16408373"/>
-        </listRelation>
-    </standOff>
     <text>
-        <pb n="3"/>
+        <pb n="1"/>
         <front>
+            <titlePage>
+                <docAuthor>Anton Hansen Tammsaare</docAuthor>
+                <docTitle>
+                    <titlePart type="main">Kuningal on külm</titlePart>
+                    <titlePart type="sub">Näidend kolmes vaatuses</titlePart>
+                </docTitle>
+            </titlePage>
+            <pb n="2"/>
+            <pb n="3"/>
             <castList>
                 <head>OSALISED</head>
                 <castItem>

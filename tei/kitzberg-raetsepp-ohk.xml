@@ -26,26 +26,30 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name>DIGAR Digital Archive</name>
-                    <idno type="URL">http://www.digar.ee/id/nlib-digar:36789</idno>
+                    <ref target="http://www.digar.ee/id/nlib-digar:36789">DIGAR Digital Archive</ref>
                     <availability>
                         <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
                     </availability>
-                    <bibl type="originalSource">
-                        <author>
-                            <persName>
-                                <forename>August</forename>
-                                <surname>Kitzberg</surname>
-                            </persName>
-                            <idno type="wikidata">Q376410</idno>
-                        </author>
-                        <title type="main">Rättsepp Õhk</title>
-                        <title type="sub">Wiiejärguline näitemäng rahwa elust</title>
-                        <date when="1903">1903</date>
-                        <publisher>Postimees</publisher>
-                        <pubPlace>Tartu</pubPlace>
-                    </bibl>
                 </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>August</forename>
+                            <surname>Kitzberg</surname>
+                        </persName>
+                        <idno type="wikidata">Q376410</idno>
+                    </author>
+                    <title type="main">Rättsepp Õhk</title>
+                    <title type="sub">Wiiejärguline näitemäng rahwa elust</title>
+                    <date when="1903">1903</date>
+                    <publisher>Postimees</publisher>
+                    <pubPlace>Tartu</pubPlace>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1903">
+                        <desc/>
+                    </event>
+                </listEvent>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -116,23 +120,18 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2026-07-14">Convert txt to TEI</change>
+                <change when="2026-09-02">Update formatting</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <standOff>
-        <listEvent>
-            <event type="print" when="1903">
-                <desc/>
-            </event>
-        </listEvent>
-    </standOff>
     <text>
         <pb n="1"/>
         <front>
             <titlePage>
-                <titlePart type="main">Rättsepp Õhk</titlePart>
-                <titlePart type="sub">Wiiejärguline näitemäng rahwa elust.</titlePart>
+                <docTitle>
+                    <titlePart type="main">Rättsepp Õhk</titlePart>
+                    <titlePart type="sub">Wiiejärguline näitemäng rahwa elust.</titlePart>
+                </docTitle>
                 <byline>Kirjutanud A. Kitzberg</byline>
                 <docImprint>
                     <pubPlace>Jurjewis (Tartus), </pubPlace>

@@ -26,11 +26,10 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name>DIGAR Digital Archive</name>
-                    <idno type="URL">http://www.digar.ee/id/nlib-digar:450591</idno>
-                        <availability>
-                            <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
-                        </availability>
+                    <ref target="http://www.digar.ee/id/nlib-digar:450591">DIGAR Digital Archive</ref>
+                    <availability>
+                        <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                    </availability>
                 </bibl>
                 <bibl type="originalSource">
                     <author>
@@ -44,6 +43,17 @@
                     <publisher>Noor-Eesti Kirjastus</publisher>
                     <pubPlace>Tartu</pubPlace>
                 </bibl>
+                <listEvent>
+                    <event type="print" when="1929">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1929">
+                        <desc/>
+                    </event>
+                    <event type="written" when="1929">
+                        <desc/>
+                    </event>
+                </listEvent>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -95,35 +105,25 @@
                     </listRelation>
                 </listPerson>
             </particDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle">Comedy</term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+            </textClass>
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2026-04-13">DESCRIBE CHANGE</change>
+                <change when="2026-09-02">Add genre and update formatting</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <standOff>
-        <listEvent>
-            <event type="print" when="1929">
-                <desc/>
-            </event>
-            <event type="premiere" when="1929">
-                <desc/>
-            </event>
-            <event type="written" when="1929">
-                <desc/>
-            </event>
-        </listEvent>
-    </standOff>
     <text>
         <pb n="1"/>
         <front>
+            <pb n="2"/>
+            <pb n="3"/>
             <titlePage>
-                <docTitle>
-                    <titlePart type="main">MIKUMÄRDI</titlePart>
-                </docTitle>
-                <pb n="2"/>
-                <pb n="3"/>
                 <docAuthor>HUGO RAUDSEPP</docAuthor>
                 <docTitle>
                     <titlePart type="main">MIKUMÄRDI</titlePart>
@@ -133,12 +133,9 @@
                     <publisher>NOOR-EESTI KIRJASTUS </publisher>
                     <pubPlace>TARTUS</pubPlace>
                 </docImprint>
-                <pb n="4"/>
-                <note>
-                    <p>Trükitud J. Mällo trükikojas</p>
-                    <p>Tartus 1929. a.</p>
-                </note>
             </titlePage>
+            <pb n="4"/>
+            <p>Trükitud J. Mällo trükikojas<lb/>Tartus 1929. a.</p>
             <pb n="5"/>
             <castList>
                 <head>Osalised</head>

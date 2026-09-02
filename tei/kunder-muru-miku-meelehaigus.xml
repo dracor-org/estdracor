@@ -26,26 +26,33 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name>University of Tartu digital archive ADA</name>
-                    <idno type="URL">http://hdl.handle.net/10062/8005</idno>
+                    <ref target="http://hdl.handle.net/10062/8005">University of Tartu digital archive ADA</ref>
                     <availability>
                         <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
                     </availability>
-                    <bibl type="originalSource">
-                        <author>
-                            <persName>
-                                <forename>Juhan</forename>
-                                <surname>Kunder</surname>
-                            </persName>
-                            <idno type="wikidata">Q12365486</idno>
-                        </author>
-                        <title type="main">Muru Miku meelehaigus.</title>
-                        <title type="sub">Nali ühes näituses.</title>
-                        <date when="1881">1882</date>
-                        <publisher>Schnafenburg</publisher>
-                        <pubPlace>Tartu</pubPlace>
-                    </bibl>
                 </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>Juhan</forename>
+                            <surname>Kunder</surname>
+                        </persName>
+                        <idno type="wikidata">Q12365486</idno>
+                    </author>
+                    <title type="main">Muru Miku meelehaigus.</title>
+                    <title type="sub">Nali ühes näituses.</title>
+                    <date when="1881">1882</date>
+                    <publisher>Schnafenburg</publisher>
+                    <pubPlace>Tartu</pubPlace>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1882">
+                        <desc/>
+                    </event>
+                    <event type="written" when="1874">
+                        <desc/>
+                    </event>
+                </listEvent>
             </sourceDesc>
         </fileDesc>
     <profileDesc>
@@ -98,18 +105,19 @@
                 </listRelation>
             </listPerson>
         </particDesc>
-    </profileDesc>
+        <textClass>
+                <keywords>
+                    <term type="genreTitle">Comedy</term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-09-02">Add genre and update formatting</change>
+            </listChange>
+        </revisionDesc>
     </teiHeader>
-    <standOff>
-        <listEvent>
-            <event type="print" when="1882">
-                <desc/>
-            </event>
-            <event type="written" when="1874">
-                <desc/>
-            </event>
-        </listEvent>
-    </standOff>
     <text>
         <pb n="1"/>
         <front>
@@ -118,9 +126,6 @@
                     <titlePart type="main">Muru Miku meelehaigus.</titlePart>
                     <titlePart type="sub">Nali ühes näituses.</titlePart>
                 </docTitle>
-                <note>
-                    <p>Eesti näitemängu sõbradele.</p>
-                </note>
                 <byline>"Tartlase tarkus ja Mulgi mõistus"e kirjutajast.</byline>
                 <epigraph>
                     <cit>
@@ -140,8 +145,9 @@
                 </docImprint>
                 <pb n="2"/>
                 <imprimatur>Zensuri poolest lubatud. — Tallinnas, 5. Mail 1882.</imprimatur>
-                <note><p>Wiljandis trükitud F. Feldt'i kirjadega.</p></note>
             </titlePage>
+            <p>Eesti näitemängu sõbradele.</p>
+            <p>Wiljandis trükitud F. Feldt'i kirjadega.</p>
             <pb n="3"/>
             <titlePart type="main">Muru Miku meelehaigus.</titlePart>
             <titlePart type="sub">Nali ühes näituses.</titlePart>
@@ -187,9 +193,7 @@
             <set>
                 <p>Mängimise hoht: Aru ja Marjamäe alune maantee.</p>
                 <p>Maantee ääres on werstatulp ja põõsad.</p>
-                <note>
-                    <p>1874.</p>
-                </note>
+                <p>1874.</p>
             </set>
         </front>
         <pb n="4"/>

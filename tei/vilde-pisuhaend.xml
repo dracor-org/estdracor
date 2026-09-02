@@ -27,8 +27,7 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name>DIGAR Digital Archive</name>
-                    <idno type="URL">http://www.digar.ee/id/nlib-digar:37690</idno>
+                    <ref target="http://www.digar.ee/id/nlib-digar:37690">DIGAR Digital Archive</ref>
                     <availability>
                         <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
                     </availability>
@@ -46,7 +45,18 @@
                     <date when="1913">1913</date>
                     <publisher>Kirjastuse-ühisus "Maa"</publisher>
                     <pubPlace>Tallinn</pubPlace>
-                </bibl> 
+                </bibl>
+                <bibl type="wikidata">
+                    <idno>Q12372548</idno>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1913">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1914">
+                        <desc/>
+                    </event>
+                </listEvent>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -78,29 +88,24 @@
                     </listRelation>
                 </listPerson>
             </particDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle">Comedy</term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+            </textClass>
         </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-09-02">Add genre and update formatting</change>
+            </listChange>
+        </revisionDesc>
     </teiHeader>
-    <standOff>
-        <listEvent>
-            <event type="print" when="1913">
-                <desc/>
-            </event>
-            <event type="premiere" when="1914">
-                <desc/>
-            </event>
-        </listEvent>
-        <listRelation>
-            <relation name="wikidata" active="https://dracor.org/entity/est000005" passive="http://www.wikidata.org/entity/Q12372548"/>
-        </listRelation>
-    </standOff>
     <text>
         <pb n="1"/>
         <front>
+            <pb n="2"/>
             <titlePage>
-                <docTitle>
-                    <titlePart type="main">PISUHÄND</titlePart>
-                </docTitle>
-                <pb n="2"/>
                 <docImprint>
                     <publisher>Joh. Felsbergi ja A. Tetermanni trükk, </publisher>
                     <pubPlace>Tallinnas, </pubPlace>
@@ -117,15 +122,9 @@
                     <publisher>KIRJASTUSE-ÜHISUS "MAA"</publisher>
                 </docImprint>
                 <pb n="4"/>
-                <noteGrp>
-                    <note>Etenduseluba annab Kirjastuse-Ühisus "Maa", Tallinnas<lb/></note>
-                    <note>Järeltrükk ja tõlkimine teistesse keeltesse keelatud<lb/>(1911. a. 20. märtsu seadus)<lb/></note>
-                    <note>
-                        <p>EDUARD WILDE poolt on waremalt ilmunud:</p>
-                        <p>TABAMATA IME, nelja waatusega näidend<lb/>1 rbl 35 kop.<lb/>KIRJASTUSE-ÜHISUS "MAA"</p>
-                    </note>
-                </noteGrp>
             </titlePage>
+            <p>Etenduseluba annab Kirjastuse-Ühisus "Maa", Tallinnas<lb/></p>
+            <p>Järeltrükk ja tõlkimine teistesse keeltesse keelatud<lb/>(1911. a. 20. märtsu seadus)</p>
             <pb n="5"/>
             <castList>
                 <castItem>
@@ -155,7 +154,7 @@
             <set>
                 <p>Esimese ja teise waatuse wahet on mõned kuud, teise ja kolmanda wahet paar päewa. Kõigi kolme waatuse mängupaik on insener Sanderi töötuba.</p>
             </set>
-            <note>MÄRKUS PIIBELEHE ETENDAJALE. Et Piibeleht mitte murret ei kõnele, waid ainult Tartu-Wõru murdega segatud kirjakeelt, siis wõib Tallinnamaa näitleja, kes murdega hästi toime ei saa, murdelist ollust oma keeles weelgi wähendada, kuna paikades, kus muid murdeid kõneldakse, Tartu-Wõru idiomi asemele ka kohalikku wõib wõtta.</note>
+            <p>MÄRKUS PIIBELEHE ETENDAJALE. Et Piibeleht mitte murret ei kõnele, waid ainult Tartu-Wõru murdega segatud kirjakeelt, siis wõib Tallinnamaa näitleja, kes murdega hästi toime ei saa, murdelist ollust oma keeles weelgi wähendada, kuna paikades, kus muid murdeid kõneldakse, Tartu-Wõru idiomi asemele ka kohalikku wõib wõtta.</p>
         </front>
         <pb n="6"/>
         <pb n="7"/>

@@ -26,8 +26,7 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name>University of Tartu digital archive ADA</name>
-                    <idno type="URL">http://hdl.handle.net/10062/8004</idno>
+                    <ref target="http://hdl.handle.net/10062/8004">University of Tartu digital archive ADA</ref>
                     <availability>
                         <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
                     </availability>
@@ -46,6 +45,14 @@
                     <publisher>Schnafenburg</publisher>
                     <pubPlace>Tartu</pubPlace>
                 </bibl>
+                <listEvent>
+                    <event type="print" when="1881">
+                        <desc/>
+                    </event>
+                    <event type="written" when="1874">
+                        <desc/>
+                    </event>
+                </listEvent>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -79,18 +86,19 @@
                     </listRelation>   
                 </listPerson>
             </particDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle">Comedy</term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+            </textClass>
         </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-09-02">Add genre and update formatting</change>
+            </listChange>
+        </revisionDesc>
     </teiHeader>
-    <standOff>
-        <listEvent>
-            <event type="print" when="1881">
-                <desc/>
-            </event>
-            <event type="written" when="1874">
-                <desc/>
-            </event>
-        </listEvent>
-    </standOff>
     <text>
         <pb n="1"/>
         <front>
@@ -99,9 +107,6 @@
                     <titlePart type="main">Mulgi mõistus ja Tartlase tarkus</titlePart>
                     <titlePart type="sub">Nali ühes järgus</titlePart>
                 </docTitle>
-                <note>
-                    <p>See nalitükike on mitu korda Tartus ja ka wiimasel laulupidul säälsamas mängitud saanud.</p>
-                </note>
                 <docImprint>
                     <pubPlace>Tartus</pubPlace>
                     <date>1881.<lb/></date>
@@ -110,6 +115,7 @@
                 <pb n="2"/>
                 <imprimatur>Zensuri poolest lubatud. — Tallinnas, 4. Julil 1880.</imprimatur>
             </titlePage>
+            <p>See nalitükike on mitu korda Tartus ja ka wiimasel laulupidul säälsamas mängitud saanud.</p>
             <pb n="3"/>
             <titlePage>
                 <titlePart type="main">Mulgi möistus ja Tartlase tarkus.</titlePart>

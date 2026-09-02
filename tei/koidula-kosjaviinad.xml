@@ -26,28 +26,35 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name>Digital Archive DIGAR</name>
-                    <idno type="URL">http://www.digar.ee/id/nlib-digar:947644</idno>
+                    <ref target="http://www.digar.ee/id/nlib-digar:947644">DIGAR Digital Archive</ref>
                     <availability>
                         <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
                     </availability>
                     <note>While the plays are in public domain, the afterword is protected until 2044</note>
-                    <bibl type="originalSource">
-                        <author>
-                            <persName>
-                                <forename>Lydia</forename>
-                                <surname>Koidula</surname>
-                            </persName>
-                            <idno type="wikidata">Q237056</idno>
-                        </author>
-                        <title type="main">Kosjaviinad ehk kuidas Tapiku pere laulupidule sai</title>
-                        <title type="sub">Naljamäng 3 vaatuses</title>
-                        <date when="1946">1946</date>
-                        <publisher>RK "Ilukirjandus ja Kunst"</publisher>
-                        <pubPlace>Tallinn</pubPlace>
-                        <biblScope unit="page" from="169" to="215">169-215</biblScope>
-                    </bibl>
                 </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>Lydia</forename>
+                            <surname>Koidula</surname>
+                        </persName>
+                        <idno type="wikidata">Q237056</idno>
+                    </author>
+                    <title type="main">Kosjaviinad ehk kuidas Tapiku pere laulupidule sai</title>
+                    <title type="sub">Naljamäng 3 vaatuses</title>
+                    <date when="1946">1946</date>
+                    <publisher>RK "Ilukirjandus ja Kunst"</publisher>
+                    <pubPlace>Tallinn</pubPlace>
+                    <biblScope unit="page" from="169" to="215">169-215</biblScope>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1946">
+                        <desc/>
+                    </event>
+                    <event type="written" when="1880">
+                        <desc/>
+                    </event>
+                </listEvent>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -90,20 +97,10 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2026-05-29">Convert txt to TEI</change>
+                <change when="2026-09-02">Update formatting</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <standOff>
-        <listEvent>
-            <event type="print" when="1946">
-                <desc/>
-            </event>
-            <event type="written" when="1880">
-                <desc/>
-            </event>
-        </listEvent>
-    </standOff>
     <text>
         <pb n="169"/>
         <front>

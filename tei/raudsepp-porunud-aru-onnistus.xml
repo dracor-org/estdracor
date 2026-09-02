@@ -26,24 +26,34 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name>DIGAR Digital Archive</name>
-                    <idno type="URL">http://www.digar.ee/id/nlib-digar:444464</idno>
+                    <ref target="http://www.digar.ee/id/nlib-digar:444464">DIGAR Digital Archive</ref>
                     <availability>
                         <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
                     </availability>
-                    <bibl type="originalSource">
-                        <author>
-                            <persName>
-                                <forename>Hugo</forename>
-                                <surname>Raudsepp</surname>
-                            </persName>
-                            <idno type="wikidata">Q920207</idno>
-                        </author>
-                        <date when="1931">1931</date>
-                        <publisher>Noor-Eesti Kirjastus</publisher>
-                        <pubPlace>Tartu</pubPlace>
-                    </bibl>
                 </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>Hugo</forename>
+                            <surname>Raudsepp</surname>
+                        </persName>
+                        <idno type="wikidata">Q920207</idno>
+                    </author>
+                    <date when="1931">1931</date>
+                    <publisher>Noor-Eesti Kirjastus</publisher>
+                    <pubPlace>Tartu</pubPlace>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1931">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1931">
+                        <desc/>
+                    </event>
+                    <event type="written" when="1931">
+                        <desc/>
+                    </event>
+                </listEvent>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -77,33 +87,28 @@
                     </listRelation>
                 </listPerson>
             </particDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle">Comedy</term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+            </textClass>
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2026-06-17">Convert txt to TEI</change>
+                <change when="2026-09-02">Add genre and update formatting</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <standOff>
-        <listEvent>
-            <event type="print" when="1931">
-                <desc/>
-            </event>
-            <event type="premiere" when="1931">
-                <desc/>
-            </event>
-            <event type="written" when="1931">
-                <desc/>
-            </event>
-        </listEvent>
-    </standOff>
     <text>
         <pb n="3"/>
         <front>
             <titlePage>
                 <docAuthor>HUGO RAUDSEPP</docAuthor>
-                <titlePart type="main">PÕRUNUD ARU ÕNNISTUS</titlePart>
-                <titlePart type="sub">KOMÖÖDIA KOLMES VAATUSES</titlePart>
+                <docTitle>
+                    <titlePart type="main">PÕRUNUD ARU ÕNNISTUS</titlePart>
+                    <titlePart type="sub">KOMÖÖDIA KOLMES VAATUSES</titlePart>
+                </docTitle>
                 <docImprint>
                     <publisher>NOOR-EESTI KIRJASTUS </publisher>
                     <pubPlace>TARTUS<lb/></pubPlace>

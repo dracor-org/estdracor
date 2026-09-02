@@ -26,8 +26,7 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name>DIGAR Digital Archive</name>
-                    <idno type="URL">http://www.digar.ee/id/nlib-digar:101807</idno>
+                    <ref target="http://www.digar.ee/id/nlib-digar:101807">DIGAR Digital Archive</ref>
                     <availability>
                         <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
                     </availability>
@@ -46,6 +45,14 @@
                     <publisher>Wanemuise näitelawa</publisher>
                     <pubPlace>Tartu</pubPlace>
                 </bibl>
+                <listEvent>
+                    <event type="print" when="1915">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1873">
+                        <desc/>
+                    </event>
+                </listEvent>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -88,18 +95,19 @@
                     </listRelation>
                 </listPerson>
             </particDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle">Comedy</term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+            </textClass>
         </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-09-02">Add genre and update formatting</change>
+            </listChange>
+        </revisionDesc>
     </teiHeader>
-    <standOff>
-        <listEvent>
-            <event type="print" when="1915">
-                <desc/>
-            </event>
-            <event type="premiere" when="1873">
-                <desc/>
-            </event>
-        </listEvent>
-    </standOff>
     <text>
         <pb n="1"/>
         <front>
@@ -107,13 +115,13 @@
                 <docTitle>
                     <titlePart type="main">Pärmi Jaagu unenägu.</titlePart>
                     <titlePart type="sub">Kolmejärguline naljamäng.<lb/></titlePart>
-                    <note>Kotzebue järele eestistatud.</note>
                 </docTitle>
                 <docImprint>
                     <publisher><lb/>Wanemuise näitelawa<lb/></publisher>
                     <date>Septembri kuu 1915.</date>
                 </docImprint>
             </titlePage>
+            <p>Kotzebue järele eestistatud.</p>
             <pb n="2"/>
             <castList>
                 <head>Näitlejad:</head>

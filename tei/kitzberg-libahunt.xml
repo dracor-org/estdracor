@@ -26,8 +26,7 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name>DIGAR Digital Archive</name>
-                    <idno type="URL">http://www.digar.ee/id/nlib-digar:36787</idno>
+                    <ref target="http://www.digar.ee/id/nlib-digar:36787">DIGAR Digital Archive</ref>
                     <availability>
                         <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
                     </availability>
@@ -46,6 +45,17 @@
                     <publisher>Noor-Eesti</publisher>
                     <pubPlace>Tartu</pubPlace>
                 </bibl>
+                <bibl type="wikidata">
+                    <idno>Q6540339</idno>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1912">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1911">
+                        <desc/>
+                    </event>
+                </listEvent>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -148,30 +158,25 @@
                     </listRelation>
                 </listPerson>
             </particDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle">Tragicomedy</term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">Q192881</classCode>
+            </textClass>
         </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-09-02">Add genre and update formatting</change>
+            </listChange>
+        </revisionDesc>
     </teiHeader>
-    <standOff>
-        <listEvent>
-            <event type="print" when="1912">
-                <desc/>
-            </event>
-            <event type="premiere" when="1911">
-                <desc/>
-            </event>
-        </listEvent>
-        <listRelation>
-            <relation name="wikidata" active="https://dracor.org/entity/est000009" passive="http://www.wikidata.org/entity/Q6540339"/>
-        </listRelation>
-    </standOff>
     <text>
         <pb n="1"/>
         <front>
+            <pb n="2"/>
+            <pb n="3"/>
             <titlePage>
-                <docTitle>
-                    <titlePart>LIBAHUNT</titlePart>
-                </docTitle>
-                <pb n="2"/>
-                <pb n="3"/>
                 <docAuthor>A. KITZBERG</docAuthor>
                 <docTitle>
                     <titlePart type="main">LIBAHUNT</titlePart>
@@ -183,13 +188,9 @@
                     <date>1912</date>
                 </docImprint>
                 <pb n="4"/>
-                <note>
-                    <p>Kui käsikiri trükitud. Etendamise luba saab ainult tüki kirjutaja kaudu. Adr.: A. Kitzberg Tartus. Mängulubaga ühes antakse tarwilik osa eksemplarisid laenuks.</p>
-                </note>
-                <docImprint>
-                    <publisher>Eesti Kirjastuse-Ühisuse "Postimehe" trükk.</publisher>
-                </docImprint>
             </titlePage>
+            <p>Kui käsikiri trükitud. Etendamise luba saab ainult tüki kirjutaja kaudu. Adr.: A. Kitzberg Tartus. Mängulubaga ühes antakse tarwilik osa eksemplarisid laenuks.</p>
+            <p>Eesti Kirjastuse-Ühisuse "Postimehe" trükk.</p>
             <pb n="5"/>
             <castList>
                 <head>OSALISED:</head>

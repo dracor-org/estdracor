@@ -26,26 +26,33 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name>DIGAR Digital Archive</name>
-                    <idno type="URL">http://www.digar.ee/id/nlib-digar:439487</idno>
+                    <ref target="http://www.digar.ee/id/nlib-digar:439487">DIGAR Digital Archive</ref>
                     <availability>
                         <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
                     </availability>
-                    <bibl type="originalSource">
-                        <author>
-                            <persName>
-                                <forename>Oskar</forename>
-                                <surname>Luts</surname>
-                                <idno type="wikidata">Q2005705</idno>
-                            </persName>
-                        </author>
-                        <title type="main">Laul õnnest</title>
-                        <title type="sub">Draama kolmes vaatuses</title>
-                        <date when="1913">1913</date>
-                        <publisher>J. Mällo trükk</publisher>
-                        <pubPlace>Tartu</pubPlace>
-                    </bibl>
                 </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>Oskar</forename>
+                            <surname>Luts</surname>
+                            <idno type="wikidata">Q2005705</idno>
+                        </persName>
+                    </author>
+                    <title type="main">Laul õnnest</title>
+                    <title type="sub">Draama kolmes vaatuses</title>
+                    <date when="1913">1913</date>
+                    <publisher>J. Mällo trükk</publisher>
+                    <pubPlace>Tartu</pubPlace>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1913">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1915">
+                        <desc/>
+                    </event>
+                </listEvent>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -101,23 +108,19 @@
                     </listRelation>
                 </listPerson>
             </particDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle">Tragicomedy</term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">Q192881</classCode>
+            </textClass>
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2026-06-03">Convert txt to TEI</change>
+                <change when="2026-09-02">Add genre and update formatting</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <standOff>
-        <listEvent>
-            <event type="print" when="1913">
-                <desc/>
-            </event>
-            <event type="premiere" when="1915">
-                <desc/>
-            </event>
-        </listEvent>
-    </standOff>
     <text>
         <pb n="3"/>
         <front>

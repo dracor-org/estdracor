@@ -26,8 +26,7 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name>Wikisource</name>
-                    <idno type="URL">https://et.wikisource.org/wiki/Juudit</idno>
+                    <ref target="https://et.wikisource.org/wiki/Juudit">Wikisource</ref>
                     <availability>
                         <licence target="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</licence>
                     </availability>
@@ -46,6 +45,17 @@
                     <publisher>Varrak</publisher>
                     <pubPlace>Tallinn</pubPlace>
                 </bibl>
+                <bibl type="wikidata">
+                    <idno>Q16404879</idno>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1921">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1924">
+                        <desc/>
+                    </event>
+                </listEvent>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -120,29 +130,18 @@
                 </listPerson>
             </particDesc>
         </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-09-02">Update formatting</change>
+            </listChange>
+        </revisionDesc>
     </teiHeader>
-    <standOff>
-        <listEvent>
-            <event type="print" when="1921">
-                <desc/>
-            </event>
-            <event type="premiere" when="1924">
-                <desc/>
-            </event>
-        </listEvent>
-        <listRelation>
-            <relation name="wikidata" active="https://dracor.org/entity/est000007" passive="http://www.wikidata.org/entity/Q16404879"/>
-        </listRelation>
-    </standOff>
     <text>
         <pb n="1"/>
         <front>
+            <pb n="2"/>
+            <pb n="3"/>
             <titlePage>
-                <docTitle>
-                    <titlePart type="main">JUUDIT</titlePart>
-                </docTitle>
-                <pb n="2"/>
-                <pb n="3"/>
                 <docAuthor>A. H. TAMMSAARE</docAuthor>
                 <docTitle>
                     <titlePart type="main">JUUDIT</titlePart>
@@ -154,8 +153,8 @@
                     <date>1921</date>
                 </docImprint>
                 <pb n="4"/>
-                <note>Kirjastus A.-S. "VARRAK'u" trükk, Tartus.</note>
             </titlePage>
+            <p>Kirjastus A.-S. "VARRAK'u" trükk, Tartus.</p>
             <pb n="5"/>
             <castList>
                 <head>OSALISED.</head>

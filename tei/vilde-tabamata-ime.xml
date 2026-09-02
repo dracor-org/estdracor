@@ -26,26 +26,36 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name>DIGAR Digital Archive</name>
-                    <idno type="URL">http://www.digar.ee/id/nlib-digar:37693</idno>
+                    <ref target="http://www.digar.ee/id/nlib-digar:37693">DIGAR Digital Archive</ref>
                     <availability>
                         <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
                     </availability>
-                    <bibl type="originalSource">
-                        <author>
-                            <persName>
-                                <forename>Eduard</forename>
-                                <surname>Wilde</surname>
-                            </persName>
-                            <idno type="wikidata">Q464207</idno>
-                        </author>
-                        <title type="main">Tabamata ime</title>
-                        <title type="sub">nelja waatusega näidend</title>
-                        <date when="1912">1912</date>
-                        <publisher>Kirjastuse-ühisus "Maa"</publisher>
-                        <pubPlace>Tallinn</pubPlace>
-                    </bibl>
-                </bibl> 
+                </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>Eduard</forename>
+                            <surname>Wilde</surname>
+                        </persName>
+                        <idno type="wikidata">Q464207</idno>
+                    </author>
+                    <title type="main">Tabamata ime</title>
+                    <title type="sub">nelja waatusega näidend</title>
+                    <date when="1912">1912</date>
+                    <publisher>Kirjastuse-ühisus "Maa"</publisher>
+                    <pubPlace>Tallinn</pubPlace>
+                </bibl>
+                <bibl type="wikidata">
+                    <idno>Q20528651</idno>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1912">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1913">
+                        <desc/>
+                    </event>
+                </listEvent>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -167,23 +177,10 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2026-07-06">Convert txt to TEI</change>
+                <change when="2026-09-02">Update formatting</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <standOff>
-        <listEvent>
-            <event type="print" when="1912">
-                <desc/>
-            </event>
-            <event type="premiere" when="1913">
-                <desc/>
-            </event>
-        </listEvent>
-        <listRelation>
-            <relation name="wikidata" active="https://dracor.org/entity/est000022" passive="http://www.wikidata.org/entity/Q20528651"/>
-        </listRelation>
-    </standOff>
     <text>
         <pb n="3"/>
         <front>
@@ -202,9 +199,7 @@
                 </docImprint>
             </titlePage>
             <pb n="4"/>
-            <note>
-                <p>J. ja A. Paalmanni trükk, Tallinnas</p>
-            </note>
+            <p>J. ja A. Paalmanni trükk, Tallinnas</p>
             <pb n="5"/>
             <castList>
                 <head>Tegelased:</head>

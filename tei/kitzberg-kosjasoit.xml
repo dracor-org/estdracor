@@ -26,26 +26,33 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name>DIGAR Digital Archive</name>
-                    <idno type="URL">http://www.digar.ee/id/nlib-digar:36554</idno>
+                    <ref target="http://www.digar.ee/id/nlib-digar:36554">DIGAR Digital Archive</ref>
                     <availability>
                         <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
                     </availability>
-                    <bibl type="originalSource">
-                        <author>
-                            <persName>
-                                <forename>August</forename>
-                                <surname>Kitzberg</surname>
-                            </persName>
-                            <idno type="wikidata">Q376410</idno>
-                        </author>
-                        <title type="main">Kosjasõit</title>
-                        <title type="sub">Jant kolmes waatuses, laulu ja tantsuga</title>
-                        <date when="1915">1915</date>
-                        <publisher>J. Mällo trükk</publisher>
-                        <pubPlace>Tartu</pubPlace>
-                    </bibl>
                 </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>August</forename>
+                            <surname>Kitzberg</surname>
+                        </persName>
+                        <idno type="wikidata">Q376410</idno>
+                    </author>
+                    <title type="main">Kosjasõit</title>
+                    <title type="sub">Jant kolmes waatuses, laulu ja tantsuga</title>
+                    <date when="1915">1915</date>
+                    <publisher>J. Mällo trükk</publisher>
+                    <pubPlace>Tartu</pubPlace>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1915">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1917">
+                        <desc/>
+                    </event>
+                </listEvent>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -101,23 +108,19 @@
                     </personGrp>
                 </listPerson>
             </particDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle">Comedy</term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+            </textClass>
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2026-05-22">Convert txt to TEI</change>
+                <change when="2026-09-02">Add genre and update formatting</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <standOff>
-        <listEvent>
-            <event type="print" when="1915">
-                <desc/>
-            </event>
-            <event type="premiere" when="1917">
-                <desc/>
-            </event>
-        </listEvent>
-    </standOff>
     <text>
         <pb n="1"/>
         <front>
@@ -135,13 +138,9 @@
                 </docImprint>
                 <pb n="2"/>
                 <imprimatur>Дозволено военную цензурую — Юръевъ, 20 февраля 1915.</imprimatur>
-                <note>
-                    <p>Eesolewa näidendi mänguluba saab "Wanemuise" näitelawa kaudu. Noodid, soowi järele orkestrile ehk klawerile, laenatakse. Partituri ärakirjutamine keeldud. Tekstiraamatud raamatukauplustele antawa hinnaalandusega, saatmise kulud tellija kanda.</p>
-                </note>
-                <docImprint>
-                    <publisher>J. Mällo trükk, Rüütli uul. 4.</publisher>
-                </docImprint>
             </titlePage>
+            <p>Eesolewa näidendi mänguluba saab "Wanemuise" näitelawa kaudu. Noodid, soowi järele orkestrile ehk klawerile, laenatakse. Partituri ärakirjutamine keeldud. Tekstiraamatud raamatukauplustele antawa hinnaalandusega, saatmise kulud tellija kanda.</p>
+            <p>J. Mällo trükk, Rüütli uul. 4.</p>
             <pb n="3"/>
             <castList>
                 <head>Osalised:</head>
@@ -204,7 +203,7 @@
                 <spGrp>
                     <head>№ 1. Terzett.</head>
                     <sp who="#oeoepik #kaegu #looke">
-                        <l>~Laskem suled kribiseda,</l>
+                        <l>Laskem suled kribiseda,</l>
                         <l>Laskem, laskem libiseda,</l>
                         <l>Suuri mõtteid, kuulsaid mõtteid,</l>
                         <l>Üle ilma uusi mõtteid,</l>

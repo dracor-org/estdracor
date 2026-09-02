@@ -26,26 +26,33 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <name>University of Tartu digital archive ADA</name>
-                    <idno type="URL">http://hdl.handle.net/10062/8006</idno>
+                    <ref target="http://hdl.handle.net/10062/8006">University of Tartu digital archive ADA</ref>
                     <availability>
                         <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
                     </availability>
-                    <bibl type="originalSource">
-                        <author>
-                            <persName>
-                                <forename>Juhan</forename>
-                                <surname>Kunder</surname>
-                            </persName>
-                            <idno type="wikidata">Q12365486</idno>
-                        </author>
-                        <title type="main">Kroonu onu.</title>
-                        <title type="sub">Nali kahes näituses</title>
-                        <date when="1885">1885</date>
-                        <publisher>H. Laakmann</publisher>
-                        <pubPlace>Tartu</pubPlace>
-                    </bibl>
                 </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>Juhan</forename>
+                            <surname>Kunder</surname>
+                        </persName>
+                        <idno type="wikidata">Q12365486</idno>
+                    </author>
+                    <title type="main">Kroonu onu.</title>
+                    <title type="sub">Nali kahes näituses</title>
+                    <date when="1885">1885</date>
+                    <publisher>H. Laakmann</publisher>
+                    <pubPlace>Tartu</pubPlace>
+                </bibl>
+                <bibl type="wikidata">
+                    <idno>Q61403220</idno>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1885">
+                        <desc/>
+                    </event>
+                </listEvent>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -81,23 +88,19 @@
                     </listRelation>
                 </listPerson>
             </particDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle">Comedy</term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+            </textClass>
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2026-05-20">Encode txt to TEI</change>
+                <change when="2026-09-02">Add genre and update formatting</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <standOff>
-        <listEvent>
-            <event type="print" when="1885">
-                <desc/>
-            </event>
-        </listEvent>
-        <listRelation>
-            <relation active="https://dracor.org/entity/est000014" name="wikidata" passive="http://www.wikidata.org/entity/Q61403220"/>
-        </listRelation>
-    </standOff>
     <text>
         <pb n="1"/>
         <front>
@@ -112,13 +115,9 @@
                 </docImprint>
                 <pb n="2"/>
                 <imprimatur>Дозволено цензурую. Дерптъ 26. Іюля 1885 года.</imprimatur>
-                <note>
-                    <p>(Järeltrükk lubamata.)</p>
-                </note>
-                <note>
-                    <p>Kes seda tükki mängida soowib, piab wäljaandja käest seks luba küsima. "Adres: Meelejahutaja" toimetuse kaudu.</p>
-                </note>
             </titlePage>
+            <p>(Järeltrükk lubamata.)</p>
+            <p>Kes seda tükki mängida soowib, piab wäljaandja käest seks luba küsima. "Adres: Meelejahutaja" toimetuse kaudu.</p>
             <pb n="3"/>
             <castList>
                 <head>Näitlejad.</head>
