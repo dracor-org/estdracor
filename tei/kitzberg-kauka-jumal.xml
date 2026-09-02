@@ -27,7 +27,7 @@
             <sourceDesc>
                 <bibl type="digitalSource">
                     <name>DIGAR Digital Archive</name>
-                    <idno type="URL">https://www.digar.ee/arhiiv/en/kollektsioonid/137947</idno>
+                    <ref target="URL">https://www.digar.ee/arhiiv/en/kollektsioonid/137947</ref>
                     <availability>
                         <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
                     </availability>
@@ -61,6 +61,20 @@
                     <publisher>G. Roht'i (K. Sööt'i) trükk</publisher>
                     <pubPlace>Jurjew</pubPlace>
                 </bibl>
+                <bibl type="wikidata">
+                    <idno>Q12366653</idno>
+                </bibl>
+                <listEvent>
+                    <event type="written" when="1912">
+                        <desc/>
+                    </event>
+                    <event type="print" when="1915">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1912">
+                        <desc/>
+                    </event>
+                </listEvent>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -150,24 +164,19 @@
                     </listRelation>
                 </listPerson>
             </particDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle">Tragicomedy</term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">Q192881</classCode>
+            </textClass>
         </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-09-02">Add genre and update formatting</change>
+            </listChange>
+        </revisionDesc>
     </teiHeader>
-    <standOff>
-        <listRelation>
-            <relation name="wikidata" active="https://dracor.org/entity/est000001" passive="http://www.wikidata.org/entity/Q12366653"/>
-        </listRelation>
-        <listEvent>
-            <event type="written" when="1912">
-                <desc/>
-            </event>
-            <event type="print" when="1915">
-                <desc/>
-            </event>
-            <event type="premiere" when="1912">
-                <desc/>
-            </event>
-        </listEvent>
-    </standOff>
     <text>
         <pb n="3"/>
         <front>
@@ -183,11 +192,9 @@
                     <pubPlace>Tartus</pubPlace>
                 </docImprint>
                 <pb n="4"/>
-                <note>
-                    <p>Etendamise loa eest on autorile tasuda: esietenduse eest 10 protsenti, kordamiste eest ühel ja selsamal kohal 5 protsenti brutto sissetulekust. Ilma loata etenduse eest hoiatatakse.</p>
-                    <p>Autori aadress: A. Kitzberg, Tartus.</p>
-                </note>
             </titlePage>
+            <p>Etendamise loa eest on autorile tasuda: esietenduse eest 10 protsenti, kordamiste eest ühel ja selsamal kohal 5 protsenti brutto sissetulekust. Ilma loata etenduse eest hoiatatakse.</p>
+            <p>Autori aadress: A. Kitzberg, Tartus.</p>
             <pb n="5"/>
             <castList>
                 <head>Osalised:</head>
