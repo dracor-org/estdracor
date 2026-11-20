@@ -1,0 +1,3343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="est000036" xml:lang="et" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Kawal-Ants ja Wanapagan</title>
+                <title type="sub">Muinaslooline naljamäng wiies waatuses</title>
+                <author>
+                    <persName>
+                        <forename>August</forename>
+                        <surname>Kitzberg</surname>
+                    </persName>
+                    <idno type="wikidata">Q376410</idno>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <ref target="http://www.digar.ee/id/nlib-digar:427526">DIGAR Digital Archive</ref>
+                    <availability>
+                        <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                    </availability>
+                </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>August</forename>
+                            <surname>Kitzberg</surname>
+                        </persName>
+                        <idno type="wikidata">Q376410</idno>
+                    </author>
+                    <title type="main">Kawal-Ants ja Wanapagan</title>
+                    <title type="sub">Muinaslooline naljamäng wiies waatuses</title>
+                    <date when="1912">1912</date>
+                    <publisher>H. Leoke</publisher>
+                    <pubPlace>Wiljandi</pubPlace>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1912">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1907">
+                        <desc/>
+                    </event>
+                </listEvent>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="kooljas" sex="UNKNOWN">
+                        <name>Kooljas</name>
+                    </person>
+                    <personGrp xml:id="lapsed" sex="UNKNOWN">
+                        <name>Lapsed</name>
+                    </personGrp>
+                    <person xml:id="noorik" sex="FEMALE">
+                        <name>Mikatsi noorik</name>
+                    </person>
+                    <person xml:id="murueit" sex="FEMALE">
+                        <persName>Murueit</persName>
+                    </person>
+                    <person xml:id="kikkhabe" sex="MALE">
+                        <persName>Kikkhabe</persName>
+                    </person>
+                    <person xml:id="paawel" sex="MALE">
+                        <persName>Paawel</persName>
+                    </person>
+                    <personGrp xml:id="murueide-tuetred" sex="FEMALE">
+                        <name>Murueide tütred</name>
+                    </personGrp>
+                    <person xml:id="perenaene" sex="FEMALE">
+                        <persName>Perenaene</persName>
+                    </person>
+                    <person xml:id="kaeaerikaeijaja" sex="MALE">
+                        <name>Käärikäijaja</name>
+                    </person>
+                    <person xml:id="wanapagan" sex="MALE">
+                        <persName>Wanapagan</persName>
+                    </person>
+                    <person xml:id="madis" sex="MALE">
+                        <persName>Madis</persName>
+                    </person>
+                    <person xml:id="poiss-1" sex="MALE">
+                        <persName>Üks poiss</persName>
+                    </person>
+                    <person xml:id="toomas" sex="MALE">
+                        <persName>Toomas</persName>
+                    </person>
+                    <person xml:id="ants" sex="MALE">
+                        <persName>Ants</persName>
+                    </person>
+                    <listRelation>
+                        <relation name="parent_of" active="#madis" passive="#ants #toomas #paawel"/>
+                        <relation name="siblings" mutual="#ants #toomas #paawel"/>
+                        <relation name="spouses" mutual="#wanapagan #perenaene"/>
+                        <relation name="parent_of" active="#wanapagan #perenaene" passive="#lapsed #poiss-1"/>
+                        <relation name="parent_of" active="#murueit" passive="#murueide-tuetred"/>
+                    </listRelation>
+                </listPerson>
+            </particDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle">Comedy</term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-11-20">Convert txt to TEI</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <pb n="1"/>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">Kawal-Ants ja Wanapagan.</titlePart>
+                    <titlePart type="sub">Muinaslooline naljamäng wiies waatuses.</titlePart>
+                </docTitle>
+                <docAuthor>A. Kitzberg.</docAuthor>
+                <docImprint>
+                    <publisher>Kirjastaja H. Leoke, </publisher>
+                    <pubPlace>Wiljandis.</pubPlace>
+                </docImprint>
+            </titlePage>
+            <pb n="2"/>
+            <pb n="3"/>
+            <castList>
+                <head>Osalised:</head>
+                <castItem>
+                    <role>Madis, </role>
+                    <roleDesc>orjaaegne talu peremees.</roleDesc>
+                </castItem>
+                <castGroup>
+                    <castItem>
+                        <role>Paawel</role>
+                    </castItem>
+                    <castItem>
+                        <role>Toomas</role>
+                    </castItem>
+                    <castItem>
+                        <role>Ants</role>
+                    </castItem>
+                    <roleDesc>tema pojad.</roleDesc>
+                </castGroup>
+                <castItem>
+                    <role>Wanapagan.</role>
+                </castItem>
+                <castItem>
+                    <role>Wanapagana perenaene.</role>
+                </castItem>
+                <castItem>
+                    <role>Nende lapsed.</role>
+                </castItem>
+                <castItem>
+                    <role>Murueit.</role>
+                </castItem>
+                <castItem>
+                    <role>Murueide tütred.</role>
+                    </castItem>
+                <castItem>
+                    <role>Mikatsi noorik.</role>
+                </castItem>
+                <castItem>
+                    <role>Kääri käijaja.</role>
+                </castItem>
+                <castItem>
+                    <role>Kikkhabe, </role>
+                    <roleDesc>põrguperemees.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Kooljas.</role>
+                </castItem>
+            </castList>
+            <pb n="4"/>
+            <set>
+                <p>I järk: Madise talutares, Antsu isa surm. Wennad ajawad Antsu kodult ära.</p>
+                <p>II järk: Metsas. Murueit tütardega. Wanapagan ja põrguperemees. Ants palkab ennast Wanapaganale sulaseks.</p>
+                <p>III järk: Wanapagana talus. Jõuukatsumised.</p>
+                <p>IV järk: Antsu tükid.</p>
+                <p>V järk: Metsas, Ants rahakoormaga koduteel. Wennad wõtawad Antsu käest raha ära. Murueit tütardega.</p>
+            </set>
+        </front>
+        <pb n="5"/>
+        <body>
+            <div type="act">
+                <head>Esimene järk.</head>
+                <stage>Wäheldane, tahumata palkidest talutare, wanatwärki toariistade ja arkliga. Tagaseinas woodi, selle pääl Madis hinge waakumas. Pahemat kätt ahi ja selle prao wahel peerg põlemas, mida Ants aegajalt kohendamas käib. Paremat kätt ees istuwad Paawel ja Toomas wastastiku, tukuwad ja norisewad, mille juures neil pääd wahel kokku puksawad. Kui eesriie üles läheb, süütab Ants parajasti uut peergu põlema.</stage>
+                <sp who="#madis">
+                    <speaker>Madis</speaker>
+                    <stage>(hoietades).</stage>
+                    <p>Oi, oi, oi, oi-oeh!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Kas sa ütlesid midagi, isa?</p>
+                </sp>
+                <sp who="#madis">
+                    <speaker>Madis.</speaker>
+                    <p>Ei ütelnud midagi, pojakene!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ehk sa tahad juua?</p>
+                </sp>
+                <sp who="#madis">
+                    <speaker>Madis.</speaker>
+                    <p>Ei taha pojakene!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Wõi wõtad sa natukese iwa wastu? Ma toon sulle.</p>
+                </sp>
+                <sp who="#madis">
+                    <speaker>Madis.</speaker>
+                    <p>Ei taha pojakene! Surra tahan.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Mis sa nüüd surma hakkad ootama, küll see tuleb omal ajal ootamatagi. Sa hakkad ju nüüd paremaks saama, seda ütles ometi tark ka, kui ta sind posimas käis. Kas ma toon sulle pudeliga wett, kuhu ta sõnu pääle luges?</p>
+                </sp>
+                <sp who="#madis">
+                    <speaker>Madis.</speaker>
+                    <p>Ei aita mulle enam lugemine, ega laulmine, muud kui kiriku kirwest ja Mulla-Annuse raudlabidat<pb n="6"/> on mulle weel waja —</p>
+                    <l>Mis on põuda põletanud,</l>
+                    <l>Nurmel palaw närtsitanud,</l>
+                    <l>Kuude walgel kolletanud,</l>
+                    <l>Tähte silma suretanud —</l>
+                    <l>Sest ei tõuse taimekesta</l>
+                    <l>Ilutsewat idukesta!...</l>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Mis sa nüüd sedawiisi räägid, isa!</p>
+                </sp>
+                <stage>(Toomas norskab waljusti, Paawel weel waljumine).</stage>
+                <sp who="#madis">
+                    <speaker>Madis.</speaker>
+                    <p>Mis see oli? Kas külmkäsi juba laudu kolistab?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(naerdes).</stage>
+                    <p>Ah ei, isa. Ega surm tule kärinaga. Toomas ja Paawel saewad laudu.</p>
+                </sp>
+                <sp who="#madis">
+                    <speaker>Madis.</speaker>
+                    <p>Oi, oi, oi, oi — oeh!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(raputab Toomast ja Paawlit, teist teise käega õlast).</stage>
+                    <p>Hee, mis te magate, ärgake üles!</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel</speaker>
+                    <stage>(juhmilt).</stage>
+                    <p>Mis on?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Paawel pilwes, pill peos.</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel.</speaker>
+                    <p>Wait ole! <stage>(jääb jälle tukkuma).</stage></p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Mis on?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Toomas taewas, taba kaelas!</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Suu pea. <stage>(jääb tukkuma).</stage></p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(wapustab neid uuesti).</stage>
+                    <p>Ärgake üles! Mis te magate! <stage>(wali norskamine on wastuseks. Ants laseb nad lahti, nad langewad weel enam rötsakile)</stage> Ei aita siin weewel ega panskriiw, magawad nagu karud küünlapäewa ümber pesas.</p>
+                </sp>
+                <sp who="#madis">
+                    <speaker>Madis.</speaker>
+                    <p>Oi, oi, oi, oi — oeh!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Kas sa ütlesid midagi, isa?</p>
+                </sp>
+                <sp who="#madis">
+                    <speaker>Madis.</speaker>
+                    <p>Jah, tule lähemale, pojakene. Kohenda mul pääalust kõrgemale. Hing kippub rindu kinni jääma. <stage>(kui Ants teda seadinud on)</stage> Waata Ants, sinust on mul<pb n="7"/> mure! Kui mina silmad kinni panen — ega ma uue päewa koitu enam näha ei saa — kuhu sa jääd? Oled ju minu äbarik! Paawel ja Toomas oliwad juba karjajõmmid, kui õnnis ema — ma saan nüüd warsti tema kõrwale, kalmukünka alla — kui õnnis ema kõnelema hakkas: tütar kuluks temale weel ikka ära! Ei ta kuulanud mis mina rääkisin, et mis me wanad inimesed weel wäikese lapsega teeme! Ja — otse suure ristipäewa hommikul, päikese tõusu ajal oli wana Räime-Reet su kuhjalawa seest koju toonud. Muud kui — tütar sa ei olnud!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Sosoo isa, muud kui tütar ma ei olnud!</p>
+                </sp>
+                <sp who="#madis">
+                    <speaker>Madis.</speaker>
+                    <p>Jah, tütar sa ei olnud. Aga õnnelaps peaksid sa olema; pühapäewa-lapsed on kõik õnne-lapsed. Ja sina oled weel koguni suure ristipäewa hommiku laps...</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Kas ma siis teie laps ei olnudgi?</p>
+                </sp>
+                <sp who="#madis">
+                    <speaker>Madis.</speaker>
+                    <p>Muidugi olid sa meie laps.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(naerdes).</stage>
+                    <p>Aga sa ütlesid ju, suure ristipäewa hommiku laps. Ristipäewa hommiku laps ja teie laps — wat kus lops!</p>
+                </sp>
+                <sp who="#madis">
+                    <speaker>Madis.</speaker>
+                    <p>Ära heida nalja!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Isakene, ma tahaksin, et sa korra naerad! Kui sa naerad, saad sa terweks.</p>
+                </sp>
+                <sp who="#madis">
+                    <speaker>Madis.</speaker>
+                    <p>Ei mina hommikut enam näe! Jah, õnne-laps pidid sa olema, aga — ma ei ole teda sulle weel wastu naeratama näinud ühti. Pead pojakene, kui mina silmad kinni panen, õnne ise maailmast otsima minema. Nupumees sa ju oled, ja terawat mõistust sull ei puudu. Pisike põngerjas sa olid, ei emal olnud sulle palju piima anda, aga, sa kaswasid ja kosusid — sellepärast, et ema sind mõne korra salamahti murueidele imetada ja suu juures suusutada oli annud.</p>
+                </sp>
+                <pb n="8"/>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Kuidas? Ema andis mind murueidele imetada?</p>
+                </sp>
+                <sp who="#madis">
+                    <speaker>Madis.</speaker>
+                    <p>Ja-ah, ema ja murueit oliwad hääd sõbrad. Murueit oli ju ka salaja sinu ristimise juures waderiks.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Murueit oli minu ristimise juures waderiks? Kuidas see siis oli?</p>
+                </sp>
+                <sp who="#madis">
+                    <speaker>Madis.</speaker>
+                    <p>Ja, waata pojakene, see oli nõnda. Meie olime sell ajal hirmus kehwad ja kui sind waja ristida oli, ei tahtnud keegi sulle waderiks tulla. Köster oli juba majas ja waderisi weel ikka ei olnud. Wiimaks tuli wana Unipere-Ants, aga teist oli weel waja. Siis nuttis ema, saatis mind wälja ja käskis iga nelja tuule poole hüüda: "Kõik hääd waimud, tulge minu pojale waderiks!" Seda ma ka tegin, ja — wähe aja pärast sõitis tõld ukse ette, uhketes riietes naesterahwas tuli tuppa ja seisis sulle waderiks. Köstrile andis ta weel kuldraha ristimise palgaks, see ei julgenud selle häämeelega enam waderi nime järele küsidagi. Aga ema oli naesterahwa ära tunnud, see oli murueit. Ja sest ajast hakkas ka meie elukord paranema. Sinuga ühes oli meile nagu õnn majasse sisse pääsenud.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ja sellest kuulen ma alles nüüd!</p>
+                </sp>
+                <sp who="#madis">
+                    <speaker>Madis.</speaker>
+                    <p>Murueit oli emale kõwasti ärakeelanud, et sellest kellegile ei pidanud räägitama, ja sulle ka alles kõige suurema kitsikuse ajal. See aeg on nüüd käes. Sest kui mina silmad kinni panen, oled sa waenekene küll ilma koduta, armuta ja pääwarjuta. Paawel ja Toomas sind ju ei salli.</p>
+                </sp>
+                <stage>(Paawel ja Toomas norskawad korra waljusti ja jääwad jälle tukkuma).</stage>
+                <sp who="#madis">
+                    <speaker>Madis.</speaker>
+                    <p>Ah ja, Paawel ja Toomas! Ühe isa-ema pojad olete, aga — sinu nuppu neil ju ei ole. Peawad keharammu ja kätetööga endale igapäewast leiba teenima! Sina aga wõid mõistuse läbi maailmas edasi saada. Pärandust maha jätta mul sulle ei ole, härjad ja ho<pb n="9"/>bused, lehmad ja lambad on sinu wennad juba ammugi eneste wahel ära jaganud — mis mina wanamees wõisin parata! Aga ristiema kinkis sulle ristimise päewal ühe wana rublatüki, mis ta õnnerahaks nimetas ja sulle kaasa anda käskis, kui sa ükskord isamajast wälja pead minema. Tema ütles: "Niikaua kui ristipojal õnnerublatükk taskus on, wõib ta igas kohas hõlpsast läbi saada, sest et hädad ja wiletsused õnnelapse külgi ei wõi puutuda". Pista käsi päetsi koti alla, säält leiad sa nartsu seest waderi ande päranduseks. Katsu kuidas sa tema abil maailmast läbi saad.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(pistab käe päetsisse ja leiab säält kobades puntra. Hää toobi põhja suurune rubla on mitme nartsu sisse sõlmitud. Ants päästab esimese ja heidab nurka, siis teise ja kolmanda. Saab lõpeks raha kätte ja hoiab näpu wahel kõrgele).</stage>
+                    <p>Ohoo, on see aga alles rubla! Sellega wõib ju minusugune mees ka weel "kõrri" lasta! <stage>(kummardab maha, weeretab rubla weerema ja istub siis sellele "plaksti" pääle. Nõnda paar korda).</stage></p>
+                </sp>
+                <stage>Koit hakkab aknast sisse punetama, eemalt kuulukse teokella häält).</stage>
+                <sp who="#madis">
+                    <speaker>Madis.</speaker>
+                    <p>Oi, oi, oi, oi — oeh!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(pistab raha taskusse).</stage>
+                    <p>Kas sa ütlesid midagi, isa?</p>
+                </sp>
+                <sp who="#madis">
+                    <speaker>Madis.</speaker>
+                    <p>Hagu hakkab koitma! Ma tunnen — Külmkäpp tuleb. Kas ta ei seisa juba päetsis?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Midagi ei seisa päetsis.</p>
+                </sp>
+                <sp who="#madis">
+                    <speaker>Madis.</speaker>
+                    <p>Kaugel ta ei ole. Juba ma kuulen, kuidas kiriku kellad hüüawad: "Haua-paua! Haua-paua!"</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>"Haua-paua" mis sina kuuled, ei ole kiriku kell, waid on mõisa teokell. Ta ei hüüa ka mitte "haua-paua", waid mina kuulen selgesti, et ta hüüab: "Laisa-mõisa, tööle, tööle! Laisa-mõisa, tööle, tööle!"</p>
+                </sp>
+                <sp who="#madis">
+                    <speaker>Madis.</speaker>
+                    <p>Ei, ei, see on surma-kell!... Ärata Paawel ja Toomas üles!</p>
+                </sp>
+                <pb n="10"/>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Kui sa käsid! <stage>(astub wendade juurde ja wapustab neid; ainult wali norskamine on wastuseks)</stage> Ah, see ei mõju? <stage>(Hakkab sülega Tooma ümbert kinni, tõstab tema lendu ja rabab siis wastu maad jalgade pääle püsti).</stage></p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas</speaker>
+                    <stage>(juhmilt ja uimaselt).</stage>
+                    <p>Mis?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Isa hakkab surema! <stage>(lööb ka Paawli püsti)</stage> Üles! Isa tahab surra!</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas</speaker>
+                    <stage>(uniselt).</stage>
+                    <p>Mis siis muud kui...</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel</speaker>
+                    <stage>(tuimalt).</stage>
+                    <p>Mis siis muud, kui pikad õled tuppa!</p>
+                </sp>
+                <sp who="#madis">
+                    <speaker>Madis.</speaker>
+                    <p>...pikad õled tuppa!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(hellalt isa poole).</stage>
+                    <p>Ei, isa, ei me sind pikade õlgede pääle pane! Pikad õled on külmad ja kalgid. Ja — — <stage>(räägitud).</stage></p>
+                    <lg>
+                        <l>Ei me tee sulle kuuse kirstu,</l>
+                        <l>Kuusk on kuri kuiwamaie,</l>
+                        <l>Ei me tee sulle haawa kirstu,</l>
+                        <l>Haab on kuri hallitama,</l>
+                        <l>Ei me tee sulle lepa kirstu,</l>
+                        <l>Lepp on kuri leekimaie,</l>
+                        <l>Ei me tee sulle paju kirstu,</l>
+                        <l>Paju on kuri pakatama.</l>
+                    </lg>
+                    <lg>
+                        <l>Me teeme kirstu sull kiwise,</l>
+                        <l>Põhja paneme paasise,</l>
+                        <l>Põõnad paneme põdrasarwest,</l>
+                        <l>Pulgad paneme pukisarwest,</l>
+                        <l>Kiilud külge kitsesarwest.</l>
+                    </lg>
+                    <lg>
+                        <l>Ei meie wii sind reele,</l>
+                        <l>Jalad rippuwad reele,</l>
+                        <l>Ei me wii sind wankurille,</l>
+                        <l>Pää waarub wankurille,</l>
+                        <l>Ei me kanna kaarikulle,</l>
+                        <l>Keha kallub kaarikulle,</l>
+                        <l>Kanname kahe käe pääl,</l>
+                        <l>Wiime wiie sõrme pääl...</l>
+                    </lg>
+                </sp>
+                <pb n="11"/>
+                <sp who="#toomas">
+                    <speaker>Toomas</speaker>
+                    <stage>(tõukab Antsu eest).</stage>
+                    <p>Mis sa siin jobised. <stage>(isale)</stage> Hakkadgi surema wõi?</p>
+                </sp>
+                <sp who="#madis">
+                    <speaker>Madis.</speaker>
+                    <p>Hakkan küll, pojakene!</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas</speaker>
+                    <stage>(Paawlile).</stage>
+                    <p>Siis ikka õled waja tuppa tuua? Mis suremine see on, kui õlgede pääle ei panda. <stage>(Antsule)</stage> Poiss, mine wiska kubu õlgi tare päält maha!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ei mina lähe!</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas</speaker>
+                    <stage>(wihaselt).</stage>
+                    <p>Mis? Ei sina lähe?! Paawel, tule näitame temale, tahab ta käsku kuulda wõi ei! <stage>(asuwad rusikatega Antsule kallale, kes ennast kahe käega kaitseb).</stage></p>
+                </sp>
+                <sp who="#kooljas">
+                    <speaker>Kooljas</speaker>
+                    <stage>(wikatiga, tõuseb nõrga sinika walguse sees altilmast, woodi päetsi kohal).</stage>
+                </sp>
+                <sp who="#madis">
+                    <speaker>Madis.</speaker>
+                    <p>Oi, oi, oi, oi — oee!...</p>
+                </sp>
+                <sp who="#kooljas">
+                    <speaker>Kooljas</speaker>
+                    <stage>(rabab kord wikatiga, ja lõikab wiimse hoietamise ajal sureja hääle, nagu katki ja wajub siis jälle ära).</stage>
+                </sp>
+                <sp who="#paawel #toomas">
+                    <speaker>Paawel ja Toomas</speaker>
+                    <stage>(lasewad, sinikast walgusest kohkunud, — käed Antsu küljest lahti).</stage>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel.</speaker>
+                    <p>Mis see oli?</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Mis siis pidi olema?</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel</speaker>
+                    <stage>(lõdisedes).</stage>
+                    <p>Tuba oli nii imelikku walgust täis...</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Tühi lori! Näe, hagu wahib aknast tuppa.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(woodi eest, tõsiselt).</stage>
+                    <p>Isa on surnud! <stage>(wajutab tema silmad kinni ja tõstab käed risti rinna pääle).</stage></p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Tõesti ikka wõi?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Päris tõesti. Katsuge, kuidas käed eluta on ja külmaks jääwad. <stage>(paneb käed kokku, palwetab tasakesi).</stage></p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>No mis mullaga wõlgu, see wõlgu. Kui ära, siis ära.</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel.</speaker>
+                    <p>Siis waja kirstu muretsema hakata.</p>
+                </sp>
+                <pb n="12"/>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Ja, waja kirwes wõtta ja aia seest mõni laiem taras otsida. Ega's kallid laudu maksa ostma ja raiskama hakata. Käib küll. Mulla sisse matta hääd küllalt.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>No seda küll mitte. Isa peab kõigeilusama kirstu saama, nagu mõni köster wõi kirikherra...</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Ah sina arwad siin enesel ka weel õiguse olewat suud pruukida? Wõe mul wõe! No sinu hääd päewad on otsas. Küllalt hauguti meile ette: sa olla "nupumees", teisiti isa sind ei nimetanudgi, — sul pidi rohkem mõistust nupus olema kui meil, pidid mõistuse läbi maailmas edasi saama, — käi nüüd aga ka majast minema. Küllalt kaua oleme sind kõige su nupuga toitnud, näita ka korra, mis sa temaga wõid. Sulaspoissi sinust ometi ei saa.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ärge kartke, ei hakkagi teile sulaseks.</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel.</speaker>
+                    <p>Wõi jobiseb ka weel? <stage>(wõtab warnast kaabu ja surub Antsule päha)</stage> Säh, sinu nupule ulualune, ja — <stage>(toob kuue räbala ja topib Antsule kaenlasse)</stage> sääl on su härmak ka, ja nüüd tee, et sa läwest wälja ja minema saad.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Siis jalapäält ajate mind ära, ja isa ei ole woodis weel äragi jahtunud?</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Jah, sinu soe tugi ja eestkostja on ära jahtunud. Aga, et sa ütelda ei wõi, et meie sinuga wennalikult ei oleks ümber käinud — säh sulle nädala moon reisi pääle. <stage>(wõtab warnast weerseki — kahe otsaga teomehe leiwakoti ja riiulilt pätsi leiba ja topib leiwa koti ühe otsa sisse)</stage> Päts leiba, sellest saab sulle, kuni sa oma nupuga uut teenid. <stage>(topib koti teise otsa sisse wäikese lähkri)</stage> Ja siin sulle päälerüübatawat kah. Sääl on weel minewa nädalast teopoisi roka-iwa sees. Ammuta kaewust wett pääle, küll ta läheb. <stage>(riputab weerseki Antsule õlale ja tõukab teda läwe poole).</stage></p>
+                </sp>
+                <pb n="13"/>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Tõega ikka wõi?</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>No mis siis muud?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Seni ometi lubage mind jääda, kuni isa mulda wiidud on.</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel.</speaker>
+                    <p>Mis weel! Teda me oskame ilma sinutagi hauku ajada. Käi minekit.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>No kui teie õiged wennad tahate olla, andke mulle ometi mõni kopikas teerahagi. Olen teid ju ka eluaja teeninud. Teenitud rahast andke mulle mõni kopikas! Kas ma ei ole päew päewa kõrwal teiega ühes orjanud?</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Wõe weel? Wõi raha ka? Sina oled ju nupumees ja pead ju mõistusega maailmas edasi saama ja meist ülemakski tõusma. Raha oleks sulle ainult koormaks. Käi minema! <stage>(tõukab Antsu läwe poole).</stage></p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(wihaselt).</stage>
+                    <p>Ärge puutuge mind! Ma lähen isegi kui ma tahan. Ainult isaga jätan ma weel jumalaga, siis ei tahagi ma enam mitte silmapilkugi teiega ühe katuse all wiibida.</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel.</speaker>
+                    <p>Mullale ei ole enam midagi jumalaga jätmist waja.</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Paawel, tule! Wõi tema ütleb, tema läheb siis kui ta tahab! <stage>(tiriwad kahekesi Antsu, kes wastu rabeleb, üle läwe wälja ja hoiawad ukse tema taga kinni).</stage></p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(läwe taga, ukse kallal kolistades).</stage>
+                    <p>Teie! Jumala werd teie soondes ei ole! Ja need peawad nime järele wennad olema! <stage>(wagusamaks jäädes)</stage> Jää jumalaga isake, jumalaga isamaja — ära pean mina minema, ära waene weerema... Jumalaga siis ka wennad. Mina lähen, aga põlwili maas palute korra weel andeks, mis te täna mulle teete. Ja tagasi tulen ma, kui ma tulen — tõllaga, seitse sikusarwepuhujat ees ja kuus torupillipuhujat taga järel, ehk ma ei tulegi!</p>
+                </sp>
+                <stage>(Eesriie).</stage>
+            </div>
+            <pb n="14"/>
+            <div type="act">
+                <head>Teine järk.</head>
+                <stage>Mets. Maantee. Õhtu on, linnud laulawad. Näitelawa wõimalikult sügaw ja kraawikallas kuhu Ants maha istub, kõrgem.</stage>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(tuleb lehepilli puhudes paremalt poolt ja laulab).</stage>
+                    <lg>
+                        <l>Muud istwad ilumäele,</l>
+                        <l>Ilupilli neil peossa,</l>
+                        <l>Ilulaasid laua pääle,</l>
+                        <l>llukarikad käessa,</l>
+                        <l>Ilukannid kaendelessa,</l>
+                        <l>Iluõilmed hõlma alla!</l>
+                    </lg>
+                    <lg>
+                        <l>Ma istun murumäela,</l>
+                        <l>Murepilli mul peossa,</l>
+                        <l>Murelaasid laua pääle,</l>
+                        <l>Murekarikad käessa,</l>
+                        <l>Murekannid kaendelesse,</l>
+                        <l>Mureõilmed hõlma alla!</l>
+                    </lg>
+                    <lg>
+                        <l>Mullu jõin murekarika,</l>
+                        <l>Tänawu joon teise täie,</l>
+                        <l>Kolmat täita täidetessa,</l>
+                        <l>Neljat laasi lastanessa,</l>
+                        <l>Wiiet waati waladesse</l>
+                        <l>Kuuet toopi toodanesse!...</l>
+                    </lg>
+                    <p>aga, ega's sellepärast hääd tuju wõi kaotada! <stage>(waatab enese ümber ja toetab kiwi otsa maha)</stage> Wiiet päewa hulgun nüüd juba ja otsin oma õnne, — õnnest ei maksa rääkidagi, kui töödgi leiaks. <stage>(waatab oma wiletsat härmakut)</stage> Kes niisugust närakat ka tulihoonesse sisse laseb, wõi weel wähem temale tööd julgeb anda! <stage>(waatab<pb n="15"/> oma weersekki ja kobab selle seest leiwaraasukesi pihu pääle)</stage> Ainult leiwaraasukesi on weel weersekis! Ega nüüd öömaja poolest pole küll muret midagi, haljast muru põrandaks alla, sinist taewast katuseks pää pääle ja kiwi pehmeks padjaks pää alla, teda leidub igal pool. Kus õhtu, sääl öömaja. Aga — <stage>(kobab käega kõhtu)</stage> see wana keskpaik! Kui selle kuidagi kindlamaks saaks! <stage>(ajab leiwaraasukesed peo päält suhu ja maigutab korra suud)</stage> Linnukese jaoks oleks seda ju küllalt, — minule ei taha hästi ulatada. Ja lähkris — <stage>(joob)</stage> pole ka muud, kui mis ma hallikast sinna sisse ammutasin. Noh, eks ta ole paksem ikka kui paljas wesi, ta on ju lähkris seisnud, kus omal ajal — wõib olla — piimagi sees oli. Hõissa poiss ja puhu sarwe, rubla kuus ja peremehe leib! Tähendab: leib on alles peremehe laudil ja peremees ise weel teadmata, aga — ükstakõik! — Mis mul siis siin külje pääl rõhub? <stage>(pistab käe taskusse ja hoiab rubla kõrgele)</stage> Noo, see on ju ristiema õnnerubla. No mees, kellel rubla taskus, on ju päris kapitalist. Ants, ära karda! Soo, kes säält siis tuleb ja ise põllenurgaga silmi pühib? Mis teil siis wiga on? Ilus noor noorik, ja — nutab...</p>
+                </sp>
+                <stage>(Noorik tuleb, pamp käe otsas).</stage>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(üles karates ja teretades).</stage>
+                    <p>Tere kah! Kas on luba küsida, kas teie mitte Piripilli-Liisu ei ole?</p>
+                </sp>
+                <sp who="#noorik">
+                    <speaker>Noorik</speaker>
+                    <stage>(nutuselt).</stage>
+                    <p>Uijäh, ära heidutas! Tere jumalaime! Ei ole mina Piripillilt, mina olen Mikatsilt.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Mikatsilt wõite te küll olla, aga mina arwasin, et te Piripilli-Liisu pidite olema.</p>
+                </sp>
+                <sp who="#noorik">
+                    <speaker>Noorik.</speaker>
+                    <p>Mihuke Piripilli-Liisu?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Piripilli-Liisu oli niisugune Liisu, kes alati nuttis. Teie ka nutate. Mispärast teie nutate? Kas ema ära suri?</p>
+                </sp>
+                <sp who="#noorik">
+                    <speaker>Noorik.</speaker>
+                    <p>Ei surnud ema ära.</p>
+                </sp>
+                <pb n="16"/>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>No suuremat õnnetust ei wõi enam ollagi, mille pärast nutta maksaks, et kui isa wõi ema ära sureb. Näete, mul suri isa ära ja ma ei nuta ka mitte. Tulge istuge, puhake jalga ja rääkige ära mis teil wiga on. Ehk tean mina nõuu anda.</p>
+                </sp>
+                <sp who="#noorik">
+                    <speaker>Noorik.</speaker>
+                    <p>Mis nüüd oma asja teistele rääkida wõi...</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Tulge, tulge! Just oma asja waja rääkida. Teiste inimeste asjad on teiste asjad, tuul jooksku nende jalgade alt. — Kust te tulete ja kuhu te lähete?</p>
+                </sp>
+                <sp who="#noorik">
+                    <speaker>Noorik.</speaker>
+                    <p>Isa-ema kodu tõotin ära minna...</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Wõi isa-ema kodu? Kust te siis tulete?</p>
+                </sp>
+                <sp who="#noorik">
+                    <speaker>Noorik.</speaker>
+                    <p>Ma puhkan pääle weidikese jalga. <stage>(istub Antsu juurde)</stage> — Mehe-kodust tulen, kulla külameheke. Ei jäänud enam muud nõuu üle, kui ära minna..!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Päriselt tahate mehe juurest ära minna wõi?</p>
+                </sp>
+                <sp who="#noorik">
+                    <speaker>Noorik</speaker>
+                    <stage>(nuttes).</stage>
+                    <p>Päriselt jah!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Mis see mees siis teile kurja tegi, et te nõnda nutate ja tema juurest ära lähete? Peksis wõi?</p>
+                </sp>
+                <sp who="#noorik">
+                    <speaker>Noorik.</speaker>
+                    <p>Peksab jah, igapäew peksab, kui ma tema jampsitahtmist täita ei jõua.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Kas pole lugu!</p>
+                </sp>
+                <sp who="#noorik">
+                    <speaker>Noorik.</speaker>
+                    <p>Jah. Mõtelge ometi, täna käskis ta mind enesele kala keeta, "mis wees küll elab, aga kala ei tohi olla, ja kellel küll silmad, aga mitte pää külles." No kust ma wõtan temale niisuguse looma, mäherdust maa pääl ei ole?! Keela, kaitse küll!...</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(wähe järelemõteldes).</stage>
+                    <p>Ära nuta noorikukene, sinu mees tahab wähki, "kes wees küll elab, aga kala ei ole. Kellel küll silmad, aga mitte pääs." Püüdnud ja keetnud temale — wähki.</p>
+                </sp>
+                <pb n="17"/>
+                <sp who="#noorik">
+                    <speaker>Noorik</speaker>
+                    <stage>(imekspannes).</stage>
+                    <p>Wähki?! Õige jah: wees elab, aga kala ei ole, silmad on, ja mitte pääs! Ole sa tuhandest terwe, illi-kuku küla onuke! Nüüd ma jooksen kohe kodu ja keedan temale wähki. Jumalaga külaonuke, ole sa weel korra tuhandest tänatud! <stage>(kargab üles ja lippab tuldud teed tagasi).</stage></p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(naerab taga järele).</stage>
+                    <p>Kae nüüd, kas ei ole ka naestel pikk juuks ja lühike aru. Sellesamale ei saanud nüüd tema otsa pääle, et mees wähki himustas. — <stage>(näeb nooriku mahaunustatud pampu)</stage> Hee! Noorik! Oma pambu olete mahaunustanud!</p>
+                </sp>
+                <sp who="#noorik">
+                    <speaker>Noorik</speaker>
+                    <stage>(eemalt).</stage>
+                    <p>Wõtke waewapalgaks omale, kulla külaonuke. Ega sääl muud ei ole, kui minu teemoon. Sööge ära, kui süüa sünnib. Ega minul nüüd enam teda waja ei ole. <stage>(ära).</stage></p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(hakkab pampu lahti wõtma ja waatama).</stage>
+                    <p>Hoo! Leib, silgud, seapää ja pudeliga piima! Ants, mis sul nüüd wiga! <stage>(hakkab toitu kiwi pääle üles seadima, räägib ja laulab):</stage></p>
+                    <lg>
+                        <l><stage>(laulab)</stage> Peremees peremehike...</l>
+                        <l><stage>(räägib)</stage> See olen ma ise —</l>
+                    </lg>
+                    <lg>
+                        <l><stage>(l.)</stage> Perenaene naesukene...</l>
+                        <l><stage>(r.)</stage> See oli see, kes ära läks —</l>
+                    </lg>
+                    <lg>
+                        <l><stage>(l.)</stage> Pane leiba laua pääle...</l>
+                        <l><stage>(r.)</stage> Seda teen ma ise —</l>
+                    </lg>
+                    <lg>
+                        <l><stage>(l.)</stage> Nuga teile nurga pääle...</l>
+                        <l><stage>(r.)</stage> Selle wõtame taskust — ja nüüd...</l>
+                        <l><stage>(l.)</stage> Keraoinas keskeelle!</l>
+                    </lg>
+                    <stage>(paneb piimapudeli toidu keskele ja hakkab isukalt sööma).</stage>
+                </sp>
+                <stage>(Käärikäijaja oma rattaga tuleb. Temal on üks kuub seljas ja teine ratta pääl).</stage>
+                <sp who="#kaeaerikaeijaja">
+                    <speaker>Käärikäijaja</speaker>
+                    <stage>(kallutades ja laulu jorutades):</stage>
+                    <l>:,: Jilusa Jurida, Magusa Jurida :,:</l>
+                    <p><stage>(silmab Antsu ja jääb seisma)</stage> Aa! Tjere, tjere!</p>
+                </sp>
+                <pb n="18"/>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Tere Jumalaime!</p>
+                </sp>
+                <sp who="#kaeaerikaeijaja">
+                    <speaker>Käärikäijaja</speaker>
+                    <stage>(wõtab ratta seljast ja heidab teisele poole kiwi maha).</stage>
+                    <p>Waja ka jiki natuke jalga puhkama.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Eks ta kulu ära.</p>
+                </sp>
+                <sp who="#kaeaerikaeijaja">
+                    <speaker>Käärikäijaja</speaker>
+                    <stage>(sirutab ennast).</stage>
+                    <p>Aah batjushka, batjushka, batjushka!!! — A kushatj? Garasho?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ei ole karaskit.</p>
+                </sp>
+                <sp who="#kaeaerikaeijaja">
+                    <speaker>Käärikäijaja.</speaker>
+                    <p>A suimi? Leebushka, rjäimushka — nitshewo? Hää wom?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>No kus ta jääb? Tahad ka?</p>
+                </sp>
+                <sp who="#kaeaerikaeijaja">
+                    <speaker>Käärikäijaja.</speaker>
+                    <p>Haige käest waja kjüsima, terwele waja anda.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(annab temale wiiluka leiba ja paar silku).</stage>
+                    <p>Noh söö-</p>
+                </sp>
+                <sp who="#kaeaerikaeijaja">
+                    <speaker>Käärikäijaja</speaker>
+                    <stage>(waatab, tahaks hammustama hakata, aga ootab).</stage>
+                    <p>Aa — rjummutshka?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Mis pagana rummu sa nõuad?</p>
+                </sp>
+                <sp who="#kaeaerikaeijaja">
+                    <speaker>Käärikäijaja.</speaker>
+                    <p>No? Rjummutshka! Wiinushka? Wiinushka njeet?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>No mis weel! "Piimushkat" wõid saada. Piima on weel järele.</p>
+                </sp>
+                <sp who="#kaeaerikaeijaja">
+                    <speaker>Käärikäijaja.</speaker>
+                    <p>Piima — nje naada.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Kaugelt siis külamees ka on?</p>
+                </sp>
+                <sp who="#kaeaerikaeijaja">
+                    <speaker>Käärikäijaja.</speaker>
+                    <p>Mjina? Mjina jiki Mustmest.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Mis? Muskwast olete?</p>
+                </sp>
+                <sp who="#kaeaerikaeijaja">
+                    <speaker>Käärikäijaja.</speaker>
+                    <p>Njeet, njeet! Mustmest jiki, Mustmest!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Wõi Muskwast! See on wist küll õige kaugel?</p>
+                </sp>
+                <sp who="#kaeaerikaeijaja">
+                    <speaker>Käärikäijaja</speaker>
+                    <stage>(pahaselt).</stage>
+                    <p>Mjitte Muskwa. Mustme jiki. Tshornaderewnjä.</p>
+                </sp>
+                <pb n="19"/>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ah Sornaderewnast olete? See on sääl Wasknarwa pool?</p>
+                </sp>
+                <sp who="#kaeaerikaeijaja">
+                    <speaker>Käärikäijaja.</speaker>
+                    <p>No sjääl puha vom: Kikita, Kasepää... Mjina jiki sjääl kolkjümme aastat seda jüte kala püüdama...</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Mis? Kolmkümmend aastat püüdsite ühte ja sedasama kala? Kas siis wähema ajaga teda kätte ei saanud?</p>
+                </sp>
+                <sp who="#kaeaerikaeijaja">
+                    <speaker>Käärikäijaja.</speaker>
+                    <p>Njeet. Mina jiki kolkjümme aastat seda jüte rjääbise kala püüdama...</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ma mõistan küll: Kolmkümmend aastat püüdsite, enne kui ühe rääbise kätte saite.</p>
+                </sp>
+                <sp who="#kaeaerikaeijaja">
+                    <speaker>Käärikäijaja.</speaker>
+                    <p>No njeet! Mina jiki kolkjümme aastat jüte ja sedasama tuis tjegema, jiki seda rjääbise kala püüdama...</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ahaa, nüüd ma hakkan aru saama. Kolmkümmend aastat tegite rääbise püüdmise tööd?</p>
+                </sp>
+                <sp who="#kaeaerikaeijaja">
+                    <speaker>Käärikäijaja.</speaker>
+                    <p>No wot, wot, wot.</p>
+                </sp>
+                <stage>(Ilm hakkab pimedaks minema).</stage>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>No kuidas teie nüüd siis käruga kõnnite?</p>
+                </sp>
+                <sp who="#kaeaerikaeijaja">
+                    <speaker>Käärikäijaja.</speaker>
+                    <p>Jei ole kjäru, kjäija jiki wom. Käärikäija! — Wot, käima kabaku, käima kabaku... kus tema kuurat wottis kjeik: lodja ja lootsiku, nooda ja wõrgu... wsjo, wsjo. — No tak, mina hakkas kääri käijama ja lambarauda, habemenuga jiguma — wot mis on! @Ants.</p>
+                    <p>Mis pagan teie siis kaabakaks käima hakkasite?</p>
+                </sp>
+                <sp who="#kaeaerikaeijaja">
+                    <speaker>Käärikäijaja.</speaker>
+                    <p>Njeet, njeet. Kabaku, kabaku — kortshma jiki!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ahaa! Lootsik ja mõrrad jäiwad kõrtsi.</p>
+                </sp>
+                <pb n="20"/>
+                <sp who="#kaeaerikaeijaja">
+                    <speaker>Käärikäijaja.</speaker>
+                    <p>Nu wot, wot, wot!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Aga kust teie selle hää kuue olete saanud, mis teil sääl käru pääl on!</p>
+                </sp>
+                <sp who="#kaeaerikaeijaja">
+                    <speaker>Käärikäijaja.</speaker>
+                    <p>Jei ole kjäru, käija jiki wom. Sjeda kuube? No, kudas kunagi kord.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Müüge see mulle ära. Näete minu oma on wana.</p>
+                </sp>
+                <sp who="#kaeaerikaeijaja">
+                    <speaker>Käärikäijaja.</speaker>
+                    <p>No, lass kaupa jooksta. A palju pakkuma?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ma annan rubla.</p>
+                </sp>
+                <sp who="#kaeaerikaeijaja">
+                    <speaker>Käärikäijaja.</speaker>
+                    <p>Anna kaks.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Kahte mul ei olegi.</p>
+                </sp>
+                <sp who="#kaeaerikaeijaja">
+                    <speaker>Käärikäijaja.</speaker>
+                    <p>A juks? On?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Üks mul on ja selle ma annan. <stage>(näitab rublat).</stage></p>
+                </sp>
+                <sp who="#kaeaerikaeijaja">
+                    <speaker>Käärikäijaja.</speaker>
+                    <p>A jilusi Jekateriina. Anna tjema! <stage>(wiskab kuue Antsule kätte)</stage> Wota tjema! <stage>(saab rubla ja pistab taskusse).</stage></p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(heidab oma räbala seljast ja poeb uue kuue sisse).</stage>
+                    <p>Soo, ristiema kingitus on nüüd küll läinud, aga mis sa hädaga teed! Ei lase ju keegi inimene läwest sisse, weel wähem tööd annawad.</p>
+                </sp>
+                <sp who="#kaeaerikaeijaja">
+                    <speaker>Käärikäijaja</speaker>
+                    <stage>(on ratta selga wõtnud, teeb minekit.)</stage>
+                    <p>A prashtshai bratushka, nuid mina jiki ljäks.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Kuhu siis korraga nüüd nii rutt?</p>
+                </sp>
+                <sp who="#kaeaerikaeijaja">
+                    <speaker>Käärikäijaja.</speaker>
+                    <p>A wöömajale jiki. Tulje ka, wjersta kaks jiki kertsushka, wom.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ei mina tule. Minu tee wiib teisele poole.</p>
+                </sp>
+                <sp who="#kaeaerikaeijaja">
+                    <speaker>Käärikäijaja.</speaker>
+                    <p>Jei tulje? No prashtshai bratushka! <stage>(longib minema).</stage></p>
+                    <l>Jilusa Jurida, Magusa Jurida... :,:</l>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>No minule mõjub siinsamas ka öömaja küllalt. <stage>(koristab ülejäänud toidu kokku, pühib noa puhtaks ja pistab<pb n="21"/> taskusse)</stage> Soo! Aga mille wastu see nuga sääl taskus siis weel kolksatas? Minu ilus rubla on ju nüüd käärikäijaja käes. <stage>(pistab käe taskusse ja näitab rublat)</stage> Mis? Õnnerubla? Kas ma siis teda wenemehele ära ei annud? No muidugi ma andsin ja see pistis ta taskusse. Kust ta siis nüüd jälle siia sai? — Ah!.. See pidi ju "õnnerubla" olema, ja — õnnerubla tulewat ju ikka jälle selle taskusse tagasi, kelle oma ta on. Ja ristiema rubla on tõesti kärumehe taskust minu taskus tagasi? See on ju kui ennemuisteses jutus! Ja minul on tõesti niisugune tagurline rubla? Mis mul siis wiga! Kuhu ma lähen? Rumalus, kuhugile ei lähe ma. Eks homme ole aega, uue päewa ja päikese paistega. Ja kas paremat kohta öömajaks weel waja, kui siin! Wäsinud keha maha, pää kiwi pääle — kõht täis, meel hää <stage>(heidab kiwi kõrwale maha).</stage> ÖÖpik laksutab, wint tiltsub, rääk hüüab rohus. Kõik laulawad mulle unelaulu. Ja — <stage>(tasakesi lauldes):</stage></p>
+                    <l>Uni tuleb huigates,</l>
+                    <l>Läbi laane luigates,</l>
+                    <l>Õlekubu kaenlas!</l>
+                    <l>Tule uni rutuste,</l>
+                    <l>Lange minu laugele,</l>
+                    <l>Uinuta mind magama</l>
+                    <l>Unenägu nägema,</l>
+                    <l>Uinuta mind wäsinuda magama!</l>
+                    <p><stage>(tõstab weel kord pää üles)</stage> Aga teada tahaksin ma, kas käärikäijaja kõrtsis minu rubla eest nüüd ka wäikese "tipsu" saab wõi ei? <stage>(paneb pää maha).</stage></p>
+                </sp>
+                <stage>(Metsas tagapool on nüüd juba suutu pime, Murueit ilmub ja waatab ümberringi).</stage>
+                <sp who="#murueit">
+                    <speaker>Murueit.</speaker>
+                    <lg>
+                        <l>Juba laulsid õhtukukes,</l>
+                        <l>Häälitsesid ehakanad,</l>
+                        <l>Wanaisa wainudelta,</l>
+                        <l>Taara tamme oksa päälta!</l>
+                    </lg>
+                    <pb n="22"/>
+                    <stage>(teeb kätega pikki liigutusi)</stage>
+                    <lg>
+                        <l>Kerki, kerki katlakene,</l>
+                        <l>Kerki kastet keetemaie,</l>
+                        <l>Udu laial' laotama,</l>
+                        <l>Murupinda niisutama!</l>
+                    </lg>
+                    <stage>(Katal, mille all punane tuli põleb ja mis ümbrust walgustab, kerkib üles).</stage>
+                    <lg>
+                        <l>Lillekesed jänutawad,</l>
+                        <l>Kõrrekesed kannatawad,</l>
+                        <l>Päewa palawuse järel,</l>
+                        <l>Kosutust nad igatsewad!</l>
+                    </lg>
+                    <stage>(kätega kutsudes)</stage>
+                    <lg>
+                        <l>Tulge, tulge tütrekesed,</l>
+                        <l>Kastekatalt kohendama,</l>
+                        <l>Lehwitama lõkkekesta,</l>
+                        <l>Paja alla põlemaie!</l>
+                    </lg>
+                    <stage>(Tütred ilmuwuad tuld kohendama ja raagu paja alla panema. Katlast hakkab udu laiali lagunema).</stage>
+                    <lg>
+                        <l>Kee, kee katlakene,</l>
+                        <l>Aura, aura pajakene,</l>
+                        <l>Udu laial' laotama,</l>
+                        <l>Murupinda niisutama!</l>
+                    </lg>
+                    <lg>
+                        <l>Siis ep, siis ep tütrekesed,</l>
+                        <l>Siis lähme lustil kiikumaie,</l>
+                        <l>Kasteheina kõrre pääle,</l>
+                        <l>Angerwaksa warre pääle!</l>
+                    </lg>
+                    <stage>(Tütred kordawad, katla ümber keeritades):</stage>
+                    <lg>
+                        <l>Siis ep, siis ep õekesed,</l>
+                        <l>Siis lähme lustil kiikumaie,</l>
+                        <l>Kasteheina kõrre pääle,</l>
+                        <l>Angerwaksa warre pääle!</l>
+                    </lg>
+                </sp>
+                <stage>(Liuglew tants. Eidele tuuakse kannel. See mängib ja lühikese eelmängu järel):</stage>
+                <pb n="23"/>
+                <sp who="#murueit #murueide-tuetred">
+                    <speaker>Murueit ja tütred.</speaker>
+                    <lg>
+                        <l>Murula, murula,</l>
+                        <l>Lustila, mängula!</l>
+                    </lg>
+                    <lg>
+                        <l>Närtsimata noorusella,</l>
+                        <l>llmusime murudella,</l>
+                        <l>Ala õnne maitsmisella!</l>
+                    </lg>
+                    <lg>
+                        <l>Murula, murula,</l>
+                        <l>Lustila, mängula!</l>
+                    </lg>
+                    <stage>(Lustiline tants nagu lennul. Juuksed lendawad, loorid wallendawad. Tugewa akkordiga katkeb mäng, tütred kõpsatelewad eide ümber seisma, kes jälle algab):</stage>
+                    <lg>
+                        <l>Murula, murula,</l>
+                        <l>Mängula, lustila!</l>
+                    </lg>
+                    <lg>
+                        <l>Murul ilu ürikene,</l>
+                        <l>Pidupäewa lühikene,</l>
+                        <l>Nutt ja walu igawene!</l>
+                    </lg>
+                    <lg>
+                        <l>Murula, murula,</l>
+                        <l>Mängime õnnela!</l>
+                    </lg>
+                    <stage>(Tants nagu enne, siis jälle):</stage>
+                    <lg>
+                        <l>Murula, murula,</l>
+                        <l>Mängime õnnela!</l>
+                    </lg>
+                    <lg>
+                        <l>Kerkib koitu kõrgemalle,</l>
+                        <l>Läigib muru kastella,</l>
+                        <l>Wiib meid jälle muru alla!</l>
+                    </lg>
+                    <lg>
+                        <l>Lustilta, õnnelta,</l>
+                        <l>Mängulta, murulta!</l>
+                    </lg>
+                </sp>
+                <stage>(Tants nagu enne. Keskele loo hulka kõlab häkisti kaugelt kiljatamine, Marduse hõikamine. Katal waob, Murueit tütardega kaob ja kõik on wait, wagune ja pime).</stage>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(ajab ennast istukile).</stage>
+                    <p>Nägin ma nüüd und, wõi oli see ilmsi? <stage>(hõõrub silmi ja seletab)</stage> No muidugi nägin ma und. Ilmsi see ei wõinud olla. Seks oli kõik üleliia ilus. Unenäod tulewad, kui — kõhtu liialt oled koormanud, ja — noorikul oli seda toidupoolist ju natuke rohkesti kaasa wõetud. Aga — heidame uuesti magama, ehk tuleb ilus unenägu uuesti. <stage>(pöörab teist külge).</stage></p>
+                </sp>
+                <pb n="24"/>
+                <stage>(Wiirastuled hakkawad puude wahel üles helkima, sinna ja tänna hüppama. Wähe aja pärast ilmuwad Kikkhabe ja Wanapagan).</stage>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe.</speaker>
+                    <p>... Nõnda siis, sugulane, armas isawennawaderipoeg, oleks minu kodu asjad kõik ära räägitud. Sääl on kõik korras. — Kuule, ega weel kukelaulu aeg ei ole?</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Ära karda, ei ole.</p>
+                </sp>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe.</speaker>
+                    <p>Wanaema peab mul kodus hästi korda, weewlit ja tõrwa meil ei puudu, ja — hiljuti saime paar hääd paksu patust praadida kah. Oi seda lõbu! Iseäranis wäikesed. Küll nemad on aga kärmed tuld katalde all kohendama, ja — kuule ega ei ole weel kukelaulu aeg?</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Ei ole, ei ole, ära karda. Sina, lell, wõiksid selle kukelaulu kartuse omal ka juurest ära wõõrutada. Mina ei karda kukelaulu sugugi.</p>
+                </sp>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe.</speaker>
+                    <p>Sind nüüd rääkida, armas isawennawaderipoeg! Sina ei ole ju ka kellegi õige kurat. Oled ainult wanapagan. Sul ei pruugi kukelaulu karta, aga mina pean enne kukelaulu kodus olema. Nõnda on korra põrgus seadus...</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Mina kardan Paristaja pilli.</p>
+                </sp>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe.</speaker>
+                    <p>Ah, kui Pikker põrutab?</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Nojah, kõuekärgatust ma kardan, ja — pühajüri-kutsikaid kah.</p>
+                </sp>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe.</speaker>
+                    <p>Mihukesi pühajüri-kutsikaid?</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Eks wa kriimsilmasi ikka. Need kipuwad mul kere pääle.</p>
+                </sp>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe.</speaker>
+                    <p>Ah hundid? Nujaa. Kuule, ega ei ole weel kukelaulu aeg?</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Ära nüüd karda.</p>
+                </sp>
+                <pb n="25"/>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe.</speaker>
+                    <p>Hää küll, räägime siis nüüd ka sinu kodu asjust. Ma nuuskisin sääl kõik kohad läbi, — kas tead, mis ma leidsin?</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>No mis mina wõin teada.</p>
+                </sp>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe.</speaker>
+                    <p>Sa hakkad wanaks jääma ja ei suuda enam oma talu korras pidada. Sa peaksid omale sulase palkama.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Noja, seda ütleb eit kodus ka; naabrid hakkawad meid ka ihnsaks pidama, kes sulast pidada ei raatsi, aga — keda sa wõtad! Eks nad ole ju kõik ristitud inimesed!</p>
+                </sp>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe.</speaker>
+                    <p>Ega's sull pruugi neljaharulist risti karta, ainult wiieharulist...</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(kukalt kratsides).</stage>
+                    <p>Seda nüüd küll, aga — see ristiinimese hais, see on ikka na tülgas...</p>
+                </sp>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe.</speaker>
+                    <p>Ah mis! Kõigega peab harinema. Mina pügasin korra siga. Karjus käes mis hirmus. Kõrwad tahtis lukku karjuda. Aga, ära harinesin kui midagi.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>No ja, eks ikka harine. <stage>(jääwad Antsu lähedale seisma).</stage></p>
+                </sp>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe.</speaker>
+                    <p>Näe, sääl magab kohe üks kiwi kõrwal maas, kes kohta otsib. Kauple ära. <stage>(kõnniwad eemale).</stage></p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(tagasi waadates).</stage>
+                    <p>A, kui on kõwem, kui mina?</p>
+                </sp>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe.</speaker>
+                    <p>Niisugusest karust nüüd kõwem kui sina.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>A, kui on targem, kui mina?</p>
+                </sp>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe.</speaker>
+                    <p>Mis see inimeste tarkus palju wäärt on. Kuule, kas kukelaulu aeg ei ole?</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Ära nüüd karda!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(ennast istukile ajades).</stage>
+                    <p>Mis kuramus tema seda kukelaulu alati nõnda räägib. A kui ma kiren korra? <stage>(kirgab)</stage> Kukeleegu! <stage>(hästi kuke wiisil).</stage></p>
+                </sp>
+                <pb n="26"/>
+                <stage>(Kikkhabe wajub ära, tule- ja suitsujuga taga järel). @Ants.
+                    Wõe imeta, wõe imeta! Wõi kadus nagu luts kiwi alla! — Ega tea, kas sellest hääd wõi kurja wõib wälja tulla. Aga oota, mina teen ennast magama. Minu nimi on Ants ja mina ei tea millestki midagi. (kisub ennast kerasse).</stage>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Mis? Kas siis aeg tõesti juba nii hiline oli? <stage>(wõtab westitaskust kole suure uuri wälja, waatab, paneb kõrwa äärde, kuulatab)</stage> Seisma jäänud tühi! <stage>(koputab uuri jalakanna wastu, — uur hakkab koledasti rigisema ja ragisema. Wiskab hirmuga uuri käest ja tallab jalaga pääle. Pistab, kui uur enam ei ragise, ta taskusse tagasi ja hakkab nagu kass palawa pudru ümber, Antsu ümber ringi käima).</stage></p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(liigutab Antsu õlast).</stage>
+                    <p>Hee, külamees...</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(uriseb wastu, Wanapagan kargab eemale).</stage>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(puudutab Antsu uuesti).</stage>
+                    <p>Külamees, mis sa magad!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(ümiseb waljumine ja Wanapagan kargab weel kaugemale).</stage>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(peab iseenesega nõuu ja sikutab Antsu jalast).</stage>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(lööb eest ja takka üles ja wirutab Wanapaganale jalaga rindu, nõnda et see pikali läheb. Ajab ennast üles).</stage>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(ülesajades).</stage>
+                    <p>Ilmarigu.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Mis külamees ütles?</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Midagi suuremat ma ei ütelnud.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ah so. Siis ma wõin edasi magada.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Mis sa's magad. Tõuse parem üles.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Mis ma magan? Mul kadus tööjärg käest ära. Ei aitanud muud, kui pidin magama heitma.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Ja mul on tööd enam kui palju. Kas sa ei taha mulle sulaseks tulla?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Miks mitte, kui kaupa saame.</p>
+                </sp>
+                <pb n="27"/>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Kui palju sa aastas palka tahad?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Toop kulda kuluks ikka aastas ära. Ja — ega mina wähema, kui seitsme aasta pääle kaupa ei tee. Ja aasta algab kewadisest käokukkumisest kuni teise aasta käokukkumiseni.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Selle kaubaga wõiks ma leppida, ma ei tea aga, kas sa mu tööd ka teha jaksad?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Töö pärast pole meil palju waja rääkida: mina olen töö waenlane. Mina tööd ei salli. Minu meel käib selle pääle, tööd maailmast ära kaotada.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>No kuule, külamees. Sa ikka kiidad ennast ka liiga palju. Tööd maailmast ära kaotada ei jõua keegi.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Eks sinna poole pea püüdma, et teda wähemaks jääb. Kui kõik tööd teewad, kes teha jõuawad, ei tule teda iga mehe pääle mitte kuigi palju.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Kuule, mina nõuan aga, et sa mu käskusid karwa päält pead täitma.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Käsku täidan ma karwa päält, see on minu mood.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Tingimistega oleksime siis joones. Aga kas sul ka jõudu on, minu töödega walmis saada ja kas sa ka tark küllalt oled, mu asju ajama? Selle poolest pead sa mulle enne proowi tegema, et ma näen, kas sa mu sulaseks sünnid wõi ei. Kas sa kuni seitsmeni lugeda oskad?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>No miks ma ei oska.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Loe mulle, aga — nõnda, et iga nummer ka midagi tähendab.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Kohe. <stage>(loeb)</stage></p>
+                    <l>Ühest ei ole ühtegi,</l>
+                    <l>Kassil on kaks silma,</l>
+                    <l>Wokil kolm jalga all,</l>
+                    <pb n="28"/>
+                    <l>Lehmal on neli nisa,</l>
+                    <l>Mehe rusikas wiis sõrme,</l>
+                    <l>Hobuse raua sees kuus naela,</l>
+                    <l>Taewa sõelas seitse tähte, —</l>
+                    <l>Kaheksa pääle pole meil kaupa tehtud.</l>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Hää küll, ma näen, sull on tark nupp. Niisugust wõin ma tarwitada. Jõuuproowi teeme kodus.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Wõime kas wõi sada proowi teha.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Kaup küps. Aga ütle nüüd ka, mis su nimi on?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Kirikukirja järele on minu nimi Nikodeemus. Ristimise juures pandi mulle nimeks Ants. Isa hüüdis mind Nupumeheks ja sõbrad — Kawal-Antsuks.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Kuidas sul niipalju nimesid on?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Hääl lapsel alati palju nimesid, aga — see lugu oli nõnda. Köster, kes mind ristimas käis, ristis mind Antsuks. Tema oli aga ristses ennast natuke winti wõtnud, nime ära unustanud ja kirikherra juures hää õnne pääle, et — ega nimi meest ei riku — Nikodeemuse nime kirja panna lasknud. Ja need teised nimed, need on muidu liig nimed.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Ants, Ants, — kena nimi. No olgu siis Ants.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Aga mis sinu nimi on, peremees?</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Minu nimega on ka kirju lugu. Päris nimi on mul Pagaanus, aga külarahwas on mind Wanapaganaks hüüdma hakkanud. Enne hüüdsiwad nad mind taadiks. Sina aga wõid mind parem peremeheks hüüda. <stage>(wõtab kübara pääst ja kuiwatab musta nartsuga higi).</stage></p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Hää küll, peremees, kui sa aga mitte mõni sortsilane ei ole?</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Ei ole mina sortsilane.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(lähemalt waadata püüdes).</stage>
+                    <p>Sul on aga juukste all wäiksed sarwe-moksid pääs, mis need siis on?</p>
+                </sp>
+                <pb n="29"/>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(kübarat ruttu pähe surudes).</stage>
+                    <p>Ei, ei, Ants, need on ainult soolatüükad. Ei ole teisi ära arstida aega saanud.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>No ega mina wäiksid sarwi ka ei karda.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Nõnda, nõnda Ants. Ei maksagi karta. Nüüd on siis kõik asjad läbi räägitud, ja kui sul jõudu ka ei puudu, oled sa mu sulane. Läki nüüd koju. Wanamoor ja lapsed ootawad juba ammugi.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Läki, läki. — Ega sa laulmast ei keela, peremees?</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Laula niipalju kui sa tahad, muud kui — kiriku laulusid ma ei salli.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ega ma neid ei laula ka. <stage>(tuleb ettepoole, laulab)</stage></p>
+                    <l>Tere, tere Tetermatsi!</l>
+                    <l>Tetermatsista marunga,</l>
+                    <l>Marungasta maanispilli,</l>
+                    <l>Maanispillista pibara.</l>
+                    <l>Pibarista petserikku,</l>
+                    <l>Petserikusta ribuna,</l>
+                    <l>Ribunasta rindassõlge,</l>
+                    <l>Rindassõlesta sõmera,</l>
+                    <l>Sõmerasta soolawakka,</l>
+                    <l>Soolawakasta walina,</l>
+                    <l>Walinasta wikerkaari,</l>
+                    <l>Wikerkaarista kabuna,</l>
+                    <l>Kabunasta kaswis metsa, —</l>
+                    <l>See metsa, mõdune metsa,</l>
+                    <l>Kuuse alla kulda metsa,</l>
+                    <l>Männa alla muru magusa.</l>
+                    <l>Kaswis aga metsa, kaasikuda,</l>
+                    <l>Toa taha tammikuda, —</l>
+                    <l>Sääl mina rai'sin rataspuida,</l>
+                    <l>Isa härja ikke puida</l>
+                    <l>Ema lehma lüpsikuida.</l>
+                </sp>
+                <stage>(Eesriie).</stage>
+            </div>
+            <pb n="30"/>
+            <div type="act">
+                <head>Kolmas järk.</head>
+                <stage>Toreda talu õue. Ühel pool elumaja, teisel pool ait. Õue pääl kaew, selle lähedal suur kummuli tõrs. Suur papist raudpomm, millele suurte walge tähtedega pääle kirjutatud: "200 puuda". Jäme ja pikk puupakk, ka papist. Seina ääres puu pink j. n. e. Õue taga mets.</stage>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(tuleb toast, aegutab ja hõõrub uniselt silmi).</stage>
+                    <p>Soo, siin me siis oleme, Wanapagana talus ja — esimene öö juba uue peremehe katuse all ära magatud. Magamisest ei maksa küll rääkida, ma ei usaldanud silmi kinni lasta, pidin katsuma enne pererahwast ülewal olla ja natuke ringi waadata. Tarwis sõjaplaan walmis teha ja tegewuse wälja natuke tundma õppida. <stage>(hakkab kõndima ja nuuskima).</stage> Peremees rääkis raskest tööst, mis siin teha tulla ja kas mul seks ka jõudu on. Jõudu? Rumal teeb jõuu, tark nõuu kaudu ja töö? Noh töö! Egas ma tööd tegema siia ei tulnud, ma tulin palka saama. Töö on niisugune asi, millest ma häämeelega näen, et teised ta ära teewad, mitte mina. Ehee! Tore talu, sel Wanapaganal. Sel ei näe raha ja rikkust puuduwat. Ega ta siis muidu mulle ka toop kulda aastapalgaks ei oleks lubanud. Siin — <stage>(tipib sõrmega päälae pihta)</stage> nupu sees ei näita tal suurt tarkuse tagawara olewat. Seda parem, <stage>(jääb kaalupommi ette seisma).</stage> Mis riist see siis on? <stage>(loeb).</stage> "200 puuda"! Kui see kaalupomm on, ja peremees niisuguse kaalulaua pääle tõsta jõuab, peab ta ju kole tugew mees olema. <stage>(aralt)</stage> Ja — ta lubas minuga, enne kui ta mind teenistusesse wõtab, jõuuproowi teha! Kuidas ma niisuguse wastu jaksan! — Missuguse jõuuproowi ta küll wõiks teha<pb n="31"/> lasta? Muidugi tahab ta ehk wägipulka wedada, wõi sellesarnast. — Noh, küllap ma temaga kuidagi ikka toime saan. Mis raudkang see siin ahela küljas maas wedeleb? <stage>(tõstab kangi üles).</stage> Hoo! Ants, see on ju kui sinu jaoks loodud. Sellega on hää wägipulka wedada. Kuhu ma ahela otsa kinnitan? Haha, siia seina külgi <stage>(teed seda).</stage> Soo! Lass nüüd peremees tuleb jõudu proowima <stage>(laulab häämeelega).</stage></p>
+                    <l>Oi roi, oi roi rotipulmad,</l>
+                    <l>Hiire tütar sai mehele,</l>
+                    <l>Nirgi noorema pojale.</l>
+                    <l>Küll olid uhked pulmalised,</l>
+                    <l>Kukk oli kulda kannustega,</l>
+                    <l>Tigu tinase reega,</l>
+                    <l>Hunt oli uhke pulmapoissi,</l>
+                    <l>Rebane roa tegija.</l>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(tuleb toast, lahkesti).</stage>
+                    <p>No waata, Ants, see on sinust ilus, et sa wara hommiku juba jalul oled ja mul waja ei ole sind äratama tulla. Kui sul nüüd ikka ka seda jõudu minu töö jaoks jätkub? Teeme kohe natuke proowi.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(tragilt).</stage>
+                    <p>Wõib olla soowib peremees natuke wägipulka wedama tulla? Wõime katsuda.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(mõõdab Antsu silmadega).</stage>
+                    <p>Seda wõime ka, aga — seda ma ei nõuagi, es sa mind wägipulgaga pead. Ma olen ju sinust suurem ja raskem. Me wõime esite kergemat katsuda. <stage>(wadib tuppa).</stage></p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Katsume, peremees, wägipulgaga, see on kõige hõlpsam! — — Ära läks! Ja mul oli kõik nii kenasti ettewalmistatud. Tühi teab, millega ta nüüd tuleb.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(tuleb, suurt nuia tagajärele lohistades).</stage>
+                    <p>Soo, Ants, see on minu sõjanui. Hakkame wõidu wiskama, kumb kõrgemale wiskab.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(katsub salaja nuia tõsta, ei jõua teda liigutadagi).</stage>
+                    <p>Wiska sina enne, sina oled peremees. Siis ma näen, kuidas sa wiskad.</p>
+                </sp>
+                <pb n="32"/>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(wiskab, nui kukkub alles tüki aja pärast maha).</stage>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(sasib nuia warrest kinni, ootab ja ootab).</stage>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Miks sa ei wiska, Ants?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ei maksa weel.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Miks mitte?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ma ootan.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Mida sa ootad?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ma ootan seda pilwe, mis säält eemalt tuleb.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Miks sa siis pilwe ootad?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Tahan nuia pilwe pääle wisata.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(kohkudes).</stage>
+                    <p>Kuidas ma ta siis säält jälle kätte saan?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Kätte? Ei, kätte siis teda enam küll ei saa. Aga, pole ka tarwisgi. Mis sa tühjaga teed. Wedeleb muidu jalus. Ega's nüüd enam sõda ei tule. Ja kui tulebgi, ega's nüüd enam nuiadega ei sõdita.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(hoiab nuiast kinni).</stage>
+                    <p>Ei, ei, ära wiska Ants, see on mu isaisa nui ja kallis mälestuse asi. Sa ei pruugi wisatagi, ma usun, et sa wisata jõuad. <stage>(jookseb ruttu nuiaga tuppa).</stage></p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(temale järele).</stage>
+                    <p>Noh, kui peremees ei taha... —</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(tagasi tulles).</stage>
+                    <p>Aga kas sa ka kanda jaksad, Ants? Jõuad sa wakk rükid selga wõtta?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Peremees räägib wakast rükkidest, kas ma selga wõtta jõuan! <stage>(wõtab kaika maast ja pistab 200 puudalise pommi sangast läbi)</stage> Kas peremees lubab, ma wõtan selle tühja siit selga ja wiin eest ära jõkke. Mis ta siin õue pääl jalus ees seisab. Komista teise üle weel ja löö nina pääs lõhki.</p>
+                </sp>
+                <pb n="33"/>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(kohkudes, kahe käega pommi kaitstes)</stage>
+                    <p>Ei, ei, Antsuke. Seda pommi läheb mulle tarwis. Ei seda wõi jõkke wisata. Ma näen juba, et sul jõudu on! <stage>(tuppa ära).</stage></p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(publikumi poole).</stage>
+                    <p>Küll usub kergesti. Kas teie keegi jõuaksite seda pommi liigutada?</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(kole suure ja eest laia otsaga (papist)</stage>
+                    <p>Ants, kui sa mu poiss tahad olla, pead sa mulle iga õhtu pasunat ajama, seda ma armastan. Katsu, kas sa temale heli sisse saad.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>No, eks peremees mängi enne ise ühe loo.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(puhub, et Antsu kõrwad lukku lähewad. Häält teeb muidugi keegi teine, näiteseinde taga, tuubaga).</stage>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Hahaha!</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Mis sina naerad?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Mina naeran, kui wiletsasti peremees niisugust hääd pilli puhub. See andke minu kätte. Siis aga ajage enne oma hoonetele toed alla, muidu wõiwad nad puruks põruda. Kui mina puhun, siis on kui Paristaja pill, wälgud hakkawad käima ja sadu tuleb maha.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Mis? Kui Paristaja pill, ja — wälgud hakkawad käima?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>No jah, kas sa, peremees, siis ei tea, kuidas on, kui Pikkeri pill hüüab?</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Tean, tean. Siis mina parem — pilli sinu kätte ei annagi, sa wõid mu hää pilli lõhki puhuda. <stage>(pasunaga ära tuppa).</stage></p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Noh kui ei, siis ei.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(tagasi tulles).</stage>
+                    <p>Olgu siis meie aastakaup niiwiisi koos: käokukkumisest teise aasta käokukkumiseni ja toop kulda aastapalgaks. Nüüd on küll käokukkumise aeg juba mööda, aga, olgu pääle, ma rehkendan aasta täis.</p>
+                </sp>
+                <pb n="34"/>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Olgu! Kui peremees tahab, olgu. Ja kes kaubalt taganeb, maksab aasta palga. Ajab peremees mind enne aastat ära, maksab ta aasta palga, — lähen mina ära, maksan ma peremehele.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Tublit poissi mina ära ei aja.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>No mina tubli peremehe juurest ka enneaegu ära ei lähe. Ja karwapäält pean ma sõna kuulma ja tegema, mis peremees käsib?</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Jah, karwapäält. Seda ma nõuan.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Aga kui peremees rumalusi käsib, kas ma siis ka rumalusi pean tegema? Kas peremees ise kõige eest wastutab?</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Mis häda pärast ma siis rumalusi hakkan käskima? Mis ma käsin, selle eest ma ka wastutan.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Hää küll.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Asi tops. Patsime käed kokku.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Patsime. <stage>(ettewaatlikumalt)</stage> Aga, peremees, ära sa mu kätt pigista, mina kardan peopesast kõdi.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Ei, ei. <stage>(panewad käed kokku).</stage></p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Teenistuse kaup on siis koos, peremees, aga — kuidas oleks, — peremees on wist ka ikka jõuumees — kui me korra wägipulgaga jõuu ära katsuksime? Peremees luges mind wäikseks ja kergeks — kui õige weaksime selle pääle kihla, et peremees mulle tuult alla ei saa?</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Mis? Tuult alla ei saa?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Noja, selle pääle, et peremees mind üles ei wea.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>No selle pääle wõime julgesti kihla wedada.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Paneme toobi kulla pääle.</p>
+                </sp>
+                <pb n="35"/>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Olgu. Wõta kaigas, sääl on. <stage>(näitab kaika pääle pommi sanga sees).</stage></p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ah, peremees, ega puu kaigas meiesugusid mehi ei pea, siis olgu ikka raua kang. Sääl wedeleb kang maas. Selle wõtame.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Sellel on ju ahel küljes.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Mis sest. Ma wõin ju kaksiti ahela pääle istuda. See ei takista midagi.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Õige küll, see ei takista. Noh, katsume.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Katsume! Aga, peremees, — enne too ka toop kulda lagedale, et ma näen, et sul teda on.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Antsuke, ära sa seda karda, et mul ei ole. <stage>(wadib tuppa).</stage></p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(istub ahelale pääle ja seadib kange jalgade ette walmis).</stage>
+                    <p>Soo, tulgu siis nüüd!</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(tuleb kullatoobiga).</stage>
+                    <p>Soo, Ants, siin on minu toop kulda. Aga — kus siis sinu oma on?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Minu? Minu toop kulda on peremehe käes. Eks peremees wõta palgast maha.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Õige küll, ma wõin ju palgast maha wõtta... <stage>(istub maha, toetab jalad Antsule wastu, sasib kaikast kinni, ähib ja puhib ja wenitab kõigest jõust. Ants naerab. Wanapaganal pääsewad käed lahti, ta lendab kukerpalli).</stage></p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Eks ma ütelnud, et peremees mulle tuult alla ei saa.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(pahaselt).</stage>
+                    <p>Katsume weel korra. Mul pääsiwad käed kogemata lahti.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Katsume, kui peremees tahab, aga — siis teise toobi kulla pääle.</p>
+                </sp>
+                <pb n="36"/>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(pahaselt).</stage>
+                    <p>Läks üks toop, mingu ka teine! Aga nüüd wean ma su lendu. <stage>(uus wenitamine ja puhklemine. Uuesti lendab Wanapagan pikali. Ajab siis pahaselt maast üles ja longib tuppa.)</stage></p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(tõuseb ruttu üles, päästab ahela lahti ja wiskab hunikusse).</stage>
+                    <p>Soo, see asi läks hästi.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(teise kulla toobiga).</stage>
+                    <p>Mis õigus, see õigus, Ants, sinna ei wõi parata. Kaks toopi kulda mokas. Ei oleks uskunudgi, et sa — kõhetu mees nii kõwa oled. Säh!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(hoiab kuue taskud laiali).</stage>
+                    <p>Kui peremees oleks hää, ja walaks taskudesse.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Wõta kõige toobidega ja anna toobid pärast tagasi. — Nüüd ma kutsun perenaese ja lapsed ka uut poissi waatama. <stage>(tuppa ära).</stage></p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ja mina peidan kulla ära. <stage>(jookseb wärawast wälja).</stage></p>
+                </sp>
+                <stage>(Wanapagan naesega — naesel on suur köögi nuga käes — tuleb toast, ühtlasi hakkab kari tahmaste nägudega lapsi, poisikesi ja tütrukukesi, reas uksest wälja wenima, neid saab näitelawa täis. Kõik püüawad, suud, silmad laiali, Antsu wahtida, tõukawad ja müksawad üksteist eest).</stage>
+                <sp who="#perenaene">
+                    <speaker>Perenaene.</speaker>
+                    <p>Noh, kus ta siis on, see sinu uus sulane?</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Küllap ta kohe tuleb, tea kuhu ta on läinud. Sääl ta juba ongi. <stage>(Ants tuleb).</stage></p>
+                </sp>
+                <sp who="#perenaene">
+                    <speaker>Perenaene.</speaker>
+                    <p>Nii pisike!</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Pisike küll, aga tal on tugewad sooned. <stage>(Antsule)</stage> Noh, Ants, nüüd näed kõike mu perekonda korraga.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(wiisakalt).</stage>
+                    <p>Tere siis ka, siit talu rahwas, tere ka perenaene. Olge siis ka uue poisi wastu lahke, eks siis poisi jalad ole ka wäledad perenaese käsku täitma.</p>
+                </sp>
+                <sp who="#perenaene">
+                    <speaker>Perenaene.</speaker>
+                    <p>Kuidas poiss, nõnda perenaene. Mul oleks uuele poisile kohe tööd anda, pudrumänd läks katki,<pb n="37"/> ei saa hommikusuurustgi keeta. Kui uus poiss läheks, tooks metsast uue pudrukeerutaja.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Silmapilk... <stage>(tahab minema pista).</stage></p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Ära's nüüd kohe lõhki jookse, Ants! Too siis ka hää tubli mänd, näed, meil on peret palju ja läheb ikka ka hää katla täis putru.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Jah, seda õnnistust ikka on näha...</p>
+                </sp>
+                <sp who="#perenaene">
+                    <speaker>Perenaene.</speaker>
+                    <p>Meil on külas niisugune halb wanainimene, kui see toob, siis ikka kolm, neli korraga, ja nõnda neid kogub.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Noh, rikas pererahwas, ega nende juures kül küllale kurja ei tee. <stage>(lippab minema, Wanapagan kaob tuppa).</stage></p>
+                </sp>
+                <sp who="#lapsed">
+                    <speaker>Lapsed</speaker>
+                    <stage>(tikuwad ema ümber unikusse, läbisegi).</stage>
+                    <p>Mamma, mamma! Mis uue sulase nimi on?</p>
+                </sp>
+                <sp who="#perenaene">
+                    <speaker>Perenaene.</speaker>
+                    <p>Ants ikka olla.</p>
+                </sp>
+                <sp who="#poiss-1">
+                    <speaker>Üks poiss</speaker>
+                    <stage>(algab, teised kõik hõiskades taga järel).</stage>
+                    <p>Ants?</p>
+                    <l>Ai Ants oli wäike saunamees,</l>
+                    <l>Saun oli suure metsa sees,</l>
+                    <l>Hunt ja karu käisid sääl,</l>
+                    <l>Ja rebane istus harja pääl...</l>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(jookstes toast tulles, kahe käega karjatades ja põrutades).</stage>
+                </sp>
+                <sp who="#lapsed">
+                    <speaker>Lapsed</speaker>
+                    <stage>(põgenedes).</stage>
+                    <l>Ai Ants läks mõisa kaebama,</l>
+                    <l>Suure uhke tõllaga...</l>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(ajab lauljad laiali, — üks poiss pistab pää nurga tagant wälja ja laulab).</stage>
+                    <l>Seitse siga tõlla ees,</l>
+                    <l>Ja puupöör oli pükste ees.</l>
+                </sp>
+                <pb n="38"/>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(ajab selle minema, teise nurga tagant wilksatab teine wälja ja laulab).</stage>
+                    <l>....rida oli rinna ees,</l>
+                    <stage>(jälle mujalt laulab üks)</stage>
+                    <l>....oli piibu sees!</l>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(lõõtsutades).</stage>
+                    <p>Niisugused ragunid! Kas pole tegu! <stage>(kärgib naese poole)</stage> Sina ka ei oska neid paremini kaswatada ja waol hoida. Päris häbi silmad täis!</p>
+                </sp>
+                <sp who="#perenaene">
+                    <speaker>Perenaene.</speaker>
+                    <p>Tea mis mina neile jõuan ära teha, tegu juba, kui kõigil ninad puhtad hoida. Ega's uus poiss hakka laste nalja pahaks panema, — säält ta tulebgi juba.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(paraja pudrumänniga).</stage>
+                    <p>Noh, siin, perenaene, on uus pudrukeerutaja. Kas kõlbab?</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(wõtab männi Antsu käest).</stage>
+                    <p>Ants, Ants, mis nalja sina oled teinud? Nii pisike! See on ju liiaks wäikene! Oota, ma lähen ise ja toon paraja. <stage>(ära).</stage></p>
+                </sp>
+                <sp who="#perenaene">
+                    <speaker>Perenaene</speaker>
+                    <stage>(on oksa maast wõtnud ja seda noaga lõikuma hakanud).</stage>
+                    <p>Lüpsiku kaane pulka lõikan, läks teine katki. Ants, ega sa laste nalja pahaks ei pannud?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Mihukest?</p>
+                </sp>
+                <sp who="#perenaene">
+                    <speaker>Perenaene.</speaker>
+                    <p>No seda, et nad siin laulsiwad...</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ei, perenaene, mina olen ise ka laulumees.</p>
+                </sp>
+                <sp who="#lapsed">
+                    <speaker>Kolm neli last</speaker>
+                    <stage>(on ema juurde kogunud ja rippuwad tema põlle külles).</stage>
+                    <p>Mamma, mis sa teed? Mis sa lõikad?</p>
+                </sp>
+                <sp who="#perenaene">
+                    <speaker>Perenaene.</speaker>
+                    <p>Küsija lapse suupulka teen.</p>
+                </sp>
+                <sp who="#lapsed">
+                    <speaker>Lapsed.</speaker>
+                    <p>Missugust "küsija lapse suupulka."</p>
+                </sp>
+                <sp who="#perenaene">
+                    <speaker>Perenaene.</speaker>
+                    <p>Seda "suupulka", mis neile lastele suhu pistetakse, kes ilmaaegu palju, ja niisugusid asju küsiwad, mis lastel waja teada ei ole.</p>
+                </sp>
+                <pb n="39"/>
+                <sp who="#lapsed">
+                    <speaker>Lapsed.</speaker>
+                    <p>Missugusid asju ei ole lastel waja teada..?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Hahaha!</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(metsast suure pudrumänniga, mille harud paar jalga ja saba rehawarre pikune).</stage>
+                    <p>Säh, wanamoor! Siin sulle pudrumänd! Keeruta nüüd! <stage>(Wanapagana perekond tuppa ära).</stage></p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(imestades).</stage>
+                    <p>Wot kus ikka pudrukeerutaja! Ei mina oleks uskunud, et ta nii suur peab olema! Aga, eks ta ole suure talu asi.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(laulab).</stage>
+                    <lg>
+                        <l>Kunas, kunas, wennakene,</l>
+                        <l>Kunas meie linna saame,</l>
+                        <l>Kus on lutik lehma suuru,</l>
+                        <l>Kirpu kirju härja suuru,</l>
+                        <l>Ritsikas rebase suurune?</l>
+                    </lg>
+                    <lg>
+                        <l>Kunas, kunas, kullakene,</l>
+                        <l>Kunas meie sinna saame,</l>
+                        <l>Kus need kuked sööwad kulda,</l>
+                        <l>Kuked kulda, kanad karda,</l>
+                        <l>Haned haljasta hõbedat?</l>
+                    </lg>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(toast, kotiriide, suurte nõelte ja jämeda niidiga, mida eemalt näha wõib).</stage>
+                    <p>Laula, laula, Ants, siis aga õmbleme siin paar uut kotti kokku. Pärast läheme rükid lõikama, siis on kottisid waja. Perenaesel ei ole aega ja naesterahwa peret meie ei pea. Peame juba ise selle tööga ka walmis saama.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Küll on teil aga ka suured nõelad ja tugew niit!</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Mis see nõrk asi siis ka wastu peab. Wõta sina üks kott, mina wõtan teise, katsume kumb enne walmis saab.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Katsume, peremees. <stage>(toowad pingi ettepoole ja istuwad õmblema).</stage></p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Säh, Ants, aja mu nõelale niit järele, ma ise ei seleta.</p>
+                </sp>
+                <pb n="40"/>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Küll ikka, peremees. <stage>(paneb nõelale mitme sülla pikkuse niidi järele).</stage></p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Miks sa siis nii pika niidi paned?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Siis ei ole ajawiitmist ja alati niidi nõela järele panemist. Töö läheb rutemini edasi.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Õige küll, Ants, sul on õigus. Selle pääle ma ei mõtelnud. <stage>(hakkab õmblema, ei saa teisiti, paneb riidele kiwi wajutiseks pääle ja jookseb siis iga piste järele nõelaga nii kaugele, kui niit ulatab. Nõnda mitu korda).</stage></p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(kes ise lühikese niidiga õmbles).</stage>
+                    <p>Peremees, minu kott walmis.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(imekspannes).</stage>
+                    <p>Tõesti?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Eks näputöö pea nibedasti, näbedasti minema...</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(wiskab oma töö nurka).</stage>
+                    <p>Siis söögu ka susi, kui sina iga asja pääle osawam oled! <stage>(lööb pahaselt käega. Ära).</stage></p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(laulab).</stage>
+                    <l>Siga läks tööle, mõõk oli wööle,</l>
+                    <l>Kassil kannussed jalassa,</l>
+                    <l>Lutika pää oli lumine,</l>
+                    <l>Kits läks killawooriga,</l>
+                    <l>Lammas oma haamiga.</l>
+                    <l>Hiir aga istus, müts oli peos.</l>
+                    <l>Wõtsin lõmmu lõuka päälta,</l>
+                    <l>Lõin aga kilgi külje pääle</l>
+                    <l>Parmu pika piha pääle.</l>
+                    <l>Leelu, leelu Lepa-Tiiu,</l>
+                    <l>Kas nägid Kadaka-Kaie?</l>
+                    <l>Tulgu mulle wõõruselle,</l>
+                    <l>Mina tapsin tallekese,</l>
+                    <l>Temale annan sarwekese,</l>
+                    <l>Koerale annan kondikese,</l>
+                    <l>Muu annan mukidele.</l>
+                    <stage>(istub maha ja hakkab piipu seadima).</stage>
+                </sp>
+                <pb n="41"/>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(tagasi tulles).</stage>
+                    <p>Mis sa teed, Ants?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Piipu täidan, peremees.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Kas on ka hää tubakas?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>On, peremees.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(toob kole suure piibu toast).</stage>
+                    <p>Ants, laena mulle ka piip tubakat.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ei wõi, peremees. Minu tubakas on sulle liig kange.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Anna ikka anna, Ants. Mina armastan kanget tubakat.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ei wõi, peremees. Sa ei oska minu tubakat suitsetada. See töö tahab hilju ja ettewaatlikult toimetada.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Mina suitsetan hilju ja ettewaatlikult.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ei, ei, — ei wõi. Õnnetus wõib juhtuda. Sa wõid kergesti maja põlema ajada.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Ära nüüd karda, ega ma laps ei ole.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>No kui sa oma jonni ei jäta, anna siis piip siia, ma laadin ta täis. <stage>(wõtab piibu ja paneb sinna sisse wäikese tulewärgi — Schwärmer)</stage> Aga tõmba sa ettewaatlikult. Kui sa kõwasti tõmbad, tuleb õnnetus!</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(wõtab tulerauaga tuld, paneb piibu pääle ja tõmbab. Tulewärk hakkab susisema ja Wp. hirmuga piibuga ringi jooksma).</stage>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(teda maast üles aidates).</stage>
+                    <p>Ma ütlesin ju, peremees, tõmba ettewaatlikult! Aga sul on huulde-wedru nähtawasti liig kõwa!</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(aewastab, Ants aewastab ka alati kaasa, aga ikka taga järele).</stage>
+                    <p>Sa olid — atsih — Ants, piibu liig kõvasti — atsih — täis toppinud, ta ei annud ju hinge<pb n="42"/> mitte sugugi! Ma korra tõmbasin — atsih — läksgi käes kõrbuma. Hää weel, et suuremat õnnetust ei juhtunud.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ma ütlesin ju, peremees, mul on kange tubakas sa ei oska teda suitsetada, aga, wõi sa uskusid!</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(hakkab toa poole lonkima, läwe päält).</stage>
+                    <p>Ants!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Jah!</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Mina pean natuke kodust ära minema. Walwa sa aida ukse järele, wargaid on palju liikumas. Ja otsi omale ise kodu ümbert ametit. Siin on ühte ja teist teha, küll sa ise leiad. @Ants.</p>
+                    <p>Hää küll, peremees.</p>
+                </sp>
+                <stage>(Wanapagan ära. Ants läheb tõstab aida ukse eest, toob puude alla ja heidab ukse pääle magama).</stage>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(tagasi tulles).</stage>
+                    <p>No, mis tükka sina teed? Käsin sind aida ukse järele walwata, et wargad sisse ei pääse, sina wõtad ukse eest koguni ära, et wargadel weel õige hõlpus on!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Täidan peremehe käsku. Peremees käskis aida ukse järele walwata, siin minu külje all on uks kõige julgema koha pääl.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Koer! <stage>(annab Antsule kõrwu mööda).</stage> Sa ei oska muud teha, kui mind wihastada! <stage>(läheb õuewärawast wälja).</stage></p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Aih! <stage>(hõõrub kätega nägu).</stage> No oota sa! Seda ma sulle kättetasumata ei jäta! Wõi ärarikkus peaaegu näo pääst! Oota, oota sa, seni tegin ma sinuga ainult nalja, aga <stage>(näitab rusikat)</stage> sa pead mind weel tunda saama! Mis wingerpussi ma temale siis nüüd mängin? <stage>(waatab ringi).</stage> Oota, nüüd ma tean. Kätega sa mind lõid, — kätest tahan ma sind karistada, <stage>(weeretab jämeda puupaku seina äärest keset näitelawa ja hakkab sellele talwa sisse taguma).</stage></p>
+                </sp>
+                <pb n="43"/>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(kähku tagasi tulles).</stage>
+                    <p>Unustasin sulle weel midagi ütelda, Ants,... aga, mis sa teed, Ants?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(rahuliselt).</stage>
+                    <p>Pidin enesele kätesoojendajat tegema. Kui külm aeg tuleb ja wäljas tööd on, eks teda siis ole waja.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>No kuidas sa siis sellega tahad käsa soojendada?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Kui sõrmed paku wahele panen, kohe soe käes.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Seda ma ei usu.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ei olegi waja uskuda. Ise teen ja ise tarwitan.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(pistab käed paku prao wahele, wähe aja pärast).</stage>
+                    <p>Ants, pojuke, sinu kätesojendajast pole abi ühtegi. Mina ei tunne midagi sooja.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(kurjalt).</stage>
+                    <p>Ah, ei tunne? Hää küll ma aitan. <stage>(lööb kirwega talwa paku wahelt wälja).</stage></p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(käed paku wahel).</stage>
+                    <p>Aih! <stage>(hakkab karjuma ja pakk järel, Antsu tagaajama, kes ees ringi kerib).</stage></p>
+                </sp>
+                <stage>(Eesriie).</stage>
+            </div>
+            <pb n="44"/>
+            <div type="act">
+                <head>Neljas järk.</head>
+                <stage>Mängukoht endine. Kui eesriie üles läheb, seisab Ants tagapool kaewu ääres ja peksab pikade witstega suurt tõrt. Istub siis tõrre põhja pääle, kõigutab jalgu ja laulab.</stage>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <l>Perenaene pettis minda,</l>
+                    <l>Pani wetta piima sisse,</l>
+                    <l>Mina aga tarka poisikene,</l>
+                    <l>Petsin jälle perenaesta.</l>
+                    <l>Läksin wälja kündemaie,</l>
+                    <l>Ajasin wao wainu poole,</l>
+                    <l>Teise wao teise poole,</l>
+                    <l>Ei ma riku rohu juurta,</l>
+                    <l>Kaku kasteheinakesta,</l>
+                    <l>Ma annan maada maltsal kaswa,</l>
+                    <l>Ohakal ula elada,</l>
+                    <l>Sinilillel sigineda,</l>
+                    <l>Kullerkupul kuuti lüüa,</l>
+                    <l>Ohak oli laia, lapsi palju,</l>
+                    <l>Malts oli mäda, murelene,</l>
+                    <l>Sinilill seawööti,</l>
+                    <l>Kullerkupu kanapurtsu.</l>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(mõlemad käed mähetes, tuleb toast).</stage>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(hüppab tõrre põhja päält maha ja läheb temale wastu).</stage>
+                    <p>Perenaene käskis tõrukest witsutada, — ma witsutasin õige mehe moodi. Ei tea, mis tööd peremees nüüd jälle annab?</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Mis tööd sulle weel anda, kui sa kõik wõereti ja wastuoksa teed! Ei julge sulle enam midagi tööd anda.</p>
+                </sp>
+                <pb n="45"/>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ei mina, peremees, tee midagi wastuoksa ega wõereti. Mina teen, mis kästakse.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(wihaselt).</stage>
+                    <p>Rumalusi teed ainult! Nagu natukese aja eest. Mina ütlen: määri wanker ära, ja sina? Määrid wankri üleni tõrwaga kokku. Kas mina seda käskisin?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>No kuidas? Peremees ütles, määri wanker ära ja mina määrisin.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Iga teine oleks aru saanud, et mina ometi ainult wankri telgede määrimist mõtlesin. Aga sina teed meelega kõik wõereti.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ei minul ole waja peremehe mõtteid mõista, seda meie kauba sees ei ole. Meie kauba sees on karwapäält sõnakuulmine ja kui peremees rumalusi käsib, wastab ta ise. Eks peremees wõinud ütelda: wõia wankri teljed ära. Aga peremees ütles: Määri wanker ära...</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Ah mine!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Kuhu! Metsa jälle wõi?</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Ära mine mu silmist! <stage>(istub murelikult pingi pääle ja jääb käsipõsikil konutama).</stage></p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(hakkab eemale lonkima).</stage>
+                    <p>Perenaene <stage>(higine ja punane, tuleb, uus luud saunawiha asemel kaenlas, üle õue).</stage></p>
+                    <p>Ants ae!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Jah, perenaene!</p>
+                </sp>
+                <sp who="#perenaene">
+                    <speaker>Perenaene.</speaker>
+                    <p>Ma tulin saunast, ei läbenud oodata kuni lapsed kõik pesemisega walmis saiwad, paar poissi jäiwad sinna. Ole hää mees, mine sinna, pane neile riided selga, nad ei saa ise sellega toime, — ja too nad ära.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Küll ikka perenaene! Jalapäält <stage>(longib ära).</stage></p>
+                </sp>
+                <pb n="46"/>
+                <sp who="#perenaene">
+                    <speaker>Perenaene</speaker>
+                    <stage>(kaastundlikult Wanapaganale).</stage>
+                    <p>Mis sina nüüd siin istud ja muretsed! <stage>(istub tema kõrwale).</stage></p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Mis mina muretsen wõi... Käisid ikka, käisid pääle: Wõta sulane, wõta sulane; külarahwas pilkawad, et meie sulast ei raatsi pidada. Lell ka andis nõuu: Wõta sulane, wanaks jääd, ei jõua talu enam korras pidada... Noh, tegin teie tahtmist, — näe nüüd... <stage>(näitab oma mähetes käsa).</stage></p>
+                </sp>
+                <sp who="#perenaene">
+                    <speaker>Perenaene</speaker>
+                    <stage>(püübab wanameest trööstides paitada ja temale kätt ümber piha panna, mis aga mõlemate kehaka oleki läbi wäga weidralt wälja tuleb).</stage>
+                    <p>Jah, eks nüüd ole küll kurjaga kimpu saadud. Ei tea kas need ristitud inimesed kõik niisugused peaksiwad olema wõi?</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Kuri seda teab!</p>
+                </sp>
+                <sp who="#perenaene">
+                    <speaker>Perenaene.</speaker>
+                    <p>Mõtle ometi, mis ta eila tegi. Mina tulen marjaaiast ja ütlen temale: Ants, kapstapeenrad kippuwad umbrohuga äraummistama, mine õige, tee peenrad puhtaks. Mis teinud temakene? Wõtnud reha ja pöörnud peenrad pahupidi. Ei enam umbrohtu, aga ei ka enam kapsataimekest. Puhas mis puhas. Mina ütlen: Antsuke, mis sa nüüd ometi oled teinud?! Tema wastu: tema olla käsku täitnud karwapäält. Mina olla käskinud peenraid puhtaks teha ja tema olla teinud.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(pääd nokutades, nukralt).</stage>
+                    <p>No ja, ja, ja! See on ju alati: tema täidab käsku karwapäält!</p>
+                </sp>
+                <sp who="#perenaene">
+                    <speaker>Perenaene.</speaker>
+                    <p>Jah, ja mina ütlen temale pahaselt selle pääle niisamuti: Mine metsa! — Pärast hakkan waatama kuhu poiss jäänud? Kusagilt ei leia, kadunud nagu wits wette. — Lapsed tuliwad warjust, räägiwad: Ants magada metsas. — Lähen sinna, küsin: Mis sa siin teed? Tema wastu: täidan käsku. Perenaene ütles: mine metsa. Mina läksin.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Oh, oh, oh, jah, jah, jah! See on ikka kõik weel tühi asi, selle kahju ei ole kuigi suur.<pb n="47"/> Aga mis tükka ta minuga mänginud on — ei julge rääkidagi! Puupaljaks teeb ta meid, haigeks wigaseks weel päälegi <stage>(näitab jälle oma käsa).</stage> Oh, oh, oh, jah, jah, jah!</p>
+                </sp>
+                <sp who="#perenaene">
+                    <speaker>Perenaene.</speaker>
+                    <p>Kihuta minema!</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Hää ütelda, kihuta minema! Kes teab, mis tükka ta siis weel teha wõib. Toop kulda wiska maha, ja kus weel külarahwa naer: Mitte kahte nädalatgi ei saanud sulasega läbi. Ja lell weel! Kas tema usub, et niisuguse ristitud inimesega, kui ta ülekäte läinud on — keegi pagan läbi ei saa!</p>
+                </sp>
+                <sp who="#perenaene">
+                    <speaker>Perenaene.</speaker>
+                    <p>Mis me siis ometi peame tegema!</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Peame ikka weel katsuma läbiajada, ehk parandab meelt, kui näeb, kuidas meie õiglased ja auusad oleme. Aga — mis see siis jälle on?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(tuleb kahe — parem kui neid enam — halasti, (trikoo riietes),</stage>
+                </sp>
+                <sp who="#perenaene">
+                    <speaker>Perenaene</speaker>
+                    <stage>(kahte kätt kokku lüües).</stage>
+                    <p>Ants! Mis tükka sa nüüd ometi teed! Kas sul weel aru raasukest pääs on? Kas sa siis sugugi ei mõtle, et nad ennast ärakülmetawad ja haigeks jääwad?! Riided seob lastele nööriga selga!... Mispärast siis?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Kas mina tean, mispärast.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Ise teeb ja ei tea ka weel!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Kust mina wõin teada. Perenaese käsk oli: pane lastele riided selga ja too ära. Mina panin. Ilma sidumata nad neil seljas ei seisnud.</p>
+                </sp>
+                <sp who="#perenaene">
+                    <speaker>Perenaene</speaker>
+                    <stage>(lastele).</stage>
+                    <p>Tulge, pojakesed, tulge tuppa. <stage>(püüab neid põlle alla warjata)</stage> Kui te mulle selle pääle haigeks ei jää! <stage>(Antsu rusikaga ähwardates)</stage> Kui nad nüüd kärbawad, siis on see sinu hinge pääle! <stage>(Wanapagan wõtab ühe, perenaene teise lapse sülesse, mõlemad wadides tuppa ära).</stage></p>
+                </sp>
+                <pb n="48"/>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(tuleb ettepoole ja laulab).</stage>
+                    <lg>
+                        <l>Üks mina hoolin, kaks mina kardan,</l>
+                        <l>Üks mina hoolin uhkemaista,</l>
+                        <l>Kaks mina kardan kangemaista!</l>
+                    </lg>
+                    <lg>
+                        <l>Mina mees kui mürgitükki,</l>
+                        <l>Kange mees kui karupoiga,</l>
+                        <l>Lõuamees kui lõwipoiga.</l>
+                    </lg>
+                    <lg>
+                        <l>Ei mind tohi Toomas lüüa,</l>
+                        <l>Wana herra ärgitada,</l>
+                        <l>Mats ei malka wõngutada!</l>
+                    </lg>
+                    <lg>
+                        <l>Kes tuleb wastu waidelema,</l>
+                        <l>Waidelema, sõitelema,</l>
+                        <l>Wõi jälle, sõnu wahetama?</l>
+                    </lg>
+                    <lg>
+                        <l>Kes wõidab minu sõnule,</l>
+                        <l>See wõidab soe sammule</l>
+                        <l>Metsakoera kõnnakule!</l>
+                    </lg>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(tuleb toast).</stage>
+                    <p>Ants! Sa oled teenistusest lahti. Sa wõid minna!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Mis häda pärast?</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(kurjemalt).</stage>
+                    <p>Sa oled teenistusest lahti. Ma lasen su lahti. Sa wõid minna!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Mitte mõtetgi. Mul on seitsme aasta kaup. Enneaegu ära minna ma ei mõtlegi.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Aastakaup on sul! Seitsme aasta pääle sa tahtsid, aga mina ei teinud. Aastakaup, käokukkumisest käokukkumiseni, tead?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Kui aastakaup, siis aastakaup. Enne aastat mina ei liigu.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Aasta palga saad kätte!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Et mina teenimata palka taha. Mina elan ilmas õigusega. Söön peremehe leiba, täidan peremehe käsku, kõik kuidas kord ja kohus. Mina enne aastat ei lähe. Käokukkumisest käokukkumiseni...</p>
+                </sp>
+                <pb n="49"/>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>See on su wiimane sõna?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>See on mu wiimane sõna.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(kanna pääl tiiru lüües tuppa ära).</stage>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(tuleb ettepoole ja laulab).</stage>
+                    <lg>
+                        <l>Üks mina hoolin, kaks mina kardan.</l>
+                        <l>Üks mina hoolin uhkemaista,</l>
+                        <l>Kaks mina kardan kangemaista!</l>
+                    </lg>
+                    <lg>
+                        <l>Uhked ära udistan,</l>
+                        <l>Kanged ära koristan,</l>
+                        <l>Ise üle hüppamaie!</l>
+                    </lg>
+                    <stage>(hüppab üle pingi).</stage>
+                </sp>
+                <stage>(Poisikene — Wanapagana poeg — hiilib salaja Antsu selja tagant mööda, ronib puu otsa ja peidab ennast sinna ära).</stage>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <lg>
+                        <l>Mina mees kui mürgitükki,</l>
+                        <l>Kange mees kui karupoiga,</l>
+                        <l>Lõuamees kui lõwipoiga!</l>
+                    </lg>
+                    <lg>
+                        <l>Uhked ära udistan,</l>
+                        <l>Kanged ära koristan,</l>
+                        <l>Ise üle hüppamaie!</l>
+                    </lg>
+                    <stage>(hüppab).</stage>
+                </sp>
+                <stage>(Poisikene puu otsas hakkab käo wiisil kukkuma. Wanapagan naesega luurawad nurga tagant).</stage>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Mis? Kägu tulnud õue kukkuma? Mis hull kägu see on, kes nüüd pääle Jakobi-päewa weel kukub? Seda waja hirmutada. <stage>(jookseb tuppa, toob wibupüssi, hoiab otsa käo poole ja laseb. Poisikene aietab korra, kukub krabinal maha ja paneb, pehmet kohta kätega kinni hoides, üle õue toa poole wadima).</stage></p>
+                </sp>
+                <sp who="#perenaene">
+                    <speaker>Perenaene</speaker>
+                    <stage>(karjudes, Wanapagan tagajärel, ka toa poole, lapsele järele wadides).</stage>
+                    <p>Ära tappis lapse! Ära tappis! Ära tappis kurjategija nüüd lapse! <stage>(mõlemad ära).</stage></p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ära tappis nüüd jah lapse, kui laps wudib, et jalad wälguwad. Oleks seda teadnud, et päris kägu ei<pb n="50"/> olnud, oleks otsa enam sinna poole hoidnudgi. Karjuge nüüd pääle, ärge saatke teinekord last puu otsa kukkuma ja minu kaupa rikkuma. See tähendas küll seda, et minu aasta ümber pidi olema? Peate warem üles tõusma, kui Kawal-Antsu petta tahate. <stage>(kõnnib kaewu poole ja waatab silmadega otsides maha)</stage> Siia ma kaewasin eila hää õnne pääle augu ja matsin päält kinni, mõtlesin, ehk tuleb teda tarwis ja saab korra peremehe rahakeldrile õige tugewasti kuppu lasta, aga — kui see pahandus pererahwaga nüüd suuremaks läheb, siis on wist küll wähe lootust. Noh, ootame ära, ehk tuleb õnn kogemata appi. <stage>(tasast müristamist on kuulda. Ants kuulatab ja waatab üles poole)</stage> Mis see siis on? Wihma saame wõi? See on ju päris tubli pikse pilw, mis säält üles tuleb. <stage>(tuleb ette poole ja laulab)</stage></p>
+                    <l>Toa taga tammemetsa,</l>
+                    <l>Koja taga kuusemetsa,</l>
+                    <l>Lauda taga laanemetsa,</l>
+                    <l>Sauna taga saaremetsa,</l>
+                    <l>Igas tipus sääl tihane,</l>
+                    <l>Iga otsas sääl orawas.</l>
+                    <l>Oot, oot, oot, oot orawakene</l>
+                    <l>Seisa serwi linnukene,</l>
+                    <l>Seni kui püssi pööretakse,</l>
+                    <l>Käerauda käänetakse,</l>
+                    <l>Siis lasen tipusta tihase,</l>
+                    <l>Oksa otsasta orawa!</l>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(tuleb, kawal nägu pääs).</stage>
+                    <p>Noh, Ants, kas hakkame nüüd lepitust sobitama ja jälle endist wiisi hääga elama wõi?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Minu poolt pole paha olnud, minul pole leppida kah.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Ah, Ants, mis me nüüd seda räägime. Räägime sellest, kuidas me edaspidi paremini elama hakkame. <stage>(müristab, Wanapagan suures ärewuses).</stage> Kuule... Ants, mis see on?</p>
+                </sp>
+                <pb n="51"/>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ei midagi, müristab. Pikse pilw tuleb.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Oi, oi, Ants, müristamist ma kardan. Kui wälgud mind leiawad, tapawad nad mu ära.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Mis sa kardad? Näe, mina ei karda sugugi.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Jaa, sina! Sinul on ristimärgid pääl, minul mitte. Sind ei kiusa Pikker taga.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ma wõin sulle ka märgid pääle teha.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Ei, ei, ega nad minul pääl ei seisa. Kuhu ma nüüd warjule poen?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Poe siia tõrre põhja alla, paremat paika ma ei tea.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Ei see aita. Wälk purustab tõrre, tapab minu!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Karga kaewu! Ma weeretan tõrre pääle.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>See on õige nõuu, Ants, sääl olen ma warjul. <stage>(wali müristamine, Wanapagan kargab kaewu)</stage> Soo, Ants, weereta nüüd tõrs pääle.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(teeb seda).</stage>
+                    <p>Noh, nüüd oled warjul. Oota ma teen kaanele kaitsemärgid pääle ka <stage>(tõmbab söe ehk kriidiga tõrre põhja ja külgede pääle suured wiienurgalised ristid).</stage></p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(kaewust, hirmul).</stage>
+                    <p>Ants, Ants, mis sa teed! Ära tee!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(wõtab kirwe maast ja wirutab paar korda kirwe silmaga tõrre pihta).</stage>
+                    <p>Wait ole! Kas sa ei kuule, kuidas wälgud käiwad?! <stage>(tuleb ettepoole ja laulab — laulu ajal läheb müristamine kaugemale).</stage></p>
+                    <l>Läks aga metsa Tibunibu,</l>
+                    <l>Mina läksin ka.</l>
+                    <l>Wõttis püssi Tibunibu,</l>
+                    <l>Mina wõtsin ka.</l>
+                    <l>Karu leidis kaerast Tibunibu,</l>
+                    <l>Mina leidsin ka.</l>
+                    <pb n="52"/>
+                    <l>Karu laskis Tibunibu,</l>
+                    <l>Mina lasksin ka.</l>
+                    <l>Naha müüs aga Tibunibu,</l>
+                    <l>Mina müüsin ka.</l>
+                    <l>Raha sai aga Tibunibu,</l>
+                    <l>Mina sain aga ka.</l>
+                    <l>Kõrtsi läks aga Tibunibu,</l>
+                    <l>Mina aga — ei läinud — jaa!</l>
+                    <p><stage>(astub kaewu juurde).</stage> Nüüd wõid juba wälja tulla, peremees. Müristamise pilw läks eemale.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(kaewust).</stage>
+                    <p>Jah, Antsuke, tõsta tõrs päält ära.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Mis mina temast tõstan. Sull ise jõudu küllalt. Tõuka päält ära.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Tõsta nüüd ikka sina, Antsuke, mina ei saa mitte.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Kui ei saa, siis ei saa. Mispärast sa siis ei saa?</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Sa oled ju "wirpled wärpled" pääle teinud!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Mis "wirpled wärpled!"</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>No need, mis sa söega tegid.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ah soo! Hahaha! Kas tead, peremees? Sääl kus sa oled, sinna sa ka jääd. Sa lõid mulle käpuga näkku. Minu isa ja ema ei ole mind löönud, sinu käest sain ma lüüa. Nüüd tasun ma sulle kätte. Kärwa nüüd sinna kus sa oled!</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(paludes).</stage>
+                    <p>Mis sa sellepärast wiha pead! Lase ikka wälja, ma olen eluaja su wastu hää. Mulle hakkab külma wee sees jahe.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ei mina sinu eluaja häädust tarwita. Külmeta aga pääle.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Antsuke ma annan sulle kamalu täie raha.</p>
+                </sp>
+                <pb n="53"/>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Et ma rumal oleksin. Sul kulda küllalt. Kui sa mulle mu kübara rummu täie kulda annad, olgu ehk siis.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Lepi ikka wähemaga, Ants!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ei. Tahad, et ma wirpleid-wärpleid tõrre põhja pääle weel juurde teen?</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(hirmul).</stage>
+                    <p>Ei, ei, Antsuke, ma annan kübara täie.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Auusõna?</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Auusõna!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Tule siis! <stage>(weeretab tõrre kaewu päält ära).</stage></p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(kaewust ronides, märg, raputab ennast, et weepiisad lendawad).</stage>
+                    <p>Hää mees, Antsuke, et sa lahti päästsid. Mina pean sõna. <stage>(toa poole ära).</stage></p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Too sa hää waka täis, tead, mul on suur pää ja kõrge rummuga kübar.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Küll saab, Antsuke.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(wõtab taskust noa ja lõikab, nõnda et nähtakse, kübara põhja alt ära).</stage>
+                    <p>Hää, et ma eila augu walmis kaewasin. Tal on raha küllalt ja wõib ka palju rohkem anda, kui kübarasse läheb.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(tuleb kasetohust wakaga. Kulla walamine peab nõnda, sündima, et kulda näha ei ole, aga klaasi tükkide kõlisemine peab kuulda olema).</stage>
+                    <p>Säh, Antsuke!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>No mis nalja sa teed? See on ju soolawaka täis. Too aga tubli Riia wakk, kui kübarat täita tahad.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(walab kulla ära).</stage>
+                    <p>Jah, Antsuke! <stage>(ruttu ära ja hää tündriga tagasi, walab tündri tühjaks ja waatab, kukalt kratsides, et kübar weel täis ei ole)</stage> Mis kübar see siis on, see ei saagi täis!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ma ütlesin ju, wõta hää Riia wakk. Too aga, too weel!</p>
+                </sp>
+                <pb n="54"/>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(läheb ja tuleb uue tündriga, mis ka weel kübarat ei täida, kurwalt).</stage>
+                    <p>Pai Ants, mul ei ole enam hinge taga rohkem raha, wiimased kopikad olen sulle ära toonud! Muud kui wanaema kirstukapis on weel kolm wana krossi mälestuseks! Kui sa ei jäta, toon need ka weel ära!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Too need wanaema kolm krossi ka weel ära. Siis on üks walukannatamine.</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(läheb, toob ja wiskab need kolm krossi ka weel kübarasse. Kõik see rahatoomine tahab ruttu mängida, muidu läheb igawaks).</stage>
+                    <p>Ants, Ants, nüüd olen ma puupaljas!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(on näo metsa poole pööranud ja loeb).</stage>
+                    <p>Üks, kaks, kolm, neli, wiis, kuus, seitse, kaheksa...</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan.</speaker>
+                    <p>Mis sa loed?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Pühajüri kutsikaid! Terwe kari tuleb õue wärawa poole! Üheksa, kümme, üksteist, kakst...</p>
+                </sp>
+                <sp who="#wanapagan">
+                    <speaker>Wanapagan</speaker>
+                    <stage>(hirmul).</stage>
+                    <p>Need on mu waendlased, neid ma kardan. Kuhu ma poen? <stage>(kargab jälle kaewu).</stage></p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(weeretab kaewule tõrre pääle).</stage>
+                    <p>Soo, ligune siis nüüd. Seniks on mul aega oma kulda ärakoristada ja plehku panna!</p>
+                </sp>
+                <stage>(Eesriie.)</stage>
+            </div>
+            <pb n="55"/>
+            <div type="act">
+                <head>Wiies järk.</head>
+                <stage>Mets. Öö on. Kaugele ärakaduwat müristamist ja wihmapiiskade puu otsast maharabisemist on kuulda, wahete wahel heidab põuawälku. Öökullid huikawad, mõnes kohas puude otsas on nende õõguwaid silmi näha ja muste kogusid aimata. Pärast lööb walgemaks.</stage>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(tuleb paremalt poolt, enese ees käru tõugates).</stage>
+                    <p>Puh, kui raske! Hää on, kui seda raha ja rikkust ei puudu, aga ränk on teda raibet ikka kärutada kah. Huu, kui pime ja kole. Kui ometi metsast ruttu läbi ja inimeste juurde wälja saaks? Ega mul küll hamba all ka enam kuiwa kohta ei ole! <stage>(hakkab jälle käru külge)</stage> Waja rühkida, wõib olla, pääseb Wanapagan kuidagi kaewust, ajab oma kullale weel järele ja käänab mu kaela kahekorra. <stage>(jätab käru seisma)</stage> Raske! Tee ka pehme kui pudru! Noh, nüüd me oleme aga juba kodu lähedal. — No küll wennad teewad suured silmad, kui ma juba nii lühikese aja järele ja nii suure kullakoormaga tulen! Lass nad siis weel nupumeest naerawad! — Ma lubasin küll tõllaga tulla, sikusarwe puhujad eel ja torupilli puhujad tagajärel, aga — kust sa rutuga wäljatõmbad. <stage>(tõukab käru edasi ja jätab jälle seisma)</stage> Mul on, nagu kõnniks keegi kergete sammudega minu kannul? Ei näe midagi. <stage>(tõukab jälle käru)</stage> Oi kui raske, kurat wõiks wõtta!</p>
+                </sp>
+                <stage>(Sellsamal silmapilgul on metsast wäljakarganud must kogu tema kõrwal ja kärust kinni haaranud).</stage>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe.</speaker>
+                    <p>Anna siis siia!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(kohkudes).</stage>
+                    <p>Isa pojuke, püha ristike!</p>
+                </sp>
+                <pb n="56"/>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe</speaker>
+                    <stage>(on metsa kadunud, nagu ära wajunud, metsast).</stage>
+                    <p>Mis sa siis lubad, kui sa ei anna!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Toho peletist, wõi wana Kikkhabe, ja — kohe käepärast, kui wähegi teda nimetad! No — mina sind ei karda. Ega ma sind täna esimest korda ei näe. Kui ma kiren korra "kukeleegu", kiren ma su kohe põrgupõhja. — Antsuke, wõta nüüd jõud kokku ja katsu, et sa siit koledast kohast eemale saad! <stage>(hakkab käru tõukama).</stage></p>
+                </sp>
+                <stage>(Paawel ja Toomas tulewad wanatmoodi kardlaternaga, millel klaaside asemel ainult täkked sees, rühkides Antsule wastu).</stage>
+                <sp who="#paawel">
+                    <speaker>Paawel</speaker>
+                    <stage>(põrkab tagasi ja hoiab laterna walgustades kõrgele).</stage>
+                    <p>Pagan! Mis karutantsitaja siis see on? Peaaegu oleks karule kaksiti selga sattunud...</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>See ei ole karutantsitaja, see on kärutantsitaja. Kas sa siis ei näe?</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel.</speaker>
+                    <p>Mida pärgel sa pimedas näed wõi?... <stage>(walgustab Antsule laternaga näkku)</stage> Ehee! See on ju meie — Ants! Wõe, wõi nupumeest saab ka korra jälle näha! Noh, kas oled meist juba kõrgemaks tõusnud ja tuled waranduse wooriga wõi?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ega wõi teada ka.</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Lubasid ju tõllaga tagasi tulla. Kes su mehe siis nüüd käru taha on pannud? Mis sul sääl koormas on, hobuse sõnik wõi? Jajah, ei ole nali, ei saa eluaeg nii häid päewi, kui kodus ja isa selja taga.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Sääl isa selja taga, sääl te tegite mulle muidugi elu wäga kergeks ja armsaks jah?</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel.</speaker>
+                    <p>Wõi weel! No kas isa laskis sinusse näpuga puutuda wõi?</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Tule, Paawel, mis sa temaga hakkad kallist aega raiskama. Lähme!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Kuhu te siis weel nii hilja nii kibedasti kipute?</p>
+                </sp>
+                <pb n="57"/>
+                <sp who="#paawel">
+                    <speaker>Paawel.</speaker>
+                    <p>Loll sa oled ja lolliks sa jääd. Kuhu siis mujale, kui Kiitsaku kõrtsi? Tule ka kaasa, kui sa mees oled ja kärista üks suur waskine mõõt karjajaaku wälja. Kui muidu ei saa, pane wõi käru panti! Täna on sääl suured joodud ja Raswa-Jaak ajab torupilli.</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Ei pääsenud warem minema...</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ja mina ka ei jõudnud saju pärast warem pärale. Jätke Kiitsakule minek järele ja tulge aidake käru koju tõugata, Teie kahju see ei pea olema. Ega mina teile halb wend olla ei tahagi.</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Kärista aga ise oma käru, pojuke, ja — ära sa kodust räägi. Me puretame su penidega minema, kui sa sääl oma nägu näitad.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ärge jõrisege, tulge aidake käru tõugata.</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Mine põrgu. Ja hoia, et sa oma sõniku käruga meie õuewärawa lähedale ei tule. Läki, Paawel, mis temaga siin jorutada.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ärge olge oinad! Wõi sõniku käru! See on ju puhas selge raha! <stage>(wirutab jalaga kotile pihta, kott kõliseb).</stage> Kas te ei kuule?</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel</speaker>
+                    <stage>(seisma jäädes).</stage>
+                    <p>Mis hullu juttu sa ajad? Sinul raha!</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Oli küll nagu raha kõlin...</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>No muidugi on raha. Tulge waatama, kui te ei usu. <stage>(Seob kotisuu lahti, tõstab peoga kulda lendu ja laseb kotti tagasi woolata).</stage> See on ju puhas kuld ja hõbe, ainult kolm wana wask krossi on hulgas.</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel</speaker>
+                    <stage>(lähemale tulles).</stage>
+                    <p>Päris tõesti ikka wõi?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>No muidugi, päris tõesti.</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Mina küll ei usu.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Toomas on ikka Toomas, ega tema ei usu. Tule nüüd katsu oma käega.</p>
+                </sp>
+                <pb n="58"/>
+                <sp who="#toomas">
+                    <speaker>Toomas</speaker>
+                    <stage>(tuleb ja waatab).</stage>
+                    <p>No see on küll silmamoondus.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Jabur, katsu nüüd käega.</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Mis ma's tast katsun, siis sul pärast hää naerda.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>No tule sina, Paawel, katsu sina!</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel</speaker>
+                    <stage>(nihutab käru paigalt).</stage>
+                    <p>Raske on küll, wõib olla, et on raha.</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas</speaker>
+                    <stage>(liigutab ka käru).</stage>
+                    <p>Ime mis ime. Raske kui raske. No kust sina ometi nii hulga raha said?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Sain kust ma sain, sa näed, et mul on.</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Suure rahaaugu leidsid wõi?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ei leidnud.</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel.</speaker>
+                    <p>Oma hinge kuradile ära müüsid wõi?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ei müünud.</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>No kust, sa ta siis ometi said?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Kust ma sain... Rikka ja rumalaga juhtusin kokku.</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel.</speaker>
+                    <p>Ah soo. Ja siis — wõtsid ära?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Wõtsin ja ei wõtnud ka mitte. See on kõik hääga saadud ja oma käega antud. Tead ju, kui inimesel nupp on...</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Küll saab ikka ilmas imet näha!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ei ole imet midagi. Raha peab wõtma rahwa käest, puu otsas teda ei kaswa. No — nüüd te ometi aitate koorma koju wiia, ma olen ise juba puru wäsinud ja ei jõua enam. Homme siis waatame, mis me temaga pääle hakkame. Ega ma teid ka ei unusta: ega ma halb wend ei ole. Ma mõtlen, ma ostan nüüd ikka omale mõisa ja teile ka kummagile karjamõisa.</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel.</speaker>
+                    <p>Kes orjapoisile mõisat müüb. Seda luba ei anta.</p>
+                </sp>
+                <pb n="59"/>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Ei jah, seda luba küll ei anta.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>No minusuguse mehele nüüd ei anta. Mul ju raha on. Ma wõin omale ju mõisniku nime ka osta. Riias, sääl neid ju müüdawat küllalt, wõta mihukest tahad, vonni, paruni wõi krahwi nime, kui aga raha on.</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Sina nüüd tead, kus Riig on! Kuuldud on, et üks Riig peab olema, aga — kus ta on, kes seda teab.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>No küll me' ta kätte leiame. Ma seon nüüd koti kinni, siis hakkame minema. <stage>(teeb seda).</stage></p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas</speaker>
+                    <stage>(on ettepoole astunud ja mõttesse jäänud).</stage>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel</speaker>
+                    <stage>(astub Tooma juurde).</stage>
+                    <p>Mis sa mõtled, Toomas?</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Kui sina ka sedasama mõtled, mis mina...</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel.</speaker>
+                    <p>Mina mõtlen just sedasama...</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Et mis tema, tola, selle hulga rahaga teeb...</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel.</speaker>
+                    <p>Jah, jah, jah!</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Ja et see meile palju parem ära kulub, kui temale...</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel.</speaker>
+                    <p>Jah, jah, jah!</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Lööme ta maha!</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel.</speaker>
+                    <p>Lööme maha, wõi peksame juurest minema...</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Oled nõus?</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel.</speaker>
+                    <p>Olen!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Soo, hakkame nüüd minema, et noosiga warju alla saame.</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas</speaker>
+                    <stage>(lähemale astudes).</stage>
+                    <p>No ja, hakka siis sina nüüd hääga minema. Raha on meie.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Mis juttu sa ajad?</p>
+                </sp>
+                <pb n="60"/>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Ma ütlen, hakka hääga minema, kui sa tappa ei taha saada!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Mis see peab tähendama?</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel.</speaker>
+                    <p>See tähendab, et meie ka rumala ja rikkaga kokku oleme saanud, kes oma rikkust näitab ja sellega hoopleb.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ega te hullud ei ole?</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Jutt see, et meie hullud ei ole? Sa ütlesid ju: raha peab wõtma rahwa käest. Puu otsas teda ei kaswa. Käi minekit! Raha on meie.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>No'ss! Tulge. Hääga mina ka oma käest ära wõtta ei lase. <stage>(otsib mida pihku haarata).</stage></p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Paawel, tule! Anname talle, mis ta sääl jobiseb. <stage>(hakkawad Antsu taguma. Ants rabeleb käest lahti ja taganeb käru ümber ringi. Aga kui ta kahelt poolt sissepiiratud on, põgeneb ta eest metsa. Teised tagajärel. Taga pool on löömise hoopi ja Antsu kukkumist kuulda. Siis tulewad Paawel ja Toomas ilma Antsuta tagasi).</stage></p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel</speaker>
+                    <stage>(ühe jala päält teise pääle karates).</stage>
+                    <p>Oi, oi, oi! Küll on aga meil nüüd palju raha!</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Nüüd ikka wõib juba elama hakkata.</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel.</speaker>
+                    <p>Tea, kas ta weel oma jalaga maast üles ka ajab, wõi ei?</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Kust ta's weel üles ajab, kui teibaga pähe sai. Jäi põõsa alla maha...</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel.</speaker>
+                    <p>Oi oi, oi, küll on meil nüüd palju raha!</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Jah, nüüd teda korra on. See suurem kott on minu, wähema wõid sina omale wõtta.</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel</speaker>
+                    <stage>(pahaselt).</stage>
+                    <p>Mispärast siis mina wähema? Kas meie siis pooleks ei jaga?</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Minul suurem õigus, mina tulin selle mõtte pääle</p>
+                </sp>
+                <pb n="61"/>
+                <sp who="#paawel">
+                    <speaker>Paawel</speaker>
+                    <stage>(wihaselt).</stage>
+                    <p>Ja mina olen wanem wend.</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Wanem wõi mitte, minu läbi on ta saadud, mina jagan.</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel.</speaker>
+                    <p>Sina ei tulnud sugugi warem selle mõtte pääle, kui mina. See mõtte tuli meil mõlemil ühel ajal.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(köögerdab lähemale ja jääb sündmust põõsa tagant päält waatama).</stage>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Aga kes wõttis weresüü oma pääle? Mina lõin Antsu maha.</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel</speaker>
+                    <stage>(tuliwihaselt).</stage>
+                    <p>Siis wõtku kurat sind! <stage>(kallale tormama walmis).</stage></p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas</speaker>
+                    <stage>(ka kallale tormama walmis).</stage>
+                    <p>Ei, siis wõtku kurat parem sind!</p>
+                </sp>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe</speaker>
+                    <stage>(tõuseb leekide sees altilmast).</stage>
+                    <p>Kumba ma wõtan? <stage>(hoiab oma laia mantlit ees laiali, nagu et üht sinna sisse mässida).</stage></p>
+                </sp>
+                <sp who="#paawel #toomas">
+                    <speaker>Paawel ja Toomas</speaker>
+                    <stage>(kohkuwad põlwede pääle ja wärisewad kui haawalehed).</stage>
+                </sp>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe.</speaker>
+                    <p>Kumba ma wõtan?</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Wõta tema, tema on wanem ja targem!</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel.</speaker>
+                    <p>Ei, wõta tema, tema on õelam ja tigedam!</p>
+                </sp>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe.</speaker>
+                    <p>Teie olete mulle mõlemad parajad wõtta. Kelle kullakoorm see on?</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas</speaker>
+                    <stage>(julgemalt).</stage>
+                    <p>See on meie kullakoorm!</p>
+                </sp>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe.</speaker>
+                    <p>Kus teie saite selle kulla?</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>See on kõik oma töö-waewaga saadud.</p>
+                </sp>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe</speaker>
+                    <stage>(wiskab mantli käru pääle).</stage>
+                    <p>No mis teil õigusega ja auusasti oma tööwaewaga saadud on, seda mina ka ära ei wõta. See jäägu teile.</p>
+                </sp>
+                <pb n="62"/>
+                <sp who="#paawel #toomas">
+                    <speaker>Paawel ja Toomas</speaker>
+                    <stage>(maast üles karates).</stage>
+                    <p>Olge tuhandest terwe! Kus ikka õige mees! Iga ühele oma...</p>
+                </sp>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe.</speaker>
+                    <p>No — hakkame minema, pärast wõite tänada. Üks weab käru eest, teine tõukab takka.</p>
+                </sp>
+                <sp who="#paawel #toomas">
+                    <speaker>Paawel ja Toomas</speaker>
+                    <stage>(asuwad rõõmsasti käru külgi).</stage>
+                </sp>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe.</speaker>
+                    <p>Soo, nüüd — läki!</p>
+                </sp>
+                <sp who="#paawel #toomas">
+                    <speaker>Paawel ja Toomas</speaker>
+                    <stage>(kakkawad — üks käru wedama, teine tõukama — ja wõtawad raske koorma jaoks jõuu kokku, aga koorem on kerge, annab järele, nõnda et mõlemad ninali kukkuwad. Aga käsa nad käru küljest lahti ei saa).</stage>
+                </sp>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe.</speaker>
+                    <p>Hahaha!</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas</speaker>
+                    <stage>(enese ülesajades).</stage>
+                    <p>Kuidas ta siis nüüd nii kergesti järele tuli?</p>
+                </sp>
+                <sp who="#paawel">
+                    <speaker>Paawel.</speaker>
+                    <p>No kui sina nii häkiste ja kõwasti tõmbad, et kukku ninali kohe...</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas.</speaker>
+                    <p>Kuidas? Mina? Sina ikka tõukasid nii häkisti ja kõwasti, et mina ninali kukkusin!</p>
+                </sp>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe.</speaker>
+                    <p>Hahaha! <stage>(naeru pärast kõwer).</stage></p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas</speaker>
+                    <stage>(katsub käru tõmmata — see tuleb kergesti järele, et Paawel jälle ninali kukkub).</stage>
+                    <p>Kuidas kurat ta siis nüüd nii kerge on? Enne ei jõudnud liigutatagi...</p>
+                </sp>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe.</speaker>
+                    <p>Nõnda, nõnda pojuke. Hää et sa oma uut peremeest kohe nime järele nimetada tead. Kuidas koorem nüüd nii kerge on, tahad sa teada? Noh — mina wõtsin oma jao koormast ära, selle osa, mis teil õigusega teenitud ei olnud, mis te wenna käest riisusite. Ega siis teie oma wist koormasse palju järele ei jäänud. Mis? Hahaha? <stage>(lööb jalanukiga kotid käru päält maha, tõmbab noaga kotid lõhki ja puistab nende seest kuiwi puulehti lendu).</stage> Näete, mis koormas weel järele on?</p>
+                </sp>
+                <pb n="63"/>
+                <sp who="#toomas #paawel">
+                    <speaker>Toomas ja Paawel</speaker>
+                    <stage>(katsuwad käsa käru küljest lahti saada, mis neil aga korda ei lähe; käed on nagu nägemata salawäega käru küljes kinni).</stage>
+                </sp>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe.</speaker>
+                    <p>Ärge katsugegi, ega te käsa enam lahti ei saa, nad on igaweseks käru küljes kinni. Nüüd olete minu teenistuses ja peate seni orjama, kuni kuld, mis te wenna käest rööwisite, tasa on teenitud. Läki!</p>
+                </sp>
+                <sp who="#toomas">
+                    <speaker>Toomas</speaker>
+                    <stage>(hirmul).</stage>
+                    <p>Kuhu me lähame?</p>
+                </sp>
+                <sp who="#kikkhabe">
+                    <speaker>Kikkhabe</speaker>
+                    <stage>(hirwitades).</stage>
+                    <p>Põrgusse, põrgusse pojuke! Kuhu mujale? <stage>(kargab käru pääle).</stage> Soo, lass käia. Teiega tahan ma weel mõne hää korra ringi ümber maakera sõita! <stage>(kõik kolm ära).</stage></p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(tuleb lähemale).</stage>
+                    <p>Oh teie wõllaroad! Kus ikka wennad! Aga — kahju on mul neist ka! Oleme ju ühe isa pojad! Wõi pidiwad nüüd otsekohe põrgu sõitma! Ja minu — minu kulla pärast! Et mul ka hirmuga meelde ei tulnud, neid kurja käest päästa! Kui ma oleksin korra kirganud, küll kuri oleks jälle maapõhja wajunud. Ehk aitab weel tagajärele? <stage>(kirgab)</stage> Kukelugu! Kukelugu! — Ei tea, kas see eemalt aitab ja kas ta kuulis! Oeh, pää on hoobist nii uimane ja kõik kohad peksust walusad. Õnn weel oli, et wana rummkübar teiba hoobi suure wäe ära wõttis, walmis oleksin ma muidu olnud. Ja kus nüüd kõik minu waew ja teenistus, raha ja warandus! <stage>(sorib lehti)</stage> Selged kollased kase ja haawa lehed! Kas siis mitte ühte kopikut järele ei ole jäänud? Mitte tangu! Aina lehed. Waene ja paljas olen jällegi, niisamasugune, kui kodust läksin. <stage>(istub maha ja jäeb kasipõsikil mõtlema)</stage> Mis mina waene mees siis jälle pääle hakkan! Kuhu poole ma jalad jälle seadin, kuhu ma lähen! Kes mulle wett wõi wermet silma wõi suhu pista annab!</p>
+                </sp>
+                <stage>(Taha poole on Murueit tütardega ilmunud, eit astub Antsu selja taha).</stage>
+                <sp who="#murueide-tuetred">
+                    <speaker>Murueide tütred</speaker>
+                    <stage>(ilma muusikata, waewalt kuuldawalt).</stage>
+                    <pb n="64"/>
+                    <lg>
+                        <l>Murula, murula,</l>
+                        <l>Wiibi sa õnnela!</l>
+                    </lg>
+                    <lg>
+                        <l>Murul ilu üürikene,</l>
+                        <l>Pidupäewa lühikene,</l>
+                        <l>Nutt ja walu igawene!</l>
+                    </lg>
+                    <lg>
+                        <l>Murula, murula,</l>
+                        <l>Wiibi sa õnnela!</l>
+                    </lg>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants</speaker>
+                    <stage>(wirgudes).</stage>
+                    <p>Mis see siis on? Nagu tuttawad ja ammu kuuldud hääled... <stage>(pöörab ennast ümber ja seisab Murueide ees).</stage></p>
+                </sp>
+                <sp who="#murueit">
+                    <speaker>Murueit</speaker>
+                    <stage>(wähe aja pärast).</stage>
+                    <p>Ristipoeg!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ah! Ristiema...</p>
+                </sp>
+                <sp who="#murueit">
+                    <speaker>Murueit.</speaker>
+                    <p>Sa ära muretse!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ei, ristiema!</p>
+                </sp>
+                <sp who="#murueit">
+                    <speaker>Murueit.</speaker>
+                    <p>Ants!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ja ristiema!</p>
+                </sp>
+                <sp who="#murueit">
+                    <speaker>Murueit.</speaker>
+                    <p>See oli ju sinu õnn, et kõik nõnda tuli, nagu ta tuli. Sinu kuld ei olnud õigusega saadud!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Jah! Waene Wanapagan, tema jäi küll omast ilma, mis ma tema käest ära petsin, aga mina sellest ka õnne ei leidnud. Oleks ikka õigusega oma aasta täis teenitud saanud, oleks mul toop kulda olnud, — mis sellega kõik pääle hakkata ei oleks wõinud..!</p>
+                </sp>
+                <sp who="#murueit">
+                    <speaker>Murueit.</speaker>
+                    <p>Hää, et sa weel kahetsed. Ja, ja, õige temp see sinust ei olnud.</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ta oli ju nii loll ja rumal, see wanapagan, et nagu iseenesest see himu tuli, teda alati ülelüüa. Aga — ega ülekohus kotis ei seisa!</p>
+                </sp>
+                <sp who="#murueit">
+                    <speaker>Murueit.</speaker>
+                    <p>Kui asi nõnda ei oleks tulnud, nagu ta tuli, wõib olla oleks sul enesel korra põrgusõit ees olnud, nagu nüüd su waestel wendadel.</p>
+                </sp>
+                <pb n="65"/>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ah, ristiema..!</p>
+                </sp>
+                <sp who="#murueit">
+                    <speaker>Murueit.</speaker>
+                    <p>See oli sinu esimene teekond õnneleiule. Sa ei leidnud teda. Sa ei olnud auus ja õiglane, ei kuulatanud südametunnistuse häält rindus, oma targa pää järele tahtsid sa talitada — sa eksisid — ja langesid. Aga, kes oma eksitust kahetseb nagu sina, peab see siis meelt ära heitma? On siis õnnetee tema eest kinni, kui ta puhta südamega seda uuesti otsima läheb?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ah, ristiema..!</p>
+                </sp>
+                <sp who="#murueit">
+                    <speaker>Murueit.</speaker>
+                    <p>Ants!</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ja, ristiema!</p>
+                </sp>
+                <sp who="#murueit">
+                    <speaker>Murueit.</speaker>
+                    <p>Õnnerubla on sul ju alles?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ja, ristiema!</p>
+                </sp>
+                <sp who="#murueit">
+                    <speaker>Murueit.</speaker>
+                    <p>Mis sa siis muretsed?</p>
+                </sp>
+                <sp who="#ants">
+                    <speaker>Ants.</speaker>
+                    <p>Ma ei muretsegi: Nõnda kergesti, kui mina tahtsin, ei saa õnnesabast kinni. — Rubla on mul taskus, maailm minu ees lahti. Ristiema! Mina lähen uuesti, nagu sa ütlesid — oma õnne otsima! Ja kui ma siis tagasi tulen, pead sa minuga rahul olema!</p>
+                </sp>
+                <sp who="#murueit">
+                    <speaker>Murueit.</speaker>
+                    <p>Nõnda, Ants, nõnda. Ja kui sa tagasi tuled, laitmata ja puhas, tohid sa ka minu tütardega mängida! <stage>(tõstab käed üles, muusika hakkab mängima, mets lööb helendama, tütred laulawad hõiskades).</stage></p>
+                </sp>
+                <sp who="#murueide-teutred">
+                    <speaker>Murueide tütred.</speaker>
+                    <lg>
+                        <l>Murula, murula,</l>
+                        <l>Lustila, mängula!</l>
+                    </lg>
+                    <lg>
+                        <l>Närtsimata noorusella,</l>
+                        <l>Ilmusime murudella,</l>
+                        <l>Ala õnne maitsmisella!</l>
+                    </lg>
+                    <lg>
+                        <l>Murula, murula,</l>
+                        <l>Lustila, mängula!</l>
+                    </lg>
+                    <stage>(tants)</stage>
+                    <pb n="66"/>
+                    <lg>
+                        <l>Murula, murula,</l>
+                        <l>Wiibime õnnela!</l>
+                    </lg>
+                    <lg>
+                        <l>Kerkib koitu kõrgemalla,</l>
+                        <l>Läigib muru kasteella,</l>
+                        <l>Wiib meid jälle muru alla!</l>
+                    </lg>
+                    <lg>
+                        <l>Lustilta, õnnelta,</l>
+                        <l>Mängulta, murulta!</l>
+                    </lg>
+                </sp>
+                <stage>(Eesriie).</stage>
+            </div>
+        </body>
+    </text>
+</TEI>
