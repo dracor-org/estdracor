@@ -1,0 +1,1277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="est000039" xml:lang="et" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arusaamatu lugu</title>
+                <title type="sub">Nali 1 vaatuses</title>
+                <author>
+                    <persName>
+                        <forename>Oskar</forename>
+                        <surname>Luts</surname>
+                    </persName>
+                    <idno type="wikidata">Q2005705</idno>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <ref target="http://www.digar.ee/id/nlib-digar:613092">DIGAR Digital Archive</ref>
+                    <availability>
+                        <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                    </availability>
+                </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>Oskar</forename>
+                            <surname>Luts</surname>
+                            <idno type="wikidata">Q2005705</idno>
+                        </persName>
+                    </author>
+                    <title type="main">Arusaamatu lugu</title>
+                    <title type="sub">Nali 1 vaatuses</title>
+                    <date when="1919">1919</date>
+                    <publisher>Postimees</publisher>
+                    <pubPlace>Tartu</pubPlace>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1919">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1916">
+                        <desc/>
+                    </event>
+                </listEvent>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="aavikson" sex="MALE">
+                        <persName>Ants Aavikson</persName>
+                    </person>
+                    <person xml:id="naine-1" sex="FEMALE">
+                        <persName>Esimene naine</persName>
+                    </person>
+                    <person xml:id="kihu" sex="MALE">
+                        <persName>Kaarel Kihu</persName>
+                    </person>
+                    <person xml:id="naine-3" sex="FEMALE">
+                        <persName>Kolmas naine</persName>
+                    </person>
+                    <person xml:id="naine-2" sex="FEMALE">
+                        <persName>Teine naine</persName>
+                    </person>
+                    <person xml:id="majaperenaine" sex="FEMALE">
+                        <persName>Majaperenaine Eeva</persName>
+                    </person>
+                    <person xml:id="alma" sex="FEMALE">
+                        <persName>Alma</persName>
+                    </person>
+                    <person xml:id="majaperemees" sex="MALE">
+                        <persName>Majaperemees Rupski</persName>
+                    </person>
+                    <listRelation>
+                        <relation name="spouses" mutual="#majaperemees #majaperenaine"/>
+                        <relation name="parent_of" active="#majaperemees #majaperenaine" passive="#alma"/>
+                    </listRelation>
+                </listPerson>
+            </particDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle">Comedy</term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-11-21">Convert txt to TEI</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <pb n="3"/>
+        <front>
+            <titlePage>
+                <docAuthor>O. LUTS</docAuthor>
+                <docTitle>
+                    <titlePart type="main">ARUSAAMATU LUGU</titlePart>
+                    <titlePart type="sub">NALI ÜHES VAATUSES</titlePart>
+                </docTitle>
+                <docImprint>
+                    <publisher>NOOR-EESTI KIRJASTUS, </publisher>
+                    <pubPlace>TARTUS </pubPlace>
+                    <docDate>1919</docDate>
+                </docImprint>
+            </titlePage>
+            <pb n="4"/>
+            <pb n="5"/>
+            <castList>
+                <head>Tegelased:</head>
+                <castItem>
+                    <roleDesc>Ajakirjanik </roleDesc>
+                    <role>Ants Aavikson.</role>
+                </castItem>
+                <castItem>
+                    <roleDesc>Üliõpilane </roleDesc>
+                    <role>Kaarel Kihu.</role>
+                </castItem>
+                <castItem>
+                    <role>Rupski, </role>
+                    <roleDesc>majaperemees.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Eeva, </role>
+                    <roleDesc>majaperemehe naine.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Alma, </role>
+                    <roleDesc>Rupski tütar.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Naised, </role>
+                    <roleDesc>majaelanikud.</roleDesc>
+                </castItem>
+            </castList>
+            <set>
+                <p>Koht: Tartu.</p>
+                <p>Aeg: 1914.</p>
+            </set>
+        </front>
+        <pb n="6"/>
+        <pb n="7"/>
+        <body>
+            <div type="act">
+                <stage>Kaks vana sõpra, Aavikson ja Kihu, on kaua ja visalt uut, rahulikku tuba otsinud. Viimaks on nad seesuguse kusagil hoovipäälse maja alumisel korral leidnud. Praegu magavad nad sääl esimest ööd. See ruumikas ja kõigiti kodune tuba on kahe aknaga ja ühe uksega. Väljavaade suure, majadest ümbritsetud hoovi pääle. Kummagi akna all laud. Aaviksoni laual neljandik-kirjutuspoognaline bloc-notes, tindipott, sulepää ja mõned ajalehed. Kihu laual mõned lahtised raamatud, surnu pääluu ja Eesti muistne õllekann, nagu neid Muuseumis praegusel ajal küllalt näha. Seintel üliõpilaste kogupildid ja kaks rapiiri ristamisi. Kummagi seina ääres, hääd ja kura kätt, sirmiga pooliti varjatud voodi.</stage>
+                <stage>Päikesepaisteline kevade hommik. Mõlemad aknad on pärani lahti. Aavikson ja Kihu magavad. Muidu kõik vaikne, ainult kukk laulab hoovis.</stage>
+                <pb n="8"/>
+                <sp who="#aavikson">
+                    <speaker>Aavikson</speaker>
+                    <stage>(pöörab teise külje ja pomiseb paar arusaamatut sõna).</stage>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu</speaker>
+                    <stage>(köhib, sügab ja hõõrub silmi. Siis:)</stage>
+                    <p>Ants, kas magad?</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ei. Mis siis?</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Ei midagi.</p>
+                </sp>
+                <stage>(Vaikus. Kukk laulab hoovis.)</stage>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Äraneetud kukk! Esimesest valgusest saadik ei lase magada.</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Mind niisamuti.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Sääl on su vagune korter! Juba esimesel ööl ei saa sõba silmile.</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Minu vagune korter! Mispärast ta siis just minu vagune korter on? Kas ei leidnud nimelt sina selle toa meile väga kohase olevat?</p>
+                </sp>
+                <stage>(Kukk laulab.)</stage>
+                <pb n="9"/>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Kuuled! Üks kiusaja peab ikka kaelas olema. Ah, pagan võtku! <stage>(Hüppab voodist välja, ajab sirmi taga kõige tarvilikumad riided selga, paneb vanad kotad jalga, tõmbab pinsaku kaeluse üles ja läheb pahaselt enda laua juure. Hüüab välja:)</stage> Kas saad minema, kukk! Viskan sulle paganale tindipotiga! <stage>(Ärgitab.)</stage> Otse akna alla tuleb röökima.</p>
+                    <stage>(Kuke laul kostab pisut kaugemalt.)</stage>
+                    <p>Jah, lase aga käia! Ei tea, mis sa karjud, saadan!</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu</speaker>
+                    <p><stage>(enda voodist).</stage> Seda peab majaperemehele ütlema. Koristagu oma kukk, ehk —</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Tingimata peab ütlema. See on ju lihtsalt metsik, kui omas korteris ka magada ei saa. Ega ma siis ometi toimetusesse magama ei või minna; pean sääl ju ikka midagi tegema.</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Mina niisamuti... Pean eksamite vastu valmistama. Sellepärast see korter saigi võetud, et ta vagune pidi olema. <stage>(Kihu voodi kohal, väljaspool seina, kostab järsku valju mürin, kägin ja kiuksumine, nagu veeretataks mingit rasket asja. Sein põrub. Kihu tõuseb voodis istukile.)</stage> Põrgu see siis veel on? Kuula! Mis mürin see on?</p>
+                </sp>
+                <pb n="10"/>
+                <sp who="#aavikson">
+                    <speaker>Aavikson</speaker>
+                    <stage>(tuleb õnnetusekohale, kuulatab). Mina ei tea mis mürin see on. Kes sääl kõrval elab?</stage>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Sääl ei peaks õiguse pärast keegi elama; sääl on puukuur.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Puukuuris niisugune mürin? — Puid lõhutakse.</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Puid lõhutakse? Kes tont siis nii puid lõhub? Sääl on ju — kuuled — kõiksugu kigin ja kägin, just kui aetakse mõnda määrimata ratast ümber.</p>
+                    <stage>(Järsku valju mürtsak.)</stage>
+                    <p>Ai, raisk! See viskab ju sängist välja. No ütle praegu! See on ju pagan teab mis! Ööajal sarnased toimetused!</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Õigust öelda: öö ta n'd enam just ei ole, <stage>(vaatab taskukella)</stage> kell saab varsti kaheksa, aga siiski...</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu</speaker>
+                    <p><stage>(ohkab).</stage> Ega paremat ei saa — peab üles tõusma, nii vara kui see ka on. <stage>(Hakkab end sirmi varjus riidesse panema.)</stage> Igavene häda! Vanas korteris olid lutikad ja prussakad ja see lõpmata läpatanud hais koridoris. Siin on kukk ja see jandamine seina taga. Jumal teab, mis sääl seina taga praegu sünnib? Võib<pb n="11"/> olla, on sääl mõni piinakamber, kus inimesi ratta pääle tõmmatakse. Mulle kuulub kõik aeg, nagu aetaks sääl üht suurt ratast ümber ja nagu ähiks keegi sääl juures.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson</speaker>
+                    <p><stage>(aknast välja vahtides).</stage> Piinakamber ei või olla: siis oleks sääl kõige päält kisa.</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu</speaker>
+                    <p><stage>(on enese riidesse pannud. Tuleb sirmi tagant välja ja läheb oma laua juure).</stage> Ja, muidugi, siis oleks sääl kõige päält kisa. Sarnase surmava loogika vastu pole mul midagi ütelda.</p>
+                    <stage>(Mürin seina taga kestab edasi.)</stage>
+                    <p>Ja mina just küsin peremehe käest: "Kas on siin tõesti vagune?" "Jaa, jaa," ütleb; "siin on nagu surnuhaud. Siin võite end rahulikult eksaamide vastu valmistada." Sääl on nüüd — eksaamid! Tee nüüd eksaamisid, kui sul igast küljest...</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ei, siin peab lihtsalt peremehele ütlema, et — <stage>(Peatab järsku. Teiselt korralt kostab klaverimäng. Vaatab lakke.)</stage> Oi, klaver ka majas! No mis sa ütled! Mis sa, hing, veel tahad!</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu</speaker>
+                    <p><stage>(vaatab lakke).</stage> Vaata, see puudus veel! Just seda oli veel tarvis! <stage>(Välja ja oma<pb n="12"/> voodi poole tähendades.)</stage> Nüüd on sääl midagi, sääl midagi, üleval on ka midagi — eks näe, mis säält <stage>(Aaviksoni voodi poolt)</stage> tuleb. <stage>(Sel silmapilgul kostab Aaviksoni voodi kohalt, seina tagant laste nutt ja kellegi taplemine.)</stage></p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Ahah — käes! Ole nii lahke, valmista eksamite vastu. Hauavaikus!</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson</speaker>
+                    <p><stage>(aknast välja vahtides).</stage> Ei, siin peab lihtsalt peremehele ütlema, et —Ahaa, sääl ta tulebki. <stage>(Välja:)</stage> Tere hommikust, tere hommikust, härra Rupski! Kas Te ei võiks silmapilguks siia tulla.</p>
+                </sp>
+                <sp who="#majaperemees">
+                    <speaker>Majaperemees</speaker>
+                    <p><stage>(ilmub akna taha).</stage> Mis sääl s'oli?</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Vaadake, Te lubasite meile vagusa korteri anda, aga —</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu</speaker>
+                    <p><stage>(tuleb Aaviksoni kõrvale).</stage> Ja, ütlesite, et siin hauavaikus on, aga —</p>
+                </sp>
+                <sp who="#majaperemees">
+                    <speaker>Majaperemees.</speaker>
+                    <p>Noojah, kas siin s'pole vaikne?</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ei, kahjuks.</p>
+                </sp>
+                <pb n="13"/>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>See peab vaikne korter olema!</p>
+                </sp>
+                <sp who="#majaperemees">
+                    <speaker>Majaperemees.</speaker>
+                    <p>See on kõige vaiksem korter selles majas.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Kõik võib olla, aga meile pole ta ikka veel küllalt vaikne.</p>
+                </sp>
+                <sp who="#majaperemees">
+                    <speaker>Majaperemees.</speaker>
+                    <p>Hm. <stage>(Kaob akna tagant, tuleb sisse.)</stage> Mis siin siis viga on, kui küsida tohin?</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Vigu on palju. Vigu on nii palju, et ma ei tea, kust pääle hakata.</p>
+                    <stage>(Kukk laulab.)</stage>
+                    <p>Näituseks, seesama kukk juba. Esimese valgega hakkas lõugama.</p>
+                </sp>
+                <sp who="#majaperemees">
+                    <speaker>Majaperemees.</speaker>
+                    <p>Nooja — noh, iga kukk laulab. Mis me sinna teha võime.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Aga see eksitab ju. Eksitab magamist, töötamist, lihtsalt — Ja sääl kõrval, just voodi juures — Kas Te ei võiks ütelda, mis sääl praegu tehakse? Kuulete, missugune mürin?</p>
+                </sp>
+                <pb n="14"/>
+                <sp who="#majaperemees">
+                    <speaker>Majaperemees.</speaker>
+                    <p>Sääl... sääl on rullikamber, rullitakse pesu. <stage>(Aavikson ja Kihu vaatavad üksteisele otsa, noogutavad pääd ja kordavad tasa: "Rullikamber!")</stage></p>
+                </sp>
+                <sp who="#majaperemees">
+                    <speaker>Majaperemees.</speaker>
+                    <p>Kes Teid siis käsib just sääl seinas magada? Tõstke voodi teise seina. Sinna <stage>(näitab),</stage> teise voodi kõrvale.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Olge nii hää, tulge natuke lähemale, kuulake, mis teise seina taga tehakse. <stage>(Laste nutt ja kellegi tõrelemine võtab tähendatud seina taga iseäranis hoogu.)</stage></p>
+                </sp>
+                <sp who="#majaperemees">
+                    <speaker>Majaperemees</speaker>
+                    <p><stage>(kuulatab).</stage> Ei ole midagi iseäralikku.</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Ei ole midagi iseäralikku? Kas Te kurt olete?</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Kas Te tõesti ei kuule, mis seina taga tehakse?</p>
+                </sp>
+                <sp who="#majaperemees">
+                    <speaker>Majaperemees.</speaker>
+                    <p>Noh, lapsed natuke...</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>See'p see asi on, et lapsed natuke.. Siit natuke, säält natuke...</p>
+                </sp>
+                <pb n="15"/>
+                <sp who="#majaperemees">
+                    <speaker>Majaperemees.</speaker>
+                    <p>Jah noh, mis sa neile lastele ikka teed. Karjuvad — karjuvad. Küllap pärast jäävad vait. Vaata, kui hakkate kord ise perekonna-inimesteks, siis peate kõik ära kannatama; mis sest, kui nüüd natuke harjute.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Jumal tule appi! Ega me siia ometi ei tulnud laste kisaga harjuma; tulime elama, tööd tegema. Hauavaikuse pärast tuleme siia, mitte kisa pärast.</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Just, just.</p>
+                </sp>
+                <sp who="#majaperemees">
+                    <speaker>Majaperemees.</speaker>
+                    <p>Hää küll, ma ütlen Vintske naisele, peksku oma lapsi rullikojas, mitte toas. See ju ükskõik, kus ta neid materdab. On kah, peab ütlema, hirmus jonnakad lapsed. Jumal hoidku! Minul endal on ka teisi kuus tükki, aga —</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ja sääl üleval, teisel korral —</p>
+                </sp>
+                <sp who="#majaperemees">
+                    <speaker>Majaperemees.</speaker>
+                    <p>No sääl elan mina ise, sääl peaks ju küll vagune olema.</p>
+                </sp>
+                <pb n="16"/>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ja — peaks; see on õigus. Aga sääl on klaver.</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Kuulake! <stage>(Tähendab lakke.)</stage></p>
+                </sp>
+                <sp who="#majaperemees">
+                    <speaker>Majaperemees.</speaker>
+                    <p>Kui ta kord majas on... Vanem tütar harjutab vahel natuke. Aga muidu on ju —</p>
+                </sp>
+                <sp who="#majaperenaine">
+                    <speaker>Majaperenaine</speaker>
+                    <p><stage>(ilmub akna taha ja pistab pää aknast sisse).</stage> Mis sääl viga on? Tere hommikust, noorhärrad!</p>
+                    <stage>(Aavikson ja Kihu vastavad tasa.)</stage>
+                </sp>
+                <sp who="#majaperemees">
+                    <speaker>Majaperemees</speaker>
+                    <p><stage>(naisele:)</stage> Noorhärrad ütlevad, et ei pea küllalt vagune olema.</p>
+                </sp>
+                <sp who="#majaperenaine">
+                    <speaker>Majaperenaine.</speaker>
+                    <p>Voheh! No kus see veel vagusam on kui siin? Siin pole ju niisuguseid inimesigi majas, kes lärmi teeksid. Selle kümne aasta sees, mis mina majaperenaine olen, pole meil kunagi nii vagusaid üürilisi olnud.</p>
+                </sp>
+                <sp who="#majaperemees">
+                    <speaker>Majaperemees.</speaker>
+                    <p>Ei noh, et kukk...</p>
+                </sp>
+                <pb n="17"/>
+                <sp who="#majaperenaine">
+                    <speaker>Majaperenaine.</speaker>
+                    <p>Kukk! Oh sa Jumal paraku, no kas kukk ka kedagi peaks eksitama! Te ajate päris naerma. Kukk nüüd kedagi eksitab!</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Aga ta ju laulab ometi! Ta ei lase magada. Niipea kui valgeks läheb, nii...</p>
+                </sp>
+                <sp who="#majaperenaine">
+                    <speaker>Majaperenaine.</speaker>
+                    <p>Laulab! Kas noorhärrad on mõnda kukke näinud, kes ei laula. Kõik kuked laulavad. Üks hakkab natuke varem, teine natuke hiljem, aga kõik laulavad. Vaata, minge maale, kuulake, mis nad sääl teevad, terve küla rõkkab. Mul see üksainus kukk. <stage>(Kaob akna tagant, tuleb tuppa.)</stage> Ei, noorhärrad, kui teil millegi muu pääle kaevata ei ole, siis kuke pärast küll ei maksa sõnu raisata. See on... <stage>(Heidab käega.)</stage> Ja, mõni peab tõesti väga palju kanu ja kukkesid, nagu minu vennanaine, Tuika uulitsas, number kakskümmend kaheksa. Temal on nelikümmend kana ja mitu kukke. Aga meil siin see... <stage>(Arvab järele.)</stage> Oota: Vintske naisel neli, rätsepal viis, vürtsipoodimehel kuus — ühel on küll veel pojad —, kardavoi proual kõigest kaks, ja minul endal kümme, kahel pojad.</p>
+                </sp>
+                <sp who="#majaperemees">
+                    <speaker>Majaperemees.</speaker>
+                    <p>Noh, et rullikoda...</p>
+                </sp>
+                <pb n="18"/>
+                <sp who="#majaperenaine">
+                    <speaker>Majaperenaine.</speaker>
+                    <p>Oh sa heldene aeg! See paar korda nädalas, mis rullikojas käiakse!</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Ja, aga põrub nii kõvasti, et ma sängist maha pidin kukkuma.</p>
+                </sp>
+                <sp who="#majaperenaine">
+                    <speaker>Majaperenaine.</speaker>
+                    <p>Ei kuku Te kuskilt maha, ärge kartke. Sääl on ennegi magatud — pole keegi maha kukkunud.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ja, aga —</p>
+                </sp>
+                <sp who="#majaperemees">
+                    <speaker>Majaperemees.</speaker>
+                    <p>Noh, et Vintske omad...</p>
+                </sp>
+                <sp who="#majaperenaine">
+                    <speaker>Majaperenaine.</speaker>
+                    <p>Vintske omad, Vintske omad! Vintske omadele saab öeldud, et — Neil on nüüd küll, et — lapsed... Aga kui nad ühekorra suureks kasvavad, ega nad enam ei karju.</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu</speaker>
+                    <p><stage>(enesele).</stage> Jah, niikaua peame meie ootama, kuni nad suureks kasvavad!</p>
+                </sp>
+                <sp who="#majaperemees">
+                    <speaker>Majaperemees.</speaker>
+                    <p>Noh, et klaver...</p>
+                </sp>
+                <pb n="19"/>
+                <sp who="#majaperenaine">
+                    <speaker>Majaperenaine.</speaker>
+                    <p>Oi, noorhärrad, noorhärrad! Kas siis klaver kah —</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ei, ega me sel kombel kaugemale ei saa, kui oleme. Teie ei saa meile ometi selgeks teha, et siin vaikne on. Kõige parem, võtame selle asja punktide kaupa harutusele. Kõige päält kukk.</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Just, just.</p>
+                </sp>
+                <sp who="#majaperenaine">
+                    <speaker>Majaperenaine.</speaker>
+                    <p>Jah, noh — kukk. Kukk on kukk.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Kukk on muidugi kukk, aga — <stage>(Üks naine tuleb akna taha ja kuulatab.)</stage></p>
+                </sp>
+                <sp who="#naine-1">
+                    <speaker>Naine</speaker>
+                    <p><stage>(majaperenaisele poolkuuldavalt).</stage> Mis nad tahavad sest kukest?</p>
+                </sp>
+                <sp who="#majaperenaine">
+                    <speaker>Majaperenaine.</speaker>
+                    <p>Noh, et ei lase neid magada.</p>
+                </sp>
+                <sp who="#naine-1">
+                    <speaker>Naine.</speaker>
+                    <p>Säh sulle!</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Kukk on muidugi kukk, ja... selle juu<pb n="20"/>res pole kahtlust. Aga meie ei saa siin elada, kui ta öösi kella kahest saadik laulab. Millal me magame? Päeval on vaja tood teha. Mõtelge ise...</p>
+                </sp>
+                <sp who="#naine-1">
+                    <speaker>Naine</speaker>
+                    <p><stage>(akna tagant).</stage> Kuula! Nemad ei saa kuke pärast elada! <stage>(Aaviksonile ja Kihule:)</stage> Minge õhtul ristiinimese kombel magama, küll siis —</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>No see ei ole juba Teie asi, kas me ristiinimese kombel magama läheme, või pagana kombel. Lihtsalt —</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Just, just.</p>
+                </sp>
+                <sp who="#naine-1">
+                    <speaker>Naine.</speaker>
+                    <p>Mis siis! Niisugused! <stage>(Teine naine tuleb esimese juure, akna taha, ja kuulatab. Esimene sosistab talle midagi kõrva sisse, toa poole tähendades.)</stage></p>
+                </sp>
+                <sp who="#majaperemees">
+                    <speaker>Majaperemees.</speaker>
+                    <p>Ja, aga kulla noorhärrad —</p>
+                </sp>
+                <sp who="#majaperenaine">
+                    <speaker>Majaperenaine</speaker>
+                    <p><stage>(tõukab mehe kõrvale).</stage> Oota sina! <stage>(Aaviksonile:)</stage> Hää küll, Teie ei saa elada, sellepärast, et kukk kella kahest saadik laulab. Aga ütelge siis ometi — Te olete<pb n="21"/> haritud inimene —, mis peab siis tegema, et ta ei laulaks kella kahest saadik?</p>
+                </sp>
+                <sp who="#naine-1 #naine-2">
+                    <speaker>Esimene ja teine naine</speaker>
+                    <p><stage>(akna tagant korraga:)</stage> Kuula nende juttu!</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Mina ei tea Teile mingit nõu anda. Ei tahagi nõu anda: see pole minu asi. Minu pärast pidage endal või tuhat kukke, aga tehke nii, et nad ei eksitaks. Meie tahame rahulikult magada ja rahulikult tööd teha.</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Just, just. Minul, näituseks, on vaja eksamite vastu valmistada, ja kui ma öösi korralikult magada ei saa, siis — <stage>(Tal tuleb äkki üks mõte.)</stage> Aga kuulge, kas ei võiks nii teha? Hiljuti on loomaarstid välja uurinud, et kukel ainult natuke vaja on kõri juurest lõigata, ja... kukk ei laulagi enam. Mis?</p>
+                </sp>
+                <sp who="#majaperenaine">
+                    <speaker>Majaperenaine.</speaker>
+                    <p>Lõigata?</p>
+                </sp>
+                <sp who="#majaperemees">
+                    <speaker>Majaperemees.</speaker>
+                    <p>Kõri juurest lõigata? See tähendab: ära tappa?</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Ei, ei! Mitte, mitte...</p>
+                </sp>
+                <pb n="22"/>
+                <sp who="#naine-1 #naine-2">
+                    <speaker>Esimene ja teine naine</speaker>
+                    <p><stage>(vihaselt).</stage> Või lõigata? Vaata, kus lõikaja! Vaata, kui sind ennast — <stage>(Hüüavad eemale:)</stage> Kartavoi proua! Kartavoi proua! Tulge siia, kukelõikajad on platsis!</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Ei, ei! Lubage! Kes ütles, et vaja on tappa? Mingit tapmist ei ole. Ainult väike operatsioon kõri juures... operatsioon... siin... <stage>(Tähendab oma kõrisõlme pääle.)</stage> Saate aru? Kukk elab edasi ja täidab kõiki enda kohuseid, ei laula ainult.</p>
+                </sp>
+                <sp who="#majaperenaine">
+                    <speaker>Majaperenaine.</speaker>
+                    <p>Ükskõik, aga mina oma kukke küll lõigata ei lase, tehke mis tahate. <stage>(Heidab käega ja läheb välja, teiste naiste juure.)</stage></p>
+                </sp>
+                <sp who="#naine-1 #naine-2">
+                    <speaker>Esimene ja teine naine.</speaker>
+                    <p>Jumal hoidku! Kus sa sellega!</p>
+                </sp>
+                <sp who="#naine-3">
+                    <speaker>Kolmas</speaker>
+                    <stage>(linnavahi)</stage>
+                    <p><stage>(akna taha ilmudes).</stage> Kes lõikab kukke?</p>
+                </sp>
+                <sp who="#naine-1 #naine-2">
+                    <speaker>Esimene ja teine naine</speaker>
+                    <p><stage>(Aaviksoni ja Kihu pääle tähendades).</stage> Need sääl kahekesi. <stage>(Seletavad asjalugu poolvaljult kolmandale naisele.)</stage></p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ei, see kõik on kõrvaline asi. Lõigata või mitte lõigata — see on ükskõik. Mina<pb n="23"/> nõuan aga niipalju, et kukk olgu siit hoovist kadunud!</p>
+                </sp>
+                <sp who="#naine-1-1 #naine-1-2 #naine-1-3 #majaperenaine">
+                    <speaker>Kõik naised.</speaker>
+                    <p>Ohoh, ohoh! Tasa, noorhärra!</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ja. Kas kukk, või meie.</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Just, just.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Mõtelge järele, pidage aru ja tehke otsus: kas kukk, või meie. <stage>(Paneb paberossi põlema, suitsetab ja käib, käed taskutes, edasi-tagasi, kusjuures ta enese ette midagi pomiseb.)</stage></p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Just, just. See on ju lihtsalt haavamine! Kas kukk, või meie. <stage>(Majaperemees peab akna all seisvate naistega aru. Paar korda võtab nõupidamine iseäranis tormilise laadi. Naised säutsuvad läbisegi. Kuulukse ägeduses öeldud sõnu, nagu: "Kus asjamehed! Õige härrad mul vennikesed! Kukke lõikama!! Siis tekib vaikus. Kuke asjus ollakse otsusele jõutud.)</stage></p>
+                </sp>
+                <sp who="#majaperemees">
+                    <speaker>Majaperemees</speaker>
+                    <stage>(pöörab toasolijate poole, köhatab ja teeb, nagu tahaks ta midagi ütelda).</stage>
+                </sp>
+                <pb n="24"/>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <stage>(jääb majaperemehe ette seisatama).</stage>
+                    <p>Noh?</p>
+                </sp>
+                <sp who="#majaperemees">
+                    <speaker>Majaperemees.</speaker>
+                    <p>Jah, noorhärrad, siis peate ikka Teie ära minema. Naised on kangesti kuke poolt, ei lase mind suudki lahti teha. Ütlevad: mingu see, kellel häda on.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Mis? Meie peame ära minema? Meie?</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Meie peame ära minema? No, pagan võtku. <stage>(Paneb kübara pähe ja tuleb, täis püha viha, Aaviksoni kõrvale.)</stage> See on haavamine!</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Meie peame kuke pärast ära minema! Kes on siis õieti rohkem väärt, kas meie või see rumal kukk sääl hoovis?</p>
+                </sp>
+                <sp who="#majaperenaine">
+                    <speaker>Majaperenaine.</speaker>
+                    <p>Pole ta ühtigi rumal. See kukk on targem, kui Teie mõlemad kokku. <stage>(Tema järgmised sõnad sulavad teiste naiste häältega üheks suminaks kokku.)</stage></p>
+                </sp>
+                <sp who="#majaperemees">
+                    <speaker>Majaperemees.</speaker>
+                    <p>Jah, ega mina midagi teha ei või. Naised lubavad kõik välja kolida, kui ma kukke peaks puutuma.</p>
+                </sp>
+                <pb n="25"/>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Väija kolida... koligu välja, tehku mis tahavad, aga meid ei tohi Te ometi kuke pärast minema ajada. Saate aru?</p>
+                </sp>
+                <sp who="#majaperemees">
+                    <speaker>Majaperemees.</speaker>
+                    <p>Mina ei või midagi parata. <stage>(Läheb pikkamisi ära.)</stage></p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p><stage>(sammub talle ukseni järele).</stage> Teie ei või midagi parata! Teie ei või midagi parata! Hää küll! Seda peate kahjatsema! Nii me seda asja ei jäta, pange tähele. Kohtusse kaebame Teid, ajalehes kirjutame; lihtsalt, terve linn peab teada saama, kuidas majaperemees Rupski enda üürnikkudega talitab. Niisugune metsikus! Kui juba iga kaputjalg-kukk inimeste õigusi jalge alla tallab, siis peab juba —</p>
+                </sp>
+                <sp who="#naine-1 #naine-2 #naine-3">
+                    <speaker>Naised</speaker>
+                    <p><stage>(pistavad pääd aknast sisse ja kõnelevad läbisegi).</stage> Pole sääl kedagi — kaputjalg-kukk! Laske aga jalga, sinna kust tulite. Pole meile ühtegi kukelõikajat tarvis. Tehke aga sääred, enne kui —</p>
+                </sp>
+                <sp who="#naine-3">
+                    <speaker>Kolmas naine.</speaker>
+                    <p>Pange aga, pange kolid kokku, enne kui — Muidu kutsun mehe ja lasen teid mõlemaid majarahu rikkumise pärast tsästoki viia, küll te siis näete. Minu mees saab loodotsnikuga väga hästi läbi, küll ta<pb n="26"/> teile näitab, kudas Luukas õlut teeb. <stage>(Naised ja kanad kaagutavad. Kukk laulab.)</stage></p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson</speaker>
+                    <p><stage>(kolmandale naisele).</stage> Teie olge vait, ma ei kõnele Teiega!</p>
+                </sp>
+                <sp who="#naine-3">
+                    <speaker>Kolmas naine.</speaker>
+                    <p>Pole sääl kedagi. Kui Teie siin võõraid kanu ja kukkesid hakkate tapma, siis on igaühel õigus oma varanduse eest välja astuda.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ma viskan tindipotiga, kui te ära ei lähe! <stage>(Ärgitab tindipotiga visata.)</stage></p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Just, just. <stage>(Võtab seinalt rapiiri ja tuleb akna juure tagasi.)</stage></p>
+                </sp>
+                <sp who="#naine-3">
+                    <speaker>Kolmas naine.</speaker>
+                    <p>Katsuge õige visata tindipotiga! Eks siis näe! Arvad vist, et sul siin mõne turunaisega on tegemist, kes — <stage>(Silmab Kihu käes rapiiri.)</stage> Vaata, vaata! Juba üks tuleb mõõgaga. See on vist see pää-kukelõikaja. Hahaha! Kukelõikajad!</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Jumala eest, ma viskan tindipotiga! <stage>(Ärgitab uuesti. Naine kaob aknalt ja läheb ühes teistega, tänitades, kaugemale. Toas vaikus. Mõlemad üürilised vahivad minejatele<pb n="27"/> vihaselt järele.)</stage> Kurat võtaks! Missugune jant kuke pärast! See on lihtsalt — Aga seda ma ütlen: mina seda asja nii ei jäta. See vana koi, majaperemees, peab tunda saama, kellega tal tegemist on. Juhtkirja kirjutan: Koduloomade pidamisest linnades, sulgloomadest iseäranis. Ta peab nägema, mis tähendab: avaliku hurjutamise alla sattuda! Uulitsa, majanumbri, nime kah panen üles! <stage>(Sülgab.)</stage></p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Just, just. See on ju pagan teab mis! See on isiku alandamine! See on haavamine! <stage>(Seab rapiiri seina pääle tagasi.)</stage> Kahju, et niisugust metslast välja ei saa kutsuda.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Keda? Kukke?</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Majaperemeest.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Mis välja kutsuda! Niisugune raibe löö lihtsalt maha... astu jalaga pääle, nagu mardikale. Maja kah maha põletada... tuhahunnikuks muuta kõik see kupatus. Kukk! Mõtle ainult — kukk! <stage>(Kukk laulab.)</stage> Jah, röögi nüüd! Mis sul viga röökida — sulle anti õigus. Aga kui mina ükskord majaperemeheks hakkan ja üürilisi võtan,<pb n="28"/> siis on üürilepingu esimene punkt: kukke ei tohi majasse soetada. Teine punkt: pesurulli ei tohi keegi ühes tuua. Kolmas: klaverit ärgu olgu. Ja neljas —</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Lapsed.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Jah. Ja kes selle nelja punktiga nõus ei ole — lasku jalga! Pole tarvis!</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Hää küll, nii teed sa siis, kui ise majaperemees oled, aga nüüd peame ikkagi ümber kolima.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Muidugi peame ümber kolima. Ega me's siia ei või jääda. Ja pea: et ta pagan kohe tunda saaks, see majaperemees... Paneme tänasesse lehte ilusa korterikuulutuse. Mis?</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Just, just.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Oota.. <stage>(Istub laua juure, kirjutab blocnotes'ile ja loeb ühtlasi ette:)</stage> "Otsitakse vagusat tuba." Vagusat — kolm joont alla. "Tuba võib külm, rõske ja otsast otsani lutikaid ning tarakanisid, ussa ja nahkhiiri täis olla, aga olgu ta täiesti vaikne."<pb n="29"/> Täiesti — kolm joont all. "Majas ei tohi kukke, pesurulli, klaverit ja lapsi olla. Teatada" — oota sa pagan! — "Teatada: Supsi uulitsasse, number nelikümmend seitse, <stage>(rõhuga:)</stage> Rupski majasse". Att! Nii! <stage>(Tõuseb üles ja käib kuulutusega võidurõõmsalt edasi-tagasi.)</stage> See on talle kohe esimene kost. Mis pärast tuleb, see on pääle selle. Ja et see kuulutus tänasesse lehte hiljaks ei jääks, mine, jookse vii ta kohe talitusse — sa oled riides. Ja küsi õige mõne advokaadi käest järele, kuidas talle kõige parem on külge hakata. Lihtsalt: andku kaebtus kohe sisse. Tagasi tulles võta mõni linnavaht ühes, siis on meil üks tunnistaja rohkem. Las' majaperemees kordab oma sõnu tema juuresolekul.</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Just, just. <stage>(Võtab kübara, kepi ja kuulutuselehe Aaviksoni käest ja läheb välja. Aavikson käib suitsetades edasi-tagasi, haudub mõttes hirmsat kättemaksmist ja teeb kätega ähvardavaid liigutusi. Tõmbab enesele siis saapad jalga, paneb krae kaela j. n. e. Rullimise mürin, laste kisa ja klaverimäng vaikib. Ukse pihta koputatakse.)</stage></p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson</speaker>
+                    <p><stage>(pisut kohkudes).</stage> Si — sisse!</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma</speaker>
+                    <p><stage>(astub sisse).</stage> Tere hommikust!</p>
+                </sp>
+                <pb n="30"/>
+                <sp who="#aavikson">
+                    <speaker>Aavikson</speaker>
+                    <stage>(teeb kumarduse).</stage>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Vabandage, et eksitan! Kas ma võiksin härra Aaviksoniga kõnelda?</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson</speaker>
+                    <p><stage>(uuesti kumardades).</stage> Olge nii lahke. Mina olen see.</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Ah Teie oletegi härra Aavikson? Väga hää, et Teiega kokku sain. Mina olen majaperemehe tütar, siit ülevalt.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Väga rõõmustav! Millega tohin Teile —</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Ütelge: mis Te kaklete siin all?</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Kakleme?</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Nojaa. Mina istusin parajasti klaveri juure, et natuke harjutada, kui all korraga suur lärm algas.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ometi mitte kakelus.</p>
+                </sp>
+                <pb n="31"/>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Kisa järele otsustades võis kõike arvata. Aga see on ükskõik. Mis Teil siin viga on?</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Kas jutt veel Teie juure ei ulatanud?</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Ja, sääl kõneldi midagi, aga mina ei usu naiste juttu: nemad panevad palju juure ja teevad kõik oma viisi.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ah nii? Siis võin Teile ütelda, mis meil siin viga on — Kukk ei anna rahu.</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Kukk ei anna rahu? Kukk ei anna Teile rahu? Mis ta siis teeb?</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Laulab.</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Laulab! <stage>(Hakkab suure häälega naerma.)</stage></p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Mis te naerate?</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Kuke laul eksitab Teid! Ja mina arvasin, et ajakirjanikud on niisugused terasnärvidega inimesed, kes endid millestki eksitada ei lase; et lastagu neil või suur<pb n="32"/>tükki kõrva ääres — nemad kirjutavad ikka edasi.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Kahjuks ei ole see mitte nii. Iga inimene tahab rahu... isegi ajakirjanik. Pääle selle on siin minu sõber, kes veel rohkem rahu tarvitab. Ta valmistab ennast nimelt eksamite vastu, peab õppima.</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Kas nad siis õpivad ka... üliõpilased?</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ja muidugi... nii imelik, kui see Teile ka näib.</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Hm, naljakas! Ja, siis on lugu paha, kui ta õppima peab. Minu onunaise majas elavad ka üliõpilased, aga need ei õpi kunagi.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Nii? Mis need siis teevad?</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Nemad... Hommikupoolel magavad, siis tõusevad üles, ajavad habet ja lähevad lõunale. Pääle lõunat heidavad magama.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Noh, ja siis?</p>
+                </sp>
+                <pb n="33"/>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Siis... tõusevad üles. On muidugi unised ja käivad niisama ühest nurgast teise; ajavad juttu, kõnelevad mingisugustest allkirjadest, mis kusagilt vaja olevat muretseda. Ja nii... nii läheb aeg. Üks, see küll ei kõnele palju, see tõuseb üles, istub laua juure ja —</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Õpib muidugi?</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Ei. Võtab puhta paberilehe ja kirjutab selle oma nimesid täis. Onunaine leiab tuba koristades ühtelugu sarnaseid lehekesi. Ühe pääl oli ometi sadaviiskümmend korda ühte ja sama nime kirjutatud, ja iga nimi isesuguse sabaga või kronksuga.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>So — oh? Vaata! Aga kust Te teate, et neid nimesid just sadaviiskümmend oli?</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Ma lugesin. Onunaine oli selle lehe alles hoidnud.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Hm.</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p><stage>(jutustab edasi).</stage> Noh, ja kui nad siis unest juba natuke toibunud, siis kaovad kuhu<pb n="34"/>gi ära ja ei näita oma nägu, enne kui kella kolme või nelja paiku öösi. Mõnikord tulevad ka hiljem, mõnikord ei tule nad üleüldse koju... kaks, kolm päeva järgimööda, nädal.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ja — ah.</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Siis on Teie sõber hoopis teistsugune kui need. Tema peab õppima.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ja, tema peab õppima.</p>
+                </sp>
+                <stage>(Lühikene vaikus.)</stage>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Aga seda ei saa ma ikka kuidagi uskuda, et kukk niihästi Teid kui teda kuidagi eksitada võiks. Sääl peab mõni muu asi olema, mis Teile tüli teeb.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>On ka muid asju. Näituseks pesurull ja lapsed siin kõrval... ja klaver üleval.</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Ah! Ka klaver!</p>
+                </sp>
+                <pb n="35"/>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ja, aga seda võib veel kannatada; pääasi on kukk.</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Ikka kukk! Kas Te siis loomi ei armasta? <stage>(Vaatab aknast välja.)</stage> Vaadake, kui toredasti ta sääl kõnnib, meie Hektor! <stage>(Laseb rinnuli aknalauale, hüüab kukke.)</stage> Heki! Heki! Tule siia, Heki! <stage>(Kuke ja kanade häälitsemine kostab lähemalt.)</stage> Vaadake, vaadake, kui tore! Missugune sakiline hari ja kui ilusad sabasuled! Ja missugune iseteadev kõnnak! Vaadake ometi, härra Aavikson! <stage>(Aavikson vaatab ja kortsutab kulme.)</stage> Mis on, Heki? Kas teri tahad? <stage>(Võtab taskust teri ja viskab kukele.)</stage> Aga sa, rumal, ei söö ju ise midagi, hoiad kõik kanadele. <stage>(Aaviksonile:)</stage> Vaadake, kui viisakas kavaler meie Heki on: kõik paremad suutäied annab oma daamidele. Ja Teie nurisete veel, et ta... et ta halvasti on kasvatatud.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Mina nurisen sellepärast, et ta laulab.</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Ah ja — et ta laulab! <stage>(Naerab.)</stage> Naljakas! Mispärast ei peaks sa laulma? Selle eest on ta ju kukk. <stage>(Välja:)</stage> Eks ole, Heki? Mispärast ei peaks sa laulma. <stage>(Kukk laulab.)</stage> Noojah — muidugi! <stage>(Aavik<pb n="36"/>sonile:)</stage> Kas näete, ta saab kõik aru, mis kõneldakse. Haruldaselt ilus ja tark kukk, eks ole? <stage>(Aavikson kehitab õlgu.)</stage> Ütelge ometi, eks ole ilus ja tark kukk, mis? Tulge, vaadake teda kord õige lähidalt. <stage>(Tõmbab Aaviksoni käistpidi enda kõrvale, akna juure.)</stage> Nii. Nüüd võtke, visake talle natuke teri, siis saate varsti sõbraks; siis tunneb ta Teid suurelt kaugelt ära ja tuleb vastu. <stage>(Võtab taskust teri ja pakub Aaviksonile. Aavikson võtab terad kõheldes vastu.)</stage> Noh, visake nüüd! Ei, mitte korraga! Natukehaaval, natukehaaval! Nii, nii, nii... Eks ole ilus kukk, mis?</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ja... päris kena kukk.</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>No vaadake! Vihkasite teda päris ilmaaegu. Visake nüüd jälle natuke teri: Nii, nii. Kas näete, ainult mõne ainsa tera võtab ise; kõik annab kanadele.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>See on tõesti imelik, et loomal niisugune... niisugune — <stage>(Järsku.)</stage> Vaadake, vaadake, mis ta nüüd teeb! <stage>(Jääb sama järsku vait, nagu ta alganud, ja teeb kohmetu liigutuse.)</stage> Ah so, ja...</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma</speaker>
+                    <stage>(pöörab näo kõrvale ja püüab naeru tagasi hoida).</stage>
+                    <p>Ütelge, härra Aavikson, kas Te iga päev toimetuses käite?</p>
+                </sp>
+                <pb n="37"/>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ja, iga päev.</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Naljakas!</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Mida leiate sääljuures naljakat?</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Nii... üleüldse... see ajalehe asi... Kuidas Te teate kõik, mis maailmas sünnib?</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Selle jaoks on telegrahviagentuur, kirjasaatjad...</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Ah nii... See võib küll väga huvitav olla, kui — visake nüüd jälle natuke teri — kui nii... igast ilmakaarest teated kokku tulevad.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Muidugi, oma jagu huvitust on selles ka. Kõige värskemad sõnumed saab ajaleht. Mis lugejad alles õhtul teada saavad, teame meie juba hommikul.</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Ja, tõesti. <stage>(Raputab pääd.)</stage> Naljakas. Ja mis Te hommikul kirjutate, on õhtul juba lehes... trükitult. Kui ruttu! Sääl peab vist küll hulk inimesi ametis olema?<pb n="38"/> Mõtelge: enne kirjutada, siis trükkida... <stage>(Raputab imestades pääd.)</stage></p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Nojaa. Aga toimetus on ise ja trükikoda ise. Mis meie valmis kirjutame, läheb trükikotta. Igal toimetuseliikmel on oma jaoskond.</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Ja, ja, nii see vist ongi. Mina arvasin enne, et kes kirjutab, see ise trükib kah. <stage>(Naerab.)</stage> Ja, ega see nii lihtne ei olegi, kui mõni arvab. Meie, lugejad, võtame lehe õhtul kätte, loeme ta mõne poole tunnikesega läbi ja ei aimagi, kui palju sääljuures on tööd tehtud ja vaeva nähtud... Missuguse jaoskonna pääl Teie olete, härra Aavikson?</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Poliitika ringvaatus.</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Poliitika ringvaatus? Hää küll, nüüd hakkan ma hoolega poliitika ringvaatust lugema. Nüüd ma tean —</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Mis Te teate?</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Et Teie seda kirjutate. Ma ei saa sellest jaoskonnast küll hästi aru, aga... hakkan siiski lugema.</p>
+                </sp>
+                <pb n="39"/>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Missugust jaoskonda lugesite seni pääasjalikult?</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Kõige päält "Seda ja teist". <stage>(Naerab.)</stage></p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ah nii? Siis?</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Siis — kuulutused. Kirikuteated...</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ahaa, saan aru: keda kuulutati, keda laulatati...</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Ja. Ei, Te ei tohi naerda, et ma nii uudishimulik olen. See on aga tõesti väga huvitav. Vahel on sääl niisuguseid asju, mida oodatagi ei teadnud.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ei, ma ei naera ju. Mispärast peaksin naerma: igaüks loeb seda, mis teda huvitab.</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Ma arvan ka... mispärast ei peaks ma... Aga visake nüüd jälle natuke teri. Ei, visake juba kõik, Teil ei ole neid enam palju. Vaadake, kuidas Hektor ootab.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson</speaker>
+                    <p><stage>(viskab viimsed terad hoovi pääle).</stage> Hektor, ja... Aga mind paneb lihtsalt imestama, kuidas Teie —</p>
+                </sp>
+                <pb n="40"/>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Mis paneb Teid imestama?</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Kuidas Teie selle Hektori eest hoolitsete.</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Aga ta on ju tõesti armas kukk. Vaadake ometi!</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ja, ja... Muidugi on ta armas kukk, aga —</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Aga?</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Nii võib lihtsalt... lihtsalt... <stage>(järsku)</stage> kadedaks minna.</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Kadedaks! Kuke pääle kadedaks!</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ei, neiu Rupski, lubage — ärge nüüd naerge, Jumala pärast, ühtelugu! — ma räägin paris tõsiselt. Mulle meeldis väga, kui Te alla tulite ja ütlesite, et Te naiste jutu pääle rõhku ei pane. Ja lihtsalt.. üleüldse... Ma ei saa Teile praegu kõike korraga ära ütelda, aga... kui<pb n="41"/> me kunagi tulevikus kokku saame, siis ütlen Teile paljugi, mis —</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Naljakas!</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ei, sääl ei ole midagi naljakat. Teie lihtsus, Teie see... see... olek... Me saame ometi tulevikuski kokku, eks?</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Kes teab. Ise olete lubanud meilt ära kolida.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ära kolida? Ja... Ei...</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Te olete papale öelnud; olete teda veel ähvardanud, või...</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ja, aga... Õiguse pärast ei ähvardanud ma teda ju sugugi, ma ainult tähendasin, et — Ei, neiu Rupski, peab juba katsuma kuidagi läbi ajada. Niisugune ühest paigast teise jooksmine pole ka midagi väärt. Kolm korda kolida on sama palju kui ükskord põleda. See ei maksa. Kuigi Hektor siin vahel natuke laulab — laulgu; mõni asi. Püüan meeles pidada, et ta Teie pailaps on. Pesurull.. Noh, kui pesu juba kord rullima peab... Võib ju rullimise ajaks lihtsalt kodunt ära minna.</p>
+                </sp>
+                <pb n="42"/>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Aga kui ma ei eksi, ütlesite enne, et ka lapsed Teile rahu ei anna.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Lapsed, ja... Aga meie olime ka kord lapsed. Ega lapsigi uulitsale ei või ajada. Ja kui veel ükskord Jumal endale mõne annab...</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Aga klaver?</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Noh, see on selle järele, kes mängib. Nüüd, näituseks, tean ma, et Teie mängite, ja olen kindel, et see mind edaspidi ei eksita.</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Naljakas!</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Naljakas? Jälle naljakas? Teile näib kõik naljakas.</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Ja. Iseäranis tänane hommik. Te olite enne nii pahane...</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ja, ma olin pisut pahane. Pahad unenäod...</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Mis Te nägite unes?</p>
+                </sp>
+                <pb n="43"/>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Mis ma nägin? Mis ma nägin? <stage>(Tuletab meele.)</stage> Noh... Sõin mingisugust paha looma, mingit roti- või konnataolist.</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma</speaker>
+                    <p><stage>(naerab).</stage> Ja sellepärast tuligi Teil mõte ümber kolida?</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ja, sellepärast.</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Aga nüüd?</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Nüüd? Ei, nüüd olen ma otsusele jõudnud, et — Ei, ei, mistarvis kolida? Lihtsalt — lihtsalt — <stage>(Järsku:)</stage> Mul on see äraneetud komme, ma pean kõik kirjalikult tegema. <stage>(Läheb ruttu enda kirjutuslaua juure, kirjutab midagi bloc-notes'ile, tõmbab lehe välja ja tuleb sellega Alma juure tagasi.)</stage> Vaadake! <stage>(Hoiab kirjutatud lehe Alma silmade ees.)</stage> Vaadake, neiu Alma, mis ütleksite seepääle, kui kord need kaks nime ajalehe esimesel veerul kõrvu seisaksid? Muidugi satuvad nad pärast kirikuteadete sekka, ja neid... neid loete Te ometi nii hää meelega. Mis ütleksite Te seepääle?</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma</speaker>
+                    <p><stage>(häbelikult).</stage> Härra Aavikson!</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ei, ei! Ma ei lähe enne siit paigast, ei söö ega joo enne, kui Te mulle vastate. Lihtsalt —</p>
+                </sp>
+                <pb n="44"/>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Ma ei tea tõesti mitte... <stage>(Teeb teist juttu.)</stage> Ütelge, härra Aavikson, mis kella ajal Te toimetusse lähete.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Toimetus, toimetus! Mis on mulle nüüd toimetus! Nüüd tahan ma ainult ühte teada saada! Neiu Alma! Ainult ühte tahan teada saada! Toimetus... Te küsite, millal ma sinna lähen? Harilikult kell kümme, aga täna — <stage>(Talle tuleb järsku midagi meele. Ta lööb omale käega otsaette.)</stage></p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Aga täna?</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Täna pean ma sinna kohe minema. Silmapilk! Jalamaid! <stage>(Kõrvale:)</stage> Oh see kolm korda äraneetud kuulutus, millega Kihu talitusse lendas!</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Mispärast?</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ma pean! Pean! Pean!</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Nii järsku?</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ja, kahjuks. <stage>(Võtab kübara ja kepi ja sammub kärsitult edasi-tagasi.)</stage> Ma unustasin... unustasin. Pärast ütlen ma Teile kõik. Aga nüüd... nüüd pean kohe minema. Silmapilk!</p>
+                </sp>
+                <pb n="45"/>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Ma ei taha Teid kinni pidada, härra Aavikson, aga mul on Teie vastu üks palve.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Üks palve?</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Ja, härra Aavikson. Kas Te ei võtaks mind kunagi toimetusse ühes, ma tahaks nii väga näha, kuidas sääl —</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson</speaker>
+                    <p><stage>(on nagu tulistel sütel).</stage> Miks mitte, miks mitte. Olge nii lahke!</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Aga millal?</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ükskõik. Minu pärast kas või praegu.</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma.</speaker>
+                    <p>Praegu! O, siis lähen ma silmapilk ja võtan kübara. Oodake ainult üks silmapilk, ma tulen kohe. Silmapilk... silmapilk... <stage>(Ruttu ära. Näha, kui ta aknast mööda vilksatab.)</stage></p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson</speaker>
+                    <p><stage>(enese ette).</stage> Kuulutus! Kuulutus! See õnnetu korterikuulutus! Kui selle sabast veel kinni saaks! <stage>(Hoovis tekib järsku suur lärm ja tuleb ruttu lähemale. Kostavad naiste vihased hüüded. Kihu tormab sisse ja tõmbab ukse enese järel prahvatades kinni.)</stage></p>
+                </sp>
+                <pb n="46"/>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>See on juba pagan teab mis! Siia hoovi ei tohi enam nägugi näidata, kohe on naised küljes. <stage>(Läheb akna juure. Hõikab välja:)</stage> Selle eest peate kohtus vastust andma! See on haavamine! <stage>(Väljast hüüded: "Kukelõikaja! Kukelõikaja!")</stage></p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu</speaker>
+                    <p><stage>(pöörab Aaviksoni poole. Pühib higist nõretavat nägu).</stage> Peab katsuma, et siit jalamaid minema saaks. Ära söövad!</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson</speaker>
+                    <stage>(kehitab õlgu).</stage>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Kuulutus läks lehte.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson</speaker>
+                    <p><stage>(heidab käega).</stage> Ah, mistarvis!</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Kuidas — mistarvis? Kuulutus läks lehte, nagu meil maha oli tehtud.</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Ei ole vaja. Ja üleüldse... terve see jändamine... Ei maksa! Lähen võtan kuulutuse tagasi.</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Tagasi? Võtad kuulutuse tagasi? Mispärast?</p>
+                </sp>
+                <pb n="47"/>
+                <sp who="#aavikson">
+                    <speaker>Aavikson</speaker>
+                    <stage>(kehitab õlgu).</stage>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Või käidi palumas? Käis majaperemees palumas, et me ei kuulutaks?</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson</speaker>
+                    <stage>(kehitab õlgu).</stage>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Ei, see on lihtsalt arusaamatu lugu! Või mõtled koguni siia elama jääda? Mis?</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Jah.</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Mis "jah"?</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson.</speaker>
+                    <p>Mõtlen siia elama jääda.</p>
+                </sp>
+                <sp who="#kihu">
+                    <speaker>Kihu.</speaker>
+                    <p>Mõtled siia elama jääda, pääle selle kõige! O, memm! O, narts! <stage>(Lühike vaheaeg.)</stage> Aga jää! Ela! Ela tuhat viissada aastat, kui tahad, või rohkemgi. Aga mina sinuga ühes ei ela. Jalamaid lähen otsin uue toa. <stage>(Vihaselt ära. Aavikson vaatab talle mõttes järele.)</stage></p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson</speaker>
+                    <p><stage>(enesele).</stage> Hm... hm... Mis see nüüd oli? Mis see nüüd on? Kihuga, oma<pb n="48"/> parema sõbraga, läksin tülli... Mispärast? Pean korterikuulutuse tagasi võtma, ja selle... <stage>(vaatleb lehte, kus tema enese ja neiu Rupski nimed pääl)</stage> vist selle... sisse andma? Hm.. hm... Ma ei saa õieti isegi aru, mis siin sünnib.</p>
+                </sp>
+                <sp who="#alma">
+                    <speaker>Alma</speaker>
+                    <p><stage>(akna taha ilmudes).</stage> Härra Aavikson, kas tulete?</p>
+                </sp>
+                <sp who="#aavikson">
+                    <speaker>Aavikson</speaker>
+                    <p><stage>(jahmatab).</stage> Jah, silmapilk. <stage>(Läheb pikkamisi ukse poole. Ukse päält:)</stage> Ei, see on lihtsalt — lihtsalt arusaamatu lugu!</p>
+                </sp>
+                <stage>(Eesriie.)</stage>
+            </div>
+        </body>
+    </text>
+</TEI>
