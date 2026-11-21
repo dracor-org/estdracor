@@ -1,0 +1,2562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="est000041" xml:lang="et" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Enne kukke ja koitu</title>
+                <author>
+                    <persName>
+                        <forename>August</forename>
+                        <surname>Kitzberg</surname>
+                    </persName>
+                    <idno type="wikidata">Q376410</idno>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <ref target="http://www.digar.ee/id/nlib-digar:439441">DIGAR Digital Archive</ref>
+                    <availability>
+                        <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                    </availability>
+                </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>August</forename>
+                            <surname>Kitzberg</surname>
+                        </persName>
+                        <idno type="wikidata">Q376410</idno>
+                    </author>
+                    <title type="main">Enne kukke ja koitu</title>
+                    <date when="1919">1919</date>
+                    <publisher>Noor-Eesti kirjastus</publisher>
+                    <pubPlace>Tartu</pubPlace>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1919">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1918">
+                        <desc/>
+                    </event>
+                </listEvent>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="jueri" sex="MALE">
+                        <persName>Tuli-Jüri</persName>
+                    </person>
+                    <person xml:id="tiedemann" sex="MALE">
+                        <persName>Tiedemann</persName>
+                    </person>
+                    <person xml:id="mats" sex="MALE">
+                        <persName>Aasta-Mats</persName>
+                    </person>
+                    <person xml:id="ants" sex="MALE">
+                        <persName>Ants</persName>
+                    </person>
+                    <person xml:id="toeoemees-1" sex="MALE">
+                        <name>I töömees</name>
+                    </person>
+                    <person xml:id="maie" sex="FEMALE">
+                        <persName>Maie</persName>
+                    </person>
+                    <person xml:id="fabian" sex="MALE">
+                        <persName>Karl Fabian Chlopitzky</persName>
+                    </person>
+                    <person xml:id="poiss-2" sex="MALE">
+                        <persName>II poiss</persName>
+                    </person>
+                    <personGrp xml:id="neiud" sex="FEMALE">
+                        <persName>Neiud</persName>
+                    </personGrp>
+                    <person xml:id="toeoemees-2" sex="MALE">
+                        <persName>II töömees</persName>
+                    </person>
+                    <person xml:id="proua" sex="FEMALE">
+                        <persName>Helene Agneta Chlopitzky</persName>
+                    </person>
+                    <person xml:id="vanem-tuedruk" sex="FEMALE">
+                        <name>Vanem tüdruk</name>
+                    </person>
+                    <person xml:id="elts" sex="FEMALE">
+                        <persName>Mangu-Elts</persName>
+                    </person>
+                    <person xml:id="poiss-1" sex="MALE">
+                        <persName>I poiss</persName>
+                    </person>
+                    <person xml:id="neiu" sex="FEMALE">
+                        <persName>Üks neiu</persName>
+                    </person>
+                    <person xml:id="aednik" sex="MALE">
+                        <persName>Aednik</persName>
+                    </person>
+                    <person xml:id="vaida-jaan" sex="MALE">
+                        <persName>Vaida-Jaan</persName>
+                    </person>
+                    <personGrp xml:id="rahvas" sex="UNKNOWN">
+                        <name>Rahvas</name>
+                    </personGrp>
+                    <personGrp xml:id="talgulised" sex="MALE">
+                        <name>Talgulised</name>
+                    </personGrp>
+                    <person xml:id="made" sex="FEMALE">
+                        <persName>Made</persName>
+                    </person>
+                    <person xml:id="juhan" sex="MALE">
+                        <persName>Juhan</persName>
+                    </person>
+                    <person xml:id="jantka" sex="MALE">
+                        <persName>Jantka</persName>
+                    </person>
+                    <person xml:id="valentin" sex="MALE">
+                        <persName>Valentin</persName>
+                    </person>
+                    <listRelation>
+                        <relation name="parent_of" active="#vaida-jaan #made" passive="#ants"/>
+                        <relation name="spouses" mutual="#vaida-jaan #made"/>
+                        <relation name="siblings" mutual="#proua #fabian"/>
+                        <relation name="associated_with" active="#kaehlmann #tiedemann #jantka #aednik #poiss-1 #poiss2" passive="#proua"/>
+                        <relation name="parent_of" active="#elts" passive="#maie"/>
+                        <relation name="parent_of" active="#proua" passive="#valentin"/>
+                    </listRelation>
+                </listPerson>
+            </particDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle">Tragedy</term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-11-21">Convert txt to TEI</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <pb n="3"/>
+        <front>
+            <titlePage>
+                <docAuthor>A. KITZBERG</docAuthor>
+                <docTitle>
+                    <titlePart type="main">ENNE KUKKE JA KOITU</titlePart>
+                </docTitle>
+                <docImprint>
+                    <docDate>1919<lb/></docDate>
+                    <publisher>NOOR-EESTI KIRJASTUS </publisher>
+                    <pubPlace>TARTUS</pubPlace>
+                </docImprint>
+            </titlePage>
+            <pb n="4"/>
+            <pb n="5"/>
+            <castList>
+                <head>OSALISED:</head>
+                <castItem>
+                    <roleDesc>Pärisproua </roleDesc>
+                    <role>HELENE AGNETA CHLOPITZKY, </role>
+                    <roleDesc>sünd. Chlopitzky</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>KARL FABIAN CHLOPITZKY, </role>
+                    <roleDesc>Helene Agneta vend</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>VALENTIN, </role>
+                    <roleDesc>Helene Agneta poeg, (laps)</roleDesc>
+                </castItem>
+                <castGroup>
+                    <castItem>
+                        <role>KÄHLMANN, </role>
+                        <roleDesc>hofmeister</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role>TIEDEMANN, </role>
+                        <roleDesc>opmann</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role>JANTKA, </role>
+                        <roleDesc>toapoiss</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role>AEDNIK</role>
+                    </castItem>
+                    <castItem>
+                        <role>AEDNIKU POISID</role>
+                    </castItem>
+                    <roleDesc>Helene Agneta mõisas</roleDesc>
+                </castGroup>
+                <castItem>
+                    <role>VAIDA-JAAN</role>
+                </castItem>
+                <castItem>
+                    <role>MADE, </role>
+                    <roleDesc>Jaani naine</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>ANTS, </role>
+                    <roleDesc>nende poeg</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>MANGU-ELTS</role>
+                </castItem>
+                <castItem>
+                    <role>MAIE, </role>
+                    <roleDesc>Eltse tütar</roleDesc>
+                </castItem>
+                <castGroup>
+                    <castItem>
+                        <role>TULI-JÜRI</role>
+                    </castItem>
+                    <castItem>
+                        <role>AASTA-MATS</role>
+                    </castItem>
+                    <castItem>
+                        <role>VANA-JUHAN</role>
+                    </castItem>
+                    <roleDesc>teomehed</roleDesc>
+                </castGroup>
+                <castItem>
+                    <roleDesc>Talgulised, mehed, naised, tüdrukud, lapsed.</roleDesc>
+                </castItem>
+            </castList>
+            <set>
+                <p>Aeg: XVIII aastasaja lõpp</p>
+            </set>
+        </front>
+        <pb n="6"/>
+        <pb n="7"/>
+        <body>
+            <div type="act">
+                <head>ESIMENE VAATUS.</head>
+                <stage>Sügav näitelava. Ees puiestik laiema lagendikuga, tagapool valge herrastemaja, sammastega rõduga, kuhu astmed üles viivad. Juulikuu õhtu, valgustatud aknad.</stage>
+                <div type="scene">
+                    <head>1.</head>
+                    <stage>Kaugelt on neidude laulu kuulda, mis lähemale ja lähemale tuleb. Eellaulja sõnu kordab koor:</stage>
+                    <sp who="#neiud #made #maie #neiu #vanem-tuedruk">
+                        <lg>
+                            <l>:,: Õdang tuleb me külale,</l>
+                            <l>Vilu veereb vaanijale, :,:</l>
+                        </lg>
+                        <lg>
+                            <l>:,: Õdang tuleb koju kutsma,</l>
+                            <l>Hämar maija meelitama :,:</l>
+                        </lg>
+                        <lg>
+                            <l>:,: Ei ma lähe õhtu kutsel,</l>
+                            <l>Hämariku häälitsusel :,:</l>
+                        </lg>
+                        <lg>
+                            <l>:,: Järel tulgu hella veli,</l>
+                            <l>Hella veli, kulla veli. :,:</l>
+                        </lg>
+                        <stage>Eellaulja Made, Maie, hulk naisi ja neidusid, tulevad lauldes. Piimvalged rüüd ja pikad hammed, viimased rindade alt (kõrgelt) kirjude vöödega seotud, rukkililledest pärjad juustel, sirbid käes ja õlal, — löövad Made ümber poolringi.</stage>
+                        <lg>
+                            <l>:,:Tuli järel hella veli,</l>
+                            <l>Hella veli, kulla veli :,:</l>
+                        </lg>
+                        <pb n="8"/>
+                        <lg>
+                            <l>:,: Tule koju, kulla sõsar,</l>
+                            <l>Astu sisse, siidi sõsar :,:</l>
+                        </lg>
+                        <lg>
+                            <l>:,: Sul on kodus kuued kosjad,</l>
+                            <l>Velitsil sul viied viinad! :,:</l>
+                        </lg>
+                        <stage>Astuvad kätest kinni hoides rütmilisel tantsusammul, ilma kordamata elavalt lauldes Made ümber ringi:</stage>
+                        <lg>
+                            <l>Ilugeme, kui me võime,</l>
+                            <l>Kärageme, kui me käime,</l>
+                            <l>Noored noorela ealla,</l>
+                            <l>Parajaila päevadella!</l>
+                            <l>Koju jäägu kurvad keeled,</l>
+                            <l>Kurvad keeled, mure meeled,</l>
+                            <l>Ahju ette naised vaigad,</l>
+                            <l>Tuimad tüttered tubaje!</l>
+                        </lg>
+                        <stage>(Lagunevad salkadesse laiali, kõik hääs tujus.)</stage>
+                    </sp>
+                    <sp who="#made">
+                        <speaker>MADE</speaker>
+                        <p>Latsekesed, latsekesed — kas te's ka väsinud ei ole? Või mis ma küll küsin, kes see talgudel tohib väsida. Ei mina vanagi, siis veel teie, noored!</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p>Kes nüüd sinu vastu saab, Vaida-tädi! Sa oled ju noorem ja kärmem kui meie kõik. <stage>(Surub enese Made lähedale.)</stage></p>
+                    </sp>
+                    <sp who="#neiu">
+                        <speaker>KEEGI NEIU</speaker>
+                        <p>Rukkihitsmel sul muud kui sirp lendas käes! Päris tegemist oli, et järele jõuda.</p>
+                    </sp>
+                    <pb n="9"/>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p>Ja laulud ei lõpe sul iialgi suust!</p>
+                    </sp>
+                    <sp who="#made">
+                        <speaker>MADE</speaker>
+                        <p>Laulud? Latsekesed, latsekesed, mis sa saad parata, kui süda rinnus noor! Ema oli laulik, vanaema oli laulik, ja neilt mullegi mõni lugu meelde jäi. Maiekene tütrekene, <stage>(silitab selle pääd)</stage> ega ma laule ilmast ühes vii. Sulle ma nad pärida jätan. Tahad sa?</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p><stage>(Lööb käed Made kaela ümber.)</stage> Kas ma tahan? Küsid veel!</p>
+                    </sp>
+                    <sp who="#made">
+                        <speaker>MADE</speaker>
+                        <p>Sina mulle ju kõige armsam oled! <stage>(Silitab jälle Maie pääd.)</stage></p>
+                    </sp>
+                    <sp who="#vanem-tuedruk">
+                        <speaker>VANEM TÜDRUK</speaker>
+                        <p><stage>(Kärsitult)</stage> Mis te nüüd! Mis te raiskate kallist aega! Vaida-tädi, alga veel mõni laul või mäng!</p>
+                    </sp>
+                    <sp who="#neiu">
+                        <speaker>KEEGI NEIU</speaker>
+                        <p><stage>(Paitab Madet.)</stage> Alga jah, Vaida-tädi, ilma sinuta ei saa.</p>
+                    </sp>
+                    <sp who="#neiud">
+                        <speaker>NEIUD</speaker>
+                        <stage>(läbisegi)</stage>
+                        <p>Jah, jah, Vaida-tädi! Alga, alga! Kuni teised tulevad!</p>
+                    </sp>
+                    <pb n="10"/>
+                    <sp who="#made">
+                        <speaker>MADE</speaker>
+                        <p>Ikka jälle mina või?</p>
+                    </sp>
+                    <sp who="#vanem-tuedruk">
+                        <speaker>VANEM TÜDRUK</speaker>
+                        <p>Kes siis muu!</p>
+                    </sp>
+                    <sp who="#made">
+                        <speaker>MADE</speaker>
+                        <p>Kui siis teisiti ei saa — mina ka vastu ei ole. Viskame sirpi!</p>
+                    </sp>
+                    <sp who="#neiud">
+                        <speaker>NEIUD</speaker>
+                        <stage>(läbisegi)</stage>
+                        <p><stage>(Nagu mesilased Made ümber.)</stage> Jah, jah, viskame sirpi, viskame sirpi! <stage>(Hüpates ja karates.)</stage> Tädi viskab sirpi, tädi viskab sirpi.</p>
+                    </sp>
+                    <sp who="#made">
+                        <speaker>MADE</speaker>
+                        <stage>(Laulab eel, neiud kordavad, nagu enne.)</stage>
+                        <lg>
+                            <l>:,: Neiukesed, noorukesed,</l>
+                            <l>Kuldapärga pääsukesed :,:</l>
+                        </lg>
+                        <lg>
+                            <l>:,: Lähme sirpi viskamaie,</l>
+                            <l>Lähme tarkust tabamaie :,:</l>
+                        </lg>
+                        <stage>(Neiud annavad sirbid Madele, kes neid viibutab.)</stage>
+                        <lg>
+                            <l>:.; Sirise, sirise sirbikene,</l>
+                            <l>Kõrise, kõrise kõverrauda :,:</l>
+                        </lg>
+                        <lg>
+                            <l>:,: Kelle sirpi ette jõuab,</l>
+                            <l>Selle vastu peigmees sõuab!</l>
+                        </lg>
+                        <stage>(Made viskab sirbid tuulde, neiud jooksevad igaüks oma otsima. Made kordab üksi:)</stage>
+                        <pb n="11"/>
+                        <lg>
+                            <l>Kelle sirpi ette jõuab,</l>
+                            <l>Selle vastu peigmees sõuab!</l>
+                        </lg>
+                        <stage>(Otsimisel naer ja nali.)</stage>
+                    </sp>
+                    <sp who="#neiud">
+                        <speaker>NEIUD</speaker>
+                        <p><stage>(Tagasi tulles, läbisegi.)</stage> Maie oma! Maie oma jah! Maie sirp oli kõige ees!</p>
+                    </sp>
+                    <sp who="#made">
+                        <speaker>MADE</speaker>
+                        <p>Noh, siis Maiel kõige enne kosilased oodata. Seda ma arvasin! <stage>(Astub Maiele vastu.)</stage> Ära häbene midagi, tütrekene, oled seda väärt. — Noh? Nii nukker?</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p><stage>(Kaebades)</stage> Külmkäpp minu kosija, Vaida-tädi; näed, sirp keskelt katki! <stage>(Purskab nutma.)</stage></p>
+                    </sp>
+                    <sp who="#made">
+                        <speaker>MADE</speaker>
+                        <p><stage>(Kohkunult.)</stage> Mis? Sirp katki?!</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p>Jah! Näed? Keskelt pooleks!</p>
+                    </sp>
+                    <sp who="#neiud">
+                        <speaker>NEIUD</speaker>
+                        <p>Keskelt pooleks! <stage>(Tungivad kõik, ka kohkunult, Maie sirpi vaatama, on kui halvatud.)</stage></p>
+                    </sp>
+                    <sp who="#made">
+                        <speaker>MADE</speaker>
+                        <p><stage>(Trööstida püüdes.)</stage> Mis sa, laps, sellepärast nutad! Läks katki — no, läks katki. Vana<pb n="12"/> habras raud... Ega's see midagi ei tähenda, oli ju ainult nali!</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p>Nali? Mulle ei olnud see nali! Mulle tähendas see õnne ehk õnnetust. Näed — õnnetust tähendas! <stage>(Lööb nuttes käed Made ümber.)</stage> Ah Vaida-tädi, Vaida-tädi!</p>
+                    </sp>
+                    <sp who="#made">
+                        <speaker>MADE</speaker>
+                        <p>Mis sa nüüd! Sellel nüüd midagi õnne või õnnetusega tegemist! Oli ju ainult mäng!</p>
+                    </sp>
+                    <sp who="#neiud">
+                        <speaker>NEIUD</speaker>
+                        <stage>(läbisegi)</stage>
+                        <p>Ära nuta! Mis sa nutad! Kui Vaida-tädi ütleb, et see midagi ei tähenda... siis ei tähenda see ka midagi! Näed, murrukohal vana roostetanud jama... On jah murrukohal jama.</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p><stage>(Nuttes)</stage> Miks ta siis enne katki ei läinud? Vaid otse nüüd! — Külmkäpp astus jalaga pääle!</p>
+                    </sp>
+                    <sp who="#made">
+                        <speaker>MADE</speaker>
+                        <p>Mis sa, rumal laps, räägid: külmkäpp! Mis sul külmkäpaga tegu! Sul muud mõtelda! Las läeb suvi, saab sügise: vikat viib<pb n="13"/> arulta heina, nuga nõmmelta pedaka, hunt viib hiiesta hobuse, karu täku kabengista — poiss viib neiduse külasta, mees naise üle tänava! Ära sina, laps, külmkäpast räägi ja enese eest muretse. Mina tean. <stage>(Silitab Maie pääd.)</stage></p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p><stage>(Vähe rõõmsamalt)</stage> Küll sina, tädi, aga oskad!</p>
+                    </sp>
+                    <sp who="#made">
+                        <speaker>MADE</speaker>
+                        <p>Mina ei oska, mina tean! Pühi silmad kuivaks: näe, mehed tulevad! Ohvmeister ja, Ants ja...</p>
+                    </sp>
+                    <sp who="#neiud">
+                        <speaker>NEIUD</speaker>
+                        <stage>(läbisegi)</stage>
+                        <p>Tulevad! Tulevad! Juba tulevad! <stage>(Löövad kilgates kahele poole, annavad ruumi.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>2.</head>
+                    <stage>Opmann — paks ja rasvane, pool saksa, pool talupoega, haljaste nööpidega vesti, laia prostoi õlekaabu, säärsaabaste ja jämeda kepiga — hofmeister, noor mees, — sinine prakk, kintspüksid, pikad sukad ja pannaldega kingad, kolmekandiline kübar ja pats kuklas, — nende järel Ants, suurt viljapäädest pärga kandes, Vaida-Jaan, Tuli-Jüri, Aasta-Mats, Vana-Juhan ja teised talgulised, kõigil suures alanduses kaabud pihus ja sirbid õlal — mustad ja hallid pihikud, valged püksid, pastlad<pb n="14"/> ja viisud, nooremad särgiväel — mõned näitavad peergudega tuld, olgugi et veel pime ei ole.</stage>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p><stage>(Ärritatult)</stage> Herr ohvmeister, herr ohvmeister — Immel und Herde! Kui see kõik nüüd ikka hästi läheb! Ich hett so'ne Hangst! <stage>(Kuivatab suure kirju rätikuga oma higist nägu.)</stage></p>
+                    </sp>
+                    <sp who="#kaehlmann">
+                        <speaker>HOFMEISTER</speaker>
+                        <p>Miks te kardate?</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p>See uus asi, see uus asi..!</p>
+                    </sp>
+                    <sp who="#kaehlmann">
+                        <speaker>HOFMEISTER</speaker>
+                        <p>Siin on see uus, väljamaal on see iga lõikuse ajal harilik.</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p>Herr ohvmeister — väljamaal! Aga siin..! Meie rumal rahvas!</p>
+                    </sp>
+                    <sp who="#kaehlmann">
+                        <speaker>HOFMEISTER</speaker>
+                        <p>Ohoo, see rahvas ei olegi rumal. Miks te arvate?</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p>Teie ei tunne seda rahvast! <stage>(Salasõbraliselt, toob hofmeistri ettepoole.)</stage> Juba ammu tahtsin ma<pb n="15"/> teile ütelda ja teid hoiatada: ärge seltsige niipalju rahvaga, ärge tehke temaga niipalju tegemist, nagu selle poisiga sääl. See ei sünni teile, ütlen ma!</p>
+                    </sp>
+                    <sp who="#kaehlmann">
+                        <speaker>HOFMEISTER</speaker>
+                        <p>Armas Tiedemann, kas — ei ole teie ise ka selle rahva liige?</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p>Tja — võib olla. Olnud, ma ei tea. Aga seda tean ma, sel rahval on vanasõna: anna kellelegi väike sõrm, siis võtab ta terve käe, ja — lase koer kirikusse, tikub ta kantslisse. Ta ei pööra teie eest enam teed, te saate selle all veel kannatada! Ja juhtub armuline proua sellest kuulma, see ei või temale meeldida... See rahvas ei ole teie lahkust väärt!</p>
+                    </sp>
+                    <sp who="#kaehlmann">
+                        <speaker>HOFMEISTER</speaker>
+                        <stage>(asja kergelt võttes ja Tiedemannile õla pääle tatsutades)</stage>
+                        <p>Tühi lori, Tiedemann, tühi lori! <stage>(Pöörab enese tagasi Antsu poole)</stage> Hans! Kuidas on, sa ometi oskad oma asja?</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Ei tea, herra..!</p>
+                    </sp>
+                    <pb n="16"/>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p>Näete, herr ohvmeister! Näete nüüd! Mitte sedagi ta ei tea! Ja kui hästi te teda õpetasite! Päev päeva kõrval nägite temaga vaeva!</p>
+                    </sp>
+                    <sp who="#kaehlmann">
+                        <speaker>HOFMEISTER</speaker>
+                        <p>Ära karda, Hans! Küll ma aitan. — Kahju, Hans, et sa lugeda ja kirjutada ei oska! Tahad sa, ma õpetan?</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p><stage>(Välkuvail silmil)</stage> Tahan? Küllap tahan, herra.</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p>"Herr ohvmeister" pead sa ütlema! Ja tänama!</p>
+                    </sp>
+                    <sp who="#kaehlmann">
+                        <speaker>HOFMEISTER</speaker>
+                        <p>Me räägime selle üle veel. <stage>(Opmannile)</stage> Ma arvan — rahvas on nüüd kõik koos? Me võime armulise proua kutsuda?</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p>Kui arvate, herr ohvmeister, kui arvate! <stage>(Viibutab rahva poole keppi)</stage> Et te mul vagusi olete! Ja rumalusi ei tee! Ehk — teate küll! <stage>(Hofmeistriga lossi poole ära.)</stage></p>
+                    </sp>
+                    <stage>(Kihin, kahin, kohe on kõigil kaabud pääs. Tüdrukud hakkavad tagapool lauluta ringmängu tegema.)</stage>
+                </div>
+                <pb n="17"/>
+                <div type="scene">
+                    <head>3</head>
+                    <sp who="#jueri">
+                        <speaker>TULI-JÜRI</speaker>
+                        <stage>(Veidi purjus, katsub laulda ja tantsida.)</stage>
+                        <l>Hõissa talgud olid head,</l>
+                        <l>Ei mu jalad kanna pead —</l>
+                        <l>Hõissa ja hõissassaa!</l>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>AASTA-MATS</speaker>
+                        <stage>(Ka purjus, niisamuti:)</stage>
+                        <l>Viina, õlut anti hästi,</l>
+                        <l>Jalad käivad risti rästi —</l>
+                        <l>Hõissa ja hõissassaa!</l>
+                    </sp>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p><stage>(Ette tungides.)</stage> Vait olge! Ei mõista vagusi olla või?</p>
+                    </sp>
+                    <sp who="#tuli-jueri">
+                        <speaker>TULI-JÜRI</speaker>
+                        <l>Tadiradi-radi, tadiridi-ridi,</l>
+                        <l>Jalad tantsvad tagurpidi —</l>
+                        <l>Hõissa ja hõissassaa!</l>
+                    </sp>
+                    <sp who="#vaida-jaan">
+                        <speaker>VAIDA-JAAN</speaker>
+                        <p>Ega te ei kuula! Täis jälle kui tindid!</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>AASTA-MATS</speaker>
+                        <p>Täis jälle? Sina vist ei ole täis? Peaks ometi pada katla sõimamise jätma!</p>
+                    </sp>
+                    <pb n="18"/>
+                    <sp who="#vaida-jaan">
+                        <speaker>VAIDA-JAAN</speaker>
+                        <p>Mina oskan vagusi olla, teie mitte. Juhtuvad saksad teie kisa kuulma, on teil nahatäis oodata.</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>AASTA-MATS</speaker>
+                        <p>Esimest korda vist seda katsuda saan? Selg veel eilasest sinine... Ega küür kaeru kanna, ega hing turjast välja lähe.</p>
+                    </sp>
+                    <sp who="#tuli-jueri">
+                        <speaker>TULI-JÜRI</speaker>
+                        <p>Suur proua's pahaks võib panna, kui eilse vati pääle täna vähe võtan ja rõõmus olen.</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p><stage>(Põlgavalt.)</stage> Kas siis purjus pääga selg vähem valutab?</p>
+                    </sp>
+                    <sp who="#tuli-jueri">
+                        <speaker>TULI-JÜRI</speaker>
+                        <p>No sina ikka see kõige targem! Kuradi poolakas!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p><stage>(Vihaselt.)</stage> Mis sa ütled?</p>
+                    </sp>
+                    <sp who="#tuli-jueri">
+                        <speaker>TULI-JÜRI</speaker>
+                        <p>Midagi ma ei ütle! Suu pea!</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>AASTA-MATS</speaker>
+                        <p>Vana mees, aga varsa aru! Viin on vaese<pb n="19"/>mehe rõõm! Kas sinu selg sellepärast vähem valutab, et sa jumalavilja põlgad?</p>
+                    </sp>
+                    <sp who="#vaida-jaan">
+                        <speaker>VAIDA-JAAN</speaker>
+                        <p>Mis sina, poeg, nüüd..! Sa ei ole ju veel mõisahirmu katsuda saanudki! Ikka mina olen kõik vastu võtnud...</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>AASTA-MATS</speaker>
+                        <p>Las saab vana Tiedemanniga enam tuttavaks..!</p>
+                    </sp>
+                    <sp who="#tuli-jueri">
+                        <speaker>TULI-JÜRI</speaker>
+                        <p><stage>(Põlglikult.)</stage> Vana Tiedemanniga — tont teda võtku! <stage>(Trallib ja tantsib:)</stage></p>
+                        <l>Kurat pandud kubijaksi,</l>
+                        <l>Varas valla päälikuksi...</l>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>AASTA-MATS</speaker>
+                        <l><stage>(Niisama.)</stage> Ajas valla vardaesse,</l>
+                        <l>Teopoisi teibaesse...</l>
+                    </sp>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p>Jätke nüüd ometi!</p>
+                    </sp>
+                    <sp who="#tuli-jueri">
+                        <speaker>TULI-JÜRI</speaker>
+                        <l><stage>(Nagu enne.)</stage> Härga orjalta küsiksi,</l>
+                        <l>Luusarv luba paluksi...</l>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>AASTA-MATS</speaker>
+                        <l><stage>(Niisama.)</stage> Kas on pikki pühapäevi,</l>
+                        <l>Kirku kirjas kirku päevi...</l>
+                    </sp>
+                    <pb n="20"/>
+                    <sp who="#tuli-jueri">
+                        <speaker>TULI-JÜRI</speaker>
+                        <l><stage>(Nagu enne.)</stage> Et saaks lepikus lebada,</l>
+                        <l>Põõsa all või põõnutada...</l>
+                    </sp>
+                    <sp who="#vaida-jaan">
+                        <speaker>VAIDA-JAAN</speaker>
+                        <p>Kas teil siis nii sügeleb? Et vait olla sugugi et saa? <stage>(Antsule:)</stage> Sul ikka on salmid alles meeles?</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Ära karda!</p>
+                    </sp>
+                    <sp who="#tuli-jueri">
+                        <speaker>TULI-JÜRI</speaker>
+                        <p>Mis ta targa pääga oskab! Võtnud enne tilk viina, või... Vaata mind pannud ütlema! Kus oleks tulnud nagu piibust! <stage>(Trallib ja tantsib:)</stage></p>
+                        <l>Viinakene, vennikene,</l>
+                        <l>Õllekene, hõimukene,</l>
+                        <l>Oled mulle õppejaksi,</l>
+                        <l>Targemaksi tegijaksi:</l>
+                        <l>Kohe mina lõhun lõugijani,</l>
+                        <l>Kipitelen keelijani...</l>
+                    </sp>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p><stage>(Ette tungides.)</stage> Vait! Kas te's ei näe? Saksad..!</p>
+                    </sp>
+                    <stage>Meestel lendavad mütsid pääst, tüdrukud ja naised tulevad lähemale; kõik koguvad kahele poole.</stage>
+                </div>
+                <pb n="21"/>
+                <div type="scene">
+                    <head>4.</head>
+                    <stage>Lossi trepist tulevad alla ja liiguvad lähemale — teenrid tuuleküünaldega eel — mõisaproua (krinoliinis), hofmeistri käe alt tallutusel, herraste lapsed, nende järel opmann, ikka higi pühkides. Uusi peergusid süüdatakse põlema.</stage>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <stage>(Astub ette, laseb ühe põlve pääle, hoiab pärga kõrgele, ei saa aga sõna suust.)</stage>
+                    </sp>
+                    <sp who="#kaehlmann">
+                        <speaker>HOFMEISTER</speaker>
+                        <p>No, Hans, ära karda! "Suur proua..."</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS </speaker>
+                        <stage>(deklameerides:)</stage>
+                        <lg>
+                            <l>Suur proua, teie armu tööd</l>
+                            <l>Me tah'me kiita päevad, ööd:</l>
+                            <l>Te jagate meil' heldest kääst,</l>
+                            <l>Kõik hääd nii rohkest suurest vääst!</l>
+                        </lg>
+                    </sp>
+                    <sp who="#kaehlmann">
+                        <speaker>HOFMEISTER</speaker>
+                        <p>Edasi, edasi, Hans! "Nüüd teile..."</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <lg>
+                            <l>Nüüd teile, armuline proua,</l>
+                            <l>Me julgesime tänuks tuua</l>
+                            <l>Üht käna lõikus'-pärga neist</l>
+                            <l>Põllul kasvand vilja päist!</l>
+                        </lg>
+                    </sp>
+                    <pb n="22"/>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Kui kena! Ma tänan! <stage>(Pöörab küsivalt opmanni poole, see näitab hofmeistri pääle. Kergelt pääga nokutades hofmeistri poole, kes vastu kumardab:)</stage> Merci! <stage>(Võtab pärja, annab teenritele, jääb Antsu otsa vaatama, kes püsti tõusnud.)</stage> Kui kena poiss! Oled sa minu hing?</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <stage>(Ei saa sõna suust.)</stage>
+                    </sp>
+                    <sp who="#vaida-jaan">
+                        <speaker>VAIDA-JAAN</speaker>
+                        <p><stage>(Ette tungides.)</stage> Suur proua, see ju minu poeg! Ärge, suur proua, kuri olge, et ta paremini ei oska. Err ohvmeister õpetas teda küll, aga — suur proua teavad ise, kuidas talupoja asi on: pese siga seebiga, saada siga Saksamaale — siga jääb...</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Keelab käega.)</stage> Gut, gut, ära nüüd nii palju.. <stage>(Pöörab teiste poole.)</stage> Ütle doch, armas inimene — sai põld lõpule?</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p>Fertig, armuline proua, fertig!</p>
+                    </sp>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p>Lõpp läks küll raskesti, mehed kõik nädal otsa tööst väsinud — sääl tuli kilter keppidega...</p>
+                    </sp>
+                    <pb n="23"/>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Käega keeldes.)</stage> Ütle doch — ja viina, õlut oli? <stage>(Meeste hulgas kihin-kahin.)</stage></p>
+                    </sp>
+                    <sp who="#vaida-jaan">
+                        <speaker>VAIDA-JAAN</speaker>
+                        <p><stage>(Ette tikkudes.)</stage> Oli ikka, armuline suur proua, igamees saime väikese vaskmõõdu täie. Ja õlut anti ka poole toobiga. Paluksime küll pisut veel! Kondid valutavad nii kurjasti, et...</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Keelab käega.)</stage> Gut, gut! Jantka, ütle aidamehele, et annab veel pool vedru viina!</p>
+                    </sp>
+                    <sp who="#jantka">
+                        <speaker>JANTKA</speaker>
+                        <stage>(Annab lühtri Antsu kätte, läheb.)</stage>
+                    </sp>
+                    <sp who="#vaida-jaan #jueri #mats #juhan #talgulised">
+                        <speaker>MEHED</speaker>
+                        <stage>(Läbisegi, küünitavad ja tikuvad proua käele suud andma, kes küünarnukid ette hoiab.)</stage>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Gut, gut! Mineb nüüd minema, armas inimene! <stage>(Astub Antsu poole.)</stage> No sina, kena poiss, ütle doch —</p>
+                    </sp>
+                    <sp who="#vaida-jaan">
+                        <speaker>VAIDA-JAAN</speaker>
+                        <p><stage>(Ette tikkudes.)</stage> See ju, suur proua, minu poeg! <stage>(Rahva hulgas salajane naer.)</stage></p>
+                    </sp>
+                    <pb n="24"/>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Ja kes sina oled? Sind ma ju ka ei tunne...</p>
+                    </sp>
+                    <sp who="#vaida-jaan">
+                        <speaker>VAIDA-JAAN</speaker>
+                        <p>Miks nüüd suur proua ei tunne! Va' Vaida-Jaan, kelle künnihärjad talvel ära kärvasid...</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Künnihärjad?</p>
+                    </sp>
+                    <sp who="#vaida-jaan">
+                        <speaker>VAIDA-JAAN</speaker>
+                        <p>Jah, kellele proua uued härjad andis, kui sarved mõisa tõin...</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p><stage>(Ette tikkudes.)</stage> Kes härjad ära müüs ja raipe sarved mõisa tõi!</p>
+                    </sp>
+                    <sp who="#vaida-jaan">
+                        <speaker>VAIDA-JAAN</speaker>
+                        <p><stage>(Astub tagasi.)</stage> Mis ta nüüd müüs. Või mul siis ka nahk üle ei löödud! <stage>(Kaob teiste hulka.)</stage></p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Antsule:)</stage> Ja sina..? No ja, sa oled kena poiss.</p>
+                    </sp>
+                    <sp who="#tuli-jueri">
+                        <speaker>TULI-JÜRI</speaker>
+                        <p>Eks teda võetud, et ta noorem ja sirgem, siis on suure proua meel ka lahkem. Muidu — ei ole ta ju küll midagi mees!</p>
+                    </sp>
+                    <pb n="25"/>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <stage>(Annab lühtri tagasitulnud Jantkale ära.)</stage>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Hofmeistrile:)</stage> Ta nagu tuletab mulle kedagi meelde. Ma ei tea aga kohe, keda.</p>
+                    </sp>
+                    <sp who="#kaehlmann">
+                        <speaker>HOFMEISTER</speaker>
+                        <p>Jaa, tal on midagi intelligentlikku näos.</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Silmapilgu mõtetes, siis Tuli-Jürile:)</stage> Miks ta ei ole "midagi mees"?</p>
+                    </sp>
+                    <sp who="#tuli-jueri">
+                        <speaker>TULI-JÜRI</speaker>
+                        <p>Mis mina tean. Nina püsti, ikka targem kui teised. Ei võta viina, ega...</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Ei võta viina?</p>
+                    </sp>
+                    <sp who="#tuli-jueri">
+                        <speaker>TULI-JÜRI</speaker>
+                        <p>No ei.</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Teie võtate ka liig palju. Sa oled ju praegugi purjus?</p>
+                    </sp>
+                    <sp who="#tuli-jueri">
+                        <speaker>TULI-JÜRI</speaker>
+                        <p><stage>(Astub tagasi.)</stage> Purjus nüüd...</p>
+                    </sp>
+                    <pb n="26"/>
+                    <sp who="#mats">
+                        <speaker>AASTA-MATS</speaker>
+                        <p><stage>(Uriseb:)</stage> Palju? Kust teda palju? Palju veetakse hobusega. Kui suutäiegi saab — kust teda enam!</p>
+                    </sp>
+                    <sp who="#vaida-jaan">
+                        <speaker>VAIDA-JAAN</speaker>
+                        <p><stage>(Ette tikkudes.)</stage> Poiss oli juba lapsest saadik sihuke! Ei ole minu järele juhtunud. <stage>(Rahva hulgas naerukõhin)</stage> Töö pääle on ta agar küllalt ja pahandust ta ka ei ole teinud midagi.</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Vaatab veel kord Antsu pääle, siis:)</stage> Mineb siis nüüd minema, armas inimene. Jumal kaasa! Jumal kaasa! <stage>(Nokutab lahkelt pääga ja pöörab teisale.)</stage></p>
+                    </sp>
+                    <stage>Rahvas küürutades ära, teenrid küünaldega ootavad eemal. Järele jäävad proua, hofmeister, opmann; ka herraste lapsed lähevad lossi poole.</stage>
+                </div>
+                <div type="scene">
+                    <head>5.</head>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(On arusaamata mõtetes laialivalguvale rahvale järele vaadanud, pöörab hofmeistri poole:)</stage> Ütelge mulle — <stage>(opmanni poole pöördes)</stage> Ütelge mulle — see poiss, see Vaida-Jaani poeg...</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p><stage>(Agaralt.)</stage> Tean, armuline proua, tunnen teda! On küll kõiges harva isa asemel teol<pb n="27"/> käinud, aga — ei ole veel kordagi teda vaja, karistada olnud — <stage>(Kuivatab higi.)</stage></p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(On opmannile selja pöörnud, mõtetes hofmeistrile, enam iseenese ette:)</stage> Ta — meeldib mulle. Ta ei ole — igapäine.</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p><stage>(Agaralt.)</stage> Ja, ja, ta on teistsugune kui teised...</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Teravalt.)</stage> Küsisin ma Teid?</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p><stage>(Eemale taganedes.)</stage> Vabandage! <stage>(Pühib hirmunult higi.)</stage></p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Hofmeistrile:)</stage> Ja mis Teie ütlete?</p>
+                    </sp>
+                    <sp who="#kaehlmann">
+                        <speaker>HOFMEISTER</speaker>
+                        <p><stage>(Kehitab õlgu.)</stage> Ma ei jätaks seda meest adra taha.</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <stage>(Jaatab mõtetes pääga.)</stage>
+                    </sp>
+                    <sp who="#kaehlmann">
+                        <speaker>HOFMEISTER</speaker>
+                        <p>Tohin ma, mul oleks lust teda lugema ja kirjutama õpetada? Ma tunnen teda, tal on terane pää.</p>
+                    </sp>
+                    <pb n="28"/>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Valvel).</stage> Lugema ja kirjutama? Kas see — kas see ei ole kardetav?</p>
+                    </sp>
+                    <sp who="#kaehlmann">
+                        <speaker>HOFMEISTER</speaker>
+                        <stage>(Kehitab õlgu.)</stage>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>See mees ei joo. Õnnis herra ütles alati: viin on meie truu abimees. Mispärast see mees ei joo? Tahab ta parem olla kui teised? Seda ta võib. Tahab ta targem olla kui teised? Seda ta ei või. <stage>(Ootamatult.)</stage> Tiedemann?</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p>Armuline proua?</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Vaida-Jaani teopäevad on..?</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p>Tasa, armuline proua! <stage>(Koputab rinna pihta.)</stage> Selle eest muretseb juba vana Tiedemann. <stage>(Kisub taskuraamatu põuest.)</stage> Mul on siin kõik kirjas: <stage>(loeb)</stage> Aasta läbi 137 tõpra- ja 67 jalapäeva...</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Keelab käega.)</stage> Arvudega jätke mind tülitamata! Ja kümnis?</p>
+                    </sp>
+                    <pb n="29"/>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p><stage>(Nagu enne.)</stage> Tasutud kõik, armuline proua! Kõik tasutud! Tal on hoolas perenaine!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Gut! Poja võtan ma mõisa. Homsest pääle. <stage>(Pöörab enese ära.)</stage></p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <stage>(Higi pühkides.</stage>
+                        <p>Kuidas armuline proua käsivad. Kuid — annaks mõtelda, vanamees joob, ja ema ei ole ka enam noor. Kes teab, kas neist siis veel kohapidajat saab...</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Kõrgilt.)</stage> Sellega jätke mind tülitamata. Mina ei armasta ennast oma vaimude koduste asjade hulka segada! <stage>(Nokutab jumalaga jätmiseks pääga ja võtab hofmeistri käe. Ära.)</stage></p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <stage>(Kaabu pihus, vahib neile higi pühkides järele. Siis tõuseb tema viha. Ta tõukab kepiga vastu maad, paneb kübara pähe ja astub, kanna pääl tiiru lüües, ka minema.)</stage>
+                    </sp>
+                    <stage>(EESRIIE.)</stage>
+                </div>
+            </div>
+            <pb n="30"/>
+            <div type="act">
+                <head>Teine vaatus.</head>
+                <stage>Mängukoht endine. Lõuna-aeg järgmisel päeval, kuulukse lokulaua helkimist. Vähe aja pärast ilmuvad Ants, Tuli-Jüri, Aasta-Mats, Vana-Juhan ja veel paar teomeest. Ühed heidavad leibkotid, lähkrid põõsa alla, teised istuvad maha sööma. — Pärast tulevad säält mõisaproua ja hofmeister jalutades mööda.</stage>
+                <div type="scene">
+                    <head>1.</head>
+                    <sp who="#tuli-jueri">
+                        <speaker>TULI-JÜRI</speaker>
+                        <p><stage>(Ennast puu alla pikali visates.)</stage> Ääh! Olgu ikka ütelda mis ütelda: "Hüva on lepikus lebada, peenike põõsa all puhata..!" Kui roidunud oled, nagu — tont võtku! — mina praegu!</p>
+                    </sp>
+                    <sp who="#toeoemees-1">
+                        <speaker>I TÖÖMEES</speaker>
+                        <p>Jah, Issale tänu, et söögiaeg jõudis! <stage>(Viskab enese ka pikali.)</stage></p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>AASTA-MATS</speaker>
+                        <p>Tahagi süüa! See pagana Karja-Jaak! Tõmbab pääluus lõhkuda, nii et..! <stage>(Viskab ka pikali.)</stage></p>
+                    </sp>
+                    <sp who="#juhan">
+                        <speaker>VANA-JUHAN</speaker>
+                        <p><stage>(On leibkoti lahti teinud.)</stage> Mul pole viga ühti.</p>
+                    </sp>
+                    <pb n="31"/>
+                    <sp who="#mats">
+                        <speaker>MATS</speaker>
+                        <p>Sul! Sa läksid koju! Meie läksime veel Kutsikusse, trimpasime ja trallisime sääl, kuni — löödigi juba lokku ja võtagi jälle vikat selga!</p>
+                    </sp>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p>Mis sa siis sihukesi tükka teed! Sust saabki viimaks — eht "lakikoer", nagu vana Tiedemann ütleb.</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>MATS</speaker>
+                        <p>Nojaa, sina olid tark. Aga või kõik lapsed Emajõe ääre saavad. Mõtlesime ka: mis kõhus, see kõrval, mis vatsas, see varjul, ja — nii see lugu läks.</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>TULI-JÜRI</speaker>
+                        <p>Kõik te räägite joomast, rääkige mõni ka jänust!</p>
+                    </sp>
+                    <sp who="#toeoemees-2">
+                        <speaker>II TÖÖMEES</speaker>
+                        <p>Hähähä! Hõhõhõ!</p>
+                    </sp>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p>Ja täna ei ole teil ei vett ega vermet, silma ega suhu panna? Näh, siis olin mina teistsugune mees. Panin tilga, mis õhtul veel anti, paigale. <stage>(Näitab pisukest plaskut.)</stage></p>
+                    </sp>
+                    <sp who="#toeoemees-1">
+                        <speaker>I TÖÖMEES</speaker>
+                        <p><stage>(Erutatult üles ajades.)</stage> Mis? Pärgel võtku..?</p>
+                    </sp>
+                    <pb n="32"/>
+                    <sp who="#toeoemees-2">
+                        <speaker>II TÖÖMEES</speaker>
+                        <p><stage>(Niisama.)</stage> Temal on viina?</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p><stage>(Üleskarates.)</stage> Oh sa kulla kuku naabrimees! Anna mulle ka tilgake! Piisakenegi!</p>
+                    </sp>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p><stage>(Naerdes)</stage> Sulle? Ei ole helde helmis ega sitikas siidis. Sa tõid lauba õhtu mõisa aiast ubinaid, kas sa mulle andsid?</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Paljukest neid siis oli! Ole hää mees, anna ikka! Sa ei usu, kuidas pää huugab!</p>
+                    </sp>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p>Ei lähe varas ühe nairi pärast aeda. Sinu juttu ma juba tunnen: tõsi kui vesi, vale kui vasika rokk. Ole sa ei nii rumal kits, kes puud ei oska koorida, kui puu ees. Aga — noh, õnn võtjale, vili viljale, nöör nõudja ninale, köis kaebaja kaela — säh! <stage>(Ulatab pudeli.)</stage></p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p><stage>(Upitab.)</stage> Aitäh! Läks ka kuni varba otsteni kontidest läbi!</p>
+                    </sp>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p>Anna Matsile ka!</p>
+                    </sp>
+                    <pb n="33"/>
+                    <sp who="#mats">
+                        <speaker>MATS</speaker>
+                        <p>Mehe kuld mis sa oled! Jumala eest, mehe kuld! <stage>(Upitab.)</stage></p>
+                    </sp>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p>Seni vader kui vatska, seni sõber kui sõira. Juba sa siis ka kiidaks, kui mul midagi ei oleks! <stage>(Saab pudeli tagasi, pakub Antsule.)</stage> No maitse ka!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Ei taha mina.</p>
+                    </sp>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p>Ära ole loll! Sööme kui saame, joome kui on. Ega ta kohe pikali ei lükka.</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Mina ei mõista, kuidas inimene niisugust pürtsi suhu võib võtta! Ja veel tema pääle maias olla!</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p><stage>(Põlgavalt:)</stage> No tema ikka..!</p>
+                    </sp>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p>Oled, poeg, alles nina otsa hakanud, ei sa ole veel eluea otsa hakanud. Kui oled poluskaks loodud, ega sust siis kahekopika-tükki ikka saa!</p>
+                    </sp>
+                    <pb n="34"/>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>No joodikut minust ei saa! <stage>(On oma piima pudelist lõpetanud, läheb sellega allikalt vett tooma.)</stage></p>
+                    </sp>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p>Joodik sööb, joodik joob, joodikule Jumal annab. Ole siis pääle sina tark ja meie oleme rumalad. <stage>(Upitab pudelit.)</stage> Pürts ta küll on, aga päris mõnus.</p>
+                    </sp>
+                    <sp who="#toeoemees-1">
+                        <speaker>I TÖÖMEES</speaker>
+                        <p><stage>(Lähemale nihutades:)</stage> Kas meie jaoks sugugi ei ulata?</p>
+                    </sp>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p><stage>(Hoiab pudeli kummuli:)</stage> Näed, et põhi pääl.</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>2.</head>
+                    <stage>(Proua ja hofmeister on lähemale tulnud.)</stage>
+                    <sp who="#mats #juhan #toeoemees-1 #toeoemees-2 #jueri">
+                        <speaker>TÖÖMEHED</speaker>
+                        <p><stage>(Üles karates, läbisegi:)</stage> Uijäh! Suur proua! <stage>(Kahmavad kaabud pääst, küürutavad maani.)</stage></p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Teravalt:)</stage> Te lakute juba jälle? Esmapa hommiku vara, juba jälle lakute!</p>
+                    </sp>
+                    <pb n="35"/>
+                    <sp who="#mats">
+                        <speaker>MATS</speaker>
+                        <p>Ei laku, suur proua! Kust teda lakkuda võtta, kui lakukski!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>On ju sääl selle käes pudel!</p>
+                    </sp>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p>Mida nüüd, suur proua..! See pisuke plaskukene! Jäi eila tilgake talgude viina järele, ei täidind teist ära rüübata. No täna jälle — palav päev ja töö raske..! Sai vaevalt piisk keele pääle, ei teinud suudki märjaks..! <stage>(Ants tuleb allikalt, on kohmetanud.)</stage></p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Hoiatades:)</stage> No, no! <stage>(Silmab Antsu, elavalt:)</stage> Ah! Sääl on ka ju see — kena poiss!</p>
+                    </sp>
+                    <sp who="#kaehlmann">
+                        <speaker>HOFMEISTER</speaker>
+                        <p><stage>(Kergelt kumardades:)</stage> Jaa! Ants on ta nimi...</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Antsu poole astudes, lahkesti:)</stage> Sul on ka..? Ants, sul on ju ka..? Mis sul pudelis on, Ants?</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p><stage>(Kohmetanult:)</stage> Vesi, armuline proua! <stage>(Näitab pudelit.)</stage> Allika vesi!</p>
+                    </sp>
+                    <pb n="36"/>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Kahjatsedes:)</stage> Vesi! Allika vesi! Mon Dieu! Kas sinul siis viina sugugi ei ole?</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>MATS</speaker>
+                        <p><stage>(Proua tooni tabades:)</stage> Ei ole, suur proua. Ega meil kellelgi ei ole!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Heldelt:)</stage> Ants? Sinul ei ole viina? <stage>(Nokutab pääga meeste poole.)</stage> Kohe lasen teile tuua..! Siis — Antsule ka... <stage>(Mehed tänavad ja küürutavad.)</stage></p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p><stage>(Kohmetanult:)</stage> Tänan suurt prouat! Ega mina ei võtagi viina!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Kulmusid kortsutades:)</stage> Mis? Sina ei võta? Kui suur proua käsib? Küll võtad! <stage>(Meestele:)</stage> Siis — Antsule ka! <stage>(Nokutab Antsule pääd.)</stage> Ja, ja, Ants! <stage>(Jalutab hofmeistriga eemale.)</stage></p>
+                    </sp>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p>Küll ta, suur proua, võtab! Kes jumalavilja ära põlgab! Küll leib saab sööja, sai sõtkuja!</p>
+                    </sp>
+                </div>
+                <pb n="37"/>
+                <div type="scene">
+                    <head>3.</head>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p><stage>(Kui herrased juba eemal, surutud vihaga:)</stage> Oota sa uia, või tema ei võta! Küll me sulle näitame, kuida sa võtad!</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>MATS</speaker>
+                        <p>Et proua veel nii lahke oli! Oleks peaaegu teise ära pahandanud...</p>
+                    </sp>
+                    <sp who="#toeoemees-1">
+                        <speaker>I TÖÖMEES</speaker>
+                        <p>...ja meie oleksime suutäiest ilma jäänud!</p>
+                    </sp>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p>Igaüks oma poole, siku sarved selja poole, Ants. Kui põrsast pakutakse, pea koti suu lahti. Vask vaese vara, tina kehva kuld, suutäis viina orja õnn. Jäägu suurem asi suurtele sakstele. On Jumal meid pisukese õnnega loonud, peame pisukese õnnega elama.</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Jätke mind rahule! Mina teie ree pääl ei istu!</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>MATS</speaker>
+                        <p>Mis sa niisugusega ülepää räägid, ega teda targemaks teha saa! <stage>(Vinnab enese pikali.)</stage></p>
+                    </sp>
+                    <pb n="38"/>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Keha täis tappa, seda oleks vaja. Näeks, kas tuleb mõistus pähe või ei! <stage>(Vinnab ka pikali.)</stage></p>
+                    </sp>
+                    <sp who="#toeoemees-1">
+                        <speaker>I TÖÖMEES</speaker>
+                        <p>Mis te's temaga! Kui Jumal teda targemaks ei ole loonud, ega sinna saa parata.</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p><stage>(Vihaselt:)</stage> Targemaks ei ole loonud..? <stage>(Vähe aja pärast kaebades:)</stage> Kõik te põlgate mind! Mis kurja ma teile olen teinud, et te keegi mind ei salli!</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Sellepärast, et sa narr oled! Et sul mehe aru ei ole! <stage>(Urisedes:)</stage> Parunipoeg!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p><stage>(Ennast taltsutades.)</stage> Et mul mehe aru ei ole?.. Mis tükis ei ole mul mehe aru? Seleta selgemini!</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Mida siis selgemini? Ei ole, ja asi sellega!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p><stage>(Võitleb iseenesega, püüab rahuliseks jääda.)</stage> Ma ei tea enesel mingit süüdi! Sina, Jüri, sõi<pb n="39"/>mad mind parunipojaks! Olen ma siis? Tead sa seda nii kindlasti ja põlgad mind sellepärast? Kui ma olen — ma ei tea seda, ma ei usu seda — olen mina sellest süüdlane? Või on mu ema? Oli tema ainus, keda mõisa viidi, või oli veel teisigi?.. Ah, Jüri, Jüri!</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>MATS</speaker>
+                        <p><stage>(Urisedes:)</stage> Mis sa siis tahad alati targem olla teistest!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Kuidas ma targem olla tahan? Ma ei taha ju!</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>MATS</speaker>
+                        <p><stage>(istukile ajades:)</stage> Ütlesid ju praegu, et sa meie ree pääl ei istu.</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Ma ütlesin, et ma viina võtma ei hakka.</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Nojah! Uia oled! Meest sust ei saa!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <stage>(Kehitab õlgu, jääb vait.)</stage>
+                    </sp>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p><stage>(Tõuseb üles)</stage> Mina tahan sulle ütelda, Ants! Ninakas sa oled. Loed sa mind ka<pb n="40"/> joodikuks, et ma suutäie võtan? <stage>(Ants eitab pääga.)</stage> Mis sa siis ajad niisugusid sõnu suust. Et.. sina ei mõista, kuidas inimesed niisugust pürtsi..! Kui see inimeste jaoks on tehtud..? Loom teda ju ei taha.</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p><stage>(Kibedusega:)</stage> Loom jah jätab mürgised rohud karjamaal seisma ja ei söö neid. Aga meie! oleme rumalamad neist ja sellepärast oleme orjad! Pää otsas uimane, orjame me ja laseme ennast peksa ja materdada..!</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>MATS</speaker>
+                        <p>Küll hakkad ka tänama, kui suutäie saad.</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p><stage>(On paar sammu eemale astunud, pöörab nüüd tagasi, nukralt:)</stage> Vennad! Noorem olen teist. Tean küll, et mul ei sünni suud lahti teha, targutama ja teisi õpetama hakata. Aga kuidas ma saan! Kuidas ma võin! Kui see vägise suust kipub! — Vennad, kas te olete korra selle üle järele mõtelnud, mispärast me oleme niisugused, nagu me oleme? <stage>(Kui keegi ei vasta, raskelt:)</stage> Ohvmeister on mulle ütelnud ja nüüd pean ma selle pääle mõtlema ja mõtlema ja süda ei saa rahu..! Oh, küll see on üks kallimeelne inimene ja mõtleb meiega hääd!</p>
+                    </sp>
+                    <pb n="41"/>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p><stage>(Toorelt:)</stage> Mis tarkust sa selle ohvmeistri käest siis õppisid?</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p><stage>(Kurvalt Jüri otsa vaadates:)</stage> Tarkust? Jaa, kuidas seda võtta; võib olla, on tema tarkus sinu silmas jõledus! Ta ütles: me ei peaks surnud, mõtlemata elu elama... <stage>(Vaatab enese ette, siis elavamaks saades:)</stage> Vennad, olete sellest kuulnud, et maa, mille pääl me elame, oli meie maa! Meie oma! Mis põllul kasvas, oli meie, mis metsas jooksis, meie, mis õhus lendas või vees ujus, meie! Ei olnud herrasid ega isandaid, kupje ega kiltrid, — kirjades seista see... <stage>(Vaatab nukralt meeste pääle, tema sõnad ei ole kedagi ärritanud:)</stage> Nojaa, see on meile kõik ainult veel ununev muinasjutt! <stage>(Enam nagu iseenesele:)</stage> Võõras rahvas tuli, lõi meie rahva maha, kiskus meil maa käest, pani meid orjama ja... <stage>(Jääb vait.)</stage></p>
+                    </sp>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p><stage>(Nagu ettevaatlikult ja mures:)</stage> Mis sa sellest siis veel...</p>
+                    </sp>
+                    <sp who="#toeoemees-1">
+                        <speaker>I TÖÖMEES</speaker>
+                        <p>Jaa, mis sa sellest siis veel... Pea suu kinni, seisab nahk terve!</p>
+                    </sp>
+                    <pb n="42"/>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p><stage>(Tõusva vihaga:)</stage> Nahk terve? Kus ta on, see võõras rahvas..? kes nii tugev oli? Kus ta nüüd veel on? Näidake mulle teda!</p>
+                    </sp>
+                    <sp who="#toeoemees-1">
+                        <speaker>I TÖÖMEES</speaker>
+                        <p>Kae, sääl! <stage>(Näitab lossi poole.)</stage> "Sääl, kun saisva siidi lipu, kallerei pääl kulla kupu!"</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p><stage>(Kibedalt naerdes:)</stage> Need? Need üksikud? Siin ja sääl maad mööda laiali, iga valla kohta üks ja kaks? Kidurad ja kiitsakad hääst elust... Keda me armust toidame! Need tohivad meid peksa ja piinata ja halvemaks pidada lojustest? Ja meid — on maa täis? Ja künnapud on meil alles tugevad?..</p>
+                    </sp>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p>Kui Jumal seda tahab..!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p><stage>(Kirglikult:)</stage> Jumal? Kelle Jumal tahab, et üks olgu teise ori? Nende Jumal! Kõik on vale jutt. Kas lõi Jumal ühe herraks ja teise orjaks? Jumal andis hundile hambad,<pb n="43"/> karule küüned ja inimesele mõistuse: Murra maha! Kaitse ennast! <stage>(Nukrusega:)</stage> Aga — ohvmeister on mulle ütelnud ja nüüd on mu silmad lahti: meil võeti kavalusega meel pääst! Mürgiga! Katlad pandi aurama... igas mõisas!.. meile keedeti unerohtu! Pürtsi, mille külge küll loom nina ei pista, aga meie! <stage>(Jüri irvitab.)</stage> Meie jookseme selle järele, nagu kits kuse järele... Nagu sina, Jüri, ja...</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p><stage>(Üles karates:)</stage> Sina rajak! Kellele sa ütled niisuguseid sõnu? <stage>(Koorib käikseid.)</stage></p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>MATS</speaker>
+                        <p><stage>(Ka üles karates:)</stage> Jaa, kellele ta ütleb?... <stage>(Ka teised töömehed on ärevil platsis.)</stage></p>
+                    </sp>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p><stage>(Vahele astudes:)</stage> Tasa, tasa! Kas te ei näe, säält tuleb Antsule see armulise proua unerohi. Sul, poisikesel, on ju nüüd saksa arm pääl, katsu parem seda hoida ja ära pruugi suud!</p>
+                    </sp>
+                    <stage>(Jantka ilmub pudelit keerutades. Ants pöörab enese kurvalt ära, teised rõõmsas elevuses õnnelikud.)</stage>
+                </div>
+                <pb n="44"/>
+                <div type="scene">
+                    <head>4.</head>
+                    <sp who="#jantka">
+                        <speaker>JANTKA</speaker>
+                        <p>Sähke, teie hundiroad! Olete jälle prouat petnud! Küll te kiltri käest saate, kui ennast täis võtate!</p>
+                    </sp>
+                    <sp who="#toeoemees-1 #toeoemees-2 #mats #jueri #juhan">
+                        <speaker>TÖÖMEHED</speaker>
+                        <p><stage>(Läbisegi:)</stage> Olge terve, kuku saksake! Olge terve! Olge terve toomast. Ütelge, et täname! Jalajäljekesi õnnistame! Käele anname suud!</p>
+                    </sp>
+                    <sp who="#jantka">
+                        <speaker>JANTKA</speaker>
+                        <p>Küll ma ütlen vana Tiedemannile, et ta teile päevad võlgu kirjutab! Oodake, aga oodake! <stage>(Ära.)</stage></p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>MATS</speaker>
+                        <p>Mis kurel viga kõrgistada, kui herned nina all!</p>
+                    </sp>
+                    <sp who="#toeoemees-1">
+                        <speaker>I TÖÖMEES</speaker>
+                        <p>Mina herra, sina herra, kes pärgel kotikandja?!</p>
+                    </sp>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p><stage>(Urisedes:)</stage> Jumalal aega, herrastel leiba. Sina, velleke, ka ära ähvarda, sulgi viimane lugu nägemata... Kui tuleb murdu muile puile, tuleb katk ka kadakaile!</p>
+                    </sp>
+                    <pb n="45"/>
+                    <sp who="#toeoemees-2">
+                        <speaker>II TÖÖMEES</speaker>
+                        <p>Vaata aga, et saksa armu ei kaota ja jälle adra taha tagasi ei lange!</p>
+                    </sp>
+                    <sp who="#toeoemees-1">
+                        <speaker>I TÖÖMEES</speaker>
+                        <p><stage>(Uriseb:)</stage> Loostre peni, sihuke!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>5.</head>
+                    <sp who="#mats">
+                        <speaker>MATS</speaker>
+                        <p><stage>(Kes pudeli enese kätte saanud, rüüpamise järele:)</stage> Oijah! On ikka hää asi! Ei seda saa salata!</p>
+                    </sp>
+                    <sp who="#toeoemees-1">
+                        <speaker>I TÖÖMEES</speaker>
+                        <p><stage>(Kes iharalt korda ootab.)</stage> Ega's teda muidu oleks tehtud!</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p><stage>(Rüüpamise järele:)</stage> Sa raibe! Küll teeb luud-kondid pehmeks! Ja seda tikub see sääl teotama! <stage>(Tahab teist korda võtta.)</stage></p>
+                    </sp>
+                    <sp who="#toeoemees-1">
+                        <speaker>I TÖÖMEES</speaker>
+                        <p>Näh! On see sinu jaoks üksi? Kui võõras nahk ees, kohe lõikab kahe kausta täie, kui oma, ei rihmagi! <stage>(Kisub pudeli enese kätte.)</stage></p>
+                    </sp>
+                    <sp who="#toeoemees-2">
+                        <speaker>II TÖÖMEES</speaker>
+                        <p><stage>(Käega pudeli küljes.)</stage> Vait! Sobige isekeskis, jagage tasa!</p>
+                    </sp>
+                    <pb n="46"/>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p><stage>(Kellele ootamine igavaks läheb.)</stage> Muidu maksis ikka: pää püüdjale, saba saajale, keskpaik keetjale, — te unustate selle hoopis ära, kelle läbi te ta saite. See mees olin mina!</p>
+                    </sp>
+                    <sp who="#toeoemees-2">
+                        <speaker>II TÖÖMEES</speaker>
+                        <p><stage>(On upitanud, annab pudeli Juhanile.)</stage> Üks lammas määgib, kõik talled saavad! No võta!</p>
+                    </sp>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p><stage>(Upitab, hoiab pudeli vastu valget.)</stage> Võtke mõistlikult, siis ulatab teist korda ringi.</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p><stage>(Upitab.)</stage> Nagu uut julgust annab! Kas või karutükka tee kohe!</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>MATS</speaker>
+                        <p>Pole sul vaja midagi karutükka teha; ära kohe jälle trallima hakka! <stage>(Upitab.)</stage></p>
+                    </sp>
+                    <sp who="#toeoemees-1">
+                        <speaker>I TÖÖMEES</speaker>
+                        <p>Rõõmsaks ta pagan teeb! <stage>(Upitab.)</stage></p>
+                    </sp>
+                    <sp who="#toeoemees-2">
+                        <speaker>II TÖÖMEES</speaker>
+                        <p><stage>(Upitab.)</stage> Ega siis muidu igaüks teda kiida.</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>MATS</speaker>
+                        <p>Ärge Antsu unustage!</p>
+                    </sp>
+                    <pb n="47"/>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Jah, pärgel! See oleks peaaegu meelest läinud!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Võtke aga ise! Ei mulle ole vaja!</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Mis? Sulle ei ole vaja, kui proua käsib?</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p><stage>(Kindlalt:)</stage> Käsu täitja olen mina. Ja mina ei taha.</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Sina ei taha? Sa pead tahtma! <stage>(Irvitab.)</stage></p>
+                    </sp>
+                    <sp who="#toeoemees-1">
+                        <speaker>I TÖÖMEES</speaker>
+                        <p>Selle tarvis viin anti.</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>MATS</speaker>
+                        <p>Tahtma sa pead! Käsk on käsk!</p>
+                    </sp>
+                    <sp who="#toeoemees-2">
+                        <speaker>II TÖÖMEES</speaker>
+                        <p><stage>(Urisedes:)</stage> Kaua, pärglit, sa siis ikka meist targem tahad olla?</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p><stage>(Karmilt:)</stage> Ma ei taha, ja — asi sellega!</p>
+                    </sp>
+                    <pb n="48"/>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p><stage>(Vihaselt:)</stage> Ah sina ei taha ja — asi sellega? Kuradit on asi sellega? Kas me's ennast õige narrida laseme või? Meie ei saa poisikesest jagu! Siia, mehed! Tõmmame maha ja valame lõpustesse, saab siis näha, tahab ta või ei taha! <stage>(Sasib Antsust kinni.)</stage></p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>MATS</speaker>
+                        <p>Ega jah, muidugi! Ta on meid küllalt näägutanud! <stage>(Asub ka Antsule kallale.)</stage></p>
+                    </sp>
+                    <sp who="#toeoemees-1 #toeoemees-2">
+                        <speaker>I ja II TÖÖMEES</speaker>
+                        <p>Käsk on käsk, ega midagi! <stage>(Kargavad ka Antsule kallale, temale püütakse viina suhu valada.)</stage></p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p><stage>(Rabeleb käte ja jalgadega vastu, ta visatakse pikali.)</stage> Appi!</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Karju aga! Otsige tuleraud kangutame hambad lahti! Jooma ta peab, kas või mis! Las ta siis veel meid noomib!</p>
+                    </sp>
+                    <sp who="#mats">
+                        <speaker>MATS</speaker>
+                        <p>Proua on tema vastu hää, ja tema ei tunne tänada!</p>
+                    </sp>
+                    <pb n="49"/>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p><stage>(On Antsu juure astunud.)</stage> Ants! Ma tahan sulle ütelda: Sinu kiidetud ohvmeister joob ise ka. Sakstega koos, Saksamaa viina! Olen seda ise näinud ja tean.</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <stage>(Oigab ainult.)</stage>
+                    </sp>
+                    <stage>(EESRIIE.)</stage>
+                </div>
+            </div>
+            <pb n="50"/>
+            <div type="act">
+                <head>Kolmas vaatus.</head>
+                <stage>Mängukoht endine. Lõuna-aeg järgmisel päeval.</stage>
+                <div type="scene">
+                    <head>1.</head>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <stage>(Särgi kaelatagune näppude vahel, istub puu all, ajab pilusid ja laulab tasakesi enese ette.)</stage>
+                        <lg>
+                            <l>Oh mu endista eluda,</l>
+                            <l>Kallist kasupõlvekesta,</l>
+                            <l>Kui ma kallis kasvanesin,</l>
+                            <l>Mari maasta tõusenesin</l>
+                            <l>Angervaks üles ajasin!</l>
+                        </lg>
+                        <stage>(Ants tuleb, labidas õlal, ja jääb kuulatama.)</stage>
+                        <lg>
+                            <l>Kasvin kui kanep aiassa,</l>
+                            <l>Pitka putke puu vilussa!</l>
+                            <l>Ei mind täidind eidel lüüa,</l>
+                            <l>Ei mind täidind taadil lüüa,</l>
+                            <l>Hellal vellel vemmeldada!</l>
+                        </lg>
+                        <pb n="51"/>
+                        <stage>(Ants on kikivarvul Maie selja taha astunud ja kõtistab teda oksakesega kaela tagant. Maie rabab käega, nagu peletaks ta putukat.)</stage>
+                        <lg>
+                            <l>Õlekõrs oli venna vemmal,</l>
+                            <l>Takukoonal taadi rooska,</l>
+                            <l>Villa säuk oli eide vitsa!</l>
+                        </lg>
+                        <stage>(Ants kõtistab uuesti, Maie nagu enne.)</stage>
+                        <lg>
+                            <l>Nüüd nuiab kubjas nurme pääl,</l>
+                            <l>Väätsab kilter välja pääl,</l>
+                            <l>Nüüd mind kopib koerapoissi,</l>
+                            <l>Näpib näljase sulane!</l>
+                        </lg>
+                        <stage>(Ants kõtistab uuesti, Maie viskab töö käest.)</stage>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p>Ai! Kes see..? <stage>(Kargab üles, nukralt:)</stage> Sina oled! Mis sa hullad!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Hullan nüüd..? Kas siis enam luba ei olegi?</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p><stage>(Nagu enne:)</stage> Sina ka luba järele küsid!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Kust sa siia said? Kas sa voolaku pääl ei ole?</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p>Korraline olen! Peremamsel oli lahke, lubas mind ka lõuna-uinakule, siis...</p>
+                    </sp>
+                    <pb n="52"/>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>...sina jälle kohe nibe-näbe näputööle, kibe-käbe kätetööle! Heitnud ometi puhkama! Nõnda löövad su palgekesed varsi kahvatama. Mis sa sääl pilutad? <stage>(Tahab vaadata.)</stage></p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p><stage>(On kärmem, peidab töö ära.)</stage> Mis sul sellega tegu!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Ära ole kuri!</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p>Olen jah kuri, kui sa iga asja näha tahad!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Tahan jah. Võib olla, teed mulle?</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p>Midagi ei tee sulle. Sa oled ju nüüd mõisamees! Mis mõisameestel enam valla tüdrukutega asja!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Esimest päeva olen mõisas ja — kohe mõisamees! Ei minust mõisameest saa! Niipea kui suureproua silmile pääsen, palun ma, et ta mind jälle Vaidale tagasi lubaks.</p>
+                    </sp>
+                    <pb n="53"/>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p>Tõesti? On töö nii ränk?</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Töö nüüd ränk! Kas sa mõisa asja ei tea? Siin on sulasel sulane ja tüdrukul tüdruk. Koer ajab saba, saba sabaotsa, sabaots villa — vill ei viitsi. Nii on mõisa asi. Siin ei ole kellelgi raske. Aga mul on süda raske.</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p><stage>(Elavamalt kui seni:)</stage> Tõesti? Sul ka?</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p><stage>(Tusaselt:)</stage> Kuidas siis mitte? Pidime ju sügisel pulmad tegema! — Mõisamees muidugi nii kergesti naist võtta ei saa!</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p><stage>(Kurvalt:)</stage> Mis sa sellest veel..! Ei saa sellest midagi!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Kuidas ei saa? Mina ei jäta!</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p>Mis sest, et sina ei jäta. Sina küll ei jäta, mina ka ei jäta — see kõik ei aita midagi!</p>
+                    </sp>
+                    <pb n="54"/>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p><stage>(Kindlasti:)</stage> Minust mõisameest ei saa, seks olen ma liiga otsekohene. Küll näed, katsuvad ära ja saadavad valda tagasi. Ja kõik on hästi.</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p>Ei saada! Kõik ütlevad nüüd, et sul on saksa arm pääl. Ja kellel saksa arm pääl, see mõisa sulab!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Saksa arm on tänaseks ja homseks! Aga sa pidid mulle ju näitama, mis sa sääl õmbled!</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p><stage>(Ulatab temale oma näputöö.)</stage> Vaata pääle, kui tahad! Mis ma tast enam varjan!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Särgi kaelatagune? Ja kui kenad kirjad, pilud ja pooledrattad pääl! Kes sind ometi õpetas nii ilusat tööd tegema?</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p>Kas sa ei tea, kes vaestlast õpetab? "Kägu jätab kirja kivi pääle, pooleratta posti pääle, armi aiateibaesse!"...</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>On see mulle, Maie? <stage>(Püüab kätt Maie piha ümber panna, see taganeb eemale.)</stage></p>
+                    </sp>
+                    <pb n="55"/>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p><stage>(Kurvalt:)</stage> Pidi sinu peiusärgiks saama, nüüd — võib olla, saab surmasärgiks!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Surmasärgiks? Mis hullu juttu sa ajad!</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p>Kui see oleks hull jutt! Aga — <stage>(nutuselt)</stage> mina tean, ühte meist piirab surm! Esite kartsin ma, et sind! Nüüd..! <stage>(purskab nutma)</stage> Nüüd... kui sina, Ants, mõisa jääd ja mind maha jätad, seda ma üle ei ela..!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p><stage>(Kohkunult:)</stage> Maiekene! Mis hull jutt see ometi on!</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p>Et õnnetus meid varitseb, teadsin ma juba üleeila õhtu! Et see nii ruttu meile kätte pidi tulema, kui lendva — seda ma ei teadnud!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p><stage>(Õnnetult:)</stage> Mis sulle ometi pähe on tulnud!</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p>Ei ole mulle midagi pähe tulnud! <stage>(Nuttes:)</stage> Ela sina, Ants, sina oled õnnetee otsa pääl!<pb n="56"/> Kui ma sinu õnne eest suren, ära siis minust midagi hooli!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Minu õnne eest sured — Jaa — nüüd olen ma rumal! Sõnagi ei saa ma aru! Mis jutt see kõik on? <stage>(Püüab jälle kätt Maie ümber panna, kes eemale taganeb.)</stage></p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p><stage>(Silmi kuivatades.)</stage> Mis ma enam sellest salgan, mis tuleb, see ju tuleb! Sa ei tea! Kui me talguõhtul sirpi viskasime, kellele kõige enne peigmees tuleb, murdus minu sirp keskelt katki!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Mis? Sirp? Ka mõne asi! Ma lähen, teen sepa juures uue!</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p>Ah Jumal, Ants, sa teed uue! Ega see siis..! Ega siis sellepärast!..</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Mis siis veel? Kas sa katkiläinud sirpi enne ei ole näinud? Teil on ju omal kodus üks, läve kõrval seina vahel..? Ja et sirp katki läks — igal asjal on ometi korra ots, töö juures või mängu pääl, nii või nii.</p>
+                    </sp>
+                    <pb n="57"/>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p>Meie õnnel on ots! Sina ei tea, Ants! See ei olnud mäng! Mulle ei olnud see mäng! Kui ema sirbid üles viskas, siis ohkasin mina kõige ihu ja hinge ihaga taeva poole: anna märku, kas saab meist Antsuga paar! Näed! Märk anti — õnnetuse märk! Minu sirp oli küll kõige ees, aga... surm astus jalaga pääle!..</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Maie! Nüüd küll — pean naerma, Maie!</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p>Sa ei tohi naerda! Ära tee pattu, Ants, kui sa veel naerad!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Aga Maiekene, kuidas ma ei pea naerma, kui sa... No ja, Maie, ma ei tohi selle üle naerda — aga sa nõudsid ju võimatuid asju! On Jumal mõni nõiamoor, kellele küsimisi tohib ette panna, või oled sa kunagi kuulnud, et Jumal jala päält vastab, nagu kiriku kell: löö tilaga pihta ja kohe tuleb heli? Maie, sa tegid pattu, kui sa niisugust asja nõudsid, ja võib olla, läks sellepärast su sirp just sel silmapilgul katki.</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p><stage>(Silmad on rõõmsamaks ja rõõmsamaks muutunud.)</stage> Mis sa ütled, Ants?</p>
+                    </sp>
+                    <pb n="58"/>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Ja, ja, Maie! Sul on su palk käes, et Jumalat kiusama läksid! — Kuivata silmad ära! Homme õhtu toon sulle uue sirbi! Pehmest tohust pääga, mis peopesa villi ei võta! Mul juba ammu sinu jaoks noorikusirp valmis, ma ei tahtnud ainult ütelda.</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p><stage>(Rõõmsamalt:)</stage> Siis sina arvad, Ants, et..?</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Ja muidugi, Maie! Silmapilkugi ma ei kahtle! Kui mul saksa arm pääl on, nagu sa ütled, siis — no siis ei peaks mind Vaidale tagasi lastama? Seda ma iialgi ei usu! Kas hääga või kurjaga, ma pean saama! Või ma ajan mõisa lõhki! <stage>(Paneb käe Maie piha ümber, tahab teda lähemale tõmmata, — sel silmapilgul astub mõisaproua oma vennaga puude alt välja ja jäävad üllatatult seisatama. Ants ja Maie on esimesel silmapilgul kui tarretanud, püüavad siis häbelikult teine teisele poole minna.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>2.</head>
+                    <sp who="#fabian">
+                        <speaker>KARL-FABIAN</speaker>
+                        <stage>(Keskealine, kiksis herra, vanamoodi riides: patsiga parukas, kõrge kraega värviline frakk, kerge kaelarätik, shaboo, pikk vest üle paksu kõhu, kintspüksid,<pb n="59"/> pikad sukad, pannaldega kingad, kuldnupuga kepp ja kolmekandiline kübar — jääb seisma, toetab omale kepi istmeks, pääd väänates:)</stage>
+                        <p>Ahaa! Ohoo! Ei või vaielda! Sul on ilusaid inimesi, Helene-Agneta!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Ärevuses, näeb ainult Antsu ja mõte käib ainult selle poole:)</stage> Kena-poiss, kena-poiss — <stage>(tuletab nime meelde:)</stage> — Ants! Ära karda, Ants! Tule siia, Ants, ma ei tee sulle ju midagi! <stage>(Ants jääb aralt seisma.)</stage> Kas sa ei kuule, kui ma kutsun? <stage>(Ants tuleb lähemale.)</stage></p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>KARL-FABIAN</speaker>
+                        <p><stage>(Muiates:)</stage> See on, Helene-Agneta, näib mulle — üks akvisitsioon? Ta nosib aga võõrast aiast nairid! Hüüa ometi ka tüdruk tagasi. See, näib mulle, on ka seda pattu väärt, et teda lähemalt vaadata!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Hei! Tüdruk! Tüdruk! Tule ka tagasi! <stage>(Maie ei julge edasi ega tagasi, jääb kui kinninaelutatud seisma.)</stage> Kas sa ei kuule, tüdruk!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Tule tagasi, Maie! Proua kutsub! <stage>(Maie tuleb argselt ja häbelikult lähemale.)</stage></p>
+                    </sp>
+                    <pb n="60"/>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p><stage>(Tüdrukut iharalt silmitsedes:)</stage> Ohaa! Jaa! Exquisit!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Irooniliselt naeratades:)</stage> Karl-Fabian, Du bist ein Schwein!</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p><stage>(Keksides:)</stage> Tja, Helene-Agneta! Mul on veel selle jaoks silma, õde, mis? <stage>(Naerab laialt.)</stage></p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Ants? Noh, Ants? On sul mõisas hää? Oled sa õnnelik? Jaa? See tuleb veel paremini, Ants, see tuleb veel paremini! <stage>(Ants kägistab kübarat käte vahel, ei saa sõna suust.)</stage> Sa ei räägi ju? On see kena tüdruk su õde? Mina armastan ilusaid inimesi! Võib mulle toaneitsiks tulla. Jaah, Ants! On ta su õde?</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p><stage>(Hirmunult:)</stage> Oh, ei, ei! Armuline proua! Ei, ei! Mitte!..</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Ei?</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p><stage>(Kogeledes:)</stage> Õde? Ja... ei, enam kui õde, armuline proua! Mitte, mitte!</p>
+                    </sp>
+                    <pb n="61"/>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Sa oled nii arg, Ants! Küll sa harined! On sul mõisas hää? Muidugi on sul hää! Sa võid nüüd minna, Ants! Ja, ja, sa oled nii arg!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <stage>(Viivitab, on õnnetu, kägistab kübarat.)</stage>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Palud sa midagi, Ants? Siis ütle!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p><stage>(Ühe põlve pääle lastes, ägades:)</stage> Laske mind Vaidale tagasi, armuline proua! Minust ei saa mõisameest! Mina lämbun mõisas! Saatke mind jälle valda!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Imestades:)</stage> Mis? Sa palud valda tagasi? Rumal oled, Ants! Sa oled hoopis rumal! Aga see ei tee midagi. Mine nüüd! Ja kui aednik lillesid saadab, võib ta sind saata. Et sa enam harined. <stage>(Maie poole pääd nokutades.)</stage> Sa võid ka minna, kena tüdruk, ja, ja, sina ka. <stage>(Ants ja Maie ära.)</stage></p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p><stage>(Maiele järele vaadates:)</stage> Edelfleisch, Helene-Agneta, Edelfleisch! Meil, Lätimaal, ei ole nii ilusaid!</p>
+                    </sp>
+                    <pb n="62"/>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Naerdes:)</stage> Kas aastad sind veel ei ole muutnud, Karl-Fabian? Ikka veel endine gourmand?</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p>Sina ei mõtle ju ka, näib mulle, ainult paastumisele ja palvetamisele elada. Ei või seda sulle pahaks panna, Helene-Agneta, ei või seda sulle pahaks panna. Ottokar oleks võinud peaaegu su isa olla ja jättis su liiga noorelt leseks!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Õhates:)</stage> Mis tead sina minust!</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p>Ma mõtlen — noore, ilusa hofmeistri oled enesele võtnud...</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Lastele, Karl-Fabian, lastele!</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p>Tahtsingi öelda, lastele.</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>See — ideaalide-pott! Mis sina küll ei arva! See sanscülott, kes moodsat Pariisi kirjandust on lugenud ja nüüd ühtlusest ja<pb n="63"/> vendusest unistab. Mõtle: ta tahab mu inimesi lugema ja kirjutama õpetada. Ja kui ma talt küsisin, kas ta seda kardetavaks ei pea, kehitas ta õlgu. — Selle pean ma kohe jälle oma teed minema saatma!</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p>Ja muidugi, õde, ja muidugi, kui ta sulle ei sobi!.. Ja see uus akvisitsioon, Helene-Agneta?</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Fi donc! Missugusest akvisitsioonist sa ometi räägid?</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p>No see õnnelik poiss sääl! Kes praegu läks. Kes veel nii jumalikult rumal on ja...</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Selle võtsin ma eila rukkipõllult! Ta on alles esimest päeva mõisas. Ma pidin seda tegema, oli kardetav teda vallarahva hulka jätta. <stage>(Tähtsalt:)</stage> Karl-Fabian — see mees ei joo!</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p><stage>(Ikka endiselt:)</stage> Ta ei joo? Siis ei haise ta ka puskari järele! No, no, Helene-Agneta.<pb n="64"/> Kas ta ei ole üks kogemata sinu valda äraeksinud kuningapoeg? Raassi ja kalduvusi tal on.</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Pead sa oma sarkasmusega otse oma õele kallale langema?</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p>Hoidku! Mina konstateerin ainult — ka sinus meie perekonna tuttavat hääd maitset! Sa ei pruugi punastada, Helene. Meie oleme puhastverd Chlopitzkid, ja need mõistsid elada. Aga et sinu bichon oma küla vilumusi ka mõisas edasi kultiveerib, — miks tahad sa siis ka tüdruku mõisa võtta?</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Sa mõtled tema õde?</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p>Õde? Hahaha! Vabanda, Helene-Agneta, et ma natuke lõbus olen ja naeran.</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Ärritatult:)</stage> Sa arvad..? <stage>(Hüüab:)</stage> Jantka! Jantka!</p>
+                    </sp>
+                </div>
+                <pb n="65"/>
+                <div type="scene">
+                    <head>3</head>
+                    <sp who="#jantka">
+                        <speaker>JANTKA</speaker>
+                        <stage>(Astub puude alt välja, herraste kerged üleriided käe pääl ja klapptoolid kaenlas.)</stage>
+                        <p>Armuline proua käsivad?</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Ütle doch — jaa — sa ei ole mulle rääkinud — võttis Ants viina, mis sa eile meestele viisid?</p>
+                    </sp>
+                    <sp who="#jantka">
+                        <speaker>JANTKA</speaker>
+                        <p>Võttis, võttis, ja laseb väga tänada armu ja helduse eest! Ei olla esite võtta tahtnud, siis olid mehed ta maha tõmmanud ja temale vägise suhu valanud. Siis olla ta aga väga rõõmus olnud, värsi purju jäänud ja, kui üles ärganud, kohe nõudnud: veel viina!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Gut, gut! Aga sa ei ole mulle ütelnud, et Antsul on noor ja ilus õde?</p>
+                    </sp>
+                    <sp who="#jantka">
+                        <speaker>JANTKA</speaker>
+                        <p>Õde? Armuline proua — ma ei tea mitte, et...</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Aga — tüdruk, kes siit praegu ära läks?</p>
+                    </sp>
+                    <pb n="66"/>
+                    <sp who="#jantka">
+                        <speaker>JANTKA</speaker>
+                        <p>See? Ja, see...</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Noh?</p>
+                    </sp>
+                    <sp who="#jantka">
+                        <speaker>JANTKA</speaker>
+                        <p>See on küll — armuline proua ehk panevad pahaks, kui ma ütlen... See on niiütelda — Antsu armuke! <stage>(Fabian naerab.)</stage></p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Põlgavalt:)</stage> Armuke? Mis on "armuke"! Niisugune noor poiss ja — "armuke"!</p>
+                    </sp>
+                    <sp who="#jantka">
+                        <speaker>JANTKA</speaker>
+                        <p>Seda ütlen mina ka..!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Vihaselt:)</stage> Olen ma sind küsinud? <stage>(Jantka taganeb eemale.)</stage></p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p>Mis ma ütlesin, Helene-Agneta? Mis ma ütlesin!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Abominabel! Nii noor poiss ja — armuke! Küll hakkavad selle rahva elukombed halvaks minema! Herradel on õigus, kui nad ütlevad: nende vastu ei või heldust üles<pb n="67"/> näidata, neid ei saa teisiti valitseda, kui valjusega! Armuke! <stage>(Hüsteeriliselt:)</stage> Oh ma vaene lesk! Midagi ei lähe nii kui ma tahan! Sääl olin ma ometi selle poisiga kõige paremat mõtelnud, tahtsin temast teha aedniku, kammerteenri, või koguni opmanni! Ja mis on mulle tänuks? Temal on — "armuke!" — Armuke!? Mis teavad niisugused armastusest! Kellele on nende armastust vaja! Effrayant!</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p><stage>(Tujukalt:)</stage> Aga, Helene-Agneta, rahusta ennast! Inimene on lõpeks inimene! Mina tema eas, võin sulle ütelda, olin juba vana jäägermeister! — Aga kui sul poisiga hääd mõtted on — tüdruk ei tohi takistuseks olla..!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Kirglikult:)</stage> Jaa! Tüdruk ei tohi takistuseks olla! Jantka! Jantka! <stage>(Jantka ilmub, proua elavalt tema poole:)</stage> Mine ütle selle poisile, mine ütle Antsule, proua käsib, et ta seda tüdrukut armastada ei tohi, armastama ei pea! Ütle temale, see on üks häbiasi; nii noor poiss alles ja — armuke! Ta peab tüdruku maha jätma! Seda ta peab! <stage>(Jantka veidra näoilmega ära.)</stage> Ja, seda ta peab!</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p><stage>(Naeratades:)</stage> Helene-Agneta, kui impulsiivselt sa oma käskusid annad! Arvad sa, et<pb n="68"/> sinu käsk midagi mõjub? Sa oleksid võinud poissi sugeda lasta, kuni tal armastusemõtted pääst välja auravad —</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Nagu enne:)</stage> Jaa! Jaa! Ka sugeda! Jantka, Jantka!.. <stage>(Tahab Jantkale järele tõtata.)</stage></p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p><stage>(Temale kätt käevarre pääle pannes:)</stage> Pea, õde! Ka see ei oleks mõistlik. Esiteks oleks pekstud poiss sulle pärast degoutant, ja teiseks — tean mina paremat nõu...</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Kärsitult, kui Karl-Fabian kohe ei räägi:)</stage> Siis ütle! Oma enese lihane vend laseb ennast veel pikalt paluda, kui mul nõu ja abi vaja!..</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p><stage>(Iharalt:)</stage> Sa võiksid tüdruku mulle kinkida, Helene-Agneta! Minu, poissmehe, majapidamisele oleks ta ehteks! Ja kuidas mind mu sõbrad kaetseksid!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Fi donc! Karl-Fabian, ma ütlesin, mis sa oled! Aga võta ta! Korista ta mu silma alt! Võta ta homme päev kutsari kõrval pukis kaasa! Ja, ja, homme päev pukis kaasa!</p>
+                    </sp>
+                    <pb n="69"/>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p><stage>(iharalt muiates:)</stage> See on sinust noobel, Helene-Agneta! Par Dieu, see on sinust noobel! <stage>(Vapustab õe kätt)</stage> Aga mis see on? <stage>(Kohkuvad.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>4.</head>
+                    <stage>Herrastemaja tagant kuulukse ägedat lokulaua löömist, kisa ja hüüdeid, jahipasuna ajamist ja üksikuid püssipaukusid. Kära läheb suuremaks ja tuleb lähemale.</stage>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Väga ärritatult, elav kahekõne:)</stage> Tulekahju?!</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p>Ei või olla! Miks siis pasunad ja püssilaskmine! See on midagi muud!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Aga mis?</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p>Karu on karjas! Kiskjat looma aetakse taga! Jää siia, kohe toon sulle teateid! <stage>(Vehib erutatult kepiga ja tahab minna.)</stage></p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Temast kinni hakates:)</stage> Ei, ei! Ära jäta mind üksi! Mina kardan! Vaata ometi, missugune<pb n="70"/> kari ärritatud inimesi! Mäss! Mäss! Kuhu me end peidame?</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p><stage>(End sirgeks ajades:)</stage> Mäss? Tühi lori! Ja — Chlopitzkid ei peida ennast!</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>5.</head>
+                    <stage>Tulevad: opmann, suitsev püss käes, väga ärritatud, alatasa higi pühkides — tema järel seotud Ants, keda meeste vahel toorelt edasi tõugatakse, — mõned mõisamehed püssidega, kes neid uuesti laevad, Vaida-Jaan, Tuli-Jüri, Aasta-Mats, Vana-Juhan ja teised teomehed, — mõisa pere, naised, tüdrukud, lapsed, koerad, — nende järel hääle kaudu Mangu-Elts, pime, hõbejuukseline naistarga-kujuline olevus, kepi najal komberdades; ühed on väga ärritatud, teistele on see midagi uut, millest nad aru ei saa ja mis nad nalja pärast kaasa teevad.</stage>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p><stage>(Juba eemalt:)</stage> Mäss! Mäss! Armuline proua, talupoegade mäss!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Erutatult:)</stage> Mäss?! — Kes? Kus?</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p>Rahustage ennast, armuline proua, rahustage ennast! On juba maha surutud, on juba maha surutud! <stage>(Lööb hoobeldes vastu rinda:)</stage> Vana Tiedemann..!</p>
+                    </sp>
+                    <pb n="71"/>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p>Mis lori see on! Kes mässab? Kus mässatakse?</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p>Ekstsellents, see sääl! <stage>(Näitab Antsu pääle.)</stage> See sääl! See kihutas inimesi mässama! Aga vana Tiedemann sai kõik veel õigel ajal teada! Sai õigel ajal jaole, jah, sai õigel ajal jaole!</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p>Mis? See — seladon sääl? <stage>(Vaatab kahjurõõmsa näoga õe otsa.)</stage> No see on ometi... Ei oleks uskudagi!</p>
+                    </sp>
+                    <sp who="#vaida-jaan">
+                        <speaker>VAIDA-JAAN</speaker>
+                        <p><stage>(Hädaldades:)</stage> Pojakene! Pojakene!..</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p>Selle asja juured ulatavad kaugemale! Ulatavad veel kaugemale! Ulatavad kuni herraste eneste lossi! Armuline proua on üht madu oma külje all soendanud, ja, üht salalikku madu!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Hofmeister? Seda ma arvasin! Kus ta on? Siia temaga!</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p>Ära karanud! Ta on ära karanud, õigel ajal oma naha päästnud! Ta olla — linnujahile läinud! Ma ei usu seda.</p>
+                    </sp>
+                    <pb n="72"/>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p>Niisugust müra teete! Oli seda siis vaja?</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p><stage>(Salakesi:)</stage> Et hirmutada, herr landraat, et hirmutada!</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p><stage>(Viib opmanni kõrvale, rahulikumalt:)</stage> Tiedemann, kas Te ei tee sääsest härga? Oli siis mingisugune mäss? Ta on kihutanud, ütlete Teie? Mis ta siis on öelnud ja kuidas ta on kihutanud? Seletage selgemini!</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p><stage>(Tungib rahvahulgast läbi, viskab enese proua jalgade ette maha, ringutab käsi.)</stage> Halastage, armuline proua! Halastage!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Vihaselt:)</stage> Mis sina tahad? Viige see tüdruk ära! Sa oled samasugune süüdlane! Sa oled ju tema — <stage>(põlgavalt)</stage> armuke!</p>
+                    </sp>
+                    <sp who="#maie">
+                        <speaker>MAIE</speaker>
+                        <p>Armu! Ants ei või süüdlane olla, Ants on nii hää!..</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Koristage see tüdruk siit! <stage>(Mõisamehed viivad Maie eemale.)</stage> Ja et sa tead! Sinu tembu<pb n="73"/>tamistel on ots! Teekonnale ole valmis! Et homme saad minna! Sääl on su uus peremees ja isand! <stage>(Opmannile:)</stage> Kustutage ta hingekirjast maha, ma olen ta oma vennale kinkinud!</p>
+                    </sp>
+                    <sp who="#mangu-elts">
+                        <speaker>MANGU-ELTS</speaker>
+                        <p><stage>(Hädahüüd:)</stage> Issand Jumal, püha Kolmainus! Ta on ta oma vennale kinkinud! <stage>(Komberdab lähemale ja kuulatab teraselt.)</stage></p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <stage>(On enese meeste käest lahti kiskunud, tungib välkuvate silmadega ette, püüab asjata oma käsi vabastada; ta räsitakse uuesti kinni.)</stage>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Sina tänamata loom! Mis sa oled teinud? Mis sa oled ütelnud? Vasta!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p><stage>(Julgelt:)</stage> Midagi ei ole ma teinud ja midagi ei ole ma ütelnud, mis — õige ei ole.</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p>Sina narr! Mis tead sina õigusest!</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Mina tean, et keisri seadus on, et inimesi ei tohi müüa ega kinkida! Ja häda teile, kui te seda teete!</p>
+                    </sp>
+                    <pb n="74"/>
+                    <sp who="#vaida-jaan">
+                        <speaker>VAIDA-JAAN</speaker>
+                        <p><stage>(Kiunudes:)</stage> Pojake, mis sa kõneled? On keegi keisrit näinud? Või keisri poega või sugulast? Või keisri toapoissigi! Sääl on, pojake, su keiser! <stage>(Näitab herraste pääle.)</stage></p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Jäta sina, isa! Mina tean, et keiser on, kui ka tema seadust meie kätte ei anta.</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p><stage>(Õele:)</stage> Jumala eest, Helene-Agneta, see poiss on kardetav! <stage>(Tiedemannile:)</stage> Mis ta on teinud? Seletage. Mis ta narr on öelnud?</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p>Ta on hirmsasti ässitanud. Ta on öelnud — Jüri, räägi sina! Tunnista kõik üles! Ära midagi salga! <stage>(Paatosega:)</stage> Jumala püha palge ja herraste ees! Sa ei tohi midagi salata!</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p><stage>(Jürile, kärkides:)</stage> Räägi! Ja ära salga! Ehk..!</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>No mida mina nüüd, suur herra! Mina talupoja-inimene..! Ja niisuguse rumala poisikese lori..! Kes siis teda ka meheks on lugenud!</p>
+                    </sp>
+                    <pb n="75"/>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p>Sa pead ometi teadma, mis ta ütles! Tunnista!</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>No jaa, ta ütles — et tema aru ei saa, kuidas inimene niisugust pürtsi suhu võib võtta, ja et loom ka selle külge nina ei pista...</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p>Missugust pürtsi?</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>No — viina!</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p>Ja mis veel?</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p><stage>(Agaralt:)</stage> Ta on ütelnud, et igas mõisas keedetavat inimestele unerohtu, mis meele pääst võtab, ja sellepärast orjata inimesed!..</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p><stage>(Jürile:)</stage> On ta seda ütelnud?</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Kes nüüd kõiki sõnu tähele pani! Võib olla, et ütles.</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p>Ja mis veel?</p>
+                    </sp>
+                    <pb n="76"/>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>No ei muud midagi.</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p><stage>(Teiste meeste poole:)</stage> Oli see nii?</p>
+                    </sp>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p>Nii see, herra, oli.</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p>Kas ta muud midagi ei ütelnud?</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p><stage>(Nagu enne:)</stage> Ta on ka ütelnud, et maa ja mis maa kannab, mis õhus lendab ja vees ujub, olla rahva oma ja herrased olla selle rahva käest ära kiskunud...</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Antsule:)</stage> Oled sa seda ütelnud?</p>
+                    </sp>
+                    <sp who="#ants">
+                        <speaker>ANTS</speaker>
+                        <p>Olen! Ma ei salga! — Seda teavad kõik, see seistagi kirjades!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(End ära pöördes:)</stage> Rumal narrikene!</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p><stage>(Jürile:)</stage> Nõnda siis-— ta ässitas teid? Ja mis teie vastasite? Mis teie tegite?</p>
+                    </sp>
+                    <pb n="77"/>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>Ah meie?</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p>No ja, teie!</p>
+                    </sp>
+                    <sp who="#jueri">
+                        <speaker>JÜRI</speaker>
+                        <p>No vaadake — paruni-herra..! Suur proua saatis meile ju viina. Ja käskis Antsule ka anda. Poiss, narr, tõrgub vastu, ei taha. No siis võtsime ta maha ja valasime talle kaelataguse taha.</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p><stage>(Hoiab naeru.)</stage> Ja see oli kõik?</p>
+                    </sp>
+                    <sp who="#juhan">
+                        <speaker>JUHAN</speaker>
+                        <p>Jaa, paruni-herra, nii see oli.</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p><stage>(Astub tagasi:)</stage> Tiedemann, kas — te ei ole, nagu ma ütlesin, jälle korra kirbust elevandi teinud?</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>Tiedemann</speaker>
+                        <p><stage>(Etteheitvalt:)</stage> Aga herr landraat!</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p>Õde, ma arvan, tänaseks on meil asjast küllalt! Me võime ehk lõpetada? Sinu lõuna<pb n="78"/> ootab ja mina olen juba isune. <stage>(Opmannile:)</stage> On Teil kindlat kohta? Viige see mees kinni!</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p><stage>(Agaralt:)</stage> Jaa! <stage>(Meestele:)</stage> Soola-aita!</p>
+                    </sp>
+                    <sp who="#fabian">
+                        <speaker>FABIAN</speaker>
+                        <p>Ja saatke rahvas tööle. <stage>(Õele:)</stage> Kas me ei lähe, Helene? Poisi üle kohut mõista võid sa pärast. <stage>(Opmann vangiga ja rahvas küürutades ära.)</stage></p>
+                    </sp>
+                    <sp who="#mangu-elts">
+                        <speaker>MANGU-ELTS</speaker>
+                        <p><stage>(Komberdab lähemale, kepi najal röötsakil:)</stage> Armuline proua — ja minu tütar? Halastage! Mis kurja on tema teinud?!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Vihaselt:)</stage> Kes siis sina oled? Ja mis sa tahad?</p>
+                    </sp>
+                    <sp who="#elts">
+                        <speaker>ELTS</speaker>
+                        <p>Mina olen Maie ema!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Mis sa mind tülitad? Sinu rumala tütre olen ma oma vennale kinkinud ja homme on ta siit eemal! <stage>(Võtab Fabiani käe, mõlemad lossi poole ära.)</stage></p>
+                    </sp>
+                    <sp who="#elts">
+                        <speaker>ELTS</speaker>
+                        <p><stage>(Ringutab käsi:)</stage> Halastage! Ärge võtke mult mu ainukest vanaduse tuge! Halastage!</p>
+                        <pb n="79"/>
+                        <stage>(Ägab, märkab siis, et ta üksi on ja tema ümber kõik vaikne. Ajab enese vihaselt sirgeks, tõstab käe lossi poole üles, sajatab:)</stage>
+                        <l>Saagu, saagu, ma sajatan,</l>
+                        <l>Tulgu, tulgu, ma tõotan:</l>
+                        <l>Saagu sa soossa surema,</l>
+                        <l>Kännu otsa kängunema,</l>
+                        <l>Mätta otsa...</l>
+                    </sp>
+                    <stage>(Eesriie langeb ruttu.)</stage>
+                </div>
+            </div>
+            <pb n="80"/>
+            <div type="act">
+                <head>Neljas vaatus.</head>
+                <stage>Mängukoht endine, aga õhuke näitelava. Esimesed kulissid on ära võetud ja lossihoone rampele lähemale tõstetud. Videvik. Vana aednik aiapoistega, süütavad kirjusid laternaid põlema ja riputavad neid puude ja põõsaste külge. Hakkavad tööga valmis saama.</stage>
+                <div type="scene">
+                    <head>1.</head>
+                    <sp who="#aednik">
+                        <speaker>AEDNIK</speaker>
+                        <p><stage>(Võtab piibutobi suust, jääb tööd takseerima, siis poistele:)</stage> Pane sinna veel üks ja — viimane sinna <stage>(näitab käega)</stage> — sääl on veel tühjad kohad.</p>
+                    </sp>
+                    <sp who="#poiss-1">
+                        <speaker>I POISS</speaker>
+                        <p><stage>(Teeb seda, jääb ka vaatama.)</stage> Tea, kellele seda ilu ja au siin teha, — suureproua sünnipäev küll on, aga võõraid ja külalisi pole üht ainustki.</p>
+                    </sp>
+                    <sp who="#aednik">
+                        <speaker>AEDNIK</speaker>
+                        <p>Noh, ega me siis võõraste pärast, see on proua enese pärast. Kui on sünnipäev, siis on<pb n="81"/> sünnipäev. See on juba mõisa ja valla rahva pärast; opmann tuleb ometi nendega armulisele prouale õnne soovima.</p>
+                    </sp>
+                    <sp who="#poiss-1">
+                        <speaker>I POISS</speaker>
+                        <p>Oleks võinud hommiku vara tulla, kui õnnesoovimise aeg. Mis siis nüüd veel õhtu hilja takka järele..?</p>
+                    </sp>
+                    <sp who="#aednik">
+                        <speaker>AEDNIK</speaker>
+                        <p>No oled sina ka rumal! Proua magab kaua. Ja siis too inimesed töö juurest ära, õnne soovima..?</p>
+                    </sp>
+                    <sp who="#poiss-1">
+                        <speaker>I POISS</speaker>
+                        <p>Õige jah, selle pääle ma ei mõelnud. Ega seda või. Kallis töö-aeg läheb raisku. — Aga saksu ja külalisi oleks ikka võinud tulla?</p>
+                    </sp>
+                    <sp who="#aednik">
+                        <speaker>AEDNIK</speaker>
+                        <p>Noh, leina-aasta...</p>
+                    </sp>
+                    <sp who="#poiss-2">
+                        <speaker>II POISS</speaker>
+                        <p>Mis see Lätimaa landraat siis siit nii tuhat-tulist minema kihutas, oleks ometi võinud õe sünnipäeva siin ära pidada?</p>
+                    </sp>
+                    <sp who="#aednik">
+                        <speaker>AEDNIK</speaker>
+                        <p>Ah Karl-Fabian-parun?</p>
+                    </sp>
+                    <pb n="82"/>
+                    <sp who="#poiss-2">
+                        <speaker>II POISS</speaker>
+                        <p>Nojah — proua vend...</p>
+                    </sp>
+                    <sp who="#poiss-1">
+                        <speaker>I POISS</speaker>
+                        <p>See naiste-parisnik! Kas sel veel aega oli? Sai siit ilusa tüdruku kätte, ja missuguse veel, — kas ta siis veel oodata läbes.</p>
+                    </sp>
+                    <sp who="#aednik">
+                        <speaker>AEDNIK</speaker>
+                        <p>Ära räägi sakstest nii vähese aukartusega.</p>
+                    </sp>
+                    <sp who="#poiss-2">
+                        <speaker>II POISS</speaker>
+                        <p>Ega's need saksad ole, need — poolakad. Juba Poola nimigi.</p>
+                    </sp>
+                    <sp who="#aednik">
+                        <speaker>AEDNIK</speaker>
+                        <p>Sina nüüd tead midagi, mis poolakas või Poola nimi.</p>
+                    </sp>
+                    <sp who="#poiss-1">
+                        <speaker>I POISS</speaker>
+                        <p>Nõ küll vana Mangu-Elts oli neid sajatanud...</p>
+                    </sp>
+                    <sp who="#aednik">
+                        <speaker>AEDNIK</speaker>
+                        <p>Mis see sajatamine aitab, pidagu parem suu.</p>
+                    </sp>
+                    <sp who="#poiss-1">
+                        <speaker>I POISS</speaker>
+                        <p>Jah, mis see enam aitab. Mis soe suus, see soe kõhus. <stage>(Kahetsedes:)</stage> Vana pimeda inimese ainuke laps ja tugi oli!</p>
+                    </sp>
+                    <pb n="83"/>
+                    <sp who="#jantka">
+                        <speaker>JANTKA</speaker>
+                        <p><stage>(On lossitrepist alla ja lähemale tulnud.)</stage> Noh, olete valmis? Võin ma armulise proua kutsuda ja opmannile sõna viia?</p>
+                    </sp>
+                    <sp who="#aednik">
+                        <speaker>AEDNIK</speaker>
+                        <p>Meie oleme valmis. — On suur proua veel nii pahuras tujus, kui kõik need viimased päevad?</p>
+                    </sp>
+                    <sp who="#jantka">
+                        <speaker>JANTKA</speaker>
+                        <p>Ega paremat ole. — Siis ma lähen ja kutsun?</p>
+                    </sp>
+                    <sp who="#aednik">
+                        <speaker>AEDNIK</speaker>
+                        <p>Mis siis muud! <stage>(Jantka ära.)</stage></p>
+                    </sp>
+                    <sp who="#poiss-2">
+                        <speaker>II POISS</speaker>
+                        <p><stage>(Vähe aja pärast:)</stage> Miks siis suur proua nüüd nii pahane on, et valget päeva enam sugugi ei ole?</p>
+                    </sp>
+                    <sp who="#poiss-1">
+                        <speaker>I POISS</speaker>
+                        <p>Noh, kui Ants putked tegi ja Maiele järele jooksis! Proua kallis Ants... "Ilus poiss, ilus poiss..."</p>
+                    </sp>
+                    <sp who="#aednik">
+                        <speaker>AEDNIK</speaker>
+                        <p>Jah, niisugune rumal vasikas! Ega tüdrukut kätte enam saa.</p>
+                    </sp>
+                    <pb n="84"/>
+                    <sp who="#poiss-2">
+                        <speaker>II POISS</speaker>
+                        <p>Ei enam. — Ei mina Antsu naha sees tahaks olla, kui nad ta kätte saavad ja tagasi toovad! Ärakaranud ori! Jumal hoidku!</p>
+                    </sp>
+                    <sp who="#poiss-1">
+                        <speaker>I POISS</speaker>
+                        <p>Tea, kas saavad kätte?</p>
+                    </sp>
+                    <sp who="#aednik">
+                        <speaker>AEDNIK</speaker>
+                        <p>No kuhu ta ilmast läheb? Kui niisugused Antsu vihamehed, kui Aasta-Mats ja Tuli-Jüri, kannule pandi, ja igale poole ette kirjutati: võtke kinni! Ei see pääse kuhugi.</p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>2.</head>
+                    <sp who="#proua #valentin">
+                        <speaker>PROUA</speaker>
+                        <stage>(Pisike poeg käe kõrval, tuleb lossitrepist alla, teenrid tuuleküünaldega eel. Kõrvalt tuleb opmann rahvaparvega, erutatud ja higine, seab rahva kahele poole ringi seisma, siis proua ette astudes:)</stage>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p><stage>(Erutatult:)</stage> Suur ja armuline proua! Lubage armulikult, et Teie, alandlik teener... <stage>(pühib higi)</stage> iseenese ja kõige mõisa ja valla rahva nimel armulikule prouale sündimisepäevaks õnne tohib soovida. Meie süda ei lasknud meid päevlikku tööd lõpetades puh<pb n="85"/>kama minna, enne kui armulisele prouale ütelda oleme võinud... <stage>(pühib higi)</stage> et meie palveid Jumala poole saadame, et tema meie hääle ja armulisele prouale võtaks kinkida pikka iga, kallist rahu, tervit ja kõrget au. Ja et... ja et... <stage>(on kõne järje kaotanud ja pühib erutatult higi).</stage></p>
+                    </sp>
+                    <sp who="#vaida-jaan">
+                        <speaker>VAIDA-JAAN</speaker>
+                        <p><stage>(Ette tungides:).</stage> .. et Jumal õnnistagu armulise proua jalaastumisi ja käeliigutust...</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p><stage>(Vihaselt Jaanile:)</stage> Suu pea! Kes siin räägib, sina või mina? <stage>(Jaan kohkub ja küürutab, ta kistakse tagasi.)</stage> Ja et... ja et... <stage>(on õnnetu ei saa enam kõne otsa pääle).</stage></p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Naeratades:)</stage> Pole viga, Tiedemann, pole viga! Ma tean juba...</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p>Sest nagu siin põõsastes täna tuled põlevad, nii paistavad armulise proua hääd teod rahva seas, ja et... ja et... <stage>(Ärritatult rahvale:)</stage> No mis te vahite! Karjuge hurraa! Armuline proua ja väike noorherra, meie tulevane pärisherra, elagu, hurraa!</p>
+                    </sp>
+                    <pb n="86"/>
+                    <sp who="#rahvas">
+                        <speaker>RAHVAS</speaker>
+                        <p>Hurraa! Hurraa! Hurraa!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Gut, gut, armas inimene, gut, gut! See on ju kena, see on ju kena! <stage>(Näitab käega:)</stage> Ära tallab sääl rohu pääle! <stage>(Rahvas taganeb koomale.)</stage> Tiedemann, laske rahvale pang viina anda, ja enesele küsige virtina käest pudel veini; ma tahan, et täna kõik rõõmsad oleksid. Gut, gut, pole vaja, pole vaja, armas inimene... <stage>(Hoiab rahvale, kes tema kätele suud andma tikub, küünarnukid ette.)</stage> Läheb nüüd minema, läheb nüüd vagusi minema, armas inimene, ja, ja! Läheb nüüd jälle minema!</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p>Ärge tikkuge! Ärge tülitage suurt prouat! Minge pleekaeda, minge kõik pleekaeda, ma tulen kohe järele!</p>
+                        <stage>(Opmann ja rahvas tänades ja küürutades ära.)</stage>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>4.</head>
+                    <sp who="#proua #valentin">
+                        <speaker>PROUA</speaker>
+                        <stage>(On trepist alla astunud, jalutab pojakesega ja on mõtetes, siis nagu ärgates:)</stage>
+                        <p>Tja, Valentin, maman on jälle aasta vanemaks saanud — õnnelikumaks mitte! See<pb n="87"/> oli meile raske aasta! Kasva sina, pojakene, kasva sina, siia on jälle tugevat kätt vaja! <stage>(Kummardab lapse juure maha.)</stage> Ilusad tuled, Valentin, mis? Meeldivad nad sulle, ja? <stage>(Silitab poisikese pääd.)</stage> Kui sa ise siin korra peremees oled ja see sulle lõbu teeb, siis lase tuhat tuld põlema panna, terve õu täis tuld, tulede meri! Ja naabrid kutsu, herrad ja daamed, ja pillimehed pane mängima, et mõis rõkkab! — Täna oleme me üksi, meil ei sünni pidutseda, meil on leina-aasta. <stage>(Tõuseb üles ja astub jalutades edasi.)</stage> Ah, me oleme ülepää nii üksi ja rõõmuta! Sina ei tunne seda, sul on su mängud! Aga su vaene maman! Temal ei ole midagi. Temal ei ole elust muud, kui päev päeva kõrval tüdimust ja tuska! Silmad varastavad ja valetavad nad tal pääst, siin vihasta ennast, sääl! Ja siis ütleb see vilets kari veel, ma olla halastamata, olla õel! Nagu mu hääd südant keegi tunneks tänada! Valentin, kui sina siin kord peremees oled, siis ole külm ja kõva ja ära unusta silmapilkugi, et need, kelle üle sa valitsed, ei ole muu pärast olemas, kui sinu pärast! Ja maitse elu ja võta enesele valju käega, mis sulle meele tuleb, sest see on su õigus! Ja oma õigusi ära lase eneselt võtta! <stage>(Jantka tuleb õhinal trepist alla.)</stage> No mis sa tood, Jantka?</p>
+                    </sp>
+                </div>
+                <pb n="88"/>
+                <div type="scene">
+                    <head>5.</head>
+                    <sp who="#jantka">
+                        <speaker>JANTKA</speaker>
+                        <p>Armuline proua, Ants! Ants on jälle tagasi ja käes!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Sisemise hõiskamisega:)</stage> Ometi kord! Kust nad ta — kätte on saanud?</p>
+                    </sp>
+                    <sp who="#jantka">
+                        <speaker>JANTKA</speaker>
+                        <p>Lätimaa piirilt ja — otse maanteelt! Ta on kahvatanud ja augus silmadega, nagu kooljas! Ja vastu on ta hakanud ja vahimehel peaaegu silma pääst välja löönud! Aga ta on siis ka meeste käest saanud! Tuli-Jüri oli juba ammu tema pääle vihane! Nad on ta poolsurnuks peksnud, tal ei ole enam elu-inimese nägugi pääs, — ega tast suuremat küll enam asja ei saa!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Ja, ja, mis keegi otsib, seda ta leiab!</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p><stage>(Ähkides ja erutatult:)</stage> Armuline proua, armuline proua — Ants on jälle käes! Ma ütlesin juba: minu hästi õpetatud mehed ta tagasi toovad! Palun, mis temaga teha?</p>
+                    </sp>
+                    <pb n="89"/>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Te küsite veel? Köis kaela kui hullule koerale!</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p><stage>(Taganedes:)</stage> Oh! Palun alandlikult andeks, aga...</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Kõhelete juba jälle? Missugune "aga" siis?</p>
+                    </sp>
+                    <sp who="#tiedemann">
+                        <speaker>OPMANN</speaker>
+                        <p><stage>(Kohkunult:)</stage> Ma ei tea, armuline proua... See ei ole ometi võimalik, et...</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Mis ei ole võimalik? Kas ma olen oma orjade ihu ja hinge isand või mitte? <stage>(Ennast taltsutades, vagusamini:)</stage> Mõistnud ei ole Te mind! Siduma pidite ta! Nagu koera! Ja siis — viiskümmend keppi temale, ja — kohe! <stage>(Pöördub kõrgilt ära, opmann tõttab minema. Väike vahe.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>6.</head>
+                    <sp who="#vaida-made">
+                        <speaker>VAIDA-MADE</speaker>
+                        <stage>(Vangub, nagu oleks tal jõud põlvist ära, ja viskab enese proua ette maha, ägades:)</stage>
+                        <p>Suur ja armuline proua, armu, armu!</p>
+                    </sp>
+                    <pb n="90"/>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Põlgavalt:)</stage> Kes see inimene on?</p>
+                    </sp>
+                    <sp who="#jantka">
+                        <speaker>JANTKA</speaker>
+                        <p>Armuline proua, ärge pange pahaks, see on küll Antsu ema!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Mis see inimene tahab? <stage>(Made ringutab sõnatult käsi.)</stage></p>
+                    </sp>
+                    <sp who="#jantka">
+                        <speaker>JANTKA</speaker>
+                        <p>Vististi küll poja eest paluda!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Paluda? Siin ei ole midagi paluda! Kas ma ei tahtnud ainult poisi hääd? Ja nõnda tasuti mulle! Nüüd ei ole enam palvel maad — minu kannatusel on lõpp!</p>
+                    </sp>
+                    <sp who="#made">
+                        <speaker>MADE</speaker>
+                        <p>Armu, armu! Kui ka kannatus katkeb, halastusel on alati maad!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Ei! Ja vahimehe silma on ta välja löönud! Tema mõõt on kuhjaga täis!</p>
+                    </sp>
+                    <pb n="91"/>
+                    <sp who="#made">
+                        <speaker>MADE</speaker>
+                        <p><stage>(Ägades:)</stage> Halastage, halastage! Kui Teie nüüd teda peksa lasete, sureb ta nuhtluse all! Ta on mitu päeva söömata ja juba tee pääl joobnud meestest poolsurnuks pekstud — jõuetu ja nõrk! Ja õrn oli tema ihu juba lapsest saadik, see ei ole kui teiste oma..!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Mina olen temaga küllalt leppinud, isegi kõik tema ässitamised temale kinkinud. See on saatus, tema enese teenitud saatus, mis teda nüüd tabab! Siin ei või mina parata. Mis ütleksid teised! Nuhtlust ei või temale nüüd mitte enam kinkida!</p>
+                    </sp>
+                    <sp who="#made">
+                        <speaker>MADE</speaker>
+                        <p>Ah, armuline proua — kinkida! Seda ma ei julenudki paluda!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Imeks pannes:)</stage> Mitte? Ja mida siis? Mida siis sa palud?</p>
+                    </sp>
+                    <sp who="#made">
+                        <speaker>MADE</speaker>
+                        <p>Halastage! Andke nädalgi aega, kuni ta kosub! Kui Teie teda nüüd peksa lasete, sureb ta hoopide all!..</p>
+                    </sp>
+                    <pb n="92"/>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Ei sure! Ei ole selle kätte veel keegi surnud! Ja mis sa hädaldad? Miks ei ole sa oma poega paremini kasvatanud? On see minu süü!</p>
+                    </sp>
+                    <sp who="#made">
+                        <speaker>MADE</speaker>
+                        <p>Ah, armuline proua! Kuida veel ma teda pidin kasvatama. Eks ole küllalt teda manitsetud, nagu iga meie last, et sõna peab kuulama ja mitte nurisema, mitte nendegi üle, kes valjud on! Aga —! Noor veri, noor tahtmine — väle nutma, väle naerma, veel väledam vihaseks saama! Armuline proua, Te olete ka ema, Teil on ka lapsi, heitke armu minu lapse pääle veel see ainukenegi kord, ja Jumal taevas tasub seda häätegu Teiegi lastele! Armu, armu!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Seda ma ei või!</p>
+                    </sp>
+                    <sp who="#made">
+                        <speaker>MADE</speaker>
+                        <p>Te võite, kui Te tahate...</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Ma ei taha! Sa kuuled, ma ei taha! Kao siit!</p>
+                    </sp>
+                    <pb n="93"/>
+                    <sp who="#made">
+                        <speaker>MADE</speaker>
+                        <p><stage>(Ennast sirgu ajades, vihaste silmadega:)</stage> Armuline proua, siis oma enese soo liha ja verd tahate nuhelda lasta, oma enese tõu seemnest kasvanud ihu peksuga häbistada? Kas vere hääl Teile midagi ei ütle? Ta on ju Teie enese õndsa herra poeg!..</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Mis sa, häbemata inimene, ütled! Millega sa, kõlvatu, hoopled?</p>
+                    </sp>
+                    <sp who="#made">
+                        <speaker>MADE</speaker>
+                        <p>Mis häbemata olen mina, mis võisin mina vaene ussikene parata, kui mind kõlvatuks ei leitud pulmaööl..! Teie! Teie nuhtlete isa pattu lapse kätte, Teie ei hooli sellest, et see isa veri on, mis pojas püsti ajab ja ülekohtu alla paindumast tõrgub! <stage>(Vingudes:)</stage> Oh Jumal! Oh Jumal, olgugi vägistamise vili, ta on siiski minu laps, minu liha ja veri, minuga ühte ja kokku kasvanud... Armu, armu!</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Pöörab enese ära, äkki:)</stage> Jantka! Mine ütle, et ma Antsule nuhtluse kingin!</p>
+                    </sp>
+                    <pb n="94"/>
+                    <sp who="#jantka">
+                        <speaker>JANTKA</speaker>
+                        <p>Ma tõttan! <stage>(Ära.)</stage></p>
+                    </sp>
+                    <stage>(Sel silmapilgul on eemalt nõrka vingumist kuulda, mis aga kohe vaikib.)</stage>
+                    <sp who="#made">
+                        <speaker>MADE</speaker>
+                        <p><stage>(Üles karates:)</stage> Jookse, pojake, jookse! Lenda! Oh Jumal, Jumal! <stage>(Viskab enese jälle maha, tahab proua kätele ja jalgadele suud anda.)</stage> Tänu! Tuhat tänu, armuline proua! Õnnistagu Jumal Teid ja Teie lapsi, Teie tarka meelt ja mõistust. Tänu, tänu, tasugu Teile Jumal tuhat korda, mis Te mulle ja mu lapsele heldust üles näitate... <stage>(Kuulatab hingeahastuses teravalt hääle poole.)</stage></p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p>Ole doch vait ja manitse oma poega! Mis ta jookseb plikade järele! Mina ei taha ju muud, kui oma alamate hääd, aga tema on pöörane! <stage>(Pöördub ära.)</stage></p>
+                    </sp>
+                    <sp who="#made">
+                        <speaker>MADE</speaker>
+                        <p><stage>(Ägab:)</stage> Tänu, tänu! Oh Jumal..! Ainult viivukene varem! Viivukene varem annud Jumal heldust Teie südamesse..! <stage>(Hingehädas:)</stage> Jantka! Kuhu jääb Jantka! Oh Jumal! Hilja oli kõik! Hilja! <stage>(Langeb põlvili, ootab ülestõstetud kätega.)</stage></p>
+                    </sp>
+                    <pb n="95"/>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Ka ärevuses, iseenese ette:)</stage> Siis see oli see, mis mind tundmatalt tema poole tõmbas, siis see oli see! <stage>(Kummardab lapse juure maha, paneb nagu varjates selle ümber käed.)</stage> Jantka! Kuhu jääb Jantka! <stage>(Piinlik ootamine.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>7.</head>
+                    <sp who="#jantka">
+                        <speaker>JANTKA</speaker>
+                        <stage>(Tuleb tõtates, on suures ärevuses.)</stage>
+                    </sp>
+                    <sp who="#made">
+                        <speaker>MADE</speaker>
+                        <p><stage>(Ägades:)</stage> Mis on? Oh Jumal! Mis on?</p>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Üles tõustes, ka erutuses:)</stage> Ja, mis on? Mis on?</p>
+                    </sp>
+                    <sp who="#jantka">
+                        <speaker>JANTKA</speaker>
+                        <p>Armuline proua! Ants! — Ants — laseb käele suud anda... Käsk tuli hilja!</p>
+                    </sp>
+                    <sp who="#made">
+                        <speaker>MADE</speaker>
+                        <stage>(Langeb kisendades kui eluta maha.)</stage>
+                    </sp>
+                    <sp who="#proua">
+                        <speaker>PROUA</speaker>
+                        <p><stage>(Kohkunult, hingehädas:)</stage> Mon Dieu! Surnud? Tõesti surnud? — Seda ma ei tahtnud! Minu Jumal, seda ma tõesti ei tahtnud!</p>
+                    </sp>
+                    <stage>(EESRIIE.)</stage>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
