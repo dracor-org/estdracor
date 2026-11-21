@@ -70,6 +70,10 @@
                     <person xml:id="liisa" sex="MALE">
                         <name>Punapõseline tüdruk Liisa</name>
                     </person>
+                    <listRelation>
+                        <relation name="parent_of" active="#peremees" passive="#juhan"/>
+                        <relation name="associated_with" active="#jakup" passive="#peremees"/>
+                    </listRelation>
                 </listPerson>
             </particDesc>
             <textClass>
