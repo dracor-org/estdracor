@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="est000038" xml:lang="et" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mahajäetud maja</title>
+                <title type="sub">Dramatiline kavand</title>
+                <author>
+                    <persName>
+                        <forename>Oskar</forename>
+                        <surname>Luts</surname>
+                    </persName>
+                    <idno type="wikidata">Q2005705</idno>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <ref target="http://www.digar.ee/id/nlib-digar:431748">DIGAR Digital Archive</ref>
+                    <availability>
+                        <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                    </availability>
+                </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>Oskar</forename>
+                            <surname>Luts</surname>
+                            <idno type="wikidata">Q2005705</idno>
+                        </persName>
+                    </author>
+                    <title type="main">Mahajäetud maja</title>
+                    <title type="sub">Dramatiline kavand</title>
+                    <date when="1914">1914</date>
+                    <publisher>Noor-Eesti kirjastus</publisher>
+                    <pubPlace>Tartu</pubPlace>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1914">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1923">
+                        <desc/>
+                    </event>
+                </listEvent>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="juhan" sex="MALE">
+                        <name>Perepoeg Juhan</name>
+                    </person>
+                    <person xml:id="peremees" sex="MALE">
+                        <name>Peremees</name>
+                    </person>
+                    <person xml:id="jakup" sex="MALE">
+                        <name>Sulane Jakup</name>
+                    </person>
+                    <person xml:id="liisa" sex="MALE">
+                        <name>Punapõseline tüdruk Liisa</name>
+                    </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle">Drama</term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">Q21010853</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-11-21">Convert txt to TEI</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <pb n="3"/>
+        <front>
+            <titlePage>
+                <docAuthor>O. Luts</docAuthor>
+                <docTitle>
+                    <titlePart type="main">Mahajäetud maja</titlePart>
+                    <titlePart type="sub">Dramatiline kavand</titlePart>
+                </docTitle>
+                <docImprint>
+                    <publisher>Osaühisus "Noor-Eesti Kirjastus", </publisher>
+                    <pubPlace>Tartus </pubPlace>
+                    <docDate>1914</docDate>
+                </docImprint>
+            </titlePage>
+            <pb n="4"/>
+            <pb n="5"/>
+            <prologue>
+                <p>Kurb on mahajäetud maja, nagu matuserong külawahelisel roobasteel.</p>
+                <p>Ja ometi oli sääl kord elu, tuksusid inimeste südamed rõõmus ja kurbuses.</p>
+            </prologue>
+        </front>
+        <pb n="6"/>
+        <pb n="7"/>
+        <body>
+            <div type="act">
+                <stage>Näitelawa kujutab mahajäetud talumaja järsul jõekaldal. Üle õue on lagunenud ait. Maja ees õitsew kirsipuu. Kirsi õielehed lendlewad õhus. Tuuline, päikesepaistine ilm.</stage>
+                <stage>Mahajäetud maja juure tuleb rändaja, pühib higist otsaesist ja istub kirsipuu alla rohelise samblaga kaetud kiwi-pingile. Walged õielehekesed langewad talle näole, õlgule, sülle.</stage>
+                <stage>Rändaja on palju käinud ja on wäsinud. Kirsipuu sahin ja õitelõhn uinutab ta unele. Rändaja kepp kukub lõtwadest kätest maha ja langeb peremehe jalge ette. Näib, nagu ärkaks rändaja seepääle üles, kuid ei! ta liigutas end ainult ja uinub edasi. Huuled aga nagu oleksid sosistanud tasa ja waewalt arusaadawalt:</stage>
+                <stage>"Kurb on mahajäetud maja. Ometi oli siin kord elu, tuksusid inimeste südamed rõõmus ja kurbuses".</stage>
+                <stage>Tunneb rändaja seda maja ja selle endiseid elanikka? Kes teab. Rändaja on wäsinud ja uinub kirsipuu all. Õielehekesed langewad ja kujuwad unenägu.</stage>
+                <stage>Aegapidi läheb näitelawa pimedaks. Kui pikkamisi jälle valgus tekkib, on mahajäetud maja asemel korralik taluhoone. Kirsipuu on jälle täies õilmes ja sätendab loojaminewa päikese kullas. Õielehekesed liuglewad pikkamisi alla,<pb n="8"/> ümbrust ja kiwi-pinki walge korraga kattes. Rändaja on kadunud.</stage>
+                <sp who="#liisa">
+                    <speaker>Punapõseline talutüdruk</speaker>
+                    <stage>kummagi käe otsas pang, tuleb kambrist wälja ja läheb kaewule. Kohe tema järel ilmub läwele PEREMEES, pika kaswuga, umbes wiiekümne aastane mees. Temal on rinnuni ulataw must habe, milles aga juba natuke halli kiude hulgas. Aastate pääle waatamata hoowab tema tüsedast kujust ja punawatelt palgedelt terwis ja peaaegu nooremehelik jõud ja wärskus. Ta on ilma mütsita, westi wäel, säärtega saapad jalas. Mustad, tihedad, ainult meelekohtadelt pisut hallid juuksed on üle pää soetud ja awawad laia, kõrge otsaesise. Ta jääb läwele seisatama, paneb käed püksitasku ja waatab punapõselisele tüdrukule järele. Punapõseline tüdruk wõtab kaewust wett ja tuleb täidetud pangedega tagasi.</stage>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <stage>himulise muigega punapõselise tüdruku pääle waadates:</stage>
+                    <p>Haha!</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Lase läbi!</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Haha!</p>
+                </sp>
+                <pb n="9"/>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Kallan sulle wett kaela.</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <stage>näpistab punapõselist tüdrukut.</stage>
+                    <p>Haha! Haha!</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Lase läbi, kuuled!</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Perenaine on tige, perenaine on kuri.</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Lase läbi. Ei ole aega.</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Haha, perenaisel pole aega.</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Wanamees! Wanamees!</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Haha! Rohkem sarnaseid wanamehi. Kes on wanamees?</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Sina. Lase läbi.</p>
+                </sp>
+                <pb n="10"/>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Mina — wanamees? Mina — wanamees?</p>
+                    <stage>Käratab, jalga põrutades:</stage>
+                    <p>Panged maha!</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <stage>näitab keelt.</stage>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Pa-anged ma-aha! Haha, mis sa, narr, ootad oma pangedega, ega ma sind sisse ei lase.</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Hääküll.</p>
+                    <stage>Paneb panged maha ja seadib käed trotslikult puusa.</stage>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <stage>hakkab punapõselise tüdruku ümbert kinni ja suudleb teda.</stage>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <stage>lahti rabeldes:</stage>
+                    <p>Wanamees!</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <stage>weab punapõselise tüdruku kirsipuu alla pingile.</stage>
+                    <p>Tule-tule-tule siia.</p>
+                </sp>
+                <pb n="11"/>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <stage>pingile istudes:</stage>
+                    <p>Noh, ja nüüd?</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Haha! Mitte midagi.</p>
+                    <stage>Suudleb punapõselist tüdrukut.</stage>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Wanamees, mõtle naise pääle!</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Mis on mul surnutega asja. Mõtlen ainult elawate pääle.</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Mõtle poja pääle.</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>See on poisikene.</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Ohoo, poisikene!</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Tükib ligi?</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>On see sinu asi?</p>
+                </sp>
+                <pb n="12"/>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Poiss tahab peksa.</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Kus peksja!</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Ära lase ligi. Rikud poisi ära.</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Ja sinu?</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Minu! Haha, minu!</p>
+                    <stage>Suudleb punapõselist tüdrukut. PEREPOEG ja SULANE, köiekimbud seljas, astuwad õue.</stage>
+                </sp>
+                <sp who="#jakup">
+                    <speaker>Sulane</speaker>
+                    <stage>perepojale:</stage>
+                    <p>Kanää, mis peremees teeb! Haha!</p>
+                </sp>
+                <stage>Perepoeg jääb pärani silmil seisma. Peremees laseb punapõselise tüdruku lahti ja tõuseb üles. Punapõseline tüdruk wõtab panged ja jookseb kambri.</stage>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <stage>pojale ja sulasele:</stage>
+                    <p>Noh, kas juba kodus?</p>
+                </sp>
+                <sp who="#jakup">
+                    <speaker>Sulane</speaker>
+                    <p>Jah. On aeg kah.</p>
+                </sp>
+                <pb n="13"/>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Aeg. Kui tööle minek, kas siis ka aeg on?</p>
+                </sp>
+                <sp who="#jakup">
+                    <speaker>Sulane</speaker>
+                    <p>Siis on kah aeg.</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <stage>wihaselt:</stage>
+                    <p>No-jah. Läheb kambri.</p>
+                </sp>
+                <sp who="#jakup">
+                    <speaker>Sulane</speaker>
+                    <stage>wiib köie rehealla ja astub peremehele järele. Läwelt perepojale:</stage>
+                    <p>Haha, wanamehel on hing täis, et jaole saime.</p>
+                </sp>
+                <stage>Perepoeg teeb tõrjuwa liigutuse, läheb siis, köiekimp seljas, jõekaldale ja waatab mõttes alla.</stage>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <stage>tuleb wälja ja läheb muigades perepoja poole.</stage>
+                    <p>Sööma, Juhan!</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <stage>ärkab mõtteist ja silmab punapõselist tüdrukut. Tasa, paluwalt:</stage>
+                    <p>Liisa, tule siia!</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Mis sa tahad?</p>
+                </sp>
+                <pb n="14"/>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Tule siia.</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <stage>läheb.</stage>
+                    <p>Noh, mis on?</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <stage>lööb silmad maha, waikib.</stage>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Noh, noh?</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <stage>hakkab nutma.</stage>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Lollikene, mis sa nutad!</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <stage>läbi nutu:</stage>
+                    <p>Sa olid sääl... tähendab pingi poole — isaga... Ma nägin...</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Põpukene, ega ta mul tükki küljest ei wõtnud. Kui tahad, tule täna öösel minu juure. Tule! Tead, mis isa sinust ütles? Sa olla poisikene ja tahtwat peksa.</p>
+                </sp>
+                <pb n="15"/>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <stage>toibub nutust.</stage>
+                    <p>Mispääle ta seda ütles?</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Nii... Tuli jutusse. Ei käskinud sind ligi lasta. Kardab, et su ära rikun.</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Teab ta siis?</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Mitte midagi.</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Mõtlesin, et sina ütlesid. <stage>(Waheaeg.)</stage> Liisa! Mis tahab isa sinust? Mis ta tahab sinust?</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Haha, sedasama mis sinagi.</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Ära kõnele nii, Liisa. Kardan, kui nii kõneled.</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Põpukene!</p>
+                    <stage>Waikus. Perepoeg nuuksub.</stage>
+                    <p>Nüüd hakkad jälle nutma. Oled õrn, nagu toores kanamuna.</p>
+                </sp>
+                <pb n="16"/>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Öösiti, kui kõik magate, käin siin... Kuulen jõe wulinat ja mõtlen sinu pääle. Alati mõtlen sinu pääle, aga sina... Aga sina...</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Kulla laps! Mis peaksin siis weel tegema? Wõi olen sulle midagi keelnud?</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Sa olid isaga sääl.</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>See siis! Ega siis seepärast — Jumal paraku — ega siis midagi ei olnud. Kuida sa nii rumal oled, põpukene!</p>
+                    <stage>Silitab perepoja pääd.</stage>
+                    <p>Põpukene, ära nuta! Ära nuta!</p>
+                    <stage>Waikus.</stage>
+                    <p>Tuled öösel, jah?</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Ei.</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Ei? Kuida arwad.</p>
+                    <stage>Tahab kambri minna.</stage>
+                </sp>
+                <pb n="17"/>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Ära mine.</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Mis siis weel?</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Ütle, Liisa — ei, wannu mulle kõige juures, mis sulle püha, et sa ainult mind armastad.</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Põpukene, keda peaksin pääle sinu weel armastama.</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Ma tulen.</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Hääküll.</p>
+                    <stage>Läwele ilmub PEREMEES ja waatab ringi.</stage>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <stage>hõikab:</stage>
+                    <p>Sööma, poiss! Mis sa ootad!</p>
+                    <stage>Punapõseline tüdruk läheb ruttu kirsipuu warju.</stage>
+                    <p>Juhan!</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Ei taha süüa.</p>
+                </sp>
+                <pb n="18"/>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Siis kasi magama, et hommikul tööle saaksid.</p>
+                    <stage>Läheb pikkamisi poja juure. Liisa wilksatab kirsipuu warjust kambri.</stage>
+                    <p>Poiss!</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Mis sa tahad?</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Pööra nägu siiapoole.</p>
+                    <stage>Perepoeg ei pööra.</stage>
+                    <p>Waata siia, ütlen sulle.</p>
+                    <stage>Pöörab poja näo wägisi enese poole.</stage>
+                    <p>Kas sa ei kuule, mis sulle öeldakse? Sina!</p>
+                    <p>W%aatab pojale silmi.</p>
+                    <p>Nojah, töinata sa mõistad. Mis sul wiga on?</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Ei midagi.</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Ütle, mis sul wiga on?</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <stage>pääle waikuse:</stage>
+                    <p>Isa!</p>
+                </sp>
+                <pb n="19"/>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Noh, noh?</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Nägin, kuida sa...</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Mis sa nägid? Mis sa nägid? Sa ei näinud midagi. Kasi magama. <stage>(Tahab kambri minna, aga pöörab ümber).</stage> Tahad mulle etteheiteid teha? See komme harjuta endast igaweseks ajaks, wõi muidu... Pane tähele!</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Isa!</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Lõuad!</p>
+                    <stage>Läheb kambri. Perepoeg waatab talle wäljasirutatud kätel järele. Aegapidi on pimedamaks läinud. Widewik.</stage>
+                </sp>
+                <sp who="#jakup">
+                    <speaker>Sulane</speaker>
+                    <stage>kambrist õue tulles:</stage>
+                    <p>Haha, wanamees on wihane.</p>
+                    <stage>Paneb piibu põlema ja istub kirsipuu alla pingile.</stage>
+                    <p>Ja-ja, nii on see ilma elu.</p>
+                    <stage>Waatab ringi, silmab perepoega ja hõikab:</stage>
+                    <p>Juhan!</p>
+                </sp>
+                <pb n="20"/>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <stage>keda pimedas enam õieti näha ei ole.</stage>
+                    <p>Mis?</p>
+                </sp>
+                <sp who="#jakup">
+                    <speaker>Sulane</speaker>
+                    <p>Tule siia.</p>
+                    <stage>Perepoeg tuleb.</stage>
+                    <p>Mispärast sa sööma ei tulnud?</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Ah tühja.</p>
+                </sp>
+                <sp who="#jakup">
+                    <speaker>Sulane</speaker>
+                    <p>Mis wiga?</p>
+                    <stage>Waikus.</stage>
+                    <p>Ära ole rumal, Juhan. Tule, istu siia; ütlen sulle midagi.</p>
+                    <stage>Perepoeg istub.</stage>
+                    <p>Ilmas on rohkem tüdrukuid kui üks. Sina wahid ühte. Wahi teisi kah.</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <stage>kohkunult:</stage>
+                    <p>Mis, mis? Sa tead siis?</p>
+                </sp>
+                <sp who="#jakup">
+                    <speaker>Sulane</speaker>
+                    <p>Miks ei tea.</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Kes ütles sulle?</p>
+                </sp>
+                <pb n="21"/>
+                <sp who="#jakup">
+                    <speaker>Sulane</speaker>
+                    <p>Haha, ma ise näen.</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Lubasid mulle midagi öelda.</p>
+                </sp>
+                <sp who="#jakup">
+                    <speaker>Sulane</speaker>
+                    <p>Mitte muud midagi. Wahi teisi tüdrukuid kah pääle Liisa. Pärast hakkab mõni teine weel rohkem meeldima.</p>
+                    <stage>Waikus. PUNAPÕSELINE TÜDRUK tuleb kambrist wälja ja läheb rehealla magama.</stage>
+                </sp>
+                <sp who="#jakup">
+                    <speaker>Sulane</speaker>
+                    <stage>hõikab Liisale:</stage>
+                    <p>Hääd ööd, peremamsel!</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Katsu, ei magama saad!</p>
+                </sp>
+                <stage>Waikus. Ainult krappide ja kuljuste tasane kõrin ja waewalt kuulduw koerte haukumine kaugemal segab suweöö rahu. Jõgi jutustab tasa. Kusagil wilistatakse lauluwiisi, mis, ikka kaugemalt kostes, pikkamisi hoopis kaob. Kirsipuu all istuwad meestekogud ärbuwad pimedusega ühte sulada. Sulase piip hõõgub. Aga keegi, kes suur ja salapärane, astub pikkade, raskete sammudega üle maa, nagu oleks ta otsuseks teinud hommikuks kogu maailma läbi käia ja waadata, keda üleöö jätta, keda mitte.</stage>
+                <pb n="22"/>
+                <sp who="#jakup">
+                    <speaker>Sulane</speaker>
+                    <p>Ja-jah, nii on see ilma elu.</p>
+                    <stage>Waikus. Perepoeg nuuksub.</stage>
+                    <p>Haha! Mis sa nutad, rumal.</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Ära ütle nii. Kuuled, ära ütle nii.</p>
+                </sp>
+                <sp who="#jakup">
+                    <speaker>Sulane</speaker>
+                    <p>Kuida?</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Naerate. Kõik naerate. Ei kuule siin muud kui neetud sõna "haha". Oleks keegi olema, kes... kellele wõiksid...</p>
+                </sp>
+                <sp who="#jakup">
+                    <speaker>Sulane</speaker>
+                    <stage>pääle waikuse:</stage>
+                    <p>Juhan. Sa näed naist esimest korda... kui naist. Peaksid neid rohkem nägema.</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Tead sina, kes sa rohkem oled näinud, mis on armastus?</p>
+                </sp>
+                <sp who="#jakup">
+                    <speaker>Sulane</speaker>
+                    <p>Haha!</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Olete siin kõik tuimad nagu pakud.</p>
+                    <stage>Waikus.</stage>
+                </sp>
+                <pb n="23"/>
+                <sp who="#jakup">
+                    <speaker>Sulane</speaker>
+                    <p>Ja-jah, nii on see ilma elu. Ei saa inimene enne targaks, kui...</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Millal?</p>
+                </sp>
+                <sp who="#jakup">
+                    <speaker>Sulane</speaker>
+                    <p>Kui ta ise kõik ära näeb.</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Oled sina tark?</p>
+                </sp>
+                <sp who="#jakup">
+                    <speaker>Sulane</speaker>
+                    <p>Minust ei olnud juttu. Aga ikka olen.</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Sinu tarkus on "haha's"?</p>
+                </sp>
+                <sp who="#jakup">
+                    <speaker>Sulane</speaker>
+                    <p>Selles ongi tarkus.</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Siis olete siin kõik targad?</p>
+                </sp>
+                <sp who="#jakup">
+                    <speaker>Sulane</speaker>
+                    <p>Kuida keegi on.</p>
+                    <stage>Waikus. Koputab piibu saabast wastu tühjaks. Haigutab.</stage>
+                    <p>Lähme magama, Juhan. Õhtu ja öö on halb aeg kurbade mõtete jaoks. Õhtul näiwad õnn ja õnnetus alati suuremad kui hommikul. Tule!</p>
+                </sp>
+                <pb n="24"/>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Jah... Ei... Mine, ma tulen kohe järele.</p>
+                </sp>
+                <sp who="#jakup">
+                    <speaker>Sulane</speaker>
+                    <stage>läheb pikkamisi aida poole.</stage>
+                    <p>Ja-jah, nii on see ilma elu.</p>
+                    <stage>Läheb aita. Esiti kuulda, kuida ta aset seades tasa pomiseb, siis waikus. Perepoeg istub mõttes. PEREMEES tuleb kambrist wälja ja läheb pikkamisi kirsipuu alla. Kõik uksed, kust käiakse, kägisewad, kiunuwad ja teewad imelikka hääli, mida päewal keegi tähele ei pane. Aga öösel armastawad ka eluta asjad kõnelda.</stage>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <stage>perepojale:</stage>
+                    <p>Sa oled ikka weel siin.</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Jah, isa.</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Mispärast ei lähe sa magama?</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Ei taha.</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Süüa ja magada ei taha. Nii wõid rikkaks saada.</p>
+                </sp>
+                <pb n="25"/>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Isa! Tahtsin sinuga kõnelda.</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Homme, homme. Nüüd ei ole aega kõnelemiseks. Nüüd mine magama.</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Ainult paar sõna, isa. Tead küll, et päewal aega ei ole.</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Mis sa tahad?</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Isa! Ära saa kurjaks, kui...</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Ruttu, ruttu, ilma eeskõneta.</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Ei... Ma ei tea... Isa, ma armastan Liisat, luba, et ta naiseks wõtan.</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Haha!</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Armastan, ja ei saa ilma temata elada.</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Haha!</p>
+                </sp>
+                <pb n="26"/>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Sa naerad, isa?</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Kasi magama!</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Sa ei luba?</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Kasi magama!</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Sa lähed ära, isa?</p>
+                </sp>
+                <stage>Peremees läheb kambri ja tõmbab ukse enese järel waljusti kinni. Perepoeg jääb kirsipuu alla pingile üksi. Mõninga aja järele tõuseb ta üles, läheb kikiwarbil rehealuse wärawa juure ja koputab. Kui keegi ei wasta, teeb ta ukse lahti ja astub rehealla. Mõni silmapilk on waikus, siis kostab rehealt tume ehmatuse hüüe, perepoeg jookseb aida juure ja hõikab walju häälega:
+                    Jakup! Jakup!</stage>
+                <sp who="#jakup">
+                    <speaker>Sulane</speaker>
+                    <stage>aidaesikust:</stage>
+                    <p>Mis on?</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Waras oli rehe all.</p>
+                </sp>
+                <sp who="#jakup">
+                    <speaker>Sulane</speaker>
+                    <p>Haha!</p>
+                </sp>
+                <pb n="27"/>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Mis sa naerad?</p>
+                </sp>
+                <sp who="#jakup">
+                    <speaker>Sulane</speaker>
+                    <p>Nii arwasin minagi eila, et waras. Aga ei ole.</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Kes siis?</p>
+                </sp>
+                <sp who="#jakup">
+                    <speaker>Sulane</speaker>
+                    <p>Kambrist käib uks läbi koja rehealla. Säält tuleb...</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Kuida? Kuida? Kes? Isa?</p>
+                </sp>
+                <sp who="#jakup">
+                    <speaker>Sulane</speaker>
+                    <p>Tasa! Mis sa karjud. Tule magama.</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Ei! Ei! Oh, saan aru, saan aru, see oli isa.</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <stage>jookseb rehealt wälja.</stage>
+                    <p>Mis sa pöörane karjud!</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Mine ära! Mine ära!</p>
+                </sp>
+                <sp who="#liisa">
+                    <speaker>Punapõseline tüdruk</speaker>
+                    <p>Ole wait, lase ma kõnelen.</p>
+                </sp>
+                <pb n="28"/>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Mine ära!</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <stage>kambri läwelt:</stage>
+                    <p>Mis kisa siin on? Magama kõik!</p>
+                </sp>
+                <stage>Punapõseline tüdruk jookseb rehealla. Peremees läheb perepoja juure.</stage>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Kui sa silmapilk rahule ei jää ja magama ei lähe, siis wiin su jõkke. Ära uputan su.</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>See olid sina. See olid sina. Tean nüüd kõik.</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <stage>wihast pöörane, kähisewalt:</stage>
+                    <p>Wait!</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>See olid sina. See olid sina.</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Neetud poisijõmpsikas!</p>
+                    <stage>Wõtab perepoja kätest kinni ja weab teda jõe kaldale.</stage>
+                </sp>
+                <pb n="29"/>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <stage>rabeleb surma hirmus wastu.</stage>
+                    <p>Ära wii! Ära wii! Ära wii mind jõkke, isa. Kuulan sõna ja ei karju enam. Ära wii! Ära wii!</p>
+                </sp>
+                <stage>Silmapilkne waikus. Teisel jõekaldal hulub näljane, hulkuja koer, pikalt ja haledalt, nagu kaebaks ta enda üksilduse üle ja tuletaks aegu meele, kus teda kutsikana lapsed hellitasid.</stage>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Kuuled!</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Kardan, kardan! Ära pigista nii kõwasti.</p>
+                </sp>
+                <sp who="#peremees">
+                    <speaker>Peremees</speaker>
+                    <p>Sa lähed magama?</p>
+                </sp>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <stage>lõdisedes:</stage>
+                    <p>Jah, ma lähen magama.</p>
+                </sp>
+                <stage>Peremees laseb perepoja lahti, ootab kuni perepoeg aidaesikusse ronib, ja läheb siis kambri. Läwel, enese ette: "Haha!" Aida esikust on kuulda, kuida sulane perepojale ütleb: "Haha, kuida sa nii rumal oled!" Pääle selle on weel natuke tumedat kõnekõminat, siis walitseb ümberringi waikus. Koer jookseb kaugemale, waewalt kuulduw hulumine waikib pikkamisi hoopis. Ainult jõgi jutustab...</stage>
+                <pb n="30"/>
+                <stage>Sinakas-walge wina tekkib. Kirsipuu, ait ja hoone hakkawad hämarusest joon-joonelt selguma. Kostawad ärkawate lindude esimesed hääled. Hommikutaewas punetab. Esimesed kiired kuldawad kirsipuu latwa. Õielehekesed langewad ja langewad, nagu pisarad nutja silmist, kes kaotatud õnne taga leinab. Aga keegi, kes suur ja salapärane, on oma öösiselt teekonnalt tagasi jõudnud ja on nägematult siin kusagil lähedal. Nii peatab ta igalpool, kus ta kadumiseks kedagi ära tähendanud. Perepoeg tuleb aidaesikust wälja ja waatab kuulatades ringi.</stage>
+                <sp who="#juhan">
+                    <speaker>Perepoeg</speaker>
+                    <p>Mis? Haha? Karjub siis kogu ilm "haha"?</p>
+                    <stage>Tahab kambri poole minna, aga põrkab tagasi.</stage>
+                    <p>Mis? Haha?</p>
+                    <stage>Tahab rehealla minna.</stage>
+                    <p>Siin kah!</p>
+                    <stage>Tahab aida juure tagasi pöörda!</stage>
+                    <p>Siit kah? Haha! Haha!</p>
+                    <stage>Langeb metsikus hirmus kummuli maha ja katab kõrwad kätega kinni. See, kes suur ja salapärane, kellel tuhat kõri, kumardab lamaja üle, puudutab teda oma nägematu käega ja karjub üdisse tungiwa häälega: "Haha! Haha! Haha!" Perepoeg tõstab pää argselt üles, aga sääl kajab igast ilmakaarest, puudelt, lehtedelt,<pb n="31"/> õielehekestelt: "Haha! Haha!" Perepoeg roomab jõe kaldale ja waatab järsult serwalt alla woolawasse wette.</stage>
+                    <p>Säält üksi ei kosta seda hirmsat sõna. Mis? Sina oled sääl, ema? Sina oled sääl, ema? Kutsud mind...</p>
+                    <stage>Ajab enese aeglaselt püsti ja waatab kambri poole. Pöörab aga kohe jõe poole tagasi, nagu näeks ta õues midagi hirmsat. Waatab wäljasirutatud kätel woogudesse ja heidab enese järsult kaldalt alla. Kirsi õielehekesed aga langewad ja langewad, nagu kellegi pisarad, kes kaotatud õnne taga leinab.</stage>
+                </sp>
+                <stage>Näitelawa läheb aegapidi pimedaks. Kui pikkamisi walgus tekkib, on waatajate ees jälle mahajäetud maja. Rändaja uinub kirsipuu all. Tuuline, päiksepaistine ilm. Kirsi õielehekesed lendlewad õhus ja langewad rändaja õlgule ja sülle. Rändaja ärkab ja waatab wõõrastades enese ümber. Wõtab siis oma kepi maast, silmitseb mahajäetud maja, nagu tuletaks ta midagi meele, ja ütleb, pääd raputades:</stage>
+                <stage>"Ja, ja, kurb on mahajäetud maja. Ometi oli siin kord elu, tuksusid inimeste südamed rõõmus ja kurbuses".</stage>
+                <stage>Lõpp.</stage>
+            </div>
+        </body>
+    </text>
+</TEI>
