@@ -588,7 +588,7 @@
                     <head>Seitsmes etteaste.</head>
                     <stage>Endised. Prl. Jurkatam.</stage>
                     <stage>(Wiimane tuleb wälimise ukse kaudu sisse. Tal on kübar pääs ja päewawari käes, millega ta õhus alalõpmata ümber wiibutab.)</stage>
-                    <sp who="#pr-jurkatam">
+                    <sp who="#prl-jurkatam">
                         <speaker>PRL. JURKATAM.</speaker>
                         <p>Oi sina looja! Oi sina looja küll! Ah!</p>
                     </sp>
@@ -596,7 +596,7 @@
                         <speaker>PR. ÄRAK.</speaker>
                         <p>Nonoh, mis on?</p>
                     </sp>
-                    <sp who="#pr-jurkatam">
+                    <sp who="#prl-jurkatam">
                         <speaker>PRL. JURKATAM.</speaker>
                         <p>Ah, ma ütlen, niisugust koosolekut põle küll Paunweres weel enne nähtud, ega saa kah kunagi enam näha. S'ma ütlen't... Päris kole oli!</p>
                     </sp>
@@ -604,7 +604,7 @@
                         <speaker>LYDIA.</speaker>
                         <p>Räägi, Wiktoria.</p>
                     </sp>
-                    <sp who="#pr-jurkatam">
+                    <sp who="#prl-jurkatam">
                         <speaker>PRL. JURKATAM.</speaker>
                         <p>Oh sa Jumal!... <stage>(Tal on kilkaw-winguw hääl ja selle juures räägib ta weel pisut läbi nina.)</stage> Ma ütlen, Liidi, mul on niipalju rääkida, et ma ei tea, kust otsast ma peale pean hakkama. <stage>(Ta läheb Lydiale lähemale ja wehkleb päewawarjuga.)</stage></p>
                     </sp>
@@ -612,7 +612,7 @@
                         <speaker>PR. ÄRAK.</speaker>
                         <p>Hakka ühest kohast peale — ja hea küll.</p>
                     </sp>
-                    <sp who="#pr-jurkatam">
+                    <sp who="#prl-jurkatam">
                         <speaker>PRL. JURKATAM.</speaker>
                         <p>Ai sa Jumal, küll seal tõmmati! Küll seal pilgati ja naerdi ja wannuti! Ma ütlen, mu kõrwad aawad praegu weel pilli. Siis weel Wanaabe sunnik — ma ütlen, on see<pb n="15"/> kah küll üks lõuamees — jah sunnik, ütleb Reenusele kohe suu sisse, kõige rahwa kuuldes, et: "Sina põle muud kui kõrtsimehe sabarakk!"</p>
                     </sp>
@@ -620,7 +620,7 @@
                         <speaker>PR. ÄRAK.</speaker>
                         <p>Noh, ja siis?</p>
                     </sp>
-                    <sp who="#pr-jurkatam">
+                    <sp who="#prl-jurkatam">
                         <speaker>PRL. JURKATAM.</speaker>
                         <p>Aga see Reenus! Ise just kui läbi seina tõmmatud, justku kilu teine, omal nägu tedretähti täis — aga suuwärk! Ütleb Wanaabele wastu: Sina aga põle muud kui Äraku wanamoori körtsiku-sabarakk! <stage>(Wihane hüüd pr. Äraku poolt).</stage> Oh sa looja! Aga, näe, midagi ei aitanud! Siis pidas härra Ärak kõne ja teised kah — ja siis oli härra Äraku wõit!</p>
                     </sp>
@@ -632,7 +632,7 @@
                         <speaker>LYDIA.</speaker>
                         <p>Wõta kübar ära, Wiktoria, sa jääd ju siia.</p>
                     </sp>
-                    <sp who="#pr-jurkatam">
+                    <sp who="#prl-jurkatam">
                         <speaker>PRL. JURKATAM.</speaker>
                         <p>Jah, ma ikka jään... <stage>(Wõtab kübara ära ja paneb selle ühes päewawarjuga klaweri pääle.)</stage> Ah! Ah! Ei! Mis seal küll tehti! Mis seal küll tehti!</p>
                     </sp>
@@ -641,7 +641,7 @@
                         <speaker>PR. ÄRAK.</speaker>
                         <p>Noh, mis see s' on?</p>
                     </sp>
-                    <sp who="#pr-jurkatam">
+                    <sp who="#prl-jurkatam">
                         <speaker>PRL. JURKATAM</speaker>
                         <stage>(ruttu akna juurde).</stage>
                         <p>Reenuse mehed lähwad! Näe, justku Egiptuse kiiliparw! Ja kõik kõrtsi. Nää, Reenus ise kah! Longib, nagu tappa saanud koer. Nüüd hakatakse wist seda kahju liiku jooma. Noo-jah!</p>
@@ -671,7 +671,7 @@
                         <speaker>PR. ÄRAK.</speaker>
                         <p>Üks kõik. Aga ruttu, ruttu! <stage>(Läheb, "Liisa, Liisa!" hüüdes kööki.)</stage></p>
                     </sp>
-                    <sp who="#pr-jurkatam">
+                    <sp who="#prl-jurkatam">
                         <speaker>PRL. JURKATAM</speaker>
                         <stage>(muigades).</stage>
                         <p>Jaja... Hm... Mõistan juba, et sa siin paremini toime saad. <stage>(Tähendab pilguga Rähni pääle, kes seda märkab ja köhatab. Ära. Tema järel Freiberg.)</stage></p>
@@ -854,7 +854,7 @@
                 <div type="scene">
                     <head>Neljasteistkümnes etteaste.</head>
                     <stage>Endised. Prl. Jurkatam.</stage>
-                    <sp who="#pr-jurkatam">
+                    <sp who="#prl-jurkatam">
                         <speaker>PRL. JURKATAM</speaker>
                         <stage>(ruttu sisse).</stage>
                         <p>Tulewad, tulewad! Steinberg ja Saawelid ja Wanaabe ja Rõõmusoks ja Songi oma naesega. Mõtle Songit, kurjawaimu, käib nüüd nagu mõni piiskopp, kõht punnakile ees: tooradi-taaradi, jalad arkis... Mõtlesin, et annan kurjawaimule wasta seda suurt kõhtu ühe wõmmu, aga olgu peale... Meie mees, las' olla peale.</p>
@@ -863,7 +863,7 @@
                         <speaker>LYDIA.</speaker>
                         <p>Mis sa ta'st oleks löönud?</p>
                     </sp>
-                    <sp who="#pr-jurkatam">
+                    <sp who="#prl-jurkatam">
                         <speaker>PRL. JURKATAM.</speaker>
                         <p>Mis ta s' lõhwerdab! Minule ikke, et: millas Te mehele lähete? Millas Te mehele lähete! Mis temal asja!</p>
                     </sp>
@@ -883,7 +883,7 @@
                         <stage>(tuleb köögist).</stage>
                         <p>Ei tia, mes klaperjahti see täämba jälle hakatasse pidama, kõiksugu keesid ja moosid tuuasse kokku.</p>
                     </sp>
-                    <sp who="#pr-jurkatam">
+                    <sp who="#prl-jurkatam">
                         <speaker>PRL. JURKATAM.</speaker>
                         <p>Kas sa hukane oled, Liisa, täna on ju suur rõõmupüha! Papi waliti pritsiseltsis esimeheks.</p>
                     </sp>
@@ -987,7 +987,7 @@
                         <speaker>SONGI.</speaker>
                         <p>Küll Reenusel, kuradil, wõib nüüd süda sees kipitada.</p>
                     </sp>
-                    <sp who="#pr._songi">
+                    <sp who="#pr-songi">
                         <speaker>PR. SONGI.</speaker>
                         <p>Fui, Artur!</p>
                     </sp>
@@ -1000,7 +1000,7 @@
                         <speaker>SONGI.</speaker>
                         <p>Aga teeb siis weel ise nii rahulise näo ette, nagu põleks midagi oln'd ja ütleb, et: lähme jooma! No ma ütlesin siis kah, et: mine õige —</p>
                     </sp>
-                    <sp who="#pr._songi">
+                    <sp who="#pr-songi">
                         <speaker>PR. SONGI.</speaker>
                         <p>Fui, Artur!</p>
                     </sp>
@@ -1061,7 +1061,7 @@
                         <speaker>SONGI.</speaker>
                         <p>Mis Te naesterahwa südant küsite! Naesterahwa südamel on tuhat seitsesada seitsekümmend seitse soppi ja igas sopis tuhat seitsesada seitsekümmend seitse saladust.</p>
                     </sp>
-                    <sp who="#pr._songi">
+                    <sp who="#pr-songi">
                         <speaker>PR. SONGI.</speaker>
                         <p>Fui, Artur!</p>
                     </sp>
@@ -1141,11 +1141,11 @@
                         <speaker>SONGI.</speaker>
                         <p>Üles jah! Mis s' niiwiisi närutada: kõrtsi rehes ja lakas ja... ei tea kus ulu all. Murra wõi jalad ära! Teeme oma maja, siis kaswata kas wõi tiritamme seal sehes, põle kellegil, kurat, midagi ütlemist.</p>
                     </sp>
-                    <sp who="#pr._songi">
+                    <sp who="#pr-songi">
                         <speaker>PR. SONGI.</speaker>
                         <p>Fui, Artur! Sa oled täna päris käest ära.</p>
                     </sp>
-                    <sp who="#pr-jurkatam">
+                    <sp who="#prl-jurkatam">
                         <speaker>PRL. JURKATAM.</speaker>
                         <p>Ah kui tore! Mõtle, meie saame uue seltsimaja! Kui tore, kui tore! Küll me siis tantsime!</p>
                     </sp>
@@ -1230,7 +1230,7 @@
                         <speaker>FREIBERG.</speaker>
                         <p>Ja, et siss homm Ärak ja tema kompanii mokan, nii ta ütel. Ja siss nägi mint kasak — tema hiks homm Reenusele palju raha wölgu — ja ütel, et: kai kus kurat, nuusker homm wäljan, anname hiks no kuratile! Siss tulli Reenus manu ja lei. Ma panni küll juusma, aga na tulliwa järgi ja lubasiwa keik see maija palama panda ja akna lubasiwa sisse pessta. Reenus ise hiks karjs: "Ma osta wiis korwi ölunt, teihke aga hiks no üits puhas tüü!"</p>
                     </sp>
-                    <sp who="#pr-jurkatam">
+                    <sp who="#prl-jurkatam">
                         <speaker>PRL. JURKATAM.</speaker>
                         <p>Oi, jeerumikene!</p>
                     </sp>
@@ -1302,7 +1302,7 @@
                         <speaker>SONGI.</speaker>
                         <p>Kae raibet, sellepärast oli tal suu kui kinni külmanu!</p>
                     </sp>
-                    <sp who="#pr._songi">
+                    <sp who="#pr-songi">
                         <speaker>PR. SONGI.</speaker>
                         <p>Fui, Artur!</p>
                     </sp>
@@ -1364,7 +1364,7 @@
                         <speaker>PR. ÄRAK.</speaker>
                         <p>Kustutage tuli ära! Kustutage tuli ära! Hoidke akende eest eemale! <stage>(Seda tehtakse. Walitseb pilkane pimedus. Wäljas wältab kära edasi. Kiwa lendab tuppa.)</stage></p>
                     </sp>
-                    <sp who="#pr-jurkatam">
+                    <sp who="#prl-jurkatam">
                         <speaker>PRL. JURKATAM.</speaker>
                         <p>Oh sa Jeesukene! Oh sa Issand, mis nüüd küll saab! <stage>(Karjub.)</stage> Ai! Ai! Ai! Ma suren! Ma suren! Päästke mind, Steinberg!</p>
                     </sp>
@@ -1372,7 +1372,7 @@
                         <speaker>STEINBERG.</speaker>
                         <p>Julgust, julgust, lapsed! Ärge kartke! Steinberg on weel siin!</p>
                     </sp>
-                    <sp who="#pr._songi">
+                    <sp who="#pr-songi">
                         <speaker>PR. SONGI.</speaker>
                         <p>Artur! Artur! Pai Artur, kus sa oled?</p>
                     </sp>
@@ -1415,7 +1415,7 @@
                         <speaker>SONGI.</speaker>
                         <p>Ära läksiwad kuradid!</p>
                     </sp>
-                    <sp who="#pr._songi">
+                    <sp who="#pr-songi">
                         <speaker>PR. SONGI.</speaker>
                         <p>Fui, Artur!</p>
                     </sp>
@@ -2390,7 +2390,7 @@
                         <l>Trilladi-trilladi pommpommpomm!</l>
                         <p><stage>(Naerdakse ja lärmitsetakse kõik aeg.)</stage> Mis pagana asi see on, et keegi ühes ei laula?</p>
                     </sp>
-                    <sp who="#pr-jurkatam">
+                    <sp who="#prl-jurkatam">
                         <speaker>PRL. JURKATAM.</speaker>
                         <p>Oi ma suren! Ma suren! Ai, ai, missugune nali! Missugune nali!</p>
                     </sp>
@@ -2470,7 +2470,7 @@
                         <p>Hurraa, koolipapa keskele!</p>
                     </sp>
                     <stage>(Rähn tõmmatakse keskele.)</stage>
-                    <sp who="#pr-jurkatam">
+                    <sp who="#prl-jurkatam">
                         <speaker>PRL. JURKATAM</speaker>
                         <stage>(hakkab laulma).</stage>
                         <l>Üks Rähn, see otsib pruuti.</l>
@@ -2651,7 +2651,7 @@
                 <div type="scene">
                     <head>Neljas etteaste.</head>
                     <stage>Endised. Prl. Jurkatam.</stage>
-                    <sp who="#pr-jurkatam">
+                    <sp who="#prl-jurkatam">
                         <speaker>PRL. JURKATAM</speaker>
                         <stage>(ruttu sisse).</stage>
                         <p>Tere, ah siin olete, härra Steinberg, ma otsin Teid terwe tänase õndsa päewa taga, et: kus ta on ometi? Aga, Äraku tante, kas teate kõige uuemat uudist: täna on koolitoa juurde jälle koosolek salaja kokku aetud ja Rähn on Reenusega kokku leppinud.</p>
@@ -2665,7 +2665,7 @@
                         <speaker>STEINBERG.</speaker>
                         <p>No see on juba —!</p>
                     </sp>
-                    <sp who="#pr-jurkatam">
+                    <sp who="#prl-jurkatam">
                         <speaker>PRL. JURKATAM.</speaker>
                         <p>Jumala õige, Jumala õige, ma wõin wanduda selle peale! Ma ehmatasin isegi ära ja jooksin kohe siia ütlema, et mis nüüd küll ometi saab? Mis nüüd küll saab? Sa Jumal, süda teeb weel praegu wupa-wupa.</p>
                     </sp>
@@ -2673,7 +2673,7 @@
                         <speaker>PR. ÄRAK.</speaker>
                         <p>Siis minge, isand Steinberg, jalamaid koolimaja juurde ja kutsuge Reenus siia, läbirääkimisele.</p>
                     </sp>
-                    <sp who="#pr-jurkatam">
+                    <sp who="#prl-jurkatam">
                         <speaker>PRL. JURKATAM.</speaker>
                         <p>Mis, Reenus? Rähn ikka!</p>
                     </sp>
@@ -2685,7 +2685,7 @@
                         <speaker>STEINBERG.</speaker>
                         <p>Jah, proua Ärak, seda peame tegema. <stage>(Tahab minna.)</stage></p>
                     </sp>
-                    <sp who="#pr-jurkatam">
+                    <sp who="#prl-jurkatam">
                         <speaker>PRL. JURKATAM.</speaker>
                         <p>Ma tulen kaasa, härra Steinberg! Ma tulen kaasa! <stage>(Prl. Jurkatam ja Steinberg wälimise ukse kaudu ära.)</stage></p>
                     </sp>
@@ -3494,7 +3494,7 @@
                         <stage>(juba ukse päält).</stage>
                         <p>Mõtelge ometi, Reenuse kuradit ei ole koolimaja juures! <stage>(Silmab Reenust.)</stage> Aa!</p>
                     </sp>
-                    <sp who="#pr-jurkatam">
+                    <sp who="#prl-jurkatam">
                         <speaker>PRL. JURKATAM.</speaker>
                         <p>Jah, mõtelge ometi, kus ta sunniku nahk — <stage>(Silmab Reenust.)</stage> Ah! Mis see siis on?</p>
                     </sp>
@@ -3518,7 +3518,7 @@
                         <speaker>KÕIK.</speaker>
                         <p>Oo! <stage>(Õnnesoowid.)</stage></p>
                     </sp>
-                    <sp who="#pr-jurkatam">
+                    <sp who="#prl-jurkatam">
                         <speaker>PRL. JURKATAM.</speaker>
                         <p>Mis? Steinberg, Teie olete kihlatud? <stage>(Kihwtiselt.)</stage> Nooh, soowin siis õnne, seda enam, et Teil otsimisega nii palju waewa oli.</p>
                     </sp>
@@ -3570,7 +3570,7 @@
                         <stage>(lööb pakutawa klaasi puruks, Rähnile:)</stage>
                         <p>Ei tule? Ei tule? — Äraandja! Naeste sabarakk! Siis lähen mina üksi tagasi ja asutan karskuse seltsi.</p>
                     </sp>
-                    <sp who="#pr-jurkatam">
+                    <sp who="#prl-jurkatam">
                         <speaker>PRL. JURKATAM.</speaker>
                         <p>Jah, Paul, seda me teeme! Mina olen kohe üks liige. <stage>(Wõtab P. Saaweli kuue sabast kinni. Mõlemad ruttu ära.)</stage></p>
                     </sp>
