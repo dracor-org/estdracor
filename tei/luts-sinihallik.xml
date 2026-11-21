@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="est000040" xml:lang="et" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sinihallik</title>
+                <title type="sub">Muinasjutt 1 vaatuses</title>
+                <author>
+                    <persName>
+                        <forename>Oskar</forename>
+                        <surname>Luts</surname>
+                    </persName>
+                    <idno type="wikidata">Q2005705</idno>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <ref target="http://www.digar.ee/id/nlib-digar:436031">DIGAR Digital Archive</ref>
+                    <availability>
+                        <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                    </availability>
+                </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>Oskar</forename>
+                            <surname>Luts</surname>
+                            <idno type="wikidata">Q2005705</idno>
+                        </persName>
+                    </author>
+                    <title type="main">Sinihallik</title>
+                    <title type="sub">Muinasjutt 1 vaatuses</title>
+                    <date when="1919">1919</date>
+                    <publisher>Noor-Eesti kirjastus</publisher>
+                    <pubPlace>Tartu</pubPlace>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1919">
+                        <desc/>
+                    </event>
+                </listEvent>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="maeeelanik-1" sex="MALE">
+                        <persName>I. mäeelanik</persName>
+                    </person>
+                    <person xml:id="sinihallik" sex="FEMALE">
+                        <persName>Sinihallik</persName>
+                    </person>
+                    <personGrp xml:id="maeeelanikud" sex="UNKNOWN">
+                        <persName>Mäeelanikud</persName>
+                    </personGrp>
+                    <personGrp xml:id="mehed" sex="MALE">
+                        <persName>Mehed</persName>
+                    </personGrp>
+                    <person xml:id="vanem" sex="MALE">
+                        <persName>Vanem</persName>
+                    </person>
+                    <person xml:id="noorem-poeg" sex="MALE">
+                        <persName>Noorem poeg</persName>
+                    </person>
+                    <person xml:id="maeeelanik-2" sex="UNKNOWN">
+                        <persName>II. mäeelanik</persName>
+                    </person>
+                    <person xml:id="vanem-poeg" sex="MALE">
+                        <persName>Vanem poeg</persName>
+                    </person>
+                    <personGrp xml:id="lapsed" sex="UNKNOWN">
+                        <persName>Lapsed</persName>
+                    </personGrp>
+                    <listRelation>
+                        <relation name="parent_of" active="#vanem" passive="#vanem-poeg #noorem-poeg"/>
+                        <relation name="siblings" mutual="#vanem-poeg #noorem-poeg"/>
+                    </listRelation>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-11-21">Convert txt to TEI</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <pb n="3"/>
+        <front>
+            <titlePage>
+                <docAuthor>O. LUTS</docAuthor>
+                <docTitle>
+                    <titlePart type="main">SINIHALLIK</titlePart>
+                    <titlePart type="sub">MUINASJUTT 1 VAATUSES</titlePart>
+                </docTitle>
+                <docImprint>
+                    <publisher>NOOR-EESTI KIRJASTUS, </publisher>
+                    <pubPlace>TARTUS </pubPlace>
+                    <docDate>1919</docDate>
+                </docImprint>
+            </titlePage>
+            <pb n="4"/>
+            <pb n="5"/>
+            <castList>
+                <head>Tegelased:</head>
+                <castItem>
+                    <role>Vanem.</role>
+                </castItem>
+                <castItem>
+                    <role>Tema kaks poega.</role>
+                </castItem>
+                <castItem>
+                    <role>Mägede neiu.</role>
+                </castItem>
+                <castItem>
+                    <role>Mägede elanikud </role>
+                    <roleDesc>(mehed, naised ja lapsed).</roleDesc>
+                </castItem>
+            </castList>
+        </front>
+        <pb n="6"/>
+        <pb n="7"/>
+        <body>
+            <div type="act">
+                <stage>Väike mägedeküla. Mäe serval punase katusega majakene. Kauged mäeküljed punetavad otsekui tulekumas allavajuva päikese paistel. Näib, nagu oleksid nad päikesest heledaks köetud ja õhkuks neist välja päeval kogutud kuumus. Varjupoolsed küljed mustavad salapäraselt. Orgudest tõuseb sinakas uduvina. Aga üleval, mägede ladvul eksivad valged joad, nagu hiigla-kiireheitjast saadetuina.</stage>
+                <stage>Majakese ees, pingil istub Vanem ja vaatleb mõttes mägesid. Rahu igal pool. Siis pöötab Vanem pilgu orgu viiva teeraja poole, kust aeg-ajalt üksikud hääled kaugelt kostavad, tõuseb üles, paneb käe silmi ette ja vaatab orgu.</stage>
+                <stage>Istub siis jälle pingile ja vaatleb mägesid.</stage>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg</speaker>
+                    <p><stage>(tuleb majakesest ja läheb Vanema juure).</stage> Tulevad nad juba?</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Ja, nad tulevad.</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg</speaker>
+                    <p><stage>(vaatab orgu).</stage> Ma ei näe neid.</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>oa mina ei näe neid, aga ma kuulen nende tulekut. Nad on mäekülje varjus. Kuid sina. — Miks tulid sa välja? Sa oled haige.</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Ei, isa, olen juba terve. Palavik ei vaeva mind enam.</p>
+                </sp>
+                <pb n="8"/>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Õhtu õhud on külmad. Nende eest peaksid end hoidma. Nad võivad surma tuua.</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Ei, ei. Tahan siin nende tulekut oodata. Ja kuigi surm — tahan enne vaadelda päikest ja mägesid. O, nüüd kuulen ka mina hääli.</p>
+                    <stage>(Lähenevate inimeste vaevalt kuuldavad hääled orgu viival teerajal.)</stage>
+                    <p>Ja, ja, nad tulevad. <stage>(Läheb mäeservale ja vaatab alla.)</stage> Oi, kui kitsas näib siit teerada! Ja kuidas ta lookleb kaljude vahel! Kui pikk ja vaevaline on tee orgu!</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Tee orgu on pikk ja vaevaline. Veel pikem ja vaevalisem on ta orust siia, üles.</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Praegu tulevad nad kaljurahnu tagant välja. Nad tulevad üksteise järel. Liig kitsas on teerada kahele.</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Sa tead, on kohti, kust üksainsamgi vaevalt läbi pääseb.</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Tean, isa. <stage>(Vaikus.)</stage> Kuidas nad küürutavad, raskeid veeanumaid kandes! Ja ägavad... Ma kuulen nende ägamist.</p>
+                </sp>
+                <pb n="9"/>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Raskem on neil, kes madalmaa hõlbust maitsenud. Sääl oli hallik ja jõgi ja kasvis lopsakas rohi. Meie põllud andsid rohket saaki, sest maa sai hästi niisutatud.</p>
+                    <stage>(Noormees pöörab Vanema poole ja kuulatab ta juttu.)</stage>
+                    <p>Aga kurjad inimesed ajasid meid ära säält õnnistatud maalt. Ja polnud muud valikut, kui tulla siia, üles, kus närbub rohi ja kolletab walmimata wili. Nüüd peame iseeneste kätel ja selgadel kandma vett siia üles, et mitte surra janu kätte.</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg</speaker>
+                    <p><stage>(vaatab uuesti orgu).</stage> Nad on kõik sääl: vanad ja noored, isegi lapsed. Nende palgilt nõrgub higi, nende huuled liiguvad nagu palves.</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Mitte palves. Nad neavad neid, kes sääl all, madalmaal. <stage>(Vaikus.)</stage></p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Näen, isa. Nad on vihased üksteisegi pääle, nad löövad lapsi, kui need väsimusest seisatavad.</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Pole teisi, kelle pääle viha välja valada. Vaev on nad teinud pööraseks. Liig selge on mälestus madalmaast. Noorem põlv,<pb n="10"/> kes on sündinud siin, üleval, kes kunagi ei ole näinud vanemate kodu, need nurisevad vähem. Need kuulavad ainult kõneldavat madalmaast ja hallikast, sellepärast ei ahvatle see neid. Ka teavad nad: sääl elavad teised.</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Aga need, kes hallid ja kortsus palgelised? Ka need, kelle juukseid hõbevirve katab?</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Need elavad, kannatavad ja surevad.</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Ilma mingi troostita ja lootuseta?</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Mis peaksid nad lootma? Madalmaa on neile kadunud.</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Aga siit, mägedelt?</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Siit veel wähem.</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg</speaker>
+                    <p><stage>(tasa).</stage> Siit veel vähem.... <stage>(Vaatab orgu.)</stage> Kui aeglaselt nad liiguvad! Ja kui etteheitvalt vaatavad nad madalmaa poole! See pilk aga, mis nad siia, üles, saadavad, on täis valu ja kurbust. Teel põletab<pb n="11"/> päike nende palgeid ja kurnatud kehasid, kodus ei oota neid miski, mis rõõmustaks ja vaeva tasuks. Missugune viletsus!</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Sa värised, poeg. Sul on palavik. Mine kambrisse, õhtu õhud on külmad. Ära vaata orgu. Viletsusega harjutakse.</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Viletsusega harjutakse. Seda ütled sina, nende Vanem? Ootad, kuni nad viletsusega harjuvad?</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Mis võin ma teha?</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg</speaker>
+                    <p>Madalmaa on veel alles.</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Tasa! Ära kõnele sellest. Nad ei tohi seda kuulda. Uut toitu annaks see nende rahutumaile hingedele. Ja siis võib tulla õnnetus. Ära kõnele sellest. <stage>(Vaikus.)</stage></p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Madalmaa on kadunud... Ka mägedelt ei tule abi...</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Ka mägedelt ei tule abi. Siit on keegi janunev hiiglane kõik veesooned tühjaks imenud. Mägedel lasub nagu vanne.</p>
+                </sp>
+                <pb n="12"/>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Nagu vanne... Mägedel lasub nagu vanne... <stage>(Tähendab mägede poole.)</stage> Ometi näen mägesid põlevat loojamineva päikese kullas ja mängivat päikese viimseid helka mägede ladvul — lasub neil tõesti vanne?</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Mu meele tuleb üks imeline muistne jutt. See liikus meie seas juba siis, kui veel madalmaal elasime.</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Muistne jutt? Neist mägedest? <stage>(Tuleb Vanema juure.)</stage></p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Mägedes oli hallik. Sinihallik oli ta nimi. Tema veel oli imevägi. Väsinud rändajad ja jahimehed läksid uuel jõul edasi, kui nad olid joonud Sinihallikast. Need, keda piinas palavik, said terveks. Veel kõneldi —</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Mis kõneldi veel?</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Veel kõneldi: ta olla inimese kombel kõnelenud.</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Sinihallik?</p>
+                </sp>
+                <pb n="13"/>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Ja. Aga siis sündis ta kaldal kuritegu. Ja sest ajast kadus säält Sinihallik. Nüüd rändab ta mägedes. Vanad jahilised näevad teda vahel... kaugelt... kord siin, kord sääl. Kui nad talle tahavad läheneda, kaob ta nende silmist. Nii eksib Sinihallik mägedes ja põgeneb inimeste eest.</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Pole siis kedagi, kes ta lepitaks inimestega?</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Ei. Meie ei tea, millega lepitada Sinihallikat. Meie ei tea mingisugust ohvrit tuua. <stage>(Vaikus.)</stage></p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Oled sina teda näinud, isa?</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Ei. Keegi meist pole teda näinud. Ainult vanad jahilised kõnelevad.</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg</speaker>
+                    <p><stage>(mõttes).</stage> Te pole teda otsinud. <stage>(Äkki:)</stage> Isa, luba mul minna otsima Sinihallikat?</p>
+                </sp>
+                <stage>(Kaljurahnu tagast ilmub äkki noor neiu, otsekui oleks ta sinendavast uduvirvest vehkinud, mis mägede vahel heljub. Esimesel silmapilgul näib, nagu tahaks võõras kohkudes tagasi pöörda, ometi seisatab ta ja vaatab üksisilmi<pb n="14"/> nooremehe poole. Neiu pääd ehib veeroosidest pärg, ta kuldsed juuksed sätendavad loojamineva päikese kiirtes. Noormees tunneb viibivat kellegi pilgu enese pääl ja vaatab kaljurahnu poole. Nende pilgud puutuvad kokku. Siis astub noormees mõne sammu võõra poole, aga jääb seisma, nähes, et see kartlikult taganeb.)</stage>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg</speaker>
+                    <p><stage>(küsivalt Vanema poole).</stage> Üks võõras neiu...?</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem</speaker>
+                    <p><stage>(neiule).</stage> Kaugelt tuled, võõras neiu? Astu lähemale, ära karda meid. Meie ei tee sulle paha.</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Tule lähemale, meie ei tee sulle paha. <stage>(Läheb neiu juure ja võtab ta käe enda kätte.)</stage> Ära karda meid. <stage>(Viib ta õrnalt Vanema juure.)</stage></p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Kaugelt tuled, võõras neiu?</p>
+                </sp>
+                <sp who="#sinihallik">
+                    <speaker>Mägede neiu.</speaker>
+                    <p>Mägedest.</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Ja kuhu lähed?</p>
+                </sp>
+                <sp who="#sinihallik">
+                    <speaker>Mägede neiu.</speaker>
+                    <p>Mägedesse.</p>
+                </sp>
+                <pb n="15"/>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Mägedesse? Elad sa mägedes?</p>
+                </sp>
+                <sp who="#sinihallik">
+                    <speaker>Mägede neiu</speaker>
+                    <stage>(jaatab pääga).</stage>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>On sääl su vanemad?</p>
+                </sp>
+                <sp who="#sinihallik">
+                    <speaker>Mägede neiu</speaker>
+                    <stage>(raputab pääd).</stage>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Kuidas? Sa elad mägedes... üksinda?</p>
+                </sp>
+                <sp who="#sinihallik">
+                    <speaker>Mägede neiu</speaker>
+                    <stage>(jaatab pääga).</stage>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p><stage>(Vanemale).</stage> Ta elab mägedes.. üksinda.</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Ütle, imeline võõras, kust said sa need veelilled, mis sul pärjas?</p>
+                </sp>
+                <sp who="#sinihallik">
+                    <speaker>Mägede neiu.</speaker>
+                    <p>Mägedest.</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Mägedest? Mägedes ei ole veelillesid. Mägedes pole vett. Sest saadik, kui Sinihallik —</p>
+                </sp>
+                <pb n="16"/>
+                <sp who="#sinihallik">
+                    <speaker>Mägede neiu</speaker>
+                    <p><stage>(tõstab omad külmad, tähtede läikega silmad äkki üles, ja nagu kauge kaja Vanema sõnade pääle, kostab ta huulilt:)</stage> Sinihallik!</p>
+                    <stage>(Vanem ja noormees vaatavad talle imestanult silmi.)</stage>
+                    <p>Sinihallik! Sinihallik!</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Näib, nagu oleksid sinagi seda nime kunagi enne kuulnud... Sinihallik. Sest saadik kui kurjad inimesed Sinihallika ära peletasid, pole mägedes vett ega veelillesid. Kust said sa selle pärja? Ta on värske, nagu oleks ta praegu nopitud lilledest punutud.</p>
+                </sp>
+                <sp who="#sinihallik">
+                    <speaker>Mägede neiu.</speaker>
+                    <p>Sinihallikalt.</p>
+                </sp>
+                <sp who="#vanem-poeg #noorem-poeg">
+                    <speaker>Vanem ja Noorem poeg.</speaker>
+                    <p>Sinihallikalt?</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Nägid sa Sinihallikat?</p>
+                </sp>
+                <sp who="#sinihallik">
+                    <speaker>Mägede neiu</speaker>
+                    <stage>(jaatab pääga).</stage>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Kus? Mägedes?</p>
+                </sp>
+                <sp who="#sinihallik">
+                    <speaker>Mägede neiu</speaker>
+                    <stage>(jaatab pääga).</stage>
+                </sp>
+                <pb n="17"/>
+                <sp who="#vanem">
+                    <speaker>Vanem</speaker>
+                    <p><stage>(vaatab neiu kõrvale maha).</stage> Mis imeline lugu! Ka siin tärkavad need lilled. <stage>(Tõuseb pingilt ja murrab lille.)</stage> Ka siin, kaljusel pinnal, need lilled! Ometigi olen neid näinud seni ainult vete lähedal ja vees. Mis vägi kandis nad siia? <stage>(Istub, vaatleb lille.)</stage></p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg</speaker>
+                    <p><stage>(Mägede neiule).</stage> Kõnelesid temaga? Mis ütles Sinihallik?</p>
+                </sp>
+                <sp who="#sinihallik">
+                    <speaker>Mägede neiu.</speaker>
+                    <p>Sinihallik kardab teid.</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Kardab meid? Mispärast kardab Sinihallik meid?</p>
+                </sp>
+                <sp who="#sinihallik">
+                    <speaker>Mägede neiu.</speaker>
+                    <p>Sinihallik kardab inimesi. Inimesed on kurjad.</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Seepärast põgenebki ta nende eest?</p>
+                </sp>
+                <sp who="#sinihallik">
+                    <speaker>Mägede neiu</speaker>
+                    <stage>(jaatab pääga).</stage>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg</speaker>
+                    <p><stage>(mõttes).</stage> Ei, võõras neiu, kui sa jälle mägedesse lähed ja Sinihallikat näed, siis ütle talle, meie ei ole kurjad. Meie ei ole kurjad. Kas ütled talle seda?</p>
+                    <stage>(Mägede neiu jaatab.)</stage>
+                    <p>Tulgu ainult. Ootame teda juba ammugi. Kaua. Me ei teadnud, mis teha, et ta tuleks. Me ei mõistnud teda lepitada. Ütled sa talle seda?</p>
+                    <stage>(Mägede neiu jaatab.)</stage>
+                    <p>Arvad sa, et ta siis tuleb?</p>
+                </sp>
+                <pb n="18"/>
+                <sp who="#sinihallik">
+                    <speaker>Mägede neiu.</speaker>
+                    <p>Tuleb.</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg</speaker>
+                    <p><stage>(Vanemale).</stage> Kuuled, isa, Sinihallik tuleb meile!</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem</speaker>
+                    <p><stage>(lillesid vaadeldes).</stage> Tahaksin teada, mis vägi kandis siia need lilled. Nad tärkasid korraga... kaljusest pinnast.</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg</speaker>
+                    <p><stage>(neiule).</stage> Või pean ma tulema ja kõnelema Sinihallikaga? Pean tulema ja julgustama teda?</p>
+                    <stage>(Mägede neiu raputab pääd.)</stage>
+                    <p>Ei? Sa arvad, ei. Ütle, võõras neiu, ons tõsi, ta kõnelevat inimese kombel... Sinihallik? Tema veel olla imevägi? Väsinud rändajad ja jahimehed läinud uuel jõul edasi, kui nad Sinihallikast joonud? Need, keda piinanud palavik, saanud terveks? Ons nii?</p>
+                </sp>
+                <sp who="#sinihallik">
+                    <speaker>Mägede neiu</speaker>
+                    <stage>(jaatab).</stage>
+                </sp>
+                <pb n="19"/>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>O, kui tuleks Sinihallik! Siis saaksime ka meie uut jõudu. Siis lõpeks nende vaev <stage>(tähendab teeraja poole),</stage> kes sääl praegu ägades lähenevad. Siis ei piinaks mindki enam palavik.</p>
+                </sp>
+                <sp who="#vanem-poeg">
+                    <speaker>Vanem poeg</speaker>
+                    <p><stage>(tuleb teerajalt mäele, läheb ruttu Vanema juure ja kõneleb temaga poolvaljult. Noorem poeg kuulatab nende juttu.)</stage> Nad on täna rahutumad, kui kunagi enne.</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem</speaker>
+                    <p><stage>(kohkudes).</stage> Mis? Nad on täna rahutumad, kui kunagi enne? Mis tahavad nad teha?</p>
+                </sp>
+                <sp who="#vanem-poeg">
+                    <speaker>Vanem poeg.</speaker>
+                    <p>Nad tahavad minna madalmaale.</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem</speaker>
+                    <p><stage>(murega).</stage> Madalmaale tahavad nad minna! <stage>(Mägede elanikud, mehed, naised ja lapsed lähenewad mööda mäekülge. Esiteks paistavad ainult nende värvilised pääkatted hõljuvatena mägede lilledena; siis näikse nende kurbi silmi, päevitanud palgeid ja meeste katmatuid rindu. Viimaks jõuavad nad üksteise järel mäeservale. Nad panevad veeanumad maha, pühivad higist nõretavaid palgeid ja vaatavad imestades ja küsivalt mägede neiu poole.)</stage></p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg</speaker>
+                    <p><stage>(tulijatele).</stage> Kuulge, teie! Siin on keegi, kes on näinud Sinihallikat.</p>
+                </sp>
+                <pb n="20"/>
+                <sp who="#maeeelanikud">
+                    <speaker>Mäeelanikud</speaker>
+                    <p><stage>(läbisegi).</stage> Sinihallikat? <stage>(Mõned tulevad aeglaselt lähemale.)</stage> Sinihallikat?</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>See võõras mägede neiu on näinud Sinihallikat ja temaga kõnelenud.</p>
+                </sp>
+                <sp who="#maeeelanikud">
+                    <speaker>Mägede elanikud</speaker>
+                    <p><stage>(Nende seas tõuseb liikumine. Nad hüüavad läbisegi:)</stage> Kõnelenud? Sinihallikaga?</p>
+                </sp>
+                <sp who="#lapsed">
+                    <speaker>Lapsed</speaker>
+                    <p><stage>(lähevad vanemate juure ja küsivad:)</stage> Sinihallik? Kus on Sinihallik?</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Sinihallik rändas mägedes. Nüüd viib talle sõna mägede neiu ja ütleb, et meie teda ootame. Siis tuleb Sinihallik meie juure ja siis lõpeb meie viletsus.</p>
+                    <stage>(Veel teised mäeelanikud tulevad kõneleja poole.)</stage>
+                    <p>Siis pole meil enam tarvis kanda eneste õlul ja kätel vett siia üles. Siis joodab meid Sinihallik ja annab meile uut jõudu. Ta veel on imevägi.</p>
+                </sp>
+                <sp who="#maeeelanik-1">
+                    <speaker>I. mäeelanik.</speaker>
+                    <p>Sinihallik? Sinihallik tuleb lõpetama meie viletsust? <stage>(Hüüab eemalseisjatele:)</stage> Kuulge, mehed! Sinihallik tuleb lõpetama meie viletsust! Meile töötatakse abi mägedest,<pb n="21"/> sest et madalmaa meile öeldakse olevat kadunud. Mis arvate sest? Kas pole see jälle meie Vanema uus väljamõeldus, et me ei vaataks ihkava pilguga sinna, kus on madalmaa, meie endine asupaik?</p>
+                    <stage>(Mägede neiu taganeb kartlikult pisut kaljurahnu poole. Mäeelanikud kõnelevad läbisegamini ja koguvad salkadesse. Naised ja lapsed on üheskoos.)</stage>
+                    <p>Mis arvate sest? Või on teie meelest läinud Vanema endised manitsused, kus ta meid käskis oodata ja loota? On neist manitsustest vähenenud valu teie pihtades ja kätes? Me ootasime aastad. Ja lootsime paremaid aegu. Võib olla, tahate veelgi oodata? Teile tõotatakse abi mägedest. Aga mina ütlen teile: vaadake madalmaa poole! Mägedest ei tule abi.</p>
+                </sp>
+                <sp who="#maeeelanikud">
+                    <speaker>Mõned mäeelanikud.</speaker>
+                    <p>Ei, mägedest ei tule abi.</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Mägedest tuleb abi. Mägedest tuleb Sinihaliik.</p>
+                </sp>
+                <sp who="#maeeelanikud">
+                    <speaker>Mäeelanikud</speaker>
+                    <stage>(naised ja lapsed).</stage>
+                    <p>Sinihallik! Mägedest tuleb Sinihallik.</p>
+                </sp>
+                <sp who="#maeeelanikud #mehed">
+                    <speaker>Mäeelanikud, mehed</speaker>
+                    <stage>(nurisevad pahaselt).</stage>
+                </sp>
+                <pb n="22"/>
+                <sp who="#vanem">
+                    <speaker>Vanem</speaker>
+                    <p><stage>(Tõuseb üles, veelillesid enese käes hoides. Kõne mäeelanikkude hulgas vaikib.)</stage> Heidate muile ette mu endiseid manitsusi. Praegu pole ma teile midagi ütelnud.</p>
+                </sp>
+                <sp who="#maeeelanik-1">
+                    <speaker>I. mäeelanik.</speaker>
+                    <p>Oled. Poja suu läbi kõneled sina.</p>
+                </sp>
+                <sp who="#maeeelanikud">
+                    <speaker>Mõned mäeelanikud.</speaker>
+                    <p>Tasa! Vanem kõneleb.</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Heidate mulle ette mu endiseid manitsusi. Võib olla, oleksite õnnelikumad, kui te poleks neid kuulnud, võib olla, ka mitte. Praegu pole ma teile midagi ütelnud. Aga kui midagi ütleksin, siis käsiksin ikka veel oodata ja loota.</p>
+                </sp>
+                <sp who="#maeeelanikud">
+                    <speaker>Mäeelanikud.</speaker>
+                    <p>Ikka veel oodata ja loota? Mida siis?</p>
+                </sp>
+                <sp who="#maeeelanik-1">
+                    <speaker>I. mäeelanik.</speaker>
+                    <p>Mida siis? Mida? Mida peame ootma ja lootma? Kuni need säält alt tulevad ja neid madalmaale kutsuvad?</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Ei, mitte seda. Nemad ei kutsu meid. Aga vaadake neid lillesid. Nad tärkasid praegu siin, kaljusel pinnal. Siin kusagil<pb n="23"/> lähedal on veesoon. Neid lillesid olen näinud ainult vee lähedal ehk vees. Võib olla —</p>
+                </sp>
+                <sp who="#maeeelanik-1">
+                    <speaker>I. mäeelanik</speaker>
+                    <p><stage>(mäeelanikkudele).</stage> Ta loodab mägedest abi.</p>
+                </sp>
+                <sp who="#maeeelanikud">
+                    <speaker>Mõned mäeelanikud.</speaker>
+                    <p>Tasa! Laskem Vanemat kõnelda.</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Võib olla, tungib kaljuseinte vahelt miski varjatud veesoon siia, et meie viletsust vähendada. Mis imevägi tõi muidu need lilled? Kaua elame mägedel, veel kunagi pole siin sarnast lille nähtud. Nüüd korraga tärkavad nad. Miks olete just nüüd nii rahutud, kus päästmine näib lähenevat?</p>
+                </sp>
+                <sp who="#maeeelanik-2">
+                    <speaker>II. mäeelanik.</speaker>
+                    <p>Veel kunagi pole olnud teekond nii raske kui täna. Kunagi ei põletanud päike nii halastamatult kui täna.</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Aga päästmine läheneb.</p>
+                </sp>
+                <sp who="#maeeelanikud">
+                    <speaker>Mäeelanikud</speaker>
+                    <stage>(mehed).</stage>
+                    <p>Päästmine? Missugune päästmine? Kust tuleb päästmine?</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Võib olla —</p>
+                </sp>
+                <pb n="24"/>
+                <sp who="#maeeelanik-1">
+                    <speaker>I. mäeelanik.</speaker>
+                    <p>Võib olla! Võib olla! Võib olla, tuleb taevalt abi. Miks ei käsi sa meid taevalt abi oodata?</p>
+                    <stage>(Nurin mäeelanikkude hulgas.)</stage>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem</speaker>
+                    <p><stage>(mägede neiule).</stage> Kõnele, võõras neiu, Sa nägid Sinihallikat.</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg</speaker>
+                    <p><stage>(mägede neiule).</stage> Ütle neile, et kõnelesid Sinihallikaga.</p>
+                    <stage>(Mägede neiu taganeb kartlikult.)</stage>
+                    <p>Ära karda neid, nad ei tee Sulle paha. Ütle neile, kas tuleb Sinihallik. <stage>(Mäeelanikkudele.)</stage> Vaikige, sääl! Kuulake, mis ütleb mägede neiu, kes Sinihallikaga kõnelenud.</p>
+                    <stage>(Vaikus. Kõik kuulatavad.)</stage>
+                </sp>
+                <sp who="#sinihallik">
+                    <speaker>Mägede neiu.</speaker>
+                    <p>Sinihallik ei tule.</p>
+                    <stage>(Vaikus kestab edasi, aga nüüd on see hirmuäratav, nagu enne tormi. Korra valgustab päikese kiir mäeserva ja libiseb siis kaljurahnu taha. Mäeharjad kaovad õhtusesse tumesinasse. Virvendades lähenevad videviku varjud. Tundmatu Kuduja telgedel sähvivad mustad niidid. Korraga tõstab Kuduja oma pää, kisub taevavõlvilt helkiva tähe ja paiskab ta lõpmatusse... nagu ajaviiteks. Mäeelanikkude hulgas tõuseb uus sumin, uus liikumine.)</stage>
+                </sp>
+                <pb n="25"/>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Ta ei tule?</p>
+                </sp>
+                <sp who="#sinihallik">
+                    <speaker>Mägede neiu.</speaker>
+                    <p>Ei. Ta kardab teid.</p>
+                    <stage>(Nooremehe pää vajub rinnale.)</stage>
+                </sp>
+                <sp who="#maeeelanikud">
+                    <speaker>Mäeelanikud</speaker>
+                    <p><stage>(läbisegi).</stage> Ta ei tule. Sinihallik ei tule.</p>
+                </sp>
+                <sp who="#maeeelanik-1">
+                    <speaker>I. mäeelanik</speaker>
+                    <p><stage>(Vanemale).</stage> Kuulsid? Ta ei tule. Käsid ehk nüüdki veel oodata ja loota?</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Aga need lilled? Need lilled?</p>
+                </sp>
+                <sp who="#maeeelanik-1">
+                    <speaker>I. mäeelanik.</speaker>
+                    <p>Need lilled... et nad sind eksiteele ei viiks... ja sinuga ühes ka meid. <stage>(Kisub lilled Vanema käest ja viskab orgu. Noorem poeg teeb liigutuse, aga jääb seisma.)</stage> Sääl on need lilled. Sääl on ka vesi. Need olid veelilled.</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem</speaker>
+                    <p><stage>(silmapilguks sütib vihaleek ta silmis).</stage> Nii tegid sa. Nii austad Vanemat? <stage>(Vaikselt.)</stage> Mis aitab see? <stage>(Vaatab maha.)</stage> Näen siin teisi. Palju teisi veelillesid. <stage>(Nopib mõne lille maast.)</stage> Sinna läheb nende tee. <stage>(Astub lillesid vaadeldes mägede neiu poole. Mäeelanikud tulevad lähemale, et lillesid vaadelda, aga Esimene mäeelanik tõrjub nad tagasi.)</stage></p>
+                </sp>
+                <pb n="26"/>
+                <sp who="#maeeelanik-1">
+                    <speaker>I. mäeelanik.</speaker>
+                    <p>Kuhu? Kuhu te tahate minna? Kas pole te enne näinud lillesid mägedes? Laske temal imestada lillesid, ta on vana, ta pole enam millekski muuks kõlbulik. Teie aga... meie... nooremad... Meie teame, mis teha. Sinna! Sinna vaadake! <stage>(Madalmaa poole.)</stage> Sinna viib meie tee!</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem</speaker>
+                    <p><stage>(pöörab kohkunult mäeelanikkude poole).</stage> Mitte sinna! Ainult sinna mitte? Kuulake.</p>
+                </sp>
+                <sp who="#maeeelanik-1">
+                    <speaker>I. mäeelanik.</speaker>
+                    <p>Vaiki sina! Sa ei ole enam meie Vanem. <stage>(Mäeelanikkude poole.)</stage> Uhkena mäekotkaste parvena tormame oma vaenlastele kallale ja võidame tagasi oma kodukoha. Asjata oleme oodanud. Iga muu lootus on kadunud. Ainult sääl on päästmine. Edasi madalmaa poole! Hävitagem need, kes meid välja kihutasid õnnistatud maalt. Edasi!</p>
+                    <stage>(Suur liikumine ja läbisegi hüüded mägilaste hulgas.)</stage>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Siis kuulge mind veel viimist korda, kui oma Vanemat. See on mu viimne sõna. Kuulge!</p>
+                </sp>
+                <sp who="#maeeelanikud">
+                    <speaker>Mäeelanikud.</speaker>
+                    <p>Kuulge! Kuulge! See on ta viimne sõna. <stage>(Pikkamisi tekib vaikus.)</stage></p>
+                </sp>
+                <pb n="27"/>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Kuulge oma Vanema viimist sõna. Mina olen vana. Mulle on ükskõik, kuidas lähevad mööda mu viimsed päevad. Teile aga soovin ainult hääd, nagu ma ikka soovinud. Kuulge mu viimist sõna. Ärge minge sinna!</p>
+                    <stage>(Liikumine mägilaste seas. Hüüded: "Tasa! See on ta viimne sõna!")</stage>
+                    <p>Ärge minge madalmaale! Seega suurendate oma viletsust. Pärast tõuseb säält verine udu siia üles, siis pole teil ka siin asupaika. Ärge minge! Oodake veel — ja — ja.</p>
+                    <stage>(Suur kära ja hüüded matavad ta sõnad. Kui jääb pisut vaiksemaks, jatkab ta edasi.)</stage>
+                    <p>Kui teid ei hoia tagasi muu, siis mõtelge nende pääle, kes maha jäävad. Mõtelge nende pääle.</p>
+                    <stage>(Naiste ja laste nutt.)</stage>
+                </sp>
+                <sp who="#maeeelanik-1">
+                    <speaker>I. mäeelanik.</speaker>
+                    <p>Ära muretse nende eest. Need tulevad meile järele. Tulevad meile järele madalmaale. <stage>(Mäeelanikkudele:)</stage> Mehed! Kuulge, mehed! Valage orgu vesi ja purustage veeanumad, siis tulevad nad meile kõik järele. Siis tulevad meile kõik järele, kes kahtlevad. Siis teame, et meil pole tagasipöörmist, teavad ka nemad. Valage! Purustage!</p>
+                    <stage>(Vesi valatakse orgu. Veeanumad purustatakse.)</stage>
+                </sp>
+                <sp who="#vanem-poeg">
+                    <speaker>Vanem poeg</speaker>
+                    <p><stage>(Vanemale).</stage> Nad valavad orgu vee ja purustavad veeanumad.</p>
+                </sp>
+                <pb n="28"/>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Mis võin ma teha. <stage>(Istub pingile ja nutab.)</stage></p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg</speaker>
+                    <p><stage>(mägede neiule).</stage> Nüüd tuleb suur õnnetus. Pärast tõuseb verine udu siia üles. Siis pole meil siingi asupaika. O, miks ei tulnud Sinihallik! Miks ei tule Sinihallik! Siis ei läheks nad sinna alla.</p>
+                </sp>
+                <sp who="#sinihallik">
+                    <speaker>Mägede neiu.</speaker>
+                    <p>Siis ei läheks nad sinna alla?</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Ei, siis ei läheks nad.</p>
+                </sp>
+                <sp who="#sinihallik">
+                    <speaker>Mägede neiu</speaker>
+                    <stage>(vaatab mõttes madalmaa poole).</stage>
+                </sp>
+                <sp who="#maeeelanik-1">
+                    <speaker>I. mäeelanik.</speaker>
+                    <p>Müüd madalmaale! Tahaksin näha, kes jääb maha. Vanemat ärgem kutsugem. Tema tahab surra siin, ootes ja lootes. Aga teie, noored — edasi!</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Mina ei tule madalmaale.</p>
+                </sp>
+                <sp who="#vanem-poeg">
+                    <speaker>Vanem poeg.</speaker>
+                    <p>Ka mina ei tule.</p>
+                </sp>
+                <sp who="#maeeelanik-1">
+                    <speaker>I. mäeelanik.</speaker>
+                    <p>Te jääte ootama abi, mis peab tulema mägedest! Teil tuleb kaua oodata. Kui te viimaks ei väsi ootes. Aga teadke, kui<pb n="29"/> te tulete kord madalmaale, siis teadke ja pidage meeles: meie võitsime tagasi madalmaa... meie, ilma Vanema ja ta poegade abita.</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Meie ei tule kunagi madalmaale. Ka teie ärge minge. Arvate, et Vanem teid ammugi poleks viinud sinna, kui ta ses oleks näinud hääd. Pea ronivad teie riismed tagasi siia üles, aga siis pole need enam endised mäed. Palju teie vendi puhkab siis sääl all ja mägede külgedel heljub punane udu. Jääge siia! Oodake ja lootke! Võib olla, tuleb Sinihallik ometi, kui ta näeb, et meist on kaugel iga vägivald. Ja kui kord tuleb suur Õigusemõistja, siis —</p>
+                </sp>
+                <sp who="#maeeelanik-1">
+                    <speaker>I. mäeelanik.</speaker>
+                    <p>Hilja! Hilja! Meid ootab madalmaa. (Mäeelanikud koguvad teeraja juure.</p>
+                </sp>
+                <sp who="#sinihallik">
+                    <speaker>Mägede neiu</speaker>
+                    <p><stage>(nagu enesele).</stage> Kui tuleks Sinihallik, siis ei läheks nad sinna...</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Ei, siis ei läheks nad sinna. Võta mind ühes mägedesse, võõras neiu. Vii mind Sinihallika juure, et ma temaga võiksin kõnelda. Võta mind ühes. Vii mind Sinihallikale. Viid? <stage>(Võtab, vastust oodates,<pb n="30"/> mägede neiu käe enda kätte.)</stage> Sa vaikid, võõras neiu? Sa ei vasta. Ometi näis, nagu oleks tulnud õnn ühes sinuga. Uus lootus tärkas, nagu need imelised lilled su kõrval. Peab tõesti kaduma seegi? Sa ei vasta.</p>
+                    <p>O, kui külmad on su käed, võõras neiu! Otsekui suriseks külm hallika vesi su imeilusates kätes! <stage>(Vaatab neiule silmi.)</stage> Su silmadel on vetehelk, nende sära on külm nagu tähtede läige. Su hääl on hallika vulina sarnane, kui see kuuvalgel suisel ööl toomedele muinasjuttu jutustab. Aga sa vaikid.</p>
+                </sp>
+                <sp who="#sinihallik">
+                    <speaker>Mägede neiu.</speaker>
+                    <p>Sinihallik tuleb.</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg</speaker>
+                    <p><stage>(kohkudes).</stage> Sinihallik tuleb? Tuleb ta tõesti? O, siis rutta, rutta, võõras neiu. Vii talle sõna, et ta tuleks enne, kui need õnnetumad... õnnetumad madalmaale lähevad.</p>
+                </sp>
+                <sp who="#sinihallik">
+                    <speaker>Mägede neiu.</speaker>
+                    <p>Sinihallik on siin.</p>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg.</speaker>
+                    <p>Siin? Sinihallik? Kus on Sinihallik? <stage>(Vaatab enese ümber. Selle aja sees vajub mägede neiu kaljusse. Ta asemele tekib hallik.)</stage></p>
+                </sp>
+                <pb n="31"/>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg</speaker>
+                    <p><stage>(vaatab endisele kohale, kus mägede neiu seisnud).</stage> Hallik? Sinihallik? <stage>(Ta põrkab esiteks kohkunult tagasi, langeb siis põlvili hallika juure ja vaatab vette.)</stage> O, siis olid sina Sinihallik, võõras neiu? Sina olid Sinihallik!</p>
+                </sp>
+                <sp who="#vanem-poeg #vanem">
+                    <speaker>Vanem poeg ja Vanem</speaker>
+                    <p><stage>(tulevad hallikale).</stage> Sinihallik! Sinihallik!</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Ta tuli ometi! Mis muud võisid tähendada veelilled. Nad tärkasid tema jala jälgedes.</p>
+                </sp>
+                <sp who="#vanem-poeg">
+                    <speaker>Vanem poeg</speaker>
+                    <p><stage>(mäeelanikkudele:)</stage> Tulge tagasi! Sinihallik on tulnud!</p>
+                    <stage>(Mäeelanikud tulevad imestades ja pool uskmatult Sinihallika poole. Kostavad naiste ja laste hüüded: "Sinihallik on tulnud! Sinihallik!")</stage>
+                </sp>
+                <sp who="#noorem-poeg">
+                    <speaker>Noorem poeg</speaker>
+                    <p><stage>(Sinihallika üle kumardades).</stage> Nüüd mõistan, võõras neiu, miks olid nii külmad su käed, miks surises külm hallika vesi su imeilusates kätes. Nüüd tean, miks ehtisid end veelilledega ja miks tärkasid nad su jalaastmetel — sa olid Sinihallik.</p>
+                    <stage>(Mäeelanikud koguvad poolringis hallika ümber.)</stage>
+                    <p>Näen jälle su silmade vetehelki ja nende külma sära, mis on nagu tähtede<pb n="32"/> läige. Kuuvalgel ööl tulen siia, su juure, siis jutustad mulle, kuidas rändasid mägedes ja põgenesid inimeste eest, kuni Armastus sinu tagasi tõi nende juure.</p>
+                </sp>
+                <sp who="#vanem">
+                    <speaker>Vanem.</speaker>
+                    <p>Au olgu Sinihallikale!</p>
+                </sp>
+                <sp who="#maeeelanikud">
+                    <speaker>Mäeelanikud.</speaker>
+                    <p>Ta veel on imevägi.</p>
+                    <stage>(Vaikus. Siis läheneb ruttu mägede öö.)</stage>
+                </sp>
+                <stage>(Eesriie.)</stage>
+            </div>
+        </body>
+    </text>
+</TEI>
