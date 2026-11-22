@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="est000042" xml:lang="et" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Onu paremad päevad</title>
+                <title type="sub">Nali 1 vaatuses</title>
+                <author>
+                    <persName>
+                        <forename>Oskar</forename>
+                        <surname>Luts</surname>
+                    </persName>
+                    <idno type="wikidata">Q2005705</idno>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <ref target="http://www.digar.ee/id/nlib-digar:439405">DIGAR Digital Archive</ref>
+                    <availability>
+                        <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                    </availability>
+                </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>Oskar</forename>
+                            <surname>Luts</surname>
+                            <idno type="wikidata">Q2005705</idno>
+                        </persName>
+                    </author>
+                    <title type="main">Onu paremad päevad</title>
+                    <title type="sub">Nali 1 vaatuses</title>
+                    <date when="1919">1919</date>
+                    <publisher>Noor-Eesti kirjastus</publisher>
+                    <pubPlace>Tartu</pubPlace>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1919">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1916">
+                        <desc/>
+                    </event>
+                </listEvent>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="onunaine" sex="FEMALE">
+                        <persName>Onunaine</persName>
+                    </person>
+                    <person xml:id="onutuetar-2" sex="FEMALE">
+                        <persName>Teine onutütar</persName>
+                    </person>
+                    <person xml:id="oksjonipidaja" sex="MALE">
+                        <persName>Oksjonipidaja</persName>
+                    </person>
+                    <person xml:id="oksjoniline-2" sex="MALE">
+                        <persName>Teine oksjoniline</persName>
+                    </person>
+                    <person xml:id="moogamees" sex="MALE">
+                        <persName>Mõõgamees</persName>
+                    </person>
+                    <person xml:id="onutuetar-1" sex="FEMALE">
+                        <persName>Esimene onutütar</persName>
+                    </person>
+                    <person xml:id="rikas-sober" sex="MALE">
+                        <persName>Rikas sõber</persName>
+                    </person>
+                    <person xml:id="mikk" sex="MALE">
+                        <persName>Mikk</persName>
+                    </person>
+                    <person xml:id="oksjoniline-1" sex="MALE">
+                        <persName>Esimene oksjoniline</persName>
+                    </person>
+                    <person xml:id="onu" sex="MALE">
+                        <persName>Onu</persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle">Comedy</term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-11-22">Convert txt to TEI</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <pb n="3"/>
+        <front>
+            <titlePage>
+                <docAuthor>O. LUTS</docAuthor>
+                <docTitle>
+                    <titlePart type="main">ONU PAREMAD PÄEVAD</titlePart>
+                    <titlePart type="sub">NALI ÜHES VAATUSES</titlePart>
+                </docTitle>
+                <docImprint>
+                    <publisher>NOOR-EESTI KIRJASTUS, </publisher>
+                    <pubPlace>TARTUS </pubPlace>
+                    <docDate>1919</docDate>
+                </docImprint>
+            </titlePage>
+            <pb n="4"/>
+            <pb n="5"/>
+            <castList>
+                <head>Tegelased:</head>
+                <castItem>
+                    <role>Onu ise.</role>
+                </castItem>
+                <castItem>
+                    <role>Tema teine naine.</role>
+                </castItem>
+                <castItem>
+                    <role>Teise naise kaks tütart.</role>
+                </castItem>
+                <castItem>
+                    <role>Mikk, </role>
+                    <roleDesc>onu väike poeg esimesest abielust.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Oksjonipidaja.</role>
+                </castItem>
+                <castItem>
+                    <role>Mõõgamees.</role>
+                </castItem>
+                <castItem>
+                    <role>Onu rikas sõber.</role>
+                </castItem>
+                <castItem>
+                    <role>Oksjonilised.</role>
+                </castItem>
+            </castList>
+        </front>
+        <pb n="6"/>
+        <pb n="7"/>
+        <body>
+            <div type="act">
+                <stage>Onu päris omalt isalt väikese, ilusa maja aiaga ja elas päris õnnelikult, kuni ta teise naise võttis ja see, õrn lesk, oma kahe täiskasvanud tütrega tema juure kolis. Siis algas häda. Kui onu nüüd vahel selle oma elumuutuse pääle tagasi mõtleb, siis sügab ta end siit ja säält ja pomiseb endale habemesse: "Eks kuri kiusand mind."</stage>
+                <stage>Ühe sõnaga: siis algas häda. Ja see häda kasvis ruttu, nagu piksepilv. Praegu on onu nii-ütelda häda keskpaigas, või häda kõige kõrgemal tipul, sest täbaramaks ei saa asjad enam minnagi kui nad praegu on. Onu ei jõudnud naise ja võõrastütarde võlgu maksta ja nüüd tehti ta majakraamile oksjon.</stage>
+                <stage>Keset tuba on laud, selle juures istub oksjonipidaja ja pakub onu kraami müüa. Tuba on rahvast täis, ots ulatab eeskottagi. Uks ja aknad on pärani lahti ja neist hoovab sisse sääski ja ikka uut häda. Väljas suur suvi.</stage>
+                <stage>Oksjonipidajal on suur paljas pää peenikese kaela otsas; kui ta end asjade nimekirja üle kumardab, siis on tal mõne püha evangelistiga sarnadus. Aeg-ajalt peatab sellel suurel paljal päälael üks sääsk ja püüab oma nokka<pb n="8"/> läbi läikiva naha torgata, kuid alati ajab oksjonipidaja iga sarnase katse laksuva kämblalöögiga nurja.</stage>
+                <stage>Oksjonipidaja kõrval seisab mõõgamees, oma paksu, punast nägu ja otsaesist pühkides, mis higist nõretavad. Mõõgamehel on kombeks tihti valjult ja ametlikult köhatada, otsekui kinnitaks ta seega oksjonipidaja kõnet.</stage>
+                <stage>Nurgas, suure kirstu najal seisab onunaine oma kahe täiskasvanud tütrega. Need kolm on kõik tulikurjad ja vahivad tigedalt kord oksjonipidaja, kord rahva poole.</stage>
+                <stage>Kirstu kohal ripub vanaisa pilt. Vanaisa on perekonna häätegija, tema mälestus on onule ikka püha.</stage>
+                <stage>Lahtise akna juures seisab onu ise ja tema väike poeg, Mikk, esimesest abielust. Need kaks ei ole kurjad. Onu silitab aegajalt oma pikka musta habet, Mikk hoiab isa taskust kinni.</stage>
+                <stage>Paaril oksjonilisel on ostetud asjad juba käes: oksjon jõuab lõpule.</stage>
+                <sp who="#oksjonipidaja">
+                    <speaker>Oksjonipidaja.</speaker>
+                    <p>Nüüd veel üks suur riidekirst. <stage>(Vaatab nurka, kirstu poole, kus onunaine ja tema tütred silmi jõllitavad.)</stage> Kümne rubla eest hinnatud. Kes pakub rohkem?</p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine.</speaker>
+                    <p>Seda kirstu mina ei anna.</p>
+                </sp>
+                <sp who="#onutuetar-1 #onutuetar-2">
+                    <speaker>Onutütred</speaker>
+                    <p><stage>(ühest suust. Üleüldse ütlevad nad ühest suust.)</stage> Seda kirstu meie ei anna.</p>
+                </sp>
+                <pb n="9"/>
+                <sp who="#moogamees">
+                    <speaker>Mõõgamees</speaker>
+                    <p><stage>(valjult ja ametlikult köhatades).</stage> Vait! Olge vait! Mitte segada!</p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine.</speaker>
+                    <p>Olgu mis on, aga seda kirstu mina ei anna.</p>
+                </sp>
+                <sp who="#onutuetar-1 #onutuetar-2">
+                    <speaker>Onutütred.</speaker>
+                    <p>Ei anna, jah. <stage>(Seisavad kirstu ees, nagu tahaksid seda kaitsta.)</stage></p>
+                </sp>
+                <sp who="#oksjonipidaja">
+                    <speaker>Oksjonipidaja.</speaker>
+                    <p>Kuidas — ei anna? Teie peate kõik andma, millel kroonu pitsat küljes. <stage>(Mõõgamees teeb paar sammu tõrkujate poole.)</stage></p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu</speaker>
+                    <p><stage>(naisele ja võõrastütardele).</stage> Kuula nüüd! Olge vait, ärge karjuge. <stage>(Onunaine ja tema tütred pomisevad pahaselt.)</stage></p>
+                </sp>
+                <sp who="#oksjonipidaja">
+                    <speaker>Oksjonipidaja.</speaker>
+                    <p>Suur riidekirst sääl, nurgas. <stage>(Tähendab nurga poole.)</stage> Kümme rubla väärt. Kes pakub rohkem?</p>
+                </sp>
+                <sp who="#oksjoniline-1">
+                    <speaker>Esimene oksjoniline</speaker>
+                    <p><stage>(vaatab nurka, kirstu hinnates).</stage> Kümme rubla ja kümme kopikat.</p>
+                </sp>
+                <sp who="#oksjonipidaja">
+                    <speaker>Oksjonipidaja.</speaker>
+                    <p>Kümme rubla ja kümme kopikat. Kes pakub rohkem?</p>
+                    <stage>(Vaikus.)</stage>
+                    <p>Keegi ei paku. <stage>(Võtab haamri.)</stage> Kümme rubla ja kümme kopikat — esimest korda. Kümme rubla ja kümme kopikat — teist korda. Kümme rubla ja kümme kopikat —</p>
+                </sp>
+                <pb n="10"/>
+                <sp who="#oksjoniline-2">
+                    <speaker>Teine oksjoniline.</speaker>
+                    <p>Kümme rubla, viisteist <stage>(Onunaine ja tema tütred näitavad pakkujale keelt.)</stage></p>
+                </sp>
+                <sp who="#oksjonipidaja">
+                    <speaker>Oksjonipidaja.</speaker>
+                    <p>Kümme rubla ja viisteistkümmend kopikat. Kes pakub rohkem?</p>
+                    <stage>(Vaikus.)</stage>
+                    <p>Keegi ei paku. Kümme rubla ja viisteist kopikat esimest korda. Kümme rubla ja viisteist kopikat teist korda. Ja kümme rubla ja viisteist kopikat — <stage>(Siin peatab oksjonipidaja silmapilgu, otsekui laseks õngitseja ussikest otse kala suu ees vingerdada; siis täie rõhuga:)</stage> Kolmat korda. <stage>(Haamrilöök. Teisele oksjonilisele:)</stage> Kirst on teie oma. Makske raha. <stage>(Teine oksjoniline paneb raha laua pääle, astub kirstu juure ja hakkab seda nurgast välja tõmbama. Onunaine ja tema täiskasvanud tütred sikutavad kõigest jõust vastu. Tekib rüselemine. Oksjonilised naeravad. Mõõgamees tõttab ostjale appi. Oksjonipidaja korjab raha ja paberid kokku ja asutab minekut.)</stage></p>
+                </sp>
+                <sp who="#onunaine #onutuetar-1 #onutuetar-2">
+                    <speaker>Onunaine ja tema tütred.</speaker>
+                    <p>Ei lase, ei lase.</p>
+                </sp>
+                <pb n="11"/>
+                <sp who="#oksjoniline-2">
+                    <speaker>Teine oksjoniline.</speaker>
+                    <p>Peate laskma. Mina ostsin kirstu.</p>
+                </sp>
+                <sp who="#moogamees">
+                    <speaker>Mõõgamees</speaker>
+                    <p><stage>(väga valjult ja väga ametlikult köhatades).</stage> Käed küljest! Jalamaid!</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu</speaker>
+                    <p><stage>(tuleb kirstu juure ja tõrjub omaksed eemale).</stage> Minge nüüd ära eest! Kuidas te nii rumalad olete! Minge ära! <stage>(Aitab ostjal kirstu välja viia. Oksjonipidaja, mõõgamees ja oksjonilised ära. Jääb ainult onu oma naisega ja lastega ja hädaga. Tekib piinlik vaikus, otsekui oleks torm lähenemas.)</stage></p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine.</speaker>
+                    <p>Noh, nüüd oleme siis kõik paljad nagu kured.</p>
+                </sp>
+                <sp who="#onutuetar-1 #onutuetar-2">
+                    <speaker>Onutütred.</speaker>
+                    <p>Nüüd oleme siis kõik paljad nagu kured.</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Kured... Ega kured paljad ei ole, neil on suled ümber. Teie ka ei ole paljad, teil on kõigil riided seljas.</p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine.</speaker>
+                    <p>Vaata sääl! Sa tahtsid vist, et me päris ihualasti jääksime.</p>
+                </sp>
+                <sp who="#onutuetar-1 #onutuetar-2">
+                    <speaker>Onutütred.</speaker>
+                    <p>Sa tahtsid vist, et me päris ihualasti jääksime.</p>
+                </sp>
+                <pb n="12"/>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Mis te jõlate! Kelle süü see on? <stage>(Istub laua juure, oksjonipidaja asemele ja võtab Miku sülle.)</stage></p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine.</speaker>
+                    <p>Kelle süü? Kelle süü? No jah, küllap nüüd oleme meie süüdi. Keda muud!</p>
+                </sp>
+                <sp who="#onutuetar-1 #onutuetar-2">
+                    <speaker>Onutütred.</speaker>
+                    <p>Küllap nüüd oleme meie süüdi, keda muud!</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Mis te siis ostate kõiksugu riideräbalaid ja hilpusid, kui teil raha ei ole.</p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine.</speaker>
+                    <p>Raha ei ole. Raha peab sul olema, mitte meil.</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Aga kui teda ei ole, siis ei maksa ka võlgasid teha.</p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine.</speaker>
+                    <p>Võlgasid teha! Võlgasid teha! Teeninud sina raha ja maksnud ära võlad. Teeninud raha, nagu teised mehed teenivad. Neil on enestel küllalt ja perel ka küllalt. Vaata, kuidas teised söövad ja joovad ja riides käivad. Tema uhkustab sellega, et tal raha ei ole. Hmh.</p>
+                </sp>
+                <sp who="#onutuetar-1 #onutuetar-2">
+                    <speaker>Onutütred.</speaker>
+                    <p>Hmh!</p>
+                </sp>
+                <pb n="13"/>
+                <sp who="#onu">
+                    <speaker>Onu</speaker>
+                    <p><stage>(Mikule).</stage> Näe, oksjoni-härra on oma haamri siia unustanud.</p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Miku</speaker>
+                    <p><stage>(haamrit vaadates).</stage> Päris kena haamer! Mis asjaga oksjoni-härra nüüd hakkab koputama?</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Ei tea. Eks ta tonksa selle suure palja pääga vastu lauda.</p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine.</speaker>
+                    <p>Inimene laseb endale oksjoni teha. Mõtle: oksjoni! Kus see häbi!</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Mis ma siis pidin tegema?</p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine.</speaker>
+                    <p>Mis sa pidid tegema? Kas ma sulle küll ei ütelnud: müü maja ära.</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Maja on isa mälestus.</p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine.</speaker>
+                    <p>Maja eest oleksid vähemalt õige hinna saanud, aga nüüd läksid kraam ja riided poole hinnaga.</p>
+                </sp>
+                <sp who="#onutuetar-1">
+                    <speaker>Esimene onutütar.</speaker>
+                    <p>Kus minu ülijakk?</p>
+                </sp>
+                <pb n="14"/>
+                <sp who="#onutuetar-2">
+                    <speaker>Teine onutütar.</speaker>
+                    <p>Ja minu sõrmused?</p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine.</speaker>
+                    <p>Ja minu kasukas? Kus on need kõik?</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu</speaker>
+                    <p><stage>(ukse poole tähendades).</stage> Sääl.</p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine.</speaker>
+                    <p>Sääl! See'p see on, et — sääl. Mis nei viga oli siin olla. Nüüd pole muud, kui võta kott selga ja mine kerjama.</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Kaela pannakse kott, kui kerjama minnakse.</p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine.</speaker>
+                    <p>Näete: lõõbib veel! Temal pole sest kedagi, et maja paljaks tehti. Mis inimene see küll on, sest ma aru ei saa. Kui sul meist kahju ei ole, siis peaks sul ometi enda eestki häbi olema.</p>
+                </sp>
+                <sp who="#onutuetar-1 #onutuetar-2">
+                    <speaker>Onutütred.</speaker>
+                    <p>Enda eestki häbi peaks sul olema.</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Mis te minu eest muretsete. Minu paremad päevad on alles ees.</p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine.</speaker>
+                    <p>Kuulete, tema paremad päevad olla alles ees. Ei tea, kus? Hauas või?</p>
+                </sp>
+                <stage>(Onutütred naeravad.)</stage>
+                <pb n="15"/>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Ega sääl hauaski halb ei ole.</p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine.</speaker>
+                    <p>Oled sääl vist juba käinud?</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Käinud just ei ole.</p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine.</speaker>
+                    <p>Kui sääl nii hää on, mis sa siis veel ootad, eks sa siis mine kohe hauda.</p>
+                </sp>
+                <sp who="#onutuetar-1 #onutuetar-2">
+                    <speaker>Onutütred.</speaker>
+                    <p>Mis sa siis veel ootad? Eks sa mine kohe hauda.</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Mul Miku siin.</p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine.</speaker>
+                    <p>Miku — ja! Miku eest sa hoolitsed. Miku on ainukene, kelle eest sa hoolitsed. Aga meid nagu ei olekski.</p>
+                </sp>
+                <sp who="#onutuetar-1 #onutuetar-2">
+                    <speaker>Onutütred.</speaker>
+                    <p>Meid nagu ei olekski.</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Teie hoolitsete eneste eest isegi.</p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine.</speaker>
+                    <p>Isegi! Hakka sinu pääle lootma, siis jää alasti. Vaata, kui võtame kätte ja läheme<pb n="16"/> ära kõik kolmekesi — vaata siis! Ela siis oma Mikuga, nagu öökull pojaga.</p>
+                </sp>
+                <sp who="#onutuetar-1 #onutuetar-2">
+                    <speaker>Onutütred.</speaker>
+                    <p>Ela siis oma Mikuga, nagu öökull pojaga.</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Eks ela kah. Ja kui enam kuidagi ei saa, eks siis sure ära kah.</p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine</speaker>
+                    <p><stage>(tütardele).</stage> Kuulete, kuulete, mis ta ütleb. Tal pole kahjugi, et me ära läheme. Mis inimene see küll on! Mis inimene see küll on!</p>
+                </sp>
+                <sp who="#onutuetar-1 #onutuetar-2">
+                    <speaker>Onutütred.</speaker>
+                    <p>Mis inimene see küll on!</p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine</speaker>
+                    <p><stage>(jõuab järsku otsusele. Tütardele:)</stage> Ei. Lähme ära. Lähme tõesti ära. Meil ei ole siin enam midagi pääle hakata. Siin pole muud, kui neli seina ja see <stage>(tähendab onu pääle),</stage> laisk, musta habemega vanamees. Lähme ära. Lähme kohe. Pange needki järelejäänud hilbud kokku ja katsume, et minema saame. Viimati tullakse ja võetakse need ka käest ära. Tehke kähku!</p>
+                </sp>
+                <sp who="#onutuetar-1 #onutuetar-2">
+                    <speaker>Onutütred.</speaker>
+                    <p>Jah, mamma. Silmapilk. <stage>(Pakivad ülejäänud asju ja riideid kompsudesse. Ahju servalt tuuakse maha: kohviveski, kohvikann, margapuu, paar plekist toosi j. n. e. Sel kombel saab kolm kompsu ja üks põrandahari.)</stage></p>
+                </sp>
+                <pb n="17"/>
+                <sp who="#mikk">
+                    <speaker>Miku.</speaker>
+                    <p>Kuhu nad lähevad, isa?</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Sinna, kus parem on.</p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Miku.</speaker>
+                    <p>Kus on parem?</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Sääl, kus neid ei ole.</p>
+                    <stage>(Ei või ütelda, et onu omaste äramineku üle rõõmustaks. Onu on hääsüdameline inimene ja iga pahandus on talle vastumeelt. Onunaine ja tema tütred on pakkimise lõpetanud. Nad võtavad igaüks ühe kompsu ja sammuvad üksteise järele onu eest mööda. Onunaise käes on pääle kompsu veel põrandahari.)</stage>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine</speaker>
+                    <p><stage>(onu ees pilkamisi kumardades).</stage> Jää siis terveks, va musthabe!</p>
+                </sp>
+                <sp who="#onutuetar-1 #onutuetar-2">
+                    <speaker>Onutütred</speaker>
+                    <p><stage>(emale järele ahvides).</stage> Jää siis terveks, va musthabe!</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu</speaker>
+                    <stage>(vaikib, nagu laan vaiksel suveööl).</stage>
+                </sp>
+                <sp who="#onutuetar-2">
+                    <speaker>Teine onutütar</speaker>
+                    <p><stage>(Mikku palgest näpistades).</stage> Ja sina, öökullipoeg, pühi oma nina puhtaks.</p>
+                </sp>
+                <pb n="18"/>
+                <sp who="#mikk">
+                    <speaker>Miku</speaker>
+                    <p><stage>(lööb näpistajale oksjonipidaja haamriga vastu sõrmi).</stage> Esimest korda!</p>
+                </sp>
+                <sp who="#onutuetar-2">
+                    <speaker>Teine onutütar.</speaker>
+                    <p>Ai, raip! Tema lööb! <stage>(Püüab uuesti näpistada.)</stage></p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Miku</speaker>
+                    <p><stage>(lööb jälle).</stage> Teist korda!</p>
+                </sp>
+                <sp who="#onutuetar-2">
+                    <speaker>Teine onutütar.</speaker>
+                    <p>Ai! Kuidas sa tohid lüüa, poiss!</p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine</speaker>
+                    <p><stage>(lävelt).</stage> Tule, tule! Lähme ära! Meid ei sallita siin. Meid kooritakse siin enne paljaks ja aetakse nii uksest välja. Tulge, tulge, tütrekesed!</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu</speaker>
+                    <p><stage>(mõttes).</stage> Jajah.</p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine</speaker>
+                    <p><stage>(pöörab lävelt tagasi).</stage> Mis sa ütlesid, papa? Sa nagu ütlesid midagi? Nojah, nüüd on sul kahju, et me ära läheme. Aga see on su enda süü. Kõik su enda süü. Teinud nii, nagu me tahtsime, poleks keegi mineku pääle mõtelnud. Aga sa ei tahtnud — nüüd on hilja.</p>
+                </sp>
+                <sp who="#onutuetar-1 #onutuetar-2">
+                    <speaker>Onutütred</speaker>
+                    <p><stage>(lävelt).</stage> Ja, nüüd on hilja.</p>
+                </sp>
+                <pb n="19"/>
+                <sp who="#onunaine">
+                    <speaker>Onunaine</speaker>
+                    <p><stage>(jõuab jälle järsku mingisugusele otsusele ja tonksab põrandaharjaga vastu põrandat).</stage> Noh, aga kui sa just kahjatsed ja andeks palud ja teed, nagu me tahame, siis võiksime ka jääda. Sest ära sa arva, et see meile suurt rõõmu teeb, sind siia üksinda maha jätta.</p>
+                </sp>
+                <sp who="#onutuetar-1 #onutuetar-2">
+                    <speaker>Onutütred.</speaker>
+                    <p>Meile ei tee kuigi suurt rõõmu, sind siia üksinda maha jätta.</p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine.</speaker>
+                    <p>Aga esimene tingimine on, et sa maja ära müüd. Kuulsid: esimene tingimine on, et sa maja ära müüd. Pea seda meeles. <stage>(Ootab. Najatab oodates põrandaharja najale. Nii seisab ülemeelik Paharett oma kahvliga Igavese Kohtumõistja ees.)</stage> Noh, kuidas jääb siis? Mõtle, kui hää on, kui me siin jälle kõik üheskoos elama hakkame. Mis? <stage>(Tütardele:)</stage> No pange päälegi kompsud ära käest, ma näen juba ta silmist, et ta nõus on.</p>
+                </sp>
+                <sp who="#onutuetar-1 #onutuetar-2">
+                    <speaker>Onutütred</speaker>
+                    <p><stage>(viskavad kompsud maha ja pilluvad asjad rõõmsalt mööda tuba laiali).</stage> Näha, näha juba silmist, et ta nõus on.</p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine.</speaker>
+                    <p>Ega ta nii paha polegi, kui ta end näitab. Küll me toime saame, pole viga. Eks saa toime, papakene? <stage>(Paneb kompsu ja põrandaharja käest ja hakkab asju korraldama.)</stage> Vaata,<pb n="20"/> kuidas nad paganad siin kõik laiali pildunud, need võõrad inimesed. Teevad niisugust pahandust meie vanale, hääle papakesele.</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Ega ma maja ikka ära ei müü. Ta nagu isa mälestus. Kahju.</p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine</speaker>
+                    <p><stage>(pillab ehmatusega kohviveski maha).</stage> Ei müü? Ei müü? <stage>(Tütardele:)</stage> Kompsud!</p>
+                </sp>
+                <sp who="#onutuetar-1 #onutuetar-2">
+                    <speaker>Onutütred.</speaker>
+                    <p>Ei müü? Tema ei müü?</p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine</speaker>
+                    <p>Kompsud! <stage>(Onunaine ja tema tütred pakivad asjad uuesti kompsudesse. Pakkides kordavad nad üksisõnu: "Tema ei müü! Tema ei müü!" Võtavad siis kõik kolm igaüks ühe kompsu, onunaine pääle selle veel põrandaharja, ja sammuvad üksteise järel ukse poole.)</stage></p>
+                </sp>
+                <sp who="#onunaine">
+                    <speaker>Onunaine</speaker>
+                    <p><stage>(onule).</stage> Kõnge siis siia, isa mälestuse juure!</p>
+                </sp>
+                <sp who="#onutuetar-1 #onutuetar-2">
+                    <speaker>Onutütred.</speaker>
+                    <p>Kõnge siis siia, isa mälestuse juure! <stage>(Kõik kolm pahaselt ära. Toas vaikus. Onu aevastab ja tapab ühe sääse käe päält.)</stage></p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Miku.</speaker>
+                    <p>Isa, mis nüüd saab?</p>
+                </sp>
+                <pb n="21"/>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Ah, mis nüüd saab? Pole häda midagi. Meie paremad päevad on alles ees. <stage>(Onu rikas sõber astub kiirel sammul sisse.)</stage></p>
+                </sp>
+                <sp who="#rikas-sober">
+                    <speaker>Rikas sõber.</speaker>
+                    <p>No kuule, kuule, kulla mees, kes siis nii teeb? Tere! <stage>(Teretab kätt andes.)</stage> Lased endale siin oksjoni teha, kõik ära müüa — ja ei lausu mulle sõnagi.</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Sinu unustasin hoopis ära.</p>
+                </sp>
+                <sp who="#rikas-sober">
+                    <speaker>Rikas sõber.</speaker>
+                    <p>Unustasid! Unustanud mõni teine ära, aga pidanud oma parem sõber meeles.</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu</speaker>
+                    <p><stage>(sügab kõrvatagust. Annab võõrale oma ainsa tooli ja seisab ise püsti.)</stage> Istu siia. <stage>(Miku vahib enne natukese aega võõra otsa, hakkab siis oksjonipidaja haamriga mängima, vastu seinu ja ahju koppides.)</stage> Ega see nüüdki hiljaks pole jäänud. Eks sa või mind nüüdki aidata, kui soovid.</p>
+                </sp>
+                <sp who="#rikas-sober">
+                    <speaker>Rikas sõber</speaker>
+                    <p><stage>(imestades).</stage> Aidata? Mis see tähendab: aidata? Kes tahab sind aidata?</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu</speaker>
+                    <p><stage>(kahevahel olles).</stage> Noh, et sina...</p>
+                </sp>
+                <pb n="22"/>
+                <sp who="#rikas-sober">
+                    <speaker>Rikas sõber.</speaker>
+                    <p>Mina? Mina tulen sult oma võlga kätte saama.</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu</speaker>
+                    <p>Ahah. Ma arvasin —</p>
+                </sp>
+                <sp who="#rikas-sober">
+                    <speaker>Rikas sõber.</speaker>
+                    <p>Ja, nii on asjad. Ei, see pole sust sugugi ilus, et minu ilma jätsid. Nad on su ju päris paljaks teinud. <stage>(Vaatab toas ringi.)</stage> Neli seina. Siit pole nüüd enam võtta ka midagi. See kell on veel <stage>(Tähendab seinakella pääle)</stage> ja laud... ja säng. Ei, nii ei tehta. Nii ei tehta vihamehelegi, veel vähem sõbrale.</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Halb ta on, aga — mitte ei tulnud meele.</p>
+                </sp>
+                <sp who="#rikas-sober">
+                    <speaker>Rikas sõber.</speaker>
+                    <p>Ei tulnud meele! See'p see viga ongi, et häätegijad alati kõige enne unustatakse. Ega vanasõna muidu ei ütle, et: ära tee hääd teisele, siis pole tal põhjust sulle kurja teha.</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Mis sa nii hädatsed, mul siin ju veel —</p>
+                </sp>
+                <sp who="#rikas-sober">
+                    <speaker>Rikas sõber.</speaker>
+                    <p>Maja. Hää küll, müü maja mulle ära. Saad võlast lahti ja raha päälegi.</p>
+                </sp>
+                <pb n="23"/>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Ei, maja nagu ei tahaks müüa. Isa mälestus. Kahju.</p>
+                </sp>
+                <sp who="#rikas-sober">
+                    <speaker>Rikas sõber.</speaker>
+                    <p>Sind oma mälestusega. Mälestus. Mis on mälestus? Paljast mälestusest ei saa sa ometi patta panna ja keeta, sest peaksid kord aru saama. Ja mis sul siit pääle maja veel võtta peaks olema? Habe?</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu</speaker>
+                    <p><stage>(silitab oma ilusat habet, tähendab siis seinakella, voodi ja laua pääle).</stage> Võta need.</p>
+                </sp>
+                <sp who="#rikas-sober">
+                    <speaker>Rikas sõber.</speaker>
+                    <p>Need? Hm. Kella võiks ju võtta, aga voodi ja laud? Neid on sulle tarvis.</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Eks saa kuidagi ilma läbi.</p>
+                </sp>
+                <sp who="#rikas-sober">
+                    <speaker>Rikas sõber.</speaker>
+                    <p>Noh, kui sul neid just tarvis ei ole — siis võtan needki. <stage>(Võtab kella seinalt maha.)</stage> Käib ta ka õigesti?</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Jah.</p>
+                </sp>
+                <sp who="#rikas-sober">
+                    <speaker>Rikas sõber</speaker>
+                    <p><stage>(lükkab voodi, laua ja tooli onu abiga ukse juure ja jääb siis, arvet pidades, keset tuba<pb n="24"/> seisma).</stage> Ütleme, kell maksab viis rubla. Viit ta küll enam ei maksa, aga olgu pääle.</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Ta sai alles hiljuti ostetud ja maksis kakskümmend viis rubla.</p>
+                </sp>
+                <sp who="#rikas-sober">
+                    <speaker>Rikas sõber.</speaker>
+                    <p>Hiljuti! Paljugi mis ta hiljuti maksis. Sängi arvame kolme rubla eest. <stage>(Onu tahab midagi ütelda, aga rikas sõber ei anna talle aega sõna võtta.)</stage> Laud ja tool — nende eest ei saa kuidagi üle kahe anda. See teeb kokku kõigest kümme. Kümme rubla jääd mulle veel võlgu.</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Nojah. <stage>(Ta on pisut kahevahel.)</stage> Võiksin küll sellegi... Mul on veel siin natuke...</p>
+                </sp>
+                <sp who="#rikas-sober">
+                    <speaker>Rikas sõber.</speaker>
+                    <p>Aa, no kui sul on — seda parem.</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu</speaker>
+                    <p><stage>(võtab taskust rahakoti ja loeb raha rikka mehe peo pääle).</stage> Viis, kaheksa, üheksa... kakskümmend, kolmkümmend... Üheksa rubla üheksakümmend üheksa kopikat. Üks kopik on puudus.</p>
+                </sp>
+                <sp who="#rikas-sober">
+                    <speaker>Rikas sõber</speaker>
+                    <p><stage>(heidab suuremeelselt käega).</stage> Oh, ükskõik! Hakkan ma su käest viimist kopikat välja pigistama. Olgu pääle! Lase olla!</p>
+                </sp>
+                <pb n="25"/>
+                <sp who="#onu">
+                    <speaker>Onu</speaker>
+                    <p><stage>(otsib taskutes ja leiab kopika).</stage> Pea! On kopik. <stage>(Paneb kopika rikka sõbra peo pääle, kes kõiges omas suurmeeles käe kõik aeg onu poole siruli hoidis.)</stage></p>
+                </sp>
+                <sp who="#rikas-sober">
+                    <speaker>Rikas sõber.</speaker>
+                    <p>Ahah. Noh, siis oleme päris tasa. Selge arve. <stage>(Paneb raha tasku ja patsutab reit.)</stage> Jah, nii on asjad, vana sõber. Sul jääb nüüd küll natuke vähe kraami siia, aga —</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu</speaker>
+                    <p><stage>(vaatab täiesti tühjas toas ringi).</stage> Ja, ega just palju ei jää.</p>
+                </sp>
+                <sp who="#rikas-sober">
+                    <speaker>Rikas sõber.</speaker>
+                    <p>Noh, kui arvad, et läbi saad... <stage>(Tuletab midagi meele.)</stage> Mis ma n'd tahtsingi sulle veel öelda... Noojah, hääd nõu tahtsin sulle anda. Sa... sa peaksid natuke käbedam olema. Tead, nii... Muidu ei saa elus läbi! Vaata mind. Mina tulin pastaldes linna, ei Vene ega Saksa keele sõnagi suus, aga nüüd... Nüüd on mul maja, oma rahakopikas taskus, keeled suus ja... Mina ise magan, aga mu jalakannad on valvel ja ütlevad mulle hommikul, kus äri võib teha. Nii tee sinagi.</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Jah, noh... Minu jalakannad ei ütle mulle hommikul midagi. <stage>(Vaatab oma jalgu.)</stage> Olen püüdnud kah, aga —</p>
+                </sp>
+                <pb n="26"/>
+                <sp who="#rikas-sober">
+                    <speaker>Rikas sõber.</speaker>
+                    <p>Püüdnud! Tean sinu püüdmist. Elul peab nii-ütelda sarvist kinni haarama ja oma tahtmise järele pöörama; ei tohi ennast pöörata lasta. See on pääasi.</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu</speaker>
+                    <p><stage>(silitab habet. Mõttes.)</stage> Noh, minu paremad päevad on alles ees.</p>
+                </sp>
+                <sp who="#rikas-sober">
+                    <speaker>Rikas sõber</speaker>
+                    <p><stage>(ei pane onu ütlust tähelegi. Sest mis maksab vaese inimese sõna.)</stage> Nii on asjad. Nüüd pean veel voorimehe võtma, et kraami koju viia. Vaata, kui palju on sekeidust, enne kui sa oma vaevaga teenitud kopikad kätte saad. Kes teab, palju voorimees peaks võtma? Ole hää mees, aita mul voodi ja laud välja tõsta. <stage>(Onu aitab.)</stage> Nii. Ole terve. Ja tee nii, nagu ma ütlesin. Käbedam peab olema, küll siis asjad paranevad. <stage>(Ära. Onu jääb keset tuba seisma.)</stage></p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Mikk.</speaker>
+                    <p>Nüüd ei jäänud meie tuppa mitte midagi. Mitte midagi. Muudkui see haamer ja vanaisa pilt.</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu</speaker>
+                    <p><stage>(mõttes).</stage> Haamer ja vanaisa pilt.... <stage>(Paneb käe Miku õlale ja astub vanaisa pildi ette. Mõlemad vaatlevad vaikides pilti.)</stage> Ja, see on vanaisa. Väike, paljaspääga vanamees oli, küürus ja vimmas, nagu kasejäntrik soo ääres. Aga vali oli ta tööle.<pb n="27"/> Kas sa tead, Mikk, mis vanaisa oma hobusele ütles, kui ta suvistepühade ööl kündis?</p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Mikk.</speaker>
+                    <p>Ei tea.</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu</speaker>
+                    <p>Vanaisa oli siis veel mõisas kandimees. Ja oli päris vaene. Ja jäi tööga hiljaks. Hakkas suvistepühade ööl kündma. Öösise viluga hää künda. Teised külarahvas laulavad ja peavad pillerkaari. Vanaisa künnab. Viimati väsib hobune ära ja jääb seisma. Vanaisa pühib higi palgelt ja ütleb hobusele: "Ära sa kuula ilma lusti, sina muudkui künna."</p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Mikk.</speaker>
+                    <p>Hm... sina muudkui künna. Aga mis siis sai?</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Siis... Ei midagi. Põld sai küntud. Vanaisa kolis pärastpoole linna ja läks vanas põlves päris jõukaks. Kõneldi, tal olla rahagi olnud.</p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Mikk.</speaker>
+                    <p>Hm... Rahagi olnud... Ise oli nagu kasejäntrik. <stage>(Koputab haamriga mängides vastu seina.)</stage> Aga ütle, isa, mispärast sein siit pildi alt kõliseb, kui koputad. <stage>(Koputab uuesti.)</stage> Kuuled?</p>
+                </sp>
+                <pb n="28"/>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Kuulen küll.</p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Mikk.</speaker>
+                    <p>Kõliseb?</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Kõliseb.</p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Mikk.</speaker>
+                    <p>Mis see on?</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Ei tea. <stage>(Võtab Miku käest haamri ja koputab vastu seina.)</stage> Ja, kõliseb, kõliseb. Siin... siin... <stage>(Vajutab tähendatud kohta. Seinasse tekib auk.)</stage></p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Mikk.</speaker>
+                    <p>Oi! <stage>(Onu võtab august savist poti.)</stage> Mis see on?</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Raha.</p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Mikk</speaker>
+                    <p><stage>(võtab mõned rahad pihku ja laseb nad kõlisedes potti tagasi langeda).</stage> Ongi raha. Ja kui palju! Ja kuidas nad läigivad! Isa, kust sai raha siia?</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Küllap vanaisa peitis. Tema läks vanaspõlves jõukaks ja suri äkki. Aga kas tead, Mikk?</p>
+                </sp>
+                <pb n="29"/>
+                <sp who="#mikk">
+                    <speaker>Mikk</speaker>
+                    <p>Noh?</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Meie paremad päevad on alles ees. <stage>(Pildi poole:)</stage> Aitäh, vanaisa!</p>
+                </sp>
+                <sp who="#mikk">
+                    <speaker>Mikk</speaker>
+                    <p><stage>(vaatab aknast välja).</stage> Isa! Isa! Kolm harakat lendasid meie aeda ja vahivad aknast sisse.</p>
+                </sp>
+                <sp who="#onu">
+                    <speaker>Onu.</speaker>
+                    <p>Lase nad olla. See on sinu võõrasema oma tütardega.</p>
+                </sp>
+                <stage>(Eesriie.)</stage>
+            </div>
+        </body>
+    </text>
+</TEI>
