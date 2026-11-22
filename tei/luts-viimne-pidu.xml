@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="est000044" xml:lang="et" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Viimne pidu</title>
+                <title type="sub">Näidend 1 vaatuses</title>
+                <author>
+                    <persName>
+                        <forename>Oskar</forename>
+                        <surname>Luts</surname>
+                    </persName>
+                    <idno type="wikidata">Q2005705</idno>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <ref target="http://www.digar.ee/id/nlib-digar:436031">DIGAR Digital Archive</ref>
+                    <availability>
+                        <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                    </availability>
+                </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>Oskar</forename>
+                            <surname>Luts</surname>
+                            <idno type="wikidata">Q2005705</idno>
+                        </persName>
+                    </author>
+                    <title type="main">Viimne pidu</title>
+                    <title type="sub">Näidend 1 vaatuses</title>
+                    <date when="1919">1919</date>
+                    <publisher>Noor-Eesti kirjastus</publisher>
+                    <pubPlace>Tartu</pubPlace>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1919">
+                        <desc/>
+                    </event>
+                </listEvent>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="piduline-1" sex="MALE">
+                        <name>Esimene piduline</name>
+                    </person>
+                    <person xml:id="piduline-3" sex="MALE">
+                        <name>Kolmas piduline</name>
+                    </person>
+                    <person xml:id="piduline-2" sex="MALE">
+                        <persName>Teine piduline</persName>
+                    </person>
+                    <person xml:id="piduperemees" sex="MALE">
+                        <persName>Piduperemees</persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-11-22">Convert txt to TEI</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <pb n="3"/>
+        <front>
+            <titlePage>
+                <docAuthor>O. LUTS</docAuthor>
+                <docTitle>
+                    <titlePart type="main">VIIMNE PIDU</titlePart>
+                    <titlePart type="sub">NÄIDEND ÜHES VAATUSES</titlePart>
+                </docTitle>
+                <docImprint>
+                    <publisher>NOOR-EESTI KIRJASTUS, </publisher>
+                    <pubPlace>TARTUS </pubPlace>
+                    <docDate>1919</docDate>
+                </docImprint>
+            </titlePage>
+            <pb n="4"/>
+            <pb n="5"/>
+            <castList>
+                <head>Tegelased:</head>
+                <castItem>
+                    <roleDesc>Piduperemees ja pidulised.</roleDesc>
+                </castItem>
+            </castList>
+        </front>
+        <pb n="6"/>
+        <pb n="7"/>
+        <body>
+            <div type="act">
+                <stage>
+                    <p>Siit põgenevad kõik valged vaimud, tumedaile ja kohutavaile maad andes.</p>
+                    <p>See märgade nahktiibade laksumine, mis kostab läbi vaikuse, tähendab nende lendu. Viimsele pidule on nad tulnud. Nad oleksid vähem rõõmsad, kui nad ei teaks, et aeg kätte on jõudnud, kus nad pärivad. Ja, nüüd pärivad nad.</p>
+                    <p>See, kes keedunõu juures toimetab, kallates, solistades, kelle silmad palavikus põlevad, kui ta maitseb, see on nende teenistuses. Ja valmistab pidu joomaaega. Vaadake, missuguse hoolitseva ilmega ta end keedunõu üle kumardab ja keemise porinat kuulab. Vaadake, kui truilt ta igale lahkuvale vedelikutilgale järele vaatab, mis plekktorust savikaussi langeb. Auruks muutub keev vedelik, et hangudes uuesti vedelikuks muutuda. Sellest on inimese vaim kinni haaranud, et enesele pidujoomaaega valmistada. Seda ja muidki kavalaid protsessa on keetjale need õpetanud, kes laksuvate nahktiibadega tema ümber lendlevad.</p>
+                    <p>Suits ja ving keerleb madala keldriruumi poolpimeduses. See sääl nurgas võiks igavesti keeta ja kuulata keemise porinat. Missuguse vilumuseni jõuaks ta omas kunstis. Kui palju teab ta juba praegugi. Kui viletsad on need omas teadmatuses, kes siia täna pidule ilmuvad.<pb n="8"/> Kui vilets on igaüks, kellele teravat vaimu pole antud.</p>
+                    <p>Oi, küll imestavad pidulised. Nüüd vast aimavad nad, mis tähendas öösine tuli piduperemehe kambris.</p>
+                    <p>Tilk tilga järele langeb savikaussi. He, te ei teagi, kui palju võib sel kombel koguda lehkavat vedelikku. Te mõtlete ainult tilga pääle ja vihastate, et seda nii vähe. Aga... kui nad järjekindlalt langevad — ohoo! Mis on silmapilk? Aga kui nad... ohoo! neist saab eluiga.</p>
+                    <p>Kui ainult külalised enne määratud aega ei tuleks. Kärsivad nad määratud tunnini oodata? Nad teavad, et piduperemees korda armastab.</p>
+                    <p>Nagu patuste rahutumad hinged, hiilivad nad kellatorni lähedal ja loevad silmapilke, just kui piduperemees langevaid piisku. Nüüd komistas üks ja vaatas enese ette maha ja arvas sellest igaviku mööda olevat, kus ta ajanäitaja päält silmad ära pööris.</p>
+                    <p>Keetja läheb rahutuks, kuulatab, vaatab ukse poole. Kuid vaikus on. Isegi oma nägemata käskijate tiivalehvitusi ei kuule ta. Aga... aga... nagu igavene paratamatus... kaksteistkümmend tumedat lööki kellatornist. Nüüd tulevad nad.</p>
+                    <p>Tuulehoog väljas. Kust tekkis korraga tuul? Ukselink nõksatas. Kes liigutas ukselinki? Seinas oli kohutav pragin. Kes tungib säält sisse? Wastu akent paisati midagi. Kes teeb sääl rumalat nalja? Sel kombel ei tea, kuhu vaadata. Häda! Keetja on hiljaks jäänud. Nendele, kes tulevad, tahtis ta ainult piduperemees<pb n="9"/> olla, mitte keetja. Hilja! Nad on juba siin lähidal ja lohistavad endid kambrisse nagu rästikud suvisele päikesepaistele.</p>
+                </stage>
+                <sp who="#piduline-1">
+                    <speaker>Esimene piduline</speaker>
+                    <stage>tuleb kambrisse, tõmbab endale lehku ninasse ja hiilib siis piduperemehe poole. Piduperemees astub varjates keedunõu ette ja vaatab üle õla tulija poole.</stage>
+                </sp>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees.</speaker>
+                    <p>Sina! Sa tulid vara.</p>
+                </sp>
+                <sp who="#piduline-1">
+                    <speaker>Esimene piduline.</speaker>
+                    <p>Kell lõi, kell lõi.</p>
+                </sp>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees.</speaker>
+                    <p>Kell lõi. Mine nurka, pööra silmad seina poole.</p>
+                </sp>
+                <sp who="#piduline-1">
+                    <speaker>Esimene piduline.</speaker>
+                    <p>Luba, luba. Lase ma maitsen siit seda...</p>
+                    <stage>(Tähendab savikausi pääle.)</stage>
+                </sp>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees.</speaker>
+                    <p>Mis?</p>
+                </sp>
+                <sp who="#piduline-1">
+                    <speaker>Esimene piduline.</speaker>
+                    <p>Luba, luba, luba. Üks tilk! Üksainsam tilk!</p>
+                </sp>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees.</speaker>
+                    <p>Mine nurka ja pööra silmad seina poole.</p>
+                </sp>
+                <sp who="#piduline-1">
+                    <speaker>Esimene piduline.</speaker>
+                    <p>Üks tilk!</p>
+                </sp>
+                <pb n="10"/>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees.</speaker>
+                    <p>Pärast. Mine!</p>
+                </sp>
+                <sp who="#piduline-1">
+                    <speaker>Esimene piduline</speaker>
+                    <p><stage>(püüab sõrme savikaussi pista)</stage> Nüüd... nüüd... Üksainsam tilk. Mitte rohkem.</p>
+                </sp>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees.</speaker>
+                    <p>Ei. <stage>(Tekib võitlus. Esimene piduline saab käe savikaussi ja lakub ahnelt märga kätt. Piduperemees lööb teda ja tõukab ta maha. Piduline lakub oma märga kätt ja vahib kiirgavail silmil savikausi poole.)</stage></p>
+                </sp>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees.</speaker>
+                    <p>Nurka, nurka! <stage>(Lohistab esimese pidulise nurga poole. Teine piduline tuleb. Piduperemees karjub talle vastu:)</stage> Vara! Sa tulid vara!</p>
+                </sp>
+                <sp who="#piduline-2">
+                    <speaker>Teine piduline.</speaker>
+                    <p>Kell lõi, kell lõi.</p>
+                </sp>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees</speaker>
+                    <p><stage>(esimese pidulise pääle tähendades).</stage> Tule, hoia kinni. Ära lase sinna.</p>
+                </sp>
+                <sp who="#piduline-2">
+                    <speaker>Teine piduline.</speaker>
+                    <p>Jah-jah-jah. <stage>(Hoiab esimest pidulist põrandal kinni.)</stage></p>
+                </sp>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees</speaker>
+                    <p><stage>(Kustutab tule keedunõu alt. Pimedus. Kuulda, kuida keedunõu juures talitatakse.)</stage> Te tulite vara. Te oleksite pidanud ootama.</p>
+                </sp>
+                <pb n="11"/>
+                <sp who="#piduline-2">
+                    <speaker>Teine piduline.</speaker>
+                    <p>Kell lõi, kell lõi.</p>
+                </sp>
+                <sp who="#piduline-1">
+                    <speaker>Esimene piduline.</speaker>
+                    <p>Temal on sääl kausis... Sääl kausis...</p>
+                </sp>
+                <sp who="#piduline-2">
+                    <speaker>Teine piduline.</speaker>
+                    <p>Kausis? On tal sääl?</p>
+                </sp>
+                <sp who="#piduline-1">
+                    <speaker>Esimene piduline.</speaker>
+                    <p>Tsst! Tasa! Tasa! <stage>(Esimene ja teine piduline roomavad tasa kausi poole. Vaikus. Siis kostab piduperemehe karjatus, kes mõlemad pidulised kausi juurest leiab.)</stage></p>
+                </sp>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees.</speaker>
+                    <p>Minema siit! Minema siit! Te joote enne kui on lubatud.</p>
+                </sp>
+                <sp who="#piduline-1">
+                    <speaker>Esimene piduline.</speaker>
+                    <p>Üks tilk! Üks tilk!</p>
+                </sp>
+                <stage>(Kolmas piduline tuleb.)</stage>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees.</speaker>
+                    <p>Sääl tuli veel keegi. Kes sääl on? Kes sääl on? Tee häält!</p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline.</speaker>
+                    <p>Seaduse nimel — hä-hä-hä! <stage>(Tõmbab tuld ja vaatab kambris ringi. Esimene ja teine piduline lamavad kausi lähedal maas ja vaatavad koledas hirmus tulija poole. Piduperemees varjab enese kehaga keeduriista.)</stage> Vaata, vaata, vaata, kui varajased! Hä-hä-hä!</p>
+                </sp>
+                <pb n="12"/>
+                <sp who="#piduperemees #piduline-1 #piduline-2">
+                    <speaker>Piduperemees, esimene ja teine piduline</speaker>
+                    <stage>(korraga).</stage>
+                    <p>Kuidas ta meid hirmutas! Kuidas ta meid hirmutas!</p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline.</speaker>
+                    <p>Hä-hä-hä! Ehk on siin mõni küünal?</p>
+                </sp>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees.</speaker>
+                    <p>Pole vaja tuld. Viska maha tuli. Kuuled!</p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline.</speaker>
+                    <p>Hä-hä-hä! Sa ei ole küllalt viisakas oma võõraste vastu. <stage>(Süütab küünla põlema.)</stage> Nüüd võite mulle näidata, mis teil siin on.</p>
+                </sp>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees.</speaker>
+                    <p>Ära tule siia.</p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline.</speaker>
+                    <p>Kui sul saladusi on, siis pead endale veel ühe kambri üürima ja saladused sinna ära peitma ja ukse lukku käänama. <stage>(Läheb teiste juure.)</stage> Anna siis nüüd, mis lubasid.</p>
+                </sp>
+                <sp who="#piduline-1">
+                    <speaker>Esimene piduline</speaker>
+                    <p><stage>(savikausi pääle tähendades).</stage> Sääl kausis on.</p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline.</speaker>
+                    <p>Ahaa, või siin ongi. <stage>(Nuusutab vedelikku.)</stage> Hä-hä-hä! <stage>(Rüüpab, matsutab suud.)</stage> Ja... Sinule, piduperemees, on hääd vaimuanded antud. Sa peaksid end edasi harima. <stage>(Rüüpab.)</stage> Ja katsuma <stage>(rüüpab)</stage> haljale oksale jõuda.</p>
+                </sp>
+                <pb n="13"/>
+                <sp who="#piduline-1 #piduline-2">
+                    <speaker>Esimene ja teine piduline.</speaker>
+                    <p>Ta joob kõik ära!</p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline.</speaker>
+                    <p>Teie ei pea kadedad olema, kui ligemise käsi hästi käib. Võtke! <stage>(Annab kausi esimese pidulise kätte. See joob ahnelt. Teine külaline ei jõua ära oodata, kuni järg tema kätte jõuab.)</stage></p>
+                </sp>
+                <sp who="#piduline-1">
+                    <speaker>Esimene piduline.</speaker>
+                    <p>Kui saaks nüüd mingisuguse kala kätte.</p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline</speaker>
+                    <stage>(võtab taskust midagi, sööb ise ja viskab esimesele ja teisele pidulisele kummalegi tüki.)</stage>
+                </sp>
+                <sp who="#piduline-1">
+                    <speaker>Esimene piduline.</speaker>
+                    <p>Tal on alati midagi söögipoolist taskus.</p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline</speaker>
+                    <p><stage>(piduperemehele:)</stage> Nüüd joo sina. Siis tee tuli alla ja keeda meile palju jooki.</p>
+                </sp>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees.</speaker>
+                    <p>Sa oled hull! Millal olen mina jooki keetnud?</p>
+                </sp>
+                <sp who="#piduline-1">
+                    <speaker>Esimene piduline.</speaker>
+                    <p>Keetis, keetis. Siia, kaussi, langesid tilgad. <stage>(Aimab pool lauldes tilkade langemist järele:)</stage> Tilk-tilk, tilk-tilk... <stage>(Teisele pidulisele:)</stage> Sa nägid? Eks näinud?</p>
+                </sp>
+                <pb n="14"/>
+                <sp who="#piduline-2">
+                    <speaker>Teine piduline.</speaker>
+                    <p>Nägin.</p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline</speaker>
+                    <p><stage>(piduperemehele:)</stage> Kuuled! Hä-hä-hä!</p>
+                </sp>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees.</speaker>
+                    <p>Ta ei tohi sellest kõnelda.</p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline.</speaker>
+                    <p>Joo, siis tulevad sulle paremad mõtted. Su vaim läheb ergaks ja sa hakkad oma kaasinimesi vähem kahtlustama.</p>
+                </sp>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees.</speaker>
+                    <p>Te ei tohi sellest kõnelda. <stage>(Joob.)</stage></p>
+                </sp>
+                <sp who="#piduline-1">
+                    <speaker>Esimene piduline.</speaker>
+                    <p>Siis tuleme igal õhtul siia kokku ja keedame palju jooki ja oleme hääd sõbrad. Ja ei ütle kellelegi sõnagi. <stage>(Teisele pidulisele:)</stage> Kuuled, mitte ühte sõnagi. Küll on siis hää elada. Kuidas kõik elu tagasi tuleb, just kui oleksid kondid jäätusest lahti sulanud. Niisugune hää tundmus ihus... <stage>(Endiselt:)</stage> Tilk-tilk, tilk-tilk...</p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline</speaker>
+                    <p><stage>(joob kausist).</stage> Ja, piduperemees, sulle on terav vaim antud. Sa peaksid end edasi harima — <stage>(Rüüpab.)</stage></p>
+                </sp>
+                <sp who="#piduline-1">
+                    <speaker>Esimene piduline.</speaker>
+                    <p>— et haljale oksale jõuda. Ma just praegu pidin ütlema. <stage>(Võtab kausi, joob.)</stage> Kui saaks nüüd —</p>
+                </sp>
+                <pb n="15"/>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline.</speaker>
+                    <p>— mingisuguse kala kätte. Ma just praegu pidin ütlema. <stage>(Viskab esimesele pidulisele leivatüki.)</stage> Nüüd teeme tule alla ja katsume... haljale oksale jõuda.</p><stage><p>(Teeb tule keedunõu alla. Suur vaikus tekib. Kaheksa palavikust läikivat silma vahivad keedunõu pääle ja ootavad. Mustad linnud nende pääde kohal laksutavad omi nahkseid tiibu, suured ämblikud kujuvad nägematuid võrke nende ümber. Seintel liiguvad ähvardavad varjud. Esimese pidulise vaimusilma ette kerkib aegajalt suur kala, mille ta kunagi noorespõlves kinni püüdnud. Selle kala pääle mõeldes nutab ta praegu. Kuidas ta punasist silmist tumedad pisarad veerevad hallile, hõredale habemele! Kui jõuetult liiguvad ta kõhnad lõuapärad süües! Äkki hüppab ta mõte savikausi pääle. Just kui unenägu! Just kui unenägu! Siis tuleb talle veel midagi meele... Sääl oli kord... Ah, ükskõik, ükskõik...!</p>
+                        <p>Teine piduline on noor. Ta varastaks... Ja, õieti peaks ta öösel tulema ja ära viima selle keedunõu ja selle plekktoru ja kausi ja... Ja kui kuidagi võimalik oleks, siis teeks enese nägematuks, ehk lendaks välgukiirusel ühest ilma otsast teise, ja... Harilikud elutingimused on rasked.</p>
+                        <p>Kolmandale pidulisele on terav vaim antud: ta tahab kunsti ära õppida. Pisikesed, mustad silmad vahivad uurides keedunõu.</p>
+                        <p>Piduperemees on kurb. Õieti peaks ta ära kiskuma omad kõrvad pääst. Mis needmine oli see, et ta tornikella lööke ei kuulnud?)</p>
+                    </stage>
+                </sp>
+                <pb n="16"/>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees.</speaker>
+                    <p>Mitte nii käredat tuld! Ta võib lõhki minna.</p>
+                </sp>
+                <sp who="#piduline-1">
+                    <speaker>Esimene piduline.</speaker>
+                    <p>Tasa! Ta võib lõhki minna.</p>
+                </sp>
+                <sp who="#piduline-2">
+                    <speaker>Teine piduline</speaker>
+                    <stage>(taganeb keedunõu juurest eemale).</stage>
+                </sp>
+                <sp who="#piduline-1">
+                    <speaker>Esimene piduline</speaker>
+                    <p><stage>(toru pääle tähendades:)</stage> Näe! Näe! Jumaluke!</p>
+                </sp>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees.</speaker>
+                    <p>Mis on? Tilgub?</p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline.</speaker>
+                    <p>Kauss alla! Kauss alla!</p>
+                </sp>
+                <sp who="#piduline-1">
+                    <speaker>Esimene piduline</speaker>
+                    <p><stage>(kaussi toru alla seades).</stage> Jumaluke, mis inimese vaim kõik välja ei arva!</p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline.</speaker>
+                    <p>Hä-hä-hä!</p>
+                </sp>
+                <sp who="#piduline-1">
+                    <speaker>Esimene piduline.</speaker>
+                    <p>Mis nad kõik välja ei arva! Kui ma veel noor olin —</p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline.</speaker>
+                    <p>Tasa! Olge vait! Haarle tahab oma esimesest armastusest kõnelda. Kõnele, kõnele, Haarle.</p>
+                </sp>
+                <pb n="17"/>
+                <sp who="#piduline-1">
+                    <speaker>Esimene piduline.</speaker>
+                    <p>Tilgub, tilgub. Vaadake ometi, kui tilgub. Nüüd tuleme igal õhtul siia kokku ja keedame. Ja oleme hääd sõbrad. Ja ei ütle kellelegi sõnagi. <stage>(Teisele pidulisele:)</stage> Kuuled, mitte ühte sõna. Aga igal õhtul tuleme. <stage>(Kükitab keedunõu juures ja vaatleb vaikse imestusega tilkade langemist. Teine piduline loeb keedunõu lõhkemise ainult ajaküsimuseks ja hoiab end esimese pidulise varju.)</stage></p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline</speaker>
+                    <p><stage>(mõttes tulle vahtides).</stage> Ja, ja, nüüd tuleme igal õhtul ja hommikul. Nüüd algab igavene pidu, mille sarnast pole nähtud enne, ega nähta pärast. Igal ööl läheb see <stage>(teine piduline)</stage> ja toob meile puid, millega kütta. Mis sa ütlesid, Haarle? Tahaks mingisugust kala?</p>
+                </sp>
+                <sp who="#piduline-1">
+                    <speaker>Esimene piduline.</speaker>
+                    <p>Igavene pidu! Igavene pidu! Näe, kui tilgad langevad. Nagu pärlite rida niriseb kaussi. Tilk-tilk, tilk-tilk...</p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline.</speaker>
+                    <p>Ära rooma nii ligi, Haarle!</p>
+                    <stage>
+                        <p>(Hüütav tõmbab enese tagasi ja avaldab inisedes rahulolematust. Aga mustad linnud lendlevad piduliste pääde kohal ja ikka väiksemaks jäävad nende ringid. Nägematu võrk muutub tihedamaks. Pidulised algavad ümisedes kiidulaulu unustusele ja silmapilgu rõõmule. Esiteks kütja, valguse ja varjude mängus, siis Haarle, sügavas aukar<pb n="18"/>tuses imede ees, siis noormees tema selja taga, aralt niuksudes. Piduperemees kuulatab keemise porinat; keegi teine ei saa aru keedunõu imelikust jutust pääle tema, ja see on ainus saladus, mis talle alles jäänud. Nagu oigamine tungib ta rinnust ja sulab ühte piduliste kiidulauluga. Nad tervitavad oma Pärisperemeest, igavese pidu illusioonis. Nad ei pea teadma, millal ja kus nad nägematuile tiivule tõsteti ja teise randa kanti.</p>
+                        <p>Korraga haarab esimene piduline savikausi ja joob kogunud vedelikku ahnete sõõmudega. Teised kolm kargavad ta kallale ja kisuvad kausi ära. Jooja langeb kummuli maha.)</p>
+                    </stage>
+                </sp>
+                <sp who="#piduline-2 #piduline-3 #piduperemees">
+                    <speaker>Hääled</speaker>
+                    <p><stage>(läbisegamini).</stage> Viime ta välja! Viime ta välja! <stage>(Esimene piduline kantakse välja ja tullakse tagasi keedunõu juure.)</stage></p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline.</speaker>
+                    <p>Nüüd peame seda kõvemini kütma, et kaotatud joomaaega tagasi võita. <stage>(Lisab puid keedunõu alla.)</stage></p>
+                </sp>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees.</speaker>
+                    <p>Mitte liiga palju tuld! Ta võib lõhkeda.</p>
+                </sp>
+                <sp who="#piduline-2">
+                    <speaker>Teine piduline.</speaker>
+                    <p>Tasa! Ta võib lõhkeda.</p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline.</speaker>
+                    <p>Ta võib ka mitte lõhkeda. <stage>(Võtab põleva tuki ja ähvardab teist pidulist lüüa.)</stage> Lõhkes! Juba lõhkes!</p>
+                </sp>
+                <pb n="19"/>
+                <sp who="#piduline-2">
+                    <speaker>Teine piduline</speaker>
+                    <stage>(poeb hirmuga nurka).</stage>
+                </sp>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees.</speaker>
+                    <p>See mäng võib ära jääda. Ajate mul kõik põlema ja teete tulekahju.</p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline</speaker>
+                    <p><stage>(valgustab tukiga piduperemehe jalgu).</stage> Kui karvased jalad sul, Päärd? Sul on hää mesilaste õnn. See siin <stage>(keedunõu)</stage> on see suur mesipuu. Kuuled, kuidas nad sääl sees pinisevad... mesilased... ja valmistavad joomaaega, mis on magusam kui mesi. <stage>(Teise pidulise poole tähendades:)</stage> Pane tähele... see sääl nurgas... on vaikseks jäänud. <stage>(Paneb tuki keedunõu alla tagasi.)</stage></p>
+                </sp>
+                <sp who="#piduline-2">
+                    <speaker>Teine piduline</speaker>
+                    <p><stage>(võtab pudeli suu juurest).</stage> Ja kui ma komistasin ja kukkusin, siis leidsin ühe —</p>
+                </sp>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees.</speaker>
+                    <p>Siia see pudel! <stage>(Kisub pudeli teise pidulise käest ära ja tuleb keedunõu juure tagasi.)</stage> Kuidas nad nurkades roomavad ja otsivad!</p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline</speaker>
+                    <p><stage>(teisele:)</stage> Ära tule siia ligi. Ta läheb praegu lõhki. <stage>(Teine piduline taganeb uuesti.)</stage> Ole kaugemal, siis jääd ellu ja võid pärast ütelda: Kadunud olid viinavõtjad. Kadunud olid viina sõbrad. Kadunud tarvitasid<pb n="20"/> alkohooli. Hähähä! <stage>(Võtab piduperemehe käest pudeli.)</stage> Ma nägin imeilusat und.</p>
+                </sp>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees.</speaker>
+                    <p>Mis und sa nägid?</p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline.</speaker>
+                    <p>Ma nägin imeilusat und: ma olin joobnud. Hähähä!</p>
+                </sp>
+                <sp who="#piduline-2">
+                    <speaker>Teine piduline.</speaker>
+                    <p>Oi, ka mina nägin...</p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline.</speaker>
+                    <p>Mis nägid sina? Ära tule lähemale, ta läheb praegu lõhki. Ütle säält: mis sa nägid?</p>
+                </sp>
+                <sp who="#piduline-2">
+                    <speaker>Teine piduline.</speaker>
+                    <p>Ma nägin kuradit.</p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline.</speaker>
+                    <p>Sa nägid kuradit? Hoho, siis peab liiku jooma. Tule, joo.</p>
+                </sp>
+                <sp who="#piduline-2">
+                    <speaker>Teine piduline</speaker>
+                    <p><stage>(tuleb, joob).</stage> Minu pää tahab parandust.</p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline.</speaker>
+                    <p>See on haib pää, mis alati parandust tahab. Mine nüüd, ta läheb praegu lõhki.</p>
+                </sp>
+                <sp who="#piduline-2">
+                    <speaker>Teine piduline</speaker>
+                    <p><stage>(poeb tagasi nurka. Säält kostab inisemine, võib olla, nutt; võib olla, oiged; võib olla,<pb n="21"/> laul. Selle häälega ühineb piduperemehe ja kolmanda pidulise ümin. Korra nagu puudutas kellegi nahkne tiib küünla tuld. Nende lennutiirud vähenevad. Siis hakkab teine piduline kõnelema. Piduperemees ja kolmas piduline vaikivad äkki ja vaatavad üksisilmi nurga poole.)</stage> Meilt läksid iga päev pikad voorid mööda. Suured, punased vaadid lamasid vankritel ja regedel. Valged päälkirjad olid nagu rähmased silmad. Kuidas siis hobused katkestades pikaks venisid, nagu oleks nendega nelja kihutatud. Aga nad liikusid vaevalt paigast. Nagu ei mäletaks ma... Mäletan nende veriseks hõõrutud kaelu, vahutavaid külgi ja higiauru nende selgade kohal. Nad olid nii kõhnad, et nende ribisid võis lugeda. Ja vorbid piitsalöökidest... vorbid... vorbid igal pool... Ka minul on vorbid... Mul oli ka üks isa, see... <stage>(Ta kõne lõpeb korisemisega. Ta langeb maha.)</stage></p>
+                </sp>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees</speaker>
+                    <p><stage>(keedunõu kallal toimetades).</stage> Vorbid... Ta ütles, vorbid... Hm... Peaks vaatama, mis teeb Haarle väljas.</p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline.</speaker>
+                    <p>Haarle näeb imeilusat und. <stage>(Teisele pidulisele:)</stage> Mine vaata, mis teeb Haarle väljas. Kuuled? <stage>(Teine piduline ei vasta.)</stage> Ta ei kuule enam. <stage>(Läheb teise pidulise juure.)</stage> Kuuled? Hähähä! See õhk ja see aur on sulle kahjulik. <stage>(Lohistab ta uksest välja.<pb n="22"/> Tuleb mõne silmapilgu pärast kambrisse tagasi.)</stage> Haarle on külm.</p>
+                </sp>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees.</speaker>
+                    <p>Külm? Haarle on külm? Miks on Haarle külm?</p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline.</speaker>
+                    <p>Sellepärast, et ta ei ole soe. Ta võib olla ainult soe või külm; vahepäälist ei ole. Haarle ei taha enam mingisugust joomaaega, ega mingisugust kala. Hähähä! <stage>(Joob kausist.)</stage></p>
+                </sp>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees.</speaker>
+                    <p>Sa teed rumalat nalja.</p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline.</speaker>
+                    <p>Kas ei ole see sulle ükskõik. Su päämure olgu see surutõrs, või mesipuu, kus mesilased nii imeliselt pinisevad ja teevad joomaaega, mis on magusam kui mesi. Hähähä!</p>
+                </sp>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees.</speaker>
+                    <p>Ära naera nii...</p>
+                </sp>
+                <sp who="#piduline-3">
+                    <speaker>Kolmas piduline</speaker>
+                    <p><stage>(naerab uuesti).</stage> Miks ei peaks ma naerma, kui... kui Haarle siin kausi juures istub ja... <stage>(Teeb liigutuse, nagu tahaks ta Haarle kaela ümbert kinni võtta.)</stage> Haarle, kui saaks nüüd mingisuguse — <stage>(Näeb, et ta tühja<pb n="23"/> õhku on kahmanud.)</stage> Ma pean vaatama, mis teeb see, kes... <stage>(langeb maha)</stage> kes keedunõu lõhkemist kartis. <stage>(Roomab uksest välja.)</stage></p>
+                </sp>
+                <sp who="#piduperemees">
+                    <speaker>Piduperemees</speaker>
+                    <p><stage>(vaatab vargsi ringi. Joob siis ahnelt savikausist. Kuulatab).</stage> Siin toas on veel keegi. Siin on veel keegi. <stage>(Karjub:)</stage> Tule välja! <stage>(Kuulatab.)</stage> Oi, nad tulevad tihedalt, nagu parv! <stage>(Sirutab käed, nagu kaitseks, ettepoole välja.)</stage> Kuidas nad mulle oma tiibadega vastu silmi peksavad! <stage>(Tõrjub nähtusi eemale.)</stage> Appi! Appi! <stage>(Jookseb välja, aga tuleb mõne silmapilgu järele tagasi. Kõneleb saladuslikult.)</stage> Nad on sääl kõik külmad. Kõik külmad. Kõik külmad. <stage>(Langeb maha. Tuli keedunõu all kustub pikkamisi. Mõni üksik tilk langeb savikaussi. Kellegi nägemata käsi kustutab küünla. Siis on vaikus ja pilkane pimedus.)</stage></p>
+                </sp>
+                <stage>(Eesriie.)</stage>
+            </div>
+        </body>
+    </text>
+</TEI>
