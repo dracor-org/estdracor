@@ -88,6 +88,12 @@
                     <person xml:id="onu" sex="MALE">
                         <persName>Onu</persName>
                     </person>
+                    <listRelation>
+                        <relation name="spouses" mutual="#onu #onunaine"/>
+                        <relation name="parent_of" active="#onu" passive="#mikk"/>
+                        <relation name="parent_of" active="#onunaine" passive="#onutuetar-1 #onutuetar-2"/>
+                        <relation name="friends" mutual="#onu #rikas-sober"/>
+                    </listRelation>
                 </listPerson>
             </particDesc>
             <textClass>
