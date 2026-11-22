@@ -124,6 +124,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2026-09-02">Update formatting</change>
+                <change when="2026-11-22">Correct punctuation location</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -212,8 +213,8 @@
                 <stage>Toa kolmest uksest kaks on tagaseinas: üks lauast pahemal — kuningale, teine peaaegu paremas nurgas — teenritele. Kolmas uks, kust tulevad ülemad, asetseb paremas seinas.</stage>
                 <stage>Eesriide kerkides põleb laual küünal ja noorteener Mathias tõstab toole laua äärde. Kostab vali koputus paremalt tagaseina ukselt, aga noorteener ei võta seda kuuldavakski. Alles kui uks hakkab mürtsuma, läheb ta aeglasel sammul avama.)</stage>
                 <sp who="#narr">
-                    <speaker>NARR.</speaker>
-                    <stage>(astub sisse, kummaski käes haruline küünlajalg süütamata küünaldega; valgete juustega, kõhn ja kortsunud nägu; räägib vanainimeslikult pisut sosinal ja tödinal, siiski arusaadavalt; samm käbe, kuid kangete liikmete tõttu lohisev)</stage>
+                    <speaker>NARR</speaker>
+                    <stage>(astub sisse, kummaski käes haruline küünlajalg süütamata küünaldega; valgete juustega, kõhn ja kortsunud nägu; räägib vanainimeslikult pisut sosinal ja tödinal, siiski arusaadavalt; samm käbe, kuid kangete liikmete tõttu lohisev).</stage>
                     <p>Miks sa kohe ei avanud, kui ma koputasin?</p>
                 </sp>
                 <sp who="#mathias">
@@ -266,8 +267,8 @@
                     <p>Õieti oleksin mina pidanud kuningas olema, aga saatusemäng otsustas teisiti. Kui me kuningaga alles noored olime, kangelast mängisime ja röövimisest elasime, siis ei teadnud keegi, kas või kes meist kuningaks saab. Meis oli ainult nii palju vahet, et mina mõtlesin ja kavatsesin, tema tegutses. Nõnda saigi temast ühel ilusal päeval kuningas ja minust kojanarr ning teener. Millalgi ütles kuningas selle kohta: tead, Joosep, on hea, et sa kuningaks ei saand, sul poleks ühtegi nii truud teenrit olnud, nagu oled sina, ja nõnda oleksime mõlemad võllas kõikunud.</p>
                 </sp>
                 <sp who="#mathias">
-                    <speaker>NOORTEENER.</speaker>
-                    <stage>(uskumatult)</stage>
+                    <speaker>NOORTEENER</speaker>
+                    <stage>(uskumatult).</stage>
                     <p>Ütles kuningas tõesti nõnda?</p>
                 </sp>
                 <sp who="#narr">
@@ -299,8 +300,8 @@
                     <p>Sureb narr, siis sureb ka kuningakoda. Viimase narriga kaob viimne kuningas.</p>
                 </sp>
                 <sp who="#mathias">
-                    <speaker>NOORTEENER.</speaker>
-                    <stage>(pilkavalt)</stage>
+                    <speaker>NOORTEENER</speaker>
+                    <stage>(pilkavalt).</stage>
                     <p>Narr, seda peaksid sa kuningale endale ütlema.</p>
                 </sp>
                 <sp who="#narr">
@@ -324,13 +325,13 @@
                     <p>Kuningas on ainult oma narri vastu armuline.</p>
                 </sp>
                 <sp who="#mathias">
-                    <speaker>NOORTEENER.</speaker>
-                    <stage>(astub akna juurde)</stage>
+                    <speaker>NOORTEENER</speaker>
+                    <stage>(astub akna juurde).</stage>
                     <p>Kas võiks akna avada, kuumus tapab ära?</p>
                 </sp>
                 <sp who="#narr">
-                    <speaker>NARR.</speaker>
-                    <stage>(ärevalt)</stage>
+                    <speaker>NARR</speaker>
+                    <stage>(ärevalt).</stage>
                     <p>Jumalapärast, seda mitte!</p>
                 </sp>
                 <sp who="#mathias">
@@ -371,8 +372,8 @@
                     <p>Ma ei tahaks kunagi kuningaks saada, kui peaksin alati külmetama.</p>
                 </sp>
                 <sp who="#narr">
-                    <speaker>NARR.</speaker>
-                    <stage>(irooniliselt)</stage>
+                    <speaker>NARR</speaker>
+                    <stage>(irooniliselt).</stage>
                     <p>Jumal on armuline, ta hoiab sind selle külma eest. Aga aeg on uksed avada ja mina pean kuninga juurde tõttama. <stage>(Pöördub minema, aga peatub ja ütleb:)</stage> Ah jaa! Noorteener, mis öeldud, jääb meie vahele, sest see on riiklik saladus.</p>
                 </sp>
                 <sp who="#mathias">
@@ -380,8 +381,8 @@
                     <p>Pean meeles, et riiklik saladus. <stage>(Avab parema seina ukse ja jääb uksest pisut tagapool kivinenult seisma.)</stage></p>
                 </sp>
                 <sp who="#hueveuelem">
-                    <speaker>HÜVEÜLEM.</speaker>
-                    <stage>(tuleb esimesena, seisatab, vaatab ringi, näeb noorteenrit)</stage>
+                    <speaker>HÜVEÜLEM</speaker>
+                    <stage>(tuleb esimesena, seisatab, vaatab ringi, näeb noorteenrit).</stage>
                     <p>Miks on ruumid nii kuumad? Südasuvel ahjud köetud!</p>
                 </sp>
                 <sp who="#mathias">
@@ -405,8 +406,8 @@
                     <p>Seda ei või ma teada, härra hüveülem.</p>
                 </sp>
                 <sp who="#kirjauelem">
-                    <speaker>KIRJAÜLEM.</speaker>
-                    <stage>(astub sisse)</stage>
+                    <speaker>KIRJAÜLEM</speaker>
+                    <stage>(astub sisse).</stage>
                     <p>Mis pöörane kuumus siin täna on?</p>
                 </sp>
                 <sp who="#hueveuelem">
@@ -414,8 +415,8 @@
                     <p>Noorteener ütleb, kuumus olevat riiklik saladus. Narr käskinud ahjud kütta.</p>
                 </sp>
                 <sp who="#kirjauelem">
-                    <speaker>KIRJAÜLEM.</speaker>
-                    <stage>(naerab)</stage>
+                    <speaker>KIRJAÜLEM</speaker>
+                    <stage>(naerab).</stage>
                     <p>Narr on ogaraks läinud. <stage>(Teenrile.)</stage> Kus ta ise on?</p>
                 </sp>
                 <sp who="#mathias">
@@ -431,8 +432,8 @@
                     <p>See on minu seisus. Ma kaitsen kuningakoja au.</p>
                 </sp>
                 <sp who="#vaeeuelem">
-                    <speaker>VÄEÜLEM.</speaker>
-                    <stage>(astub sisse)</stage>
+                    <speaker>VÄEÜLEM</speaker>
+                    <stage>(astub sisse).</stage>
                     <p>Kuningas on täna meid vist sauna kutsunud. Mul mädaneb munder selga, kui ma siia kauemaks jään. <stage>(Naer.)</stage> Milleks see teener siin?</p>
                 </sp>
                 <sp who="#hueveuelem">
@@ -444,13 +445,13 @@
                     <p>Sellest saab uus narr, kui vana sureb.</p>
                 </sp>
                 <sp who="#karjauelem">
-                    <speaker>KARJAÜLEM.</speaker>
-                    <stage>(tuleb uksest)</stage>
+                    <speaker>KARJAÜLEM</speaker>
+                    <stage>(tuleb uksest).</stage>
                     <p>Kuningakojas on kuum, nii et võiksid lennata parmud ja kiilid, nagu väljaski! Mis see ometi tähendab?</p>
                 </sp>
                 <sp who="#hueveuelem #vaeeuelem #kirjauelem">
-                    <speaker>HÜVEÜLEM, VÄEÜLEM, KIRJAÜLEM.</speaker>
-                    <stage>(sõrm põiki suul)</stage>
+                    <speaker>HÜVEÜLEM, VÄEÜLEM, KIRJAÜLEM</speaker>
+                    <stage>(sõrm põiki suul).</stage>
                     <p>Ts-s! Tasem! Riiklik saladus! <stage>(Kõik naeravad peale teenri.)</stage></p>
                 </sp>
                 <sp who="#kirjauelem">
@@ -495,13 +496,13 @@
                     <p>Noh, siis peab narrilt küsima, milleks me selle kuumaga siin. <stage>(Avaneb uks tagaseinas pahemal; sisse astuvad kaks kirvemeest ja jäävad kummalgi pool ust seisma. Kõik pöörduvad sinna, oodates kuningat, aga sisse astub narr, süles vaip ja padjad. Liikumine. Tahetakse narrile vastu minna, aga see jääb tähtsalt seisma ja ütleb: "Kuningas tuleb!" Kõik tõmbuvad tagasi, jäädes ootama.)</stage></p>
                 </sp>
                 <sp who="#kuningas">
-                    <speaker>KUNINGAS.</speaker>
-                    <stage>(suur, tüse, atleetilise kehaehitusega, kuid vana; pea kui kaalikas, aga seda ei näe, sest ta on kaetud karusnahku mütsiga; astub tätsates jalalt jalale, lähenedes aeglaselt kõrgendile, mis laua otsas; jalas kõrged pehmed soojad kingad, seljas suur kasukas, mille varrukatesse upuvad käed; kaelas sall. Kõrgendi juures võtab narr kuningal käe alt kinni ja aitab ta aujärjele, kus kohendab ta ümber padjad ja mässib jalad põlvini vaipa. Pärast seda jääb ta tooli taha seisma, mis varjab ta peaaegu täiesti. Noorteener väljub paremalt tagaseina uksest)</stage>
+                    <speaker>KUNINGAS</speaker>
+                    <stage>(suur, tüse, atleetilise kehaehitusega, kuid vana; pea kui kaalikas, aga seda ei näe, sest ta on kaetud karusnahku mütsiga; astub tätsates jalalt jalale, lähenedes aeglaselt kõrgendile, mis laua otsas; jalas kõrged pehmed soojad kingad, seljas suur kasukas, mille varrukatesse upuvad käed; kaelas sall. Kõrgendi juures võtab narr kuningal käe alt kinni ja aitab ta aujärjele, kus kohendab ta ümber padjad ja mässib jalad põlvini vaipa. Pärast seda jääb ta tooli taha seisma, mis varjab ta peaaegu täiesti. Noorteener väljub paremalt tagaseina uksest).</stage>
                     <p>Härrad ülemad, palun kohtadele asuda. Kel soe hakkab, ajagu kuub seljast maha, oleme ju isekeskis, tehke, nagu oleksite kodus.</p>
                 </sp>
                 <sp who="#narr">
-                    <speaker>NARR.</speaker>
-                    <stage>(ilmub tooli tagant kuninga paremale käele)</stage>
+                    <speaker>NARR</speaker>
+                    <stage>(ilmub tooli tagant kuninga paremale käele).</stage>
                     <p>Kui kõrge koda kuued maha ajab, siis kaovad seisused, ametid ja au. Eriti on see hädaohtlik väeülemale ja ülempreestrile.</p>
                 </sp>
                 <sp who="#kuningas">
@@ -542,8 +543,8 @@
                     <p>Olen kõik prohvetid ja kuulutajad vagaks teinud, pokri pistnud või maalt välja saatnud, pean ma nende libedale keelele uuesti voli andma?</p>
                 </sp>
                 <sp who="#narr">
-                    <speaker>NARR.</speaker>
-                    <stage>(ilmub aujärje tagant)</stage>
+                    <speaker>NARR</speaker>
+                    <stage>(ilmub aujärje tagant).</stage>
                     <p>Kuningas, milleks prohvetid ja kuulutajad, aitab sellestki, kui narr ja ülemad räägivad. Pealegi kõik paremad prohvetid ja kirjatundjad on demokraadid, nad hoiavad enamuse ja võimu poole. Kuis tahate neilt mässu loota? Kuningas peaks ülempreestrilt nõu küsima.</p>
                 </sp>
                 <sp who="#kuningas">
@@ -551,8 +552,8 @@
                     <p>Ootame ülempreestri arvamust.</p>
                 </sp>
                 <sp who="#uelempreester">
-                    <speaker>ÜLEMPREESTER.</speaker>
-                    <stage>(tõuseb ja hakkab kuue nööpe kinni panema; narr tõttab teda aitama)</stage>
+                    <speaker>ÜLEMPREESTER</speaker>
+                    <stage>(tõuseb ja hakkab kuue nööpe kinni panema; narr tõttab teda aitama).</stage>
                     <p>Soe ja külm on jumala käes, oh kuningas. Peaks teda paluma. Rahvas tuleks pühakodadesse kokku kutsuda ühisele palvele. Kui see ei aita, siis teab ainult jumal ise, mis võiks aidata.</p>
                 </sp>
                 <sp who="#vaeeuelem">
@@ -564,8 +565,8 @@
                     <p>Aga sõjad tõukavad troonid ümber ja pühivad kuningakojad maa pealt.</p>
                 </sp>
                 <sp who="#kuningas">
-                    <speaker>KUNINGAS.</speaker>
-                    <stage>(nukralt)</stage>
+                    <speaker>KUNINGAS</speaker>
+                    <stage>(nukralt).</stage>
                     <p>Kui on rahval häda, siis leiate ikka abi, olgu kõnede, mängude, söömingute, joomingute, paraadide ja rongikäikude korraldamisega või vanglate laiendamise ja tapakirve teritamisega, aga kui kuningas teilt abi palub, siis peab ta tühjalt ära minema.</p>
                 </sp>
                 <sp who="#hueveuelem">
@@ -577,8 +578,8 @@
                     <p>Aga ehk tead sina, narr, mis võiks kuningat soendada?</p>
                 </sp>
                 <sp who="#narr">
-                    <speaker>NARR.</speaker>
-                    <stage>(ilmub aujärje tagant kuninga paremale käele)</stage>
+                    <speaker>NARR</speaker>
+                    <stage>(ilmub aujärje tagant kuninga paremale käele).</stage>
                     <p>Terav tapakirves ravib kuningaid samuti nagu alamaidki, aga kahjuks pole meil veel kuningate tapakirve peavalitsust.</p>
                 </sp>
                 <sp who="#kirjauelem">
@@ -654,8 +655,8 @@
                     <p>Armuline kuningas, sul on demokraatlik riik ja rahvas ja sellepärast peavad alamad elama nagu ülemad. Kui nüüd ülemad prassivad, nagu poleks ülempreestrit ja ususeadust olemaski, siis peavad ometi alamad sedasama tegema ja mina kui hüveülem tunnen püha kohustust selle eest hoolitseda, et alamad võiksid elada nagu ülemad. Ometi arvan ma, et peahäda pole hüves, vaid hariduses, sest see on see haputainas, mis...</p>
                 </sp>
                 <sp who="#kirjauelem">
-                    <speaker>KIRJAÜLEM.</speaker>
-                    <stage>(vahele)</stage>
+                    <speaker>KIRJAÜLEM</speaker>
+                    <stage>(vahele).</stage>
                     <p>Mina protesteerin!</p>
                 </sp>
                 <sp who="#kuningas">
@@ -667,8 +668,8 @@
                     <p>Mina protesteerin harimatuse vastu, sest hüveülem on harimata inimene — ta ei tunne kreeka ja ladina keelt. Tema arvab, et ohlokraatia...</p>
                 </sp>
                 <sp who="#hueveuelem">
-                    <speaker>HÜVEÜLEM.</speaker>
-                    <stage>(hüüab vahele)</stage>
+                    <speaker>HÜVEÜLEM</speaker>
+                    <stage>(hüüab vahele).</stage>
                     <p>Seltsimees kirjaülem, seda sõna hääldatakse inglise keele järgi aristokraatia! <stage>(Naer.)</stage></p>
                 </sp>
                 <sp who="#kirjauelem">
@@ -680,8 +681,8 @@
                     <p>Kultuurilises demokraatias on see tõepoolest raske. <stage>(Naer.)</stage></p>
                 </sp>
                 <sp who="#kuningas">
-                    <speaker>KUNINGAS.</speaker>
-                    <stage>(tõstab kasukakäise, vaikus)</stage>
+                    <speaker>KUNINGAS</speaker>
+                    <stage>(tõstab kasukakäise, vaikus).</stage>
                     <p>Mu härrad, asja juurde. Sõna on hüveülemal, kes tahtis rääkida hariduse haputainast.</p>
                 </sp>
                 <sp who="#hueveuelem">
@@ -689,8 +690,8 @@
                     <p>Hariduse haputainas laostab kõlbluse. <stage>(Hüüded: "Kuulge,<pb n="10"/> kuulge! Häbi! Tohoh!")</stage> Ülempreester annab rahvale usu...</p>
                 </sp>
                 <sp who="#uelempreester">
-                    <speaker>ÜLEMPREESTER.</speaker>
-                    <stage>(vahele)</stage>
+                    <speaker>ÜLEMPREESTER</speaker>
+                    <stage>(vahele).</stage>
                     <p>Usu annab jumal.</p>
                 </sp>
                 <sp who="#hueveuelem">
@@ -739,8 +740,8 @@
                     <p>Just minu arvamine. Inimene vahetab sõnu, mitte mõisteid, ja uute sõnade arv kasvab meil, jumal tänatud, suure kiirusega. Nii et usu ja kleidimoodide pärast ei maksa kuningal põrmugi muretseda.</p>
                 </sp>
                 <sp who="#kirjauelem">
-                    <speaker>KIRJAÜLEM.</speaker>
-                    <stage>(jätkates)</stage>
+                    <speaker>KIRJAÜLEM</speaker>
+                    <stage>(jätkates).</stage>
                     <p>Mis aga naistesse tõesti laostavalt mõjub, on hiilgavad mundrid, mis lähevad aina hiilgavamaks. Selles patustab kõigepealt seltsimees väeülem, kes on koondanud palgasõdurid kuningalinna ja tema ümbrusse.</p>
                 </sp>
                 <sp who="#vaeeuelem">
@@ -854,13 +855,13 @@
                     <p>Propagandaga kuningale naist otsida tähendaks viimaste naiste maalt linna meelitamist. Aga kuna praegugi maad jäävad sööti tööliste puudusel ja rahvas elatab end soodes ja rabades, mida riik temale kuivatab ja harib, siis võiks uus naiste vool linna, kus neid niikuinii ülearu, riigile saatuslikuks saada.</p>
                 </sp>
                 <sp who="#vaeeuelem">
-                    <speaker>VÄEÜLEM.</speaker>
-                    <stage>(vahele)</stage>
+                    <speaker>VÄEÜLEM</speaker>
+                    <stage>(vahele).</stage>
                     <p>Ülearused naised on kõlbluse kaitsevalliks noorte nekrutite vastu, kes tulevad iga aasta kuningalinna. See on pahe, mis sünnitab vooruse.</p>
                 </sp>
                 <sp who="#polluuelem">
-                    <speaker>PÕLLUÜLEM.</speaker>
-                    <stage>(jätkates)</stage>
+                    <speaker>PÕLLUÜLEM</speaker>
+                    <stage>(jätkates).</stage>
                     <p>Seltsimehel väeülemal võib õigus olla, aga naisi on kuningalinnas ometi nii palju, et ma imestan, miks nad ei nõua mitmenaisepidamist.</p>
                 </sp>
                 <sp who="#karjauelem">
@@ -872,13 +873,13 @@
                     <p>On veel mõnel midagi öelda? Ei ole? Siis on meie otsus endine: narri soovitatud naise otsimine siseülemale kohuseks teha, narr nõuandjaks, ülempreester eestpalvetajaks, et asja soodustada. Lõpp. <stage>(Tõuseb<pb n="13"/> aujärjelt, kuninga eeskujul tõusevad ka teised ja kummardavad. Kuningas lahkub narri saatel. Kirvemehed kaovad. Kõik hakkavad lahkuma.)</stage></p>
                 </sp>
                 <sp who="#vaeeuelem">
-                    <speaker>VÄEÜLEM.</speaker>
-                    <stage>(siseülemale; mundrit selga ajades)</stage>
+                    <speaker>VÄEÜLEM</speaker>
+                    <stage>(siseülemale; mundrit selga ajades).</stage>
                     <p>Oli see vast saun! Maailmasõdagi ei või hullem olla. Mürgised gaasidki ei puudunud.</p>
                 </sp>
                 <sp who="#kirjauelem">
-                    <speaker>KIRJAÜLEM.</speaker>
-                    <stage>(ligi astudes)</stage>
+                    <speaker>KIRJAÜLEM</speaker>
+                    <stage>(ligi astudes).</stage>
                     <p>Mis parata, seltsimees väeülem, kultuur pole veel nii kõrge, et elu ilma mürgiste gaasideta oleks võimalik. Elu hävitamisegagi ei saada enam ilma mürgiste gaasideta hakkama. Sellest teeme lihtsa järelduse: kultuur peab olema mürgiste gaaside poolt.</p>
                 </sp>
                 <sp who="#vaeeuelem">
@@ -886,8 +887,8 @@
                     <p>Muidugi, seltsimees kirjaülem, aga mis või kes on sel juhul kultuuri poolt? <stage>(Pöördub ja lahkub. Kirjaülem seisatab üürikeseks, läheb siis ülempreestri juurde, kes liigub ukse poole.)</stage></p>
                 </sp>
                 <sp who="#kirjauelem">
-                    <speaker>KIRJAÜLEM.</speaker>
-                    <stage>(ülempreestrile; need kaks on viimased. Nende kahekõne ajal ilmub noorteener, aga nähes ülemaid, jääb postina ukse alla seisma)</stage>
+                    <speaker>KIRJAÜLEM</speaker>
+                    <stage>(ülempreestrile; need kaks on viimased. Nende kahekõne ajal ilmub noorteener, aga nähes ülemaid, jääb postina ukse alla seisma).</stage>
                     <p>Armas ülempreester, mina annaksin teile nõu siseülemat propaganda asjus mitte puudutada, muidu võetakse kirik kirjaülemalt ja antakse siseülema käsutusse.</p>
                 </sp>
                 <sp who="#uelempreester">
@@ -915,13 +916,13 @@
                     <p>Jah, sinu seisukord on raske, armas ülempreester. Sa oled harjunud ainult võimatuid asju uskuma, sellepärast tekitavad võimalikud asjad sinus sügavat umbusku. Sina ei suuda näha, et kultuurilises ühiskonnas otsustab jumalate küsimuse ikka politsei, mitte usk, nagu ka ajaloolise tõe määrajaks pole faktid, vaid rahvuslik luule. <stage>(Väljuvad viimaseina. Alles nüüd tuleb noorteenrisse elu ja ta läheb suleb ukse ülemate järel.)</stage></p>
                 </sp>
                 <sp who="#narr">
-                    <speaker>NARR.</speaker>
-                    <stage>(ilmub tagaseina uksest pahemalt, seisatab, nuusutab, kirtsutab nina, kärsitult)</stage>
+                    <speaker>NARR</speaker>
+                    <stage>(ilmub tagaseina uksest pahemalt, seisatab, nuusutab, kirtsutab nina, kärsitult).</stage>
                     <p>Noorteener, ava ruttu aknad, ära rikkusid teised, mädandid, luhi puha.</p>
                 </sp>
                 <sp who="#mathias">
-                    <speaker>NOORTEENER.</speaker>
-                    <stage>(kirtsutab ka nina ja tõttab halvustaval näol aknaid avama)</stage>
+                    <speaker>NOORTEENER</speaker>
+                    <stage>(kirtsutab ka nina ja tõttab halvustaval näol aknaid avama).</stage>
                     <p>Jah, ise kõik suured ülemad, aga rikuvad kuningakoja õhku.</p>
                 </sp>
                 <sp who="#narr">
@@ -950,8 +951,8 @@
                     <p>Vahtisin kogu aeg läbi lukuaugu. Selja võttis haigeks, nagu oleksin pool päeva palavaga rukist lõiganud.</p>
                 </sp>
                 <sp who="#narr">
-                    <speaker>NARR.</speaker>
-                    <stage>(halvustavalt)</stage>
+                    <speaker>NARR</speaker>
+                    <stage>(halvustavalt).</stage>
                     <p>Ükski narr ei vahi läbi lukuaugu.</p>
                 </sp>
                 <sp who="#mathias">
@@ -967,8 +968,8 @@
                     <p>Seda ma arvasin kohe, sest ka minul on selles asjas oma saladus.</p>
                 </sp>
                 <sp who="#narr">
-                    <speaker>NARR.</speaker>
-                    <stage>(huvitatult)</stage>
+                    <speaker>NARR</speaker>
+                    <stage>(huvitatult).</stage>
                     <p>Sa ehk tead meheküpset naist, kes mehest ei tea?!</p>
                 </sp>
                 <sp who="#mathias">
@@ -988,8 +989,8 @@
                     <p>Hea küll! Minu saladus: ma käisin kaardimoori juures, kes ennustab ülempreestrile.</p>
                 </sp>
                 <sp who="#mathias">
-                    <speaker>NOORTEENER.</speaker>
-                    <stage>(imestanult)</stage>
+                    <speaker>NOORTEENER</speaker>
+                    <stage>(imestanult).</stage>
                     <p>Ah ülempreester käib ka kaardimoori juures!</p>
                 </sp>
                 <sp who="#narr">
@@ -1017,8 +1018,8 @@
                     <p>Minul on naine, kes ei tea mehes aga midagi.</p>
                 </sp>
                 <sp who="#narr">
-                    <speaker>NARR.</speaker>
-                    <stage>(rõõmsalt)</stage>
+                    <speaker>NARR</speaker>
+                    <stage>(rõõmsalt).</stage>
                     <p>Inimene! Mathias! Sul on niisuke naine! Sa oled targem kui kaardimoor! Sunduslik haridus ja niisuke naine! Mis on ta nimi?</p>
                 </sp>
                 <sp who="#mathias">
@@ -1042,8 +1043,8 @@
                     <p>Kas või pimesi.</p>
                 </sp>
                 <sp who="#narr">
-                    <speaker>NARR.</speaker>
-                    <stage>(mõttes)</stage>
+                    <speaker>NARR</speaker>
+                    <stage>(mõttes).</stage>
                     <p>Aga ei, ei, ei! Seda ei või! Õige! Seda ei või milgi tingimusel!</p>
                 </sp>
                 <sp who="#mathias">
@@ -1056,8 +1057,8 @@
                     <p>Politseid juhatada, sest see küsib kohe: mis haridus? kus õppinud? mis lõpetanud? Ja kui leiab, et pole haridust, pole õppinud, pole lõpetanud, siis tüdruk kirjaülema kätte ning seal mõni antoloogia professor hakkab talle tähti õpetama. Sellepärast, tead, Mathias: mina annan sulle kuninga pitseriga kirja ja mehed ning sina ise lähed tood selle naise ära, kes mehest ei tea. Kui täidad oma ülesande hästi, pandin sulle oma pea, et saad kojanarriks, ainult mina las enne suren või lähen pensionile.</p>
                 </sp>
                 <sp who="#mathias">
-                    <speaker>NOORTEENER.</speaker>
-                    <stage>(sirutab käe)</stage>
+                    <speaker>NOORTEENER</speaker>
+                    <stage>(sirutab käe).</stage>
                     <p>Oleme rääkind! Mina toon Angela, kui saan kojanarriks. Aga kas sa pead oma sõna?</p>
                 </sp>
                 <sp who="#narr">
@@ -1074,13 +1075,13 @@
                     <p>Kahte korraga?</p>
                 </sp>
                 <sp who="#toatuedruk">
-                    <speaker>TOATÜDRUK.</speaker>
-                    <stage>(naerdes)</stage>
+                    <speaker>TOATÜDRUK</speaker>
+                    <stage>(naerdes).</stage>
                     <p>Mõlemat. <stage>(Narr lahkub, toatüdruk tahab temale järgneda.)</stage></p>
                 </sp>
                 <sp who="#mathias">
-                    <speaker>NOORTEENER.</speaker>
-                    <stage>(haarab toatüdrukul käest, tõmbab ta tagasi ja lükkab jalaga ukse kinni)</stage>
+                    <speaker>NOORTEENER</speaker>
+                    <stage>(haarab toatüdrukul käest, tõmbab ta tagasi ja lükkab jalaga ukse kinni).</stage>
                     <p>Klaara!</p>
                 </sp>
                 <sp who="#toatuedruk">
@@ -1092,8 +1093,8 @@
                     <p>Ainult silmapilguks! <stage>(Tahab tüdrukut suudelda.)</stage></p>
                 </sp>
                 <sp who="#toatuedruk">
-                    <speaker>TOATÜDRUK.</speaker>
-                    <stage>(vabastab enese naerdes; tõsiselt)</stage>
+                    <speaker>TOATÜDRUK</speaker>
+                    <stage>(vabastab enese naerdes; tõsiselt).</stage>
                     <p>Palun väga! Pane enne tanu alla, suudle siis.</p>
                 </sp>
                 <sp who="#mathias">
@@ -1149,8 +1150,8 @@
                     <p>Noorem, aga mitte nii ilus; keegi pole nii ilus kui sina ja kellelgi pole seda oskust ja olemist mis sinul.</p>
                 </sp>
                 <sp who="#toatuedruk">
-                    <speaker>TOATÜDRUK.</speaker>
-                    <stage>(meelitatult)</stage>
+                    <speaker>TOATÜDRUK</speaker>
+                    <stage>(meelitatult).</stage>
                     <p>Mathias, kas ma ikka tõesti sulle nõnda meeldin? Ma kardan hirmsasti, et sa oled paljas suksutaja nagu teisedki, kes ei pane tanule paelu taha.</p>
                 </sp>
                 <sp who="#mathias">
@@ -1174,8 +1175,8 @@
                     <p>Võtan su ää ja viin ülempreestri juurde õnnistada, kui saan narriks, sest siis kuulume koja ringkonda.</p>
                 </sp>
                 <sp who="#toatuedruk">
-                    <speaker>TOATÜDRUK.</speaker>
-                    <stage>(langeb andumusega mehe käte vahele. Suudlevad)</stage>
+                    <speaker>TOATÜDRUK</speaker>
+                    <stage>(langeb andumusega mehe käte vahele. Suudlevad).</stage>
                     <p>Aga ütle, kallis, mis eest sa saad aukõrgendust?</p>
                 </sp>
                 <sp who="#mathias">
@@ -1191,8 +1192,8 @@
                     <p>Ma toon kuningale naise.</p>
                 </sp>
                 <sp who="#toatuedruk">
-                    <speaker>TOATÜDRUK.</speaker>
-                    <stage>(nokkivalt)</stage>
+                    <speaker>TOATÜDRUK</speaker>
+                    <stage>(nokkivalt).</stage>
                     <p>Võrukael niisuke! Teised hangeldavad piirituse ja siidiga, aga sina naistega! Kuningas on ju vana, temale aitab karunahka kasukastki</p>
                 </sp>
                 <sp who="#mathias">
@@ -1200,8 +1201,8 @@
                     <p>Ei, kallis Klaarake, kuningale aitavad ainult raudnõgesed või naine, kes mehest ei tea.</p>
                 </sp>
                 <sp who="#toatuedruk">
-                    <speaker>TOATÜDRUK.</speaker>
-                    <stage>(vabastub nagu nõelatult mehe embusest)</stage>
+                    <speaker>TOATÜDRUK</speaker>
+                    <stage>(vabastub nagu nõelatult mehe embusest).</stage>
                     <p>Siis too talle raudnõgeseid, aga mitte seda naist. Mina ei taha, et sa tood naise, kes mehest ei tea ja on minust noorem. Sina tood selle naise iseenda pärast kuningakotta. Sest kuningas on vana.</p>
                 </sp>
                 <sp who="#mathias">
@@ -1217,8 +1218,8 @@
                     <p>Ei armasta, enam ei armasta!</p>
                 </sp>
                 <sp who="#toatuedruk">
-                    <speaker>TOATÜDRUK.</speaker>
-                    <stage>(nuttes)</stage>
+                    <speaker>TOATÜDRUK</speaker>
+                    <stage>(nuttes).</stage>
                     <p>Armastad ikka veel! Ma tean, et armastad!</p>
                 </sp>
                 <sp who="#mathias">
@@ -1226,8 +1227,8 @@
                     <p>Jumala eest, ei armasta! Nii kui nägin sind, enam ei armastanud. Nüüd armastan ainult sind, Klaara. Tema on harimata, aga sina oled haritud, sellepärast armastan sind. Mis teha harimata naisega kuningakojas. Siin võib ainult kuningal endal olla harimata naine.</p>
                 </sp>
                 <sp who="#toatuedruk">
-                    <speaker>TOATÜDRUK.</speaker>
-                    <stage>(õnnelikult ja liigutatult)</stage>
+                    <speaker>TOATÜDRUK</speaker>
+                    <stage>(õnnelikult ja liigutatult).</stage>
                     <p>Meeldib sulle tõesti haridus, Mathias, kallis?</p>
                 </sp>
                 <sp who="#mathias">
@@ -1235,8 +1236,8 @@
                     <p>Kui sa muidu ei usu, siis tule õhtul minu tuppa, ma näitan sulle, kui palju mul on õlisid, pumateid, briljantiine, puudreid, lakke, kreeme, kääre, viile, harju, kammisid, lõkse, nõelu ja tilku sissevõtteks ja määrdeks.</p>
                 </sp>
                 <sp who="#toatuedruk">
-                    <speaker>TOATÜDRUK.</speaker>
-                    <stage>(kurjustavalt)</stage>
+                    <speaker>TOATÜDRUK</speaker>
+                    <stage>(kurjustavalt).</stage>
                     <p>Aga Mathias, kes raiskab meeste hariduse peale nii palju! Sellele peab lõpp tulema, kui me abiellume.</p>
                 </sp>
                 <sp who="#mathias">
@@ -1244,8 +1245,8 @@
                     <p>See kõik ei maksa mul pennigi. Kuningakojas on haridus maksuta.</p>
                 </sp>
                 <sp who="#toatuedruk">
-                    <speaker>TOATÜDRUK.</speaker>
-                    <stage>(kelmikalt, hellatavalt)</stage>
+                    <speaker>TOATÜDRUK</speaker>
+                    <stage>(kelmikalt, hellatavalt).</stage>
                     <p>Sina viimane võrukael! Sina varastad kuninga emandad paljaks päise päeva ajal. Õhtul tulen ma tingimata. Nägemiseni, kallis, kallis, kallis. <stage>(Suudleb meest ja põgeneb uksest.)</stage></p>
                 </sp>
                 <stage>(Eesriie.)</stage>
@@ -1256,13 +1257,13 @@
                 <stage>(Õhtul mägedes. Kaljuseina varjul onn, mille taga mäed tõusevad hari-harjalt kuni lumiste kõrgusteni, kus helendab alles päike. Kostab karjapasun, koerte haukumine, kellade helin.</stage>
                 <stage>Onni ees harkjalgade vahel pada tulel, mida kohendab ANGELA, istudes kolmejalgsel järil ja kergitades vahetevahel kaant, et pajas midagi segada ja maitsta. Onnist pahemal hakkab mägedes keegi laulma igatsevat armulaulu. Angela kargab järilt, puulusikas käes, mille tõstab nagu päikesevarjuks või viipeks, aga ometi ei viipa, sest silm ei märka nähtavasti kedagi. Vähe aega vahtinud, pöördub uuesti tule juurde, paneb lusika pajakaanele, kohendab tuld, murrab hagu ja paneb paja alla, istub järile, selg sinnapoole, kust kostab laul. Tüdruk jääb nõnda istuma ka siis, kui KARLO ilmub pahemale kaljule, kus lõpetab oma laulu. Vaikus.)</stage>
                 <sp who="#karlo">
-                    <speaker>KARLO.</speaker>
-                    <stage>(hüüab)</stage>
+                    <speaker>KARLO</speaker>
+                    <stage>(hüüab).</stage>
                     <p>Angela!</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(pöördub järil hüüdja poole)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(pöördub järil hüüdja poole).</stage>
                     <p>Laula veel, Karlo, laula millegist, mis on kaugel.</p>
                 </sp>
                 <sp who="#karlo">
@@ -1270,8 +1271,8 @@
                     <p>Kas sa mind alla ei kutsugi?</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(pooltõsiselt, poolnaljatades)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(pooltõsiselt, poolnaljatades).</stage>
                     <p>Ei, Karlo, isa ja ema pole kodus.</p>
                 </sp>
                 <sp who="#karlo">
@@ -1291,18 +1292,18 @@
                     <p>Armas aeg! Aga miks sa siis laulad õhtuti nii ilusasti? Miks sa laulsid täna, miks eile? Kunagi pole mul olnud nii ilusaid unenägusid kui sest saadik, kus sina nõnda laulad.</p>
                 </sp>
                 <sp who="#karlo">
-                    <speaker>KARLO.</speaker>
-                    <stage>(liigutatult)</stage>
+                    <speaker>KARLO</speaker>
+                    <stage>(liigutatult).</stage>
                     <p>Angela, kui sa teaksid, kuidas su hääl heliseb ja kui ilusad on su sõnad siit ülalt kuulates.</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(naerdes)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(naerdes).</stage>
                     <p>Sellepärast jää kõrgele üles, mu poiss. Mine kõrgemale ja kaugemale, et mu sõnad oleksid veel ilusamad, hääl veel helisevam. Aga sinu hääl meeldib mulle lähedalt rohkem kui kaugelt.</p>
                 </sp>
                 <sp who="#karlo">
-                    <speaker>KARLO.</speaker>
-                    <stage>(rõõmsalt)</stage>
+                    <speaker>KARLO</speaker>
+                    <stage>(rõõmsalt).</stage>
                     <p>Angela, ma tulen siis alla su juurde.</p>
                 </sp>
                 <sp who="#angela">
@@ -1330,8 +1331,8 @@
                     <p>Veel pole nii hilja. Näe, päike kuldab alles lumiseid mäeharju. Ja ma vannun sulle kõigi pühakute nimel, et ei sünni miskit halba, kui sa lubad<pb n="18"/> mu tule äärde. Mind piinab täna mingi õudne aimdus, nagu peaks täna öösel kogu maailm nende mägedega hukkuma.</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(püsti karates)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(püsti karates).</stage>
                     <p>Karlo! Siis tunneme ühtemoodi. Ka mina aiman midagi hirmsat. Ma piinlesin kogu päeva. Kui ma sinu laulu kuulsin, mõtlesin ma: seal see ongi — Karlo tuleb ja ma olen üksi.</p>
                 </sp>
                 <sp who="#karlo">
@@ -1351,8 +1352,8 @@
                     <p>Nii et püha tuli jääbki meie vahele?</p>
                 </sp>
                 <sp who="#karlo">
-                    <speaker>KARLO.</speaker>
-                    <stage>(nukralt)</stage>
+                    <speaker>KARLO</speaker>
+                    <stage>(nukralt).</stage>
                     <p>Tuli jääb minu südamesse ja meie vahele, sellepärast ongi mul nii raske.</p>
                 </sp>
                 <sp who="#angela">
@@ -1376,28 +1377,28 @@
                     <p>Siin ma nüüd olen.</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(nagu mossitades)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(nagu mossitades).</stage>
                     <p>Seda ma näen, aga kuidas ma saan nüüd hagu kätte, kui ma ei tohi pühast tulest mööda tulla?</p>
                 </sp>
                 <sp who="#karlo">
-                    <speaker>KARLO.</speaker>
-                    <stage>(kargab püsti)</stage>
+                    <speaker>KARLO</speaker>
+                    <stage>(kargab püsti).</stage>
                     <p>Luba, et mina sulle haod üle tule kätte ulatan.</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(endiselt mossitades)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(endiselt mossitades).</stage>
                     <p>Ma pole harjunud, et mind teenitakse, liiatigi et mind teeniks mõni mees. Ja hagu üle tule andes võiks midagi patta pudeneda, sest pajakaanel on laiad praod.</p>
                 </sp>
                 <sp who="#karlo">
-                    <speaker>KARLO.</speaker>
-                    <stage>(paluvalt)</stage>
+                    <speaker>KARLO</speaker>
+                    <stage>(paluvalt).</stage>
                     <p>Ära ole minuga kuri, Angela, mu süda on muidugi raske ja meel kurb. Pealegi ega sina pole ju lubadust andnud, et sa tulest mööda ei tule, nii et sina võid tulla, ainult mina ei tohi.</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(rõõmsalt)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(rõõmsalt).</stage>
                     <p>Küll oled sa kaval!</p>
                 </sp>
                 <sp who="#karlo">
@@ -1458,23 +1459,23 @@
                     <p>Sa ju ise ütlesid, et see ei sünni kunagi, ja sellepärast saan ma kurjaks, kui sa mind lahti ei lase. Tuli kustub paja all ära, ma pean hagu murdma.</p>
                 </sp>
                 <sp who="#karlo">
-                    <speaker>KARLO.</speaker>
-                    <stage>(vabastab neiu nukras alistuses)</stage>
+                    <speaker>KARLO</speaker>
+                    <stage>(vabastab neiu nukras alistuses).</stage>
                     <p>Ah Angela, Angela!</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(läheb ja hakkab hagu paja alla panema; pahandavalt osatades)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(läheb ja hakkab hagu paja alla panema; pahandavalt osatades).</stage>
                     <p>Angela, Angela, see on ainuke, mida sa õieti oskad, see ja kaugel laulda! <stage>(Istub järile.)</stage></p>
                 </sp>
                 <sp who="#karlo">
-                    <speaker>KARLO.</speaker>
-                    <stage>(teisel pool tuld pakul)</stage>
+                    <speaker>KARLO</speaker>
+                    <stage>(teisel pool tuld pakul).</stage>
                     <p>Millal istume oma tule ääres?</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(pahaselt)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(pahaselt).</stage>
                     <p>Mis sest tulest! Tuli on tuli, olgu oma või mitte-oma.</p>
                 </sp>
                 <sp who="#karlo">
@@ -1482,8 +1483,8 @@
                     <p>Miks ei taha sa minu naiseks saada, Angela? Kevadeti tuleksime loomadega üles mägedele, tuhandete loomadega tuleksime, väsinud talled põiki sadulas või karjastel süles, aina määvad teised heleda häälega, sajad heleda häälega talled, kes otsivad oma ema. Ma vooderdan su onni põdra- ja karunahkadega, ma katan su enese siidi ja sametiga, ma vahetan loomade vastu sulle hõbedat, kulda ja kalliskive. Sada pudulojust teen hõbedaks, sada mullikat kullaks, sada rammusamat härga kalliskivideks. Ütle, Angela, miks ei taha sa minu kulda, hõbedat ja kalliskive?</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(ohates)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(ohates).</stage>
                     <p>Armas poiss, milleks sa küsid, kui sa isegi tead.</p>
                 </sp>
                 <sp who="#karlo">
@@ -1515,8 +1516,8 @@
                     <p>Mõnikord võtab väga palju aega, enne kui mees sureb või saab kuningaks.</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(unistavalt)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(unistavalt).</stage>
                     <p>Oodata on nii ilus!</p>
                 </sp>
                 <sp who="#karlo">
@@ -1532,8 +1533,8 @@
                     <p>Seda muidugi, imed on tõepoolest võimalikud. Sest mõtle ometi, Angela: ei minu isa, ei tema isa, ei tematema isa, ei igivanast ajast saadik pole keegi kuulnud, et oleks sündinud kahe peaga vasikas, aga täna sündis meil, pealegi lehmal, kes juba seitse korda toonud ühe peaga vasika. Nägin teda oma silmaga. Mõistad, seitse korda sama asi ilma imeta, aga kaheksandal korral äkki imega. Ja täiesti ilma põhjuseta, sest lehmal on endiselt täis aru peas — sööb, joob, magab ja mäletseb. Me kõik olime hirmsasti kohkunud. Sõnnidki hakkasid möirgama ja maad kraapima, mullikad kergitasid saba, nagu oleks neil kiilid kallal, uted määgisid ja jäärad kukkusid puksima. Isa ütles, et see peab tingimata midagi tähendama.</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(kes kasvava huvi ja ärevusega Karlot kuulanud)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(kes kasvava huvi ja ärevusega Karlot kuulanud).</stage>
                     <p>Ja tähendabki! See võib sedagi tähendada, et Mathias saab kuningaks ja tuleb ratsa kihutades, tutiga kiiver peas, kannustega saapad jalas, mõõk vööl ja kilp käes. Sest kuningaks saada pole ometi suurem ime, kui vanal lehmal kahe peaga vasikas sünnitada. Lehm on ju vana, kui ta on seitsme poja ema, eks? Või ei ole? Miks sa ei vasta, Karlo?</p>
                 </sp>
                 <sp who="#karlo">
@@ -1561,8 +1562,8 @@
                     <p>Minu usku uskuda? Tähendab sa ei armasta mind!</p>
                 </sp>
                 <sp who="#karlo">
-                    <speaker>KARLO.</speaker>
-                    <stage>(kargab püsti ja haarab Angela käe)</stage>
+                    <speaker>KARLO</speaker>
+                    <stage>(kargab püsti ja haarab Angela käe).</stage>
                     <p>Ma armastan sind rohkem kui oma elu!</p>
                 </sp>
                 <sp who="#angela">
@@ -1574,8 +1575,8 @@
                     <p>Ei, seda mitte! Uskuda, et see luiskaja ja kiitleja...</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(vahele)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(vahele).</stage>
                     <p>Luiskamise ja kiitlemisega ta saabki kuningaks.</p>
                 </sp>
                 <sp who="#karlo">
@@ -1607,17 +1608,17 @@
                     <p>Isa ja ema vist tulevad.</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(tõuseb järilt, läheb tulest mööda paremale, et kuu valgel alla vahtida)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(tõuseb järilt, läheb tulest mööda paremale, et kuu valgel alla vahtida).</stage>
                 </sp>
                 <sp who="#karlo">
-                    <speaker>KARLO.</speaker>
-                    <stage>(tõuseb pakult, läheb Angela juurde, võtab ta käe)</stage>
+                    <speaker>KARLO</speaker>
+                    <stage>(tõuseb pakult, läheb Angela juurde, võtab ta käe).</stage>
                     <p>Angela, kallis! Ainuski sõna!</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(tõrjuvalt)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(tõrjuvalt).</stage>
                     <p>Mitte praegu! Istu pakule! Isa ja ema võivad meid näha.</p>
                 </sp>
                 <sp who="#karlo">
@@ -1633,33 +1634,33 @@
                     <p>Kuidas sa võid seda Mathiat uskuda?</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(etteheitvalt)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(etteheitvalt).</stage>
                     <p>Ja see on sinu meelest ükskõikne?! Sa oled armukade, muud midagi.</p>
                 </sp>
                 <sp who="#ema">
-                    <speaker>EMA.</speaker>
-                    <stage>(ainult hääl)</stage>
+                    <speaker>EMA</speaker>
+                    <stage>(ainult hääl).</stage>
                     <p>Vanamees, võta haokubu natukesekski oma selga, ma ei jäksa enam.</p>
                 </sp>
                 <sp who="#isa">
-                    <speaker>ISA.</speaker>
-                    <stage>(hääl)</stage>
+                    <speaker>ISA</speaker>
+                    <stage>(hääl).</stage>
                     <p>Jäksasid seni, jäksad ka selle natukese.</p>
                 </sp>
                 <sp who="#ema">
-                    <speaker>EMA.</speaker>
-                    <stage>(hääl)</stage>
+                    <speaker>EMA</speaker>
+                    <stage>(hääl).</stage>
                     <p>Sina laiskvorst!</p>
                 </sp>
                 <sp who="#isa">
-                    <speaker>ISA.</speaker>
-                    <stage>(hääl)</stage>
+                    <speaker>ISA</speaker>
+                    <stage>(hääl).</stage>
                     <p>Mul on ju leivakott ja lähker.</p>
                 </sp>
                 <sp who="#ema">
-                    <speaker>EMA.</speaker>
-                    <stage>(hääl)</stage>
+                    <speaker>EMA</speaker>
+                    <stage>(hääl).</stage>
                     <p>Lähker on sul ju tühi. <stage>(Ilmuvad, isa ees, ema järel, kes haokoo all kõveras.)</stage> Jumal hoidku küll neid meherajakaid! Kui kosivad, lubavad kätel kanda, aga kui saavad su kätte, siis riputavad sulle lapsed kaela ja viimaks kargaksid isegi sulle kukile. <stage>(Viskab koo maha, otse paku otsa, kust Karlo tõusnud.)</stage></p>
                 </sp>
                 <sp who="#isa">
@@ -1687,8 +1688,8 @@
                     <p>Kas nüüd just kõik, aga eks ta nõnda ole küll, et kui noor naine ja...</p>
                 </sp>
                 <sp who="#ema">
-                    <speaker>EMA.</speaker>
-                    <stage>(käratab)</stage>
+                    <speaker>EMA</speaker>
+                    <stage>(käratab).</stage>
                     <p>Pea suu!</p>
                 </sp>
                 <sp who="#isa">
@@ -1736,8 +1737,8 @@
                     <p>Siin olite kodukoldel ja tuli ning supipada olid ka.</p>
                 </sp>
                 <sp who="#isa">
-                    <speaker>ISA.</speaker>
-                    <stage>(hakkab minema)</stage>
+                    <speaker>ISA</speaker>
+                    <stage>(hakkab minema).</stage>
                     <p>Mis sest nii palju rääkida, küll ma ise lähen.</p>
                 </sp>
                 <sp who="#ema">
@@ -1837,8 +1838,8 @@
                     <p>Heldene aeg! Või kahe peaga vasikas! Siis tuleb kindlasti midagi, tuleb ilmtingimata. Sest ka all kuuldub, et...</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(huvitatult vahele)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(huvitatult vahele).</stage>
                     <p>Mis kuuldub all? Kas ehk Mathiast midagi? Kus ta on? Mis tast on saanud?</p>
                 </sp>
                 <sp who="#ema">
@@ -1910,13 +1911,13 @@
                     <p>Rumal laps, kes siis kuningale vana! Kuningale kõlbab ainult...</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(karjudes)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(karjudes).</stage>
                     <p>A-a, või nii! Kuningale kõlbab ainult noor! Ja sina võtad minult püha tõotuse, et mina ajaksin tossikese Karloga asjad joonde! Ema, sa oled petis, kelm, suli, kaabakas, röövel, mõrtsukas! Ema, ma ei teagi, mis sa oled, niisugune oled sa! Iseoma lihase lapse õnne nõnda oma ussi keele ja rebase kavalusega ära sööma tulla! Sa oled kade, et mina võiksin kuninga naiseks saada! Aga oota sa, seda ma sulle ei kingi! Oma tõotust ma ei pea, mingu mu hing kas või sajaks aastaks põrgu. Mitte ei pea, sest see tõotus on minult väetilt, rumalalt, õnnetult tütarlapselt välja valetatud, petetud, varastatud, röövitud. Homme hommikul vara võtan jalad selga ja pistan preestri juurde, küll tema minu tõotusest vabastab, kui ta kuuleb, misuke kelm ja petis mul emaks on. Kõik on vale, mis sa räägid. Mitte vanale kuningale ei otsita naist, vaid Mathiale! Just nii! Mathias on teel siia. Sellepärast sahkerdadki mind Karlole. Aga ma pole sugugi nii rumal, nagu sina, kadekops, arvad. Ma ei anna end Karlo ligigi, ei luba end sõrmeotsagagi puudutada. Tee ainult proovi mind temaga üksi kuu valgele jätta, küll sa siis näed, mis ma teen. Ah sina arvad, et mina hakkan kellegagi asju joonde ajama, kui maailmas sündis esimene kahe peaga vasikas! Õige! Kahe peaga vasikas, see ongi Mathias, sest ka temal on kaks pead, üks, mis valetab, petab, varastab, teine, mis unistab ja armastab. Ütle ometi otsekohe välja: Mathias on teel siia, ta tuleb mulle järele, eks?</p>
                 </sp>
                 <sp who="#ema">
-                    <speaker>EMA.</speaker>
-                    <stage>(kes kogu aeg on rahulikult suppi seganud ja maitsnud ja leivakoti paela lahti nappinud)</stage>
+                    <speaker>EMA</speaker>
+                    <stage>(kes kogu aeg on rahulikult suppi seganud ja maitsnud ja leivakoti paela lahti nappinud).</stage>
                     <p>Ah said lõpuks oma lipsule sõlme sisse, nii et võid hinge tagasi tõmmata! Vaene laps, see Mathia-suli on sulle vist midagi sisse söötnud, ei sa muidu nõnda.</p>
                 </sp>
                 <sp who="#angela">
@@ -1932,8 +1933,8 @@
                     <p>Peab kuninga naine pikk või lühike, kõhn või paks, valge või must olema? Halasta mu peale ja ütle ometi kord, ma palun sind jumalakeeli.</p>
                 </sp>
                 <sp who="#ema">
-                    <speaker>EMA.</speaker>
-                    <stage>(rahulikult)</stage>
+                    <speaker>EMA</speaker>
+                    <stage>(rahulikult).</stage>
                     <p>Sellest ei tea ma midagi. <stage>(Kohendab tuld paja all.)</stage></p>
                 </sp>
                 <sp who="#angela">
@@ -1945,8 +1946,8 @@
                     <p>Löö aga pealegi, suurt kahju sellest ei ole, supp nagu elus lake, koergi hakkaks vist peale haukuma, kui ette paneks.</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(ärritatult)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(ärritatult).</stage>
                     <p>Ah nüüd olen mina süüdi, et supp niisuke lörts ja lake? Aga millega mina pidin selle lõrbi ja lörtsi paremaks tegema? Liha ei ole, konte ei ole, rasva ei ole, ainult tangud, herned ja sool, seegi loomade oma. Muidugi, kui sina oleks keet, siis oleks sa kas või küünlajupid sisse kiiand, et aga oleks rasvasem.</p>
                 </sp>
                 <sp who="#ema">
@@ -1966,18 +1967,18 @@
                     <p>Ei tahagi magada ja ei magagi!</p>
                 </sp>
                 <sp who="#ema">
-                    <speaker>EMA.</speaker>
-                    <stage>(õrritavalt)</stage>
+                    <speaker>EMA</speaker>
+                    <stage>(õrritavalt).</stage>
                     <p>Aga kui tuleb Mathias ja on kuningas, mis siis? Kas kuningaga lähed ühe teki alla?</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(kargab ema juurde, haarab tal ümbert kinni, kallistab, suudleb, unistavalt ja ihkavalt)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(kargab ema juurde, haarab tal ümbert kinni, kallistab, suudleb, unistavalt ja ihkavalt).</stage>
                     <p>Ah, ema, ema! Kui ta ometi tuleks! Kui sünniks niisuke ime, et ta tuleks veel täna õhtul kuu valgel, täkk tantsib all, kiiver hiilgab peas, mõõk läigib puusal, hõbekilp käes, kuldkannused jalas. Ema, kui see tõesti sünniks, siis sinu hull tütar läheks ogaraks.</p>
                 </sp>
                 <sp who="#ema">
-                    <speaker>EMA.</speaker>
-                    <stage>(südamlikult)</stage>
+                    <speaker>EMA</speaker>
+                    <stage>(südamlikult).</stage>
                     <p>Seda muidugi! Tüdrukud lähevad ikka totraks, kui nad seda saavad, mis nad tahavad.</p>
                 </sp>
                 <sp who="#angela">
@@ -1997,8 +1998,8 @@
                     <p>Noort ja niiisukest, kes mehest ei tea.</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(õnnelikult)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(õnnelikult).</stage>
                     <p>Ema, see olen mina! Ilmtingimata mina! Mind otsitakse!</p>
                 </sp>
                 <sp who="#ema">
@@ -2063,8 +2064,8 @@
                     <p>Sa oled toruloll, muud midagi. Aga las isa tuleb tagasi, küll me siis...</p>
                 </sp>
                 <sp who="#isa">
-                    <speaker>ISA.</speaker>
-                    <stage>(pahemalt ühes Karloga)</stage>
+                    <speaker>ISA</speaker>
+                    <stage>(pahemalt ühes Karloga).</stage>
                     <p>Kus hundist räägitakse, seal ta on. Mis sõda teie siin peate, kisa kostab jumal teab kuhu? Sina, eit, rääkisid muidugi sellest inimeste lobast tüdrukule.</p>
                 </sp>
                 <sp who="#angela">
@@ -2076,8 +2077,8 @@
                     <p>Mis lori see on?!</p>
                 </sp>
                 <sp who="#isa">
-                    <speaker>ISA.</speaker>
-                    <stage>(korraga)</stage>
+                    <speaker>ISA</speaker>
+                    <stage>(korraga).</stage>
                     <p>Tüdruk valetab!</p>
                 </sp>
                 <sp who="#angela">
@@ -2085,8 +2086,8 @@
                     <p>Ema, mis sa nüüd tühja tagasi ajad! Sa ju ütlesid, et kuningale otsitakse naist ja et tullakse ehk ka minule järele, sest et ma mehest ei tea. Aga kes muu teab tulla kui Mathias. Sellepärast ma ütlesingi, et tema on kuningaks saand.</p>
                 </sp>
                 <sp who="#isa">
-                    <speaker>ISA.</speaker>
-                    <stage>(halvakspanevalt)</stage>
+                    <speaker>ISA</speaker>
+                    <stage>(halvakspanevalt).</stage>
                     <p>See tuuletallaja, varganägu ja päevavaras kuningaks! Kuule, tüdruk, sulle peab hullusärgi selga tõmbama.</p>
                 </sp>
                 <sp who="#angela">
@@ -2094,8 +2095,8 @@
                     <p>Aga milleks siis Karlo lehmal sündis kahe peaga vasikas?</p>
                 </sp>
                 <sp who="#isa">
-                    <speaker>ISA.</speaker>
-                    <stage>(vaatab umbusklikult Karlole otsa, nagu kahtleks ta selle mõistuses)</stage>
+                    <speaker>ISA</speaker>
+                    <stage>(vaatab umbusklikult Karlole otsa, nagu kahtleks ta selle mõistuses).</stage>
                     <p>Mis see peab tähendama?</p>
                 </sp>
                 <sp who="#karlo">
@@ -2103,8 +2104,8 @@
                     <p>Meie lehm tõi tõepoolest niisukese vasika.</p>
                 </sp>
                 <sp who="#isa">
-                    <speaker>ISA.</speaker>
-                    <stage>(alistunult)</stage>
+                    <speaker>ISA</speaker>
+                    <stage>(alistunult).</stage>
                     <p>Muidugi, kui niisuke ime võimalik, miks siis Mathia-taoline logard ja võrukael ei või kuningaks saada.</p>
                 </sp>
                 <sp who="#angela">
@@ -2188,23 +2189,23 @@
                     <p>Kallis Angela, milleks murrame oma pead tühiste asjade pärast, kui õnn on nii ligi. Tule mulle naiseks ja ma kannan sind kogu eluaeg kätel, nagu oleks sa kuninganna. <stage>(Näitelavale kargab mitu meest paremalt, kõigil pikad mustad mantlid ümber ja laiad mustad kaabud peas, nii et nägusid pole peaaegu nähagi.)</stage></p>
                 </sp>
                 <sp who="#mathias">
-                    <speaker>MATHIAS.</speaker>
-                    <stage>(alguses tundmatuna)</stage>
+                    <speaker>MATHIAS</speaker>
+                    <stage>(alguses tundmatuna).</stage>
                     <p>Kes heidab siin silma kuninga mõrsjale?</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(üliõnnelikult)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(üliõnnelikult).</stage>
                     <p>Mathias, sina! Sa tulid ometi, nagu lubasid, tulid<pb n="28"/> kuu valgel.</p>
                 </sp>
                 <sp who="#isa">
-                    <speaker>ISA.</speaker>
-                    <stage>(tasakesi emale)</stage>
+                    <speaker>ISA</speaker>
+                    <stage>(tasakesi emale).</stage>
                     <p>Mathiast on mees saanud, ta on röövliks hakanud.</p>
                 </sp>
                 <sp who="#ema">
-                    <speaker>EMA.</speaker>
-                    <stage>(isale)</stage>
+                    <speaker>EMA</speaker>
+                    <stage>(isale).</stage>
                     <p>Ka kuningas olnud noores eas röövel.</p>
                 </sp>
                 <sp who="#angela">
@@ -2212,13 +2213,13 @@
                     <p>Aga kus on su kiiver, mõõk ja ratsu? Sa lubasid tulla kuldkannustega.</p>
                 </sp>
                 <sp who="#mathias">
-                    <speaker>MATHIAS.</speaker>
-                    <stage>(tõmbab kaabu peast ja silma torkab hiilgav kiiver; heidab mantli õlgadelt ja alt ilmub tore munder mõõga, pikkade saabaste ja korisevate kannustega)</stage>
+                    <speaker>MATHIAS</speaker>
+                    <stage>(tõmbab kaabu peast ja silma torkab hiilgav kiiver; heidab mantli õlgadelt ja alt ilmub tore munder mõõga, pikkade saabaste ja korisevate kannustega).</stage>
                     <p>Siin on, mis ma sulle kuu valgel lubasin. Ja täkk tammub all orus, lõuad vahus suuraudade närimisest.</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(langeb Mathiale kaela, imetlevas ekstaasis)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(langeb Mathiale kaela, imetlevas ekstaasis).</stage>
                     <p>Mathias, sa oled kuningas! Ma armastan sind!</p>
                 </sp>
                 <sp who="#mathias">
@@ -2226,8 +2227,8 @@
                     <p>Angela, ma viin su kuninga juurde.</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(kõvemini mehe ümbert kinni hoides, nagu ihu ja hingega andudes)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(kõvemini mehe ümbert kinni hoides, nagu ihu ja hingega andudes).</stage>
                     <p>Ei, Mathias, sina ise oled kuningas, minule oled ja jääd sa kuningaks. <stage>(Laseb mehest lahti.)</stage> Aga kuidas sa said nii kaugele? Tapsid sa ise kuninga või tappis mõni teine sinu eest?</p>
                 </sp>
                 <sp who="#mathias">
@@ -2251,8 +2252,8 @@
                     <p>Kuningale ei aita ahjud ega nende kütmine, vaid ainult meheküps naine, kes mehest ei tea, sellepärast küsin ma sinult isa, ema ja selle võõra noormehe kuuldes...</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(vahele)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(vahele).</stage>
                     <p>See on Karlo, minu peigmees, ta laulab ilusasti. Tal on mitu tuhat pudulojust, mullikat, lehma ja härga. Ühel lehmal sündinud eile kahe peaga vasikas ja sellest ma teadsingi, et sina mulle järele tuled.</p>
                 </sp>
                 <sp who="#ema">
@@ -2289,8 +2290,8 @@
                 </sp>
                 <pb n="29"/>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(vahele)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(vahele).</stage>
                     <p>Ma olen ainult rõõsa kitsepiimaga oma nägu pesnud.</p>
                 </sp>
                 <sp who="#ema">
@@ -2370,8 +2371,8 @@
                     <p>Karlo, vaata sina ka, sa oskad lugeda.</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(kirja vaadates)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(kirja vaadates).</stage>
                     <p>Mis kraakjalad need on?</p>
                 </sp>
                 <sp who="#mathias">
@@ -2501,8 +2502,8 @@
                     <p>Sinul pole mulle enam miskit ütlemist, Mathias kuulutas mu juba iseseisvaks ja pühaks. <stage>(Karlole.)</stage> Tule aga, tule, Karlo. Sina lähed ühele poole kappi, mina teisele poole, nõnda on väga viisakas püksa vahetada. <stage>(Kaovad onni. Mathias pöördub paremal meestega rääkima.)</stage></p>
                 </sp>
                 <sp who="#isa">
-                    <speaker>ISA.</speaker>
-                    <stage>(tasakesi eidele)</stage>
+                    <speaker>ISA</speaker>
+                    <stage>(tasakesi eidele).</stage>
                     <p>Kust sai kuningas meie tüdrukust kuulda? Sinu lõksutused ei võinud ometi kuningakojani kosta.</p>
                 </sp>
                 <sp who="#ema">
@@ -2530,13 +2531,13 @@
                     <p>Mina katsun tal armastuse peast südamesse ajada.</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(pükstes, mantlis, vilt peas, ühes Karloga onnist)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(pükstes, mantlis, vilt peas, ühes Karloga onnist).</stage>
                     <p>Mathias, ma olen valmis.</p>
                 </sp>
                 <sp who="#mathias">
-                    <speaker>MATHIAS.</speaker>
-                    <stage>(pöördub ümber, vaatab Angelat, siis meestele)</stage>
+                    <speaker>MATHIAS</speaker>
+                    <stage>(pöördub ümber, vaatab Angelat, siis meestele).</stage>
                     <p>Korda seada! Valmis olla! <stage>(Angelale.)</stage> Neitsi Angela, jäta omastega ja senise eluga jumalaga, sest kuningakojas kuulutatakse sulle kõrgem seisus, suurem au ja õilsam veri, nagu oleksid sa sündinud uuesti.</p>
                 </sp>
                 <sp who="#angela">
@@ -2544,8 +2545,8 @@
                     <p>Ela hästi siis, ema, sest kuningakojas sünnin ma uuesti ja saan õilsama vere.</p>
                 </sp>
                 <sp who="#ema">
-                    <speaker>EMA.</speaker>
-                    <stage>(silmi pühkides)</stage>
+                    <speaker>EMA</speaker>
+                    <stage>(silmi pühkides).</stage>
                     <p>Head ja õnnelikku elu, mu lapsuke, suures seisuses ja õilsas veres. Aga katsu vaese kuninga vastu ikka kena olla. Istu vahetevahelgi tema sülle, et ta sooja saaks, ära ühtesoodu mööda suuri tube ümber tellerda. Ja kui teised naised sellest hakkavad, et sa mehest ei tea, siis...</p>
                 </sp>
                 <sp who="#angela">
@@ -2581,8 +2582,8 @@
                     <p>Kas ma ei võiks selle härja sulle kuningakotta tuua?</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(kätt andes)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(kätt andes).</stage>
                     <p>Ei, Karlo, jäta hall härg siia, siis ma mäletan ühes härjaga ka sind. Aga kui tuled loomadega linna turule, siis astu ka<pb n="32"/> kuningakotta mind vaatama.</p>
                 </sp>
                 <sp who="#karlo">
@@ -2594,13 +2595,13 @@
                     <p>Soo, Mathias, nüüd võin ma suuremasse seisusse ja õilsamasse verre astuda.</p>
                 </sp>
                 <sp who="#mathias">
-                    <speaker>MATHIAS.</speaker>
-                    <stage>(pöördub paremale, laksutab käsi; mehed ilmuvad kanderaamiga)</stage>
+                    <speaker>MATHIAS</speaker>
+                    <stage>(pöördub paremale, laksutab käsi; mehed ilmuvad kanderaamiga).</stage>
                     <p>Neitsi Angela, palun istet võtta.</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(imestanult)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(imestanult).</stage>
                     <p>Heldene aeg! Milleks mul püksid, kui pean istuma ja end kanda laskma?</p>
                 </sp>
                 <sp who="#mathias">
@@ -2608,13 +2609,13 @@
                     <p>See on suurema seisuse ja õilsama vere pärast.</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(kanderaamil püsti)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(kanderaamil püsti).</stage>
                     <p>Vaata, ema, nõnda tehakse, naisega, kes mehest ei tea, aga sina käisid tulist rauda peale, et ma Karloga asjad joonde ajaks. Ainult imevasikas päästis mu. <stage>(Istub. Mehed kohmitsevad tema ümber, seljad mahajääjate poole. Seda silmapilku kasutavad Karlo ja isa; nad haaravad maast malakad pihku. Karlo virutab Mathiale, isa teisele mehele pähe, nii et mõlemad langevad maha, kuna teised satuvad segadusse. Karlo haarab Angela sülle ja tahab põgeneda pahemale. Mehed, kes ehmatusest toibunud, jooksevad talle järele ja rüselevad ema ning isaga, kes neid püüavad takistada. Karlo kaob ühes Angelaga silmapilguks vaatajate silmist, aga nad tuuakse varsti tagasi, kuna samal ajal ka isa ja ema kinni võetakse.)</stage></p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(tõttab Mathia juurde, kes kiivrita, laskub põlvili ja tõstab ta pea endale sülle; õrnalt)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(tõttab Mathia juurde, kes kiivrita, laskub põlvili ja tõstab ta pea endale sülle; õrnalt).</stage>
                     <p>Mathias, kallis, kas ma ei öelnud sulle, et milleks see suursugune kandetool, kui mul püksid jalas. Näed nüüd, sina oled surnud ja mina ei saa kunagi kuningakotta.</p>
                 </sp>
                 <sp who="#ema">
@@ -2622,8 +2623,8 @@
                     <p>Oleks jumalaõnn, kui tal toss väljas oleks, aga ega tal ei ole, sest kiiver kaitses pead. Raputa teda või kõtista kõrrega ninast, nii et ta aevastama hakkab, sest kui inimene aevastab, siis tal on hing sees.</p>
                 </sp>
                 <sp who="#mathias">
-                    <speaker>MATHIAS.</speaker>
-                    <stage>(ümiseb)</stage>
+                    <speaker>MATHIAS</speaker>
+                    <stage>(ümiseb).</stage>
                     <p>Hing sees... Mis? Kus ma olen?</p>
                 </sp>
                 <sp who="#angela">
@@ -2651,8 +2652,8 @@
                     <p>Kus on need mässajad? Kinni siduda nad ja kaasa võtta kuningakohtusse.</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(tõuseb, astub Mathia juurde)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(tõuseb, astub Mathia juurde).</stage>
                     <p>Jäta nad, mis sa neist kaasa vead, nad pole ju midagi kurja teinud, ainult kakelnud pisut. Siin mägedes on see ainuke lõbu ja ajaviide rahvale, sest kino ei ole, raadiot ei ole, grammofoni ei ole, staadioni ei ole, ujulat ei ole, bridži ei ole, kohvikut ei ole, öölokaali ei ole, isegi kirik ja palvemaja on kaugel. Aga inimene peab lõbutsema, muidu ei saa. Ja et sul on võõrad mehed kaasas, noh, siis oli sobiv silmapilk lõbutsemiseks.</p>
                 </sp>
                 <sp who="#mathias">
@@ -2745,13 +2746,13 @@
                     <p>Kui saan kuningakotta, muretsen sulle palgijupid, monopoli ja ainuõiguse, nii et sa kohe tunneksid, et sul on suurest seisusest tütar. Aga nüüd elage kõik hästi, ma pean minema, sest kuningas ootab. <stage>(Kaob ühes meestega paremale.)</stage></p>
                 </sp>
                 <sp who="#karlo">
-                    <speaker>KARLO.</speaker>
-                    <stage>(pikali maas)</stage>
+                    <speaker>KARLO</speaker>
+                    <stage>(pikali maas).</stage>
                     <p>Angela, Angela!</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(hääl)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(hääl).</stage>
                     <p>Mis on, Karlo?</p>
                 </sp>
                 <sp who="#karlo">
@@ -2759,18 +2760,18 @@
                     <p>Meie laulatussõrmused unustasin nende pükste tasku, mis sul jalas.</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(hääl)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(hääl).</stage>
                     <p>Hea küll, Karlo, ühe võtan omale, teise annan kuningale.</p>
                 </sp>
                 <sp who="#karlo">
-                    <speaker>KARLO.</speaker>
-                    <stage>(hüüdes)</stage>
+                    <speaker>KARLO</speaker>
+                    <stage>(hüüdes).</stage>
                     <p>Angela, Angela!</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(hääl, kaugemal)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(hääl, kaugemal).</stage>
                     <p>Ma kuulen, Karlo.</p>
                 </sp>
                 <sp who="#karlo">
@@ -2778,13 +2779,13 @@
                     <p>Ma tulen kuningalinna kahe peaga vasikat näitama, tee talle reklaami ülemate ja nende naiste ning tütarde keskel,</p>
                 </sp>
                 <sp who="#angela">
-                    <speaker>ANGELA.</speaker>
-                    <stage>(hääl)</stage>
+                    <speaker>ANGELA</speaker>
+                    <stage>(hääl).</stage>
                     <p>Tulen ise teda vaatama ja toon terve kuningakoja kaasa.</p>
                 </sp>
                 <sp who="#isa">
-                    <speaker>ISA.</speaker>
-                    <stage>(vähe aja pärast)</stage>
+                    <speaker>ISA</speaker>
+                    <stage>(vähe aja pärast).</stage>
                     <p>Tahad sa tõesti oma vasikaga kuningalinna minna?</p>
                 </sp>
                 <sp who="#karlo">
@@ -2800,8 +2801,8 @@
                     <p>Mitte ainustki silmapilku ei oota ma. <stage>(Hakkab end mööda põrandat isa poole nihutama, ligi jõudes ütleb:)</stage> Pööra selg minu poole. <stage>(Isa teeb seda. Ka Karlo pöördub seljaga isa poole, nõnda võib ta selle käed lahti näppida, kes siis omakorda päästab Karlo ja ema köidikuist.)</stage></p>
                 </sp>
                 <sp who="#ema">
-                    <speaker>EMA.</speaker>
-                    <stage>(vabanenult käsi hõõrudes)</stage>
+                    <speaker>EMA</speaker>
+                    <stage>(vabanenult käsi hõõrudes).</stage>
                     <p>Nõnda on inimesega, kui tal on tütar, kes mehest ei tea.</p>
                 </sp>
                 <sp who="#isa">
@@ -2845,8 +2846,8 @@
                     <p>Kuis nii?</p>
                 </sp>
                 <sp who="#ema">
-                    <speaker>EMA.</speaker>
-                    <stage>(osutades)</stage>
+                    <speaker>EMA</speaker>
+                    <stage>(osutades).</stage>
                     <p>Kuis nii... Miks siis mitte! Kui Angela poleks sellest vasikast kuulnud, siis oleks ta sinuga asjad joonde ajand ja kuninga sulased oleks pidand suu puhtaks pühkima. Aga see, mädand, oma kahe peaga...</p>
                 </sp>
                 <sp who="#isa">
@@ -2854,17 +2855,17 @@
                     <p>Jah, ise ajasid oma vasikaga tüdruku peruks.</p>
                 </sp>
                 <sp who="#karlo">
-                    <speaker>KARLO.</speaker>
-                    <stage>(nihkub pahemale, kibeleb minema, kaob)</stage>
+                    <speaker>KARLO</speaker>
+                    <stage>(nihkub pahemale, kibeleb minema, kaob).</stage>
                 </sp>
                 <sp who="#ema">
-                    <speaker>EMA.</speaker>
-                    <stage>(hüüdes)</stage>
+                    <speaker>EMA</speaker>
+                    <stage>(hüüdes).</stage>
                     <p>Karlo! Tule tagasi!</p>
                 </sp>
                 <sp who="#karlo">
-                    <speaker>KARLO.</speaker>
-                    <stage>(ilmub uuesti pahemalt)</stage>
+                    <speaker>KARLO</speaker>
+                    <stage>(ilmub uuesti pahemalt).</stage>
                     <p>Mis on?</p>
                 </sp>
                 <sp who="#ema">
@@ -2877,8 +2878,8 @@
                 </sp>
                 <pb n="35"/>
                 <sp who="#ema">
-                    <speaker>EMA.</speaker>
-                    <stage>(järele hüüdes)</stage>
+                    <speaker>EMA</speaker>
+                    <stage>(järele hüüdes).</stage>
                     <p>Kui sa süüa ei taha, siis vähemalt laula minnes, Angelagi ehk kuuleb pisut.</p>
                 </sp>
                 <sp who="#isa">
@@ -2890,12 +2891,12 @@
                     <p>Las ta nüüd karjub, lahutab pisutki oma meelt.</p>
                 </sp>
                 <sp who="#karlo">
-                    <speaker>KARLO.</speaker>
-                    <stage>(nägematuna, hakkab laulma)</stage>
+                    <speaker>KARLO</speaker>
+                    <stage>(nägematuna, hakkab laulma).</stage>
                 </sp>
                 <sp who="#ema">
-                    <speaker>EMA.</speaker>
-                    <stage>(läheb supipaja juurde, kergitab kaant)</stage>
+                    <speaker>EMA</speaker>
+                    <stage>(läheb supipaja juurde, kergitab kaant).</stage>
                     <p>Seal ta nüüd on: tuli kustund, supp jahtund. <stage>(Maitseb lusikaga, sülitab.)</stage> Ptüi! On see aga lõrp! Nagu vedel seasööm. Küllap tüdruk ikkagi poissi armastas, ei ta muidu poleks niisukest solki keet.</p>
                 </sp>
                 <sp who="#isa">
@@ -2951,25 +2952,25 @@
                     <head>ESIMENE PILT</head>
                     <stage>(Tuba kuningakojas. Pehme mööbel, vaibad, pildid seintel, lilled vaasides. Uksed nagu esimeses vaatuses.)</stage>
                     <sp who="#angela">
-                        <speaker>ANGELA.</speaker>
-                        <stage>(endiselt lokid õlgadel, ilma ehteasjadeta pidžaamas, seisab pahemal pool akna all ja vahib eesriide vahelt välja, kuninga poole pöördumata)</stage>
+                        <speaker>ANGELA</speaker>
+                        <stage>(endiselt lokid õlgadel, ilma ehteasjadeta pidžaamas, seisab pahemal pool akna all ja vahib eesriide vahelt välja, kuninga poole pöördumata).</stage>
                         <p>Ei tea kuhu need inimesed kõik tõttavad, mõned lähevad pooljoostes kohe.</p>
                     </sp>
                     <sp who="#kuningas">
-                        <speaker>KUNINGAS.</speaker>
-                        <stage>(palja lagipeaga, valgete udemetega kõrva ääres, istub diivanil, pikk pehme öökuub seljas, pehmed toakingad jalas, laksutab tasakesi käsi)</stage>
+                        <speaker>KUNINGAS</speaker>
+                        <stage>(palja lagipeaga, valgete udemetega kõrva ääres, istub diivanil, pikk pehme öökuub seljas, pehmed toakingad jalas, laksutab tasakesi käsi).</stage>
                     </sp>
                     <sp who="#teener">
-                        <speaker>TEENER.</speaker>
-                        <stage>(tagauksest paremalt sisse, jääb uksele)</stage>
+                        <speaker>TEENER</speaker>
+                        <stage>(tagauksest paremalt sisse, jääb uksele).</stage>
                     </sp>
                     <sp who="#kuningas">
                         <speaker>KUNINGAS.</speaker>
                         <p>Järele kuulata, kuhu tõttavad inimesed.</p>
                     </sp>
                     <sp who="#teener">
-                        <speaker>TEENER.</speaker>
-                        <stage>(ära)</stage>
+                        <speaker>TEENER</speaker>
+                        <stage>(ära).</stage>
                     </sp>
                     <sp who="#kuningas">
                         <speaker>KUNINGAS.</speaker>
@@ -2988,13 +2989,13 @@
                         <p>Kas siis linnarahvas nii väga armastab tuld ja kakelust?</p>
                     </sp>
                     <sp who="#kuningas">
-                        <speaker>KUNINGAS.</speaker>
-                        <stage>(ükskõikselt)</stage>
+                        <speaker>KUNINGAS</speaker>
+                        <stage>(ükskõikselt).</stage>
                         <p>Oh jaa! Mõlemal pool on vägivald, siin loodusjõudude, seal inimeste. Rahvas armastab vägivalda, sest ta arvab, vägivallas on jõud. Miski ei meeldi rahvale rohkem kui jõud.</p>
                     </sp>
                     <sp who="#angela">
-                        <speaker>ANGELA.</speaker>
-                        <stage>(imestanult)</stage>
+                        <speaker>ANGELA</speaker>
+                        <stage>(imestanult).</stage>
                         <p>Oh aeg! Ikka hullemaks asi läheb. Esiteks jooksid poisid ja naised, siis läksid mehed täit käiku, nüüd ruttavad juba emad väikeste lastega süles või vankris ning isegi vanad ja vigased keppide ja karkudega. Aa! Juba paistavad ka prouad ja preilid, siidvarjud käes, ja härrasmehed, kõvad peas. Kas sina, kuningas, ise ei taha vaadata, kuidas su rahvas jookseb?</p>
                     </sp>
                     <sp who="#kuningas">
@@ -3002,8 +3003,8 @@
                         <p>Ei, mu kallis. Kui rahvas jooksma hakkab, siis tähendab see ikka halba ja mina hoidun halvast asjast võimalikult kaua eemale. Ta tuleb mulle niikuinii kätte. Sest kui rahvas jookseb halva asja pärast, siis ajab ta selle lõpuks ikka kuninga süüks ja maksab temale kätte.</p>
                     </sp>
                     <sp who="#angela">
-                        <speaker>ANGELA.</speaker>
-                        <stage>(tuleb akna alt ära)</stage>
+                        <speaker>ANGELA</speaker>
+                        <stage>(tuleb akna alt ära).</stage>
                         <p>Kuningas, kui sa tõesti arvad, et inimesed jooksevad halva asja pärast, siis mina ka ei vaata enam. <stage>(Astub kuninga ette.)</stage> Oled sa kurb, kuningas, et su rahvas jookseb halva asja pärast?</p>
                     </sp>
                     <sp who="#kuningas">
@@ -3019,8 +3020,8 @@
                         <p>Palun, mu lemmik. Mul hakkaski juba pisut vilu.</p>
                     </sp>
                     <sp who="#angela">
-                        <speaker>ANGELA.</speaker>
-                        <stage>(istub kuninga sülle)</stage>
+                        <speaker>ANGELA</speaker>
+                        <stage>(istub kuninga sülle).</stage>
                         <p>Kas sina, kuningas, pole kunagi nagu pöörane halva asja pärast jooksnud? Mitte kunagi? Räägi mulle ilusti tõtt, nii et ma natukenegi teaks, mis loomad need kuningad tõepoolest on.</p>
                     </sp>
                     <sp who="#kuningas">
@@ -3060,8 +3061,8 @@
                         <p>Mitte kedagi, mu lemmik.</p>
                     </sp>
                     <sp who="#angela">
-                        <speaker>ANGELA.</speaker>
-                        <stage>(häbelikult)</stage>
+                        <speaker>ANGELA</speaker>
+                        <stage>(häbelikult).</stage>
                         <p>Nõnda hakkan sind armastama. Ma armastangi sind juba natukene, kuningas.</p>
                     </sp>
                     <sp who="#kuningas">
@@ -3077,28 +3078,28 @@
                         <p>Sisse!</p>
                     </sp>
                     <sp who="#teener">
-                        <speaker>TEENER.</speaker>
-                        <stage>(astub sisse)</stage>
+                        <speaker>TEENER</speaker>
+                        <stage>(astub sisse).</stage>
                         <p>Kuningas, linna on ilmunud mees, kes laulab mägilaule ja näitab kahe peaga vasikat, rahvas jookseb tema juurde.</p>
                     </sp>
                     <sp who="#angela">
-                        <speaker>ANGELA.</speaker>
-                        <stage>(kargab põlvili kuninga sülle, hüppab seal ja lööb käsi rõõmu pärast kokku)</stage>
+                        <speaker>ANGELA</speaker>
+                        <stage>(kargab põlvili kuninga sülle, hüppab seal ja lööb käsi rõõmu pärast kokku).</stage>
                         <p>See on Karlo, see on tingimata tema!</p>
                     </sp>
                     <sp who="#kuningas">
-                        <speaker>KUNINGAS.</speaker>
-                        <stage>(annab teenrile märku, see lahkub)</stage>
+                        <speaker>KUNINGAS</speaker>
+                        <stage>(annab teenrile märku, see lahkub).</stage>
                         <p>Kes on Karlo?</p>
                     </sp>
                     <sp who="#angela">
-                        <speaker>ANGELA.</speaker>
-                        <stage>(ikka veel põlvili süles)</stage>
+                        <speaker>ANGELA</speaker>
+                        <stage>(ikka veel põlvili süles).</stage>
                         <p>Minu peigmees.</p>
                     </sp>
                     <sp who="#kuningas">
-                        <speaker>KUNINGAS.</speaker>
-                        <stage>(aietades)</stage>
+                        <speaker>KUNINGAS</speaker>
+                        <stage>(aietades).</stage>
                         <p>Ai, ai, valus on!</p>
                     </sp>
                     <sp who="#angela">
@@ -3130,8 +3131,8 @@
                         <p>Näed sa nüüd, kuningas, sul on must abi ka pisut. Kas sa ei tahaks diivanile kõhuli lasta, nagu minu isa laskis murule, kui ma teda põlvili tallasin <stage>(Kargab põrandale.)</stage> Tee seda, kuningas, kui sa mind natukenegi armastad. Ma aitan sind. <stage>(Võtab kuningal jalust kinni, tõstab need järsku<pb n="38"/> diivanile ja kuningas langeb pikali; sikutab ja pöörab teda, kuni saab ta kõhuli, rääkides.)</stage> Nõnda! Jalad siia! Nii! Käed nõnda, lõua alla padi — nõnda! Soo, ole nüüd päris paigal, küll sa näed, mis ma teen. Esteks tasakesti keset selga <stage>(ronib põlvili kuninga peale),</stage> tunned, kui hea! Küll on sinul pehme selg! Kohe tunda, et kuninga oma. Minu isa oli nagu elus puuhunt, põlved tegi hellaks. Sinu seljas võiksin ma tundide kaupa põlvitada. <stage>(Liigub piha poole.)</stage> Eks ole hea, mis?</p>
                     </sp>
                     <sp who="#kuningas">
-                        <speaker>KUNINGAS.</speaker>
-                        <stage>(ägisedes)</stage>
+                        <speaker>KUNINGAS</speaker>
+                        <stage>(ägisedes).</stage>
                         <p>Hea on küll, aga valus on ka.</p>
                     </sp>
                     <sp who="#angela">
@@ -3147,8 +3148,8 @@
                         <p>Vaene kuningas! Kõike on tal küllalt, ainult valust on tal puudus. <stage>(Koputus uksele.)</stage> Kes seal on?</p>
                     </sp>
                     <sp who="#narr">
-                        <speaker>NARR.</speaker>
-                        <stage>(ukse tagant)</stage>
+                        <speaker>NARR</speaker>
+                        <stage>(ukse tagant).</stage>
                         <p>Siin on vanateener ja narr, nad otsivad kuningat.</p>
                     </sp>
                     <sp who="#kuningas">
@@ -3156,8 +3157,8 @@
                         <p>Tule sisse! Narr on oma inimene.</p>
                     </sp>
                     <sp who="#narr">
-                        <speaker>NARR.</speaker>
-                        <stage>(tuleb uksest, heakskiitvalt)</stage>
+                        <speaker>NARR</speaker>
+                        <stage>(tuleb uksest, heakskiitvalt).</stage>
                         <p>Just nii! Kuningas rahva kukil, naine kuninga kukil.</p>
                     </sp>
                     <sp who="#kuningas">
@@ -3185,8 +3186,8 @@
                         <p>Siis on need küll sest ajast, kus me röövliametit pidasime.</p>
                     </sp>
                     <sp who="#angela">
-                        <speaker>ANGELA.</speaker>
-                        <stage>(tallates)</stage>
+                        <speaker>ANGELA</speaker>
+                        <stage>(tallates).</stage>
                         <p>Mis te õieti tegite, kui röövlid olite?</p>
                     </sp>
                     <sp who="#narr">
@@ -3214,8 +3215,8 @@
                         <p>Narrile on kõik lubatud.</p>
                     </sp>
                     <sp who="#angela">
-                        <speaker>ANGELA.</speaker>
-                        <stage>(narrile)</stage>
+                        <speaker>ANGELA</speaker>
+                        <stage>(narrile).</stage>
                         <p>Lase siis vaibale kõhuli. <stage>(Narr laskub.)</stage> Aga sind tallan ma jaluli, mitte põlvili, narr.</p>
                     </sp>
                     <sp who="#narr">
@@ -3223,19 +3224,19 @@
                         <p>Narri talla, nagu tahad, ikka tänab ta.</p>
                     </sp>
                     <sp who="#angela">
-                        <speaker>ANGELA.</speaker>
-                        <stage>(astub narri sääremarjadele ja hakkab pikkamisi mööda jalgu ülespoole minema)</stage>
+                        <speaker>ANGELA</speaker>
+                        <stage>(astub narri sääremarjadele ja hakkab pikkamisi mööda jalgu ülespoole minema).</stage>
                         <p>Põlved naksuvad sul nagu vanal äraaetud setukal ja reied on sul paljas luu ja nahk. Oi, oi, narrike, sa oled niisama kõva ja kondine nagu minu isagi mägedel, mis sest siis kasu, et elad kuningakojas.</p>
                     </sp>
                     <sp who="#kuningas">
-                        <speaker>KUNINGAS.</speaker>
-                        <stage>(küljeli, käsipõsekil diivanil)</stage>
+                        <speaker>KUNINGAS</speaker>
+                        <stage>(küljeli, käsipõsekil diivanil).</stage>
                         <p>Mitte narril pole sest kasu, et elab kuningakojas, vaid kuningal: narr on ainuke ustav inimene tänapäev.</p>
                     </sp>
                     <pb n="39"/>
                     <sp who="#narr">
-                        <speaker>NARR.</speaker>
-                        <stage>(ägisedes, sest Angela on tal jaluli keset selga)</stage>
+                        <speaker>NARR</speaker>
+                        <stage>(ägisedes, sest Angela on tal jaluli keset selga).</stage>
                         <p>Elus ja ajaloos polegi muud, kui aga tänapäev, sellepärast on narril leib hooleta.</p>
                     </sp>
                     <sp who="#kuningas">
@@ -3243,23 +3244,23 @@
                         <p>Joosep, tulid sa ainult selleks siia, et end neitsi Angelast tallata lasta, või oli sul ka muud asja?</p>
                     </sp>
                     <sp who="#narr">
-                        <speaker>NARR.</speaker>
-                        <stage>(jahmatab, pöördub järsku maas ümber, nii et Angela kukub vaibale)</stage>
+                        <speaker>NARR</speaker>
+                        <stage>(jahmatab, pöördub järsku maas ümber, nii et Angela kukub vaibale).</stage>
                         <p>Ah, vabandust, kuningas...</p>
                     </sp>
                     <sp who="#angela">
-                        <speaker>ANGELA.</speaker>
-                        <stage>(pahaselt)</stage>
+                        <speaker>ANGELA</speaker>
+                        <stage>(pahaselt).</stage>
                         <p>Narr, kõigepealt palu räpakuse pärast minult vabandust.</p>
                     </sp>
                     <sp who="#narr">
-                        <speaker>NARR.</speaker>
-                        <stage>(kargab püsti)</stage>
+                        <speaker>NARR</speaker>
+                        <stage>(kargab püsti).</stage>
                         <p>Ah, vabandust, kuninganna!</p>
                     </sp>
                     <sp who="#angela">
-                        <speaker>ANGELA.</speaker>
-                        <stage>(pikali vaibal)</stage>
+                        <speaker>ANGELA</speaker>
+                        <stage>(pikali vaibal).</stage>
                         <p>Narr, palun veel kord samad sõnad!</p>
                     </sp>
                     <sp who="#narr">
@@ -3271,8 +3272,8 @@
                         <p>Ku-nin-gan-na. Jumalik! Küll on maailmas ilusaid sõnu!</p>
                     </sp>
                     <sp who="#kuningas">
-                        <speaker>KUNINGAS.</speaker>
-                        <stage>(narrile, kes vahib Angelat)</stage>
+                        <speaker>KUNINGAS</speaker>
+                        <stage>(narrile, kes vahib Angelat).</stage>
                         <p>Joosep, ma ootan.</p>
                     </sp>
                     <sp who="#narr">
@@ -3288,8 +3289,8 @@
                         <p>Kõik on läinud ühes rahvaga kahe peaga vasikat vaatama.</p>
                     </sp>
                     <sp who="#angela">
-                        <speaker>ANGELA.</speaker>
-                        <stage>(kargab vaibalt)</stage>
+                        <speaker>ANGELA</speaker>
+                        <stage>(kargab vaibalt).</stage>
                         <p>Kas kuuled, kuningas, kõik on juba läind. Lähme meie ka. Ma tahaks kangesti seda vasikat näha, kes mu kuningakotta aitas</p>
                     </sp>
                     <sp who="#kuningas">
@@ -3305,8 +3306,8 @@
                         <p>Mathiat pole linnas.</p>
                     </sp>
                     <sp who="#angela">
-                        <speaker>ANGELA.</speaker>
-                        <stage>(ärevalt)</stage>
+                        <speaker>ANGELA</speaker>
+                        <stage>(ärevalt).</stage>
                         <p>Kas saatsid ta jällegi mõnele naisele järele või?</p>
                     </sp>
                     <sp who="#kuningas">
@@ -3363,8 +3364,8 @@
                     </sp>
                     <pb n="40"/>
                     <sp who="#kuningas">
-                        <speaker>KUNINGAS.</speaker>
-                        <stage>(ohkab)</stage>
+                        <speaker>KUNINGAS</speaker>
+                        <stage>(ohkab).</stage>
                         <p>Kui kahju, et minul pole kahte pead! Kuningad on kõik ühe peaga, sellepärast jäetaksegi nad rahva poolt maha ja joostakse vasika järele, kel kaks pead. Isegi naine, kes istub kuninga süles, jätaks meeleldi kuninga ja hoiaks vasika poole.</p>
                     </sp>
                     <sp who="#angela">
@@ -3376,8 +3377,8 @@
                         <p>Sisse!</p>
                     </sp>
                     <sp who="#narr">
-                        <speaker>NARR.</speaker>
-                        <stage>(ilmub)</stage>
+                        <speaker>NARR</speaker>
+                        <stage>(ilmub).</stage>
                         <p>Kuningas, sinu koda on tühi, sellepärast ei tule keegi, kui kutsud. Inimesed on sinu ja su koja maha jätnud, koeradki on ühes inimestega läinud. Ainult kass istub oma poegade juures ja peseb silmi. Inimestest on veel kolm järel: kuningas, narr ja naine, kes mehest ei tea.</p>
                     </sp>
                     <sp who="#kuningas">
@@ -3449,8 +3450,8 @@
                         <p>Ja tapad neid, kes su troonile tõstsid.</p>
                     </sp>
                     <sp who="#kuningas">
-                        <speaker>KUNINGAS.</speaker>
-                        <stage>(mõttes)</stage>
+                        <speaker>KUNINGAS</speaker>
+                        <stage>(mõttes).</stage>
                         <p>Et siinilmas ka midagi ei muutu! Kui meie olime noored, siis oli just niisama.</p>
                     </sp>
                     <sp who="#narr">
@@ -3486,8 +3487,8 @@
                         <p>Nii et kui Karlo kätte saadakse, siis puuakse ta üles, eks?</p>
                     </sp>
                     <sp who="#kuningas">
-                        <speaker>KUNINGAS.</speaker>
-                        <stage>(ükskõikselt)</stage>
+                        <speaker>KUNINGAS</speaker>
+                        <stage>(ükskõikselt).</stage>
                         <p>Miks nii?</p>
                     </sp>
                     <sp who="#angela">
@@ -3495,18 +3496,18 @@
                         <p>Kuningas, sa pead mind rumalamaks, kui ma olen. Sa ju ise ütlesid: mitte verd valada. Noh, siis peab ta üles pooma, kui ta katsub rahvast kahe peaga vasika abil oma poole üle meelitada.</p>
                     </sp>
                     <sp who="#kuningas">
-                        <speaker>KUNINGAS.</speaker>
-                        <stage>(väsinult haigutades)</stage>
+                        <speaker>KUNINGAS</speaker>
+                        <stage>(väsinult haigutades).</stage>
                         <p>Ah nii, mu laps!</p>
                     </sp>
                     <sp who="#angela">
-                        <speaker>ANGELA.</speaker>
-                        <stage>(mängides kuninga valgete udemetega)</stage>
+                        <speaker>ANGELA</speaker>
+                        <stage>(mängides kuninga valgete udemetega).</stage>
                         <p>Näed nüüd, kuningas, mul on õigus. Karlo puuakse üles. Aga kui sa tahad, et ma ikka veel sinu süles istuks, siis poo ennem see kahe peaga vasikas kui Karlo, sest tema laulab nii ilusasti mägedes, kui kõrgel käib helevalge kuu. Nõnda laulab ainuüksi Karlo ja nõnda kostab see ainult mägedes, kui keegi tuleb ja laulab.</p>
                     </sp>
                     <sp who="#kuningas">
-                        <speaker>KUNINGAS.</speaker>
-                        <stage>(sonib uinudes)</stage>
+                        <speaker>KUNINGAS</speaker>
+                        <stage>(sonib uinudes).</stage>
                         <p>Ainult Karlo... ainult mägedes... tuleb ja laulab...</p>
                     </sp>
                     <sp who="#angela">
@@ -3539,14 +3540,14 @@
                         <p>Aga...</p>
                     </sp>
                     <sp who="#narr">
-                        <speaker>NARR.</speaker>
-                        <stage>(vahele)</stage>
+                        <speaker>NARR</speaker>
+                        <stage>(vahele).</stage>
                         <p>Mitte "aga", vaid "just nii" või "kuulen".</p>
                     </sp>
                     <pb n="42"/>
                     <sp who="#teener">
-                        <speaker>TEENER.</speaker>
-                        <stage>(jääb sirgelt seisma, tool käes, ja hüüab)</stage>
+                        <speaker>TEENER</speaker>
+                        <stage>(jääb sirgelt seisma, tool käes, ja hüüab).</stage>
                         <p>Just nii! Kuulen!</p>
                     </sp>
                     <sp who="#narr">
@@ -3622,8 +3623,8 @@
                         <p>Jah, narril näib seekord õigus olevat. Kes võis küll arvata, et naine, kes mehest ei tea...</p>
                     </sp>
                     <sp who="#uelempreester">
-                        <speaker>ÜLEMPREESTER.</speaker>
-                        <stage>(võidurõõmsalt)</stage>
+                        <speaker>ÜLEMPREESTER</speaker>
+                        <stage>(võidurõõmsalt).</stage>
                         <p>...võib imet teha, eks ole nõnda?</p>
                     </sp>
                     <sp who="#kirjauelem">
@@ -3643,8 +3644,8 @@
                         <p>Miks just ühe pärast? Meie kallil kodumaal võiks ju<pb n="43"/> rohkem kui üks neitsi olla. Sa mõtle ometi, et kui juba ühe neitsi pärast on riigimetsades nii suur kokkuhoid, mis sünniks veel siis, kui neitsisid oleks rohkem. Pealegi, kallis kirjaülem, metsad, mis ahjus põlevad, soendavad meid väljastpoolt, naine, kes mehest ei tea, seestpoolt. Õige naine on nii-öelda mehe keskküte.</p>
                     </sp>
                     <sp who="#vaeeuelem">
-                        <speaker>VÄEÜLEM.</speaker>
-                        <stage>(kes viimaste sõnade ajal ligi astunud)</stage>
+                        <speaker>VÄEÜLEM</speaker>
+                        <stage>(kes viimaste sõnade ajal ligi astunud).</stage>
                         <p>Seltsimees ülempreester jutlustab aina armastusest, aga maailmas aitab tänapäev ainult hirmu nahka ajamine. Kõik peavad kõiki kartma, see on tänapäeva loosung.</p>
                     </sp>
                     <sp who="#uelempreester">
@@ -3668,19 +3669,19 @@
                         <p>Mitte imede maal, vaid imede ajastul elame tänapäev. Kõigil on nii palju soove, et ainult imed võivad neid rahuldada.</p>
                     </sp>
                     <sp who="#narr">
-                        <speaker>NARR.</speaker>
-                        <stage>(astub viimaste sõnade ajal tagaseina ukselt pahemalt sisse, lööb kepiga vastu põrandat ja hüüab)</stage>
+                        <speaker>NARR</speaker>
+                        <stage>(astub viimaste sõnade ajal tagaseina ukselt pahemalt sisse, lööb kepiga vastu põrandat ja hüüab).</stage>
                         <p>Kuningas ja kuninganna, neitsi Angela!</p>
                     </sp>
                     <sp who="#vaeeuelem">
-                        <speaker>VÄEÜLEM.</speaker>
-                        <stage>(siseülemale, tasa)</stage>
+                        <speaker>VÄEÜLEM</speaker>
+                        <stage>(siseülemale, tasa).</stage>
                         <p>Ka kuninganna! Tähendab varsti saame naiste rügemendi.</p>
                     </sp>
                     <stage>(Kuningas ja Angela tulevad käsikäes. Kuningas kuues, paljas pealagi katmata; Angela lahedavõitu lihtsas kleidis, mis ometi laseb mõjule tema noore keha. Ehted puuduvad, lokid endiselt õlgadeni. Kuninga samm aeglane, raske, iseteadlik, Angelal kerge, peaaegu tantsisklev ja lendav, ise rõõmus ja naerul, nagu oleks kõik ainult mäng. Kui nad jõuavad kõrgendi juurde, tahab narr, kes kõnnib ülitähtsalt kuninga kannul, teda astmeist üles aidata, aga teda takistab selles)</stage>
                     <sp who="#angela">
-                        <speaker>ANGELA.</speaker>
-                        <stage>(öeldes narrile)</stage>
+                        <speaker>ANGELA</speaker>
+                        <stage>(öeldes narrile).</stage>
                         <p>Joosep, sina ära sega kuningat, las ta aga ronib ise, muidu veel ülemad arvavad, et kuningas pole iseseisev. <stage>(Võtab kuningal käe alt kinni ja aitab ta aujärjele.)</stage> No näed, kallis kuningas, meie oleme iseseisvad, meie ei vaja narri abi.</p>
                     </sp>
                     <sp who="#narr">
@@ -3688,8 +3689,8 @@
                         <p>Kuningas on ainult siis iseseisev, kui teda aitab mõni naine või narr.</p>
                     </sp>
                     <sp who="#angela">
-                        <speaker>ANGELA.</speaker>
-                        <stage>(kuningale)</stage>
+                        <speaker>ANGELA</speaker>
+                        <stage>(kuningale).</stage>
                         <p>Pean ma kohe sülle istuma?</p>
                     </sp>
                     <sp who="#kuningas">
@@ -3697,8 +3698,8 @@
                         <p>Kohe, mu lemmik, nõnda on palju kindlam.</p>
                     </sp>
                     <sp who="#angela">
-                        <speaker>ANGELA.</speaker>
-                        <stage>(istub kuninga sülle, riputades jalad üle toolitoe ja hoidudes nõnda, et kuningas koosolijaid näeks)</stage>
+                        <speaker>ANGELA</speaker>
+                        <stage>(istub kuninga sülle, riputades jalad üle toolitoe ja hoidudes nõnda, et kuningas koosolijaid näeks).</stage>
                         <p>Mul on nii hea meel, et ma teen kuninga kindlamaks.</p>
                     </sp>
                     <sp who="#kuningas">
@@ -3794,8 +3795,8 @@
                         <p>Siis olen mina, kuningas ja neitsi Angela ainukesed, kes pole veel seda imet näinud.</p>
                     </sp>
                     <sp who="#narr">
-                        <speaker>NARR.</speaker>
-                        <stage>(ukse alt)</stage>
+                        <speaker>NARR</speaker>
+                        <stage>(ukse alt).</stage>
                         <p>Neitsi Angelale ma näitasin, ainult kuningas...</p>
                     </sp>
                     <sp who="#kuningas">
@@ -3816,12 +3817,12 @@
                         <p>Siis jätame kiusu ja vasika, kui kuningas lubab.</p>
                     </sp>
                     <sp who="#kuningas">
-                        <speaker>KUNINGAS.</speaker>
-                        <stage>(nokutab pead nõus olles)</stage>
+                        <speaker>KUNINGAS</speaker>
+                        <stage>(nokutab pead nõus olles).</stage>
                     </sp>
                     <sp who="#narr">
-                        <speaker>NARR.</speaker>
-                        <stage>(väljub uksest)</stage>
+                        <speaker>NARR</speaker>
+                        <stage>(väljub uksest).</stage>
                     </sp>
                     <sp who="#angela">
                         <speaker>ANGELA.</speaker>
@@ -3848,8 +3849,8 @@
                         <p>Tänapäev ei maksaks verevalamisega usu vastu võidelda. Kui rahvas usub, et vasika kaks pead on jumalaime, siis...</p>
                     </sp>
                     <sp who="#vaeeuelem">
-                        <speaker>VÄEÜLEM.</speaker>
-                        <stage>(ironiseerivalt)</stage>
+                        <speaker>VÄEÜLEM</speaker>
+                        <stage>(ironiseerivalt).</stage>
                         <p>...siis peab ootama, kuni sünnib kolme peaga või peata vasikas.</p>
                     </sp>
                     <sp who="#uelempreester">
@@ -3865,8 +3866,8 @@
                         <p>Jah, see aitaks tingimata. Aga preestrid ei taha palvetada. Minu ema käis kord preestrilt eestpalvet tahtmas, et kui vana Maasik toob vasika, siis toogu niisuke, nagu ta ise: väikesed sissepoole kõverad sarved, valge täpp otsaees ja hea piimaanniga. Aga preester ütles ilma pikemata, et tema vasikatele eestpalveid ei pea, ja ei pidanudki. Siis läks ema kaardimoori juurde ja lasi sel kaardid välja panna, nii et vasikas tuleks Maasika moodi, ja näe tuligi, ainult et mitte lehm, vaid härg. <stage>(Naer.)</stage></p>
                     </sp>
                     <sp who="#narr">
-                        <speaker>NARR.</speaker>
-                        <stage>(tuleb tagaseina uksest pahemalt, tema järel raudus Karlo ja Mathias valvurite saatel. Vangid paigutatakse teisele poole lauda kuninga järi vastu, kuhu ülemad neile ruumi teevad, nihutades oma toolid kõrvale. Valvurid taganevad ukse alla ja väljuvad narri märguandel)</stage>
+                        <speaker>NARR</speaker>
+                        <stage>(tuleb tagaseina uksest pahemalt, tema järel raudus Karlo ja Mathias valvurite saatel. Vangid paigutatakse teisele poole lauda kuninga järi vastu, kuhu ülemad neile ruumi teevad, nihutades oma toolid kõrvale. Valvurid taganevad ukse alla ja väljuvad narri märguandel).</stage>
                         <p>Kuningas, siin on peasüüdlased — Mathias ja mägilane.</p>
                     </sp>
                     <sp who="#angela">
@@ -3910,22 +3911,22 @@
                         <p>Tee, nagu neitsi Angela soovib.</p>
                     </sp>
                     <sp who="#narr">
-                        <speaker>NARR.</speaker>
-                        <stage>(asub Karlo käsi vabastama)</stage>
+                        <speaker>NARR</speaker>
+                        <stage>(asub Karlo käsi vabastama).</stage>
                     </sp>
                     <sp who="#siseuelem">
-                        <speaker>SISEÜLEM.</speaker>
-                        <stage>(tasakesi väeülemale)</stage>
+                        <speaker>SISEÜLEM</speaker>
+                        <stage>(tasakesi väeülemale).</stage>
                         <p>Meil ajavad riigiasju narr ja naine.</p>
                     </sp>
                     <sp who="#vaeeuelem">
-                        <speaker>VÄEÜLEM.</speaker>
-                        <stage>(muiates)</stage>
+                        <speaker>VÄEÜLEM</speaker>
+                        <stage>(muiates).</stage>
                         <p>Naine, kes mehest ei tea.</p>
                     </sp>
                     <sp who="#angela">
-                        <speaker>ANGELA.</speaker>
-                        <stage>(kui Karlo käed vabad)</stage>
+                        <speaker>ANGELA</speaker>
+                        <stage>(kui Karlo käed vabad).</stage>
                         <p>Noh, Karlo, nüüd oled vaba ja me võime rääkida, nagu oleksime kahekesi mägedel, kus paistab kuu. Kui sa mind ikka veel armastad, siis ütle, miks sa vaikid?</p>
                     </sp>
                     <sp who="#karlo">
@@ -4213,8 +4214,8 @@
                         <p>Hea küll, neitsi Angela. Joosep, lase Mathias vanglasse viia.</p>
                     </sp>
                     <sp who="#narr">
-                        <speaker>NARR.</speaker>
-                        <stage>(laksutab käsi; tagaseina uksest paremalt ilmuvad valvurid)</stage>
+                        <speaker>NARR</speaker>
+                        <stage>(laksutab käsi; tagaseina uksest paremalt ilmuvad valvurid).</stage>
                     </sp>
                     <sp who="#mathias">
                         <speaker>MATHIAS.</speaker>
@@ -4289,8 +4290,8 @@
                         <p>Ei, Angela! Ma ei suuda oodata. Sina või ime, kolmandaks on surm.</p>
                     </sp>
                     <sp who="#angela">
-                        <speaker>ANGELA.</speaker>
-                        <stage>(nutma hakates)</stage>
+                        <speaker>ANGELA</speaker>
+                        <stage>(nutma hakates).</stage>
                         <p>Karlo, kallis! Vasikat ei saa tagasi anda! Mina ei saa, kuningas ei saa, narr ei saa, keegi ei saa. <stage>(Erutus.)</stage></p>
                     </sp>
                     <sp who="#karlo">
@@ -4302,8 +4303,8 @@
                         <p>Miks sa nutad, mu lemmik? Mis on rahva ainukese imega?</p>
                     </sp>
                     <sp who="#angela">
-                        <speaker>ANGELA.</speaker>
-                        <stage>(suure häälega nuttes)</stage>
+                        <speaker>ANGELA</speaker>
+                        <stage>(suure häälega nuttes).</stage>
                         <p>Ma ei või seda öelda! Küsi narrilt, tema teab. <stage>(Ärevus kasvab.)</stage></p>
                     </sp>
                     <sp who="#kirjauelem">
@@ -4320,16 +4321,16 @@
                         <p>Narr, meie ootame seletust, meie kõik. <stage>(Pinevus.)</stage></p>
                     </sp>
                     <sp who="#narr">
-                        <speaker>NARR.</speaker>
-                        <stage>(teeb käega mingi tähendusrikka liigutuse kaelale)</stage>
+                        <speaker>NARR</speaker>
+                        <stage>(teeb käega mingi tähendusrikka liigutuse kaelale).</stage>
                     </sp>
                     <sp who="#siseuelem">
                         <speaker>SISEÜLEM.</speaker>
                         <p>Narr teeb narri tempe.</p>
                     </sp>
                     <sp who="#angela">
-                        <speaker>ANGELA.</speaker>
-                        <stage>(nuttes)</stage>
+                        <speaker>ANGELA</speaker>
+                        <stage>(nuttes).</stage>
                         <p>Kuningas, ära ole kuri, aga ükski ei või sinna midagi parata, et vasikat enam ei ole. <stage>(Karatakse mürinal toolidelt, läbisegi hüüded: "Halastaja issand! Armuline taevas! Mis nüüd saab! Kõik on otsas! Oleme kadunud! Mäss! Revolutsioon! Uus kuningas!".)</stage></p>
                     </sp>
                     <sp who="#kirjauelem">
@@ -4345,8 +4346,8 @@
                         <p>Narr ja naine valetavad!</p>
                     </sp>
                     <sp who="#angela">
-                        <speaker>ANGELA.</speaker>
-                        <stage>(ägedalt)</stage>
+                        <speaker>ANGELA</speaker>
+                        <stage>(ägedalt).</stage>
                         <p>Mis? Mina valetan?! Ma pole eluilmas valetanud, miks siis täna. Või kui olen, siis sellepärast, et ma pole teadnud, kus tõde, kus vale. Aga kas tark kirjaülem alati teab, mis tõde või mis vale?</p>
                     </sp>
                     <sp who="#uelempreester">
@@ -4419,13 +4420,13 @@
                         <p>Karlo, sinust on mul tõesti kahju. Aga sa peaks katsuma ka minust aru saada. Mis ma pidin siis tegema? Suure rõõmuga pisteti kõik nahka, mis lauale kanti, nii et polnud mul enam midagi, kui aga vasikapraad ja -sült. Sa mõtle seda häbi kuningale ja minule, kui meil poleks olnd nii palju lauale panna, kui söödi! Selle häbihädaga ma lasingi siis sinu vasika neile ette vinnata. Ja sa oleks pidanud nägema, kuidas ta kadus nagu kerisele. Ülempreestergi tõmbas hea käntsaka sülti taldrikule, tõmbas sellepärast, et vedelik oli ainult ühmatand, mitte kõva, sest ma lasin keeta ilma želatiinita, et oleks päris puhas, mitte linna solk. Kõik parkisid nõnda, et kuningas oleks hoopis ilma jäänud, kui ma ise oma käega poleks temale kõige enne ette väänand. Ülemate naised ja tütred vohmisid värvitud suudega. Seda nähes hakkas mul vasikast tõesti kahju. Vaene loom! Jumal oli talle küll and kaks pead, aga mitte puhast suud tema söömiseks. Kondid pilluti laua alla koerte närida, nii et järele ei jäänd tripsugi. Tapja ja nülgija ei saand suud sekski.</p>
                     </sp>
                     <sp who="#narr">
-                        <speaker>NARR.</speaker>
-                        <stage>(üsna rahulikult ja asjalikult)</stage>
+                        <speaker>NARR</speaker>
+                        <stage>(üsna rahulikult ja asjalikult).</stage>
                         <p>Jah, ei saand küll, nii et mina ei tea õhkagi, mis maiku see maailmaime oli.</p>
                     </sp>
                     <sp who="#vaeeuelem">
-                        <speaker>VÄEÜLEM.</speaker>
-                        <stage>(põlglikult)</stage>
+                        <speaker>VÄEÜLEM</speaker>
+                        <stage>(põlglikult).</stage>
                         <p>Narr ja naine! <stage>(Järsult.)</stage> Narr üles puua! Nõuan seda kuningalt.</p>
                     </sp>
                     <sp who="#angela">
@@ -4550,8 +4551,8 @@
                         <p>Angela, tahad sa Karlole tema püksid tagasi anda?</p>
                     </sp>
                     <sp who="#angela">
-                        <speaker>ANGELA.</speaker>
-                        <stage>(valmilt)</stage>
+                        <speaker>ANGELA</speaker>
+                        <stage>(valmilt).</stage>
                         <p>Jah, kuningas, meeleldi!</p>
                     </sp>
                     <sp who="#kuningas">
@@ -4563,8 +4564,8 @@
                         <p>Tule, Karlo! <stage>(Võtab mehel käest kinni ja viib ukse poole tagaseinas pahemal.)</stage></p>
                     </sp>
                     <sp who="#narr">
-                        <speaker>NARR.</speaker>
-                        <stage>(jookseb Angelale ja Karlole ukse alla järele)</stage>
+                        <speaker>NARR</speaker>
+                        <stage>(jookseb Angelale ja Karlole ukse alla järele).</stage>
                         <p>Neitsi Angela, ära unusta kuningat, tal hakkab külm.</p>
                     </sp>
                     <sp who="#angela">
@@ -4588,13 +4589,13 @@
                         <p>Armas ülempreester, ma olen vana, mul pole midagi paremat teha, kui noorte armastuse pärast surra. Püha isa, õnnista mind!</p>
                     </sp>
                     <sp who="#narr">
-                        <speaker>NARR.</speaker>
-                        <stage>(jookseb kuninga juurde, langeb maha ja haarab tal jalge ümbert kinni, härdalt)</stage>
+                        <speaker>NARR</speaker>
+                        <stage>(jookseb kuninga juurde, langeb maha ja haarab tal jalge ümbert kinni, härdalt).</stage>
                         <p>Kuningas, mu kuningas, sa jätad oma narri maha!</p>
                     </sp>
                     <sp who="#kuningas">
-                        <speaker>KUNINGAS.</speaker>
-                        <stage>(silitab narri pead)</stage>
+                        <speaker>KUNINGAS</speaker>
+                        <stage>(silitab narri pead).</stage>
                         <p>Me kaks vana narri! <stage>(Kõik on püsti tõusnud.)</stage></p>
                     </sp>
                     <stage>(Eesriie.)</stage>

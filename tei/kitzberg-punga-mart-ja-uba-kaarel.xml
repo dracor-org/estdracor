@@ -106,6 +106,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2026-09-21">Convert txt to TEI</change>
+                <change when="2026-11-22">Correct punctuation location</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -204,8 +205,8 @@
                         <p>Mis ime tal ometi on, et ta sugugi kokku ei lähe! Mölla ja mölla, uta ja uta, — ei lähe ega lähe. Tea mis mina tal pean tegema? <stage>(Lööb kõigest jõuust.)</stage> Mina ei saa! — Eewa kah, jahib lauda juures oma lehmadega, nagu ei tea mis? Kas sina neid nüüd selle ühe kahe päewaga jõuad lihawaks sööta? — Nagu tüdrukuid ei oleks! Ei tea, mis neil teha on? Esmaspäew läheme ära leerikooli jälle, kes siis su lehmadest hoolib, pead ikka sellega leppima mis teised teewad. <stage>(Pahaselt.)</stage> Köstri emand kah, lubas juba täna lõunaks meie uued kleidid ära saata,... kus nad nüüd on? <stage>(Häälmeelel.)</stage> Kül külarahwas teewad silmad, — ega niisugusi kleitisi ometi kellegil teisel üle kihelkonna ei ole kui meil! Eewa ei teagi, et mina salamahti köstri emandale aidast seakintsu kodu wiisin, et hästi palju "strichisi" peab külge õmblema. Emand lubas weel oma raha eest atlast ka osta, päris siidi atlast ja "besatzid" pääle panna. O jah. Mina olen kõige ilusam üle leerikooli tüdrukute, seda ütleb igaüks ja — minu kleit peab ka uhkem olema kui kellegil muul, seda ma ütlen. <stage>(Kargab üles, wiskab koorenõuu käest, kilkab.)</stage> Ja hästi pitka "schleppega", nendasama kui linnapreilidel, — kui ma siis lähen!... <stage>(Teeb proowi.)</stage> Kõikide silmad waatawad minu pääle ja Malleri noorherra silmad kah. Oli teine Hintsile hiljuti ütelnud: "Wii oma ilusale õele palju terwisid". "Ilusale õele", Maali! See "ilus õde" oled sina. Ah-haa! Kirjutaja proua! Ta on wiie walla kirjutaja, wiis walda käiwad tema juure kokku ja wiie walla kirjutaja proua.... <stage>(Wõtab jälle koorenõuu sülle.)</stage> Ja nüüd uta siin wõid, mis оmeti kokku ei lähe!</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(tuleb, lööb kätega riideid siledaks)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(tuleb, lööb kätega riideid siledaks):</stage>
                         <p>Soo, õeke, nüüd oleks wälisete talituste poolest õhtu. Oi, oi laps, näe, kuida sa koort oled laiale pillanud; waata ometi ette, sa rikud ju nenda oma riided ka ära. Kas wõi walmis?</p>
                     </sp>
                     <sp who="#maali">
@@ -230,8 +231,8 @@
                         <p>Wõi mina sind olen palunud, ennast käskima ja juhatama. Katsu kus mul käskija ja juhataja! Tea kus koolis sina oled käinud wõi targaks saanud? Sa ei olegi üle õue wälja saanud. Mina ometi olen kaks aastat õmbluse koolis ära käinud ja olnud,... millal ma sind olen näägutama tulnud? Sääl ometi oli alati suurte sakstega tegemist,... mis sina weel ei ole? Löö ise oma wõi kokku, kui sa tark oled.</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(Maali ümbert kinni hakates)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(Maali ümbert kinni hakates):</stage>
                         <p>Õeke, juba pahane? Mine ikka! Ole ikka mu lahke õeke. Ma ju halba ei soowi? <stage>(Meelitates.)</stage> Näe, oleme ju mõlemad hella ema õpetuseta üles kaswanud ja eluealiseks saanud. Ega meil ei ole ju, kes meid juhatab ja käsib, ise peame õppima ja olema. Mina olen wanem sinust, minu ütelusi ei tohi sa pahaks panna. Mina olingi ju, kes seda soowis ja sind õmbluse kooli pani...</p>
                     </sp>
                     <sp who="#maali">
@@ -275,8 +276,8 @@
                         <p>Soo! <stage>(Wõtab nõuu, istub maha ja hakkab koort kokkulööma.)</stage> Õeke, õeke! Sigu sööta ja lehmi lüpsta ei ole küll kellegi kunst, see on õige, aga — <stage>(jätab töö seisma)</stage> — ega sa pahaks ei pane, — sigade söötmise ja lehma lüpsmisega on weel üks weike kunst ühendatud, mida ka peab mõistma,.... wõi löömine. Sellega ei saanud mu pahane õeke toime ühtegi! — Tule siia ja saame jälle hääks, Maali.</p>
                     </sp>
                     <sp who="#maali">
-                        <speaker>Maali:</speaker>
-                        <stage>(selga pöördes)</stage>
+                        <speaker>Maali</speaker>
+                        <stage>(selga pöördes):</stage>
                         <p>Mine!</p>
                     </sp>
                     <sp who="#eewa">
@@ -421,8 +422,8 @@
                         <p>Aga Maali!</p>
                     </sp>
                     <sp who="#maali">
-                        <speaker>Maali:</speaker>
-                        <stage>(lällitades)</stage>
+                        <speaker>Maali</speaker>
+                        <stage>(lällitades):</stage>
                         <p>Aga Eewa!</p>
                     </sp>
                     <sp who="#eewa">
@@ -438,8 +439,8 @@
                         <p>Maali, Maali, tule tagasi Maali...</p>
                     </sp>
                     <sp who="#maali">
-                        <speaker>Maali:</speaker>
-                        <stage>(pistab pää ukse wahelt sisse)</stage>
+                        <speaker>Maali</speaker>
+                        <stage>(pistab pää ukse wahelt sisse):</stage>
                         <p>Uba-Kaarli poja armuke, Uba-Kaarli poja armuke! <stage>(Lööb ukse jälle kinni. Ära.)</stage></p>
                     </sp>
                 </div>
@@ -456,13 +457,13 @@
                     <head>Kolmas etendus</head>
                     <stage>Eewa ja Mart.</stage>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(teda kuulukse eeskambris paukuwat)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(teda kuulukse eeskambris paukuwat):</stage>
                         <p>Näru! Mis so kogeled siin, wälja kasi kambrist ja wõta mu hobune lahti! Kas sa ei tea, et sa wäljas pead ootama, kui ma tulen, wäljas wärawa ees! <stage>(Astub sisse, räägib üle läwe tagasi).</stage> Rubla palgast maha, rubla maha! Ma ütlen sulle, wärisema pead sa mu ees, wärisema! Kül ma sule jalad ala teen! Palka maksa sulle, aga tegijat ei saa sinust midagi, käsi alati. Hakka liikuma!</p>
                     </sp>
                     <sp who="#aadu">
-                        <speaker>Hääl:</speaker>
-                        <stage>(eeskambris)</stage>
+                        <speaker>Hääl</speaker>
+                        <stage>(eeskambris):</stage>
                         <p>Silmapilk peremees, silmapilk. Ma lähengi juba.</p>
                     </sp>
                     <sp who="#mart">
@@ -530,8 +531,8 @@
                         <p>Silmapilk isakene. <stage>(Wõtab kapist laudlina ja laotab isa ette laua pääle.)</stage></p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(pühib käega lina laua päält maha:)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(pühib käega lina laua päält maha:):</stage>
                         <p>Süüa too lauale, mitte närusi. Ega ma su närusi ei söö! Mõistad?</p>
                     </sp>
                     <pb n="7"/>
@@ -640,8 +641,8 @@
                         <p>Tere isakene, tere! <stage>(Paneb käe isa kaela ümber.)</stage> Sa olid mind kutsunud, mis on, isakene?</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart::</speaker>
-                        <stage>(lükkab Maali käe ära)</stage>
+                        <speaker>Mart:</speaker>
+                        <stage>(lükkab Maali käe ära):</stage>
                         <p>Mis sa nüüd jändad, ära ole halp, narrikene.! Muidugi lasksin ma sind kutsuda. Eewaga ju ei saa mõistlikku sõna rääkida. Tema ainult nirab.</p>
                     </sp>
                     <sp who="#maali">
@@ -735,8 +736,8 @@
                         <p>Isa, Pibu-tädi on karjapoissi kauplema tulnud.</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart::</speaker>
-                        <stage>(karjudes)</stage>
+                        <speaker>Mart:</speaker>
+                        <stage>(karjudes):</stage>
                         <p>Ise oled sa Pibu-tädi! Sisse tule!</p>
                     </sp>
                     <sp who="#eewa">
@@ -959,8 +960,8 @@
                         <p>Noh, olgu! Paneme käed kokku, kaup on walmis.</p>
                     </sp>
                     <sp who="#kadri">
-                        <speaker>Kadri:</speaker>
-                        <stage>(ruttu wahele)</stage>
+                        <speaker>Kadri</speaker>
+                        <stage>(ruttu wahele):</stage>
                         <p>Illi-kuku peremeheke, waadake — poissi rahapalk.</p>
                     </sp>
                     <sp who="#mart">
@@ -984,8 +985,8 @@
                         <p>No jaa, noo jaa, aga sa küsid ju hullu palka. Kes seda enne on kuulnud? Ma annan kümme rubla ja — kui pois minu juure jäeb, ei tule tal niipea pääraha maksta. Kui wiks mees on, päästan edespidi nekruti hirmust ka läbi. Sa tead ju, mis mina teen, on tehtud! Kõik suured saksad on mul sõbrad. Kül ma õiendan kirjutajaga ja wallawanemaga lood läbi.</p>
                     </sp>
                     <sp who="#kadri">
-                        <speaker>Kadri::</speaker>
-                        <stage>(ruttu wahele)</stage>
+                        <speaker>Kadri:</speaker>
+                        <stage>(ruttu wahele):</stage>
                         <p>Illi peremeheke, tema on üksik, üksik teine jah. Setusama poega mul on, wõi temal nekruti hirmu ongi?</p>
                     </sp>
                     <sp who="#mart">
@@ -1009,8 +1010,8 @@
                         <p>Hää küll, hää küll, mine aga pääle.</p>
                     </sp>
                     <sp who="#kadri">
-                        <speaker>Kadri::</speaker>
-                        <stage>(minnes)</stage>
+                        <speaker>Kadri:</speaker>
+                        <stage>(minnes):</stage>
                         <p>Jumalaga jah peremeheke, Jumalaga! Jäämekst Jumalaga jah!</p>
                     </sp>
                 </div>
@@ -1027,13 +1028,13 @@
                         <p>Siin olen. Mis tahad?</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart::</speaker>
-                        <stage>(walab wiina klaassse)</stage>
+                        <speaker>Mart:</speaker>
+                        <stage>(walab wiina klaassse):</stage>
                         <p>Mis tahad? Siia tule!</p>
                     </sp>
                     <sp who="#hans">
-                        <speaker>Hans:</speaker>
-                        <stage>(niisama)</stage>
+                        <speaker>Hans</speaker>
+                        <stage>(niisama):</stage>
                         <p>Minul ei ole aega.</p>
                     </sp>
                     <sp who="#mart">
@@ -1041,13 +1042,13 @@
                         <p>Mis? Sinul ei ole aega, kui mina kutsun? Silmapilk siia! <stage>(Joob.)</stage></p>
                     </sp>
                     <sp who="#hans">
-                        <speaker>Hans:</speaker>
-                        <stage>(ilmub mõne aja pärast)</stage>
+                        <speaker>Hans</speaker>
+                        <stage>(ilmub mõne aja pärast):</stage>
                         <p>Mis tahad?</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(pahaselt)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(pahaselt):</stage>
                         <p>Miks sa kohe ei tule, kui ma hüüan?</p>
                     </sp>
                     <sp who="#hans">
@@ -1091,8 +1092,8 @@
                         <p>Noh?</p>
                     </sp>
                     <sp who="#hans">
-                        <speaker>Hans:</speaker>
-                        <stage>(wõtab piibu püksi taskust)</stage>
+                        <speaker>Hans</speaker>
+                        <stage>(wõtab piibu püksi taskust):</stage>
                         <p>Mul on piip, ma kartsin, et sa peksad.</p>
                     </sp>
                     <sp who="#mart">
@@ -1134,8 +1135,8 @@
                         <p>Mis sa lõhud sääl?</p>
                     </sp>
                     <sp who="#peeter">
-                        <speaker>Peeter:</speaker>
-                        <stage>(ukse taga)</stage>
+                        <speaker>Peeter</speaker>
+                        <stage>(ukse taga):</stage>
                         <p>Ma koputan. Kas tohib sisse astuda?</p>
                     </sp>
                     <sp who="#mart">
@@ -1143,18 +1144,18 @@
                         <p>Eheh! Uba-Kaarli poeg ongi. See on tema hääl ja tema halbid kombed. <stage>(Paneb pudeli kappi. Waljuste:)</stage> Sisse tule! Kas sa ei näe, et sääl läwi on? Mis wigurisi sa pead, kui sa tulla tahad? <stage>(Tasakesi:)</stage> Näru! <stage>(pöörab tulejale selja.)</stage></p>
                     </sp>
                     <sp who="#peeter">
-                        <speaker>Peeter:</speaker>
-                        <stage>(sisse astudes)</stage>
+                        <speaker>Peeter</speaker>
+                        <stage>(sisse astudes):</stage>
                         <p>Tere õhtast, peremees! <stage>(Keegi ei wasta.)</stage></p>
                     </sp>
                     <sp who="#peeter">
-                        <speaker>Peeter:</speaker>
-                        <stage>(wähe aja pärast waljumine)</stage>
+                        <speaker>Peeter</speaker>
+                        <stage>(wähe aja pärast waljumine):</stage>
                         <p>Tere õhtast, peremees, ütlesin ma.</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(urisedes)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(urisedes):</stage>
                         <p>Tere! Mis Uba-Kaarli poeg otsib? <stage>(Wahib aknast wälja.)</stage></p>
                     </sp>
                     <sp who="#peeter">
@@ -1162,8 +1163,8 @@
                         <stage>ei wasta midagi.</stage>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(endist wiisi)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(endist wiisi):</stage>
                         <p>Ma küsin, mis sa otsid?</p>
                     </sp>
                     <sp who="#peeter">
@@ -1208,8 +1209,8 @@
                         <p>Soo, miks sa siis mööda tulid, eks läinud ka sisse? <stage>(Iseeneses:)</stage> Mõdu-wasikas.</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(sisseastudes)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(sisseastudes):</stage>
                         <p>Tere, Peeter!</p>
                     </sp>
                     <sp who="#peeter">
@@ -1316,8 +1317,8 @@
                         <p>Minu suu jääb lukku, kui mitte — wahest kohus tunnistust ei küsi, kus ma salgada ei tohiks, aga ma palun: Pange Hendriku priikslaskmisele ja joomisele piiri, ta on kõigeparema tee pääl — hukkaminemas! äaäd otsa sel wiisil ei tule. — Laudi rahwale wõite kahju isekeskis ära tasuda. Ehk tuleb sellest halwast ka midagi hääd wälja ja hakkab ka Laudi poeg järelmõtlema ja ennast kõrtsi eest hoidma.</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(ennast ümberpöördes)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(ennast ümberpöördes):</stage>
                         <p>Ma ütlen, sa waletad!</p>
                     </sp>
                     <sp who="#peeter">
@@ -1352,13 +1353,13 @@
                         <p>Mis teie siis olete? Ju ma ka inimene olen.</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(põlastades)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(põlastades):</stage>
                         <p>Oled mees jah!</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(kätt Peetri õla peale pannes)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(kätt Peetri õla peale pannes):</stage>
                         <p>Peeter, armas kallis Peeter, ära mine isaga tülisse. Oled sa seni hääd meiega mõtelnud — tee seda weel. Mina palun sind, Peeter, ära saada mitte häbi ega teotust meie pääle. Hoia omale mis sa tead, wähemast esiotsa. Ehk laseb kõik ennast weel hääga õiendada...</p>
                     </sp>
                     <sp who="#mart">
@@ -1418,13 +1419,13 @@
                     <head>Kaksteistkümnes etendus.</head>
                     <stage>Endised, Maali, kaks poissi.</stage>
                     <sp who="#poisid">
-                        <speaker>Kaks poissi:</speaker>
-                        <stage>(sissekarates)</stage>
+                        <speaker>Kaks poissi</speaker>
+                        <stage>(sissekarates):</stage>
                         <p>Mis on peremees, mis on? Kes see tappis?</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(ähkides)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(ähkides):</stage>
                         <p>Siduge kinni, siduge kinni! See sääl! Äratappis poja —</p>
                     </sp>
                     <sp who="#hendrik">
@@ -1474,8 +1475,8 @@
                         <p>Isa, aga isa, oh Jumal. Ära tee!</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(tõukab Eewa eest nurka)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(tõukab Eewa eest nurka):</stage>
                         <p>Eest kasi, lõkats ja suu pea! <stage>(Maali naerab.)</stage></p>
                     </sp>
                     <sp who="#peeter">
@@ -1492,8 +1493,8 @@
                         <p>Sihuke rööwel! Käed selja pääle! <stage>(Tahawad Peetrile kallale asuda.)</stage></p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(laiali sirutatud kätega, astub poiste ja Peetri wahele, teda kaitstes)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(laiali sirutatud kätega, astub poiste ja Peetri wahele, teda kaitstes):</stage>
                         <p>Pidage, wõi siduge mind ka. Nii tõesti kui Jumal taewas, Peeter on ilmasüüta!</p>
                     </sp>
                     <stage>(Poisid jääwad kogelema.)</stage>
@@ -1525,8 +1526,8 @@
                     <head>Esimene etendus.</head>
                     <stage>Kaarel, Reet, Peeter istuvad.</stage>
                     <sp who="#reet">
-                        <speaker>Reet:</speaker>
-                        <stage>(loeb lauluraamatust )</stage>
+                        <speaker>Reet</speaker>
+                        <stage>(loeb lauluraamatust ):</stage>
                         <lg>
                             <l>Oh anna seda tarkust mull,</l>
                             <l>Mis ikka olnud armas Sull,</l>
@@ -1539,8 +1540,8 @@
                         <p>Pane raamat ära, emakene, mul on midagi rääkida.</p>
                     </sp>
                     <sp who="#reet">
-                        <speaker>Reet:</speaker>
-                        <stage>(waatab Kaarli otsa, annab siis raamatule — seda käest ärapannes suud)</stage>
+                        <speaker>Reet</speaker>
+                        <stage>(waatab Kaarli otsa, annab siis raamatule — seda käest ärapannes suud):</stage>
                         <p>Aamen! — Mis on siis, Kaarel?</p>
                     </sp>
                     <sp who="#kaarel">
@@ -1576,8 +1577,8 @@
                         <p>Oh, ei ole ju midagi.</p>
                     </sp>
                     <sp who="#reet">
-                        <speaker>Reet:</speaker>
-                        <stage>(wähe aja pärast)</stage>
+                        <speaker>Reet</speaker>
+                        <stage>(wähe aja pärast):</stage>
                         <p>Waata pojakene. Sa oled ju meie ainus. Jumala ja inimeste ees ei ole meil kõigil kolmel senini midagi warjata olnud, mida üks teadis ja teine mitte ei teadnud. Meie, sinu isa ja ema, oleme murelise silmaga iga sinu liikumist ja iga sinu elu silmapilku tähele pannud ja silmas pidanud, midagi siinu elust ei olnud meie ees salaja....</p>
                     </sp>
                     <sp who="#kaarel">
@@ -1670,8 +1671,8 @@
                     <head>Teine etendus.</head>
                     <stage>Endised, Mart.</stage>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(sisseastudes)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(sisseastudes):</stage>
                         <p>Heheh! Seda ma arwasin, wapsiku pere kõik ninapidi koos. Keda T'e nüüd ärasüüa tahate? Minu poega wõi?</p>
                     </sp>
                     <sp who="#peeter">
@@ -1696,8 +1697,8 @@
                         <p>Jumala eest, peremees, meie ei tea midagi!</p>
                     </sp>
                     <sp who="#peeter">
-                        <speaker>Peeter:</speaker>
-                        <stage>(Mardile)</stage>
+                        <speaker>Peeter</speaker>
+                        <stage>(Mardile):</stage>
                         <p>Ma ütlesin teile juba eila: minu suu jäeb lukku.</p>
                     </sp>
                     <sp who="#mart">
@@ -1781,8 +1782,8 @@
                         <p>Jumal hoidku! Minu poeg ei ole üleannetu ja — kui tema teie raha wastu ei wõta, meie saame ilma selletagi päewast päewa.</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(wihaselt)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(wihaselt):</stage>
                         <p>Närud! Närud olete t'e küik. Ma ütlen: wärisema peate T'e mu ees, wärisema kõik. Mõistate nüüd? Kui pois oma suu lahti teeb, hoidku ta ennast. Seda ma ütlen, hoidku ta! <stage>(Urisedes)</stage> Kuradi näljased! Uasööjad mul! <stage>(Ära.)</stage></p>
                     </sp>
                     <sp who="#kaarel">
@@ -1790,8 +1791,8 @@
                         <p>Mis see kõik siis nüid oli ometi?</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(tagasi tulles üle läwe)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(tagasi tulles üle läwe):</stage>
                         <p>Hoidke T'e ennast, seda ma ütlen! Tehke T'e oma suu lahti ja — ma ajan Teid kohast wälja jala päält! Ma lasen Teil katuse üle pää kokku kiskuda, närud! Hoidke ennast! <stage>(Ära.)</stage></p>
                     </sp>
                 </div>
@@ -1927,8 +1928,8 @@
                     <head>Wiies etendus.</head>
                     <stage>Eewa, Peeter.</stage>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(kohkudes)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(kohkudes):</stage>
                         <p>Uih!</p>
                     </sp>
                     <sp who="#peeter">
@@ -1945,8 +1946,8 @@
                         <p>Tean, tean küll, aga kaugelt sugulased ikka oleme. Waata Eewakene, see asi on nõnda: sina hüüad minu ema tädiks ja minu ema hüüab sind alati tütreks. Tädi ja tütar, nendest kahest sõnast tuleb wiimaks wälja: täditütar.</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(naeratades)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(naeratades):</stage>
                         <p>Ah mine, sa teed nalja, minul ei ole sugugi nalja magu suus.</p>
                     </sp>
                     <sp who="#peeter">
@@ -2038,13 +2039,13 @@
                         <p>Mis sa nüüd räägid Peeter, ma tean. Mis sa nimetad seda sõimu-nime, ega ju keegi õige inimene ei nimeta sind nõnda... <stage>(hakkab nuutsuma.)</stage></p>
                     </sp>
                     <sp who="#peeter">
-                        <speaker>Peeter:</speaker>
-                        <stage>(wõtab neiu käed pihku)</stage>
+                        <speaker>Peeter</speaker>
+                        <stage>(wõtab neiu käed pihku):</stage>
                         <p>Eewakene, armas Eewakene, mis sa nüüd<pb n="24"/> nutad. Waata — waata nüüd, kui mina mitte Uba-Kaarli poeg ei oleks, waid keegi muu teine — <stage>(Wõtab peegli seina pealt ja hoiab Eewale risti silmade eite.)</stage> "See tütarlapse tõeste, ma kosiks endale." Mis sa arwad, Eewa?</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(katab silmad põllega kinni, läbi nutu)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(katab silmad põllega kinni, läbi nutu):</stage>
                         <p>Mis sa nüüd räägid Peeter, mis sa nüüd räägid? Kas sul häbi ei ole, leeritamata tütarlapsega niisugust nalja heita....</p>
                     </sp>
                 </div>
@@ -2132,8 +2133,8 @@
                         <p>Ah see, tütrekene, see kaks nädalat weel, siis oledki mehele mineja. Muidugi oli see poisist halpus, aga mis sinna nüüd parata. Sellepärast ei maksa nutta. Näe mõned talu tütred ei lähegi enne pääkooli, kui peiukaubad juba enne koos ei ole. Ma tean ju, laps, sa ei ole kergemeelne, aga — neist sõnadest ära lase ennast sugugi eksitada. Wõid siiski puhta ja waga südamega püha altari ette astuda, kui ka mõni külapois sulle enneaegu midagi ära julges ütelda. Mis me' nüüd teeme talle.</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(pääd Reeda rinnale peites)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(pääd Reeda rinnale peites):</stage>
                         <p>Oh emakene, ega ma ju enam ei nuta, aga mul läks süda sees haledaks, et nad.... eilsest juhtumisest saadik kodus kõik mind juba.... Uba-Kaarli poja — Peetri armukeseks nimetawad.</p>
                     </sp>
                     <sp who="#reet">
@@ -2157,8 +2158,8 @@
                         <p>Küllalt nüüd sest, nüüd ole jälle rahul ja rõõmus ja minu endine lustiline wiks Eewakene. Kas jah?</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(silmi kuiwatades)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(silmi kuiwatades):</stage>
                         <p>Jah ema.</p>
                     </sp>
                     <sp who="#reet">
@@ -2178,13 +2179,13 @@
                     <head>Seitsmes etendus.</head>
                     <stage>Reet, Peeter pärast Kaarel.</stage>
                     <sp who="#reet">
-                        <speaker>Reet:</speaker>
-                        <stage>(tagasitulles)</stage>
+                        <speaker>Reet</speaker>
+                        <stage>(tagasitulles):</stage>
                         <p>Peeter! Peeter! Kus sa oled? <stage>(Uks jäeb lahti)</stage></p>
                     </sp>
                     <sp who="#peeter">
-                        <speaker>Peeter:</speaker>
-                        <stage>(sisseastudes)</stage>
+                        <speaker>Peeter</speaker>
+                        <stage>(sisseastudes):</stage>
                         <p>Siin! Äraläinud? Eewa juba äraläinud?</p>
                     </sp>
                     <sp who="#reet">
@@ -2236,8 +2237,8 @@
                         <p>Waata isa, sinul on õigus ja minul on ka õigus. Seniks kui mul raha ja päriskohta ei ole, saadab Mart mind ikka koertega minema, kui tütart küsima lähen. Ja mikspärast? Sellepärast et ma kehwa Karl Pärna poeg olen, keda teised weelgi Uba-Kaarliks sõimawad. Kõige selle juures wõin ma kui tahte auus ja wiks mees olla, see kõik ei aita midagi.</p>
                     </sp>
                     <sp who="#kaarel">
-                        <speaker>Kaarel:</speaker>
-                        <stage>(naeratades)</stage>
+                        <speaker>Kaarel</speaker>
+                        <stage>(naeratades):</stage>
                         <p>Hm! wõi nõnda. Noh, siis kogu raha poeg, kogu raha, kui sa arwad, et raha üksi kõik teeraad siledaks teeb. Kogu raha ja rendi wõi osta enesele koht!</p>
                     </sp>
                     <sp who="#peeter">
@@ -2310,8 +2311,8 @@
                     <head>Kaheksamas etendus.</head>
                     <stage>Endised.</stage>
                     <sp who="#peeter">
-                        <speaker>Peeter:</speaker>
-                        <stage>(piibliga)</stage>
+                        <speaker>Peeter</speaker>
+                        <stage>(piibliga):</stage>
                         <p>Siin, isa.</p>
                     </sp>
                     <sp who="#kaarel">
@@ -2319,8 +2320,8 @@
                         <p>Hää, mu poeg, istu.</p>
                     </sp>
                     <sp who="#reet">
-                        <speaker>Reet:</speaker>
-                        <stage>(midagi põlle sees kandes)</stage>
+                        <speaker>Reet</speaker>
+                        <stage>(midagi põlle sees kandes):</stage>
                         <p>Reas.</p>
                     </sp>
                     <sp who="#kaarel">
@@ -2328,8 +2329,8 @@
                         <p>Istu, ema. <stage>(Peetrile:)</stage> Löö mulle lahti, poeg, "Õpetuse sanad" kümnes päätükk ja loe mis sääl kirjutatud seisab.</p>
                     </sp>
                     <sp who="#peeter">
-                        <speaker>Peeter:</speaker>
-                        <stage>(waatab isa otsa, lööb siis wagusi raamatu lahti ja loeb)</stage>
+                        <speaker>Peeter</speaker>
+                        <stage>(waatab isa otsa, lööb siis wagusi raamatu lahti ja loeb):</stage>
                         <p>"Tark poeg rõõmustab isa, aga halp poeg on oma emale meelehärmiks.</p>
                         <p>"Õeluse warandused ei saada kasu; aga õigus päästab surma käest.</p>
                         <p>"Jehoowa ei lase mitte õiget hinge näljas olla; aga õelate kahjutegemise lükkab ta ära.</p>
@@ -2340,8 +2341,8 @@
                         <p>Küll, mu poeg, loe weel kakskümmnes neljas päätükk, kaks wiimast salmi.</p>
                     </sp>
                     <sp who="#peeter">
-                        <speaker>Peeter:</speaker>
-                        <stage>(loeb)</stage>
+                        <speaker>Peeter</speaker>
+                        <stage>(loeb):</stage>
                         <p>"Tahad sa natukese weel magada, natukese tukkuda, natukese käsa kokkupanna maas seistes?</p>
                         <p>"Siis tuleb waesus sinu kätte kui jalamees ja sinu tühi kui kilbiga mees.</p>
                     </sp>
@@ -2364,8 +2365,8 @@
                         <p>Aamen!</p>
                     </sp>
                     <sp who="#kaarel">
-                        <speaker>Kaarel:</speaker>
-                        <stage>(pühalikult)</stage>
+                        <speaker>Kaarel</speaker>
+                        <stage>(pühalikult):</stage>
                         <p>Waata, mu poeg, mis sina täna teada saad, see oli sinu kahekümmnewiiendama sündimise päewa hommiku jaoks sulle ilmutada arwatud. Siis pidi sinule weike kingitus meie poolt osaks saama. Sa wõid aga ka juba täna selle osaliseks saada. Waata Peeter, <stage>(Reet walab põlle seest hulga kõwa rublasi laua pääle* (Wõiwad ka lendawa hõbedaga ülehõbetatud wask wiiekopiku tükid olla. Lendawat hõbedat saab apteegist mõne kopiku eest.)</stage></p>
                     </sp>
                     <sp who="#peeter">
@@ -2373,8 +2374,8 @@
                         <p>Ema, armas kallis emakene! <stage>(Annab tema kätele suud ja langeb tema aela ümber)</stage></p>
                     </sp>
                     <sp who="#reet">
-                        <speaker>Reet:</speaker>
-                        <stage>(nuttes)</stage>
+                        <speaker>Reet</speaker>
+                        <stage>(nuttes):</stage>
                         <p>Jumal õnnistagu sind, mu poeg! Jäe hääks pojaks meile, kuis sa senini oled olnud!</p>
                     </sp>
                     <sp who="#kaarel">
@@ -2516,8 +2517,8 @@
                         <p>Ei isakene, mina ei topi lehmadele sugugi rohkem kui õigus, aga — hobused jääwad konti, et keegi nende eest õigel wiisil ei hoolitse ja — et nad liig sagedaste päewad ja ööd otsa — kõrtsi uste ees nälgima peawad. See on see põhjus.</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(wihaselt)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(wihaselt):</stage>
                         <p>Suu pea! Sinu igawene lori!</p>
                     </sp>
                     <sp who="#eewa">
@@ -2574,13 +2575,13 @@
                         <p>Wõib olla isakene, olgu! Aga ma saan ka sellest aru, et kui sina ja nimelt Hints, kellest ometi sinu talu tulewane pärija peab saama, talupidamisest enam sugugi ei hooli, siis wiimaks asjal halb lõpp saab tulema. Siis on kohtuhaamer wiimane, kes meil oma lugu laulab.</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(wihaselt üleskargades)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(wihaselt üleskargades):</stage>
                         <p>No kas ei ole! Suu pea, lõkats! Wälja kasi kambrist! Wõi oma lapsi lase ka juba ennast näägutama hakata! Mis sinul sellega asja on, mis see sinusse puutub? Mis sina sellest tead?</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(meelitades)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(meelitades):</stage>
                         <p>Ma ütlesin juba, isa, sa ei pea wihaseks saama! Sel wiisil ei saa meie ühegi asja üle rääkida....</p>
                     </sp>
                     <sp who="#mart">
@@ -2592,8 +2593,8 @@
                         <p>Jah isa, küllap sa ise tead, mis sa teed. Ma lähen peale, kui ka kurwa meelega. Aga kui sul jälle lahkem tuju on, isa, siis lubad mind küll weel korra selle asja pääle tagasi tulla. Kas jah, isakene?</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(urisedes)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(urisedes):</stage>
                         <p>Jah, jah, jäta mind rahule wahest! Mul on parematki teha, kui sinu lori kuulata. <stage>(Astub kapi juurde minema. Eewa ära.)</stage></p>
                     </sp>
                 </div>
@@ -2601,8 +2602,8 @@
                     <head>Kolmas etendus.</head>
                     <stage>Mart, Hans.</stage>
                     <sp who="#hans">
-                        <speaker>Hans:</speaker>
-                        <stage>(käed püksitaskudes, kübar pääs, juuksed silmade ees — astub sisse, wõtab taskust tüki<pb n="32"/> kriiti ja maalib suure numbri kaheksa seina pääle. Käed puusa pannes)</stage>
+                        <speaker>Hans</speaker>
+                        <stage>(käed püksitaskudes, kübar pääs, juuksed silmade ees — astub sisse, wõtab taskust tüki<pb n="32"/> kriiti ja maalib suure numbri kaheksa seina pääle. Käed puusa pannes):</stage>
                         <p>Isa, kurat, kas tead mis see on?</p>
                     </sp>
                     <sp who="#mart">
@@ -2799,8 +2800,8 @@
                         <p>Mis weel. Talita aga ise ja käi ise oma lauda juures. Ei tule mina ühti sinna sõnniku sisse.</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(tõsiselt)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(tõsiselt):</stage>
                         <p>Sa pead.</p>
                     </sp>
                     <sp who="#maali">
@@ -2812,8 +2813,8 @@
                     <head>Seitsmes etendus.</head>
                     <stage>Endised, Mart ja Hans.</stage>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(weab wastupuiklejat Hanssu wäewõimul kraet pidi tuppa)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(weab wastupuiklejat Hanssu wäewõimul kraet pidi tuppa):</stage>
                         <p>Soo, näita nüüd pois, kus su rahakott on. Ma tahan näha, kui palju sul raha on. Sul peab minu rehnungi järele wähemast neli rubla olema, kaks rubla Aadu käest wõidetud ja kaks rubla minu käest saadud. Kaks rubla oled sa wiimasete kolme nädalate sees minu käest wähemaste wäljapetnud. Näita nüüd kus ta on?</p>
                     </sp>
                     <sp who="#hans">
@@ -2825,8 +2826,8 @@
                         <p>Kas sa ei kuule, pois? Wasta! Näita raha wälja, silmapilk! Wõi pean ma alles uued jalad sulle alla muretsema? <stage>(Wõtab kantsiku laudilt.)</stage></p>
                     </sp>
                     <sp who="#hans">
-                        <speaker>Hans:</speaker>
-                        <stage>(karjub)</stage>
+                        <speaker>Hans</speaker>
+                        <stage>(karjub):</stage>
                         <p>Isa, ära löö!</p>
                     </sp>
                     <sp who="#mart">
@@ -2867,8 +2868,8 @@
                         <p>See on minu asi.</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(wihaselt)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(wihaselt):</stage>
                         <p>Sinu asi? Oot, oot tüdruk, kül ma sinuga pärast õiendan, enne tahan sellega siin walmis olla. <stage>(Hansule:)</stage> Siis sul ei ole raha?</p>
                     </sp>
                     <sp who="#hans">
@@ -2884,8 +2885,8 @@
                         <p>Ma ütlesin, et ärakadus.</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(wõtab ukse lahti ja hüüab ettetuppa)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(wõtab ukse lahti ja hüüab ettetuppa):</stage>
                         <p>Aadu, kas sa sääl oled Aadu?</p>
                     </sp>
                     <sp who="#aadu">
@@ -2923,13 +2924,13 @@
                         <p>Sa ei wasta? <stage>(Kõigutab kantsikut.)</stage> Sa oled mul kapist kotist ka raha wälja warastanud.</p>
                     </sp>
                     <sp who="#hans">
-                        <speaker>Hans:</speaker>
-                        <stage>(karjub)</stage>
+                        <speaker>Hans</speaker>
+                        <stage>(karjub):</stage>
                         <p>Ära löö! Hints wõttis kapist raha wälja, ma ise nägin. <stage>(Paneb jooksma, — läwe pääl;)</stage> Ega see esimest korda ei olnud. <stage>(Ära.)</stage></p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(ähkides)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(ähkides):</stage>
                         <p>Wõi Hints, wõi Hints! Kus Hints on, kus ta on?</p>
                     </sp>
                     <sp who="#eewa">
@@ -2962,8 +2963,8 @@
                     </sp>
                     <pb n="36"/>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(ilmub)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(ilmub):</stage>
                         <p>Soo, sisse tule! <stage>(Hendrik ilmub)</stage> Näe missugune ta on, pää põhku täis, riided sopased. Häbi wõiks sul ka olla ometi.</p>
                     </sp>
                     <sp who="#eewa">
@@ -2987,8 +2988,8 @@
                         <p>Minul ei ole sinu wiieteistkümmne rublaga midagi tegemist.</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(põrutades)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(põrutades):</stage>
                         <p>Kätte anna raha, mis sa kapist rahakotist oled wäljawõtnud. Hans nägi.</p>
                     </sp>
                     <sp who="#hendrik">
@@ -3028,13 +3029,13 @@
                         <p>Teeni. Ei tea mis eest?</p>
                     </sp>
                     <sp who="#maali">
-                        <speaker>Maali:</speaker>
-                        <stage>(edewalt)</stage>
+                        <speaker>Maali</speaker>
+                        <stage>(edewalt):</stage>
                         <p>Hints ütleb: töö olewat rumalate inimeste ja wanade hobuste jaoks.</p>
                     </sp>
                     <sp who="#hendrik">
-                        <speaker>Hendrik:</speaker>
-                        <stage>(Maalile)</stage>
+                        <speaker>Hendrik</speaker>
+                        <stage>(Maalile):</stage>
                         <p>Hööh!</p>
                     </sp>
                     <sp who="#eewa">
@@ -3059,8 +3060,8 @@
                         <p>Kaks peremeest! Mis kaks peremeest? Wõi päranduse-osa sinule! Teibast, see on sinu päranduse osa, rahawaras! Kasi mu majast, kasi! Kui sa weel oma nägu näitad... Kasi!</p>
                     </sp>
                     <sp who="#hendrik">
-                        <speaker>Hendrik:</speaker>
-                        <stage>(ümber waadates)</stage>
+                        <speaker>Hendrik</speaker>
+                        <stage>(ümber waadates):</stage>
                         <p>Lähen jah, lähengi juba, ei tulegi enam tagasi! Ei tulegi enam. Kül ma ka tean mis ma teen. Kas mul õige waja on sinu sõnu kuulda, nagu ma ei teaks, mis mul teha on? Lähen jah! Kül sa näed ja — ja kahetsed. <stage>(Longib läwest wälja.)</stage></p>
                     </sp>
                     <sp who="#eewa">
@@ -3082,8 +3083,8 @@
                     <head>Kümnes etendus.</head>
                     <stage>Maali.</stage>
                     <sp who="#maali">
-                        <speaker>Maali:</speaker>
-                        <stage>(tuleb sisse, haigutab, istub akna alla)</stage>
+                        <speaker>Maali</speaker>
+                        <stage>(tuleb sisse, haigutab, istub akna alla):</stage>
                         <p>Aeg on nii igaw, et ei tea, mis teeksid. Ja mitte üks inimene ei liigu meie poole, et korra wõõrast nägu näha saaksid wõi oleksid. Malleri isand, oleks ometi ka korra jälle jala meie poole wõinud pista, aga wõta näpust. Saadab mulle Hintsiga kirja, nagu ei tea, mis ma tühipalja kirjaga teeksin wõi, mis hingeõnnistus kiri ei ole. Suusõnaline kõne on ometi palju lõbusam kui niisugune kiri. Oh, ma armastan teda kül wäga! Ja kui ilusaste ta kirjutab, ikka preili ees ja taga ja kuida ta meelitada oskab. <stage>(Wõtab kirja taskust, loeb:)</stage> "Liebes Fräulein!" Ja muidugi, miks ma siis ka preili ei ole, wõi need linna preilid paremad on. <stage>(Loeb):</stage> "Teie gesallite mulle kül wäga, ma ei wõi Teie ilusaid silmi" — mhm — "sugugi ära unustada. Ööd ja päewa mõtlen ma Teie pääle, kallis preili." Mina kah teie pääle, mina kah. "Tuule tiiwul lendaksin ma Teie juure, armas preili, aga see ei ole mitte wõimalik. Meie ei wõi Teil ka ialgi neljasilma all olla. Oh ma armastan Teid wäga, preili Amalie, Teie ilu on alati mu silmade ees. Kas Teie ei wõi, kallis preili, jälle kord wõimalikuks teha, teatud koha pääle tulla. Ütleme, pühapäew kiriku ajal. Kui Teie üksi tulete, siis ei tea seda keegi. Igatsusega jäen Teie tulekit ootama. Teie alandlik — Maller." — Ma tulen herra Maller, ma tulen. Tulewal pühapäewal ma wististe tulen. Ehk jäeb Eewa kodu. — Ja kui ilusa kuld sõrmuse ta mulle weel andis, <stage>(pistab sõrmuse sõrme)</stage> oh kui ilus, kuida ta läigib ja särab ja mis ilus kiwi weel sees! Ta ütles: niisama ilus, kui mu enese silmad. Oh kui ilus! <stage>(Wiimaste sõnade ajal on Eewa sisse tulnud.)</stage></p>
                     </sp>
                 </div>
@@ -3111,8 +3112,8 @@
                         <p>Anna ometi mu näpude wahele, siis ma waatan lähemalt. Nõnda ei näe ma ju midagi.</p>
                     </sp>
                     <sp who="#maali">
-                        <speaker>Maali:</speaker>
-                        <stage>(annab sõrmuse)</stage>
+                        <speaker>Maali</speaker>
+                        <stage>(annab sõrmuse):</stage>
                         <p>Waata, aga ära sa maha poeta.</p>
                     </sp>
                     <sp who="#eewa">
@@ -3158,8 +3159,8 @@
                         <p>Tead kül, ma ütlesin sulle juba ammu, aga sa ei uskunud.</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(kohkunult)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(kohkunult):</stage>
                         <p>Ega ometi mitte — Malleri käest?</p>
                     </sp>
                     <sp who="#maali">
@@ -3167,13 +3168,13 @@
                         <p>Tema käest jah, muidugi tema käest. Näed, Eewa, mis õnn mul on? Alles paar nädalat leerikoolist wäljas ja juba pruut!</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(wiskab sõrmuse nurka)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(wiskab sõrmuse nurka):</stage>
                         <p>Siis ei taha ma seda tühja mitte näha ka, weel wähem näpude wahel hoida! <stage>(Ära.)</stage></p>
                     </sp>
                     <sp who="#maali">
-                        <speaker>Maali:</speaker>
-                        <stage>(jalgapõrutades tagajärele)</stage>
+                        <speaker>Maali</speaker>
+                        <stage>(jalgapõrutades tagajärele):</stage>
                         <p>Eewa! <stage>(Hakkab põrmandult sõrmust otsima, wiimaks kapi alt)</stage></p>
                     </sp>
                 </div>
@@ -3368,8 +3369,8 @@
                         <p>Kui ka on, — ta on ju igawene joodik!</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(pahaselt)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(pahaselt):</stage>
                         <p>Kui tal kaks maja on, ega ta neid ikka ei jõua ärajuua.</p>
                     </sp>
                     <sp who="#eewa">
@@ -3381,18 +3382,18 @@
                         <p>Eh! Sina oled see kõige targem! Waata kus su Uba-Peeter.</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(tõsiselt)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(tõsiselt):</stage>
                         <p>Maali!</p>
                     </sp>
                     <sp who="#maali">
-                        <speaker>Maali:</speaker>
-                        <stage>(õpitates)</stage>
+                        <speaker>Maali</speaker>
+                        <stage>(õpitates):</stage>
                         <p>Jah, Eewa!</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(Eewale)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(Eewale):</stage>
                         <p>Kas ikka seesama lori? Tüdruk, sa tead mis ma sulle olen ütelnud.</p>
                     </sp>
                     <sp who="#eewa">
@@ -3424,8 +3425,8 @@
                         <p>Et Eewa sulle selle häbi ära teeb....</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(tõsiselt)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(tõsiselt):</stage>
                         <p>Missuguse häbi?</p>
                     </sp>
                     <sp who="#mart">
@@ -3465,8 +3466,8 @@
                     <head>Wiiesteistkümnes etendus.</head>
                     <stage>Endised, Eewa.</stage>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(sisseastudes)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(sisseastudes):</stage>
                         <p>Isa, Hints pani omad asjad kokku, nagu walmistaks ta ennast — ei tea mis asja pääle. Praegu läheb ta ähwardates õuewärawast wälja. T'e lahkusite wihaga üksteisest.... kas sa ei tahaks teda tagasi kutsuda? Kes teab mis ta weel teeb wõi teha mõtleb? Hüüa teda ometi tagasi!</p>
                     </sp>
                     <pb n="41"/>
@@ -3739,8 +3740,8 @@
                     <head>Üheksasteistkümnes etendus.</head>
                     <stage>Endised, wahimees.</stage>
                     <sp who="#wahimees">
-                        <speaker>Wahimees:</speaker>
-                        <stage>(lõõtsutades)</stage>
+                        <speaker>Wahimees</speaker>
+                        <stage>(lõõtsutades):</stage>
                         <p>Oh, oh, peremees, oh, ma jooksin, jah, ma jooksin, mirawoi....</p>
                     </sp>
                     <pb n="44"/>
@@ -3753,8 +3754,8 @@
                         <p>Mirawoi, mirawoi tuli sinna, ma jooksin!</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(kohkudes)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(kohkudes):</stage>
                         <p>Kes? Rahukohtu härra? Kuhu?</p>
                     </sp>
                     <sp who="#wahimees">
@@ -3854,8 +3855,8 @@
                         <p>Siis ma pean wähemast kisendama. Anna kõrwakene siia, ma kisendan sinna sisse nenda, et teised ei kuule. <stage>(Tõmbab Eewa pää läbi akna lähemale.)</stage> Minu oma sa oled Eewa ja minu omaks sa jääd ja — sellest ei jäta ma kriipsu wäärt järele.</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(tagasi taganedes)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(tagasi taganedes):</stage>
                         <p>Mis sa teed, Peeter? Kas sa siis uuriwarga õega weel tegemist teha tahad? Mõtle: uuriwaras!</p>
                     </sp>
                     <sp who="#peeter">
@@ -3899,13 +3900,13 @@
                         <p>Ilm ikka, Peeter. Ilm ütleb: paras, paras!</p>
                     </sp>
                     <sp who="#peeter">
-                        <speaker>Peeter:</speaker>
-                        <stage>(mõtetes)</stage>
+                        <speaker>Peeter</speaker>
+                        <stage>(mõtetes):</stage>
                         <p>Soh. Küllap wist! Ja! Aga kuule Eewa, see tükk on hästi! Sina olid minust seni sellepoolest ees, et sul parajat sõimu nime ei olnud nagu minul. Kui sa nüüd arwad, et kaal selle poolest meie wahel<pb n="47"/> üheetasa seisab — Uba-Kaarli poeg ja uuri.... — tule siia Eewa, anna pääkene kätte, ma annan sulle ühe musu kohe. Kaup on walmis, tulewal kewadel teeme pulmad. Kas tahad, Eewa? <stage>(Sirutab kaks kätt aknast sisse.)</stage></p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(Eemale taganedes)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(Eemale taganedes):</stage>
                         <p>Ei mitte Peeter! Mitte nõnda. See on oh-wer, mida sa omas härdas meeles minu õnnetuse üle mulle tuua tahad.</p>
                     </sp>
                     <sp who="#peeter">
@@ -3939,8 +3940,8 @@
                         <p>Mis õige ja kohus. Nüüd oled sa minu mõrsja ja nüüd — luba, et ma sinu huuli esimest kord kui sinu peigmees suuteleda tohin.</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(nuttes)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(nuttes):</stage>
                         <p>Ei Peeter, ma wõtan kül sinu sõrmuse wastu, aga suud ma ei anna sulle. Kes teab, mis tuuled weel meie wahel wõiwad puhuda? Minu huuli ei ole pääle mu õnsa ema ja õe weel keegi puudutanud ja kellele ma suud annan, sellele annan ma iseennast. Sa tead ju Peeter, ma olen sinu oma, ma annan sinu sõrmusele suud <stage>(teeb seda)</stage> aga — ei tea weel, kas — kas ialgi meist paar saab. Ära ole kurb, Peeter, ma ei wõi teisiti.</p>
                     </sp>
                     <sp who="#peeter">
@@ -4056,8 +4057,8 @@
                         <p>Mine peale, ma säen enne piipu. <stage>(Hakkas säädima.)</stage></p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(nukralt)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(nukralt):</stage>
                         <p>Olgu siis peale! <stage>(Äraminnes:)</stage> Aga pärast m'e lähame põllule.</p>
                     </sp>
                 </div>
@@ -4065,8 +4066,8 @@
                     <head>Wiies etendus.</head>
                     <stage>Mart.</stage>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(säeb piipu, waatab ümber, kuulatab; häkitselt kargab üles, läheb kapi juurde, wõtab pudeli ja joob ühe lonksu, maigutab suud, joob jälle ja logistab siis pudeli tühjaks)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(säeb piipu, waatab ümber, kuulatab; häkitselt kargab üles, läheb kapi juurde, wõtab pudeli ja joob ühe lonksu, maigutab suud, joob jälle ja logistab siis pudeli tühjaks):</stage>
                         <p>Soo, solk, nüüd on ta otsas! <stage>(Istub wagusi maha piipu säädima.)</stage></p>
                     </sp>
                 </div>
@@ -4091,8 +4092,8 @@
                         <p>Ei tea? Õige jah, mis ta mulle wõib teha. Raha, mis kassasse puudus, on sissemakstud, kinniminek on ka teada — mis ma weel kardan. Tulgu mis tuleb. Ma neid ei karda. Mina!</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(halelikult naeratades)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(halelikult naeratades):</stage>
                         <p>Isakene, sa katsud weel asjata suurustada. Sul ei ole ju enam suurustamise aimugi südames. Minu hää isakene.</p>
                     </sp>
                     <pb n="50"/>
@@ -4129,8 +4130,8 @@
                         <p>Ei mõista.</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(julgenedes)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(julgenedes):</stage>
                         <p>Kõnelege eestikeelt, herra, meie ei oska wenekeelt.</p>
                     </sp>
                     <sp who="#pristaw">
@@ -4182,8 +4183,8 @@
                         <p>Mis hull jutt see on, mina olen peremees, see on minu talu.</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(hirmul)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(hirmul):</stage>
                         <p>Mis Hendrikuga on, kohtuherra?</p>
                     </sp>
                     <sp who="#pristaw">
@@ -4275,8 +4276,8 @@
                         <p>Mis seisab? Seisab et laenas Gendrik Pung, Punga talu obligationi wastu Kasper Korgi käest kolmtuhat rubli. Вотъ, siin obligationi ärakiri. Kork oma raha kätte tahab. A, Gendrikul, ei ole raha?</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(allakirjutades)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(allakirjutades):</stage>
                         <p>Hendrikul ei ole midagi raha.</p>
                     </sp>
                     <sp who="#pristaw">
@@ -4342,8 +4343,8 @@
                     <head>Kaheksas etendus.</head>
                     <stage>Mart. Eewa.</stage>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(käsaringutades)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(käsaringutades):</stage>
                         <p>Oh Jumal, nüüd on kõik otsas!</p>
                     </sp>
                     <sp who="#mart">
@@ -4364,8 +4365,8 @@
                     </sp>
                     <pb n="52"/>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(sorib pristawist mahajäetud paberisi siis)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(sorib pristawist mahajäetud paberisi siis):</stage>
                         <p>Eewa.</p>
                     </sp>
                     <sp who="#eewa">
@@ -4377,8 +4378,8 @@
                         <p>Tule loe siit, siin on ühel kirjal pool eestikeeli.</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(Lugemise järele)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(Lugemise järele):</stage>
                         <p>Asi on nõnda kuidas kohtusaks ütles. Siin on obligationi ärakiri meie talu peale kolmetuhande rubla üle. Hints on kolmtuhat rubla wastu saannd.</p>
                     </sp>
                     <sp who="#mart">
@@ -4390,8 +4391,8 @@
                         <p>Kui asi juba kohtu käes on, siis on tõsi taga, seda ma usun et siin enam wale midagi ei ole. See on, nõnda kuida sa ütlesid, Malleri nõuu, seda tükki Hints ise ei oskanud. Ma waatan <stage>(sorib paberisi)</stage> jah, obligationi kuupäew on kohe peale selle, kui Hints meie juurest minema läks. Hints tegi wihaga ja joobnud pääga kõik milleks teised nõuu andsiwad. Nüüd selgib ka, kust Hints raha sai, kellega ta ümbersõitis ja priiskas. — Kül näed, isa, meile ei jäe muud kui walge sandikepp.</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(wangub õhkades istmele)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(wangub õhkades istmele):</stage>
                         <p>Siis on kül meie ilus talu läinud. Oeh!</p>
                     </sp>
                 </div>
@@ -4407,8 +4408,8 @@
                         <p>Kiri? Mis kiri see wõib olla? Maali läks ometi ainult paariks päewaks tädimehe juure, — mis kirja ta siis weel mahajättis.</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(eluta)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(eluta):</stage>
                         <p>Kes teab.</p>
                     </sp>
                     <sp who="#mart">
@@ -4430,8 +4431,8 @@
                         <p>Oh — et ma — surra wõiksin — ma — ei suuda seda enam — kanda.</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(ahastates)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(ahastates):</stage>
                         <p>Laps, Eewa, Jumal hoidku, mis on? Mis siis weel on?</p>
                     </sp>
                     <sp who="#eewa">
@@ -4485,8 +4486,8 @@
                         <p>Tere külarahwas, tere.</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(tuimalt)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(tuimalt):</stage>
                         <p>Tere.</p>
                     </sp>
                     <sp who="#kuelamees-1">
@@ -4498,8 +4499,8 @@
                         <p>Mina ei tea enam midagi!</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(silmi üleslüües)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(silmi üleslüües):</stage>
                         <p>Kas weel uusi Hiiobi sõnumeid!</p>
                     </sp>
                     <sp who="#kuelamees-2">
@@ -4527,8 +4528,8 @@
                         <p>Jah! Ärge kurwastage ülelia. Mis on, see on.</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(tuimalt)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(tuimalt):</stage>
                         <p>Jah, mis on, see on!</p>
                     </sp>
                     <sp who="#mart">
@@ -4536,8 +4537,8 @@
                         <stage>(pöörab selja ja hakkab sõrmedega wastu akna ruutu koputama, nagu ei oleks tal kellegiga asja</stage>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(waikselt)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(waikselt):</stage>
                         <p>Isa, kuuled sa? Hints on surnud.</p>
                     </sp>
                     <sp who="#mart">
@@ -4565,8 +4566,8 @@
                         <p>Tema wiimne sõna oli Teie nimi, neiu Eewa. "Anna andeks, Eewa" rääkis ta weel siis ta lahkus.</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(purtskab nutma)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(purtskab nutma):</stage>
                         <p>Waene õnnetu eksind wend!</p>
                     </sp>
                     <sp who="#kuelamees-1">
@@ -4582,18 +4583,18 @@
                     <head>Üksteistkümnes etendus.</head>
                     <stage>Endised; Kaarel, Reet ja Peeter tulewad.</stage>
                     <sp who="#peeter">
-                        <speaker>Peeter:</speaker>
-                        <stage>(Eewa juurde tõtates)</stage>
+                        <speaker>Peeter</speaker>
+                        <stage>(Eewa juurde tõtates):</stage>
                         <p>Waene, õnnetu Eewakene, ära kurda, ära kurwasta. Näe mina olen ju ka, kellest sul hää meel peab olema. Jäta surnud surnutele ja ela elawaile. Mina olen ju, — ära heida meelt.</p>
                     </sp>
                     <sp who="#reet">
-                        <speaker>Reet:</speaker>
-                        <stage>(wõtab Eewa hõlma)</stage>
+                        <speaker>Reet</speaker>
+                        <stage>(wõtab Eewa hõlma):</stage>
                         <p>Mina olen, tütrekene. Lass woolata pisarad, peida pää minu rinna najale ja nuta ennast lahedaks. Ilma Jumala tahtmata ei sünni midagi.</p>
                     </sp>
                     <sp who="#peeter">
-                        <speaker>Peeter:</speaker>
-                        <stage>(toob wett)</stage>
+                        <speaker>Peeter</speaker>
+                        <stage>(toob wett):</stage>
                         <p>Joo, Eewa külma wett, see karastab sind.</p>
                     </sp>
                     <sp who="#reet">
@@ -4601,13 +4602,13 @@
                         <p>Joo, joo tütrekene, wesi on hää.</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(käed Reeda kaela ümber heites)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(käed Reeda kaela ümber heites):</stage>
                         <p>Ema oh ema! <stage>(Jäeb Reeda hõlma.)</stage></p>
                     </sp>
                     <sp who="#kaarel">
-                        <speaker>Kaarel:</speaker>
-                        <stage>(Mardi juurde astudes)</stage>
+                        <speaker>Kaarel</speaker>
+                        <stage>(Mardi juurde astudes):</stage>
                         <p>Mart, wana sõber. Ära kurwasta üleliia. Issand on annud. Issand on wõtnud, tema nimi olgu kiidetud.</p>
                     </sp>
                     <stage>Waheajal on Peeter puusärgile ruumi teinud, külamehed puusärgi sisse kannud ja toolide peale üles seadinud.</stage>
@@ -4621,8 +4622,8 @@
                     </sp>
                     <stage>Kadri ja Eewa lasewad puusärgi ette põlwili.</stage>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(puusärgi ette astudes)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(puusärgi ette astudes):</stage>
                         <p>See on wiina wanne. Jah, see on wiina wanne. Wiin wõtab mu lapsed, wiin wõtab mu wara, selle mädamülkasse uppub kõik ihu ja hingega.</p>
                     </sp>
                     <stage>Waheriie langeb.</stage>
@@ -4636,8 +4637,8 @@
                     <head>Esimene etendus.</head>
                     <stage>Peeter, Hans.</stage>
                     <sp who="#peeter">
-                        <speaker>Peeter:</speaker>
-                        <stage>(wõtab Hansu sülest hulga rohelisi wannikuid wastu)</stage>
+                        <speaker>Peeter</speaker>
+                        <stage>(wõtab Hansu sülest hulga rohelisi wannikuid wastu):</stage>
                         <p>Soo, Hans, tänan. Seda oled sa hästi toimetanud. Täna on minu wana isa sünnipäew, esimest korda pühitseme seda oma uue päriskoha peal. Mis sa näed, mis ma olen ja mis meil on, selle eest on mul teda, oma wana isa tänada. Nüüd, katsume ka wanamehele tänane päew nii rõõmsaks teha, kui wõimalik. — Aita nüüd mulle ka weel need wannikud ülesse lüüa. Aga, teeme nii wäha kolinat kui wõimalik, wanamees puhkab alles. Enne kui ta ärkab, peab kõik walmis olema.</p>
                     </sp>
                     <sp who="#hans">
@@ -4705,8 +4706,8 @@
                     <head>Teine etendus.</head>
                     <stage>Endised, Kadri.</stage>
                     <sp who="#kadri">
-                        <speaker>Kadri:</speaker>
-                        <stage>(sisseastudes, kaks noort kaske käes)</stage>
+                        <speaker>Kadri</speaker>
+                        <stage>(sisseastudes, kaks noort kaske käes):</stage>
                         <p>Terekst peremees. Mina tõin ka kaks haljast kasekest. Ärge pange pahaks, wanaisa käib ka ikka wahest ära sauna juures mind waatamas, mis ma seal teen.</p>
                     </sp>
                     <sp who="#peeter">
@@ -4723,8 +4724,8 @@
                     </sp>
                     <pb n="55"/>
                     <sp who="#kadri">
-                        <speaker>Kadri:</speaker>
-                        <stage>(silmi pühkides)</stage>
+                        <speaker>Kadri</speaker>
+                        <stage>(silmi pühkides):</stage>
                         <p>Jah, kohus? Kuida ma oma pojakest hoidsin ja kaswatasin, näe nüüd läks ära talu juurde poisiks, suurt palka saama. Ei hooli enam minust midagi. Läksin ka mõnda kopikakest paluma, sain weel peksa koguni. Kui T'e mind oma sauna nurgakese sisse ei oleks lubanud, tea kuhu ma oleks jäänud.</p>
                     </sp>
                     <sp who="#peeter">
@@ -4748,8 +4749,8 @@
                     <head>Kolmas etendus.</head>
                     <stage>Peeter, Hans, Eewa.</stage>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(asjadega)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(asjadega):</stage>
                         <p>Ohoh! Niikaugel juba. Kõik walmis.</p>
                     </sp>
                     <sp who="#peeter">
@@ -4851,34 +4852,34 @@
                     <head>Wiies etendus.</head>
                     <stage>Endised, Kaarel, Reet.</stage>
                     <sp who="#kaarel">
-                        <speaker>Kaarel:</speaker>
-                        <stage>(wälja astudes)</stage>
+                        <speaker>Kaarel</speaker>
+                        <stage>(wälja astudes):</stage>
                         <p>Jumala õnnistus Teie üle lapsed. Olge südamest tänatud ja teretud. T'e teete lapsed mulle wanamehele kül palju rõõmu, ma ei oska seda wälja ütelda ega olla. <stage>(Näeb kingilauda ja hakkab silmi pühkima.)</stage></p>
                     </sp>
                     <sp who="#reet">
-                        <speaker>Reet:</speaker>
-                        <stage>(kahte kätt kokku lüües)</stage>
+                        <speaker>Reet</speaker>
+                        <stage>(kahte kätt kokku lüües):</stage>
                         <p>Mis nüüd!</p>
                     </sp>
                     <pb n="56"/>
                     <sp who="#peeter">
-                        <speaker>Peeter:</speaker>
-                        <stage>(wanamehe kätt wapustates)</stage>
+                        <speaker>Peeter</speaker>
+                        <stage>(wanamehe kätt wapustates):</stage>
                         <p>Jumal andku isa, et sa weel palju, palju aastaid ja päewi meie keskel wõiksid olla ja rahulisi päewi maitsta.</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa:</speaker>
-                        <stage>(Reeda kaela ümber hakates)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(Reeda kaela ümber hakates):</stage>
                         <p>Ja sinule emake, need samad soowid. Jumal andku Teile mõlemile kallist rahu terwit. <stage>(Suuteleb)</stage></p>
                     </sp>
                     <sp who="#reet">
-                        <speaker>Reet:</speaker>
-                        <stage>(nuttes)</stage>
+                        <speaker>Reet</speaker>
+                        <stage>(nuttes):</stage>
                         <p>Lapsukesed, lapsukesed, wõiks taewas Teid küllalt õnnistada. Mina wana inimene ei oska midagi rääkida.</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(lähemale astudes)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(lähemale astudes):</stage>
                         <p>Tere, ka minu poolt.</p>
                     </sp>
                     <sp who="#peeter">
@@ -4890,13 +4891,13 @@
                         <p>Tere, isa, tere!</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(liigutatult)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(liigutatult):</stage>
                         <p>Mina küll Teie puhta rõõmu hulka ei sünni....</p>
                     </sp>
                     <sp who="#kaarel">
-                        <speaker>Kaarel:</speaker>
-                        <stage>(kätt wastu sirutates)</stage>
+                        <speaker>Kaarel</speaker>
+                        <stage>(kätt wastu sirutates):</stage>
                         <p>Tere wana lang. See rõõmustab mind, et sina siin oled. Ilma sinuta oleks tänane päew poolik olnud. Sinu tütar, minu armas kallis minijakene, <stage>(tõmbab teise käega Eewa lähemale)</stage> teeb mulle wanamehele kül niipalju rõõmu, et ei oska ära ütelda, mis ma ütlema peaksin.</p>
                     </sp>
                     <sp who="#eewa">
@@ -4940,8 +4941,8 @@
                         <p>Jah Mart, tule ära oma laste juurde. Paljuks meil kahel wanal mehel waja on. Siit saab leiba meile kõikidele kui Jumal oma õnnistust jagab:</p>
                     </sp>
                     <sp who="#mart">
-                        <speaker>Mart:</speaker>
-                        <stage>(kahe käega wastu kaitstes)</stage>
+                        <speaker>Mart</speaker>
+                        <stage>(kahe käega wastu kaitstes):</stage>
                         <p>Laske olla, laske olla, laske mind jääda, kus ma olen.</p>
                     </sp>
                     <sp who="#reet">
@@ -4986,8 +4987,8 @@
                         <p>Jah, nii on õige, nii on õige. Wõta julgeste Hans ja Jumal aidaku meid kõiki. <stage>(Mardile)</stage> Ehk kaswawad weel sinu puruks langenud õnne ja waranduse waremetest uued õnnelilled üles.</p>
                     </sp>
                     <sp who="#kaarel">
-                        <speaker>Kaarel:</speaker>
-                        <stage>(Hansule)</stage>
+                        <speaker>Kaarel</speaker>
+                        <stage>(Hansule):</stage>
                         <p>Aga jäe karskeks poeg, jäe karskeks. Karskeks ja kasinaks. Siis saad minu wiisi wanal ikkel õnne päiwi näha.</p>
                     </sp>
                     <sp who="#mart">

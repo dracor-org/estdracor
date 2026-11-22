@@ -165,14 +165,15 @@
             </particDesc>
             <textClass>
                 <keywords>
-                    <term type="genreTitle">Tragicomedy</term>
+                    <term type="genreTitle">Drama</term>
                 </keywords>
-                <classCode scheme="http://www.wikidata.org/entity/">Q192881</classCode>
+                <classCode scheme="http://www.wikidata.org/entity/">Q21010853</classCode>
             </textClass>
         </profileDesc>
         <revisionDesc>
             <listChange>
                 <change when="2026-09-02">Add genre and update formatting</change>
+                <change when="2026-11-22">Correct genre</change>
             </listChange>
         </revisionDesc>
     </teiHeader>

@@ -91,6 +91,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2026-09-02">Add genre and update formatting</change>
+                <change when="2026-11-22">Correct punctuation location</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -308,13 +309,13 @@
                         <p>Sina pead oma tagaselja salamässamist sedamaid maha jätma!</p>
                     </sp>
                     <sp who="#hannus">
-                        <speaker>HANNUS:</speaker>
-                        <stage>(naerdes)</stage>
+                        <speaker>HANNUS</speaker>
+                        <stage>(naerdes):</stage>
                         <p>Ahahah! Salamässamist? Mina rahuline, kannatlik tallekene — mina mässaja? Siis on seda kõik mu kanad ja lambad ka — ahahah!</p>
                     </sp>
                     <sp who="#truuta">
-                        <speaker>TRUUTA:</speaker>
-                        <stage>(käed puusa pannes)</stage>
+                        <speaker>TRUUTA</speaker>
+                        <stage>(käed puusa pannes):</stage>
                         <p>Tead sa ka, tõlplane, kui harimata, inetu ja toores see on, auväärt majaperenaesele nõnda suu sisse hirnuda?</p>
                     </sp>
                     <sp who="#hannus">
@@ -322,8 +323,8 @@
                         <p>Ma tean paljugi, mis ma sest saadik, kui tanu ala sain, enam ei tohi teada. Tuvike, luba ikka niigi palju õigust, et<pb n="102"/> omad mõtted võin —</p>
                     </sp>
                     <sp who="#truuta">
-                        <speaker>TRUUTA:</speaker>
-                        <stage>(valjuste)</stage>
+                        <speaker>TRUUTA</speaker>
+                        <stage>(valjuste):</stage>
                         <p>Vait nüüd sest ja panne tähele: ma keelan sulle nüüd kangeste ära, tänasest päevast saadik mitte enam kirjutaja Rein Nirki pääle mõtelda, kes omad silmad on julgenud meie Viiu pääle pöörda, — kas kuuled?</p>
                     </sp>
                     <sp who="#hannus">
@@ -581,13 +582,13 @@
                         <p>Tähendab küll osast ka nii palju, et sa juba mõne teise nooremale oma südame oled ära kinkinud?</p>
                     </sp>
                     <sp who="#viiu">
-                        <speaker>VIIU:</speaker>
-                        <stage>(kohkudes)</stage>
+                        <speaker>VIIU</speaker>
+                        <stage>(kohkudes):</stage>
                         <p>Isa, — kust sa seda juba tead?</p>
                     </sp>
                     <sp who="#hannus">
-                        <speaker>HANNUS:</speaker>
-                        <stage>(naerdes)</stage>
+                        <speaker>HANNUS</speaker>
+                        <stage>(naerdes):</stage>
                         <p>Äh, äh, äh! Ma tean kõik. Sina armastad Rein Nirki. Äh, äh, äh!</p>
                     </sp>
                     <sp who="#viiu">
@@ -680,8 +681,8 @@
                         <p>Olgu see ainus kord minu nimel.</p>
                     </sp>
                     <sp who="#viiu">
-                        <speaker>VIIU:</speaker>
-                        <stage>(valge rätikuga lehvitades)</stage>
+                        <speaker>VIIU</speaker>
+                        <stage>(valge rätikuga lehvitades):</stage>
                         <p>Ta on juba näinud — ta tuleb —</p>
                     </sp>
                     <sp who="#hannus">
@@ -839,8 +840,8 @@
                         <p><stage>(ikka veel julgeste)</stage> Täna on Sutti Triinul villatalgud ja minu Truuta läheb ka senna — sennikaua võime teha mis tarvis on. <stage>(Ohkab iseeneses).</stage></p>
                     </sp>
                     <sp who="#rein">
-                        <speaker>REIN::</speaker>
-                        <stage>(käsi õerudes)</stage>
+                        <speaker>REIN:</speaker>
+                        <stage>(käsi õerudes):</stage>
                     </sp>
                     <sp who="#hannus">
                         <speaker>HANNUS:</speaker>
@@ -1011,8 +1012,8 @@
                         <p>Kuuldi säält kambrist tulevat, kus Rein sees on.</p>
                     </sp>
                     <sp who="#hannus">
-                        <speaker>HANNUS::</speaker>
-                        <stage>(arglikult)</stage>
+                        <speaker>HANNUS:</speaker>
+                        <stage>(arglikult):</stage>
                         <p>Kas kuulsid ka tõeste säält kambrist? — Kes võib teada ehk julge olla — sinu emal on kõik võimalik, ka läbi seinte kuulda ja näha.</p>
                     </sp>
                     <sp who="#viiu">
@@ -1114,7 +1115,7 @@
                         <p><stage>(paar sammu edasi astudes)</stage> Mu auus kirjutaja noorsand, su pomisemine peab küll niipalju tähendama, et ma teile n'agu vesi paati olen tulnud? Ah, ah, ah! Kus sul tarkus nüüd jäänud? Sa ei saa ju sõnakest suust välja!</p>
                     </sp>
                     <sp who="#rein">
-                        <speaker>REIN::</speaker>
+                        <speaker>REIN:</speaker>
                         <stage>(ise-eneses)</stage>
                         <p>Mis pergel ma temale nüüd ütlen? Oi, nüüd on häda käes! Heldeke — pea kinni, ehk nõnda saan õigeks! — vaat', see on ilus nõu. — Ma palun kohe Viiu pärast ja seletan kuidas asjad on, tulgu mis tuleb! Kui ma seda õige palavalt teen, — ega temagi rauast valatud ole.</p>
                     </sp>
@@ -1171,8 +1172,8 @@
                         <p><stage>(ähvardades aga mitte käredalt)</stage> Kuule, Rein, nüüd katsu et kord minema saad!</p>
                     </sp>
                     <sp who="#rein">
-                        <speaker>REIN:</speaker>
-                        <stage>(kõrvale)</stage>
+                        <speaker>REIN</speaker>
+                        <stage>(kõrvale):</stage>
                         <p>Hirmuhigi seisab mull otsa pääl. Kui abi pea ei tule, siis olen lõksus. <stage>(Truuta poole).</stage> Kes ise ei armasta, see ei tea ka, mis armastus kõik sunnib katsuma ja tegema. Oh, Truuta, kallis perenaene, halasta ommeti vaese noorrahva pääle! <stage>(Langeb põlvili)</stage> Sinu ette langen ma maha, sa näed ju oma silmaga, et ma vägise meelt pean heitma, kui sa jah ja Aamen ei ütle. <stage>(Kuna Rein põlvili heidab, astub Hannus paremalt poolt uksest ettevaatlikult sisse ja seisab sirmi taga, kus mõlemaid võib näha).</stage></p>
                     </sp>
                     <sp who="#hannus">

@@ -140,14 +140,15 @@
             </particDesc>
             <textClass>
                 <keywords>
-                    <term type="genreTitle">Tragedy</term>
+                    <term type="genreTitle">Drama</term>
                 </keywords>
-                <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+                <classCode scheme="http://www.wikidata.org/entity/">Q21010853</classCode>
             </textClass>
         </profileDesc>
         <revisionDesc>
             <listChange>
                 <change when="2026-11-21">Convert txt to TEI</change>
+                <change when="2026-11-22">Correct genre</change>
             </listChange>
         </revisionDesc>
     </teiHeader>

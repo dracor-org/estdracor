@@ -96,6 +96,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2026-09-02">Add genre and update formatting</change>
+                <change when="2026-11-22">Correct punctuation location</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -230,13 +231,13 @@
                         <stage>(Ronib, kukkub ühes aiaga maha, pudel katki.)</stage>
                     </sp>
                     <sp who="#ott">
-                        <speaker>Ott.</speaker>
-                        <stage>(naerdes)</stage>
+                        <speaker>Ott</speaker>
+                        <stage>(naerdes).</stage>
                         <p>Küll olete teie Tartlased ka töömehed. Ronib üks warblane aia otsa, siis hoia eest ära, et ta ühes aiaga selga ei kukku!</p>
                     </sp>
                     <sp who="#sulane">
-                        <speaker>Sulane.</speaker>
-                        <stage>(pudeli tükkisi waadates)</stage>
+                        <speaker>Sulane</speaker>
+                        <stage>(pudeli tükkisi waadates).</stage>
                         <p>Oh minu kallis Jumala iwake, sa selge elutilgake, ja masikmarja<pb n="11"/> leheke! maksis 25 kop. Oli kallis ja karastaw, oli mahe ja magus! Aga nii see lugu kord maailmas on, — ega ta Tartumaalgi teisiti ei wõi olla, — mis kallis, see kaub; mis wägew, see waub!</p>
                     </sp>
                     <sp who="#ott">
@@ -331,8 +332,8 @@
                         <p>Mine, poolemees! Ma tunnen sind nüüd! Ma tean mis sull puudub! Mõistusest on sull puudus. Nii kaua kui mõistus puudub, ei saa Tartu ja Wiljandi maa mitte lahkuses ja sõbruses elama. <stage>(ära.)</stage></p>
                     </sp>
                     <sp who="#ott">
-                        <speaker>Ott.</speaker>
-                        <stage>(tuleb)</stage>
+                        <speaker>Ott</speaker>
+                        <stage>(tuleb).</stage>
                         <p>Tüli peab maailmas olema, aga õnnetu see mees, kelle läbi tüli maailma tuleb! Ma arwan, minu Katt jääb Tartumaale, kui lugu end mitte ei muuda. Isad! Mis teil kanged pead on!</p>
                     </sp>
                 </div>

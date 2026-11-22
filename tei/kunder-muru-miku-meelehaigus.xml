@@ -115,6 +115,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2026-09-02">Add genre and update formatting</change>
+                <change when="2026-11-22">Correct punctuation location</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -307,8 +308,8 @@
                     <head>Wiies etendus.</head>
                     <stage>Mikk. Maie.</stage>
                     <sp who="#mikk">
-                        <speaker>Mikk.</speaker>
-                        <stage>(Maiele wasta minnes)</stage>
+                        <speaker>Mikk</speaker>
+                        <stage>(Maiele wasta minnes).</stage>
                         <p>Tere, kallis silmaterake, munamagus Maretake! Olin suures segaduses.<pb n="11"/> Ei teadnud kahte, ei kolme lugeda. Ütle ometi kulla laps, on sul üks isa wõi kaks? On su isa üks waim, wõi üks nõid? Mina temast aru ei saa. Ta ajas siin praegu iseenesega juttu ja seisis enese ees.</p>
                     </sp>
                     <sp who="#maie">
@@ -324,8 +325,8 @@
                         <p>Mis pagana kaasakese ja nõia lugu see on? Ma pole Sind ilmasgi enne näinud. Ja niisuguse hullu mehe ajaks mu isa wemblaga minema. <stage>(ära.)</stage></p>
                     </sp>
                     <sp who="#mikk">
-                        <speaker>Mikk.</speaker>
-                        <stage>(waatab ülesse poole)</stage>
+                        <speaker>Mikk</speaker>
+                        <stage>(waatab ülesse poole).</stage>
                         <p>Ma waatan, kas wast pilwed ülewalt alla mu selga ei lange. Nüüd ei ole enam maa peal ristiinimese lugu. Ka minu Maret on pöörane. Ta ei tunne mind enam! Mikk, Mikk, sinu meelehaigus on otsata! Wõib ka olla, et ma juba hull olen. Oleks ma parem Pärnumaale jäänud, <pb n="12"/> ei ma seal niisugusi pöörasi inimesi poleks näinud! Siin on teine maailm.</p>
                     </sp>
                 </div>
@@ -333,8 +334,8 @@
                     <head>Kuues etendus.</head>
                     <stage>Mikk. Maret.</stage>
                     <sp who="#maret">
-                        <speaker>Maret.</speaker>
-                        <stage>(tulles, lahkelt)</stage>
+                        <speaker>Maret</speaker>
+                        <stage>(tulles, lahkelt).</stage>
                         <p>Tere, Mikk! Miks sa nii kurb oled ja siin kesk maanteed seisad? Ootasin sind ammugi juba meile tulema. Kus sa nüüd olid heile ja täna? Isa on korraga kes teab misläbi nii karuseks läinud, et enam kosjaluo peale mõteldagi ei lase. Mikk, meie palume teda seni, kuni ta järele annab! Ma tunnen teda, ega ta ometi nii kiwi kõwa ei saa olema.</p>
                     </sp>
                     <sp who="#mikk">
@@ -359,8 +360,8 @@
                         <p>Ära siis, kallis Maret, waleta — ütle    selget tõt: "On so isa nõid ehk mitte?"</p>
                     </sp>
                     <sp who="#maret">
-                        <speaker>Maret.</speaker>
-                        <stage>(kohkudes)</stage>
+                        <speaker>Maret</speaker>
+                        <stage>(kohkudes).</stage>
                         <p>Kulla Mikk, mis su meeles on?! Minu isa nõid? Mis ta sulle ütlema saab, kui ta seda kuuleb! Siis on meie asjad otse otsas. Ega sa ometi tõt ei räägi, Mikk? Sa tahtsid minuga paljalt nalja heita!</p>
                     </sp>
                     <sp who="#mikk">

@@ -121,6 +121,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2026-09-02">Update formatting</change>
+                <change when="2026-11-22">Correct punctuation location</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -246,8 +247,8 @@
                     <head>Esimene etendus.</head>
                     <stage>Õhk ja tema õpilane Hans, istuwad töölaua juures. Õhk õmbleb kiiresti masinaga ja wilistab selle juures tasakesi lustilist lugu. Hans, töö süles, püüab kärbseid.</stage>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(silmi üles lüües)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(silmi üles lüües).</stage>
                         <p>Poiss, sina ilmarigu, kas sel wiisil peab sinust tubli rättsepp saama? Oota sa! <stage>(Kahmab winkli ja rabab Hanssu üle laua lüüa, see hoiab eest kõrwale ja winkel kolksatab wastu lauda.)</stage></p>
                     </sp>
                     <sp who="#hans">
@@ -259,13 +260,13 @@
                         <p>Mis "no-no, peremees!" Küll ma sind õpetan! Oled töö juures, siis pane pihta, — paned töö käest, siis löö lulli. Igal asjal oma aeg.</p>
                     </sp>
                     <sp who="#hans">
-                        <speaker>Hans.</speaker>
-                        <stage>(naerdes)</stage>
+                        <speaker>Hans</speaker>
+                        <stage>(naerdes).</stage>
                         <p>Ega's töö jänes ei ole, et ta eest ära jookseb, ega inimene puu ega luu...</p>
                     </sp>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(tõsiselt)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(tõsiselt).</stage>
                         <p>Hans, Hans, ei sinust küll saa õiget rättseppa, kellest meie seisusele auu loota; sa oled ju päris laisk-mait. Inimene ei pea töö armastaja olema, waid töö wihkaja, aga sina armastad tööd.</p>
                     </sp>
                     <pb n="6"/>
@@ -278,13 +279,13 @@
                         <p>Mis hästi, ma ütlen: sa oled töö armastaja, sa armastad, et sul tööd on. Aga sa pead töö wihkaja olema, teda ärahäwitama, ärategema, et teda enam ei ole. Siis oled sa mees! — Näita, missugused su nööbiaugud on saanud. <stage>(Waatab üle laua Hansu tööd.)</stage> Näe, näe, need nüüd mõne nööbiaugud, konarikud kui sea songermaa! Siledad peawad nad olema, siledad nagu... <stage>(Kahmab jälle winkli järele; Hans aga on kärmem, tõmbab winkli ära ja hoiab selja taha.)</stage></p>
                     </sp>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(ümbert laua longates ja    Hanssu pool naljaga, pool pahaga õlast wapustades)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(ümbert laua longates ja    Hanssu pool naljaga, pool pahaga õlast wapustades).</stage>
                         <p>Sina, sinust ei saa õiget rättseppa. Töö on sul kõrwaline asi, sa mõtled gummikraede ja siidilipsude pääle. See on edewus! Waata, mina, kas oled mul gummikraet ehk siidilipsu näinud? Töö juures olen ma lihtsalt särgiga, kui wälja lähen, wiskan õhukese siidi-rätiku ümber kaela. Sina aga ehid ennast untshantsakate järele. Katsu, mis saks sa mul weel ei ole. Waat, mis saksa hilpude asi on: hilbud küll, aga, kui sul raha taskus ei ole, oled hilpharakas. Sina ehid ennast juudi-rättsepa taoliseks! — Mis, sul on uurikett? Kas sul uur ka on? <stage>(Tõmbab keti otsa Hansu taskust wälja, uuri asemel tuleb sibul nähtawale.)</stage></p>
                     </sp>
                     <sp who="#hans">
-                        <speaker>Hans.</speaker>
-                        <stage>(kahmab keti järele)</stage>
+                        <speaker>Hans</speaker>
+                        <stage>(kahmab keti järele).</stage>
                         <p>Meister!</p>
                     </sp>
                     <sp who="#ohk">
@@ -292,8 +293,8 @@
                         <p>Hahaha! Sibul! Kuulnud olin, näinud ei olnud sarnast lugu, hahaha! Oi-oi poissi, noo-noo poissi, küll ma räägin su emaga. <stage>(Wiskab keti nurka.)</stage> Pressraud wii tulle, pärast räägime edasi. — Niisugune ilmarigu! <stage>(Istub töö juurde.)</stage></p>
                     </sp>
                     <sp who="#hans">
-                        <speaker>Hans.</speaker>
-                        <stage>(häbelikult, otsib nurgast oma keti, siis pressrauaga ära)</stage>
+                        <speaker>Hans</speaker>
+                        <stage>(häbelikult, otsib nurgast oma keti, siis pressrauaga ära).</stage>
                     </sp>
                     <pb n="7"/>
                 </div>
@@ -311,8 +312,8 @@
                     <head>Kolmas etendus.</head>
                     <stage>Õhk ja Mari, pärast Hans.</stage>
                     <sp who="#mari">
-                        <speaker>Mari.</speaker>
-                        <stage>(sisseastudes)</stage>
+                        <speaker>Mari</speaker>
+                        <stage>(sisseastudes).</stage>
                         <p>Mis selle meistrile nüüd pähe tulnud, mängib nagu, nagu... <stage>(Istub Hansu istme pääle).</stage></p>
                     </sp>
                     <sp who="#ohk">
@@ -363,8 +364,8 @@
                         <p>Teie wõtke rikas naene, meister, niisugune, kes paartuhat rubla kaasa toob. Niisugune laitmata inimene kui teie! Mina tean kindlasti, et teil on, mis kellegil teisel rättsepal ei ole, oma tuhat rubla, wõi enam, enese kogutud raha taskus. Siis ehitage kahekesi kusagile maja ja hakkage kauplema, wõi wõtke muud sehwti ette.</p>
                     </sp>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(naerdes)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(naerdes).</stage>
                         <p>Hahaha, Manni, kui kena nõuu teie annate.</p>
                     </sp>
                     <sp who="#mari">
@@ -377,13 +378,13 @@
                         <p>Hahaha! Kust niisugune rahaline küll leida peaks olema ja — rättsepale! Ei saa waestgi tüdrukut kätte! Näete, kui palju teid, Manni tahtmas käiwad. Miks teie mõnele ära ei lähe? Ootate ikka weel seda kõige rikkamat, kõige suurema koha omanikku, seda kõige kuulsamat.</p>
                     </sp>
                     <sp who="#mari">
-                        <speaker>Mari.</speaker>
-                        <stage>(tõsiselt)</stage>
+                        <speaker>Mari</speaker>
+                        <stage>(tõsiselt).</stage>
                         <p>Ei ole õige. Rikkal tüdrukul on raske meest leida. Kes need minu tahtmas käijad siis on? Soomest ja saarest<pb n="10"/> käib neid kokku. Kas nad mind tahawad? Isa raha nad tahawad. Mina olen kõrwaline asi. Wõlad on neil kaelas, wõib olla, mõnel oksjoni haamer upakile. Minu kaaswara peab need kinni maksma. — Õige mees, kellele maksaks minna, ei tulegi mulle kosja, ta häbeneb niisuguste pardiajajatega ühe ree pääl istuda.</p>
                     </sp>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(wangutab pääd)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(wangutab pääd).</stage>
                         <p>Õigus teil on.</p>
                     </sp>
                     <sp who="#mari">
@@ -391,8 +392,8 @@
                         <p>Teie ütlete kohaomanikule? Kas talu perenaese põli siis kõige kergem on? Igawene pere riidepalgategija ja sigadesöötja. Tõmba hõlpad õlale ja wii perele sööki põllule järele...</p>
                     </sp>
                     <sp who="#hans">
-                        <speaker>Hans.</speaker>
-                        <stage>(laseb pressraua kolinal põrandale kukkuda, ja raputab kätt, nagu oleks ta näpud ära kõrwetanud)</stage>
+                        <speaker>Hans</speaker>
+                        <stage>(laseb pressraua kolinal põrandale kukkuda, ja raputab kätt, nagu oleks ta näpud ära kõrwetanud).</stage>
                         <p>Ai, ai, ai!</p>
                     </sp>
                     <stage>(Mari lipsti ära.)</stage>
@@ -401,13 +402,13 @@
                     <head>Neljas etendus.</head>
                     <stage>Õhk ja Hans.</stage>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(pool nalja, pool tõega)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(pool nalja, pool tõega).</stage>
                         <p>Poiss, sina ilmarigu, kuidas sa tohid luurata ja kuulatada?</p>
                     </sp>
                     <sp who="#hans">
-                        <speaker>Hans.</speaker>
-                        <stage>(tõsiselt ja aega mööda, käega näidates)</stage>
+                        <speaker>Hans</speaker>
+                        <stage>(tõsiselt ja aega mööda, käega näidates).</stage>
                         <p>Meister, tõuse üles, tapa ja söö!</p>
                     </sp>
                     <sp who="#ohk">
@@ -429,8 +430,8 @@
                         <p>Aih! <stage>(Sügab selga, nagu oleks ta laksu pihta saanud. Läwest wälja.)</stage></p>
                     </sp>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(wõtab pressraua üles ja katsub märja näpuga)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(wõtab pressraua üles ja katsub märja näpuga).</stage>
                         <p>Niisuglme ilmarigu! Nüüd on pressraud ka külm. Külm nagu rikka tüdruku süda. Kehw pistku kümme kord näpuga külge, ei susise. — Ja-jah! Aga see Manni, see näitab küll teisest puust ja teisest luust olema. Kui õiged mõtted tal on. Üsna tuliuus külg! Mina ikka mõtlesin ja mõtlesin, miks need rikkad tüdrukud neid kosilasi nii palju waliwad ja läbilasewad. Kõige selle kosilaste pahna sees pole ju ka õiget iwatera leida. Näljawaressed kõik, kes siia kokku käiwad. Mida uhkem saan wõi troska, seda suurem wõlg.</p>
                         <p>Aga, mis see mulle aitab! Rikkamaks ei saa mina selle ega muu läbi mitte maikugi. Kui saaks ühe suure lahmaku korraga kuskilt lüüa, wõi kui loosiga wõidaks! — Suurt loosi ei täidi osta, raha jääb ilma protsendita, ja neid wäikseid, mis nüüd on, neid ei ole kusagilt enam saada. Tont ka, kui sääl sisemaal neid näljahädalisi nii palju oli, oleks wõinud ka neid loosisid nii palju teha, et igamees ühe oleks saanud. <stage>(Pahaselt.)</stage> Nüüd, tee wõi tõrwa, loosi saada ei ole. <stage>(Hakkab tööle.)</stage> Muud kui lase aga masinaga ja waata, kuidas kopika kaupa rahwa käest saad. — Kus see Hans siis jäi? <stage>(hüüab)</stage> Hans! Hans!</p>
                     </sp>
@@ -439,14 +440,14 @@
                     <head>Wiies etendus.</head>
                     <stage>Õhk. Toomas ja Silk, tulewad.</stage>
                     <sp who="#silk">
-                        <speaker>Silk.</speaker>
-                        <stage>(piitsa käest ärapannes)</stage>
+                        <speaker>Silk</speaker>
+                        <stage>(piitsa käest ärapannes).</stage>
                         <p>Tere, rättsepmeister! <stage>(Istub ja wõtab rahapunga põuest.)</stage> Kas jääb siis nõnda: 10 kaalu takuprakki 26 rubla ja 10 kaalu dreibanti 30 rubla kaal? Ma kirjutan tähe walmis?</p>
                     </sp>
                     <pb n="12"/>
                     <sp who="#toomas">
-                        <speaker>Toomas.</speaker>
-                        <stage>(naerab)</stage>
+                        <speaker>Toomas</speaker>
+                        <stage>(naerab).</stage>
                         <p>Takuprakki, 26 rubla kaal! Tõistre talu põllud ei ole weel eluilmas takuprakki kandnud. Miti kuntru sell pakkus läbisegi 32 rubla kaalust.</p>
                     </sp>
                     <sp who="#silk">
@@ -454,8 +455,8 @@
                         <p>Schmidti kontori sell? See oli kahe nädali eest. Miks te' ära ei andnud? Nüüd on hinnad langenud.</p>
                     </sp>
                     <sp who="#toomas">
-                        <speaker>Toomas.</speaker>
-                        <stage>(põlgawalt)</stage>
+                        <speaker>Toomas</speaker>
+                        <stage>(põlgawalt).</stage>
                         <p>Hinnad langenud! Kes kaupmeeste wigurisi ei tunneks! Preilandi sell pakkus alles üleeila 30 rubla läbisegi.</p>
                     </sp>
                     <sp who="#silk">
@@ -483,8 +484,8 @@
                         <p>Mitte üks ting alt selle.</p>
                     </sp>
                     <sp who="#silk">
-                        <speaker>Silk.</speaker>
-                        <stage>(õhkades)</stage>
+                        <speaker>Silk</speaker>
+                        <stage>(õhkades).</stage>
                         <p>Siin on käsiraha! Olgu! Tõistre-Toomaga ma ei tingi. Kõige rikkam mees üle mitme walla ja kihelkonna.</p>
                     </sp>
                     <pb n="13"/>
@@ -505,8 +506,8 @@
                         <p>No-noh, Tõistre! Kurjad keeled teadwad ütelda, et teie üleliia hää ja õiglane mees olla olnud, nii et keegi teie läwe eest mööda ei ole saanud. Naabrid ümberringi olla igapäew ainult teie juures istunud ja — kiratsema jäänud, paaril tükil olla koguni pankrott tulnud ja talud äramüüdud. Teatakse ütelda: talud olla teie taskus.</p>
                     </sp>
                     <sp who="#toomas">
-                        <speaker>Toomas.</speaker>
-                        <stage>(naerab)</stage>
+                        <speaker>Toomas</speaker>
+                        <stage>(naerab).</stage>
                         <p>Kiusujutt kõik. Õigemat kõrtsimeest ei wõi olla, kui mina olin. Kas ma olen karmantsikutega sehwti pidanud, wõi mis? Kas wõib keegi seda ütelda?</p>
                     </sp>
                     <sp who="#ohk">
@@ -539,13 +540,13 @@
                         <p>Ei, need on näljahädaliste wõiduloosid. <stage>(Näitab.)</stage></p>
                     </sp>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(hääl meelel)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(hääl meelel).</stage>
                         <p>Oi kui palju! Saks, müüge üks mulle ära!</p>
                     </sp>
                     <sp who="#silk">
-                        <speaker>Silk.</speaker>
-                        <stage>(naerab)</stage>
+                        <speaker>Silk</speaker>
+                        <stage>(naerab).</stage>
                         <p>Hahaha, müüge ära! Missuguse ma pean ära müüma? Kas ma tean, missuguse pääle wõit langeb?</p>
                     </sp>
                     <sp who="#ohk">
@@ -553,8 +554,8 @@
                         <p>Andke pääle üks ära. Teil on ise rahawara küll. Lass rättsepp saab ka rikkaks. Ehk pime kana leiab tera.</p>
                     </sp>
                     <sp who="#toomas">
-                        <speaker>Toomas.</speaker>
-                        <stage>(üle läwe, teise tuppa)</stage>
+                        <speaker>Toomas</speaker>
+                        <stage>(üle läwe, teise tuppa).</stage>
                         <p>Mari, Mari! Tule siia. Tahtsid ikka neid õnneloosisid näha, — tule nüüd waatama.</p>
                     </sp>
                     <pb n="15"/>
@@ -679,8 +680,8 @@
                         <p>Ega siis seda wiisi...</p>
                     </sp>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(imeks pannes)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(imeks pannes).</stage>
                         <p>Kuidas? Ma ei saa aru...</p>
                     </sp>
                     <pb n="18"/>
@@ -709,8 +710,8 @@
                         <p>Küll teie ka olete. — Ise ju ütlesite, et loosiga ei ole keegi weel midagi wõitnud.</p>
                     </sp>
                     <sp who="#toomas">
-                        <speaker>Toomas.</speaker>
-                        <stage>(elawalt)</stage>
+                        <speaker>Toomas</speaker>
+                        <stage>(elawalt).</stage>
                         <p>Miks ei wõida. Märjalohu Peetri poeg oli Riiast loosi päält püssi wõitnud. Wiljandi raeherra olla kaks korda 75 tuhat wõitnud! <stage>(Aeglasemalt.)</stage> Muid ma küll ei ole kuulnud. Siin oli ka korra kiriku oreli hääks loosimine, loos maksis 10 kopikat. Kirikuherra ajas wägise pääle, siis ma ostsin ka ühe ära. Mina küll ei wõitnud, aga mõned ikka saiwad midagi. — Wõidab ikka küll loosiga, miks ei wõida.</p>
                     </sp>
                     <sp who="#hans">
@@ -718,14 +719,14 @@
                         <p>Meister, ära anna kahte rublat ära. Peremees pilkab ja naerab neid, kes ei oska raha hoida.</p>
                     </sp>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(Hansule)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(Hansule).</stage>
                         <p>Sul on õigus.</p>
                     </sp>
                     <pb n="19"/>
                     <sp who="#toomas">
-                        <speaker>Toomas.</speaker>
-                        <stage>(Hansule)</stage>
+                        <speaker>Toomas</speaker>
+                        <stage>(Hansule).</stage>
                         <p>Wõe, wäike-rättsepp, kui tark tema weel ei ole, wõi pilkab. Keda ma juba ära olen pilganud?</p>
                     </sp>
                     <sp who="#ohk">
@@ -737,18 +738,18 @@
                         <p>Olgu poolteist rubla.</p>
                     </sp>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(utsib raha)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(utsib raha).</stage>
                         <p>Siin on rubla ja kaheksateistkümmend kopikat. Enam mul peenikest ei ole ja enam ma ei anna ka.</p>
                     </sp>
                     <sp who="#toomas">
-                        <speaker>Toomas.</speaker>
-                        <stage>(wõtab raha, käed wärisewad)</stage>
+                        <speaker>Toomas</speaker>
+                        <stage>(wõtab raha, käed wärisewad).</stage>
                         <p>Kitsipung sa ikka oled. Wäike-rättsepp hirmutas su ära. No olgu pääle. Kust iga kord seda wiimast kopikat kätte saab! <stage>(Raha näpu wahel, ära.)</stage></p>
                     </sp>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(õmbleb natuke aega, siis rõõmsalt)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(õmbleb natuke aega, siis rõõmsalt).</stage>
                         <p>Wäike-rättsepp, tont! Kui ma kümmetuhat wõidan, siis on kõik sinu, käärid sinu, pressraud sinu, käärikott ka sinu! Amet sinu, wiiul ka sinu. Ilmarigu <stage>(waimustuses, pool karjudes)</stage> hoia eest, ma wiskan! <stage>(Wiskab pressraua kolinal läwe poole põrandale.)</stage> Raud wii tulle!</p>
                     </sp>
                     <stage>(Hans ära.)</stage>
@@ -782,8 +783,8 @@
                         <p>Mõtlesin, mis ma siis tegema hakkan, kui teie piletiga — ühe suure summa raha wõidan.</p>
                     </sp>
                     <sp who="#mari">
-                        <speaker>Mari.</speaker>
-                        <stage>(naeratades)</stage>
+                        <speaker>Mari</speaker>
+                        <stage>(naeratades).</stage>
                         <p>Mis teie siis teeksite, meister?</p>
                     </sp>
                     <stage>(Wana Toomas tuleb, jääb läwe pääle kuulatama.)</stage>
@@ -800,8 +801,8 @@
                         <p>Ilma naljata, mina tulen kosja, mis sest, kui teie mulle koerad pääle ajate. Teist teie sarnast armast ja mõistlikku tütarlast ma ei tea ja...</p>
                     </sp>
                     <sp who="#toomas">
-                        <speaker>Toomas.</speaker>
-                        <stage>(wahele astudes, kärgib)</stage>
+                        <speaker>Toomas</speaker>
+                        <stage>(wahele astudes, kärgib).</stage>
                         <p>Mis! Mis sa ütlesid? Kosja? Minu tütrele! Sina! Näljane rättsepp... Wälja! Wälja läwest sellesama korraga. <stage>(Karjudes.)</stage> Korista ennast siit, et ma su nägu enam ei näe!</p>
                     </sp>
                     <sp who="#mari">
@@ -810,8 +811,8 @@
                     </sp>
                     <pb n="21"/>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(waigistades)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(waigistades).</stage>
                         <p>See oli ju muidu nali!</p>
                     </sp>
                     <sp who="#toomas">
@@ -823,13 +824,13 @@
                         <p>Kuidas, peremees, selle tühja sõna pärast...</p>
                     </sp>
                     <sp who="#toomas">
-                        <speaker>Toomas.</speaker>
-                        <stage>(jalaga tampides)</stage>
+                        <speaker>Toomas</speaker>
+                        <stage>(jalaga tampides).</stage>
                         <p>Kas sa weel siin oled? Näljane, wigane rättsepp! Hei, poisid! Hei!</p>
                     </sp>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(wihaselt)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(wihaselt).</stage>
                         <p>Siis sundku ka sind weel! <stage>(Karjub ka.)</stage> Wäike-rättsepp! Käärid kotti! Masin kasti ja lähme — kus seda ja teist! Mina ennast siin sõimata ei lase! <stage>(Toomale.)</stage> Minul ei ole sind ega sinu rikkust waja, mõistad seda! Ah sina oled rikas? Sa oled kümme korda oma rikkuse ori! Näe, rättsepp on waba mees, läheb ja tuleb sel ajal ja siis kui tahab! Wäike-rättsepp, hei! Tule!</p>
                     </sp>
                     <stage>Waheriie langeb.</stage>
@@ -843,8 +844,8 @@
                     <head>Esimene etendus.</head>
                     <stage>Hans, nokitseb töölaua juures. Perenaene, ketrab. Õhk, woodis pikali. Pärast Henn. Kell lööb 8.</stage>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(haigutades)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(haigutades).</stage>
                         <p>Oeeh! Mis kell on?</p>
                     </sp>
                     <sp who="#hans">
@@ -861,8 +862,8 @@
                         <p>Kaheksa. Tulge üles, meister.</p>
                     </sp>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(kargab üles)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(kargab üles).</stage>
                         <p>Kaheksa! Tont, nii palju juba! <stage>(Jääb uniselt woodi ääre pääle istuma. Wahel pühib käega üle näo, nagu peletaks kärpseid ära.)</stage> Mis päew täna on?</p>
                     </sp>
                     <pb n="23"/>
@@ -871,8 +872,8 @@
                         <p>Ilus selge päew, meister.</p>
                     </sp>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(wihaselt)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(wihaselt).</stage>
                         <p>Susi söögu sind! Mis tänase päewa nimi on, küsin ma?</p>
                     </sp>
                     <sp who="#hans">
@@ -936,8 +937,8 @@
                         <p>Meistril ju õnneloos on. Wõib olla on paarkümmend tuhat wõitnud. Esmaspäew see wõitude tõmbamise päew oli.</p>
                     </sp>
                     <sp who="#perenaene">
-                        <speaker>Perenaene.</speaker>
-                        <stage>(ehib ära minema)</stage>
+                        <speaker>Perenaene</speaker>
+                        <stage>(ehib ära minema).</stage>
                         <p>Õhule ikka tuleb küll, tulgu mis temale tuleb. Ega uni ei waleta. <stage>(Ära.)</stage></p>
                     </sp>
                     <sp who="#henn">
@@ -1141,8 +1142,8 @@
                         <p>Jätke mind rahule.</p>
                     </sp>
                     <sp who="#toomas">
-                        <speaker>Toomas.</speaker>
-                        <stage>(ähwardades)</stage>
+                        <speaker>Toomas</speaker>
+                        <stage>(ähwardades).</stage>
                         <p>Küll kohtu ees saame kokku! <stage>(ära).</stage></p>
                     </sp>
                 </div>
@@ -1260,8 +1261,8 @@
                         <p>Noo! Pea! Mis on?</p>
                     </sp>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(hingetult)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(hingetult).</stage>
                         <p>Henn, weli, wõta hobune ja laseme nüüd!</p>
                     </sp>
                     <sp who="#henn">
@@ -1273,8 +1274,8 @@
                         <p>334 nummer 32, 343...</p>
                     </sp>
                     <sp who="#henn">
-                        <speaker>Henn.</speaker>
-                        <stage>(ka äritatult)</stage>
+                        <speaker>Henn</speaker>
+                        <stage>(ka äritatult).</stage>
                         <p>Mis on?</p>
                     </sp>
                     <sp who="#ohk">
@@ -1403,8 +1404,8 @@
                     <head>Kuues etendus.</head>
                     <stage>Endised. Õhk ja Henn, tulewad.</stage>
                     <sp who="#henn">
-                        <speaker>Henn.</speaker>
-                        <stage>(kuraasiga)</stage>
+                        <speaker>Henn</speaker>
+                        <stage>(kuraasiga).</stage>
                         <p>Wot kus tükk! Kus wõit ja warandus! Kümmetuhat rubla!</p>
                     </sp>
                     <sp who="#perenaene">
@@ -1521,8 +1522,8 @@
                         <p>Kohtumees kuuleb, mina wõtan oma kingituse tagasi. Palun wõtke loos Õhu käest ära ja andke mulle kätte.</p>
                     </sp>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(wihaselt)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(wihaselt).</stage>
                         <p>Loosi mina ei anna, kas wõi mis!</p>
                     </sp>
                     <sp who="#kohtumees">
@@ -2845,8 +2846,8 @@
                         <p>Ja sellesama asja pärast minagi teiega tahtsin rääkida. Meie peame teid poiss-inimest nüüd ka juba mitu kuud siin korteris, külarahwas küsiwad ikka minu käest, millas pulmad tulewad. Minule te ei ole midagi rääkinud, Tiinale ka mitte; mina kui lapse ema pean ometi teie käest küsima, kuidas asi jääb? Teised kosilased ei julge teie pärast ka enam tulla.</p>
                     </sp>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(kohkudes)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(kohkudes).</stage>
                         <p>Oi heldeke, perenaene, niisuguste juttude wastu ei wõi mina midagi. Kust mina nüüd naesewõtmise pääle tohin mõtelda, mina ei ole ju weel midagi. Kui ma koha kätte saan ja taluwärgi juba sisse seadinud olen, ehk siis hakkan mõne teenija tüdruku pääle mõtlema. Wõi talulapsed minule ikka tulewad.</p>
                     </sp>
                     <sp who="#perenaene">
@@ -2858,8 +2859,8 @@
                         <p>Oh, ei mina ei julge. Kus selle häbi ots, kui ma pika nina saan.</p>
                     </sp>
                     <sp who="#perenaene">
-                        <speaker>Perenaene.</speaker>
-                        <stage>(hüüab)</stage>
+                        <speaker>Perenaene</speaker>
+                        <stage>(hüüab).</stage>
                         <p>Tiina! Tiina, tule siia.</p>
                     </sp>
                     <sp who="#ohk">
@@ -2867,14 +2868,14 @@
                         <p>Oi, oi, perenaene, ärge hüüdke, mina pelgan. Mina lähen ära. <stage>(Kahmab kübara ja läwest wälja.)</stage></p>
                     </sp>
                     <sp who="#perenaene">
-                        <speaker>Perenaene.</speaker>
-                        <stage>(järel waadates)</stage>
+                        <speaker>Perenaene</speaker>
+                        <stage>(järel waadates).</stage>
                         <p>Wot, kus mul wana narr!</p>
                     </sp>
                     <pb n="77"/>
                     <sp who="#tiina">
-                        <speaker>Tiina.</speaker>
-                        <stage>(tuleb)</stage>
+                        <speaker>Tiina</speaker>
+                        <stage>(tuleb).</stage>
                         <p>Mis oli, ema?</p>
                     </sp>
                     <sp who="#perenaene">
@@ -2931,8 +2932,8 @@
                         <p>Kahju küll, armas ligimene.</p>
                     </sp>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(pahaselt)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(pahaselt).</stage>
                         <p>See on rumal lori. Kaup on notariuse juures tunnistusmeeste wahel tehtud, see waatas paberid ja kontrahid läbi. Kõik oliwad õiged. Talu on kontrahi järele teie poja, Juhan Juhani poja Joowika oma. Kontraht on juba kohtu juures kinnitada.</p>
                     </sp>
                     <sp who="#wana-joowikas">
@@ -2969,8 +2970,8 @@
                         <p>Tõe jutt, tõe jutt, armas ligimene.</p>
                     </sp>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(hirmsas wihas mõlematele rusikaga nina all)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(hirmsas wihas mõlematele rusikaga nina all).</stage>
                         <p>Karmantsikud! Makske mu nelituhat rubla tagasi! <stage>(Wingudes)</stage> Mu raha makske tagasi, ma ei tahagi teie talu!</p>
                     </sp>
                     <sp who="#noor-joowikas">
@@ -2983,15 +2984,15 @@
                         <p>Kahetuhandaline obligatsion on teil ju alles. See raha ei lähe kaduma.</p>
                     </sp>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(karjudes)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(karjudes).</stage>
                         <p>Wälja, wälja läwest, ehk ma ei jõua ennast enam walitseda. Wälja!</p>
                     </sp>
                     <stage>(Joowikud taganewad hirmuga läwest wälja.)</stage>
                     <pb n="80"/>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(langeb istme pääle)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(langeb istme pääle).</stage>
                         <p>Oeh! <stage>(Käsipõsakile.)</stage> Püha kuningas, tule sa ise appi, kui see nüüd tõsi on! Oeh! Tõistre-Toomas manitses küll, waata ette, waata ette, aga ise ta aitas mulle talu kaela kaubelda. Kes teab, kas oli notarius, kuhu nad mu wiisiwad, wõi oli mõni kabajantsik wõi kelm koguni, kus nad moodi tegiwad ja mu raha käest ära wõtsiwad. Toomas ligi ei olnnd. Oeh! <stage>(Jääb käsipõsakile raskesti mõttesse.)</stage></p>
                     </sp>
                 </div>
@@ -3000,8 +3001,8 @@
                     <stage>Õhk, Kiilaspää, naesega.</stage>
                     <stage>Uks läheb lahti, Kiilaspää naesega tulewad sisse ja jääwad alandlikult Õhu taha seisma; sosistawad isekeskis.</stage>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(tõstab pää üles, karmilt)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(tõstab pää üles, karmilt).</stage>
                         <p>Noh, mis on?</p>
                     </sp>
                     <sp who="#kiilaspaeae">
@@ -3010,13 +3011,13 @@
                         <p>Tulime, wend, sinu palwele. Häbi on küll, aga ei wõi parata! Kõik muu nõuu on ära katsutud.</p>
                     </sp>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(karmilt)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(karmilt).</stage>
                         <p>Noh, mis on? Minu kakstuhat rubla mokas?</p>
                     </sp>
                     <sp who="#kiilaspaeae">
-                        <speaker>Kiilaspää.</speaker>
-                        <stage>(kahte kätt üles tõstes)</stage>
+                        <speaker>Kiilaspää</speaker>
+                        <stage>(kahte kätt üles tõstes).</stage>
                         <p>Halasta! Päästa mind, armas naesewend!</p>
                     </sp>
                     <sp who="#ohk">
@@ -3033,18 +3034,18 @@
                         <p>Ma olen ise weel suuremate kelmide kätte langenud! Aga mis sest rääkida!</p>
                     </sp>
                     <sp who="#kiilaspaeae">
-                        <speaker>Kiilaspää.</speaker>
-                        <stage>(ägades)</stage>
+                        <speaker>Kiilaspää</speaker>
+                        <stage>(ägades).</stage>
                         <p>Oh Jumal! Ta ei anna! Oh mu waene naene ja õnnetud lapsed! <stage>(Langeb jõuetult istmele. Naene nutab.)</stage></p>
                     </sp>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(wihaselt)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(wihaselt).</stage>
                         <p>Seda sa ei tohi ütelda, et ma ei anna! <stage>(Kisub punga põuest ja wiskab rahapaki Kiilaspää ette laua pääle.)</stage> Mu wiimased tuhat rubla, <stage>(näitab)</stage> pung on tühi! Wõta ja minge. Näete, mul ei ole enam midagi, kui need paarsada rubla weel. Nendega ma sõidan linna, ostan enesele masina ja hakkan jälle rättsepaks. Jumal aidaku meid kõiki.</p>
                     </sp>
                     <sp who="#kiilaspaeae">
-                        <speaker>Kiilaspää.</speaker>
-                        <stage>(üles tõustes)</stage>
+                        <speaker>Kiilaspää</speaker>
+                        <stage>(üles tõustes).</stage>
                         <p>Lähme, naene. Tulgu mis tuleb, sel wiisil andes meie tema raha ka ei taha, kui ka sellega meie kui tema warandus oksjoni haamri alt päästetud wõiks saada! Lähme! <stage>(Hakkawad liikuma.)</stage></p>
                     </sp>
                     <sp who="#ohk">
@@ -3062,8 +3063,8 @@
                     </sp>
                     <pb n="82"/>
                     <sp who="#ohk">
-                        <speaker>Õhk.</speaker>
-                        <stage>(kurwalt)</stage>
+                        <speaker>Õhk</speaker>
+                        <stage>(kurwalt).</stage>
                         <p>Pandke sinna laua pääle. Ja kas ma tohin teid midagi paluda?</p>
                     </sp>
                     <sp who="#warik">

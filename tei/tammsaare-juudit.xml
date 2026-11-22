@@ -133,6 +133,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2026-09-02">Update formatting</change>
+                <change when="2026-11-22">Correct punctuation location</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -255,8 +256,8 @@
                         <p>Kaevud on kinni; nagu ennegi hoiavad neid Olovernese sulased. Ümberkaudsed mäed on täis sõjamehi; sääl istuvad ikka veel Eesavi ja Ammoni lapsed: nad istu<pb n="8"/>vad nagu näljased rongad, kes ootavad kõngeja looma viimast hingetõmbust. Nälgiva ja närbiva Petuulia järel käivad nende himud.</p>
                     </sp>
                     <sp who="#juudit">
-                        <speaker>JUUDIT.</speaker>
-                        <stage>(endamisi)</stage>
+                        <speaker>JUUDIT</speaker>
+                        <stage>(endamisi).</stage>
                         <p>Kõik nagu ikka, nagu eile ja tunaeile, nagu sel ja viimasel nädalal... Mis on linnas näha ja kuulda, mis teeb rahvas?</p>
                     </sp>
                     <sp who="#susanna">
@@ -315,8 +316,8 @@
                     <stage>(Enne kui Juudit jõuab eestoast lahkuda, astub sisse lapsega naine.)</stage>
                     <pb n="10"/>
                     <sp who="#naine-lapsega">
-                        <speaker>NAINE.</speaker>
-                        <stage>(laps süles)</stage>
+                        <speaker>NAINE</speaker>
+                        <stage>(laps süles).</stage>
                         <p>Jumala rahu olgu...</p>
                     </sp>
                     <sp who="#juudit">
@@ -575,8 +576,8 @@
                         <p>Mitte täna ja homme võib juba päästmine tulla. Halasta, Juudit! Võta poiss oma kotta, siit ei leita teda nii pea, siin ei teata tema hinge varitseda. Tule, pojuke, langeme Juuditi ette maha, ehk võtab ta meid siis kuulda, ehk nõrkub ta süda <stage>(põlvili).</stage></p>
                     </sp>
                     <sp who="#juudit">
-                        <speaker>JUUDIT.</speaker>
-                        <stage>(Siimeoni juurde, härdalt)</stage>
+                        <speaker>JUUDIT</speaker>
+                        <stage>(Siimeoni juurde, härdalt).</stage>
                         <p>Tõuse üles, Siimeon, minu ees ei pea sa mitte põlvitama, minu ees mitte <stage>(tõstab vanamehe ja poisi jalule).</stage></p>
                     </sp>
                     <sp who="#siimeon">
@@ -671,8 +672,8 @@
                         <p>Lapsed karjuvad süüa ja juua, emand.</p>
                     </sp>
                     <sp who="#juudit">
-                        <speaker>JUUDIT.</speaker>
-                        <stage>(ümmardajale)</stage>
+                        <speaker>JUUDIT</speaker>
+                        <stage>(ümmardajale).</stage>
                         <p>Tee, mis ma käskinud. Mine, Siimeon, söö ka sina, sööge ja jooge mõlemad.</p>
                     </sp>
                     <sp who="#siimeon">
@@ -1308,16 +1309,16 @@
                         <p>Mine; aeg on kasin, ma pean kõik valmis panema.</p>
                     </sp>
                     <sp who="#osias">
-                        <speaker>OSIAS.</speaker>
-                        <stage>(ära)</stage>
+                        <speaker>OSIAS</speaker>
+                        <stage>(ära).</stage>
                     </sp>
                     <sp who="#juudit">
                         <speaker>JUUDIT.</speaker>
                         <p>Susanna!... Susanna!</p>
                     </sp>
                     <sp who="#susanna">
-                        <speaker>SUSANNA.</speaker>
-                        <stage>(tuleb siseruumist)</stage>
+                        <speaker>SUSANNA</speaker>
+                        <stage>(tuleb siseruumist).</stage>
                         <p>Mis soovib emand?</p>
                     </sp>
                     <sp who="#juudit">
@@ -1349,8 +1350,8 @@
                         <p>Tee, nagu ma käskinud, meil on toimetamist, mis ei salli võõraid.</p>
                     </sp>
                     <sp who="#susanna">
-                        <speaker>SUSANNA.</speaker>
-                        <stage>(suleb välisukse)</stage>
+                        <speaker>SUSANNA</speaker>
+                        <stage>(suleb välisukse).</stage>
                     </sp>
                     <sp who="#juudit">
                         <speaker>JUUDIT.</speaker>
@@ -1532,8 +1533,8 @@
                         <p>Ma lähen, emand. <stage>(Ära.)</stage></p>
                     </sp>
                     <sp who="#juudit">
-                        <speaker>JUUDIT.</speaker>
-                        <stage>(langeb põlvili ja palvetab)</stage>
+                        <speaker>JUUDIT</speaker>
+                        <stage>(langeb põlvili ja palvetab).</stage>
                         <p>Vägede Jehoova, kes sa mind kutsusid, tee ilusaks mu silmade vaade ja himuäratavaks mu liikmete nõtkus! Anna mu häälele sulavus ja juhi mu sõrmi kandlekeelil, et mängiksin meeletuks Assuri leeri ja süütaksin armuihke Olovernese silma. Anna mulle tarkust ja kavalust, et mõistaksin õieti su salanõu ning et ma jällegi ei viiks oma neitsilikke kenadusi ilma naeruks. Kuule, Jehoova, oma ümmardaja häält ja ära jäta teda mitte maha, sest tema on kõvasti nõuks võtnud ei midagi peljata, ei millegi ees kohkuda. Iisrael leinab, Iisrael nutab, Iisraelis oa vaikinud vile ja pill, Iisraeli ei rõõmusta enam kinniri ega siltseli mängud, aga mina, Iisraeli tütar, tahan alla minnn<pb n="36"/> kannelt helistama. Tee, Jehoova, et oma kandlemängust rõõmu tunneksin, sest minu rõõm peab olema ka Iisraeli rõõm, minu õnn tema õnn. Kuule mind, taevane isa, kui ma põrmus sinu poole hüüan!</p>
                     </sp>
                     <stage>(Eesriie juba enne viimaseid sõnu.)</stage>
@@ -1594,13 +1595,13 @@
                         <p>Akior on iseenda eest kõnelnud, meie usume ainult Olovernese jõudu.</p>
                     </sp>
                     <sp who="#olovernes">
-                        <speaker>OLOVERNES.</speaker>
-                        <stage>(muigavalt)</stage>
+                        <speaker>OLOVERNES</speaker>
+                        <stage>(muigavalt).</stage>
                         <p>Ja sina, Pagoas, mis ütled sina? Kas peame tõesti järele kuulama, kuidas elab see mägirahvas oma jumalaga või peame ehk hukutajad ja ässitajad välja saatma, kes ajaksid kulla ja ehete abil selle rahva ta jumalaga tülli, et siis oma võimusse võtta kurja jumalat kui ka tema kangekaelist rahvast?</p>
                     </sp>
                     <sp who="#pagoas">
-                        <speaker>PAGOAS.</speaker>
-                        <stage>(naeratades)</stage>
+                        <speaker>PAGOAS</speaker>
+                        <stage>(naeratades).</stage>
                         <p>Olovernesel on ainult käskida; siis sünnib selle rahva ja jumalaga niisama, nagu on seni sündinud kõigi rahvaste ja jumalatega: nad on sinu jalge ees.</p>
                     </sp>
                     <sp who="#olovernes">
@@ -1612,8 +1613,8 @@
                         <p>Olovernes olgu mulle armuline, et olen üksi, ja andku mulle andeks, et julgen kinnitada kindlas usus: selle rahva jumalat ei too keegi sinu jalge ette. <stage>(Liikumine.)</stage></p>
                     </sp>
                     <sp who="#olovernes">
-                        <speaker>OLOVERNES.</speaker>
-                        <stage>(huvitatult)</stage>
+                        <speaker>OLOVERNES</speaker>
+                        <stage>(huvitatult).</stage>
                         <p>Miks siis mitte, Akior?</p>
                     </sp>
                     <sp who="#akior">
@@ -1681,8 +1682,8 @@
                     </sp>
                     <stage>(Vang tuleb sõjameeste saatel, käed seljale seotud, jääb Olovernese ette julgelt seisma. Olovernes tõuseb istmelt ja astub otse tema ette.)</stage>
                     <sp who="#olovernes">
-                        <speaker>OLOVERNES.</speaker>
-                        <stage>(natukese vaatlemise järele)</stage>
+                        <speaker>OLOVERNES</speaker>
+                        <stage>(natukese vaatlemise järele).</stage>
                         <p>Mis on su nimi?</p>
                     </sp>
                     <sp who="#nimetu">
@@ -1702,8 +1703,8 @@
                         <p>Enam mitte. Nüüd oled veel ainult mu vang. Miks tahtsid mind tappa?</p>
                     </sp>
                     <sp who="#nimetu">
-                        <speaker>NIMETU.</speaker>
-                        <stage>(vaikib)</stage>
+                        <speaker>NIMETU</speaker>
+                        <stage>(vaikib).</stage>
                     </sp>
                     <sp who="#olovernes">
                         <speaker>OLOVERNES.</speaker>
@@ -1719,8 +1720,8 @@
                         <p>Näen sind esimest korda. Või tundsid sina mind juba varem?</p>
                     </sp>
                     <sp who="#nimetu">
-                        <speaker>NIMETU.</speaker>
-                        <stage>(vaikib endiselt)</stage>
+                        <speaker>NIMETU</speaker>
+                        <stage>(vaikib endiselt).</stage>
                     </sp>
                     <sp who="#olovernes">
                         <speaker>OLOVERNES.</speaker>
@@ -1789,8 +1790,8 @@
                         <p>Teeb siis minu veri su õnnelikuks?</p>
                     </sp>
                     <sp who="#nimetu">
-                        <speaker>NIMETU.</speaker>
-                        <stage>(viivitades)</stage>
+                        <speaker>NIMETU</speaker>
+                        <stage>(viivitades).</stage>
                         <p>Ei tea.</p>
                     </sp>
                     <sp who="#olovernes">
@@ -1871,8 +1872,8 @@
                         <p>Tahad sa ikka veel mind tappa?</p>
                     </sp>
                     <sp who="#nimetu">
-                        <speaker>NIMETU.</speaker>
-                        <stage>(lööb silmad maha, vaikib)</stage>
+                        <speaker>NIMETU</speaker>
+                        <stage>(lööb silmad maha, vaikib).</stage>
                     </sp>
                     <pb n="43"/>
                     <sp who="#olovernes">
@@ -1896,36 +1897,36 @@
                         <p>Surra tahtmine pole kohtumõistmine. Tahad sa ikka veel mind tappa?</p>
                     </sp>
                     <sp who="#nimetu">
-                        <speaker>NIMETU.</speaker>
-                        <stage>(vaikib endiselt)</stage>
+                        <speaker>NIMETU</speaker>
+                        <stage>(vaikib endiselt).</stage>
                     </sp>
                     <sp who="#olovernes">
                         <speaker>OLOVERNES.</speaker>
                         <p>Võta oma pistoda maast, ta on alles mürgitatud; üksainus piste, üksainus veristav puutumine ja ma olen kadunud.</p>
                     </sp>
                     <sp who="#nimetu">
-                        <speaker>NIMETU.</speaker>
-                        <stage>(vahib aineti oma ette ja langeb nagu kokku)</stage>
+                        <speaker>NIMETU</speaker>
+                        <stage>(vahib aineti oma ette ja langeb nagu kokku).</stage>
                     </sp>
                     <sp who="#olovernes">
-                        <speaker>OLOVERNES.</speaker>
-                        <stage>(Nimetule lähemale astudes)</stage>
+                        <speaker>OLOVERNES</speaker>
+                        <stage>(Nimetule lähemale astudes).</stage>
                         <p>Vaata, ma seisan su ligi, heidan sõjariistad endast <stage>(teeb seda),</stage> olen kaitseta, nüüd võid mu tappa. Noormees, tee seda, kui sa muidu ei või elada; vala oma sõbra veri, kui sa muidu õnne ei leia. <stage>(Nimetu langeb veel enam kössi.)</stage> Ja avalikult käsin kõikide kuuldes: sinu veretööd ei pea sulle mitte kätte makstama. Minu sulased peavad sinu su koduväravani saatma ja pasunaid peab puhutama ning sõrmilist mängitama igaveseks kiituseks, sest sa oled selle tapnud, kelle nimi on kõikide suus. Täida, mida sa kaks korda püüdnud, ja sind ootab kuulsus, mis kestab ehk su eluotsani. <stage>(Nimetu jääb liikumatuks)</stage></p>
                     </sp>
                     <sp who="#olovernes">
-                        <speaker>OLOVERNES.</speaker>
-                        <stage>(kätt Nimetu õlale pannes)</stage>
+                        <speaker>OLOVERNES</speaker>
+                        <stage>(kätt Nimetu õlale pannes).</stage>
                         <p>Miks sa vaikid? Miks saad sa oimetuks? Sa ei ole enam vang, vaid vaba, nagu kõik teised, kes mu telgis; sa oled vabam kui kõik teised, vabam kui mina ise. Mina olen käsualune ja nemad kõik<pb n="44"/> on käsualused, sina aga võid teha, mis tahad, võid minna, kuhu süda kutsub. Kogu maailm on sinu päralt, kogu suur maailm, kas kuuled! <stage>(Nimetu langeb Olovernese ette põlvili, haarab tema jalge ümbert kinni ja nuuksub.)</stage></p>
                     </sp>
                     <stage>(Vaikus.)</stage>
                     <sp who="#olovernes">
-                        <speaker>OLOVERNES.</speaker>
-                        <stage>(kätt Nimetu pähe pannes)</stage>
+                        <speaker>OLOVERNES</speaker>
+                        <stage>(kätt Nimetu pähe pannes).</stage>
                         <p>Õnnetu noormees! Vastad sa nõnda mu sõnadele? Igatahes on su vastus selge ja ma ei eksinud, kui su vabaks kuulutasin... Aga tõuse üles, ma ei aja sind kuhugi; sa võid ka siia jääda, kui soovid. Veel enam: ma palun sind — jää siia, jää minu juurde.</p>
                     </sp>
                     <sp who="#nimetu">
-                        <speaker>NIMETU.</speaker>
-                        <stage>(tõustes)</stage>
+                        <speaker>NIMETU</speaker>
+                        <stage>(tõustes).</stage>
                         <p>Kuhu peaksingi minema.</p>
                     </sp>
                     <sp who="#olovernes">
@@ -2000,8 +2001,8 @@
                         <stage>(annab sõduritele märku ja need saadavad Juuditi ettepoole.)</stage>
                     </sp>
                     <sp who="#juudit">
-                        <speaker>JUUDIT.</speaker>
-                        <stage>(kummardab Olovernese ees maani)</stage>
+                        <speaker>JUUDIT</speaker>
+                        <stage>(kummardab Olovernese ees maani).</stage>
                     </sp>
                     <sp who="#olovernes">
                         <speaker>OLOVERNES</speaker>
@@ -3019,24 +3020,24 @@
                     </sp>
                     <pb n="62"/>
                     <sp who="#juudit">
-                        <speaker>JUUDIT.</speaker>
-                        <stage>(lööb silmad maha, hingeldab, vaikib)</stage>
+                        <speaker>JUUDIT</speaker>
+                        <stage>(lööb silmad maha, hingeldab, vaikib).</stage>
                     </sp>
                     <sp who="#olovernes">
                         <speaker>OLOVERNES.</speaker>
                         <p>Sa vaikid, ei vasta, ei taha, et tulen... Tulen siiski, tulen nagu lihtne surelik. <stage>(Istub lambanahale.)</stage></p>
                     </sp>
                     <sp who="#juudit">
-                        <speaker>JUUDIT.</speaker>
-                        <stage>(vaikib endiselt)</stage>
+                        <speaker>JUUDIT</speaker>
+                        <stage>(vaikib endiselt).</stage>
                     </sp>
                     <sp who="#olovernes">
                         <speaker>OLOVERNES.</speaker>
                         <p>Kuidas pean su vaikimist mõistma?</p>
                     </sp>
                     <sp who="#juudit">
-                        <speaker>JUUDIT.</speaker>
-                        <stage>(vaikib ikka)</stage>
+                        <speaker>JUUDIT</speaker>
+                        <stage>(vaikib ikka).</stage>
                     </sp>
                     <sp who="#olovernes">
                         <speaker>OLOVERNES.</speaker>
@@ -3252,8 +3253,8 @@
                         <p>Mina pean sind kuningaks, Olovernes.</p>
                     </sp>
                     <sp who="#olovernes">
-                        <speaker>OLOVERNES.</speaker>
-                        <stage>(äkki istukile tõustes)</stage>
+                        <speaker>OLOVERNES</speaker>
+                        <stage>(äkki istukile tõustes).</stage>
                         <p>Kuningaks? Mind kuningaks? Ma olen Nebukadnetsari sulane.</p>
                     </sp>
                     <pb n="66"/>
@@ -3278,8 +3279,8 @@
                         <p>Tahaksin, et sa kuningas oleksid, me kõik tahame seda. Senikui tuled sulasena, jäävad mägedel linnade väravad sinu ees lukku. Tuleksid sa aga kui kuningas, siis võetaks sind kiidulauluga vastu. Vile ja pill hakkaksid Iisraelis jällegi hüüdma, noormehed saaksid ihurammu tagasi ja noored neiud läheksid näost jumekaks.</p>
                     </sp>
                     <sp who="#olovernes">
-                        <speaker>OLOVERNES.</speaker>
-                        <stage>(mõttes)</stage>
+                        <speaker>OLOVERNES</speaker>
+                        <stage>(mõttes).</stage>
                         <p>Tuleksin ma kuningana... Mina, Olovernes, kuningana. Aga Nebukadnetsar?</p>
                     </sp>
                     <sp who="#juudit">
@@ -3287,8 +3288,8 @@
                         <p>Olovernes on paljude rahvaste troonid ümber tõuganud.</p>
                     </sp>
                     <sp who="#olovernes">
-                        <speaker>OLOVERNES.</speaker>
-                        <stage>(püsti karates)</stage>
+                        <speaker>OLOVERNES</speaker>
+                        <stage>(püsti karates).</stage>
                         <p>Naine, sa räägid asjust, mis meestele kohased; tänini on mulle sellest ainult mehed rääkinud, sina oled esimene naine, kes selle asja suhu võtab.</p>
                     </sp>
                     <sp who="#juudit">
@@ -3493,8 +3494,8 @@
                     </sp>
                     <stage>(Vaikus.)</stage>
                     <sp who="#susanna">
-                        <speaker>SUSANNA.</speaker>
-                        <stage>(tuleb kõrvaltelgist, seisatab ukse all)</stage>
+                        <speaker>SUSANNA</speaker>
+                        <stage>(tuleb kõrvaltelgist, seisatab ukse all).</stage>
                         <p>Juudit! <stage>(Valjemini)</stage> Emand! <stage>(Läheb põlvitab tema juurde).</stage> Sa ei leidnud armu tema silma ees?</p>
                     </sp>
                     <sp who="#juudit">
@@ -3523,8 +3524,8 @@
                         <p>Emand! Juudit, mu armas laps!</p>
                     </sp>
                     <sp who="#juudit">
-                        <speaker>JUUDIT.</speaker>
-                        <stage>(kord-korralt ägedamalt, härdamalt)</stage>
+                        <speaker>JUUDIT</speaker>
+                        <stage>(kord-korralt ägedamalt, härdamalt).</stage>
                         <p>Pean ehk minema ja Olovernese sõduritele laulma, Jehoova? On see su ettekuulutus, on see su tõotus? Pean ma viima oma neitsilikud liikmed ilgeteks tegudeks ja pean ma sealjuures<pb n="72"/> kiitma sinu nime, Jehoova? Anna mulle märki, juhata mind! Homme läheb Olovernes mägilinnade ja su rahva vastu, homme langevad Iisraeli müürid, homme tapetakse ta pojad, naerdakse ta tütred linnatänavail ja ristteil. On see su tahtmine, Jehoova? Kuule mind, Issand, kui sa oled elav jumal ja kui annad abi elavatele! Hingeahastuses hüüan sinu poole; ära jäta mind maha, kinnita mind, läkita trööstija! <stage>(Nuuksub kummuli.)</stage></p>
                     </sp>
                     <sp who="#susanna">
@@ -3568,8 +3569,8 @@
                         <p>Emand, mis on? Mis sa nägid?</p>
                     </sp>
                     <sp who="#juudit">
-                        <speaker>JUUDIT.</speaker>
-                        <stage>(pöördub; lootusetult)</stage>
+                        <speaker>JUUDIT</speaker>
+                        <stage>(pöördub; lootusetult).</stage>
                         <p>Ta magab, Olovernes magab. Ta jõi liig palju magusat viina ja nüüd magab ta. Susanna, kas kuuled, kas mõistad: Olovernes magab. Aga homme, siis läheb ta Iisraeli vastu, läheb võib olla Jeruusalemmast saadik, teotab pühakoja, rüvetab tema riistad... Issand, päästa oma rahvas, anna talle abi! Tee raskeks Olovernese uni, et ta ei ärkaks ei sel ega tuleval päeval. <stage>(Uuesti riiete vahelt piiludes)</stage> Ikka magab ta, Susanna, ta uinub nagu lapsuke rahulikult... Mõõk ripub tal peatsis, terav, haljas mõõk.</p>
                     </sp>
                     <stage>(Nimetu pea tuleb oma telgi uksel nähtavale.)</stage>
@@ -3588,8 +3589,8 @@
                         <p>Sa oled üksi.</p>
                     </sp>
                     <sp who="#juudit">
-                        <speaker>JUUDIT.</speaker>
-                        <stage>(annab ümmardajale märku ja see kaob oma telki)</stage>
+                        <speaker>JUUDIT</speaker>
+                        <stage>(annab ümmardajale märku ja see kaob oma telki).</stage>
                         <p>St! Olovernes magab.</p>
                     </sp>
                     <sp who="#nimetu">
@@ -3879,8 +3880,8 @@
                         <p>Mine vaata, mine ruttu, lükka pisut riie kõrvale, vaata, mis on Nimetuga, kardan, et temaga on midagi, midagi hirmsat kardan ma. Ära hüüa teda, vaata ainult.</p>
                     </sp>
                     <sp who="#susanna">
-                        <speaker>SUSANNA.</speaker>
-                        <stage>(lükkab ukserõiva kõrvale ja põrkab siis tagasi, põgeneb Juuditi juurde)</stage>
+                        <speaker>SUSANNA</speaker>
+                        <stage>(lükkab ukserõiva kõrvale ja põrkab siis tagasi, põgeneb Juuditi juurde).</stage>
                         <p>Emand! Halastaja Issand!</p>
                     </sp>
                     <sp who="#juudit">
@@ -3900,8 +3901,8 @@
                         <p>Ta on vist juba vaikne, päris vaikne näis ta juba olevat.</p>
                     </sp>
                     <sp who="#juudit">
-                        <speaker>JUUDIT.</speaker>
-                        <stage>(lükkab ukseriided kõrvale, laseb valguse sisse paista, Nimetule peale)</stage>
+                        <speaker>JUUDIT</speaker>
+                        <stage>(lükkab ukseriided kõrvale, laseb valguse sisse paista, Nimetule peale).</stage>
                         <p>Õnnetu noormees! Tal oli nii ilusad juuksed. <stage>(Laseb ukseriide langeda, mõttes.)</stage></p>
                     </sp>
                     <sp who="#susanna">
@@ -3910,8 +3911,8 @@
                     </sp>
                     <pb n="79"/>
                     <sp who="#juudit">
-                        <speaker>JUUDIT.</speaker>
-                        <stage>(mõttes)</stage>
+                        <speaker>JUUDIT</speaker>
+                        <stage>(mõttes).</stage>
                     </sp>
                     <sp who="#susanna">
                         <speaker>SUSANNA.</speaker>
@@ -4042,12 +4043,12 @@
                         <p>Mine juba!</p>
                     </sp>
                     <sp who="#susanna">
-                        <speaker>SUSANNA.</speaker>
-                        <stage>(kaob)</stage>
+                        <speaker>SUSANNA</speaker>
+                        <stage>(kaob).</stage>
                     </sp>
                     <sp who="#juudit">
-                        <speaker>JUUDIT.</speaker>
-                        <stage>(vaatab ukse vahelt, tõmbub nagu otsustavalt tagasi, laseb eesriide langeda, võtab kingad jalast ja astub ettevaatlikult Olovernese telki)</stage>
+                        <speaker>JUUDIT</speaker>
+                        <stage>(vaatab ukse vahelt, tõmbub nagu otsustavalt tagasi, laseb eesriide langeda, võtab kingad jalast ja astub ettevaatlikult Olovernese telki).</stage>
                     </sp>
                     <stage>(Näitelava seisab natukene aega tühi, siis tuleb ümmardaja oma pambuga, ja kui ta Juuditit eest ei leia, ruttab ta Olovernese telgi ukse poole. Aga enne kui ta sinna jõuab, astub sealt Juudit tõsisena ja kahvatuna vastu, käes mingisugune riiete sisse mässitud asi).</stage>
                     <pb n="83"/>
@@ -4069,8 +4070,8 @@
                         <p>Emand, sul pole kingi jalas, su kingad on Olovernese ukse ees.</p>
                     </sp>
                     <sp who="#juudit">
-                        <speaker>JUUDIT.</speaker>
-                        <stage>(jahmatab, pöörab ümber, tahab minna kingi võtma, aga nõrkeb ära)</stage>
+                        <speaker>JUUDIT</speaker>
+                        <stage>(jahmatab, pöörab ümber, tahab minna kingi võtma, aga nõrkeb ära).</stage>
                     </sp>
                     <sp who="#susanna">
                         <speaker>SUSANNA.</speaker>
@@ -4305,8 +4306,8 @@
                     </sp>
                     <pb n="87"/>
                     <sp who="#vaht-3">
-                        <speaker>III VAHT.</speaker>
-                        <stage>(võtab pea ja kaob temaga pahemale poole)</stage>
+                        <speaker>III VAHT</speaker>
+                        <stage>(võtab pea ja kaob temaga pahemale poole).</stage>
                     </sp>
                     <sp who="#susanna">
                         <speaker>SUSANNA.</speaker>
@@ -4334,8 +4335,8 @@
                         <p>Mulle öeldi, et sa tood häid sõnumeid.</p>
                     </sp>
                     <sp who="#juudit">
-                        <speaker>JUUDIT.</speaker>
-                        <stage>(näidates käega sinnapoole, kuhu vaht kadus Olovernese peaga)</stage>
+                        <speaker>JUUDIT</speaker>
+                        <stage>(näidates käega sinnapoole, kuhu vaht kadus Olovernese peaga).</stage>
                         <p>Vaata, seal on mu sõnum. Vaadake kõik, kes te armastate häid sõnumeid. <stage>(Kõik vaatavad.)</stage></p>
                     </sp>
                     <sp who="#osias">
@@ -4894,8 +4895,8 @@
                         <p>Inimesed! Osias on käe oma elu külge pistnud! <stage>(Jahmatus, hääled, segadus, liikumine, rahvas lööb Juuditist eemale, pöördub Osiase poole; tõtatakse aitama. Siimeon neile:)</stage> Andke talle rahu, ta on oma südant hästi tabanud, ta teadis hästi oma südame paiga, Jehoova olgu talle armuline! <stage>(Põlvitab ja kõik rahvas temaga, ainult Juudit jääb püsti ja astub kui kuutõbine põlvitajate vahelt läbi Siimeoni kõrvale Osiase korjuse juurde, mida ta jääb aineti vahtima. Ta ei pane sedagi tähele, et Siimeon üles tõuseb, tema käed köidikuist vabastab ja ütleb:)</stage> Mina võtan need käed lahti, ja kes nad uuesti seob, see sidugu ka minu käed, kuulge seda, Petuulia mehed ja naised! <stage>(Rahvas virgub nagu uimastusest ja tõuseb üles).</stage></p>
                     </sp>
                     <sp who="#juudit">
-                        <speaker>JUUDIT.</speaker>
-                        <stage>(ikka veel käsi hoides, nagu oleksid nad alles seotud)</stage>
+                        <speaker>JUUDIT</speaker>
+                        <stage>(ikka veel käsi hoides, nagu oleksid nad alles seotud).</stage>
                         <p>Ta nägu on imelikult rahulik, ta nägu on peaaegu nagu uinuva Olovernese nägu; ainult Olovernesel oli nii rahulik nägu.</p>
                     </sp>
                     <sp who="#siimeon">
@@ -4903,8 +4904,8 @@
                         <p>Ta nägu on kui selle nägu, kes sureb teiste eest. Sinu eest suri ta, Juudit, ta suri, et sina elaksid.</p>
                     </sp>
                     <sp who="#juudit">
-                        <speaker>JUUDIT.</speaker>
-                        <stage>(ärgates, teeb liigutuse ja leiab, et käed vabad)</stage>
+                        <speaker>JUUDIT</speaker>
+                        <stage>(ärgates, teeb liigutuse ja leiab, et käed vabad).</stage>
                         <p>Kes vabastas mu käed?</p>
                     </sp>
                     <sp who="#siimeon">
@@ -4920,8 +4921,8 @@
                         <p>Issand on talle rasked katsumised saatnud, Issand on teda väga armastanud.</p>
                     </sp>
                     <sp who="#juudit">
-                        <speaker>JUUDIT.</speaker>
-                        <stage>(äkki põlvili)</stage>
+                        <speaker>JUUDIT</speaker>
+                        <stage>(äkki põlvili).</stage>
                         <p>Mind armastanud? Kes? Issand? Armastab Issand mehetapjaid naisi? Haa! Teie ei taha minu peale käsuseadmist mööda mõista, te poete Jehoova selja taha varju, sest te ei julge Iisraeli päästjat kividega surnuks visata. Aga igaüks peab oma jumalagi kividega surnuks viskama, igaüks, nõnda ütles Olovernes. <stage>(Sirutab käed Olovernese pea poole)</stage> Olovernes, Olovernes, miks ei tapnud sa mind; sina üksi oleksid võinud mu tappa! <stage>(Kummuli. Vaikus. Vaheaeg.)</stage></p>
                     </sp>
                     <sp who="#rabi">
@@ -4971,8 +4972,8 @@
                         <p>Mu tütreke, mu lapsuke! Kord võisin sind põlvile võtta ja kiigutamisega vaigistada su meelehäda, aga nüüd ei jaksa enam: olen vanaks jäänud, sina oled suureks kasvanud... mu põlved vabisevad ja mu jalad ei kuula enam hästi sõna... Nuta, Juudit, ehk annab valu nõnda järele.</p>
                     </sp>
                     <sp who="#juudit">
-                        <speaker>JUUDIT.</speaker>
-                        <stage>(nutab Siimeoni najal)</stage>
+                        <speaker>JUUDIT</speaker>
+                        <stage>(nutab Siimeoni najal).</stage>
                     </sp>
                     <sp who="#rabi">
                         <speaker>RABI.</speaker>

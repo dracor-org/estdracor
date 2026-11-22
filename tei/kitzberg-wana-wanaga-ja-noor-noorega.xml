@@ -94,6 +94,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2026-09-27">Convert txt to TEI</change>
+                <change when="2026-11-22">Correct punctuation location</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -265,8 +266,8 @@
                     <head>Neljas etendus.</head>
                     <stage>Weski-perenaine, Anna, Kaarel ja Saare-onu.</stage>
                     <sp who="#perenaine">
-                        <speaker>Perenaine:</speaker>
-                        <stage>(Saare-onule)</stage>
+                        <speaker>Perenaine</speaker>
+                        <stage>(Saare-onule):</stage>
                         <p>No see on hea, et te siia olete jõudnud, kõige öö meie ootasime. Anna oli päris õnnetu, et Teid ei tulnud. On ju ometi täna tema sünnipäew.</p>
                     </sp>
                     <pb n="10"/>
@@ -275,8 +276,8 @@
                         <p>Teie ehk kuulsite juba Kaarlilt, missugune wiperus meile juhtus.</p>
                     </sp>
                     <sp who="#kaarel">
-                        <speaker>Kaarel:</speaker>
-                        <stage>(Annale)</stage>
+                        <speaker>Kaarel</speaker>
+                        <stage>(Annale):</stage>
                         <p>Anni, ma soowin sulle tuhatkordset õnne! Mulle näitab, nagu oleksid sa weel juurde kaswanud sest saadik, kui ma sind wiimati nägin ja ilusamaks oleb sa ka läinud, see on kindel.</p>
                     </sp>
                     <sp who="#anna">
@@ -293,8 +294,8 @@
                     </sp>
                     <pb n="11"/>
                     <sp who="#perenaine">
-                        <speaker>Perenaine:</speaker>
-                        <stage>(Kaarlile)</stage>
+                        <speaker>Perenaine</speaker>
+                        <stage>(Kaarlile):</stage>
                         <p>Kuida siis Teie pool lood on? Kõik hästi ja kodurahwas terwed? Wili põllu peal kaswab hästi? Kuulsin, Teie rukis seiswat tihedalt kui müür?</p>
                     </sp>
                     <sp who="#kaarel">
@@ -323,13 +324,13 @@
                         <p>Ja, ja, weski-perenaine, et teie tubli perenaine olete, see on juba tuttaw. Teie wastu ei saa keegi. Teie oleksite suure koha peale paras perenaine. Noh, me räägime selle üle weel pärast poole. Mul on midagi südame peal.</p>
                     </sp>
                     <sp who="#maret">
-                        <speaker>Maret:</speaker>
-                        <stage>(üle ukse)</stage>
+                        <speaker>Maret</speaker>
+                        <stage>(üle ukse):</stage>
                         <p>Perenaine, laud on kaetud!</p>
                     </sp>
                     <sp who="#anna">
-                        <speaker>Anna:</speaker>
-                        <stage>(Saare-onut ja Kaarlit kätt pidi wiies)</stage>
+                        <speaker>Anna</speaker>
+                        <stage>(Saare-onut ja Kaarlit kätt pidi wiies):</stage>
                         <p>Tulge, külalised, Teil wõiwad kõhud tühjad olla!</p>
                     </sp>
                     <sp who="#saare-onu">
@@ -340,8 +341,8 @@
                 <div type="scene">
                     <head>Wiies etendus.</head>
                     <sp who="#perenaine">
-                        <speaker>Weski-perenaine:</speaker>
-                        <stage>(üksi, äritatult)</stage>
+                        <speaker>Weski-perenaine</speaker>
+                        <stage>(üksi, äritatult):</stage>
                         <p>Mis ta selle ütelusega mõtleb, "mina oleksin suure koha peale paras perenaine?" Ja, miks mina ei peaksin suure koha peale passima? — Ta waatas sellejuures mulle nii iseäraliselt otsa. "Me räägime selle üle weel pärast poole" — ütles ta. — Ega ta ometi? Ei, seda ei oleks arwata — ei — niisugune noor mees. <stage>(Waatab ennast peeglis.)</stage> See on ju õige, ega mina nii wana weel ei olegi. Ma olen päris noor ja priske alles, ainukest halli juust weel ei ole ja päris punased paled. — Heldene aeg, sealt ta tuleb! Jesuke, kui ta tõesti! — Süda tuksub nii waljusti!</p>
                     </sp>
                     <pb n="13"/>
@@ -362,8 +363,8 @@
                         <p>Jumal hoidku! — Midagi halba ei ole, waid just ümberpöördult, õige hea asi, see on, kui Teie aga tahate.</p>
                     </sp>
                     <sp who="#perenaine">
-                        <speaker>Perenaine:</speaker>
-                        <stage>(õnnelikult, kõrwale)</stage>
+                        <speaker>Perenaine</speaker>
+                        <stage>(õnnelikult, kõrwale):</stage>
                         <p>Oh sa taewas! Ikka on nõnda, kuida ma arwasin, ta tahab mind kosida!</p>
                     </sp>
                     <sp who="#kaarel">
@@ -371,8 +372,8 @@
                         <p>Waadake, meie tunneme üksteist nüüd juba niikaua aastaid ja Saare-onu ja mina, meie oleme alati Teiega truud sõprust pidanud ja Teie olete ikka weel ilus naisterahwas, kõige paremates aastates. <stage>(Natuke häbelilult.)</stage> Ma tahtsin Teilt nüüd küsida, mis Teie küll ütleksite, kui üks tubli täieline mees, kellel oma ilus warandus ja kes igaühest lugu peetud on ja kes kellegi ees oma silmi ei pruugi maha lüüa, kes ei joo ega priiska, —<pb n="14"/> kui nüüd niisugune wäärt mees tuleks ja Teid paluks, temaga uueste püha abielu sisse astuda, ega Teie ometi "ei" ei ütle? <stage>(Otsaesist pühkides, kõrwale.)</stage> See maksis aga higi, aga see oli ka hästi räägitud.</p>
                     </sp>
                     <sp who="#perenaine">
-                        <speaker>Perenaine:</speaker>
-                        <stage>(häbelikult)</stage>
+                        <speaker>Perenaine</speaker>
+                        <stage>(häbelikult):</stage>
                         <p>Nii äkitselt! — Oh Jumal, Kaarel, see tuleb mulle koguni ilma ootamata! Ma tahaksin ometi enne asja üle järele mõtelda, Kaarel. <stage>(Hellalt.)</stage> Kaarlikene, ma ei tea sugugi, mis ma wastama pean. Ma olen Teid alati kalliks pidanud, Teie olite mulle ikka nii armas, seba Te teate ju.</p>
                     </sp>
                     <sp who="#kaarel">
@@ -388,8 +389,8 @@
                     <head>Seitsmes etendus.</head>
                     <stage>Endised, Tõnis (astub sisse).</stage>
                     <sp who="#tonis">
-                        <speaker>Tõnis:</speaker>
-                        <stage>(Kaarlile)</stage>
+                        <speaker>Tõnis</speaker>
+                        <stage>(Kaarlile):</stage>
                         <p>Tulge aga wälja, meie peremees soowib teiega rääkida.</p>
                     </sp>
                     <pb n="15"/>
@@ -414,16 +415,16 @@
                         <p>Jäta aga järele, lähme peale! <stage>(Mõlemad ära.)</stage></p>
                     </sp>
                     <sp who="#tonis">
-                        <speaker>Tõnis:</speaker>
-                        <stage>(minnes)</stage>
+                        <speaker>Tõnis</speaker>
+                        <stage>(minnes):</stage>
                         <p>Ma juba tulengi, ega ma siia ei jää.</p>
                     </sp>
                 </div>
                 <div type="scene">
                     <head>Kaheksamas etendus.</head>
                     <sp who="#perenaine">
-                        <speaker>Weski-perenaine:</speaker>
-                        <stage>(üksi, õige rõõmsalt)</stage>
+                        <speaker>Weski-perenaine</speaker>
+                        <stage>(üksi, õige rõõmsalt):</stage>
                         <p>Heldene Jumal kõrges taewas, ta tahab mind wõtta! Ta tahab mind päris tõega wõtta! Kes seda oleks wõinud arwata! Mis saab Anni ütlema? Õigus tal on, ma olen alles weel päris priske ja ilus! Ma lugesin ennast aga ise enneaegu wanaks. Mu riided ja kõik, kas need on ühe naisterahwale, kes alles minu aastates — kohased? <stage>(Seisab ühtepuhku peegli ees, kohendab oma riidid, tõmbab kummuti lahti.)</stage> See tanu ei passi mulle ka sugugi,<pb n="16"/> on liialt wanamoodi. <stage>(Wõtab ühe tanu teise järele laekast wälja.)</stage> See ei ole ka parem — see ka mitte — kõik wana naiste tanud. — <stage>(Wõtab wiimaks ühe õieti ehtsa wälja.)</stage> — Waat see, see passib mulle, see teeb mind weel kümme aastat nooremaks. Nüüd ma panen enesele ülepea kõige paremad hilbud ümber, nõnda kui <stage>(häbelikult)</stage> ühe pruudile sünnis. <stage>(Ära.)</stage></p>
                     </sp>
                 </div>
@@ -455,8 +456,8 @@
                         <p>Kaarel, minu armas Kaarel, waata ma ei<pb n="18"/> ole ju lapsepõlwest saati oma elu teisiti kui sinuga koos mõtelda mõistnud, ja nüüd, nüüd läheb kõik tõesti tõeks! <stage>(Hakkab õnne pärast pisaraid nutma.)</stage> Sa armas Jumal, seda õnne on ju minu jaoks liiati palju, ma wallatu tüdruk ei ole seda ju kuidagi ära teeninud! — Mina sinu naene? Ikka sinu juures olla, kuni elu otsani, see õnn on ju suur, et ma seda ära mõtelda ei jõua! Jah, Kaarel, ma tahan sinu kõrwal seista, häil ja kurjel päiwil. <stage>(Annab temale mõlemad käed.)</stage> Ma tahan su naene olla!</p>
                     </sp>
                     <sp who="#kaarel">
-                        <speaker>Kaarel:</speaker>
-                        <stage>(hakkab tema ümber kaela)</stage>
+                        <speaker>Kaarel</speaker>
+                        <stage>(hakkab tema ümber kaela):</stage>
                         <p>Sa hea, ilmsüüta laps! Peaks taewas lubama, et meie õnnelikuks saame.</p>
                     </sp>
                     <sp who="#anna">
@@ -513,8 +514,8 @@
                         <p>Ma tahtsin sinult küsida, küsida, kas Kaarel rääkis sulle midagi?</p>
                     </sp>
                     <sp who="#anna">
-                        <speaker>Anna:</speaker>
-                        <stage>(häbelikult)</stage>
+                        <speaker>Anna</speaker>
+                        <stage>(häbelikult):</stage>
                         <p>Jah, rääkis küll.</p>
                     </sp>
                     <sp who="#saare-onu">
@@ -526,13 +527,13 @@
                         <p>Jah, ütles küll kõik ära.</p>
                     </sp>
                     <sp who="#saare-onu">
-                        <speaker>Saare-onu:</speaker>
-                        <stage>(rutusti)</stage>
+                        <speaker>Saare-onu</speaker>
+                        <stage>(rutusti):</stage>
                         <p>Ja mis sina, sina, minu armas kallis Annakene, selle kohta ütlesid?</p>
                     </sp>
                     <sp who="#anna">
-                        <speaker>Anna:</speaker>
-                        <stage>(kargab üles ja Saare-onule ümber kaela)</stage>
+                        <speaker>Anna</speaker>
+                        <stage>(kargab üles ja Saare-onule ümber kaela):</stage>
                         <p>Mina, mina olen ju see kõige õnnelikum inimene maa peal. Mina ei ole ju sugugi nii suurt õnne ära teeninud. Aga ma tahan, tahan seda enesele ära teenida, truu ja usin tahan ma olla, teid armastada ja kalliks pidada kõige eluaja.</p>
                     </sp>
                     <pb n="21"/>
@@ -553,8 +554,8 @@
                         <stage>(ehmatab, jookseb ära):</stage>
                     </sp>
                     <sp who="#saare-onu">
-                        <speaker>Saare-onu:</speaker>
-                        <stage>(wihaselt)</stage>
+                        <speaker>Saare-onu</speaker>
+                        <stage>(wihaselt):</stage>
                         <p>Mis sa tahad, mis sa jälle tahad? Ikka oled sa saadawal, kui sind keegi ei kutsu.</p>
                     </sp>
                     <sp who="#tonis">
@@ -595,19 +596,19 @@
                         <p>Oleksite Te ütelnud, peremees, ma oleksin Te hobused porise tee peal ju ka surnuks ajada wõinud.</p>
                     </sp>
                     <sp who="#saare-onu">
-                        <speaker>Saare-onu:</speaker>
-                        <stage>(wihaseks saabes)</stage>
+                        <speaker>Saare-onu</speaker>
+                        <stage>(wihaseks saabes):</stage>
                         <p>Ühe sõnaga öeldud, ühe sõnaga, minu kannatus on otsas, ma ajan sind kus seda teist!</p>
                     </sp>
                     <pb n="23"/>
                     <sp who="#tonis">
-                        <speaker>Tõnis:</speaker>
-                        <stage>(wagusi)</stage>
+                        <speaker>Tõnis</speaker>
+                        <stage>(wagusi):</stage>
                         <p>Üks ka kõik peremees, ma hakkan siis jällegi karpisid tegema.</p>
                     </sp>
                     <sp who="#saare-onu">
-                        <speaker>Saare-onu:</speaker>
-                        <stage>(lahkelt)</stage>
+                        <speaker>Saare-onu</speaker>
+                        <stage>(lahkelt):</stage>
                         <p>Mis sa teed? Mis sa teed? Karpisid? Mis karbid need siis on, mis sa tegema hakkad?</p>
                     </sp>
                     <sp who="#tonis">
@@ -623,8 +624,8 @@
                         <p>Noh, kui peremees just ära ajab —</p>
                     </sp>
                     <sp who="#saare-onu">
-                        <speaker>Saare-onu:</speaker>
-                        <stage>(naerdes)</stage>
+                        <speaker>Saare-onu</speaker>
+                        <stage>(naerdes):</stage>
                         <p>Ah mine! Karbitegemisest ei tule wälja ka midagi, siis jää juba parem paigale.</p>
                     </sp>
                     <sp who="#tonis">
@@ -640,8 +641,8 @@
                 <div type="scene">
                     <head>Kaksteistkümnes etendus.</head>
                     <sp who="#anna">
-                        <speaker>Anna:</speaker>
-                        <stage>(üksi, tuleb mõtetes, lillekimp käes ja laulab)</stage>
+                        <speaker>Anna</speaker>
+                        <stage>(üksi, tuleb mõtetes, lillekimp käes ja laulab):</stage>
                         <lg>
                             <lg>
                                 <l>Et ma sind armastasin, teadsin ammu,</l>
@@ -729,8 +730,8 @@
                         <p>Sest ei ole midagi, ma ostan ta sulle siisgi. Üle lüüa me endid ei lase. Ja kübara ka ja suled<pb n="29"/> kübara peale ja päewawarju ja, ja — wõrud ka riiete alla, küll sa näed.</p>
                     </sp>
                     <sp who="#anna">
-                        <speaker>Anna:</speaker>
-                        <stage>(imestades)</stage>
+                        <speaker>Anna</speaker>
+                        <stage>(imestades):</stage>
                         <p>Aga emakene, sa oled kui ümber muudetud, muidu oli sinu meelest kõik niisugune saksa wärk halpus ja tühi kraam.</p>
                     </sp>
                     <sp who="#perenaine">
@@ -742,8 +743,8 @@
                         <p>Selle peale ei pane mina mingit rõhku, kõigewähematgi! Aga, et Kaarel mind nii wäga armastab ja mind rumalat tühist tütarlast naiseks wõtta tahab, waata see —</p>
                     </sp>
                     <sp who="#perenaine">
-                        <speaker>Perenaine:</speaker>
-                        <stage>(tütre käewarrest kinni hakates)</stage>
+                        <speaker>Perenaine</speaker>
+                        <stage>(tütre käewarrest kinni hakates):</stage>
                         <p>Mis sa ütled? <stage>(wihaselt.)</stage> Mis rumal lori see on? Kaarel sind naiseks? Sind? Rumal plika!</p>
                     </sp>
                     <sp who="#anna">
@@ -751,8 +752,8 @@
                         <p>Ja, ja, ema! Kas ta sulle seda ei ütelnud? Siinsamas, sellesama koha peal ennist küsis ta minu käest, kas ma temale lähen. Ta olla mind juba poisikesest saadik armastanud ja —</p>
                     </sp>
                     <sp who="#perenaine">
-                        <speaker>Perenaine:</speaker>
-                        <stage>(kui meelest ära)</stage>
+                        <speaker>Perenaine</speaker>
+                        <stage>(kui meelest ära):</stage>
                         <p>Sa oled rumal lammas ja ta on sind<pb n="30"/> — ninapidi wedanud! No seda ma ei oleks temast uskunud. See on häbemata temast!</p>
                     </sp>
                     <sp who="#anna">
@@ -780,8 +781,8 @@
                         <p>Wait ole! Sinu õnn, narrikene? No las' ta tulla mulle ette, oot, oot!</p>
                     </sp>
                     <sp who="#anna">
-                        <speaker>Anna:</speaker>
-                        <stage>(nuttes)</stage>
+                        <speaker>Anna</speaker>
+                        <stage>(nuttes):</stage>
                         <p>Mis nüüd saab, kõik oli nii hästi ja nüüd? Ma pean Kaarliga rääkima, ehk teab tema nõuu. <stage>(Kurwalt ära.)</stage></p>
                     </sp>
                     <pb n="31"/>
@@ -789,8 +790,8 @@
                 <div type="scene">
                     <head>Neljasteistkümnes etendus.</head>
                     <sp who="#perenaine">
-                        <speaker>Perenaine:</speaker>
-                        <stage>(üksi)</stage>
+                        <speaker>Perenaine</speaker>
+                        <stage>(üksi):</stage>
                         <p>Keela ja kaitse! Mis inimesele kõik ei juhtu! — Ja häbenema pean ma iseenda ees, et ma nii rumal olin uskuma! Ma oleksin ometi tõesti mõistlikum pidanud olema! Ma kakuksin wiha ja häbi pärast omal juuksed peast! Ja ma ei tohi sellest weel midagi märgata lasta, muidu naerdakse mind weel wälja! Päris salaja pean ma oma wiha alla neelama. Ei, seda mitte, oma peatäis sõimata peab ta saama.</p>
                     </sp>
                 </div>
@@ -810,8 +811,8 @@
                         <p>Mis üle siis, mis üle siis, perenaine, kes Teid ära pahandanud?</p>
                     </sp>
                     <sp who="#perenaine">
-                        <speaker>Perenaine:</speaker>
-                        <stage>(kihwtiselt)</stage>
+                        <speaker>Perenaine</speaker>
+                        <stage>(kihwtiselt):</stage>
                         <p>Teie Kaarel! Teie kallis Kaarel, see kuri waim!</p>
                     </sp>
                     <pb n="32"/>
@@ -824,8 +825,8 @@
                         <p>Tegi? Mis ta tegi? Hakkab minu selja taga minu tütrega jahtima! Puhub teisele kõrwad hullu juttu täis, räägib naisekswõtmisest. Niisugusele lapsele juba naisekswõtmisest!</p>
                     </sp>
                     <sp who="#saare-onu">
-                        <speaker>Saare-onu:</speaker>
-                        <stage>(imeks pannes)</stage>
+                        <speaker>Saare-onu</speaker>
+                        <stage>(imeks pannes):</stage>
                         <p>Mis? Kaarel tahab, Kaarel tahab Annit enesele naisess? <stage>(Kõrwale.)</stage> Waata petist! <stage>(Perenaisele.)</stage> Sellega on Teil õigus, seda mina ka ei lubaks. See oleks lapsik temp! Kaks nii noort inimest paari! Ja, oleks ta mõni wanem mees olnud, niisugune kollanokk —</p>
                     </sp>
                     <sp who="#perenaine">
@@ -833,8 +834,8 @@
                         <p>Ah, mis, naisewõtmiseks on ta juba wana küllalt, asjal on teine põhjus. Aga olgu nüüd, kuida ta on, mina oma tütart temale ei anna.</p>
                     </sp>
                     <sp who="#saare-onu">
-                        <speaker>Saare-onu:</speaker>
-                        <stage>(kõrwale)</stage>
+                        <speaker>Saare-onu</speaker>
+                        <stage>(kõrwale):</stage>
                         <p>Niisugune kelm, niisugune kelm, julgeb oma wana onu niiwiisi ninapidi wedada! Esite teeb teisele suu wett jooksma ja siis napsab kõige parema suutäie ise eest ära.</p>
                     </sp>
                     <pb n="33"/>
@@ -847,8 +848,8 @@
                         <p>Soo, siit leian Teid kõik eest!</p>
                     </sp>
                     <sp who="#saare-onu">
-                        <speaker>Saare-onu:</speaker>
-                        <stage>(wihaselt)</stage>
+                        <speaker>Saare-onu</speaker>
+                        <stage>(wihaselt):</stage>
                         <p>Ja, sina pagana wõrukael, pagana wõrukael, siit sa leiad meid kõik eest ja ma tänan sind ka kohe, et sa mu asja nenda hästi oled ajanud! Kui mulle jälle teinekord asjaajajat waja on, wõtan ma sind kohe adwokaabiks. Tööhinna maksan ma sulle ka kohe intressidega ette ära.</p>
                     </sp>
                     <sp who="#kaarel">
@@ -856,8 +857,8 @@
                         <p>Onu, mis sulle päha on tikkunud?</p>
                     </sp>
                     <sp who="#perenaine">
-                        <speaker>Perenaine:</speaker>
-                        <stage>(kihwtiselt)</stage>
+                        <speaker>Perenaine</speaker>
+                        <stage>(kihwtiselt):</stage>
                         <p>Ja, ja mina tänan ka kõige waewa eest, mis Teie meie juures näinud olete ja kui Teie ehk warsti wahest koju tahate sõita, kuhu Teid wististi rohkem waja on, kui siia, siis laske aga hobused ette panna, talli uks on lahti.</p>
                     </sp>
                     <sp who="#anna">
@@ -869,33 +870,33 @@
                         <p>Jää rahule laps! — Mis siin siis õieti wiga on ja mikspärast mind siis õige siunatakse? Onu, mis sul on? Kas ma ei ole teinud, mis sa soowisid? Ma ometi olen Weski-perenaiselt<pb n="34"/> siin nii peenikeselt ja targu ääri weeri mööda ära kuulanud, kas ta oma lesepõlwe maha jätta ja sulle naiseks tulla ei taha, sind nii kiitnud ja olnud ja nüüd — sa sõimad mind weel koguni.</p>
                     </sp>
                     <sp who="#saare-onu">
-                        <speaker>Saare-onu:</speaker>
-                        <stage>(Kaarlile, kõrwale)</stage>
+                        <speaker>Saare-onu</speaker>
+                        <stage>(Kaarlile, kõrwale):</stage>
                         <p>Sa mõtlesid ema? Ema mõtlesid sa!</p>
                     </sp>
                     <sp who="#kaarel">
-                        <speaker>Kaarel:</speaker>
-                        <stage>(onule, kõrwale)</stage>
+                        <speaker>Kaarel</speaker>
+                        <stage>(onule, kõrwale):</stage>
                         <p>Onu, ega sa ometigi tütart ei mõtelnud?</p>
                     </sp>
                     <sp who="#saare-onu">
-                        <speaker>Saare-onu:</speaker>
-                        <stage>(kõrwale)</stage>
+                        <speaker>Saare-onu</speaker>
+                        <stage>(kõrwale):</stage>
                         <p>Wait! Suu kinni! mitte sõna!</p>
                     </sp>
                     <sp who="#kaarel">
-                        <speaker>Kaarel:</speaker>
-                        <stage>(kõrwale)</stage>
+                        <speaker>Kaarel</speaker>
+                        <stage>(kõrwale):</stage>
                         <p>Wait! Mitte sõna! <stage>(Paneb sõrme suu peale.)</stage></p>
                     </sp>
                     <sp who="#saare-onu">
-                        <speaker>Saare-onu:</speaker>
-                        <stage>(kõrwale)</stage>
+                        <speaker>Saare-onu</speaker>
+                        <stage>(kõrwale):</stage>
                         <p>Ma usun, ma usun, ma olin suur lambapää!</p>
                     </sp>
                     <sp who="#kaarel">
-                        <speaker>Kaarel:</speaker>
-                        <stage>(Perenaisele)</stage>
+                        <speaker>Kaarel</speaker>
+                        <stage>(Perenaisele):</stage>
                         <p>Ja Teie perenaine, ma panen wäga imeks, et Teie minuga niiwiisi ümber käite. Enne näitate minu wastu niipalju armastust üles —</p>
                         <stage>Perenaine (pöörab temale pahaselt selja.)</stage>
                         <p>Kas ma Teilt kõige ilusamal wiisil ei pärinud, kas Teie mitte tubli auusa mehega kõige paremates aastates abielusse astuda ei taha? Kas ei ütelnud "ja"? Ja nüüd ajate mind majast wälja!</p>
@@ -906,18 +907,18 @@
                     </sp>
                     <pb n="35"/>
                     <sp who="#kaarel">
-                        <speaker>Kaarel:</speaker>
-                        <stage>(Perenaisele, kõrwale)</stage>
+                        <speaker>Kaarel</speaker>
+                        <stage>(Perenaisele, kõrwale):</stage>
                         <p>Ja Teie wahest jälle —</p>
                     </sp>
                     <sp who="#perenaine">
-                        <speaker>Perenaine:</speaker>
-                        <stage>(Kaarlile, kõrwale)</stage>
+                        <speaker>Perenaine</speaker>
+                        <stage>(Kaarlile, kõrwale):</stage>
                         <p>Wait! Mitte sõna!</p>
                     </sp>
                     <sp who="#kaarel">
-                        <speaker>Kaarel:</speaker>
-                        <stage>(kõrwale)</stage>
+                        <speaker>Kaarel</speaker>
+                        <stage>(kõrwale):</stage>
                         <p>Wait kui surnuhaud! <stage>(Paneb sõrme suu peale.)</stage></p>
                     </sp>
                     <sp who="#anna">
@@ -945,13 +946,13 @@
                         <p>Seda ma tahan teha tõesti! <stage>(Annab perenaisele kätt, teine käsi Anna ümber.)</stage></p>
                     </sp>
                     <sp who="#perenaine">
-                        <speaker>Perenaine:</speaker>
-                        <stage>(mõlemile otsa waadates, siis kõrwale)</stage>
+                        <speaker>Perenaine</speaker>
+                        <stage>(mõlemile otsa waadates, siis kõrwale):</stage>
                         <p>Kas seda nüüd eluilmas arwata pidi olema, et mina mõtelda wõisin, et tema siin, kui puhkew roosiõis saadawal, käe wana päewalille järele wälja sirutama pidi. Ei, ma olin liiati rumal. Noor noorega, igale potile kohane kaas.</p>
                     </sp>
                     <sp who="#saare-onu">
-                        <speaker>Saare-onu:</speaker>
-                        <stage>(naeratades, pruutpaari peale waadates)</stage>
+                        <speaker>Saare-onu</speaker>
+                        <stage>(naeratades, pruutpaari peale waadates):</stage>
                         <p>Noh, kui ma õigust pean rääkima, need kaks passiwad paremini paari, kui et mina — peaaegu wanas ikkes weel narrilaseks saama pibin. Lapsed, lapsed, laske olla peale, sügise teeme pulmad.</p>
                     </sp>
                     <sp who="#kaarel">
@@ -960,8 +961,8 @@
                     </sp>
                     <pb n="37"/>
                     <sp who="#saare-onu">
-                        <speaker>Saare-onu:</speaker>
-                        <stage>(naerul)</stage>
+                        <speaker>Saare-onu</speaker>
+                        <stage>(naerul):</stage>
                         <p>Sina kelm, oh sa kelm! Mis Teie siis arwate weski-perenaine, wiskame õige korra oma kraami segamini?</p>
                     </sp>
                     <sp who="#perenaine">
@@ -1009,8 +1010,8 @@
                         <p>Küllap wist, küllap wist!</p>
                     </sp>
                     <sp who="#maret">
-                        <speaker>Maret:</speaker>
-                        <stage>(tuleb sündimisepäewa-koogiga, kelle ümber kaheksateistkümmend wäikest küünlakest põlema pandud)</stage>
+                        <speaker>Maret</speaker>
+                        <stage>(tuleb sündimisepäewa-koogiga, kelle ümber kaheksateistkümmend wäikest küünlakest põlema pandud):</stage>
                         <p>Palun lauale, laud on kaetud!</p>
                     </sp>
                     <sp who="#kaarel #anna #maret #tonis #saare-onu #perenaine">
@@ -1022,8 +1023,8 @@
                         <p>Ja, ja, lähme, see oli üks raske päew! <stage>(Lähwad, Maret koogiga kõige ees.)</stage></p>
                     </sp>
                     <sp who="#tonis">
-                        <speaker>Tõnis:</speaker>
-                        <stage>(üksi, teistele järele waadates)</stage>
+                        <speaker>Tõnis</speaker>
+                        <stage>(üksi, teistele järele waadates):</stage>
                         <p>Temal minu üle ka ütlemine! — Siis ma lähen karpisid tegema!</p>
                     </sp>
                 </div>

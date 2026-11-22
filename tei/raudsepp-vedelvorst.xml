@@ -88,10 +88,17 @@
                     </listRelation>
                 </listPerson>
             </particDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle">Comedy</term>
+                </keywords>
+                <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+            </textClass>
         </profileDesc>
         <revisionDesc>
             <listChange>
                 <change when="2026-09-02">Update formatting</change>
+                <change when="2026-11-22">Correct punctuation location</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -168,34 +175,34 @@
                     <p>Vahtisin paraaegu rehealuse tagaväravast alla luhale. Kogu Laisavere on niidul väljas, ei meite rahvast kuski märki.</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(on puust ämbrid kaelkooguga õlale võtnud)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(on puust ämbrid kaelkooguga õlale võtnud).</stage>
                     <p>Näed, et tulen veepaaridega. <stage>(Katsub perenaisest mööda pääseda.)</stage></p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(hurjutades)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(hurjutades).</stage>
                     <p>Söömale kutsud, siis kui linnu tiivul... Aga katsu seda tõugu tagasi tööle saada! Päikese tera, eva, pooles lõunas, meil kõva keskhommik.</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(tusaselt)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(tusaselt).</stage>
                     <p>Kui kodus kõik ette ja taha tuleb talitada! <stage>(Kaob värava kaudu pahemale.)</stage></p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(Maalile järele vaadates)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(Maalile järele vaadates).</stage>
                     <p>Ette ja taha... <stage>(Istub seina äärde ratastele.)</stage> Mis vaene lesknaine tehku, kui teenija venib nagu tigu üle maasika. <stage>(Oma ümmarat kuju hinnates.)</stage> Lahjaks ja luiseks kõhnud muredest. Kui seda kõhtu ees ei oleks ja muupoolist muial, jääks pihast peeneks kui sipelgas. <stage>(Haigutab.)</stage> Ooah! Ooah! Neid lõugu inimesel lahti kistakse, et praksub. <stage>(Laisalt ümber vaadates.)</stage> Kus-tav! Kustav! Kuhu küll Kustav jälle kadus, kus puhmas ta põõnutab? <stage>(Ajab enese hädiselt üles, vaatab ümber.)</stage> Meh? Nõndaks neh! Seal see vedelvorstike aurab, lausa lagedas leelis. <stage>(Tõttab Kustavi juurde.)</stage> Sa Krestuse silmavesi, nüüd nossuke on küll vastu taevast krõbe! <stage>(Puudutab hellalt.)</stage> Kustavike! Ole nüüd pai poisu! Mitte kõssu! <stage>(Istub kännule.)</stage> Magab teine nii magusasti ja noriseb nii jägusasti, et mullegi kisub veekese suhu. Nii me lood ja laalud läävad. Peremees unistab ees, pere tukub taga, lonkab ja logiseb see Näsnäruda värk. <stage>(Uue pahurdumisega.)</stage> Oi poissi, poissi, pojukest! Küll kuluks semlakule soolata üle selja! <stage>(Vaatab igatsevalt haopinu poole.)</stage> Kui oleks viitsi pinust veati tõmmata.</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(väravast tulles)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(väravast tulles).</stage>
                     <p>Perrnaine! Perrnaine!</p>
                 </sp>
                 <pb n="9"/>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(pahandudes äkilisest segamisest)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(pahandudes äkilisest segamisest).</stage>
                     <p>Kus sul põleb?</p>
                 </sp>
                 <sp who="#maali">
@@ -211,40 +218,40 @@
                     <p>Minu Joosep, päh! <stage>(Kaob väravast.)</stage></p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(Kustavile pöördudes)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(Kustavile pöördudes).</stage>
                     <p>Kustav! Kustav! <stage>(Vangutab pead.)</stage> Magab poiss kui palgiots. Pole vanematest tark oma laste käest vara surra. Nagu mu õnnis Mihklike, viisteistkümmend aastat magab mullas. Oli kange mees. Ütles jo eluhingel ette, et kui sa, Mari, mind peale surma pesema hakkad, löön veevanni jalaga ümber, siis alles pärisriid tuleb! <stage>(Haledalt.)</stage> Ei löönd enam kedagi. Üsna vakka ja vagusi püsis laudil, kui tegin talle viimset toimitsust. Läks süda härdaks teise pärast. Nutsin ja mõtlesin. Et kui sa elus ka oleks olnd nii leplik kui paraaegu, siis ma ikka oleks olnd su vastu parem küll. <stage>(Pühib põlle nurgaga silmi.)</stage> Oleks poisistki tulnd teine mees, kui isa rusikas taga tantsimas. Kustav, ae! Tõuse'nd üles, toivan, pere tahab viia heinale! <stage>(Lootuseta.)</stage> Seda laisaliha kasvatamist, läheb poiss untsu sula seismisest. <stage>(Ringutab.)</stage> Oah, ooah... kust sihande unimüts sugukonda sattus, tööka rahva laps! <stage>(Kipub ise tukkuma jääma.)</stage></p>
                 </sp>
                 <stage>Pahemalt väravast tuleb JOOSEP, elava loomu ja terava näoga saarlane, ebamäärastes aastates. On talus kauemat aega teeninud, kohanedes suuremaa oludele. Kõnes on tunda kerget murrakut, hääldab "õ" asemel "ö".</stage>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(laia tujuga)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(laia tujuga).</stage>
                     <p>Oi jumala päikese kulda, mida taeva tornist alla uhab üle maa ja vee. — Katsanäe! Vanaperenaine körbeb kännul, noorperemees küpseb murul... ei see pöle hea mood mette. Teenijad tehku kodusi talitusi, ei enne öhtut mette niidule saa!</p>
                 </sp>
                 <pb n="10"/>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(tõusmist tehes)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(tõusmist tehes).</stage>
                     <p>Plikaga kõhvitsed, see on su kodune talitus. — Aja Kustav üles, ütlen sulle, Maalile teen ise jalad alla. <stage>(Joosepist möödudes.)</stage> Et jõekear oleks õhtuks loogus! <stage>(Kaob pahemale väravast.)</stage></p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(Marile järele vaadates)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(Marile järele vaadates).</stage>
                     <p>Öhtuks loogus? <stage>(Silmadega istekohta otsides.)</stage> Jo see öhtu kord tuleb ka, kos keik kearud on loogus. <stage>(Istub Mari asemele kännule ning hakkab suitsu keerutama.)</stage> Kaua's inime ede lööb, kui laseb enese tööga tappa? Raasuke valetada, raasuke varastada, heast ivake ja pahast paluke, nii öige mees saab ilmast läbi. <stage>(Suitsetab.)</stage> Narriks läheb küll noorem maailm. Neh, suuremaa suitsulgi mette pöle öiget smekki. Kos Saaremaal muiste olnd, nagu vanaisa praalis! Et teine tubakalups teises pöses, vana piibutobu veel keskel. Olid ajad, kui uskuda!</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(väravast tulles)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(väravast tulles).</stage>
                     <p>Kas peremehe a'asid üles?</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(tõustes)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(tõustes).</stage>
                     <p>Sulane nüüd a'ab peremeest! <stage>(Maalile vastu minnes.)</stage> Kas sa ei tunne Vene riigi seadust — peremees pervoi, sulane turukoi!</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(turtsatab)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(turtsatab).</stage>
                     <p>Turukoi!</p>
                 </sp>
                 <sp who="#joosep">
@@ -252,8 +259,8 @@
                     <p>Ei mina seda meest püsti saa, katsu sina. <stage>Kipub Maalit kabistama.)</stage> Ematsel alles need vöimud oo!</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(sallivalt)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(sallivalt).</stage>
                     <p>Messa jändad!</p>
                 </sp>
                 <sp who="#joosep">
@@ -273,8 +280,8 @@
                     <p>Oh Joosep, kui sa mind hätta ei jäta...</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(kergelt)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(kergelt).</stage>
                     <p>Hädani on aega. Aga praegu ajame oma laisa peremehe püsti.</p>
                 </sp>
                 <pb n="11"/>
@@ -291,8 +298,8 @@
                     <p>Oled sina üks loba! <stage>(Naeravad üksteise otsa vahtides.)</stage></p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(Kustavile osutades)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(Kustavile osutades).</stage>
                     <p>Hakka peele, Maali, see leheb so käe küll!</p>
                 </sp>
                 <sp who="#maali">
@@ -312,8 +319,8 @@
                     <p>Vöta nüüd täilinn pihku! <stage>(Istub kännule ning itsitab pihku.)</stage></p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(karvust sasides)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(karvust sasides).</stage>
                     <p>Põrguline, kas saad üles!</p>
                 </sp>
                 <sp who="#kustav">
@@ -325,28 +332,28 @@
                     <p>See on hullem kui heinategu.</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(südametäiega tõukab jalaga)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(südametäiega tõukab jalaga).</stage>
                     <p>Siis tossa, va tossam! Läki niidule, Joosep! <stage>(Kaob väravast pahemale.)</stage></p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(kännule istuma jäädes)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(kännule istuma jäädes).</stage>
                     <p>Kas seoke viimsepäeva pasunalegi ärkab, kui kord hüütakse. <stage>(Ringutades ja haigutades.)</stage> Ega laisk peremees ole laita asi, virgal sulasel seda menusam tööd murda! <stage>(Ajab enese püsti.)</stage> Seda menusam! <stage>(Kustavit silmitsedes vangutab pead.)</stage> Sedist ma pöle enne näind, kes so vaese oo valmis teind? Priskuse poolest päris terve poisu, küll ossi, kossi ja muud trossi. Üks vähekene viga, hinge sees pole mette. <stage>(Vaatab nõutult ringi, seisab haopinu ees, tõmbab välja tubli roika, kõlgutab käes, et liialt raske, heidab ta<pb n="12"/>gasi pinu otsa. Tõmbab pinust vibaliku, seda vedrutades leiab, et on paras, asub uuesti Kustavi ette.)</stage> Soolame'nd ühe siraka sinna krunti, kost keik kurjad himmod ja patulustid tulevad. <stage>(Lausub kui nõiasõnu, vibalikuga maagilisi liigutusi tehes.)</stage> Sea sirkel — varsa vinkel — härja ike ja — lehma kütke! <stage>(Annab Kustavile vibalikuga "tulise", nii et tolmupilv tõuseb pükstest. Vibaliku poetab maha.)</stage></p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(kargab istukile, käega tagumikku hõõrudes)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(kargab istukile, käega tagumikku hõõrudes).</stage>
                     <p>Mis põrgu see, näätsa, on!?</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(süütult)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(süütult).</stage>
                     <p>Üles, üles, peremeheke, hein ootab! Saaksime õhtuks jöekearu maha.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(silmi hõõrudes)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(silmi hõõrudes).</stage>
                     <p>Nehuke sulane tuleks lahti lasta, kes peremeest ei lase magada.</p>
                 </sp>
                 <sp who="#joosep">
@@ -354,8 +361,8 @@
                     <p>Kas mina... sa ise ärkasid.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(pahuralt)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(pahuralt).</stage>
                     <p>Ise ärkasin... muidugi ärkasin ise, mida siis susid? Toho hullu... tõusta näätsa ka ei lasta rahus!</p>
                 </sp>
                 <sp who="#joosep">
@@ -363,8 +370,8 @@
                     <p>Unele minnes sul kohe ingli nägu on ees. Aga ärgates oled valmis mörtsukas. — Kas nägid kurja und?</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(rahunedes hakkab ilmutama teisi omadusi)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(rahunedes hakkab ilmutama teisi omadusi).</stage>
                     <p>Uni oli alul hea. Nägin, et magasin ristselili ristikheinas ning vidutasin silmi. Taevas selge ja sinine kui klaas, õhk täis õite lõhna ja mesilaste suminat. Sehuke jumalarahu tossas maa ja taeva vahel, et lust oli, näätsa, põõnata. — Aga siis hakkas üks kurat neid musti pilvi üles ajama, tuul tõusis ja pikne pistis põristama. Katsun põgeneda, ei saa maa küljest püsti. Siis äkki...</p>
                 </sp>
                 <sp who="#joosep">
@@ -381,8 +388,8 @@
                 </sp>
                 <pb n="13"/>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(ristluid katsudes)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(ristluid katsudes).</stage>
                     <p>Sisse lõi, kurat! Sehukse soolase, näätsa, kõrvetas siia keset ristluid, et ärgates veel tunned, kudas püksid on tuld täis!</p>
                 </sp>
                 <sp who="#joosep">
@@ -390,8 +397,8 @@
                     <p>Jajah! Juhtub uneski, mis ilmsi vöimalik.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(tõstab nina)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(tõstab nina).</stage>
                     <p>Värskeleiva lõhna lehvib tarest... kui tooksid pätsi palavalt lagedale.</p>
                 </sp>
                 <sp who="#joosep">
@@ -416,13 +423,13 @@
                 </sp>
                 <stage>KUSTAV veab enese püsti ja kergitab pükse. Ta on turvakas poiss, ümmariku sileda näoga ja kollaste sasis juustega. Lohakast välimusest vilgub ometi läbi mingit sisemist tuuma.</stage>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(külgi sügades)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(külgi sügades).</stage>
                     <p>Kõik kohad nikivad ja näkivad, ei tea mis täna tuleb. <stage>(Istub kännule.)</stage> On jumal inimese kenasti loond. <stage>(Nopib kännu äärest õie.)</stage> Aga lillekest, näätsa, pead siiski kadestama. Vaatad teist, soe muld istme all, puhkab ja võtab toitu sama otsaga. Ei tööd ega tegemist, aiva õitse ja õilitse... Igatseks inimenegi elada säärases ehvangeeliumis, kui lastaks. <stage>(Ringutab.)</stage> Sehuke tundmus on keres, et kui seda ilusat päevakest maha magatud ei saa ja õnnist ööd veel takka selga, et seda elu siis jusku ei maksnud ollagi!</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(tuleb väravast, kakk hõlmas)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(tuleb väravast, kakk hõlmas).</stage>
                     <p>Auras laudil suuri leibu, kui oleks tahtnud vötta. Söhukesi, et oleks saand kolm seaküna, vaat' neljat poleks saand mette.</p>
                 </sp>
                 <sp who="#kustav">
@@ -443,18 +450,18 @@
                     <p>Vöta. <stage>(Istub Kustavi kõrvale kännule.)</stage> Ja murra toojale toodist.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(murrab kaku, Joosepile andmata, ja hakkab sisu uuristama)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(murrab kaku, Joosepile andmata, ja hakkab sisu uuristama).</stage>
                     <p>Koorukse saad pärast omale.</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(isutsedes)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(isutsedes).</stage>
                     <p>Kui vöid oleks! Soe leib ja värske vöi, see mo ihul huku töi. Oi köhuke, mis soost siis saaks!</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(rahulikult järades)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(rahulikult järades).</stage>
                     <p>Teinekord sööme võid... kahte head jäksa korraga tahta.</p>
                 </sp>
                 <sp who="#joosep">
@@ -462,13 +469,13 @@
                     <p>Mo vanaisa, kui pölnd sekki suu järele seada, siis ikka unistand, et oleks kirikutäis pudru ja tornitäis vöid... saaks opmani keretäie.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(täie suuga)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(täie suuga).</stage>
                     <p>Tühi kõht pole kiita, seda olen märgand.</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(Kustavil kaela ümber)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(Kustavil kaela ümber).</stage>
                     <p>Sa, peremees, vöiksid nii laisaks minna, et söömadki keik jätaksid sulase jahvatada.</p>
                 </sp>
                 <sp who="#kustav">
@@ -484,23 +491,23 @@
                     <p>Igavene on, mis paigal seisab, olen märgand. Jumal taevas kui pakuots. Ning all see muld ja materjaan...</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(patsutab Kustavi kintsu)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(patsutab Kustavi kintsu).</stage>
                     <p>Jumal taevas... ei sa, peremees, jumalat teeni. Sa teenid oma laiska päramust, seal on su Mooses ja prohmetid.</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(tuleb väravast, näeb mehi, lööb käsi kokku)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(tuleb väravast, näeb mehi, lööb käsi kokku).</stage>
                     <p>Issa pojuke, püha ristike, kas te niidul pole?</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(tõustes)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(tõustes).</stage>
                     <p>Meelitan siin meest metsa, et hallitad köhu alt ära... Kos tema neh, et veerevale kivile ei kasva sammalt.</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(laia häälega)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(laia häälega).</stage>
                     <p>Lase, suurjumal, taeva luugid lahti ja vaata alla, mis kaks narri mu õuel teevad!<pb n="15"/> Ja mida seal nositakse? <stage>(Kustavi poole tõtates.)</stage> Mu kaapekakk! <stage>(Joosepile.)</stage> Seda sa, saarlane, tares piidlesid! Lähen sahvrist võitassi tooma, kakk vahepeal kui pühitud. <stage>(Püüab Kustavilt kakku krapsata, see pöörab selja ja venib pahemale, vankrile istudes.)</stage> Mis inimeseloomad te olete? Vanaleib ei jõua eest laskuda, juba uus sälitis otsa!</p>
                 </sp>
                 <sp who="#joosep">
@@ -512,8 +519,8 @@
                     <p>Et sa niidule saad, kuulaku sõna!</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(pükse kergitades ja kiiret minekut teeseldes)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(pükse kergitades ja kiiret minekut teeseldes).</stage>
                     <p>Niidule, niidule... kos moosugune möistab laiselda. <stage>(Kaob väravast.)</stage></p>
                 </sp>
                 <sp who="#mari">
@@ -526,8 +533,8 @@
                     <p>Eedo! Ons kari juba kodus? Mis nägu sul on peas? Ega ometi hunt karjas käind?</p>
                 </sp>
                 <sp who="#eedo">
-                    <speaker>EEDO.</speaker>
-                    <stage>(nutuse vihaga)</stage>
+                    <speaker>EEDO</speaker>
+                    <stage>(nutuse vihaga).</stage>
                     <p>Karjas käind... arvad et läks kiriku!</p>
                 </sp>
                 <sp who="#mari">
@@ -547,8 +554,8 @@
                     <p>Jo siis peni ees jooksis ja näitas hundile teed!</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(poissi ratist raputades)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(poissi ratist raputades).</stage>
                     <p>Siis kõnele ometi, põrguline! Jusku korgensoniga kisu sõnu suust. Hunt karjas... no mis see hunt su karjas tegi? Ega ta ometi viind, see hunt?</p>
                 </sp>
                 <sp who="#eedo">
@@ -556,14 +563,14 @@
                     <p>See sulle tooma tuleb!</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(uue ehmatusega)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(uue ehmatusega).</stage>
                     <p>Oi jumal, hunt viis lamba! Sa kuuled, Kustav, hunt viis lamba!</p>
                 </sp>
                 <pb n="16"/>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(vankri assi otsas järades)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(vankri assi otsas järades).</stage>
                     <p>Süüa ka, näätsa, ei lasta rahus.</p>
                 </sp>
                 <sp who="#mari">
@@ -583,18 +590,18 @@
                     <p>Moorikänd... meest lööma! <stage>(Põgeneb pahemale.)</stage></p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(vihastumisest väsinud)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(vihastumisest väsinud).</stage>
                     <p>Jumal, jumal, mis risti mu selga sajab! <stage>(Langeb pinu äärde pakule, hoiab naba.)</stage> Valuhoog käis seest läbi... küll nüüd leiva tee viib lahti!</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(elutargalt)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(elutargalt).</stage>
                     <p>Mis tagapidi hambaid, see hundi.</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(uue vihaga)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(uue vihaga).</stage>
                     <p>Tänad jumalat, et jälle ühest lambast sai lahti!</p>
                 </sp>
                 <sp who="#kustav">
@@ -602,13 +609,13 @@
                     <p>Hakka looma pärast oma hinge närvöörima. Sünnib lambaid ja sureb. Ja ka hunt saab kord otsa.</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(haliseb)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(haliseb).</stage>
                     <p>Oh mind vaest vanaeite! Kiskjad viivad karja. Ja oma poeg sööb südame. Pole sul kahju lambast ega emast. Hundi poole sa hoiad. Metsaliseks sa enese magad! <stage>(Tõuseb vihaga ning istub uuesti ahervarele.)</stage></p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(on söömise lõpetanud, kobab taskuid)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(on söömise lõpetanud, kobab taskuid).</stage>
                     <p>Kas sa mu piipu nägid? <stage>(Tõuseb.)</stage> Siin taskus netu, siin ka mitte. Aga siin, näätsa, jeest. <stage>(Istub pinu äärde pakule, toimib suitsetamise nõudega.)</stage></p>
                 </sp>
                 <sp who="#mari">
@@ -617,8 +624,8 @@
                 </sp>
                 <pb n="17"/>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(iseteadvalt)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(iseteadvalt).</stage>
                     <p>Arvad või?</p>
                 </sp>
                 <sp who="#mari">
@@ -634,13 +641,13 @@
                     <p>Seda loba kõnele hundile.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(laseb mõnuga suitsu)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(laseb mõnuga suitsu).</stage>
                     <p>Hundile? Mis hunt, vennike, tehku, kui on kiskjaks loodud. Kui sina oled emaks loodud ja teine jälle, näätsa, lambaks, siis te kahekesi teete, mis on ema ja lamba tegemine. Hundil jälle on hundi kombed, sest loodus, näätsa, ei lase tal rohtu süüa... Iga sööda taga seisab kütt püssiga. Iga lamba taga koer hammaste ja karjane kaikaga. Kui mina ka iga suutäie pärast peaksin surmale silma sihtima, mis mekk siis elul oleks?</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(on poja lollakuses veendunud)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(on poja lollakuses veendunud).</stage>
                     <p>Et ma puhta jumalavilja ja kalli poesoolaga seokse poja olen üles kasvatand, häbiks talule, naeruks külale.</p>
                 </sp>
                 <sp who="#kustav">
@@ -648,8 +655,8 @@
                     <p>No mes meil puudub?</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(kui torgatud)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(kui torgatud).</stage>
                     <p>Mes meil puudub! Lase silmad ringi käia... mis su raskuse vaim sellest talust on teind!</p>
                 </sp>
                 <sp who="#kustav">
@@ -673,8 +680,8 @@
                     <p>Kel janu, sel jalad.</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(sõbralikumalt)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(sõbralikumalt).</stage>
                     <p>Naise manu, pojuke, pead küll üksi minema ja ise mehe eest olema. <stage>(Kavala noogutusega.)</stage> Ei seal aita memme aidud, pojul olgu oma taibud. <stage>(Meelitades.)</stage> Kuule'nd see ju lustiasi noorel rahval lauba õhtul. Ja tulud tublid, kui mõistad valida. Peretütred ümberkaudu kui murakad, talud ja varad taga. Kui oma vallast ei vea, too naine teisest kihelkonnast.</p>
                 </sp>
                 <sp who="#kustav">
@@ -682,8 +689,8 @@
                     <p>Üks tagasurkija siis talus rohkem.</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(tõuseb ja tõukab Kustavit õlast)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(tõuseb ja tõukab Kustavit õlast).</stage>
                     <p>Sellest sa loru oled, seda iidamast märgatud.</p>
                 </sp>
                 <sp who="#kustav">
@@ -701,8 +708,8 @@
                 </sp>
                 <stage>MARI tõttab külalistele vastu. TIIU näeb Kustavit, naeratleb, poiss vaatab kõrvale.</stage>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(Tanelit käteldes)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(Tanelit käteldes).</stage>
                     <p>Ristmetsa Tanel, oi sa heldeke!</p>
                 </sp>
                 <sp who="#tanel">
@@ -714,8 +721,8 @@
                     <p>Tere, tädi, kas nüüd paneme kohvipa'a tulele?</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(Tiiut käteldes)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(Tiiut käteldes).</stage>
                     <p>Saab suguseltsi näha... pika maa tagant.</p>
                 </sp>
                 <pb n="19"/>
@@ -736,8 +743,8 @@
                     <p>Hobune juba Joosepi hoolel!</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(üllatusega)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(üllatusega).</stage>
                     <p>Kas Joosep niidul põlnd?</p>
                 </sp>
                 <sp who="#tanel">
@@ -753,8 +760,8 @@
                     <p>Tiiu ikka, tädike... kas sa mind ei mäleta?</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(eksitust viisakalt parandades)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(eksitust viisakalt parandades).</stage>
                     <p>Tiiu! Miks ei mäleta... kui nägin, kohe mõtlesin, eva, see ju Ristmetsa Tiiu!</p>
                 </sp>
                 <sp who="#tiiu">
@@ -762,8 +769,8 @@
                     <p>Selle kompsu siin, tädi, viin sulle tuppa kostiks! <stage>(Tõttab kompsuga pahemale.)</stage></p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(Tiiule järele vaadates)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(Tiiule järele vaadates).</stage>
                     <p>Neid tütreid sul, Tanel, pole otsa ega aru!</p>
                 </sp>
                 <sp who="#tanel">
@@ -771,8 +778,8 @@
                     <p>Jakobil oli kaksteistkümmend poega, mul kaksteistkümmend tütart, kaks on mullas.</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(lasterikkusele viisakat põhjust otsides)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(lasterikkusele viisakat põhjust otsides).</stage>
                     <p>Sa, sugulane, kah jumala mees.</p>
                 </sp>
                 <sp who="#tanel">
@@ -780,14 +787,14 @@
                     <p>Oma elu läbi olen kõndind jumala käe ja kirjade kõrval. Lauluraamat laual, piibliraamat pingil, katekismus kapis. <stage>(Istub seina äärde ratastele.)</stage> Aga uue aja vaim, see tungib nüüd rüsinal noorrahva sekka. Meil kirikukülas tehti seoke kasinuse selts, kus näitemänge seatakse ja muulgi viisil põrgu poole tantsitakse. Hoiatan sind, Kustav, seesuguse asja eest.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(istub pinu äärde pakule)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(istub pinu äärde pakule).</stage>
                     <p>Kui kõht täis ja uni magus, ei mina muud kasinust vaja.</p>
                 </sp>
                 <pb n="20"/>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(uudishimus)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(uudishimus).</stage>
                     <p>Pidi küll ränk asi olema, Tanel, mis su meite maile tõi... argipäeval ja kibedal heinateol?</p>
                 </sp>
                 <sp who="#tanel">
@@ -808,8 +815,8 @@
                 </sp>
                 <stage>Pahemalt tuleb TIIU, ta on rättidest vabastunud. Samal ajal paremalt tuleb Maali, kõheldes.)</stage>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(Maalit nähes)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(Maalit nähes).</stage>
                     <p>Maali! Kas see on heinategu? Mida sa koju otsid?</p>
                 </sp>
                 <sp who="#maali">
@@ -817,13 +824,13 @@
                     <p>Joosep ütles, pangu ma kohvipada tulele, vöölmöldri rahvas tulnuvad külla.</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(lustakalt)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(lustakalt).</stage>
                     <p>Ära sa, Maali, ka munarooga unusta!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(kõhtu katsudes)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(kõhtu katsudes).</stage>
                     <p>Ja lihakäntsakad pannile särisema! Kodus olen natuke koi. Aga külla tulles tahan hästi süüa.</p>
                 </sp>
                 <sp who="#mari">
@@ -836,24 +843,24 @@
                     <p>On sul ka hea meel, Kustav, et tulin sind vaatama.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(pöörab selja)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(pöörab selja).</stage>
                     <p>Plikadega, näätsa, mina ei edvista.</p>
                 </sp>
                 <pb n="21"/>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(tuleb poega noomima)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(tuleb poega noomima).</stage>
                     <p>Oled sina, Kustav, inimesetükk! Piiga kui pisar pilvest... tema mõmiseb!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(tõustes)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(tõustes).</stage>
                     <p>Küll Kustavilegi eluvaimu sisse toome, kui parajad uudised välja kraamime.</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(põlema minnes)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(põlema minnes).</stage>
                     <p>Sul on uudiseid, Tanel?</p>
                 </sp>
                 <sp who="#tanel">
@@ -866,13 +873,13 @@
                 </sp>
                 <stage>KUSTAV istub pinu ääres pakul, TANEL tuleb, istub pukile ta kõrvale, siis tuleb MARI ja istub Taneli kõrvale teisele pakule. TIIU seisab rühma selja taga.</stage>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(tähtsa näoga kord Marile, kord Kustavile vaadates)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(tähtsa näoga kord Marile, kord Kustavile vaadates).</stage>
                     <p>Sõitsin siia, kallid sugulased... sõitsin siia noh... Sarve Matsi tõstamendi pärast.</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(ei mõista aimata)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(ei mõista aimata).</stage>
                     <p>Sarve Matsi tõstamendi? Mes selle tõstamendiga siis on?</p>
                 </sp>
                 <sp who="#tanel">
@@ -900,8 +907,8 @@
                     <p>Meite Kustavile pärandus, kassa kuule!</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(Kustavit selja tagant müksates)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(Kustavit selja tagant müksates).</stage>
                     <p>Siis naerata natuke, Sarve Matsi ristipoeg!</p>
                 </sp>
                 <sp who="#kustav">
@@ -909,8 +916,8 @@
                     <p>Vaata, susimist ma ei salli, jäta see mood! <stage>(Tõuseb ja laseb ahervarele küljakile.)</stage></p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(heas tujus jutukaks minnes)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(heas tujus jutukaks minnes).</stage>
                     <p>Oli meil suguseltsis see Sarve Mats, suur vembumees ja kaaberjaan. Parseldas hobustega, ostis linu ja takku, ajas<pb n="22"/> laatadel raha kokku ja jõi kõik kõrtsid ja trahterid läbi. Oli püsti pagan, soodoma sulane eluea. <stage>(Vöörmünderliku väärikusega.)</stage> Aga inimese päevad on loetud. Nagu säde haorissu, nagu kotkas raipe selga, nii langes jumala käsi Sarve Matsi kuklasse...</p>
                 </sp>
                 <sp who="#mari">
@@ -922,28 +929,28 @@
                     <p>Samane Sarve Mats nüüd ongi Näsnärudat oma tõstamendis nöögand. Küll paberid Kustavile tulevad pea vallamajast.</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(halvakspanuga)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(halvakspanuga).</stage>
                     <p>Pakub krosse?</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(sisemise rõõmuga)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(sisemise rõõmuga).</stage>
                     <p>Kõvad krossid topib kraesse.</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(kuulatama jäädes)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(kuulatama jäädes).</stage>
                     <p>Nonoh?</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(tähtsust lisades)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(tähtsust lisades).</stage>
                     <p>Kõvad krossid... ära kuku ümber, kui ütlen.</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(hakkab asja tõsidust aimama)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(hakkab asja tõsidust aimama).</stage>
                     <p>Sa ehmatad hirmu ihusse!</p>
                 </sp>
                 <sp who="#tanel">
@@ -951,34 +958,34 @@
                     <p>Kõvad krossid, kõvad krossid. <stage>(Maigutab suud, nagu oleks midagi kurgus.)</stage> Kohe suhu ei mahu hästi see summa! <stage>(Teeb mitu korda ütlemiskatset, kuni viimaks lausub.)</stage> Kolm tuhat vene rubla!</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(masinlikult korrates, kergelt)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(masinlikult korrates, kergelt).</stage>
                     <p>Kolm tuhat rubla?</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(on trumbi välja mänginud)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(on trumbi välja mänginud).</stage>
                     <p>Maksis seda ütlema sõita, mes?</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(on püsti tõusnud, ikka veel taibuta)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(on püsti tõusnud, ikka veel taibuta).</stage>
                     <p>Kolm tuhat rubla? <stage>(Siis järsku taibates summa suurust, röögatab.)</stage> Kolm tuhat rubla... oi sa õnnistuse vägi!</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(on enese vahepeal ka püsti ajanud ning asja sisusse kalduda püüdnud)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(on enese vahepeal ka püsti ajanud ning asja sisusse kalduda püüdnud).</stage>
                     <p>Sa kurat... kus on lops!</p>
                 </sp>
                 <pb n="23"/>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(naba hoides)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(naba hoides).</stage>
                     <p>Kolm tuhat rubla... nüüd küll pühib leivatee lahti! <stage>(Otsib kohta, kuhu istuda.)</stage></p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(uhkustades)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(uhkustades).</stage>
                     <p>Kas te siin üldse olete raha näind?</p>
                 </sp>
                 <sp who="#mari">
@@ -986,8 +993,8 @@
                     <p>Lehma eest saime laadal punase kümnelise paberi ja sinise viierublalise lisaks.</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(tõustes)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(tõustes).</stage>
                     <p>Sajarublalist sa pole näind, Katariina pudretiga?</p>
                 </sp>
                 <sp who="#mari">
@@ -999,8 +1006,8 @@
                     <p>Nüüd poisile laotakse kolmkümmend "katariinat" puhtalt peole.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(langeb kännule istuma, sõrmed karvus)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(langeb kännule istuma, sõrmed karvus).</stage>
                     <p>Sa lopsude lops!</p>
                 </sp>
                 <sp who="#mari">
@@ -1012,8 +1019,8 @@
                     <p>Naistel need pisarad! Ikka tõepoolest? Kuule, Mari, kui see raha su südame peegli nii tuhmiks teeb, siis tea, et saab kaelast selle tüli, kui ei taha.</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(on pakule istunud, pühib põllenurgaga silmi)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(on pakule istunud, pühib põllenurgaga silmi).</stage>
                     <p>See hulk raha paneb ulguma.</p>
                 </sp>
                 <sp who="#tanel">
@@ -1021,8 +1028,8 @@
                     <p>Tõstamendis seisvat, et kui see raha, mis mina, Sarve Mats, olen kavala kauba ning petise tööga kokku kraapind... kõrtsis joomata ja tüdrukuile titekuludeks tasumata jätnud... Et kui see paturaha mu ristipojale ei passi või muidu ta hingele santuseks tuleb, siis see kolm tuhat rubla — seoke paber on tulnd praostile... siis see kallis paturaha ning verehind antagu tervenisti misjoni heaks, vaeste paganate ümberpööramiseks Indiias. — Selle asja tuuma praost mind saatiski selgitama.</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(kelle rahaahnus põhjani vallutanud, kargab sõjakalt püsti)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(kelle rahaahnus põhjani vallutanud, kargab sõjakalt püsti).</stage>
                     <p>Praost võib oma paganatega panni lakkuda, me oleme ise ristiinimesed.</p>
                 </sp>
                 <pb n="24"/>
@@ -1031,8 +1038,8 @@
                     <p>Seda ma küsingi. Et kas Kustav võtab päranduse vastu või jätab kirikule?</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(on vahepeal Kustavile lähenenud)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(on vahepeal Kustavile lähenenud).</stage>
                     <p>Nad, Kustav, tahavad su häält kuulda.</p>
                 </sp>
                 <sp who="#kustav">
@@ -1056,8 +1063,8 @@
                     <p>Mõelda võib, mõtlema peab. Vaata, sugulase poolest soovitan raha võtta. Aga vöörmündrina pean ka kiriku eest seisma ja paganate pärast väljas olema. Et viimsel kohtupäeval ei tuleks ütlemist.</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(tõustes, inimestele mõistust pähe manades)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(tõustes, inimestele mõistust pähe manades).</stage>
                     <p>Kolm tuhat rubla! Ja kaks lolli peavad tarka nõu, kudas rahast lahti saada!</p>
                 </sp>
                 <sp who="#tanel">
@@ -1065,8 +1072,8 @@
                     <p>Tasa, tasa! Vägisi kelleltki ei võeta. Reagitakse ainult, et tõstamendis on oma konksud ning kõverikud. Ja peetakse aru meeste vahel.</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(veendumusega)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(veendumusega).</stage>
                     <p>Kolme tuhande rubla eest inimene sööb sambla ja saepuru alla, kui aga saab raha kätte.</p>
                 </sp>
                 <sp who="#tanel">
@@ -1082,29 +1089,29 @@
                     <p>Võtad või ei võta? Jätad või ei jäta?</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(piinlikult)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(piinlikult).</stage>
                     <p>Ma... ma just parajasti ei märka öelda. Homme on ka päev.</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(tähendusrikkalt)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(tähendusrikkalt).</stage>
                     <p>Homsel on ise homse mured... tänased selgitame kohe.</p>
                 </sp>
                 <pb n="25"/>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(abiotsivalt)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(abiotsivalt).</stage>
                     <p>See hulk raha, Ristmetsa! Mis ma ta'ga teen ja kuhu panen!</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(ülima põlgusega)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(ülima põlgusega).</stage>
                     <p>Mis inimene sa oled, sa ei taha raha!?</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(Kustavile kummardudes, mahedalt)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(Kustavile kummardudes, mahedalt).</stage>
                     <p>Võta pärandus vastu, Kustav, rumal on raha võõrsile lasta. Seega saaks talus mõndagi teha.</p>
                 </sp>
                 <sp who="#tanel">
@@ -1112,8 +1119,8 @@
                     <p>Kolme tuhande rublaga teeme Näsnärudast mõisa!</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(viimses kitsikuses)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(viimses kitsikuses).</stage>
                     <p>Seda inimese hinge et ei jäeta rahule! <stage>(Tõuseb, katsub nagu põgeneda, peatub siis sisemises heitluses.)</stage> Jusku kott oleks peas, ei mõista mõelda!</p>
                 </sp>
                 <sp who="#mari">
@@ -1125,18 +1132,18 @@
                     <p>Jänes? Arvad või? <stage>(Ajab enese teise poolega sirgu.)</stage> No on see raha kord olnd ja tulnd, see tõstamendis tehtud ja nähtud. Siis, kurat, mina selle kopika eest, näätsa, ka jooksma ei hakka!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(võidurõõmsalt)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(võidurõõmsalt).</stage>
                     <p>Mehe sõna!</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(langeb pakule istuli)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(langeb pakule istuli).</stage>
                     <p>Ometi tuli arunatuke latva! Kullahunnik nina all, tema perutab, et võtta või mitte võtta? Kui kivi jões kukuksid põhja ilma emata.</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(patsutab Marile õlale)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(patsutab Marile õlale).</stage>
                     <p>Mis siis muud kui soovime õnne Näsnäruda rahvale!</p>
                 </sp>
                 <sp who="#tanel">
@@ -1145,8 +1152,8 @@
                     <p>Kolm tuhat rubla on raha, kui jumal tahab.</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(käsi kokku pannes)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(käsi kokku pannes).</stage>
                     <p>Õnnistagem seda Sarve Matsi küll haua põhja ja selle taha. Eluaeg sai teist manatud, alles nüüd mõistad, et oli, kadunuke, kallis inimene!</p>
                 </sp>
                 <sp who="#tanel">
@@ -1159,13 +1166,13 @@
                 </sp>
                 <pb n="26"/>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(tagasi pöördudes)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(tagasi pöördudes).</stage>
                     <p>Kas sa, Kustav, ei tulegi?</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(on kogu aeg sünge näoga seisnud)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(on kogu aeg sünge näoga seisnud).</stage>
                     <p>Tulen kui... kui toibun.</p>
                 </sp>
                 <stage>MARI, TANEL, TIIU kaovad pahemale majja.</stage>
@@ -1174,8 +1181,8 @@
                     <p>On hagijad inimese seljas! Hulganisti kallal... soppi a'avad silmiti! <stage>(Laskub kõhuli murule.)</stage> Selle väsimuse peale küll kuluks peatäis põõnata... <stage>(Asetab näo otseti kätele.)</stage></p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(pahemalt tulles)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(pahemalt tulles).</stage>
                     <p>Peremees, kas magad? Kui magad, ega ma siis sind ärata.</p>
                 </sp>
                 <sp who="#kustav">
@@ -1219,8 +1226,8 @@
                     <p>Sarve Matsi... no mis selle töstamendiga siis?</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(rõhutult)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(rõhutult).</stage>
                     <p>Päranduse, näätsa, veeretasid meitele kaela!</p>
                 </sp>
                 <sp who="#joosep">
@@ -1237,18 +1244,18 @@
                 </sp>
                 <pb n="27"/>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(etteheitvalt)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(etteheitvalt).</stage>
                     <p>Kolm tuhat rubla.</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(kargab püsti)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(kargab püsti).</stage>
                     <p>Kolm tuhat rubla?! Sa sea sirkel ja varsa vinkel! Kus tuleb pidu ja pöli. <stage>(Istub Kustavile kaksiti selga.)</stage> Nüüd rõõmulustiga teen sust torupilli! Sahvi urr urr, sehvi urr urr, sahvi kriuhkadi, sehvi krauhkadi, kesk öuemuru kokku!</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(tõukab Joosepi kõrvale)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(tõukab Joosepi kõrvale).</stage>
                     <p>Ära mässa!</p>
                 </sp>
                 <sp who="#joosep">
@@ -1256,8 +1263,8 @@
                     <p>Kuule, sa ei röömustagi...</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(veab enese püsti)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(veab enese püsti).</stage>
                     <p>Mure kaelas, muud ei midagi!</p>
                 </sp>
                 <sp who="#joosep">
@@ -1277,8 +1284,8 @@
                     <p>Ega ma raha karda, ma kardan rahutust. Sõidud, kohtud ja muud mässud, mis nüüd tulevad. Ja kui raha käes, siis kuhu ta paned ja mis ta'ga teed. <stage>(Südame põhjast.)</stage> Millal see laat sedasi lõpeb! Ära nöögivad, näätsa, hea inimese ilusa elu!</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(koomilise parastusega)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(koomilise parastusega).</stage>
                     <p>Ei sool siin ilmas vea mette! Töö eest ikka hoidusid nii hästi ja ümmargusti eemale, aga siis, kurat, tuli önn selga?!</p>
                 </sp>
                 <stage>(Eesriie.)</stage>
@@ -1358,8 +1365,8 @@
                     <p>Ise ma küll veel pole saand mette. Aga tuttav poiss on linnas käind ja läbi akna näind, kui üks saks oli joond.</p>
                 </sp>
                 <sp who="#eedo">
-                    <speaker>EEDO.</speaker>
-                    <stage>(märkab, et teda tögatakse)</stage>
+                    <speaker>EEDO</speaker>
+                    <stage>(märkab, et teda tögatakse).</stage>
                     <p>Luiskad!</p>
                 </sp>
                 <sp who="#joosep">
@@ -1375,13 +1382,13 @@
                     <p>No siis kakume karvu, nagu kaks küürakat Porkuni purdel!</p>
                 </sp>
                 <sp who="#eedo">
-                    <speaker>EEDO.</speaker>
-                    <stage>(vallatluse tujus hüppab üles)</stage>
+                    <speaker>EEDO</speaker>
+                    <stage>(vallatluse tujus hüppab üles).</stage>
                     <p>Sina Porkuni põrsavaras!</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(samuti)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(samuti).</stage>
                     <p>Sina Saksi seavaras!</p>
                 </sp>
                 <sp who="#eedo">
@@ -1434,8 +1441,8 @@
                     <p>Sulasmehed mölemad. <stage>(Mõnutsedes.)</stage> Sedistena siin Näsnäruda öuel higistame. Ja laseme jumala maailmal hea olla ning veel hästem maitsta. Oi pölvekest, pölvekest, pölve otsakest!</p>
                 </sp>
                 <sp who="#eedo">
-                    <speaker>EEDO.</speaker>
-                    <stage>(ringi vaadates)</stage>
+                    <speaker>EEDO</speaker>
+                    <stage>(ringi vaadates).</stage>
                     <p>Kas müristas?</p>
                 </sp>
                 <sp who="#joosep">
@@ -1443,8 +1450,8 @@
                     <p>Mul niisama... soolik torises.</p>
                 </sp>
                 <sp who="#eedo">
-                    <speaker>EEDO.</speaker>
-                    <stage>(tõustes)</stage>
+                    <speaker>EEDO</speaker>
+                    <stage>(tõustes).</stage>
                     <p>Soolik! <stage>(Majale osutades.)</stage> Küll teeb hinge täis. Kuradi vöölmöldrid söövad munapudrud ja kohvipaksud sisse. Aga meile tuuakse ette silk ja kirnukört.</p>
                 </sp>
                 <sp who="#joosep">
@@ -1478,8 +1485,8 @@
                     <p>Lõuad!</p>
                 </sp>
                 <sp who="#eedo">
-                    <speaker>EEDO.</speaker>
-                    <stage>(käed püksitaskus)</stage>
+                    <speaker>EEDO</speaker>
+                    <stage>(käed püksitaskus).</stage>
                     <p>Ohoh!</p>
                 </sp>
                 <sp who="#tanel">
@@ -1498,8 +1505,8 @@
                     <p>Õhõhõ! <stage>(Jookseb paremale.)</stage></p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(hirmsa vihaga)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(hirmsa vihaga).</stage>
                     <p>See on jumala teotus!</p>
                 </sp>
                 <sp who="#joosep">
@@ -1527,8 +1534,8 @@
                     <p>Olevat patt päris tervisekski vahel...</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(põlgusega)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(põlgusega).</stage>
                     <p>Terviseks... mis aitab tervelt põrgu minna? Parem juba ühe silma ja lõhkise peaga taeva. — Kus su tähik on?</p>
                 </sp>
                 <sp who="#mari">
@@ -1566,13 +1573,13 @@
                     <p>Mis mujal paremat on... sama maailm.</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(istub Kustavi juurde pukile)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(istub Kustavi juurde pukile).</stage>
                     <p>On ikka vahedki maailmas, kui vaatad. Vanaemalt, kes pärit Tartumaalt, mäletan üht laulu... kas ma ta sulle loen?</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(ükskõikselt)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(ükskõikselt).</stage>
                     <p>Loed või ei loe.</p>
                 </sp>
                 <sp who="#tiiu">
@@ -1620,18 +1627,18 @@
                     <p>Mis sa nüüd ütled?</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(kellele need jutud ei meeldi)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(kellele need jutud ei meeldi).</stage>
                     <p>Mis inimesel siis kipitleb... sinna noh... sinna sandisse talusse väisse ja kälisse käänata? <stage>(Tõuseb.)</stage></p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(samuti)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(samuti).</stage>
                     <p>Vist on inimesi, kes ei või näha teiste allakäimist... Kes ihkavad oma tööjõuga pööret tuua. Ja teinekord, Kustav... on ka südamel oma kutsumised.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(on pahemal ratastele istunud, äkki)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(on pahemal ratastele istunud, äkki).</stage>
                     <p>Kas sa niita mõistad?</p>
                 </sp>
                 <sp who="#tiiu">
@@ -1643,8 +1650,8 @@
                     <p>Siis on hea. All luhas, näätsa, mul jäi vikat põõsasse püsti. Mis ta seal sedasi seisab... ja sina siin.</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(lõbustatult)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(lõbustatult).</stage>
                     <p>Kas ta siis niidab, see vikat põõsas?</p>
                 </sp>
                 <sp who="#kustav">
@@ -1672,8 +1679,8 @@
                     <p>Kindlasti vist! <stage>(Kaob naeruga paremale.)</stage></p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(Tiiule järele vaadates)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(Tiiule järele vaadates).</stage>
                     <p>Seoke plika on kui takjas küljes... mis ta tahab?</p>
                 </sp>
                 <stage>TANEL ja MARI tulevad paremalt.</stage>
@@ -1683,8 +1690,8 @@
                     <p>Tähikust elulooma ei saa, seda ütleb mu silm.</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(halisedes)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(halisedes).</stage>
                     <p>Hunt murdis lamba, nüüd sureb lehm. Jumal ja metselajas, kõik võtavad mu käest.</p>
                 </sp>
                 <sp who="#tanel">
@@ -1728,13 +1735,13 @@
                     <p>Kustav ja... tegema? Mida see Kustav siis tehku?</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(rõhuga)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(rõhuga).</stage>
                     <p>Kustav peab naise võtma... punkt seoke on tõstamendis.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(kargab püsti, südamest)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(kargab püsti, südamest).</stage>
                     <p>Hulluks olete läind!</p>
                 </sp>
                 <sp who="#mari">
@@ -1742,8 +1749,8 @@
                     <p>Peab naise võtma... meite Kustav. <stage>(Tõuseb.)</stage> See on tore punkt. <stage>(Patsutab Kustavile.)</stage> Pole mina poissi liikuma saand, nüüd Matsi raha paneb rattad alla.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(vaieldamatult)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(vaieldamatult).</stage>
                     <p>Naist mina ei võta!</p>
                 </sp>
                 <sp who="#mari">
@@ -1756,13 +1763,13 @@
                     <p>Siberi lähen, aga naisele mind ei panda!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(torgates)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(torgates).</stage>
                     <p>Kui naisevõtuga üksi lepitaks!</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(uue ehmatusega)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(uue ehmatusega).</stage>
                     <p>Mis siis veel?</p>
                 </sp>
                 <sp who="#mari">
@@ -1770,18 +1777,18 @@
                     <p>Kas need punktid kord ei lõpe!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(tõuseb, astub Kustavi ette, viivitab pinevust tõstes)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(tõuseb, astub Kustavi ette, viivitab pinevust tõstes).</stage>
                     <p>Pead naisele ka lapse saama. Alles siis öeldakse — päri tengi!</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(üsna juhmiks löödud)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(üsna juhmiks löödud).</stage>
                     <p>Lapse!? <stage>(Vajub vankrile.)</stage> Nüüd on ots!</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(rõõmsalt)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(rõõmsalt).</stage>
                     <p>Meite Kustavil naine ja laps... see on ilus ja aus asi. <stage>(Kustavit silitades ja lohutades.)</stage> Ära muretse, pojuke, küll me need punktid kõik labusasti... ühel nõul ja jõul. <stage>(Tanelile.)</stage> Oli tükimees see Mats siin maa peal. Näe, surreski need vorukid tal pole seest läind.</p>
                 </sp>
                 <sp who="#tanel">
@@ -1789,8 +1796,8 @@
                     <p>Matsi naljad on meile tõeks. No Kustav, kas võtame nüüd enese pisut pihku?</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(tõustes, uue hooga)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(tõustes, uue hooga).</stage>
                     <p>Söögu paganad Sarve Matsi... mina tema raha ei taha! <stage>(Katsub põgeneda.)</stage></p>
                 </sp>
                 <sp who="#mari">
@@ -1798,13 +1805,13 @@
                     <p>Kudas ei taha raha?!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(Kustavile teed kinni pannes)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(Kustavile teed kinni pannes).</stage>
                     <p>Ägedad sõnad ütleme ära. Aga ilus nõu on pärast kallis asi. Me kõik oleme pidanud kord oma elu korraldama.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(algava langusega)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(algava langusega).</stage>
                     <p>Naise veel laseks enesele kudagi võtta. Aga kust ma lapse saan?</p>
                 </sp>
                 <sp who="#mari">
@@ -1816,8 +1823,8 @@
                     <p>Peaasi on naine. Kui see käes, küll siis jumal ka lapse eest muretseb.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(kergendusega)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(kergendusega).</stage>
                     <p>Noh kui jumal...</p>
                 </sp>
                 <sp who="#tanel">
@@ -1825,8 +1832,8 @@
                     <p>Tõstamendi järele kolm aastat on armuaega. Kolme aastaga olgu punktid pandud ja täpid täidetud.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(ilmatu õnnetundega)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(ilmatu õnnetundega).</stage>
                     <p>Kolm aastat, siis, kurat, on aega!</p>
                 </sp>
                 <pb n="36"/>
@@ -1843,18 +1850,18 @@
                     <p>Kolmandal võtad... millal siis jõuad? Ega laps ole varnast võtta, see annab teinekord oodata. Jääd hiljaks, kui kohe ei alusta.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(muretult)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(muretult).</stage>
                     <p>Kolm aastat. <stage>(Taskuid kobades istub paremale müürile.)</stage> Paneme ikka enne piibud suitsu, eks siis näe, kust neid naisi ja lapsigi soetatakse.</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(istub kännule)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(istub kännule).</stage>
                     <p>Jäta piip, mul on sulle paremat. Vaata siia... <stage>(Võtab põuest.)</stage> Võtsin kirikukõrtsist paki sigareid. Suured päranduse, pulma ja ristsete värgid ees, mõtlesin. Et kui hakkan väimeespojaga mehejuttu puhuma, siis suu oleks seadsam. Tule, võta!</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(ei viitsi hästi tagumikku tõsta, aga et käsi ei ulatu, tõuseb ometi)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(ei viitsi hästi tagumikku tõsta, aga et käsi ei ulatu, tõuseb ometi).</stage>
                     <p>Sigar! <stage>(Sõrme vahel veeretades.)</stage> Sehukest toppu pole varem igemesse saand... ole meheks! <stage>(Istub Taneli kõrvale.)</stage></p>
                 </sp>
                 <sp who="#tanel">
@@ -1862,8 +1869,8 @@
                     <p>Sigar või naine... kõigega mees kord teeb algust! <stage>(Pakub tuld.)</stage> Tõmba tuli otsa!</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(popsutab)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(popsutab).</stage>
                     <p>Ta narr ei võta, näätsa, vedu!</p>
                 </sp>
                 <sp who="#tanel">
@@ -1871,12 +1878,12 @@
                     <p>Hammusta ots lahti... vaata nii... <stage>(Hammustab omal ja sülitab otsa suust.)</stage> Nõnda!</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(teeb kõik kohmakalt järele)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(teeb kõik kohmakalt järele).</stage>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(annab uuesti tuld)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(annab uuesti tuld).</stage>
                     <p>No näed! <stage>(Süütab ka oma sigari.)</stage></p>
                 </sp>
                 <sp who="#kustav">
@@ -1884,8 +1891,8 @@
                     <p>Juba võtab! Ja hea hais on teisel taga!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(uhkustades)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(uhkustades).</stage>
                     <p>Maksab ka raha... kaks tükki, kolm kopikat!</p>
                 </sp>
                 <sp who="#kustav">
@@ -1898,18 +1905,18 @@
                 </sp>
                 <pb n="37"/>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(Kustavile patsutades)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(Kustavile patsutades).</stage>
                     <p>Sabast kinni, sabast kinni, pojuke. Venimisega seda raha ei võeta. Lips kosja, lips laalatusele ja lips laps.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(kelle süda jälle saapasäärde vajub nii paljude ülesannete ees)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(kelle süda jälle saapasäärde vajub nii paljude ülesannete ees).</stage>
                     <p>Laadaks läheb see elu!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(oma ohvrit uuele seisusele ka sisemiselt ette valmistada katsudes)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(oma ohvrit uuele seisusele ka sisemiselt ette valmistada katsudes).</stage>
                     <p>Ära pane pahaks, armas poeg, kui isa asemel sulle ütlen õpetuse sõna. See pole hea, kui inimene üksi on, ehk olgu siis pühad mehed, kes on kohitsetud Issandale. Perekond on elu põhi. Aga vallaliste kombed... Kas ma ei näe, kudas poisid kaaberdavad küla vahel ja lesed mehed on kui tõllatäkud, kes ligimese naist taga hirnuvad. Nagu me praostki ütleb, et üks hirmus läpatise hais tõuseb kuuenda käsu korstnast.</p>
                 </sp>
                 <sp who="#kustav">
@@ -1917,8 +1924,8 @@
                     <p>Omastki naisevõtust hoiaks eemale, milleks mul neid teiste naisi tarvis!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(vöörmünderliku väärikusega)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(vöörmünderliku väärikusega).</stage>
                     <p>Inimene peab vägevaks valitsejaks saama nende vägede üle, mis looja ta kätte usaldand. Tulus on see tuli, kui ta põleb abielu ahjus. Sest abielus, mu poeg, saad pattu tegemata kurjast himust lahti. Ja mis sest himust hea oli, seda kulda sulatab just abielu su luukontide sisse hiilgama.</p>
                 </sp>
                 <sp who="#kustav">
@@ -1926,13 +1933,13 @@
                     <p>Pole mul, näätsa, miskit seokest himu, millest häda oleks lahti saada.</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(Kustavit parandades)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(Kustavit parandades).</stage>
                     <p>Pole häda? Piibel ütleb, et inimese südame mõtlemised on kurjad ta lapseeast peale. <stage>(Sõrmega ähvardades.)</stage> Ja kurat naerab, kui sa jumalast tahad targem olla.</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(paremal müürile istudes)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(paremal müürile istudes).</stage>
                     <p>Eks jumalasõna ole õnnis kuulda küll. Aga peaasi, kust me Kustavile naise saame?</p>
                 </sp>
                 <sp who="#tanel">
@@ -1953,18 +1960,18 @@
                     <p>Muretse, Tanel, sinuta me sohu jääme! — Kes ta's on, kes ta's on? <stage>(Mahedalt.)</stage> Keda's sa, Tanel, õite arvasid?</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(muheldes)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(muheldes).</stage>
                     <p>Kes ta on? <stage>(Näeb Kustavi ja Mari juhme nägusid, tõuseb järsku.)</stage> Kes ta on! <stage>(Saab ikka vihasemaks.)</stage> Imelikud inimesed olete siin Näsnärudal. Kes ta on!? Kas mul seda kraami omal kodus vähe ladus?</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(äkilise valgustusega)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(äkilise valgustusega).</stage>
                     <p>Tanel?! <stage>(Tõuseb.)</stage></p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(märkab, et jälle midagi saatuslikku sünnib, tõuseb kaasa)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(märkab, et jälle midagi saatuslikku sünnib, tõuseb kaasa).</stage>
                 </sp>
                 <sp who="#tanel">
                     <speaker>TANEL.</speaker>
@@ -1979,8 +1986,8 @@
                     <p>Siis on hästi. Nädala sees lugemisele, pühapäeval kantslist alla.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(seesugusest kiirusest vaevatud)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(seesugusest kiirusest vaevatud).</stage>
                     <p>Nii kähku... nii kähku mina küll ei saa...</p>
                 </sp>
                 <sp who="#tanel">
@@ -1988,13 +1995,13 @@
                     <p>Minu põhjusmõte on — paugu pealt!</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(meelitades)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(meelitades).</stage>
                     <p>Mis sul, pojuke, viga naist võtta. Tüdruk toodi koju kätte. Tanel reagib praostile augu pähe. Joosep torkab hobuse aiste vahele. Ja mina aitan sulle paremad püksid jalga. Sina ainult istud peale ja sõidad.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(norutusega)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(norutusega).</stage>
                     <p>Sõidad... hea öelda, sõidad! Aga mis pärast tuleb ja saab? Ja kudas selle lapsegagi jääb... et tuleb ka juba see nädal jutti viia... kudas ma jõuan!</p>
                 </sp>
                 <sp who="#tanel">
@@ -2006,13 +2013,13 @@
                     <p>Mis sa, Kustav, veel tahad... su'st saab vöörmündri väimees!</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(lootuseta)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(lootuseta).</stage>
                     <p>Nende saamiste otsa enam mõistab!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(loeb asja otsustatuks)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(loeb asja otsustatuks).</stage>
                     <p>Nii siis, Kustav, oled peigmees mees. Otsi nüüd plika üles ja tee talle lahke nägu. Tüdrukule peab ka ivake armastusest reakima, seda nüüd uuemal ajal nagu nõutakse.</p>
                 </sp>
                 <sp who="#kustav">
@@ -2020,33 +2027,33 @@
                     <p>Armastust ka veel... te tapate mu ära! <stage>(Laskub maoli murule.)</stage></p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(Kustavit silitades)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(Kustavit silitades).</stage>
                     <p>Pole viga, pojuke, seda teed kõik inimesed käivad...</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(Marile)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(Marile).</stage>
                     <p>Nü. Nüüd läki tuppa... on mõnda arutada...</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(minnes)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(minnes).</stage>
                     <p>Kas tüdruk ise on nõus?</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(minnes)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(minnes).</stage>
                     <p>Mehele nad kõik kipuvad. Oi, oi, kallis Näsnäruda perenaine! Kümme tütart... see pole nali!</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(järele kiites)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(järele kiites).</stage>
                     <p>See pole nali, see pole nali! <stage>(Kaovad pahemale.)</stage></p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(endamisi)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(endamisi).</stage>
                     <p>Küll mässivad sisse mehe, oi jumal! <stage>(Tõuseb istukile.)</stage> Kudas nad su eest kõik siledaks rehitsevad, et Kustav mine ja Kustav astu! Aga mis Kustavi hing sees ütleb, kes sellest küsib. <stage>(Ennast kobades.)</stage> Nikkis siin ja näkkis ennist, vaat' mis nüüd sai! <stage>(Märkab Joosepit, kes paremalt tulnud.)</stage> Kas sa niidul pole?</p>
                 </sp>
                 <sp who="#joosep">
@@ -2135,14 +2142,14 @@
                     <p>Punkt? Punkt on halb! Mis kirjas seisab, seda püssirohuga mette ei pöleta välja.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(raske ohkega)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(raske ohkega).</stage>
                     <p>Tuleb Ristmetsa Tiiuga lugemisele sõita!</p>
                 </sp>
                 <pb n="41"/>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(kellele ei meeldi see mõte, tõustes)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(kellele ei meeldi see mõte, tõustes).</stage>
                     <p>Viitsakale vibu ja kiitsakale kibu — miks siis Tiiuga? Kas su Tiiu ka töstamendis seisab?</p>
                 </sp>
                 <sp who="#kustav">
@@ -2150,8 +2157,8 @@
                     <p>Tõstamendis jusku Tiiut ei olnd. Aga Tanel, näätsa, sel kombel rõhub peale.</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(sõjakalt)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(sõjakalt).</stage>
                     <p>Tanel röhub, meks mette? Kolm tuhat rubla... selle valuga siia söideti. Maksab tütart paigale panna!</p>
                 </sp>
                 <sp who="#kustav">
@@ -2159,18 +2166,18 @@
                     <p>Punkt seisab tõstamendis. Tiiuga või mõne teisega... Üks Siber on kõik.</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(rinnuti vastu)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(rinnuti vastu).</stage>
                     <p>Üks keik, kos ta üks on! Mette keik plikad pole sedised kui see. Perenaise kord tallu vötma pead. Aga Ristmetsa töug Näsnärudale ei kölba, kohe ei anna plaani välja. Tiiu oma rumala töölustiga, ütlen sulle, rikuks siin igasuguse hingerahu.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(virisedes)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(virisedes).</stage>
                     <p>Hommikul pükse jalga vedades kas võisin aimata, mis plevnasse ma keskpäeval satun! <stage>(Tõsises meeleheites.)</stage> Seoke maik on praegu südames, et kui viitsiks ohelikku otsida ja seda konksu otsa upitada, pooks enese, näätsa, üles!</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(kes vahepeal rahutult väljapääsu otsinud)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(kes vahepeal rahutult väljapääsu otsinud).</stage>
                     <p>Poomisega, peremees, pea natuke vahet. Ma annan sulle kergemat nöu.</p>
                 </sp>
                 <sp who="#kustav">
@@ -2191,13 +2198,13 @@
                 </sp>
                 <pb n="42"/>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(sügab kukalt)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(sügab kukalt).</stage>
                     <p>Äkki pole asi korras? <stage>(Rõõmsalt.)</stage> Kuule, see mõte mulle meeldib! Sest oleks ikka ilmatu lahe küll, kui esialgugi saaks eemale hoida prahist! Võtaks veel viimse peatäie magada... enne laata!</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(julgustavalt)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(julgustavalt).</stage>
                     <p>Saab hoiduda prahist, esialgu ja pärast ka. Kuku aga köhtu kisendama. Kui pühabani selle vinkli välja pead, on Tanel tütrega läind!</p>
                 </sp>
                 <sp who="#kustav">
@@ -2209,8 +2216,8 @@
                     <p>Issanda päev! Vöörmünder peab pühapäeval kirikus olema.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(upitab enese püsti, laia naeruga)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(upitab enese püsti, laia naeruga).</stage>
                     <p>Oi sa kurat, kus meil on nuppu!</p>
                 </sp>
                 <sp who="#joosep">
@@ -2256,8 +2263,8 @@
                     <p>Mina seda haigust ei usu. Poiss tembutab.</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(tõustes)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(tõustes).</stage>
                     <p>Ei meite Kustav tembuta... pole seda märku antud. Venimus ta on viimse varbani. Aga otsepärase meele ja sirgeliku südamega. Haigus tal on jumalast, mitte oma tehtud.</p>
                 </sp>
                 <sp who="#tanel">
@@ -2315,8 +2322,8 @@
                     <p>Ega ma nuta... muidu hõõrusin. Vist marjad silmas, et kihelevad.</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(kahtlase pilguga)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(kahtlase pilguga).</stage>
                     <p>Kihelevad... kes teite marju teab! <stage>(Kaob Taneli järele paremale.)</stage></p>
                 </sp>
                 <pb n="45"/>
@@ -2326,8 +2333,8 @@
                     <p>Oh jumal, jumal!</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(märkab Maalit, satub heas tujus ja vigurdades laulma)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(märkab Maalit, satub heas tujus ja vigurdades laulma).</stage>
                     <l>Ma vaatan paadist kiikriga,</l>
                     <l>Kas paistab juba Saaremaa.</l>
                     <l>Ei paremat pole kuski maal,</l>
@@ -2342,12 +2349,12 @@
                     <l>Ja kaela ümber sametpael...</l>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(nuutsub)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(nuutsub).</stage>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(märkab alles nüüd teise meeleolu)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(märkab alles nüüd teise meeleolu).</stage>
                     <p>Kuule, mis nuuts see on? Mis viga, Maalike?</p>
                 </sp>
                 <sp who="#maali">
@@ -2359,13 +2366,13 @@
                     <p>Nonoh?</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(häälega, mis ikka jälle murdub)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(häälega, mis ikka jälle murdub).</stage>
                     <p>Kas ma sulle vähe reakisin, et kos sa sedasi... mis hullu sa mooga teed. Et kui olen sulle armas, eks siis niigi ole õnnelik olla. Aga sina kui kull laisa kallal, üks tõtt ja võtt... eks nüüd ole käes! <stage>(Nutuga.)</stage> Eks nüüd ole käes!</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(hüppab püsti)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(hüppab püsti).</stage>
                     <p>Mis? Käes? Kut kuram ta nii korraga!</p>
                 </sp>
                 <sp who="#maali">
@@ -2373,8 +2380,8 @@
                     <p>Olin ise ammu pahal aimul, eile õhtul siis käisin Lombi-Kadril... pole enam kahtlust miskit.</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(pühib otsa)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(pühib otsa).</stage>
                     <p>Näe, ihule võttis kohe vahu meerme peale!</p>
                 </sp>
                 <pb n="46"/>
@@ -2383,43 +2390,43 @@
                     <p>Mis me nüüd teeme, Joosep?</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(peatult)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(peatult).</stage>
                     <p>Teeme, teeme... Mina's tean, rohkem naiste asi!</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(unistava lootusega)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(unistava lootusega).</stage>
                     <p>Mis mul viga, kui oleksin naine!</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(tal on enesest koledasti kahju hakanud, on kännul aset võtnud)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(tal on enesest koledasti kahju hakanud, on kännul aset võtnud).</stage>
                     <p>Nii heleda meelega mötlesin öhtu so juurde tulla, Aga vaata, mis sa mooga teed! Elu rikud ühe ropsuga.</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(pealetungi alustades)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(pealetungi alustades).</stage>
                     <p>No kes seda rikkumist alustas?</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(kui erilasest nõelatud, hüppab üles)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(kui erilasest nõelatud, hüppab üles).</stage>
                     <p>Alustas... nüüd sa ütled — alustas. Tüdruk ikka süütu, kui saab tite... kus nüüd tema! Aga kelle veri see vedas, kelle puna see põles? Kust see leek su silmi, kust see värin su häälde tuli? Päeval hepleb ja kepleb ees. Ja öösel on kui sula vaha, ei saa sörmede küljest lahti. Missa sedasi, missa sedasi... no kudasi siis? Kui sa aiva pöue poed ja hölma ojud, eks siis mehegi meel löö mühama. <stage>(Iseennast kirudes.)</stage> Siis söhuke nälg langeb su peale, et jusku vöi vitsik oleks vöö vahel... mette ei pääse sest mööda!</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(tunneb, et poisilgi on omast kohast õigus, õrnalt)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(tunneb, et poisilgi on omast kohast õigus, õrnalt).</stage>
                     <p>Mida nüüd tapled, meheke, olid ju ilusad a'ad.</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(järsult)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(järsult).</stage>
                     <p>Istu nüüd oma ilu ja a'aga!</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(tõustes ja Joosepile läheneda katsudes)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(tõustes ja Joosepile läheneda katsudes).</stage>
                     <p>Ega ma tite vastu põle, las lapsuke tulla, kui on tulema pandud. Kui meil oma pere ja tare oleks!</p>
                 </sp>
                 <sp who="#joosep">
@@ -2427,19 +2434,19 @@
                     <p>Oma pere... kuhu varna ma ta riputan! Jäin suurele maale sulasena tolknema, nüüd tahad moost teha ka moonaka. — Vaata, vötan hölmad vöö vahele ja kaon homme päev!</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(langeb kännule)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(langeb kännule).</stage>
                     <p>Mis siis minust saab, kui sa mu jätad? <stage>(Nuttes.)</stage> Kuhu sohu ma veara lapsega vaon...</p>
                 </sp>
                 <pb n="47"/>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(otsib väljapääsu)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(otsib väljapääsu).</stage>
                     <p>Võis teisigi su juures käia. Altmetsa Sassigi siin vahel nähti kööritamas. Teab, kelle teost tehtud, kelle pahast pandud!</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(hellusega)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(hellusega).</stage>
                     <p>Nüüd, Joosepike, oled küll möga! Meite see maimuke on. Me oma suuandmisest, me endi kaelahakkamisest...</p>
                 </sp>
                 <sp who="#joosep">
@@ -2455,38 +2462,38 @@
                     <p>Sinu nahka ma nüüd lähen! <stage>(Vihaga.)</stage> Magasin su juures, no magasin! Aga midagi ei ole luband. Ei kihlu pidada mette, ei viine vististi tuua.</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(läbi nutu, ägedalt)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(läbi nutu, ägedalt).</stage>
                     <p>Siis oma häbi alla vaon. Soolaukas või linaleos on mu ots. Siis kaks elulooma su hinge peale jäävad, pea meeles, poiss!</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(tunneb, et pääsu ikka pole)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(tunneb, et pääsu ikka pole).</stage>
                     <p>Ai sina, tüdruku-kassakas, kudas ta plindrisse paneb mehe! — Mehele tahad saada, seks neid tuliseid süsi mu pöue puhud!</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(nuutsudes)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(nuutsudes).</stage>
                     <p>Ei ole ju teist pääsu kui mehele...</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(heideldes)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(heideldes).</stage>
                     <p>Mehele... mehele! Mis ma teen, no mis ma teen! <stage>(Äkilise mõttesähvatusega.)</stage> Pea, pea, öigus! Vaata see on möte! Sa sea sirkel ja varsa vinkel, kui valatud!</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(tõustes)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(tõustes).</stage>
                     <p>Sa arvad?</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(rõõmsalt)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(rõõmsalt).</stage>
                     <p>Mehele pead sa saama!</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(langeb Joosepile kaela)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(langeb Joosepile kaela).</stage>
                     <p>Oi jumal, Joosep!</p>
                 </sp>
                 <sp who="#joosep">
@@ -2495,8 +2502,8 @@
                 </sp>
                 <pb n="48"/>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(segaduses)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(segaduses).</stage>
                     <p>Kellele... kas sa ise mitte?</p>
                 </sp>
                 <sp who="#joosep">
@@ -2508,8 +2515,8 @@
                     <p>Mis jutt see nüüd on, Joosep! Kes teine mind sedasi... <stage>(Ara uudishimuga.)</stage> Keda sa õite arvad?</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(tähtsust võttes)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(tähtsust võttes).</stage>
                     <p>Keda ma arvan? Ütlen sulle. <stage>(Sosistades.)</stage> Vaata ma kosjan su meite Kustavile, mehe sõna!</p>
                 </sp>
                 <sp who="#maali">
@@ -2517,13 +2524,13 @@
                     <p>Kustavile... kuule, sa oled ogar!</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(müksates)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(müksates).</stage>
                     <p>Kas on paha Näsnäruda perenaiseks saada, mes?</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(mitme mõtte heitluses)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(mitme mõtte heitluses).</stage>
                     <p>Näsnäruda perenaiseks? Oi jumal! Ei, ei... ei minust seda saa! Ja sina... kuhu sina siis jäed? Ja mis Kustavil mind tarvis on tahta?</p>
                 </sp>
                 <sp who="#joosep">
@@ -2539,8 +2546,8 @@
                     <p>Asja peab liigutama, siis läheb! — Sina nüüd mine ja pane omale paremat hilpu selga. Ma seni katsun Kustavi leida ja talle auku pähe reakida. <stage>(Tõukab Maali minekule.)</stage></p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(tõrkudes)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(tõrkudes).</stage>
                     <p>Ei, ei... seda ma ei tee!</p>
                 </sp>
                 <sp who="#joosep">
@@ -2556,24 +2563,24 @@
                     <p>Vöörale... kas me vöörale... oma enese peremehele... Jääb titt tallu, kui tuleb! On poeg, saab tulevane Näsnäruda peremees.</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(uue imestusega)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(uue imestusega).</stage>
                     <p>Meie poeg Näsnäruda peremees!</p>
                 </sp>
                 <pb n="49"/>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(isegi oma tarkust imetledes)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(isegi oma tarkust imetledes).</stage>
                     <p>Sulasmees! Aga poja jo enne sündimist keerab peremeheks! Kudas sa oma lapse eest ei hoolitse?</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(kahtlusega)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(kahtlusega).</stage>
                     <p>See alles reakida... pole veel midagi keerand.</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(hoobeldes)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(hoobeldes).</stage>
                     <p>No kui mina ise oma pruudile isameheks hakkan, siis titel on papa mis paugub!</p>
                 </sp>
                 <sp who="#maali">
@@ -2581,8 +2588,8 @@
                     <p>Oi, Kustav tuleb... mina kardan!</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(Maalit pahemale saates)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(Maalit pahemale saates).</stage>
                     <p>Mine, mine! Ja ära kehitust ning kenitust mette unusta... mehele peab ikka meeldima kah!</p>
                 </sp>
                 <stage>MAALI on pahemale kadunud. Paremalt venib lavale KUSTAV unise näoga, heinapebred riietel.</stage>
@@ -2591,8 +2598,8 @@
                     <p>Kost pahust sina, peremees, välja veeresid?</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(istub ahervarele ja hakkab enesele aset mugandama)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(istub ahervarele ja hakkab enesele aset mugandama).</stage>
                     <p>Kõik põõsad ja puhmad nuhivad läbi. Siis vajusin aganikku, ei osata sealt veel otsida. <stage>(Haigutab.)</stage> Oah!</p>
                 </sp>
                 <sp who="#joosep">
@@ -2641,8 +2648,8 @@
                     <p>Nii harjud ka naisega... pärast ei saagi ilma olla. <stage>(Asja juurde minnes.)</stage> Sarve Matsi kiusuks sool üks emane tuleb vötta...</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(naisevõtust kurguni villand)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(naisevõtust kurguni villand).</stage>
                     <p>Viskaks selle Näsnäruda kaelast ja kaoks. Huiguks kui metsjeesus maailmas... näätsa, ei viitsi vantsida.</p>
                 </sp>
                 <sp who="#joosep">
@@ -2650,18 +2657,18 @@
                     <p>Mina möistan, sool on söhuke hing, et ihkab rängasti rahu. <stage>(Rõõmsalt.)</stage> Kannata veel pisut. Vöörmündrit ju kuuldi häält töstvat, et — tohu pörgu, homme on Issanda päev! Köötsutab vanaroisk veel täna kodu poole... keige suguseltsiga.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(ei tunne enam miskit rõõmu)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(ei tunne enam miskit rõõmu).</stage>
                     <p>Võtaks samase Tiiu, kui on tallu toodud... saaks rahu.</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(tõustes, tigedalt)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(tõustes, tigedalt).</stage>
                     <p>Tiiust sul palju rahu tuleb! Kohe uus mure... kus laps. <stage>(Rõhuga.)</stage> Pole ju tüdrukul titte kaasa tuua.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(koorma all kõveras)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(koorma all kõveras).</stage>
                     <p>Titte... see pole valmis võtta!</p>
                 </sp>
                 <sp who="#joosep">
@@ -2669,8 +2676,8 @@
                     <p>Ei ole? <stage>(Saladuslikult, poolsosinal.)</stage> On naisi nöhukesi, et jo tulles oo väikest vamiili kaasas.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(teise kõrvaga kuulatama jäädes)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(teise kõrvaga kuulatama jäädes).</stage>
                     <p>Väikest vamiili?</p>
                 </sp>
                 <sp who="#joosep">
@@ -2683,13 +2690,13 @@
                     <p>Mes lori see on?</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(patsutab Kustavile õlale)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(patsutab Kustavile õlale).</stage>
                     <p>Söhuke sassi läind tüdruk... küll oleks soole marjaks!</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(kordab masinlikult)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(kordab masinlikult).</stage>
                     <p>Sassi läind tüdruk... <stage>(Hakkab mõtlema.)</stage> Mespärast sassi? <stage>(Taipamise esimese kiirega.)</stage> Ah sassiläind tüdruk! <stage>(Üsna taibanud.)</stage> Õigus, sassiläind tüdruk!! <stage>(On üles kerkinud, laia naeruga.)</stage> Sassiläind tüdruk... kui mehel nuppu on peas! <stage>(Kõhklevalt.)</stage> Sassiläind tüdruk, hm... kost sa ta välja võtad?</p>
                 </sp>
                 <sp who="#joosep">
@@ -2737,8 +2744,8 @@
                     <p>See pole mehe jutt! Kas minust vöi mönest teisest... tüdruk on sedasi, nagu sa vajad. Maaliga saad tubli tüki tallu. Ja lapsest pole muret, mehe sõna.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(kukalt kraapides)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(kukalt kraapides).</stage>
                     <p>Sassiläind tüdruk? Oleks ikka kena küll, kui ühe vooriga saaks vamiili koju!</p>
                 </sp>
                 <sp who="#joosep">
@@ -2747,8 +2754,8 @@
                 </sp>
                 <pb n="52"/>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(pead vangutades)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(pead vangutades).</stage>
                     <p>Sedasi ikka ei lähe... kindlasti vist!</p>
                 </sp>
                 <sp who="#joosep">
@@ -2764,13 +2771,13 @@
                     <p>Vööras laps... mis vööras ta soole on. Eks sulase toimetused ikka tule peremehe kasuks. Jäägu siis lapski talule, kui ta su krundi peal on saadud.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(instinktiivselt)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(instinktiivselt).</stage>
                     <p>Mina ei tea... seestpidi hakkab kohe vastu... Vaat', mina seda Maalit ei taha!</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(tigedalt)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(tigedalt).</stage>
                     <p>Kas sa kuuled, ei taha? <stage>(Õlgu kehitades.)</stage> Kudas arvad! Mina ei saa ja sina ei taha... eks siis Näsnärudal sünnivad hirmsad asjad!</p>
                 </sp>
                 <sp who="#kustav">
@@ -2782,8 +2789,8 @@
                     <p>Teeb tüdruk otsa enesele!</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(kohkudes)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(kohkudes).</stage>
                     <p>Teeb otsa!?</p>
                 </sp>
                 <sp who="#joosep">
@@ -2807,23 +2814,23 @@
                     <p>Oled sina mees, pölgad elusa tüdruku! No kas on parem, kui ta su linaleost surnult tõmmatakse? <stage>(Kahjurõõmsalt.)</stage> Näsnäruda krundi peal! Oi jumaluke neid protokolle, mis siis su kaela sajab! Ja kohtuskäimisi kolmeks aastaks! Seda rahu sa omale otsid, raudade kõlinat! Sest inimesetapp, pane tähele! on märksa hirmsam tegu kui naisevött vöi muu päranduse sekeldus.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(vajub saepakule)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(vajub saepakule).</stage>
                     <p>Oi sina Issand, kudas kõik teed mu ees on püsti! Mis ma teen, no mis<pb n="53"/> ma teen? <stage>(Alandlikult.)</stage> Sa näed ise, Joosep, ma olen pehme!</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(rõõmsalt)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(rõõmsalt).</stage>
                     <p>Kui kaubad koos, siis anna käsi!</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(sirutab käe, vaatab ise teisale)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(sirutab käe, vaatab ise teisale).</stage>
                     <p>Tüdruk-inimene, mis ta ennast tapab!</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(istub teisele saepakule)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(istub teisele saepakule).</stage>
                     <p>Öige söna! Tapmiseni ei tohi minna! — Aga kudas Tanel saab ninanipsu! Viib oma Tiiu tagasi, kui hallitand kringli!</p>
                 </sp>
                 <sp who="#kustav">
@@ -2831,8 +2838,8 @@
                     <p>Tanelist nüüd... sõitku! Aga Tiiu... <stage>(Kratsib kukalt.)</stage> Aga tüdrukust, näätsa, nagu hakkaks kahju.</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(põlgusega)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(põlgusega).</stage>
                     <p>Mis kahju sul... sedisest!</p>
                 </sp>
                 <sp who="#kustav">
@@ -2840,19 +2847,19 @@
                     <p>Ei märgand seni miskit. Aga kui ütlesid... hallitand kringli, siis tundsin... tundsin, et pole ta'st ilus nõnda reakida. Ta, raisk, oli üsna hea paistusega mu vastu.</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(üleolevalt)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(üleolevalt).</stage>
                     <p>Tiiu? Maali paistus tuleb sulle palju priskem, küll näed!</p>
                 </sp>
                 <stage>Pahemalt tulevad MARI ja TANEL, nende järel TIIU.</stage>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(Kustavit nähes)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(Kustavit nähes).</stage>
                     <p>Kus sa ometi, Kustav, olid... Ristmetsa rahval, näe, kõva minek käes.</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(tõustes)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(tõustes).</stage>
                     <p>Meite pärast vöivad söita!</p>
                 </sp>
                 <sp who="#tanel">
@@ -2864,8 +2871,8 @@
                     <p>Kas tõbi, pojuke, lööb juba lahkemaks?</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(pomiseb)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(pomiseb).</stage>
                     <p>Seda tõve nüüd teab...</p>
                 </sp>
                 <sp who="#joosep">
@@ -2877,8 +2884,8 @@
                     <p>Tänu taevale, ometi kord!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(rõõmsalt)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(rõõmsalt).</stage>
                     <p>Nü et kõhu poolest võib sõita?</p>
                 </sp>
                 <sp who="#kustav">
@@ -2887,13 +2894,13 @@
                 </sp>
                 <pb n="54"/>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(vahele)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(vahele).</stage>
                     <p>Aga asjaolud!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(rahuldusega)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(rahuldusega).</stage>
                     <p>Siis läheb sõit lahti. Veel täna õhtu möllime kirikumõisas ära... öömaja saab Ristmetsal. Ja homme praost viskab esimest korda kantslist alla. Et kel midagi ütlemist, see tehku seda kohe. Ja pärast pidagu mokk.</p>
                 </sp>
                 <sp who="#joosep">
@@ -2905,13 +2912,13 @@
                     <p>Kas on sedasi, Kustav?</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(arglikult)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(arglikult).</stage>
                     <p>Sedasi... sedasi... <stage>(Saab tugeva müksu Joosepilt ribidesse.)</stage> Ma sinuga, näätsa, vist ei sõida, nagu märkan...</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(kui taevast kukkunud)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(kui taevast kukkunud).</stage>
                     <p>Kudas ei sõida?</p>
                 </sp>
                 <sp who="#mari">
@@ -2919,13 +2926,13 @@
                     <p>Mis joba sa, Kustav, jälle a'ad!</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(Tanelile, hästi kikkis ja kekkis)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(Tanelile, hästi kikkis ja kekkis).</stage>
                     <p>Nüüd, Ristmetsa, viid oma tütred ja rakmed kenasti koju. Meitel hobused ja pruudid omast käest, vöörast mette ei vaja.</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(arusaamatuses)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(arusaamatuses).</stage>
                     <p>Hobused ja pruudid? Mis jutt see on?</p>
                 </sp>
                 <sp who="#mari">
@@ -2945,18 +2952,18 @@
                     <p>See on... see on, näätsa...</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(Kustavile)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(Kustavile).</stage>
                     <p>Lausu ära, on kohe kergem!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(on Kustavil kraest haaranud)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(on Kustavil kraest haaranud).</stage>
                     <p>Mis see on? <stage>(Tõmbab Kustavi nattipidi üles.)</stage> Kas kosid mu tütre? Kas kosid või ei kosi?</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(vahele)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(vahele).</stage>
                     <p>Mis sa nüüd, isa, nii ägedasti...</p>
                 </sp>
                 <sp who="#tanel">
@@ -2969,8 +2976,8 @@
                 </sp>
                 <pb n="55"/>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(tõusva vihaga)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(tõusva vihaga).</stage>
                     <p>Kosid või ei kosi... ehk lõhkeb kaas mu kannatlikkuse katlal!</p>
                 </sp>
                 <sp who="#joosep">
@@ -2978,8 +2985,8 @@
                     <p>Lausu, peremees, siis oled lahti!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(Kustavit raputades)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(Kustavit raputades).</stage>
                     <p>Kosid või ei kosi? Kosid või ei kosi?</p>
                 </sp>
                 <sp who="#kustav">
@@ -2987,8 +2994,8 @@
                     <p>Selle jutiga, Ristmetsa, küll jusku ei saaks...</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(tõukab Kustavi enesest ära)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(tõukab Kustavi enesest ära).</stage>
                     <p>Küll on kurat... ei taha minu tütart!</p>
                 </sp>
                 <sp who="#mari">
@@ -2997,8 +3004,8 @@
                 </sp>
                 <stage>Vahepeal on kõigist nägemata lavale ilmunud MAALI, ta tuli pahemalt ja on enese ehtinud. JOOSEP märkab teda, tõttab talle vastu. TIIU on KUSTAVI oma hoolele võtnud ja püüab teda lohutada.</stage>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(Maalile sosistades)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(Maalile sosistades).</stage>
                     <p>Keik on korras, keik on korras... ole ainult tragi!</p>
                 </sp>
                 <sp who="#maali">
@@ -3006,8 +3013,8 @@
                     <p>Jumal, jumal, mis sest tuleb!</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(pehmelt)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(pehmelt).</stage>
                     <p>Ära pane pahaks, Kustav, et isa nii ägedasti...</p>
                 </sp>
                 <sp who="#kustav">
@@ -3015,13 +3022,13 @@
                     <p>Mes see raputus mulle tegi...</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(märkab Maalit, nüüd näevad teda kõik)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(märkab Maalit, nüüd näevad teda kõik).</stage>
                     <p>Maali! Heldeke, mis sitsid sina oled selga a'and?!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(Tiiule, südametäiega)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(Tiiule, südametäiega).</stage>
                     <p>Aupärast tüdruk... ei saa poisile meelt pähe!</p>
                 </sp>
                 <sp who="#joosep">
@@ -3047,8 +3054,8 @@
                     <p>Nii sassis ja vussis, et pole muud kui vöta äe!</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(uskmatu imestusega)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(uskmatu imestusega).</stage>
                     <p>Meie Kustav vussis?! See on loba!</p>
                 </sp>
                 <sp who="#tiiu">
@@ -3060,21 +3067,21 @@
                     <p>Mis mina... las Kustav köneleb!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(kirudes)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(kirudes).</stage>
                     <p>See Kustav! Siis kõnele, poiss, oled sa ulasti eland? Vasta!</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(vaikib)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(vaikib).</stage>
                 </sp>
                 <sp who="#tanel">
                     <speaker>TANEL.</speaker>
                     <p>Oled või ei ole? Oled või ei ole!</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(seljaga teiste poole, ei pööragi pead)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(seljaga teiste poole, ei pööragi pead).</stage>
                     <p>Küllap vist! <stage>(Üldine imestus.)</stage></p>
                 </sp>
                 <sp who="#mari">
@@ -3082,8 +3089,8 @@
                     <p>Sa Krestuse silmavesi!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(tunneb, et kavatsused on lõplikult luhtunud)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(tunneb, et kavatsused on lõplikult luhtunud).</stage>
                     <p>Sa põrgu põrin ja valu värin!</p>
                 </sp>
                 <sp who="#joosep">
@@ -3099,8 +3106,8 @@
                     <p>Seda küsin ka mina — kes on see tüdruk?</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(uuesti ette tõuklevale Maalile)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(uuesti ette tõuklevale Maalile).</stage>
                     <p>Losutad siin jalus... mardisant!</p>
                 </sp>
                 <sp who="#maali">
@@ -3112,8 +3119,8 @@
                     <p>Kes kutsus?</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(nutuga)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(nutuga).</stage>
                     <p>Joosep ütles õõ, et peremees õõ... kutsub reakima.</p>
                 </sp>
                 <sp who="#mari">
@@ -3134,28 +3141,28 @@
                 </sp>
                 <pb n="57"/>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(on Joosepilt ergutava müksu saanud)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(on Joosepilt ergutava müksu saanud).</stage>
                     <p>Mi-mina olen see tüdruk õõ õõ...</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(seletavalt)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(seletavalt).</stage>
                     <p>Üle aia andsid suud, läbi mulgu musutasid, läbi teivaste teretasid!</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(karjatab)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(karjatab).</stage>
                     <p>Maali!?</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(põlglikult)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(põlglikult).</stage>
                     <p>Teenijaga!</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(Maalile, tigedalt)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(Maalile, tigedalt).</stage>
                     <p>Sest sul sitsid kaelas on, et lähed lihvaks!</p>
                 </sp>
                 <sp who="#tanel">
@@ -3163,13 +3170,13 @@
                     <p>On teod ja tegemised!</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(vabandavalt)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(vabandavalt).</stage>
                     <p>Kudas sa peremehele keelad, kui oled ta leivas?</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(astub keskele, ametimehe tooniga)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(astub keskele, ametimehe tooniga).</stage>
                     <p>Võtad tüdruku omaks, Kustav? Sinu töö ja tegemus?</p>
                 </sp>
                 <sp who="#joosep">
@@ -3181,18 +3188,18 @@
                     <p>Sinu au ja häbemus?</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(üle selja)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(üle selja).</stage>
                     <p>Minu ta siis on, nagu märkan.</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(haarab sügava liigutuse ja tänutundega Kustavi käe)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(haarab sügava liigutuse ja tänutundega Kustavi käe).</stage>
                     <p>Kustav, sa kullatükk! <stage>(Nuutsudes.)</stage> Linalikku oleks ka raske olnd minna.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(piinlikult, vabastuda püüdes)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(piinlikult, vabastuda püüdes).</stage>
                     <p>Mis sest leost... lase rahu! <stage>(Kaob aeglaste sammudega paremale, Maali samuti kui vari ta kannul.)</stage></p>
                 </sp>
                 <sp who="#mari">
@@ -3200,13 +3207,13 @@
                     <p>Sa Krestuse silmavesi! Kogu aeg tüdruk jusku Joosepiga... ja äkki Kustav! Suguseltsi teotab ära!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(kirudes)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(kirudes).</stage>
                     <p>Küll on koera kombed majas! Äh, lorri läks mu sõit... narri mu mõte!</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(nõu otsides)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(nõu otsides).</stage>
                     <p>Kui tüdrukuga õite reagiks... viisakal viisil?</p>
                 </sp>
                 <sp who="#tanel">
@@ -3214,19 +3221,19 @@
                     <p>Küla varssi kära täis... ei mina ses pulmas kaasa tantsi!</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(halisedes)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(halisedes).</stage>
                     <p>Jätad mu häda sisse, Tanel?</p>
                 </sp>
                 <pb n="58"/>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(Joosepile osutades)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(Joosepile osutades).</stage>
                     <p>Sul nüüd teisi sugulasi. Tule, Tiiu, homme on Issanda päev!</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(Marit kallistades)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(Marit kallistades).</stage>
                     <p>Ei mina tädit üksi jäta... sesse segadusse!</p>
                 </sp>
                 <sp who="#mari">
@@ -3238,8 +3245,8 @@
                     <p>Siis sõidan üksi! <stage>(Teeb pahemale minekut.)</stage></p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(temast ette tõttamas)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(temast ette tõttamas).</stage>
                     <p>No suuruseta ma sind, sugulane, minema ei lase.</p>
                 </sp>
                 <sp who="#tanel">
@@ -3264,8 +3271,8 @@
                     <p>On väikest klaarimist.</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(osatades)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(osatades).</stage>
                     <p>Klaarimist! <stage>(Kiirelt.)</stage> Tüdruk on sedasi, poiss vötab omaks... mida sa klaarid? <stage>(Veenda püüdes.)</stage> Sulane veel ligi peaseb, kui peremees otseti ees!</p>
                 </sp>
                 <sp who="#tiiu">
@@ -3273,13 +3280,13 @@
                     <p>Seda ma klaarima jäengi... seda sinu — süütust! <stage>(Irvitab näkku.)</stage> Süütust! <stage>(Jookseb heleda naeruga pahemale.)</stage></p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(kargab püsti)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(kargab püsti).</stage>
                     <p>Süütust? <stage>(Tunneb, et on läbi nähtud, Tiiule järele vahtides.)</stage> See pole tüdruk... see on nöid!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(lava taga)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(lava taga).</stage>
                     <p>Kimmel aiste vahele, Joosep!</p>
                 </sp>
                 <sp who="#joosep">
@@ -3293,13 +3300,13 @@
                     <p>Kustav!</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(kui ärgates)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(kui ärgates).</stage>
                     <p>Nojah?</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(murtud häälel)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(murtud häälel).</stage>
                     <p>Oled mu peale kuri, Kustav? Vaat' paha sulle teha ei tahtnud. Aga Joosep ütles, et õõ õõ...</p>
                 </sp>
                 <sp who="#kustav">
@@ -3315,8 +3322,8 @@
                     <p>Ära nuta... küll a'ame kõik ilusti... rihtungi!</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(peaga Kustavi õlale laskudes)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(peaga Kustavi õlale laskudes).</stage>
                     <p>Häbi hakkab enesest, et oled nii... nii hea inimene!</p>
                 </sp>
                 <sp who="#kustav">
@@ -3330,20 +3337,20 @@
                 <head>NELJAS VAATUS.</head>
                 <stage>Vaikne hele pühapäeva õhtupoolik Näsnäruda õuel. KUSTAV istub kännul ja loeb raamatust. Ta on riietuselt puhtam ja pühapäevlikum.</stage>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(veerib)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(veerib).</stage>
                     <p>"Kuus päeva pead sa tööd tegema, sest kuue päevaga on jumal maailma loonud. Aga seitsmes päev on hingamise päev, siis ei pea sa ühtegi tegema, siis jumalgi seisis ja hingas.</p>
                     <p>"Kui lind laulab või teri nokib, siis ei või tema, mitte haududa. Kui sind töö segab või nõrgestab, siis ei suuda sa mitte kõigest hingest oma südant valmis hoida Issandale. Seepärast keeldakse maailmas ümberjooksmine, et sul rahu oleks jumala süles istuda...</p>
                     <p>"Palehigi kuivab pühapäeval põllutöö pealt, aga tänupalve kaste peab su hinge orast niisutama. Seepärast su hingamine ihu tööst ei või üksnes hingamine ihuga olla, üks magamine ja maas vedelemine..." <stage>(Lööb raamatu kokku, ringutades.)</stage> Jumala sõnaga on küll imelik lugu! Loed seda raasike, siis uneleili viskab kui kapaga.</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(on toa poolt tulnud)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(on toa poolt tulnud).</stage>
                     <p>Mis teenistust sina pead, Kustav?</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(sõbralikult)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(sõbralikult).</stage>
                     <p>Lugesin, näätsa, Saaroni Valgest Lillest...</p>
                 </sp>
                 <sp who="#tiiu">
@@ -3356,8 +3363,8 @@
                 </sp>
                 <pb n="61"/>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(istub Kustavi kõrvale kännule)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(istub Kustavi kõrvale kännule).</stage>
                     <p>Kudas seda mõtled?</p>
                 </sp>
                 <sp who="#kustav">
@@ -3369,13 +3376,13 @@
                     <p>Meite vana jälle sõdib, et kui tahad talu piima ja mett jooksma panna, siis rassi ja raskelda kui Mooses. — Aga ilm on täna ilus!</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(üles vaadates)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(üles vaadates).</stage>
                     <p>Pääsukesed kõrgel taeva all... lendlevad. Ei need, sunnikud, märka pühapäevast!</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(lühikese vaikuse järele äkki ja elavalt)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(lühikese vaikuse järele äkki ja elavalt).</stage>
                     <p>Tunned sa piiripääride laulusõnu?</p>
                 </sp>
                 <sp who="#kustav">
@@ -3391,13 +3398,13 @@
                     <p>Ega ma sest Tõlbi Jaagust tahagi parem olla... Vedelvorst ja venimus — kas mu'st muud kuuldakse.</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(võrku heites)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(võrku heites).</stage>
                     <p>Inimesed näevad välispidist, kas nad märkavad, mis sul sees on?</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(kuulatama jäädes)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(kuulatama jäädes).</stage>
                     <p>Mis mul sees on?</p>
                 </sp>
                 <sp who="#tiiu">
@@ -3405,8 +3412,8 @@
                     <p>Sees on kuld, aga paksult mulda ümber.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(pole kunagi enesest head kuulnud, umbusklikult)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(pole kunagi enesest head kuulnud, umbusklikult).</stage>
                     <p>Sa mo kulda tead!</p>
                 </sp>
                 <sp who="#tiiu">
@@ -3422,19 +3429,19 @@
                     <p>Mehed on ju sehukesed narrid, et häbenevad südant.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(Tiiu suhtumisest usaldust võttes)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(Tiiu suhtumisest usaldust võttes).</stage>
                     <p>Pole see mul jah, näätsa, lihtpaljas lõbulaiskus. <stage>(Saladuslikult.)</stage> Mul seega on seoses mõningas kõrgelikum tundmus...</p>
                 </sp>
                 <pb n="62"/>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(tagant õhutades)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(tagant õhutades).</stage>
                     <p>Seda ütlesingi, et sul on sees veartus, mis paistab halvasti välja.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(Tiiu soojusest jutusoonele sattudes)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(Tiiu soojusest jutusoonele sattudes).</stage>
                     <p>Lausa ja suisa öelda, mõte inimeses, näätsa, lööb enese seisma... Et need meite esivanemad seal mõisateol... et küll nemad võisid orjusest revestuda ja une saadamatusest vaevelda. Et kui nüüd maa ligi pääsed, siis norskad ja norised kõigi esiisade eest! — Ja teine elu... see parem põli, millest praost kantslis sumiseb... No mis paradiisi sa muud oskadki ihata, kui et oleks kord paik, kus kõik unevõlad tasutakse... kus teomehe sugu enese kord põhjani välja magaks. No miks ei peaks selle paradiisiga juba maa peal algust tehtama, kui ta taevas on õige?</p>
                 </sp>
                 <sp who="#tiiu">
@@ -3442,8 +3449,8 @@
                     <p>Sinu hing nõuab paigalpüsi, aga mina jälle tahan kangesti askeldada. Mulle sigib sügavlikum tundmus, kui tõtlen ja innuga asun tegelemise kallale. Töös ja talituses, olgu põllul või karjalaudas, jusku tiivad kasvavad selga.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(mõnutseva kujutlusega)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(mõnutseva kujutlusega).</stage>
                     <p>Kui suvel laman maas, soe muld kõhu all ja jumala päike kupatab päraotsa, siis tahaksin olla kui taim, mis tõukab oma tõru maamulda. <stage>(Erilise hellusega.)</stage> Seda mulda mina armastan, sest olen ise samasest sõnnikust. Kui ma teinekord, näätsa, loen, et mullast oled sa võetud ja mullaks pead taas saama, siis tuleb mu peale seoke põline maarahva tundmus...</p>
                 </sp>
                 <sp who="#tiiu">
@@ -3455,28 +3462,28 @@
                     <p>Muld ja materjaan on, mis meis tagasi ihkab magama, nagu ta magas, näätsa, enne maailma loomist.</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(Kustavi magamise motiivile vastu astudes)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(Kustavi magamise motiivile vastu astudes).</stage>
                     <p>Et inimene savist tehti... mina arvan, sellega ei ole uhkeldada. Tähtsam kui materjaan on see, et savikambale elav hingeõhk sõõrmeisse puhuti... sel<pb n="63"/>lest hingeõhust tuli elu ja eladus. Inimese ülesanne ei ole savistuda, vaid... vaid elada... elu sünnitada.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(ei lase ennast segada)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(ei lase ennast segada).</stage>
                     <p>Mina, näätsa, olen märgand, et inimesed, kes halvasti magavad, on juba ette põrgu läind!</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(märgates, et mõttega Kustavist jagu ei saa, toob esile naiseliku kavaluse)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(märgates, et mõttega Kustavist jagu ei saa, toob esile naiseliku kavaluse).</stage>
                     <p>Ära nüüd, Kustav, kohe püstijoones end taeva maga! <stage>(Kelmikalt.)</stage> Löö ikka pilku põrgu poole ka, ta ehk polegi nii paha... Kas sa meeste vastu ka mees oled? Või kukud Karja-Eedolegi alla?</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(rahuga)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(rahuga).</stage>
                     <p>Jääks mehi loogu, kui viitsiks visata!</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(pilgates)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(pilgates).</stage>
                     <p>Viitsiks? Vaat' ei suuda!</p>
                 </sp>
                 <sp who="#kustav">
@@ -3504,18 +3511,18 @@
                     <p>Võta ilusti, ega ma ole palgiots!</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(tõstab)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(tõstab).</stage>
                     <p>Kas oled õhus?</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(kiljates)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(kiljates).</stage>
                     <p>Kustav!</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(keerutades)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(keerutades).</stage>
                     <p>Kas on taevalend?</p>
                 </sp>
                 <sp who="#tiiu">
@@ -3531,8 +3538,8 @@
                     <p>Kas nüüd tüdruku tagasi paned, kust ta võtsid?</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(süvenedes)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(süvenedes).</stage>
                     <p>Sa polegi nii kerge!</p>
                 </sp>
                 <sp who="#tiiu">
@@ -3541,28 +3548,28 @@
                 </sp>
                 <pb n="64"/>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(ootamatu hardusega)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(ootamatu hardusega).</stage>
                     <p>Muhe ja pehme kui kompost. Ja seoke sooja lehmapiima ja magusa poesitsi lõhn on sul küljes. Peaks sinuga tegema, näätsa, tea mis?</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(lööb käed Kustavile kaela)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(lööb käed Kustavile kaela).</stage>
                     <p>Sina Näsnäruda näss! <stage>(Suudleb, hüppab sülest, kohendab riideid.)</stage></p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(jääb alul üsna juhmilt istuma, siis tõustes, kui avastaks uue maailmajao)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(jääb alul üsna juhmilt istuma, siis tõustes, kui avastaks uue maailmajao).</stage>
                     <p>Ai sa kurat!</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(süütult)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(süütult).</stage>
                     <p>On sul paha, Kustav?</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(puhtsüdamlikult)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(puhtsüdamlikult).</stage>
                     <p>Küll hakkas õnnis olema! Kuule ütle, mis see oli?</p>
                 </sp>
                 <sp who="#tiiu">
@@ -3574,8 +3581,8 @@
                     <p>Su suu, Tiiu, kui see mu suule sai... nii kõrgelikku tundmust pole mul olnd ihu sees!</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(teadvalt)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(teadvalt).</stage>
                     <p>Kui jumala hingevälk lööb läbi kahest materjaanist!</p>
                 </sp>
                 <sp who="#kustav">
@@ -3587,39 +3594,39 @@
                     <p>Vankriga sõidetakse tänavast... see on küll isa! <stage>(Tõmbab enese lahti ja tõttab pahemale ära.)</stage></p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(järele vahtides)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(järele vahtides).</stage>
                     <p>Tiiu! Tiiu! Vaat' mis on tüdruk?! <stage>(Nagu joobnud.)</stage> Küll on roosa olla! Kui esimese viina viskasin kurgu taha, siis hakkas ka nii... ristirästi hästi! <stage>(Imelikke liigutusi tehes.)</stage> Seoke vunk on praegu ihus, et võtaks vikati ja lõhuks õhtuks maha vakamaa heina! Või taoks ühe suure posti maa sisse! <stage>(Näeb Joosepit väravast tulevat.)</stage> Astu lähemale, lupard!</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(heal tujul)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(heal tujul).</stage>
                     <p>Kudas läheb, peremees?</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(haarab Joosepil rinnust)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(haarab Joosepil rinnust).</stage>
                     <p>Sedasi näätsa!</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(hirmuga)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(hirmuga).</stage>
                     <p>Kulla mees...</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(keerutab)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(keerutab).</stage>
                     <p>Sedasi näätsa!</p>
                 </sp>
                 <pb n="65"/>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(meeleheitel)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(meeleheitel).</stage>
                     <p>Hulluks oled läind!</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(viskab Joosepi murule)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(viskab Joosepi murule).</stage>
                     <p>Sedasi näätsa! Oma vamiilid võid potilaadale viia!</p>
                 </sp>
                 <stage>Pahemalt tulevad TANEL ja TIIU, paremalt MARI.</stage>
@@ -3640,8 +3647,8 @@
                     <p>Ometi tulid, sugulane! — Joosep seal maas vedeled... tõmba ometi Ristmetsa kimmel varjule.</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(tõustes, Kustavi poole)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(tõustes, Kustavi poole).</stage>
                     <p>Kohioinas! <stage>(Lonkab ära pahemale.)</stage></p>
                 </sp>
                 <sp who="#tanel">
@@ -3670,13 +3677,13 @@
                 </sp>
                 <pb n="66"/>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(istub pinu äärde pakule)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(istub pinu äärde pakule).</stage>
                     <p>Mis Näsnärudal ka kuulda, näha on?</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(istub teisele pakule)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(istub teisele pakule).</stage>
                     <p>Küll olen pikuti ja põigiti seda asja mõelnd!</p>
                 </sp>
                 <sp who="#tanel">
@@ -3684,8 +3691,8 @@
                     <p>Kui Kustavist natuke meest oleks... no ei ole!</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(rinda tõstes)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(rinda tõstes).</stage>
                     <p>No seda veel näeme!</p>
                 </sp>
                 <sp who="#mari">
@@ -3693,8 +3700,8 @@
                     <p>Pole poisil latva peas!</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(on Kustavist eemaldunud ja Taneli ning Mari, vahele pukile istunud)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(on Kustavist eemaldunud ja Taneli ning Mari, vahele pukile istunud).</stage>
                     <p>Mis ta vaeseke teeb, kui on Maaliga sassis!</p>
                 </sp>
                 <sp who="#kustav">
@@ -3710,13 +3717,13 @@
                     <p>Ei söö kah ja — tahe! <stage>(Heidab murule maha.)</stage></p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(asjalikult)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(asjalikult).</stage>
                     <p>Supp tuleb süüa, küsimus on ainult — misukese lusikaga?</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(lõbusalt)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(lõbusalt).</stage>
                     <p>Keerukas küsimus!</p>
                 </sp>
                 <sp who="#tanel">
@@ -3748,13 +3755,13 @@
                     <p>Kost seokse lolli leiad!</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(torgates)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(torgates).</stage>
                     <p>Kas Kustav hakkaks Maalit võtma, kui tegu, ütleme, oleks Joosepi?</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(rusikaid tagudes)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(rusikaid tagudes).</stage>
                     <p>Selle Joosepi ma...</p>
                 </sp>
                 <pb n="67"/>
@@ -3763,8 +3770,8 @@
                     <p>Leiduks mõni koreda lõuaga vanem sulasmees, kui kutsuksite Näsnärudale popsiks...</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(nöökides)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(nöökides).</stage>
                     <p>Kas isasüda lubaks oma last popsisauna saata?</p>
                 </sp>
                 <sp who="#kustav">
@@ -3780,18 +3787,18 @@
                     <p>Päris õige... no kas mina olen Kristus? <stage>(Tõuseb.)</stage> Midagi peab tegema, midagi peab tegema! Ei saa suguvõsa lasta sohu!</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(tõustes ja Tanelit eemale vedades)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(tõustes ja Tanelit eemale vedades).</stage>
                     <p>Asja tuleb ääri ajada ja veeri vedada! <stage>(Kaovad mõlemad pahemale.)</stage></p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(tõustes)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(tõustes).</stage>
                     <p>Läksid! <stage>(Istub pahemal ratastele.)</stage> Tule siia, Tiiu! On sulle ütlemist.</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(läheneb)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(läheneb).</stage>
                     <p>Ütle siis, ma kuulan. <stage>(Istub Kustavi kõrvale.)</stage></p>
                 </sp>
                 <sp who="#kustav">
@@ -3815,18 +3822,18 @@
                     <p>Ma pole ju... no kus ma sain... helde taevas!</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(õlgu kehitades)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(õlgu kehitades).</stage>
                     <p>Mis sa mulle... klaari oma lood Maaliga. <stage>(Näeb MAALIT pahemalt tulevat.)</stage> Sealt ta tuleb.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(tõustes)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(tõustes).</stage>
                     <p>Mis Maali! Näätsa, Joosepi tukad võtan pihku, sealt see taevas kõige rutemini selgub. <stage>(Tormab Maalist mööda pahemale.)</stage></p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(on Kustavist peaaegu maha tõugatud)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(on Kustavist peaaegu maha tõugatud).</stage>
                     <p>Kuhu see Kustav tormas... päris imelik teist sehukesena näha!</p>
                 </sp>
                 <pb n="68"/>
@@ -3839,18 +3846,18 @@
                     <p>Kuule nüüd! <stage>(Tahab minna.)</stage></p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(teda peatades)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(teda peatades).</stage>
                     <p>Sina, Maali... tule, istume ja reagime naistejuttu.</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(umbusklikult)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(umbusklikult).</stage>
                     <p>Mis juttu mul või midagi...</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(kätt sõbralikult pihale pannes)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(kätt sõbralikult pihale pannes).</stage>
                     <p>Küll sina oled kõrgiks läind! Poisi võtsid eest... ja nüüd ei kõlba kõneldagi.</p>
                 </sp>
                 <sp who="#maali">
@@ -3866,8 +3873,8 @@
                     <p>Sul hea reakida... mis mina!</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(mõistes)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(mõistes).</stage>
                     <p>Mis siin halvaks panna... loodus käib oma rada.</p>
                 </sp>
                 <sp who="#maali">
@@ -3887,8 +3894,8 @@
                     <p>Kas need asjad nüüd üsna tahtmata tulevad! — Aga oled tubli tüdruk. Ja miks sa mulle eriti meeldid, sinus, vaata, pole kübetki võltsi.</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(kohkudes)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(kohkudes).</stage>
                     <p>Võltsi? Mis võltsi peaks minus olema?</p>
                 </sp>
                 <sp who="#tiiu">
@@ -3896,8 +3903,8 @@
                     <p>Ütlen ju, et ei ole. Ei sina talu ega vara pärast poisile lähe... Või muu häda pärast. Sinusugusel tüdrukul on see... südameasi.</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(katab näo kätega)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(katab näo kätega).</stage>
                     <p>Pole ma ingel ühti!</p>
                 </sp>
                 <sp who="#tiiu">
@@ -3906,8 +3913,8 @@
                 </sp>
                 <pb n="69"/>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(nuutsudes)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(nuutsudes).</stage>
                     <p>Kus see õnn siin ja kus õnnetus...</p>
                 </sp>
                 <sp who="#tiiu">
@@ -3939,18 +3946,18 @@
                     <p>Kudas mitte Kustavist?</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(pühib silmi)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(pühib silmi).</stage>
                     <p>Ega's ma Kustaviga olnd... ja läind!</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(teeskleb imestust)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(teeskleb imestust).</stage>
                     <p>Mitte Kustaviga?!</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(madala häälega)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(madala häälega).</stage>
                     <p>Oli teine mees...</p>
                 </sp>
                 <sp who="#tiiu">
@@ -3974,8 +3981,8 @@
                     <p>Joosep... mis häda's temal oli neid asju nii tuliselt ajada?</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(kõrvale vaadates)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(kõrvale vaadates).</stage>
                     <p>Tema'p see asjamees mul ongi. Tema, sunniku pärast sedasi läks nagu läks...</p>
                 </sp>
                 <sp who="#tiiu">
@@ -3984,8 +3991,8 @@
                 </sp>
                 <pb n="70"/>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(süngelt)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(süngelt).</stage>
                     <p>Ei tule mulle pulmi! Kus sulle tõe tunnistasin, nüüd linalikku tuleb minna.</p>
                 </sp>
                 <sp who="#tiiu">
@@ -4001,8 +4008,8 @@
                     <p>Paljugi, mis mees ütleb, kas me saame sest küsida! Peaasi, kui oma võrukaela sallid.</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(avameelselt)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(avameelselt).</stage>
                     <p>Kiidupoiss ta pole. Ja santusi on tal palju. Aga mis ma teen, kui teda tahan! Ja et kord oldud ja mindudki on... mida seal enam arutleda.</p>
                 </sp>
                 <stage>Pahemalt tulevad TANEL ja MARI.</stage>
@@ -4011,23 +4018,23 @@
                     <p>Tubli, nüüd teame, mis teha. Aga esialgu see jäägu me oma hoida...</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(Tanelit müksates)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(Tanelit müksates).</stage>
                     <p>Maali! Võta nüüd tüdruk käsile, Tanel!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(astub keskele, köhatab)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(astub keskele, köhatab).</stage>
                     <p>Mida need tüdrukud siin... nokkapidi?</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(koos Maaliga tõustes)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(koos Maaliga tõustes).</stage>
                     <p>Reakisime mehelemineku jutte.</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(järele kiites)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(järele kiites).</stage>
                     <p>Mehele tüdruk peab... aga ikka oma au ja seisuse järele.</p>
                 </sp>
                 <sp who="#mari">
@@ -4039,8 +4046,8 @@
                     <p>Armastus, tädi, ei küsi alati seisuse järele, olen raamatust lugend.</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(põlgusega)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(põlgusega).</stage>
                     <p>Raamatust... vaat elu õpetab, kudas õige.</p>
                 </sp>
                 <sp who="#tiiu">
@@ -4048,8 +4055,8 @@
                     <p>Kudas piibliski vaene Rutt saab rikkale Poasele.</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(õpetlikult)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(õpetlikult).</stage>
                     <p>Tõsi, talupoja perekond astub me silma ette Ruti raamatust. Põllult viljapäid<pb n="71"/> noppides satub see teenija-tüdruk parmaste vahelt perenaiseks. Aga kudas? Kas ta magatab meest? Ei, ta ei anna kauna enneaegu noppida... see on vaks vahet!</p>
                 </sp>
                 <stage>Lava taga tõuseb ning paisub sõim ja kisa. Siis pahemalt JOOSEP jookseb lavale, tema järele vihane KUSTAV.</stage>
@@ -4058,18 +4065,18 @@
                     <p>Appi... appi... tappa tahab mörtsukas! <stage>(Otsib Taneli juures varju.)</stage></p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(rusikaid vibutades)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(rusikaid vibutades).</stage>
                     <p>Ma su... ma su kütan... ära karda!</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(imestusest juhm)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(imestusest juhm).</stage>
                     <p>Helduse vägi, Kustav... mis su sisse on läind?!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(tõrjudes)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(tõrjudes).</stage>
                     <p>Jäta nüüd pidama, Kustav... mis see sedasi on?</p>
                 </sp>
                 <sp who="#kustav">
@@ -4081,18 +4088,18 @@
                     <p>Mis vamiili?</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(on Kustavi oma hoolele võtnud)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(on Kustavi oma hoolele võtnud).</stage>
                     <p>Nii ei lähe, rusikatega. Tule istu siia kännule, kuni süda lööb lahkemaks.</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(kännule istudes)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(kännule istudes).</stage>
                     <p>Tema, lõmper, aspeldab ja mina olen isa!</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(Kustavile)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(Kustavile).</stage>
                     <p>Anna aega, küll varssi selgub kõik!</p>
                 </sp>
                 <sp who="#tanel">
@@ -4108,8 +4115,8 @@
                     <p>No see on mehe jutt!</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(imestusega)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(imestusega).</stage>
                     <p>Kustav ütleb... kust nüüd päeva lahti lööb!?</p>
                 </sp>
                 <sp who="#joosep">
@@ -4118,8 +4125,8 @@
                 </sp>
                 <pb n="72"/>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(rõõmsalt)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(rõõmsalt).</stage>
                     <p>Kustav ei kosi! — Kuule, Joosep, ole meheks, võta tüdruk ise ära!</p>
                 </sp>
                 <sp who="#joosep">
@@ -4127,23 +4134,23 @@
                     <p>No selle loputise sisse ma ei lähe!</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(Taneli mõttest haaratud)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(Taneli mõttest haaratud).</stage>
                     <p>Tõsi jutt, Joosep, võta tüdruk... ühe talu teenijad, nagu olete...</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(kergitab pükse)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(kergitab pükse).</stage>
                     <p>Pole minu tegemus... kelle töö, selle talgud!</p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(kargab püsti)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(kargab püsti).</stage>
                     <p>Kelle töö...</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(surub Kustavi tagasi istuma)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(surub Kustavi tagasi istuma).</stage>
                     <p>On Joosepki Maaliga liibitsenud, nagu nähti.</p>
                 </sp>
                 <sp who="#joosep">
@@ -4151,8 +4158,8 @@
                     <p>Paljugi, mis nähti. Nagu Altmetsa Sass. Ka sihtis siin Maalit söhukese poolvillase pilguga.</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(Maalile silma pilgutades)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(Maalile silma pilgutades).</stage>
                     <p>Kudas sulle Sass meeldib?</p>
                 </sp>
                 <sp who="#maali">
@@ -4161,8 +4168,8 @@
                     <p>On viksem poiss kui Joosep. Ja etem igast kandist.</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(haavunult)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(haavunult).</stage>
                     <p>Nonoh?</p>
                 </sp>
                 <sp who="#tiiu">
@@ -4170,13 +4177,13 @@
                     <p>Ega siin pikka tellimist tehta. Kui Kustav ei võta ja Joosep ei taha, siis Maali lihtsalt läheb Altmetsa Sassile.</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(ei lase end ärritada)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(ei lase end ärritada).</stage>
                     <p>Sass te vana rasva varitseb!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(viskab trumbi mängu)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(viskab trumbi mängu).</stage>
                     <p>Sass teenib veel koduväi koha, pane tähele!</p>
                 </sp>
                 <sp who="#joosep">
@@ -4184,13 +4191,13 @@
                     <p>Kuf kuram siis koduväi?</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(lisab tuld)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(lisab tuld).</stage>
                     <p>No kui kutsutakse Näsnärudale popsiks.</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(hakkab asjast huvituma)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(hakkab asjast huvituma).</stage>
                     <p>Sea sirkel ja varsa vinkel... popsiks!</p>
                 </sp>
                 <sp who="#tanel">
@@ -4199,8 +4206,8 @@
                 </sp>
                 <pb n="73"/>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(parastades)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(parastades).</stage>
                     <p>Joosep saab oma Saaremaale tagasi!</p>
                 </sp>
                 <sp who="#mari">
@@ -4208,8 +4215,8 @@
                     <p>Kui Sarve Matsi rahad kord Näsnärudale jõuavad, ega siis Sassigi unustata... et ei pannud pahaks ja võttis vaevaks.</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(kõrvatagust sügades)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(kõrvatagust sügades).</stage>
                     <p>Kurram... see oras mekkaks salve pista!</p>
                 </sp>
                 <sp who="#mari">
@@ -4217,8 +4224,8 @@
                     <p>Peaks Sassiga ääriveeri juttu tegema.</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(on eneses juba otsustanud)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(on eneses juba otsustanud).</stage>
                     <p>Sassiga nüüd saab reakida!</p>
                 </sp>
                 <sp who="#tiiu">
@@ -4250,8 +4257,8 @@
                     <p>On meite Joosep mis ta on, aga rumal ta ei ole!</p>
                 </sp>
                 <sp who="#tiiu">
-                    <speaker>TIIU.</speaker>
-                    <stage>(Joosepile)</stage>
+                    <speaker>TIIU</speaker>
+                    <stage>(Joosepile).</stage>
                     <p>Võtaks ise äe? Aga kas Maali sulle tuleb, kui Sass on etem?</p>
                 </sp>
                 <sp who="#joosep">
@@ -4259,19 +4266,19 @@
                     <p>Sass etem... kut kuram ta etem on!</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(sobitades)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(sobitades).</stage>
                     <p>Mine nüüd külast meest otsima, kui omal talus poiss... eks ole, Maali?</p>
                 </sp>
                 <sp who="#maali">
-                    <speaker>MAALI.</speaker>
-                    <stage>(teeseldes)</stage>
+                    <speaker>MAALI</speaker>
+                    <stage>(teeseldes).</stage>
                     <p>Tea veel ühti seda asja... kudas saatus tahab!</p>
                 </sp>
                 <pb n="74"/>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(haarab Maali käe ja tõmbab tüdruku enesele)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(haarab Maali käe ja tõmbab tüdruku enesele).</stage>
                     <p>Ära sa mul vigurda, vaat' oma peab öige mees koristama.</p>
                 </sp>
                 <sp who="#mari">
@@ -4283,13 +4290,13 @@
                     <p>Kudas oma?</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(laia tujuga)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(laia tujuga).</stage>
                     <p>Mis siin salata vöi salgamata jätta... minu patust see tüdruk ju pahasti läks. Mu oma patust, pererahvas, jah!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(taganedes)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(taganedes).</stage>
                     <p>Sina!? Sinu patust?</p>
                 </sp>
                 <sp who="#mari">
@@ -4297,13 +4304,13 @@
                     <p>Kost õige oinas tuleb lagedale!? <stage>(Joosepi kallale tormates.)</stage> Minu poega teotama!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(viha tõusul)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(viha tõusul).</stage>
                     <p>Mis sulpi te siin olete keetnud!? Siis kogu aeg üks ninapidi vedamine! Kiriku vöörmünder... kas see on mänguasi?</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(lepitust otsides)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(lepitust otsides).</stage>
                     <p>Kas ma paha pärast, vöörmündri saks... häda viis härja kaevu! Sulasmees, ütle kuhu tüdruku oleks pand? Ja Kustav jälle töstamendi vaevas, et kudas saaks vamiili ühe vooriga koju...</p>
                 </sp>
                 <sp who="#tanel">
@@ -4311,8 +4318,8 @@
                     <p>Kavala kauba ja petise tööga! — No mis sa, Kustav, seal losutad... tõuse ja anna aru! <stage>(Tõmbab Kustavi nattipidi üles.)</stage></p>
                 </sp>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(suurtest erutustest väsinud, on oma "hingerahusse" tagasi vajumas)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(suurtest erutustest väsinud, on oma "hingerahusse" tagasi vajumas).</stage>
                     <p>Tahtsin Joosepit, näätsa, klaarima hakata, no sa ise ei lasknud!</p>
                 </sp>
                 <sp who="#tanel">
@@ -4324,19 +4331,19 @@
                     <p>Suumulgu poolest oleks ammu öelnd. Aga Tiiu siin kui värten ees... selle saba tagant saad veel sõna lausuda!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(Joosepile kirudes)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(Joosepile kirudes).</stage>
                     <p>Sina saarlane... kus rebasehänd on poisil püksis! Aga nüüd on selge vahe. Sinu tüdruk, sinu temp — pole talul sellega tegu!</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(suure kergendusega)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(suure kergendusega).</stage>
                     <p>Heldeke jah... miks Kustav peab maksma, kui asi on Joosepi!</p>
                 </sp>
                 <pb n="75"/>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(lööb kaks kätt suu peale)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(lööb kaks kätt suu peale).</stage>
                     <p>Hupp! Palasilk! Mis kuram inime ise enesele keele otsaga teeb!? Ole veel aus mees ja tunnista tött?! Kas ma enese pärast... peremehe kasude eest olin väljas...</p>
                 </sp>
                 <sp who="#tiiu">
@@ -4360,8 +4367,8 @@
                     <p>Oma eksimise heaks teeb ning Maali võtab... Siis mina arvan, et talu peaks noorpaarile ulualust ja oma elu võimaldama.</p>
                 </sp>
                 <sp who="#joosep">
-                    <speaker>JOOSEP.</speaker>
-                    <stage>(rõõmuga)</stage>
+                    <speaker>JOOSEP</speaker>
+                    <stage>(rõõmuga).</stage>
                     <p>Tösiöigus! <stage>(Tiiule.)</stage> Seda mina olen ikka möelnd ning alati öelnd... Et kui Ristmetsa Tiiu Näsnärudale noorikuks tuleks, kus kuram siis on elu!</p>
                 </sp>
                 <sp who="#tiiu">
@@ -4373,8 +4380,8 @@
                     <p>Kustav nii loll pole mette, et ei taha söhukest tüdrukut!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(Tiiul käest võttes)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(Tiiul käest võttes).</stage>
                     <p>Kudas siis jääb, Kustav? Kas lased mul teist korda veel tühjalt tagasi sõita?</p>
                 </sp>
                 <sp who="#joosep">
@@ -4399,18 +4406,18 @@
                 </sp>
                 <pb n="76"/>
                 <sp who="#kustav">
-                    <speaker>KUSTAV.</speaker>
-                    <stage>(viimaks sõnaotsale saanud)</stage>
+                    <speaker>KUSTAV</speaker>
+                    <stage>(viimaks sõnaotsale saanud).</stage>
                     <p>Kui lausuda... siis lausuda! Nii ta oli jah, Ristmetsa! Et kui sa siit vahepeal ära olid. Siis me Tiiuga nojah! Siis me Tiiuga näätsa... Tiiuga neh... sattusime tõepoolest nehukese neelu sisse, et hakkas nagu vamiili poole vedama...</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(ilmatu kergendusega)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(ilmatu kergendusega).</stage>
                     <p>Ometi viimaks... issameie, kes sa oled taevas!</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(hoogsalt)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(hoogsalt).</stage>
                     <p>Kui vedama hakkas, siis muud kui tõukame tagant!</p>
                 </sp>
                 <sp who="#joosep">
@@ -4418,8 +4425,8 @@
                     <p>Pulmad, peremees, teeme koos... aga kudas varrud?</p>
                 </sp>
                 <sp who="#tanel">
-                    <speaker>TANEL.</speaker>
-                    <stage>(pidulikult)</stage>
+                    <speaker>TANEL</speaker>
+                    <stage>(pidulikult).</stage>
                     <p>Sina, Kustav... ja sina, Tiiu! <stage>(Paneb nende käed kokku.)</stage> Kui jumal tahab!</p>
                 </sp>
                 <sp who="#joosep">
@@ -4431,8 +4438,8 @@
                     <p>Jumal õnnistagu teid, mu lapsed! <stage>(Liigutusega.)</stage> Seda ütlen sulle, poeg... oma tütart andes... et oleksid talle meheks... nagu nõuab komme. Ja et sa oma naise hinge armastaksid... mitte ainult liha osasaamist. <stage>(Silmi üles tõstes.)</stage> Kuni see päike tõuseb, kus mehed ja naised kui jumala inglid on taevas, kes ei võta naist ega lähe mehele, aamen!</p>
                 </sp>
                 <sp who="#mari">
-                    <speaker>MARI.</speaker>
-                    <stage>(põllega pisaraid pühkides)</stage>
+                    <speaker>MARI</speaker>
+                    <stage>(põllega pisaraid pühkides).</stage>
                     <p>Kui ilus on vaadata noorte inimeste õnne, et igal on oma... Sinul, Kustavike. Ja ka sinul, Joosep!</p>
                 </sp>
                 <sp who="#joosep">
