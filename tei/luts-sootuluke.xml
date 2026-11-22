@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="est000043" xml:lang="et" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Soo-tuluke</title>
+                <title type="sub">Muinasjutt kolmes pildis</title>
+                <author>
+                    <persName>
+                        <forename>Oskar</forename>
+                        <surname>Luts</surname>
+                    </persName>
+                    <idno type="wikidata">Q2005705</idno>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <ref target="http://www.digar.ee/id/nlib-digar:436032">DIGAR Digital Archive</ref>
+                    <availability>
+                        <licence target="https://creativecommons.org/publicdomain/mark/1.0/ ">PDM-1.0</licence>
+                    </availability>
+                </bibl>
+                <bibl type="originalSource">
+                    <author>
+                        <persName>
+                            <forename>Oskar</forename>
+                            <surname>Luts</surname>
+                            <idno type="wikidata">Q2005705</idno>
+                        </persName>
+                    </author>
+                    <title type="main">Soo-tuluke</title>
+                    <title type="sub">Muinasjutt kolmes pildis</title>
+                    <date when="1919">1919</date>
+                    <publisher>Noor-Eesti kirjastus</publisher>
+                    <pubPlace>Tartu</pubPlace>
+                </bibl>
+                <listEvent>
+                    <event type="print" when="1919">
+                        <desc/>
+                    </event>
+                    <event type="premiere" when="1919">
+                        <desc/>
+                    </event>
+                </listEvent>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="soo-tuluke" sex="FEMALE">
+                        <persName>Soo-tuluke</persName>
+                    </person>
+                    <person xml:id="isa" sex="MALE">
+                        <persName>Isa</persName>
+                    </person>
+                    <person xml:id="soovaim" sex="MALE">
+                        <persName>Soovaim</persName>
+                    </person>
+                    <person xml:id="neid" sex="FEMALE">
+                        <persName>Neid</persName>
+                    </person>
+                    <person xml:id="noormees" sex="MALE">
+                        <persName>Noormees</persName>
+                    </person>
+                    <listRelation>
+                        <relation name="parent_of" active="#soovaim" passive="#soo-tuluke"/>
+                        <relation name="parent_of" active="#isa" passive="#neid"/>
+                        <relation name="lover_of" active="#noormees" passive="#neid"/>
+                    </listRelation>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-11-22">Convert txt to TEI</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <pb n="3"/>
+        <front>
+            <titlePage>
+                <docAuthor>O. LUTS</docAuthor>
+                <docTitle>
+                    <titlePart type="main">SOO-TULUKE</titlePart>
+                    <titlePart type="sub">MUINASJUTT KOLMES PILDIS</titlePart>
+                </docTitle>
+                <docImprint>
+                    <publisher>NOOR-EESTI KIRJASTUS, </publisher>
+                    <pubPlace>TARTUS </pubPlace>
+                    <docDate>1919.</docDate>
+                </docImprint>
+            </titlePage>
+            <pb n="4"/>
+            <castList>
+                <head>Tegelased:</head>
+                <castItem>
+                    <role>Noormees.</role>
+                </castItem>
+                <castItem>
+                    <role>Neid, </role>
+                    <roleDesc>tema mõrsja.</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Isa.</role>
+                </castItem>
+                <castItem>
+                    <role>Pime (Soovaim).</role>
+                </castItem>
+                <castItem>
+                    <role>Soo-tuluke (Noor neid).</role>
+                </castItem>
+            </castList>
+        </front>
+        <pb n="5"/>
+        <body>
+            <div type="act">
+                <stage>Suisel, kuupaistsel ööl, kui külatänav särab hõbedases valguses, kui toomede varjud ulatavad läveni ja tänava lõpul vilgub üksik tuluke ja kutsub... kui viirastuslised varjud heljuvad kihisevas soos ja keegi, kes soo üle valitseb, oma riiki täidab läkastava röginaga, siis sünnivad muinasjutud.</stage>
+                <div type="scene">
+                    <head>I pilt.</head>
+                    <stage>Külatänav, suisel kuupaistsel ööl. Paremat kätt talumaja, pahemal pool õueaia ääres õitsevad toomed. Tagaseinas soo, vilkuva tulukesega.</stage>
+                    <stage>Talumajast tuleb noor neid toomede juure ja vaatab kuulatades soo poole.</stage>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Ta ei tule.</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Keegi</speaker>
+                        <p><stage>(keda pole näha, aga kes paratamata otsekui saatus).</stage> Suur on see võim, mis kutsub sind kuuvalgel ööl. Ei ole jõudu, mis on suurem, mis vägevam.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Ta ei tule.</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Keegi.</speaker>
+                        <p>Aa, sa kannatad. See on vanne, mis lasub nende pääl, kes endid tunnevad kutsutavat kuuvalgel ööl... et nad kannatavad.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid</speaker>
+                        <p><stage>(ümber vaadates).</stage> Kes kõneleb siin lähedal? Kes on siin? <stage>(Kuulab.)</stage> Kes on siin? Või on see ainult sahin toomede lehis?</p>
+                    </sp>
+                    <pb n="6"/>
+                    <sp who="#soovaim">
+                        <speaker>Keegi.</speaker>
+                        <p>Õnnelikud need, kes näevad tulevaid asju, pimedad need — kes sammuvad pimeduses ja on mängukannid ülemate võimude käes.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Mispärast ei tule ta? Ta tuli ikka, kui lubas.</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Keegi.</speaker>
+                        <p>Aeg on möödas, kus elasite õnnes. Nüüd tuleb kannatus. Vaata soo poole, sääl on mu tütar, kes ei lase lahti oma kallikest, sest aeg on tulnud.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Ta ei tule ikka veel.</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Keegi.</speaker>
+                        <p>Ja ei tulegi. Minu tütar kaisutab teda juba külmas kaisutuses ja suudleb teda kuumade huultega.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Ta tuleb siiski.</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Keegi.</speaker>
+                        <p>Ei, ta ei tule. Tunnen oma tütart.</p>
+                        <stage>(Soo poolt tuleb Noormees.)</stage>
+                        <p>Mis? Ta tuleb ometi. Kuidas? Lubas minu tütar teile veel ühe öö? Või... või sai noormees võimu vaimude üle. <stage>(Lühike vaikus.)</stage> Ja, see on tema.</p>
+                    </sp>
+                    <pb n="7"/>
+                    <sp who="#noormees">
+                        <speaker>Noormees</speaker>
+                        <p><stage>(tuleb toomede juure).</stage> Kallim! Kallim!</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid</speaker>
+                        <p><stage>(ruttab talle väljasirutatud käsil vastu).</stage> Teadsin, et tuled. Teadsin, et tuled, aga hirmus on ootamine.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Oleksin olnud ammu siin, aga soo...</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Mis oli soos?</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Tuluke. Vaata, kuidas ta vilgub ja kutsub.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Keda kutsub soo-tuluke?</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Mind, mind.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Sind? O, siis läheneb õnnetus. Kuulsin, oodates sind, kuidas kõneles keegi kannatusest. Arvasin olevat toome lehtede sahina, aga see oli kellegi jutt, kes...</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Kes? Kes? Sa värised, kallim?</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Ma ei tea, ei tunne teda, aga see on keegi, kellele on antud võim meie üle.</p>
+                    </sp>
+                    <pb n="8"/>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Võim meie üle on meie eneste kätte antud.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Aga mispärast hiilis hirm nüüd korraga mu rinda, hirm läheneva õnnetuse eest, mille pääle ma kunagi enne ei mõtelnud? Mispärast kutsub soo-tuluke sind just täna?</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Ei tea seda, miks just täna.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Meie oleme kadunud. Nüüd tuleb õnnetus.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Ei, armsam. Nüüd tuleb õnn.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Mis ütles soo-tuluke?</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Ta tõotas õnne.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Ja sina?</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Vastasin, et tean ainult üht teed õnnele — sinu juure, kallim, et iga samm teerajalt kõrvale — surma viib.</p>
+                    </sp>
+                    <pb n="9"/>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Tema?</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Ärgem kõnelegem sellest. Armastav süda ja hõbedane suviöö pole antud kurbade mõtete jaoks.</p>
+                        <stage>(Isa tuleb talumajast ja sammub pikkamisi õueaia poole, armastajate juure. Tütar kuuleb tema sammusid selja taga ja päästab enese nooremehe kaisutusest.)</stage>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Isa!</p>
+                    </sp>
+                    <sp who="#isa">
+                        <speaker>Isa.</speaker>
+                        <p>Ja, see olen mina. <stage>(Vaikus.)</stage> Tule magama, laps. Öö on. Ja sina, noormees, mine koju.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Isa, sa oled valju.</p>
+                    </sp>
+                    <sp who="#isa">
+                        <speaker>Isa.</speaker>
+                        <p>Mine, laps; tee, mis kästi.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Mispärast, isa, põlgad sa teda?</p>
+                    </sp>
+                    <sp who="#isa">
+                        <speaker>Isa.</speaker>
+                        <p>Rumal laps, kes on mulle võimuse annud kedagi põlata.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Mispärast ajad sa mu ära?</p>
+                    </sp>
+                    <pb n="10"/>
+                    <sp who="#isa">
+                        <speaker>Isa.</speaker>
+                        <p>Mine, mine, laps; tee, mis sind kästi. Ja jäta jumalaga see noormees. Sa ei tohi teda kunagi enam näha.</p>
+                    </sp>
+                    <sp who="#neid #noormees">
+                        <speaker>Neid ja Noormees.</speaker>
+                        <p>Isa!</p>
+                    </sp>
+                    <sp who="#isa">
+                        <speaker>Isa.</speaker>
+                        <p>Ja, ja, see peab nii olema. Mine koju, noormees.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Ütle, isa, mispärast hoidsid just tänaseks selle valju sõna? Teadsid ennegi, et su tütart armastan.</p>
+                    </sp>
+                    <sp who="#isa">
+                        <speaker>Isa.</speaker>
+                        <p>Minu tütar ei tohi sinu kaasaks saada. Ülemad võimud ei luba seda. Ja üleastumine nende keelust toob surma. Mine koju ja ära küsi enam edasi.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Mine koju ja ära küsi enam edasi? Oma õnne peaksin andma käest, ilma et teaksin, mispärast. Ei, isa, nii nõrk ei ole mina, nii valju ei ole sina, et seda nõuaksid.</p>
+                    </sp>
+                    <sp who="#isa">
+                        <speaker>Isa.</speaker>
+                        <p>Hää küll, ütlen sulle põhjuse. <stage>(Jutustab.)</stage> Magasin kambris. Sääl ärkasin korraga üles, avasin silmad. Keegi võõras seisis voodi ees.</p>
+                    </sp>
+                    <pb n="11"/>
+                    <sp who="#neid #noormees">
+                        <speaker>Neid ja Noormees</speaker>
+                        <p><stage>(korraga).</stage> Keegi võõras?</p>
+                    </sp>
+                    <sp who="#isa">
+                        <speaker>Isa.</speaker>
+                        <p>Keegi võõras. Ja ütles: Säälpool sood elab üks noormees ja armastab sinu tütart. Tea, et see noormees su tütart kunagi omale ei tohi saada. <stage>(Silmapilkne vaikus.)</stage> Ehk —</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Ehk?</p>
+                    </sp>
+                    <sp who="#isa">
+                        <speaker>Isa.</speaker>
+                        <p>Ehk: nad peavad surema, sest nii on otsustanud need, kes on vägevamad inimestest.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Ja siis?</p>
+                    </sp>
+                    <sp who="#isa">
+                        <speaker>Isa.</speaker>
+                        <p>Siis näitas võõras käega soo poole. Soos vilkus tuluke, nagu sääl praegugi näed.</p>
+                    </sp>
+                    <sp who="#neid #noormees">
+                        <speaker>Neid ja Noormees.</speaker>
+                        <p>Soo-tuluke!</p>
+                    </sp>
+                    <sp who="#isa">
+                        <speaker>Isa.</speaker>
+                        <p>Soo-tuluke. <stage>(Jutustab.)</stage> Kuu valgus paistis aknast sisse. Toome varjud heljusid põrandal. Nägin võõra tühje silmaauke ja sain aru: ta oli pime. Aga ta tahtis seda varjata ja pööris kuuvalge poole selja. Ja ütles: Sinna, tulukese juure, peab minema noormees, säält otsima õnne, mitte siit, sinu tütrelt.</p>
+                    </sp>
+                    <pb n="12"/>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Aimasin hädaohtu! Ka minule ütles ennist keegi —</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees</speaker>
+                        <p><stage>(Isale).</stage> Ja siis, ja siis?</p>
+                    </sp>
+                    <sp who="#isa">
+                        <speaker>Isa.</speaker>
+                        <p>Siis muutus võõra kogu udusarnaseks ja sulas ühte kuupaistega. Otsekui külm sooaur lehvis minust mööda, siis kadus kõik. Midagi polnud enam kambris, pääle heljuvate toome varjude.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>See oli unenägu.</p>
+                    </sp>
+                    <sp who="#isa">
+                        <speaker>Isa.</speaker>
+                        <p>Ei, see ei olnud unenägu. Olin valvel. Astusin tütre voodi juure ja tulin välja, nähes, et see oli tühi.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Mis hoolime meie kellegi pimeda hoiatusest.</p>
+                    </sp>
+                    <sp who="#isa">
+                        <speaker>Isa.</speaker>
+                        <p>Ei, mu poeg, see oli käskjalg kusagilt, kus ollakse vägevamad kui meie.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Soo-tulukesest kõneles ta? Soo-tulukese juure käskis mind minna?</p>
+                    </sp>
+                    <pb n="13"/>
+                    <sp who="#isa">
+                        <speaker>Isa.</speaker>
+                        <p>Soo-tulukese juure peab minema noormees, säält otsima õnne, mitte siit, sinu tütrelt. Nii olid ta sõnad. Näid kohkuvat?</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Ei, ei. Mulle tulid meele kellegi teise sõnad.</p>
+                    </sp>
+                    <sp who="#isa">
+                        <speaker>Isa.</speaker>
+                        <p>Mine koju, noormees. Öö on. Suur on nende võim öösel. Nende sõna peab kuuldama. Nad on vägevad.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Kes andis neile vägevuse?</p>
+                    </sp>
+                    <sp who="#isa">
+                        <speaker>Isa.</speaker>
+                        <p>Ära küsi, ära küsi. Kas polnud vägevus juba tema ilmumises. Mine. Vaata, kuida soo-tuluke kutsub sind... manitseb. <stage>(Tütre käest kinni võttes.)</stage> Tule, laps, lähme kambri. Aeg on hiline.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid</speaker>
+                        <p><stage>(päästab käe isa käest, suudleb, kaisutab noortmeest).</stage> Aimasin, aimasin hädaohtu. Ütlesin sulle...</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Ära karda, armsam. Veel pole kadunud õnn. Looda. Looda...</p>
+                    </sp>
+                    <pb n="14"/>
+                    <sp who="#neid">
+                        <speaker>Neid</speaker>
+                        <p><stage>(vaatab noormehe silmi ja läheb siis isaga aeglaselt kambri poole. Lävel pöörab ta järsku ümber, tuleb ruttu noormehe juure tagasi ja kõneleb tasa).</stage> Homme, armsam. Homme läheb isa pikale teekonnale — siis tule. Panen tule kambri aknale, et näeksid sihti, tulles läbi soo. Homme, homme, siis ootan sind jälle.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Igal ööl tulen siia, sinu juure, armsam. Mis hoolin kellegi kutseist, ähvardusist. Homme, kui hõbetab kuuvalge su voodit, kui heljuvad põrandal toomede varjud, siis tulen. Jää terveks!</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Jää terveks! Homme, homme... <stage>(Jookseb kambri. Noormees vaatab talle väljasirutatud käsil järele.)</stage></p>
+                    </sp>
+                </div>
+                <div type="scene">
+                    <head>II pilt.</head>
+                    <stage>Talutuba, aknal põleb tuli.</stage>
+                    <sp who="#neid">
+                        <speaker>Neid</speaker>
+                        <p><stage>(kuulatab).</stage> Ka täna jääb ta hiljaks, ta ei tule veel. Võib olla, sai ta hukka soos. Soo on salalik... Selle eilse võõra<pb n="15"/> hoiatus ei taha mul minna meelest. Või kardab ta isa ja ootab mind toomede juures? <stage>(Läheb ukse poole, et minna välja, toomede juure. Sel silmapilgul avaneb uks, pime sant astub käsikaudu kobades sisse. Neid seisatab ja vaatab kohkunult võõrast. Taganeb siis, teed andes pimedale, kes, käsi ettepoole välja sirutades, kambri keskele sammub.)</stage></p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Nii hilja, vanaisa?</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Pime.</speaker>
+                        <p>Jäin hiljaks teele, kallis laps. Ehk leian siit öömaja, hääde inimeste juurest?</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Kaugelt tuled, vanaisa?</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Pime.</speaker>
+                        <p>Oi, kaugelt, kaugelt, kallis laps. Kõik liikmed on väsinud ja valutavad.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Hää küll, tule siia ja puhka. <stage>(Talutab ta kättpidi ahju taha, kuhu pime ägades ja oiates maha heidab. Siis tuleb noormees kiirel sammul uksest sisse.)</stage></p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid</speaker>
+                        <p><stage>(tõttab tulijale väljasirutatud käsil vastu).</stage> Tulid,<pb n="16"/> tulid! Ootasin ammugi, kartsin, et said hukka soos. Kartsin soo-tulukest.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Jäin jälle hiljaks, kuid mitte oma süü läbi. Oi, kuidas kihises ja korises täna soo, kui tulin. Veel kunagi pole näinud põlevat soo-tulukest nii heleda leegina kui täna. Ka häälitses sääl soo-vaim ja püüdis mind eksitada teelt. Neid meelitusi, tõotusi, ähvardusi, mis pidin kuulma!</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Pime</speaker>
+                        <p><stage>(ahju tagast).</stage> Vägevad on naised, kui nad armastavad.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees</speaker>
+                        <p><stage>(pisut kohkudes).</stage> Kes kõneleb sääl?</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Üks pime sant, kes palus öömaja.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Mis teab pime värvidest.</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Pime.</speaker>
+                        <p>Ma pole ikka pime olnud.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Hää küll, kõnele.</p>
+                    </sp>
+                    <pb n="17"/>
+                    <sp who="#soovaim">
+                        <speaker>Pime.</speaker>
+                        <p>Hirmsad on naised omas vihas, kui näevad, et neilt tahetakse võtta õnne.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Sääl kõneleb pime naistest.</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Pime.</speaker>
+                        <p>Ta on neid näinud.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Sääl kõneleb pime õnnest.</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Pime.</speaker>
+                        <p>Ta oli kord ise õnnelik.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Kõnele.</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Pime.</speaker>
+                        <p>Hirmus on naiste viha, kui neilt püütakse võtta õnne.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Seda ütlesid juba. On selles kõik su tarkus?</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Pime.</speaker>
+                        <p>Kui naised armastavad, siis on neil tuhat kätt. Kõik panevad nad eneste teenistusse. Soo-tuluke armastab sind. Võta<pb n="18"/> vastu tema armastus, pelga tema viha. Armastusest põlguseni on üksainus samm.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Oo!</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees</speaker>
+                        <p><stage>(neiule).</stage> Ära karda, armsam! Ei suuda soo-tuluke ometi sundida, et teda armastaksin.</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Pime.</speaker>
+                        <p>Vaata välja, soo poole. Säält võib tõusta kihvtine soo-aur, mis imbub mehe ajudesse.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Kuidas, kuidas? <stage>(Neiu poole.)</stage> Mis ta ütles?</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid</speaker>
+                        <p><stage>(kohkunult).</stage> Mis ta ütles? Mis ta ütles?</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Pime.</speaker>
+                        <p>Vaadake soo poole.</p>
+                    </sp>
+                    <sp who="#noormees #neid">
+                        <speaker>Noormees ja Neid</speaker>
+                        <p><stage>(vaatavad aknast välja).</stage></p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Kardan! Kardan! Veripunane tuluke on soos.</p>
+                    </sp>
+                    <pb n="19"/>
+                    <sp who="#soovaim">
+                        <speaker>Pime.</speaker>
+                        <p>See on soo-tuluke. Tema armastab sind, noormees, ja põleb veripunaselt. Vaimud on vägevamad kui inimesed, neid peabki kartma.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Vaiki, pime.</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Pime.</speaker>
+                        <p>Näha ei või ma, kõnelda küll.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Sa pead vaikima!</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Pime.</speaker>
+                        <p>Kõnelema pean. Kui inimesed armastavad, siis on palju nende teenistuses, kui armastavad vaimud, siis on nende teenistuses kõik, kõik.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Aa, saan aru. Tahad öelda, et sinagi oled soo-tulukese teenistuses. Miks muidu see sobitus.</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Pime.</speaker>
+                        <p>Ja, ka mina.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid</speaker>
+                        <p><stage>(akna juurest).</stage> Veripunane! Veripunane! Ja tuleb vilkudes kord lähemale, kord hõljub kaugemale. Otsekui kutsudes vilgub ta sääl.</p>
+                    </sp>
+                    <pb n="20"/>
+                    <sp who="#soovaim">
+                        <speaker>Pime.</speaker>
+                        <p>Kutsubki. Ta kutsub sind, noormees. Mine! Mitte asjata ei näita ta sulle soo tundmatuid radu, mida pole leidnud veel keegi surelikest. Ta kutsub sind. Mine, mine, noormees!</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Vaiki, pime! Segad end asjusse, mis ei lähe korda sinule.</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Pime,</speaker>
+                        <p>Soo-tuluke armastab sind.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Kui võiksid näha, näitaksin sulle neidu, keda armastan. Ta on siin, mu kõrval. Kuuled ainult, näha ei või sa teda mitte. Ainult teda armastan, ega kedagi teist.</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Pime.</speaker>
+                        <p>Mine — leiad õnne.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Olen juba leidnud.</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Pime.</speaker>
+                        <p>See on maine, see on tühine.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Vaiki, vaiki, pime!</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Pime.</speaker>
+                        <p>Hää küll, ma vaikin. Kuid hoiatan veel kord. Vaimud on vägevamad kui inimesed.</p>
+                    </sp>
+                    <pb n="21"/>
+                    <sp who="#neid">
+                        <speaker>Neid</speaker>
+                        <p><stage>(soo poole vahtides).</stage> Vaata, vaata! Soo-tulukesel on inimese nägu. Udust sirutavad endid siiapoole otsekui kellegi valged käsivarred. <stage>(Noormees vaatab. Kellegi nägematud käed avavad ukse. Läbitõmbav tuul ähvardab lampi kustutada.)</stage> Ja nüüd kadus kõik ära. Soos on pimedus.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Jah, nüüd kadus ta ära. Soo-tuluke ei armasta mind enam. <stage>(Ahju poole.)</stage> Kuuled, pime, soo-tuluke kustus ja ei armasta mind enam. <stage>(Vaikus. Pime ei vasta.)</stage> Magab. Pime magab. <stage>(Vaatab kambris ringi.)</stage> Kust tekkis tuul? Kes avas ukse? <stage>(Paneb ukse kinni.)</stage> Kuuled, pime, soo-tuluke kadus ära. <stage>(Vaatab ahju taha.)</stage> Pime on kadunud.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Mis?</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Pime on kadunud. Kuhu jäi pime? <stage>(Tähendab ukse poole.)</stage> Aa, tema see oli, kes avas ukse ja läks välja? Pime... Ei nii tasa ja kiiresti ei käi pimedad. See oli keegi teine, keegi, kes...</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Kes? Kes?</p>
+                    </sp>
+                    <pb n="22"/>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Ma ei tea seda. Aga ta ütles, et temagi olla soo-tulukese teenistuses. <stage>(Mõlemaid valdab painajalik tunne, et nad on sattunud mingi võõra võimu alla. Mõne silmapilgu vaatavad nad nõutult enese ette, otsekui kuulatades lähenevat hädaohtu. Siis kostavad väljast kellegi sammud ja avatakse eeskoja uks. Neid kohkub.)</stage></p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Säält tuleb keegi. See on pime. <stage>(Noormehele.)</stage> Ära lase teda sisse. <stage>(Noormees astub kähku ukse poole, et takistada tulijat.)</stage> Ära lase, ära lase. <stage>(Sel silmapilgul avatakse kambri uks, sisse astub isa.)</stage></p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Pime!</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Ei, see on isa.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid</speaker>
+                        <p><stage>(läheb isale vastu).</stage> Isa! Miks tulid tagasi? Pidid ju minema kaugele.</p>
+                    </sp>
+                    <sp who="#isa">
+                        <speaker>Isa</speaker>
+                        <p><stage>(tütrele).</stage> Mind kutsuti, kästi tulla tagasi. <stage>(Noormehele.)</stage> Sa oled jälle siin, noormees. Sa ei pidanud enam kunagi tulema, nagu ütlesin. Mine ära siit!</p>
+                    </sp>
+                    <pb n="23"/>
+                    <stage>(Noormehe pää vajub rinnale.)</stage>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Juhtus sulle teel midagi, isa? Sa oled kahvatu ja värised. Kas juhtus mõni õnnetus?</p>
+                    </sp>
+                    <sp who="#isa">
+                        <speaker>Isa.</speaker>
+                        <p>Ei, ei. Ära nõua, ära usuta. Kustuta tuli ja olgu rahu siin majas. Mine ära, noormees, ja ära tule enam kunagi siia. Neid peame kuulma, sest nemad on vägevamad kui inimesed.</p>
+                    </sp>
+                    <stage>(Noormees läheb kurvalt ukse poole.)</stage>
+                    <sp who="#noormees">
+                        <speaker>Noormees</speaker>
+                        <p><stage>(lävelt).</stage> Hääd ööd! <stage>(Ära.)</stage></p>
+                    </sp>
+                    <sp who="#isa">
+                        <speaker>Isa</speaker>
+                        <p><stage>(noormehele järele vaadates, tumedalt).</stage> Hääd ööd! <stage>(Neiule.)</stage> Nüüd kustutame tule ja heidame magama. Rahu, rahu olgu siin majas.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Isa, mis juhtus teel?</p>
+                    </sp>
+                    <sp who="#isa">
+                        <speaker>Isa.</speaker>
+                        <p>Nägin jälle teda. Ta tuli mulle vastu. Hirmutas, kohutas mind ja hoiatas viimist korda, nagu ütles. Oo, ta oli kole oma tühjade silmaaukudega.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Kes kohutas sind?</p>
+                    </sp>
+                    <pb n="24"/>
+                    <sp who="#isa">
+                        <speaker>Isa.</speaker>
+                        <p>Seesama, kes seisis mu voodi ees eilsel ööl.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Pime?</p>
+                    </sp>
+                    <sp who="#isa">
+                        <speaker>Isa.</speaker>
+                        <p>Küllalt, küllalt! Ära kõnele enam sellest. Mine, heida voodisse, laps. ÖÖ on.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid</speaker>
+                        <p><stage>(läheb teise kambrisse).</stage> Hääd ööd, isa!</p>
+                    </sp>
+                    <sp who="#isa">
+                        <speaker>Isa.</speaker>
+                        <p>Hääd ööd! Hääd ööd! <stage>(Ootab, kuni tütar ära läinud, vaatab siis kambris rahutult ringi. Kuulatab, paneb ukse haaki, pomiseb mõne arusaamatu sõna, astub siis akna juure ja vaatab arglikult välja soo poole.)</stage> Jälle põleb sootuluke heleda helgina. Mis ütles pime? Häda tuleb soost, ütles ta, kui te ei suuda peletada noormeest. See pime näib kõik kuulvat ja nägevat. Teda peab kardetama. Noormees ei tohi enam kunagi tulla. Ei kunagi, ei kunagi.</p>
+                    </sp>
+                    <pb n="25"/>
+                    <sp who="#neid">
+                        <speaker>Neid</speaker>
+                        <p><stage>(tasa).</stage> Ta läks ära, ega tohi enam iialgi tulla. Nii kadus õnn. Ometi tean, ta ootab mind toomede juures, et võiksime jumalaga jätta. Tunnen ta lähedust, tean, et ootab mind. <stage>(Avab akna.)</stage> Ta seisab toomede juures. Nüüd nägi ta mind ja tuleb. <stage>(Noormees ilmub akna taha.)</stage> Teadsin, kallim, et ootad.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Igavesti võiksin oodata sind.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Tasa! Tasa! Isa võib ärgata. Ta ütles, sa ei tohtivat kunagi enam tulla.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Kuulsin, mis ütles isa. Ta kardab neid, keda arvab olevat vägevamad kui meie. Mis hoolime sellest? Mis hoolime sellest, kallim? Pole ühtki vägevamat võimu, kui armastus.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Nüüd lähed ära ja ei tule iialgi enam.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Tule kaasa minuga, siis polegi mul vaja enam tulla.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Kuhu pean tulema kaasa?</p>
+                    </sp>
+                    <pb n="26"/>
+                    <sp who="#noormees">
+                        <speaker>Noormees</speaker>
+                        <p><stage>(tähendab soo poole).</stage> Sinna, mu koju, üle soo.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Sinna? Kardan, kardan.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Kus on sul olla julgem kui minu juures. Tule, sääl on õnn. Pole mul siis vaja käia hädaohtlikel radul ega kuulda ähvardusi.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Kardan. Mis ütleks isa?</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Isa magab. Kui ta jälle ärkab, siis oled juba sääl, mu kodus. Siis tulen siia ühel päeval ja toon talle tervituse sinult. Mis tahab su isagi muud, kui et oleksid õnnelik. Tule, kallim!</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid</speaker>
+                        <p><stage>(pääle vaikust, tasa).</stage> Kardan.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Kus tunned enese julgema olevat, kui minuga?</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid</speaker>
+                        <p><stage>(kahevahel olles).</stage> Ma ei tea... Ma ei tea... <stage>(Avab tasahiljukesi ukse ja läheb välja. Akna juures seisatavad mõlemad silmapilgu. Suudlus.)</stage></p>
+                    </sp>
+                    <pb n="27"/>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Nii, kallim. Nüüd edasi uue kodu poole, kus ootab õnn.</p>
+                    </sp>
+                    <stage>(Mõlemad ära. Aken jääb lahti. Jälle on vaikus. Siis ilmub akna taha pime ja vaatab kambri.)</stage>
+                    <sp who="#soovaim">
+                        <speaker>Pime</speaker>
+                        <p><stage>(pääd noogutades).</stage> Nad läksid siiski ära, hoolimata keelust ja hoiatusest. <stage>(Tuleb kambri, seisatab isa voodi ees, kumardab end magaja üle.)</stage> Pidid hoidma ja valvama oma tütart, nagu käskisin. Kus on su tütar? Otsi üles oma tütar!</p>
+                    </sp>
+                    <stage>(Isa tõstab pää, vaatab võõrale kohkunult otsa ja langeb tagasi asemele. Pime läheb kiiresti välja.)</stage>
+                    <sp who="#isa">
+                        <speaker>Isa</speaker>
+                        <p><stage>(tõuseb uuesti, vaatab argselt ringi).</stage> Ta oli jälle siin. Ta oli jälle siin, see kohutav külaline. Otsi üles oma tütar, ütles ta. Mis tähendab see käsk? Mu tütar on ju sääl <stage>(teises kambris)</stage> ja magab. Miks pean teda otsima? <stage>(Läheb teise kambrisse, tuleb mõne silmapilgu pärast kohkunult tagasi.)</stage> Teda ei ole sääl, ta on ära läinud. Oo, siis oli õigus võõral. <stage>(Hüüab.)</stage> Kus oled, laps? <stage>(Jookseb välja, hüüab.)</stage> Tule tagasi, laps! Tule tagasi! Tule tagasi!</p>
+                    </sp>
+                </div>
+                <pb n="28"/>
+                <div type="scene">
+                    <head>III pilt.</head>
+                    <stage>Soo. Ümberringi pimedus, keskel valguse lapp. Neid ja noormees tulevad.</stage>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Kardan, kardan. Kuuled, kuis kihiseb ja koriseb soo.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>See on viimne hädaoht, siis tuleb õnn.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid</speaker>
+                        <p><stage>(jääb seisma valguse ringis).</stage> Kardan tulla edasi. Siin põles enne tuluke.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Mina olen su juures, kallim. Peleta enesest hirm. Tunnen sood ja tean rada, mis viib kindlale maale.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Kuula! Kuula! <stage>(Kuulatab. Kaugelt kostavad isa hüüded, kes kutsub tagasi tütart.)</stage></p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees</speaker>
+                        <p><stage>(kuulatab).</stage> Kes karjub sääl?</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>See on isa, kes mind kutsub tagasi koju. Kuuled! Kuuled! <stage>(Uued hüüded kaugelt.)</stage> Võib olla, neab ta mind, et astusin üle keelust. Kardan, kardan. <stage>(Kuulatab.)</stage> Nüüd on vaikus. Ta otsib mind toomede juurest. <stage>(Soo koriseb.)</stage> Mis koriseb sääl?</p>
+                    </sp>
+                    <pb n="29"/>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Soo.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid</speaker>
+                        <p><stage>(pimedusse näidates).</stage> Sääl tuleb keegi. <stage>(Vaatab teraselt. Karjatab.)</stage> Pime!</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Pime</speaker>
+                        <p><stage>(ilmub valguse ringi).</stage> Siin!</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Pime soos!</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Pime.</speaker>
+                        <p>On sul siin nägemisest kasu? Siin tunneb ainult jalg kohta, kuhu astuda.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Sind saab igale poole, pime. Oled liig tegev. Segad end võõraste asjade sekka ja käid sääl, kuhu sind ei oodata. Kas polnud sina see öömajaline, kes nii järsku ära kadus?</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Pime.</speaker>
+                        <p>Mina.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Aimasin. Siis käisid veel eile öösel mu mõrsja isa juures, kõnelsid asjast, mis sulle korda ei lähe. Võiksid jätta omad asjatud käigud.</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Pime.</speaker>
+                        <p>Asjatud käigud... Soovaim ei tee kunagi asjatuid käike.</p>
+                    </sp>
+                    <pb n="30"/>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Soovaim!</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Ahaa — soovaim! Mispärast võtad endale nii viletsa kuju, soovaim? Leiaksid rohkem uskujaid, kui ilmuksid nägijana.</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Soovaim.</speaker>
+                        <p>Uskuma peate mind. Uskuma sunnin teid. Neid asju, mis näen mina, ei või teie iialgi näha, teie, pimedad nägijad. Sina, noormees, ei näe oma õnnegi, vaid jooksed hukatusse, kaasa tõmmates teist enesega. Sina oled pime, mitte mina. Aga ma kordan, hoia end naise viha eest. Mu tütar, soo-tuluke, armastab sind; ennemini hävitab ta sinu, kui näeb õnnelikuna kedagi teist su kõrval.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Unustad, soovaim, et ka minu kõrval seisab naine. Peaksid kartma tema viha.</p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Soovaim.</speaker>
+                        <p>Vaimud on vägevamad kui inimesed. Kuulge! Kuulge! <stage>(Kaugelt kostavad isa hüüded.)</stage></p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Sääl kutsub mind ikka veel isa.</p>
+                    </sp>
+                    <pb n="31"/>
+                    <sp who="#soovaim">
+                        <speaker>Soovaim.</speaker>
+                        <p>Need on needmisesõnad. Need suurendavad meie võimu teie üle. Aga enne kui sünnib see, mis sündima peab, lasen sind, noormees, kõnelda temaga, kes sind igatseb.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Seda ootan. Mis rõõmu teeb mulle kõnelda sinuga, vana sobitaja.</p>
+                    </sp>
+                    <stage>(Soovaim kaob. Soo-tuluke hakkab põlema noormehe ja neiu lähedal.)</stage>
+                    <sp who="#soo-tuluke">
+                        <speaker>Hääl.</speaker>
+                        <p>Igatsen sind, noormees.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees.</speaker>
+                        <p>Sinu suudlus põletab, su kaisutus toob surma.</p>
+                    </sp>
+                    <sp who="#soo-tuluke">
+                        <speaker>Hääl.</speaker>
+                        <p>Saad surematuks. Heledatena tuledena heljume siis soo pinnal ja maitseme jäädavat õnne. <stage>(Tuluke kustub. Otsekui udupilves läheneb noor neid ja sirutab oma käed noormehe poole, valguse ringi.)</stage></p>
+                    </sp>
+                    <sp who="#soo-tuluke">
+                        <speaker>Võõras neid</speaker>
+                        <stage>(Soo-tuluke).</stage>
+                        <p>Tule, tule, noormees! Tule soo-tulukesega.</p>
+                    </sp>
+                    <sp who="#noormees">
+                        <speaker>Noormees</speaker>
+                        <p><stage>(astub võõra poole).</stage> Sina! Oled sina soo-tuluke?</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Ära mine, kallim. Ta põletab sind.</p>
+                    </sp>
+                    <pb n="32"/>
+                    <sp who="#noormees">
+                        <speaker>Noormees</speaker>
+                        <p><stage>(läheb soo-tulukese juure, kaob valguse ringist).</stage> Soo-tuluke! Soo-tuluke!</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid</speaker>
+                        <p><stage>(noormehele).</stage> Tule tagasi, kallim. Kardan üksi.</p>
+                    </sp>
+                    <sp who="#soo-tuluke">
+                        <speaker>Võõras neid</speaker>
+                        <p><stage>(eemalt).</stage> Mine koju, laps. Isa ootab sind ja kutsub. Mine koju; võib olla, antakse sulle andeks. Su noormees jääb siia, minu igaveseks kaasaks.</p>
+                    </sp>
+                    <sp who="#neid">
+                        <speaker>Neid.</speaker>
+                        <p>Ei! Ei! <stage>(Tahab noormehele pimedusse järele minna. Soovaim ilmub järsku ja paneb tal tee eest kinni.)</stage></p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Soovaim.</speaker>
+                        <p>Sinna, sinna mine, kust kostavad hüüded. Noormeest ei näe sa enam iialgi. Tema jääb siia, mu tütre igaveseks kaasaks. Kuuled seda korinat — nad läksid alla, mu riiki. <stage>(Soo koriseb ja kihiseb. Siis tekib vaikus. Valguse ring muutub väiksemaks ja kaob pikkamisi hoopis. Eemalt kostavad isa hüüded.)</stage></p>
+                    </sp>
+                    <sp who="#soovaim">
+                        <speaker>Soovaim</speaker>
+                        <p><stage>(võtab neiu käe ja viib ta kodu poole).</stage> Tule koju, laps. Sind kutsutakse.</p>
+                    </sp>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
