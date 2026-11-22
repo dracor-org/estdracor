@@ -139,7 +139,7 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2026-09-02">Add genre and update formatting</change>
+                <change when="2026-11-22">Fix errors in OCR cleaning</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -351,8 +351,8 @@
                     <head>2. ettendus.</head>
                     <stage>ENDISED. JÄSHKA (astub ruttu sisse).</stage>
                     <sp who="#jaeshka">
-                        <speaker>JÄSHKA:</speaker>
-                        <stage>(valge rättik käes)</stage>
+                        <speaker>JÄSHKA</speaker>
+                        <stage>(valge rättik käes):</stage>
                         <p>Siin ma olen, ausad herrad! Mis herradel tarvis on?</p>
                     </sp>
                     <sp who="#pulkus">
@@ -368,8 +368,8 @@
                         <p>Ära karda Jäshka, mina mõistan ka vait olla ja sinu igatsemistest osa võrra.</p>
                     </sp>
                     <sp who="#jaeshka">
-                        <speaker>JÄSHKA:</speaker>
-                        <stage>(rõõmuga)</stage>
+                        <speaker>JÄSHKA</speaker>
+                        <stage>(rõõmuga):</stage>
                         <p>Tänan väga! Siis julgen ka ütelda, et ma põlviheitmisest ammu mööda olen.</p>
                     </sp>
                     <sp who="#pulkus">
@@ -385,8 +385,8 @@
                         <p>No eks ta ole, iga peiu kosib jo kõige parema neiu. Millal pulmad saavad? Kas kutsud meid ka pulma?</p>
                     </sp>
                     <sp who="#jaeshka">
-                        <speaker>JÄSHKA:</speaker>
-                        <stage>(ohkades)</stage>
+                        <speaker>JÄSHKA</speaker>
+                        <stage>(ohkades):</stage>
                         <p>Oh, ausad herrad, kül oleks see meile suureks auuks, aga siis peaksite veel kaua ootma! Meil on kül' südamed<pb n="40"/> armastust, aga kukrud — tühja täis! Se'ep se meie mõru sap ja valu on. Meister Piitsh ja emand Doorken ütlevad jo igapääv: "Taignapääd, jätke oma õhkamist ja ohkamist, teenige ja korjage, kuni teil midagi on, siis minge paari. Parem üks sandikep kui kaks kanda.". — Oh, et neil õigus peab olema! Meie oleme jo mõlemad vaesed, nagu kirikurottid.</p>
                     </sp>
                     <sp who="#hammer">
@@ -402,18 +402,18 @@
                         <p>Aga Jäshka, sina võrukael, magad ja unistad jo püsti jalal! Vala klaasid ja toppi piibud täis!</p>
                     </sp>
                     <sp who="#jaeshka">
-                        <speaker>JÄSHKA:</speaker>
-                        <stage>(kohkudes)</stage>
+                        <speaker>JÄSHKA</speaker>
+                        <stage>(kohkudes):</stage>
                         <p>Jah, herra, silmapilk! <stage>(Valab klaasid täis, hakkab piipa toppima.)</stage></p>
                     </sp>
                     <sp who="#liisken">
-                        <speaker>LIISKEN:</speaker>
-                        <stage>(sirmi takka)</stage>
+                        <speaker>LIISKEN</speaker>
+                        <stage>(sirmi takka):</stage>
                         <p>Jäshka! Jäshka ae! Kus sa oled? Meister Piitsh kutsub! Tule jo, enne kui müristama hakkab!</p>
                     </sp>
                     <sp who="#jaeshka">
-                        <speaker>JÄSHKA:</speaker>
-                        <stage>(õnnelikult kohkudes kõrvale)</stage>
+                        <speaker>JÄSHKA</speaker>
+                        <stage>(õnnelikult kohkudes kõrvale):</stage>
                         <p>Oh sa mesimagus inglihääl, kuida helised mo südamest läbi! <stage>(Herrade poole):</stage> Kas herradel veel midagi käskida on, mind kutsutakse ära?</p>
                     </sp>
                     <sp who="#pulkus">
@@ -454,7 +454,7 @@
                     </sp>
                     <sp who="#pulkus">
                         <speaker>PULKUS:</speaker>
-                        <p>Olgu kül, ega sellepärast suud ega südamedki tohi ärakuivada. Kosutuse hallik annab ikka oma tarvilest niiskust; sest Madeira marjad kasvavad jo meresaare pääl. — Aga, mis ma pidin ütlema; ma olin Kalmeriga turu pääl kous. Baltia raudtee-aktsiad peavad tõusmas olema.</p>
+                        <p>Olgu kül, ega sellepärast suud ega südamedki tohi äräkuivada. Kosutuse hallik annab ikka oma tarvilest niiskust; sest Madeira marjad kasvavad jo meresaare pääl. — Aga, mis ma pidin ütlema; ma olin Kalmeriga turu pääl kous. Baltia raudtee-aktsiad peavad tõusmas olema.</p>
                     </sp>
                     <sp who="#hammer">
                         <speaker>HAMMER:</speaker>
@@ -465,13 +465,13 @@
                         <p>Pagana lugu, mis meie siin, nagu vahisoldatid, kuiva suuga püsti seisame? Istuge maha! Jäshka, see panthabe on kõik jälle äraunustanud. Sel' on nüüd pää sääski ja süda sippelgaid täis, et muud enam ei näe ega kuule, kui oma Liiskeni. <stage>(Hüüab):</stage> Jäshka! Jäshka ae! Jäshka ae! — <stage>(Iseeneses)</stage> See unimük on kurdiks ja pimedaks jäänud. <stage>(Teiste poole)</stage> Vaatke, mo sõbrad: on teenril kord mesilase nõel südant torkinud, siis ei kõlba ta enam kuhugi. Jäshka olli enne esimene viks pois, nagu uuriluu vuras ta, alati käepärast, paigast paika; aga nüüd — nagu lastud vares norutab ta kord siin, kord sääl.</p>
                     </sp>
                     <sp who="#nikkard">
-                        <speaker>NIKKARD:</speaker>
-                        <stage>(naerdes)</stage>
+                        <speaker>NIKKARD</speaker>
+                        <stage>(naerdes):</stage>
                         <p>Tasa, tasa, kohtunik Pulkus! Mina tunnen ühte, kes 18 aasta eest karvaväärt parem ei olnud, ja kui tema sel ajal Piitsi oleks teeninud, oleks ta sedamaid leivast lahti olnud. Mis sa arvad, sõber Pulkus, kes see —</p>
                     </sp>
                     <sp who="#pulkus">
-                        <speaker>PULKUS:</speaker>
-                        <stage>(ka naerdes)</stage>
+                        <speaker>PULKUS</speaker>
+                        <stage>(ka naerdes):</stage>
                         <p>Jaa, se on jälle teine asi, üsna teine asi! Minu isa oli seekord mo armsa Helena vastane.</p>
                     </sp>
                     <sp who="#nikkard">
@@ -495,8 +495,8 @@
                     <head>4. ettendus.</head>
                     <stage>HAMMER. PULKUS. NIKKARD — LIISKEN (astub sisse).</stage>
                     <sp who="#liisken">
-                        <speaker>LIISKEN:</speaker>
-                        <stage>(theelaud käes, pudel, klaas pääl, kätterättik õlal, teeb kniksu)</stage>
+                        <speaker>LIISKEN</speaker>
+                        <stage>(theelaud käes, pudel, klaas pääl, kätterättik õlal, teeb kniksu):</stage>
                         <p>Ausad herrad, palun andeks, mind ei olnud sel silmapilgul toas, kui herrad hüüdsivad, emand Doorken oli mind läkkitanud kanapoegele tangu etteripputama ja meister Piitsh tampis jalga, et kedagit käepärast ei olnud —</p>
                     </sp>
                     <sp who="#pulkus">
@@ -504,8 +504,8 @@
                         <p>Kena laps, aga mina sind ei hüüdnud, vaid Jäshka. Kus on Jäshka? Ega sa teda ometi torni 'pole saatnud, et iga pääv so järele —</p>
                     </sp>
                     <sp who="#liisken">
-                        <speaker>LIISKEN:</speaker>
-                        <stage>(häbelikult)</stage>
+                        <speaker>LIISKEN</speaker>
+                        <stage>(häbelikult):</stage>
                         <p>Meister Piitsh saatis Jäshka välja.</p>
                     </sp>
                     <sp who="#nikkard">
@@ -541,8 +541,8 @@
                         <p>Puuri, puuri, vet ja leiba nattuke ette, muud midagi! — Aga ütle ometi, mo jumekas laps, kuida teie, salaasjad, pidin ütlema — kosja asjad nüüd Jäshka ja sinu vahel õieti seisavad?</p>
                     </sp>
                     <sp who="#liisken">
-                        <speaker>LIISKEN:</speaker>
-                        <stage>(punastab ära, lööb silmad maha)</stage>
+                        <speaker>LIISKEN</speaker>
+                        <stage>(punastab ära, lööb silmad maha):</stage>
                         <p>Mi-mi-mis salaasjast herra räägib? Ei mina tia kedagit ühti. Jäshka läks politsei pääle, ei<pb n="43"/> olnud veel tagasi, kui mina seia tullin.</p>
                     </sp>
                     <sp who="#pulkus">
@@ -550,8 +550,8 @@
                         <p>Ära nüüd ilmaasjata puikle, mina tean, et Jäshka sinu pärast tulest ja veest läbi lähäks ja hää pois on ta vissiste; miks sa teda ei võtta?</p>
                     </sp>
                     <sp who="#liisken">
-                        <speaker>LIISKEN:</speaker>
-                        <stage>(vähkpunane, silmad maha lües)</stage>
+                        <speaker>LIISKEN</speaker>
+                        <stage>(vähkpunane, silmad maha lües):</stage>
                         <p>Miks herra nõnda räägib ja mind pilkama hakkab? Mina olen vaenelaps, kellel midagi võtta ega jätta ei ole. Kis kassile kala annab ehk vaestlast — süles kannab?</p>
                     </sp>
                     <sp who="#hammer">
@@ -563,8 +563,8 @@
                         <p>"Vaesedlapsed" ei ole ka igakord nii vaesed, kui väljanäitvad. Nõnda ei usu mina mitte, et Jäshka ilma rahata on. Tema teenib juba kümmekond aastat siin ja saab hää palga, pääle selle ei läha pääva mööda, kus mõni hõbelitter ise järele jookrahaks tema peusse ei libise; ja kokkuhoidja pois on Jäshka vissest; miks sa teda ei võtta?</p>
                     </sp>
                     <sp who="#liisken">
-                        <speaker>LIISKEN:</speaker>
-                        <stage>(tulipunane)</stage>
+                        <speaker>LIISKEN</speaker>
+                        <stage>(tulipunane):</stage>
                         <p>Ei mina mõista sest kõigest mitte miskit. Mina olen vaenelaps, miks herrad mind pilkavad?</p>
                     </sp>
                     <sp who="#pulkus">
@@ -584,13 +584,13 @@
                         <p>Ei muud midagi. <stage>(Tahab äraminna).</stage></p>
                     </sp>
                     <sp who="#jaeshka">
-                        <speaker>JÄSHKA:</speaker>
-                        <stage>(alt treppi päält)</stage>
+                        <speaker>JÄSHKA</speaker>
+                        <stage>(alt treppi päält):</stage>
                         <p>Liisken! Liisken! Kas üleval oled? Emand Doorken kutsub! Tule ruttu, muidu lähvad takkud põlema!</p>
                     </sp>
                     <sp who="#liisken">
-                        <speaker>LIISKEN:</speaker>
-                        <stage>(kohkudes)</stage>
+                        <speaker>LIISKEN</speaker>
+                        <stage>(kohkudes):</stage>
                         <p>Oh Jumal, kül ma nüüd jälle tapelda saan! <stage>(Lippab minema).</stage></p>
                     </sp>
                     <sp who="#hammer">
@@ -622,8 +622,8 @@
                         <p>Ega sina Naljapulk oma lustimängu ei või jätta! Kes on neid aktsiad maa pääl kuulnud? Ehk on sul enesel nimetatud kahe raudtee luba taskus ja aktsiad välja antud?</p>
                     </sp>
                     <sp who="#pulkus">
-                        <speaker>PULKUS:</speaker>
-                        <stage>(naljaka tõega)</stage>
+                        <speaker>PULKUS</speaker>
+                        <stage>(naljaka tõega):</stage>
                         <p>Seda kül veel mitte, aga mis on meie päivil võimata? Eks meil juba kõiksugused aktsiaseltsid ei ole, eks neid iga pääv juure ei tule? Ja see on tõsi, selle põllu pääl on veel paljugi tööd. Meister Piitsh tahab üht puhvet-köögi-keldri-telegrahvi-aktsiaseltsi asutada; meister Tinasilm valatud püksinööbi-vabriku-aktsiaseltsi; rentnik Kuk kanamunade-audumise-masina-aktsiaseltsi asutada, et kanad ise munedes sellega aega ei viida j.n.e., ja mina —</p>
                     </sp>
                     <sp who="#nikkard">
@@ -683,8 +683,8 @@
                         <p>Mina kolmas! Mõlemad noored inimesed on seda väärt.</p>
                     </sp>
                     <sp who="#pulkus">
-                        <speaker>PULKUS::</speaker>
-                        <stage>(annab sõbradele järgimöda kät)</stage>
+                        <speaker>PULKUS:</speaker>
+                        <stage>(annab sõbradele järgimöda kät):</stage>
                         <p>Ma tänan teid südamest, armsad sõbrad! Kui ma ka selle väikese asjaga üksi ja üsna vagusi valmis oleksin saanud, siis on noore inimeste suuremaks rõõmuks ja õnneks neljajalane nurgakivi ikka paksem ja tugevam, kui ühejalgne. Meie vahel ei ole jo mingisugust saladust ega sundimist. — Aga veel üks. Mina arvan meie aktsiaseltsi asutusest ei ole esiotsa maailmaturul midagi tarvis teada, ega noorel paaril ka mitte. Mis te arvate? Aeg annab kõige paremat nõu.</p>
                     </sp>
                     <sp who="#kalmer">
@@ -724,8 +724,8 @@
                         <p>Aga ütle mulle omiti, Jäshka, mis kelmitempu sina oled teinud, et nad sind puuri pistsivad? See oleks pidanud sündimata jääma. Seda ei oleks mina sinust mitte uskunud. Olid muidu alati viks ja viisakas, truu pois, kellest mina suurt lugu pidasin. Kuida se ometi tulli?</p>
                     </sp>
                     <sp who="#jaeshka">
-                        <speaker>JÄSHKA:</speaker>
-                        <stage>(kohkudes)</stage>
+                        <speaker>JÄSHKA</speaker>
+                        <stage>(kohkudes):</stage>
                         <p>Aus herra Kalmer, ei, ei mina 'pole veel iial tornis istunud! Jumala ristike olgu minu juures, ei seda pole veel olnud. Heldene aeg, mis oleks siis Liisken — tahtsin üttelda, mis oleks siis meister Piitsh üttelnud? Ta oleks mind sedamaid armastusest — tahtsin üttelda, leivast lahti teinud! Ja ilma Liisken — tahtsin üttelda, meister Piitshi leivata ei või mina mitte elada, mitte silmapilku! Jumal hoidku selle eest!</p>
                     </sp>
                     <sp who="#kalmer">
@@ -737,8 +737,8 @@
                         <p>Eks ma ole ehmatand? Herra Kalmer 'pole ka enne iial üttelnud, et mind olla torni pandud. Mis saaks minu tulevasest õnnest, kui Liisken — tahtsin üttelda, meister Piitsh seda oleks kuulnud? Püha ristike olgu minu juures!</p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(kuna teised kolm naeravad)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(kuna teised kolm naeravad):</stage>
                         <p>Aga sina tullid jo politsei<pb n="47"/> treppist maha, mis ma muud pidin arvama, kui et sind tornist oli väljalastud?</p>
                     </sp>
                     <sp who="#jaeshka">
@@ -750,8 +750,8 @@
                         <p>Sina viisid? Keda? Kunas sa vahtmeistriks oled saanud?</p>
                     </sp>
                     <sp who="#jaeshka">
-                        <speaker>JÄSHKA:</speaker>
-                        <stage>(kõrvale)</stage>
+                        <speaker>JÄSHKA</speaker>
+                        <stage>(kõrvale):</stage>
                         <p>Tänu taevale, et jut teine poole on pöörnud! Ma olin üsna kimpus; ikka jälle lobises suu seda, kellest süda täis oli. Sa põrsapraad ja munakook, kuida võin ma sõna ka suust väljaütelda, kui mull' mo kuldne Liisken mitte meele ei peaks tulema?</p>
                     </sp>
                     <sp who="#kalmer">
@@ -783,8 +783,8 @@
                         <p>Eks ta püüdnud tee pääl sinu käest ärakargada, mis jo raske ep oleks olnud?</p>
                     </sp>
                     <sp who="#jaeshka">
-                        <speaker>JÄSHKA:</speaker>
-                        <stage>(uhkelt)</stage>
+                        <speaker>JÄSHKA</speaker>
+                        <stage>(uhkelt):</stage>
                         <p>Mitte raske? Minukäest ärakargada? Haamer ja alas, nagu raudtangidega hoidsin teda kinni.</p>
                     </sp>
                     <sp who="#kalmer">
@@ -796,8 +796,8 @@
                         <p>Aus herra, minupärast võis ta ingel olla, aga näitas kui narukael välja, tahtis ilma hinnata süüa, juua ja, 125 rubl. sukkasääres, oma teed minna — vaatke, aus herra, niisugust nalja meister Piitsh ei mõista ega salli, — mees pidi torni saama. — Aga, kallikene, ma olen kauaks jäänud, nüüd pean ala tõttama!<pb n="48"/> <stage>(Kummardab, lippab ära: Jäshka! Jäshka! kuulukse juba alt.)</stage></p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(teiste poole pöördes)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(teiste poole pöördes):</stage>
                         <p>Vaene pois! Alati on tal süda keele pääl! Külap nüüd vana "Piits" tema pääle jälle uriseb, hää kui mitte ei hammusta.</p>
                     </sp>
                 </div>
@@ -841,8 +841,8 @@
                         <p>Ja siiski võib ta ilmsüüta olla; kohus ka, Piitsh ka, Jäshka ka, kõik päältnägiad ka ja teil, mo sõbrad, võib õigus olla ka. Kellegi südamemõtted ei paista meie silma ja kedagit ei või meie oma arvamise järele enne aegu hukka mõista. Maailmas sünnib mõnikord ime veidraid asju.</p>
                     </sp>
                     <sp who="#pulkus">
-                        <speaker>PULKUS:</speaker>
-                        <stage>(naerdes)</stage>
+                        <speaker>PULKUS</speaker>
+                        <stage>(naerdes):</stage>
                         <p>Sääl on jälle meie kuldõiglane Kalmer, kes parem kõik kelmid, pettised ja vargad puutumata laseb käia, kui et<pb n="49"/> kellegist enne aegu paha mõtleks ehk ütleks, <stage>(Hakkab Kalmeri kaela kinni ja annab temale suud.)</stage> Sa kallis mees! Aga täna eksid jälle, nagu sa mõnda korda juba eksinud.</p>
                     </sp>
                     <sp who="#kalmer">
@@ -911,7 +911,7 @@
                     </sp>
                     <sp who="#kalmer">
                         <speaker>KALMER:</speaker>
-                        <p>500? Mis püha ingel ehk kanapää mina siis olen?</p>
+                        <p>Soo? Mis püha ingel ehk kanapää mina siis olen?</p>
                     </sp>
                     <sp who="#pulkus">
                         <speaker>PULKUS.</speaker>
@@ -1002,8 +1002,8 @@
                         <p>Mina ka niisama.</p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(teistega ülestõus)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(teistega ülestõus):</stage>
                         <p>Soo, selle pääle andkem üheteisele mehelikult kät kinnituseks. <stage>(Kolm sõbra andvad temale kät.)</stage> Rehnungi maksame al Piitshi peusse; ja nüüd joome omad klaasid tühjaks ja teeme minekut. Löögem külge! <stage>(Löövad klaasid kokku):</stage> Kihlveu pääle! Kihlveu pääle! Elagu kõik ilmsüüta vangid ja pääsku pea lahti! Kihlveu pääle! <stage>(Joovad ja lähvad).</stage> Kosja-aktsia-selts elagu!</p>
                     </sp>
                     <stage>(Vahetek langeb maha).</stage>
@@ -1020,8 +1020,8 @@
                         <p>Isand puhvetsnik, naps viina, aga peenikest; pudel õlut, aga selget; portsion kanapraadi värske kurgidega; pärast pudel valget portviina. Laske kellner kargada, ma ootan! <stage>(Istub keskmise<pb n="52"/> laua otsa maha, kus mõlemad saksikud viltu pahaselt ta pääle vahivad).</stage></p>
                     </sp>
                     <sp who="#voeras-1">
-                        <speaker>ÜKS VÕERAS:</speaker>
-                        <stage>(kaugemalt tasa)</stage>
+                        <speaker>ÜKS VÕERAS</speaker>
+                        <stage>(kaugemalt tasa):</stage>
                         <p>Kes see Nudi Hans ometi peaks olema?</p>
                     </sp>
                     <sp who="#voeras-2">
@@ -1037,13 +1037,13 @@
                         <p>Pange tähele, see teeb meile täna mõnd näitetükki, ja meie maksame tema kõrtsivõla. Eks sähärdusi üle piiri küllalt sisse ei rända? Kus õhtu, sääl öömaja; kus toit laual, sääl nemad juures ja lusikad käes; jänust ega näljast ei ole neil iial puudu.</p>
                     </sp>
                     <sp who="#piitsh">
-                        <speaker>PIITSH:</speaker>
-                        <stage>(käib letti taga ümber, õerub kulmu)</stage>
+                        <speaker>PIITSH</speaker>
+                        <stage>(käib letti taga ümber, õerub kulmu):</stage>
                         <p>Jälle sähärdune naerkael! Kes ütleb mulle, et temal ka 125 rubl. põues on, nagu teisel olivad? Mis ma nüüd pean tegema, kas andma ehk keelma? Noh, olgu veel kord katsuda!</p>
                     </sp>
                     <sp who="#doorken">
-                        <speaker>DOORKEN:</speaker>
-                        <stage>(Pahempoolt letti taha tulles)</stage>
+                        <speaker>DOORKEN</speaker>
+                        <stage>(Pahempoolt letti taha tulles):</stage>
                         <p>Piitsh, ega sa ometi päris hul ei ole, et niisuguse näljatäiile, nagu mõne härrale kõik annad, mis tema küsib! Tema võib palju küsida, ei tea kes maksab?</p>
                     </sp>
                     <sp who="#piitsh">
@@ -1051,8 +1051,8 @@
                         <p>Ole vait, sina! Vaata, kas kanadel heinu ees on! Mees peab teadma, mis ta teeb. Mees on naese pää ja naine mehe. — Seda ütleb Pulli trahtersnik Piitsh, kes iial märgist mööda ei lase ega kevadet ei tunne. <stage>(Lööb tasku pääle):</stage> Nüüd suu vait! Teil naistel on alati pitkad juuksed ja lühikesed mõtted. Mis sul olli, kui ma so võtsin? Paljas, nagu sündinud rottipoeg. Seda ütleb Piitsh, kes kevadet ei tunne ega märgist mööda ei lase.</p>
                     </sp>
                     <sp who="#doorken">
-                        <speaker>DOORKEN:</speaker>
-                        <stage>(käksudes)</stage>
+                        <speaker>DOORKEN</speaker>
+                        <stage>(käksudes):</stage>
                         <p>Seda oled sa mulle sada korda etteviskanud. Olen mina so järele jooksnud, vana muri? Ollin nägus tüdruk, ausa vanemate laps, võisin prouaks saada —</p>
                     </sp>
                     <sp who="#piitsh">
@@ -1064,8 +1064,8 @@
                         <p>Hirvita aga pääle, senikaua sa hirvitad ja maailma hulgustele väljapillad, kuni pää mätta ala pistad ja mulle kerjakotti kaela jättad! <stage>(Lähäb turtsudes ära.)</stage></p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(laua äärest)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(laua äärest):</stage>
                         <p>Noh, kas tulleb juba ükskord, mis ma tellisin ja ammu ootan? Paastuda võin muial paikus parem, kui siin laua ääres!</p>
                     </sp>
                     <sp who="#piitsh">
@@ -1156,8 +1156,8 @@
                         <p>No eks ta ole; aga nii oma paras jagu, et viin mitte kergeks ei kuiva, nüüd on põudsed ilmad.</p>
                     </sp>
                     <sp who="#jaeshka">
-                        <speaker>JÄSHKA:</speaker>
-                        <stage>(kõrvale)</stage>
+                        <speaker>JÄSHKA</speaker>
+                        <stage>(kõrvale):</stage>
                         <p>Kas kuule pääluud! Kust tema seda peaks teadma, et meie kaev ja keldri uks lähestikku seisvad? Meister Piitshil võivad pinnad südames torkida, kui letti taga seda kuuleb. <stage>(Kalmeri poole pilkades):</stage> Aus herra näitavad palju viinaproovi katsunud ja mõnest paigast ka liig vedelat leidnud olevat? <stage>(Naerab.)</stage></p>
                     </sp>
                     <sp who="#kalmer">
@@ -1165,8 +1165,8 @@
                         <p>Ojah, mõndagi karva; mõnes kohas veel märjemad, kui siin. — Mis maksab niisugune pudel viina?</p>
                     </sp>
                     <sp who="#jaeshka">
-                        <speaker>JÄSHKA:</speaker>
-                        <stage>(toob viinakaardi letti päält, näitab)</stage>
+                        <speaker>JÄSHKA</speaker>
+                        <stage>(toob viinakaardi letti päält, näitab):</stage>
                         <p>Vaatke ise, aus herra: "1 pudel valget portviina... 1 rubl. 45 kop." Ega meie isand ülearu hinda ei võtta. <stage>(Kõrvale):</stage> Selle narukala käest ei saa ta vist mitte 5 kop. Nali võib täna jälle kenaks minna — ih, ih, ih! külap pean uueste politsei treppist ülesse ja maha jooksma. Pagan teab, kust korkast niisugused nälkjad laadaajal välja roomavad.</p>
                     </sp>
                     <sp who="#kalmer">
@@ -1210,8 +1210,8 @@
                         <p>Silmapilk! <stage>(Kalmeri poole):</stage> Saks või sant, mis te olete, 'pole<pb n="55"/> enam aega, isand hüüab, Otsigi raha välja!</p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(kohkudes)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(kohkudes):</stage>
                         <p>Ega ma veel ära ei lähä!</p>
                     </sp>
                     <sp who="#jaeshka">
@@ -1231,13 +1231,13 @@
                         <p>Odav? Teil on kõik hirmus kallis!</p>
                     </sp>
                     <sp who="#jaeshka">
-                        <speaker>JÄSHKA:</speaker>
-                        <stage>(hirvitab)</stage>
+                        <speaker>JÄSHKA</speaker>
+                        <stage>(hirvitab):</stage>
                         <p>Kes maksta ei jõua ehk ei taha, peab paastuma. Ilma hinnata ei anna ka hauakaevaja mitte labidatäit mulda — ih, ih, ih!</p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(läheb ikka kartlikumaks)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(läheb ikka kartlikumaks):</stage>
                         <p>Ei tea, kas mul nii suurt summa kaasas saab olema — ma otsin järele. <stage>(Kõrvale:)</stage> Oh, et ma nüüt veel pääseksin! Ligi 2 rubl. paljas pool kõhtu! <stage>(Tõuseb ülesse)</stage></p>
                     </sp>
                     <sp who="#jaeshka">
@@ -1253,8 +1253,8 @@
                         <p>Ja vaadata, kui kaugele jalad kandvad? Ae? Eks ole nõnda?</p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(värisedes)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(värisedes):</stage>
                         <p>Tulen kohe jälle tagasi —</p>
                     </sp>
                     <sp who="#jaeshka">
@@ -1274,13 +1274,13 @@
                     <head>4. ettendus</head>
                     <stage>KÕIK ENDISED, PÄRAST DOORKEN.</stage>
                     <sp who="#piitsh">
-                        <speaker>PIITSH:</speaker>
-                        <stage>(välja tulles)</stage>
+                        <speaker>PIITSH</speaker>
+                        <stage>(välja tulles):</stage>
                         <p>Pea, pea! lind tahab puurist väljalennata! Pange hooviväravad kinni! <stage>(tõttab ukse pääle ette.)</stage> Ei, ei, kena õnnerüütel, siit käivad ausad mehed sisse ja välja, mitte kelmid ega päevavargad! Tagasi!</p>
                     </sp>
                     <sp who="#doorken">
-                        <speaker>DOORKEN:</speaker>
-                        <stage>(letti taha tulles)</stage>
+                        <speaker>DOORKEN</speaker>
+                        <stage>(letti taha tulles):</stage>
                         <p>Säh nüüd, Piitsh, mis ma ütlesin? Nüüd sul on oma paras käes! Vahi nüüd, nagu muri jänest! Äh, äh, äh, äh! — nagu muri jänest, justament, kas see pole Pulli trahteri omanikule auuväärt amet — äh, äh, äh, äh! Ma naeraksin ennast surnuks.</p>
                     </sp>
                     <pb n="56"/>
@@ -1297,8 +1297,8 @@
                         <p>Pea oma lõuad! <stage>(Kalmeri poole):</stage> No sina, otsi raha! Tule laua juure tagasi! Vaata, mis sa siin nahka oled pannud, pääkelm, ja tahad nüüd nagu prussak toiduvaagna juurest pakkujoosta. Otsi raha! <stage>(rapputab).</stage></p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(ikka vabisedes)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(ikka vabisedes):</stage>
                         <p>Pai kulla isand, mina tahan Teile kõik iluste äramaksta, kui ma —</p>
                     </sp>
                     <sp who="#piitsh">
@@ -1306,8 +1306,8 @@
                         <p>Nojah, kui ma plagama ei pääse; seda tahtsid enne katsuda, aga ei läinud korda. Otsi raha!</p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(taskus otsides)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(taskus otsides):</stage>
                         <p>Kõrtsmik, siin on raha.</p>
                     </sp>
                     <sp who="#piitsh">
@@ -1315,8 +1315,8 @@
                         <p>Needsamad viletsad 15 koppikut? Mis ma nendega pean tegema? Otsi veel palju rohkem.</p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER::</speaker>
-                        <stage>(teisest taskust otsid)</stage>
+                        <speaker>KALMER:</speaker>
+                        <stage>(teisest taskust otsid):</stage>
                         <p>Kõrtsmik, siin on veel raha.</p>
                     </sp>
                     <sp who="#piitsh">
@@ -1324,8 +1324,8 @@
                         <p>Jälle 15 kop.! Mis kommetit sa teed? Nõnda võin ma sinuga kolma pääva siin äraviita ja tilgaviisi sind lüpsa, enne kui oma võla makstud saan. Te ruttu!</p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(kolmandast taskust otsides)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(kolmandast taskust otsides):</stage>
                         <p>Kõrtsmik, siin on veel raha. Aga see on mo viimne hingetagune vara. Enam mul ei ole!</p>
                     </sp>
                     <sp who="#piitsh">
@@ -1333,8 +1333,8 @@
                         <p>Kuule sina pettis koer, nüüd on minu kannatus ka otsas. Kaua pean ma siin vahtima ja sinu kerjatud koppikuid lugema? Viimsed 25 kop. ei te ka kellegi kaapsaid rasvaseks. Ma ütlen sulle viimast korda: kas sa maksad sedamaid oma võla ära, ehk mina saadan sedamaid politsei järele. Üks neist kahest, nii tõeste kui ma Piitsh olen. Nüüd ära viida enam aega!</p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(väga kohkudes)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(väga kohkudes):</stage>
                         <p>Kulla pai muisu kõrtsipapa, ärasaatke mitte politsei järele! Mina tunnen neid ammu, need on külma südamega, halamata inimesed, kes muud ei anna, kui vet ja nattuke leiba. Sääl on hirmus igav ainuüksi istuda. Teie ei usu mitte, kui igav sääl on, väga igav, ja keegi ei räägi ausa inimesega hääd sõna. Ärge saatke mitte politsei järele, sest mina —</p>
                     </sp>
                     <sp who="#piitsh">
@@ -1342,8 +1342,8 @@
                         <p>Jah, sest sina, sest sina — ei maksa jo oma võlga ära! Sa sunnid mind ise politsei järele saatma. Maksa ära!</p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(paludes)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(paludes):</stage>
                         <p>Pai muisu kõrtsipapa või isand, mis te olete, kül maksaksin, aga taskud tühjad ja —</p>
                     </sp>
                     <sp who="#piitsh">
@@ -1355,8 +1355,8 @@
                         <p>Siis pean veel otsima, ehk juhtus kohekilt koppik näppu. <stage>(lähäb toa nurka, vaatab tihti üle õla kartlikult tagasi, hakkab saapasääre sees otsima, kuni kirju paberi välja tõmbab)</stage> Kõrtsipapa, siin on veel nattuke. Ma usun, säält jääb mõni koppik üle, neid palun mulle tagasi anda.</p>
                     </sp>
                     <sp who="#piitsh">
-                        <speaker>PIITSH:</speaker>
-                        <stage>(suud, silmad pärani)</stage>
+                        <speaker>PIITSH</speaker>
+                        <stage>(suud, silmad pärani):</stage>
                         <p>Karmantshik! — Karmantshik! <stage>(Jookseb ukse pääle ette)</stage> — karmantshik! — Karmantshik!</p>
                     </sp>
                     <sp who="#doorken">
@@ -1364,18 +1364,18 @@
                         <p>Piitsh, kas korraga pääst hulluks oled jäänud? Kumb teitest — kes on karmantshik?</p>
                     </sp>
                     <sp who="#piitsh">
-                        <speaker>PIITSH:</speaker>
-                        <stage>(paberi pääle vahtides)</stage>
+                        <speaker>PIITSH</speaker>
+                        <stage>(paberi pääle vahtides):</stage>
                         <p>Nii — nii — 500 rubla niisuguse narukaela saapasääre sees! Siin on vanapagan ise elavalt lahti! —</p>
                     </sp>
                     <sp who="#piitsh #doorken #jaeshka #voeras-1 #voeras-2 #voeras-3 #voeras-4">
-                        <speaker>KÕIK:</speaker>
-                        <stage>(kargavad püsti)</stage>
+                        <speaker>KÕIK</speaker>
+                        <stage>(kargavad püsti):</stage>
                         <p>500 rubla! — <stage>(Üleüldine imekspanemine; kõik tungivad kõrtsmiku ümber kokku)</stage> 500 rubla! — 500 rubla! Need on varastatud! Karmantshik! — —</p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER.</speaker>
-                        <stage>(püüab senikaua uksest väljapugeda, sääl tuleb Jäshka ülevelt toast)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(püüab senikaua uksest väljapugeda, sääl tuleb Jäshka ülevelt toast):</stage>
                     </sp>
                     <sp who="#jaeshka">
                         <speaker>JÄSHKA:</speaker>
@@ -1394,13 +1394,13 @@
                     <head>5. ettendus.</head>
                     <stage>ENDISED. LIISKEN. MAJAHOIDJA PEEP.</stage>
                     <sp who="#piitsh">
-                        <speaker>PIITSH:</speaker>
-                        <stage>(Läbi ukse)</stage>
+                        <speaker>PIITSH</speaker>
+                        <stage>(Läbi ukse):</stage>
                         <p>Liisken! Liisken! Tule ruttu seia!</p>
                     </sp>
                     <sp who="#liisken">
-                        <speaker>LIISKEN:</speaker>
-                        <stage>(astub ukse pääl vastu)</stage>
+                        <speaker>LIISKEN</speaker>
+                        <stage>(astub ukse pääl vastu):</stage>
                         <p>Mis meister kässib?</p>
                     </sp>
                     <sp who="#piitsh">
@@ -1416,8 +1416,8 @@
                         <p>Ja siis kardad sina ennast enne pulmi leseks jäävad? Ära karda, Jäshka läks politsei pääle, tuleb elavalt jälle tagasi.</p>
                     </sp>
                     <sp who="#liisken">
-                        <speaker>LIISKEN:</speaker>
-                        <stage>(paneb käed silme ette)</stage>
+                        <speaker>LIISKEN</speaker>
+                        <stage>(paneb käed silme ette):</stage>
                         <p>Teie hakkate ikka kohe pilkama — <stage>(lähäb.)</stage></p>
                     </sp>
                 </div>
@@ -1430,18 +1430,18 @@
                         <p>Peep, seu seda kelmi käsist ja jalust kinni, et ta mitte liigutama ei pääse, kuni politsei tuleb; Jäshka läks järele.</p>
                     </sp>
                     <sp who="#peep">
-                        <speaker>PEEP:</speaker>
-                        <stage>(nööri lahti arutades)</stage>
+                        <speaker>PEEP</speaker>
+                        <stage>(nööri lahti arutades):</stage>
                         <p>Kül ma ta mässin, et jooksu peab ära unustama. Õnnetu loom, mis ta läinud paha tegema.</p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(tasa sidujale)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(tasa sidujale):</stage>
                         <p>Mida pehmem so sidu, seda suurem so kasu.</p>
                     </sp>
                     <sp who="#peep">
-                        <speaker>PEEP:</speaker>
-                        <stage>(niisama tasa)</stage>
+                        <speaker>PEEP</speaker>
+                        <stage>(niisama tasa):</stage>
                         <p>Õnnetu, oled sa varastanud?</p>
                     </sp>
                     <sp who="#kalmer">
@@ -1473,8 +1473,8 @@
                         <p>Seu aga pääle, kauaks rasv vee ehk õigus ülekohtu ala põhja jääb; tõuseb omal ajal jälle alt ülesse. —</p>
                     </sp>
                     <sp who="#piitsh">
-                        <speaker>PIITSH:</speaker>
-                        <stage>(letti takka)</stage>
+                        <speaker>PIITSH</speaker>
+                        <stage>(letti takka):</stage>
                         <p>No Peep, kas oled juba valmis? Kaua sa teda mässid?</p>
                     </sp>
                     <sp who="#peep">
@@ -1482,8 +1482,8 @@
                         <p>Varsi, varsi, olen pea valmis; löön veel mõne sõlme ette, et töö lahti ei argu. Soo, nüüd võib ta istuda, nagu mähkmes laps, kes ilma abita paigast ei liigu. <stage>(Lähäb ära)</stage></p>
                     </sp>
                     <sp who="#voeras-1">
-                        <speaker>ÜKS VÕERAS:</speaker>
-                        <stage>(pilkades)</stage>
+                        <speaker>ÜKS VÕERAS</speaker>
+                        <stage>(pilkades):</stage>
                         <p>Noh, aus miljonär, kuida käeehted meelepärast? Oled neid vist sagedaste võera oma järele väljasirutanud, nüüd on lõõg seks korraks jälle täis.</p>
                     </sp>
                     <sp who="#kalmer">
@@ -1515,8 +1515,8 @@
                         <p>Paraku on meie päivil kül palju vargaid ja pitkanäppumehhi maailmas, ka meie linnas, aga kui kõik need alati vargad on, kelle käes raha nähakse, kes on siis vargusest veel puhtad? Mina<pb n="59"/> olen praegu ise vaene seutud mees, ei või seepärast teie suud mitte kinnisiduda, aga nii palju võin ometi üttelda, et säherduse päältsekaudu ja enneaega kohtumõistmisega väga suurt ülekohhut võite teha, mis üle ehk pärast peate häbenema.</p>
                     </sp>
                     <sp who="#piitsh">
-                        <speaker>PIITSH:</speaker>
-                        <stage>(kõrvale)</stage>
+                        <speaker>PIITSH</speaker>
+                        <stage>(kõrvale):</stage>
                         <p>Kanadepäralt, see kelm räägib, nagu mõni advokat ehk kiriksand. Õnneks ei ole mina kohtunik ega otsuseandja, muidu oleksin praegu kimpus, nagu koer kirikus, ei tea, mis temale kosta. — Aga kus ta Jäshka nii kaua ometi politseiga jääb? Võiks juba tagasi olla.</p>
                     </sp>
                     <sp who="#doorken">
@@ -1532,8 +1532,8 @@
                     <head>7. ettendus.</head>
                     <stage>ENDISED. JÄSHKA, pärast RIIHKNER, LEITNER. NAPPER.</stage>
                     <sp who="#jaeshka">
-                        <speaker>JÄSHKA:</speaker>
-                        <stage>(lõõtsutades)</stage>
+                        <speaker>JÄSHKA</speaker>
+                        <stage>(lõõtsutades):</stage>
                         <p>Tulevad varsi minu järele sisse! Paganapäralt, ma olen neid taga sorinud! Ei tahtnud tulla: nende aeg olla kasin ja meilt olla igapääv mõnda torni vedada j.n.e. Aga võite isegi teada, ma ütlesin neile nii ja nii ja nii. Sääl nad tulevad!</p>
                     </sp>
                     <sp who="#riihker">
@@ -1566,8 +1566,8 @@
                         <p>Ohoo! <stage>(vaatab raha)</stage> Jah, selge kroonu raha, tõsised kirjad, tõsine kroonu stempel, kõik puhas.</p>
                     </sp>
                     <sp who="#jaeshka">
-                        <speaker>JÄSHKA:</speaker>
-                        <stage>(naljakalt)</stage>
+                        <speaker>JÄSHKA</speaker>
+                        <stage>(naljakalt):</stage>
                         <p>Herra Riihker, kust vähki leitakse, sääl võib veel vähki olla — ih, ih, ih, ja valu!</p>
                     </sp>
                     <sp who="#riihker">
@@ -1579,8 +1579,8 @@
                         <p>No neh, herra Riihker, kirbud hoidvad kirbude juure; luttikad ja prussakad niisamuti — miks ka mitte 500-rublased paberid? Seda olin ma ikka üttelnud.</p>
                     </sp>
                     <sp who="#riihker">
-                        <speaker>RIIHKER:</speaker>
-                        <stage>(vangi poole)</stage>
+                        <speaker>RIIHKER</speaker>
+                        <stage>(vangi poole):</stage>
                         <p>He, mässitud laps, kes sa ise ka olid? Kust tuled, kuhu lähäd, kust pärit oled j.n.e.? Meie politseiametnikud oleme mõnikord nattuke uudishimmulised.</p>
                     </sp>
                     <sp who="#kalmer">
@@ -1644,8 +1644,8 @@
                         <p>Kas paremat passi veel võib olla?</p>
                     </sp>
                     <sp who="#riihker">
-                        <speaker>RIIHKER:</speaker>
-                        <stage>(kõrvale)</stage>
+                        <speaker>RIIHKER</speaker>
+                        <stage>(kõrvale):</stage>
                         <p>See näitab jo seitsekorda poleeritud kelm olevad. Kül Klopmanil sellega saab tööd olema — vuiii.</p>
                     </sp>
                     <pb n="61"/>
@@ -1662,8 +1662,8 @@
                         <p>On vist kaua vangikojas juba koolis olnud ja mittu korda end kohtu eest lahtivaletanud. Seda olen ma ikka üttelnud.</p>
                     </sp>
                     <sp who="#riihker">
-                        <speaker>RIIHKER:</speaker>
-                        <stage>(jälle vangi poole)</stage>
+                        <speaker>RIIHKER</speaker>
+                        <stage>(jälle vangi poole):</stage>
                         <p>Kui palju sul siin võlga maksta on?</p>
                     </sp>
                     <sp who="#kalmer">
@@ -1675,8 +1675,8 @@
                         <p>Tema rehnung on justament 1 rubl. 85 kop. Küsige meister Piitshi käest. Seda olen ma ikka üttlenud.</p>
                     </sp>
                     <sp who="#piitsh">
-                        <speaker>PIITSH:</speaker>
-                        <stage>(loeb rehnungi)</stage>
+                        <speaker>PIITSH</speaker>
+                        <stage>(loeb rehnungi):</stage>
                         <p>1 punane naps................... 5 kop</p>
                         <p>1 pudel Baieri õlut........... 10 "</p>
                         <p>1 portsion kanapraadi ...... 25 "</p>
@@ -1685,8 +1685,8 @@
                         <p>Herra Riihker, vaatke ise üle, selge nagu kuld.</p>
                     </sp>
                     <sp who="#riihker">
-                        <speaker>RIIHKER:</speaker>
-                        <stage>(vangi poole)</stage>
+                        <speaker>RIIHKER</speaker>
+                        <stage>(vangi poole):</stage>
                         <p>Mikspärast ei ole sa seda väikest võlga äramaksnud?</p>
                     </sp>
                     <sp who="#kalmer">
@@ -1706,8 +1706,8 @@
                         <p>Mittu niisugust "passi" sul veel kaasas on?</p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(kohkudes ja kogeldes)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(kohkudes ja kogeldes):</stage>
                         <p>Mi-Mi-Mittu? Jumal hoidku, mittu mul neid siis pidi olema? <stage>(Tahaks joosta, jalad kinni.)</stage></p>
                     </sp>
                     <sp who="#riihker">
@@ -1719,8 +1719,8 @@
                         <stage>(väriseb, ei saa enam sõna suust välja.)</stage>
                     </sp>
                     <sp who="#riihker">
-                        <speaker>RIIHKER:</speaker>
-                        <stage>(kõrvale)</stage>
+                        <speaker>RIIHKER</speaker>
+                        <stage>(kõrvale):</stage>
                         <p>Kes näha tahab, mis nägu kuri südametunnistus väljanäitab, se tulgu seda värisejat kelmi seia vaatama. Niisugune ei ole mitte kunstlik näitemängia, vaid loomulik vargavärisimine, kelle südant eestulev nuhtlus rapputab.</p>
                     </sp>
                     <sp who="#jaeshka">
@@ -1745,13 +1745,13 @@
                         <p>Mõlemad ühe ja sellesama inimese käest varastatud ehk röövitud, muud midagi, seda on käppuga katsuda. — Siduge ta käed jälle selja pääle kinni, siis jalad lahti ja saapa narud maha!</p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(kes senikaua vagusi olnud ja otsida lasknud, tambib nüüd jalgu, karjub)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(kes senikaua vagusi olnud ja otsida lasknud, tambib nüüd jalgu, karjub):</stage>
                         <p>Mõrtsukad! Röövlid! Võtke mo pää, jätke mo jalad rahule! Need on minu jalad, nendega 'pole teil asja! Appi! Appi! <stage>(Ei hoolita midagi, tõmbatakse mees põrmandale maha.)</stage></p>
                     </sp>
                     <sp who="#riihker">
-                        <speaker>RIIHKER:</speaker>
-                        <stage>(kommandeerib)</stage>
+                        <speaker>RIIHKER</speaker>
+                        <stage>(kommandeerib):</stage>
                         <p>Leitner paremast, Napper pahemast jalast kinni, kõik teised eemale, saapad maha! Puistage välja, mis sees on! <stage>(Nõnda tehakse.)</stage></p>
                     </sp>
                     <sp who="#leitner">
@@ -1768,7 +1768,7 @@
                     </sp>
                     <sp who="#jaeshka">
                         <speaker>JÄSHKA:</speaker>
-                        <p>See on järsku 5000 rubl. kokku, seda olen ma ikka üttelnud — ih, ih, ih! <stage>(Kõrvale):</stage> Oh sa valu, kui üks neist pabetest mulle saaks antud! Siis Liisken, mo kallis Liisken, oleksime kolme nädala pärast kokkusulatatud ja — Aga — 'kes kassile kala ehk vaeslapsele muisu annab. Seda olen ma ikka üttelnud. <stage>(Teised kiruvad, sõimavad, näitavad vargaile rusikad).</stage></p>
+                        <p>See on järsku 5000 rubl. kokku, seda olen ma ikka üttelnud — ih, ih, ih! <stage>(Kõrvale):</stage> Oh sa valu, kui üks neist pabetest mulle saaks antud! Siis Liisken, mo kallis Liisken, oleksime kolme nädala pärast kokkusulatatud ja — Aga — 'kes kassile kala ehk vaeslapsele muisu annab. Seda olen ma ikka üttelnud. <stage>(Teised kiruvad, sõimavad, näitavad vargailerusikad).</stage></p>
                     </sp>
                     <sp who="#riihken">
                         <speaker>RIIHKEN:</speaker>
@@ -1802,8 +1802,8 @@
                     <head>1. etendus.</head>
                     <stage>LUKMANN. KALMER. WEEDERLING.</stage>
                     <sp who="#lukmann">
-                        <speaker>LUKMANN:</speaker>
-                        <stage>(sisseastudes)</stage>
+                        <speaker>LUKMANN</speaker>
+                        <stage>(sisseastudes):</stage>
                         <p>Seda ma pean ütlema, kohegil ei sünni veidramaid asju kui — maailmas. Seia on mulle täna jälle uus kostilaps ja üüriline juure toodud. Esimene istub juba 4 ööd ja pääva siin; võib igav olla, aga ei anta veel otsust. Täna tulli teine seltsimees juure; võivad ammu tutvad olla. Mõlemate ülikonnad on kui ühe rätsepa tehtud, mõlemad tulevad Pulli trahterist, mõlemad ei ole kõhutäit süüa jõudnud äramaksta ja pärast leitud taskud ehk saapasääred raha täis olevad. Nagu sääl aru käes ei oleks, kust poolt tuul puhub! <stage>(Pöörab vangide poole):</stage> He, kuida käsi käib? Olete mo korteriga rahul? Uus võeras, mis arvad? Pole kül korter ülearu tore, aga selle eest odav ja julge. Siin võite kui miljonärid julgeste magada, keegi ei pääse teie eneste ega teie mammuna kallale. Kui mitmed nodimehed, kis kodu nahka silma pääle ei saa, tuleksivad Lukmanni juure korteri ja tooksivad omad kukrud kurja näppude eest kaasa, kui mina aga võttaks. Oota seni! Mitte muid kui üksi neid, keda kohus mulle teiste hulgast välja valiteb. Lukmann ei võtta mitte igaühte, kes uulitsa pääl ümber käib, oma kattukse ala korteri, vaid peavad mehed olema, kes midagi ka mõistvad, nagu teiegi mõlemad, ja neid valiteb mulle politsei ise välja. Nõnda on minu maja pruuk ja säädus.</p>
                     </sp>
                     <sp who="#kalmer">
@@ -1811,8 +1811,8 @@
                         <p>Täname väga hää juttu, kõne eest, meie käsi käiks siin julges ja rahulises paikas muidu väga hästi, kui meil neid kallid käe-ehtid kanda ei oleks <stage>(näitab köidetud kässi),</stage> mis käekäimist tülitavad. Väljas võib neid ehk ilupärast tarvis olla, aga mis ilu meie siin vaikses toas taga peame ajama? Meister Lukmann, kas see Teil mitte võimalik ei ole, meil seda ilukandmist nattuke vähendada?</p>
                     </sp>
                     <sp who="#lukmann">
-                        <speaker>LUKMANN:</speaker>
-                        <stage>(naerdes)</stage>
+                        <speaker>LUKMANN</speaker>
+                        <stage>(naerdes):</stage>
                         <p>Võimalik on mõnigi asi maailmas, mis võimaliku ei arvata olevad, aga võimalik on ka, et mõni kord lahti kässi kurjaste pruugitakse ja —</p>
                     </sp>
                     <sp who="#kalmer">
@@ -1820,8 +1820,8 @@
                         <p>Mõistan, mõistan! Lukmann, meitest ei ole Teil seda karta. Paremat korteri ei soovigi mina enesele seks ööks, kui see on, ja mul saab üsna kahju olema, kui mind homme siit jälle välja aetakse. Kül Te näete, Lukmann, ega nemad meid seia ei jätta.</p>
                     </sp>
                     <sp who="#lukmann">
-                        <speaker>LUKMANN:</speaker>
-                        <stage>(jälle naerdes)</stage>
+                        <speaker>LUKMANN</speaker>
+                        <stage>(jälle naerdes):</stage>
                         <p>Räägid nagu mõni prohveti poeg. Seia ei jätta? Hoome väljaaetakse? Pidid vist ütlema: hoome väljaveetakse.<pb n="64"/> See võib kül olla, kui minu korteri mitte julgeks kül ei peeta; muidu aga 'pole väljaajamisega suurt ruttu. Mul ei ole üleültse seda laiduväärt viisi, et ma üürilistele ülesütlen ehk nende käest kostiraha ehk üüri küsin, kui muidu vagusi elavad ja ilusti läbisaame. Seepärast ei võtta mina mitte igaühte, vaid üksi neid, keda kohus seda väärt arvab olevat.</p>
                     </sp>
                     <sp who="#weederling">
@@ -1890,8 +1890,8 @@
                         <p>Kõik hästi?</p>
                     </sp>
                     <sp who="#lukmann">
-                        <speaker>LUKMANN:</speaker>
-                        <stage>(kumardades)</stage>
+                        <speaker>LUKMANN</speaker>
+                        <stage>(kumardades):</stage>
                         <p>Kõik hästi, aulik herra.</p>
                     </sp>
                     <sp who="#klopmann">
@@ -1919,13 +1919,13 @@
                         <p>Kinni, nagu tinutud, aulik herra! <stage>(Lähäb vangi tooma; kohtunik istub laua ääre, teised seisvad eemal.)</stage></p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(tuakse ette, üsna jamps lustiline)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(tuakse ette, üsna jamps lustiline):</stage>
                         <p>Siin ma olen, kas võeras herra tahab minuga tulevalgel tutvaks ja sõbraks saada? Ma pakkuksin herrale kät, aga — need pagana ehted siin ümber! <stage>(rappu<pb n="66"/>tab).</stage> See Lukmann sääl <stage>(näitab)</stage> ütleb, siin olla sähärdune mood, käeehtid kanda. Kui see tõsi, on miks siis herral neid kätte ümber ei ole?</p>
                     </sp>
                     <sp who="#klopmann">
-                        <speaker>KLOPMANN:</speaker>
-                        <stage>(imepannes kõrvale)</stage>
+                        <speaker>KLOPMANN</speaker>
+                        <stage>(imepannes kõrvale):</stage>
                         <p>Jumal anna andeks, see on püsti hul ehk kelmide kelm ja päävõrukael! <stage>(Vangi poolele):</stage> Mis nimi?</p>
                     </sp>
                     <sp who="#kalmer">
@@ -1997,8 +1997,8 @@
                         <p>Jah, aus kohtuherra, Prits oli kül, mo õnnis ema — herra ehk tundis minu ema? — ja mo õnnis proua Tiio — herra ehk tundis minu heldet ja tasast Tiio? — need hüüdsid mind ikka "minu armas Prits, minu kallis Prits"; ega herra kül nõnda ei ütle, herra teeb nii kurja näu, suured kihvad nina al — nää!</p>
                     </sp>
                     <sp who="#klopmann">
-                        <speaker>KLOPMANN:</speaker>
-                        <stage>(naerupidades)</stage>
+                        <speaker>KLOPMANN</speaker>
+                        <stage>(naerupidades):</stage>
                         <p>No olgu siis, "minu armas Prits", ütle nüüd, mis so liig — ehk väärnimi on?</p>
                     </sp>
                     <sp who="#kalmer">
@@ -2006,8 +2006,8 @@
                         <p>Soo, see oli ilus, väga ilus, aus herra! Aga mina ei tee kellegile liiga ega minul pole väärjumalatega tegemist, miks herra nii<pb n="67"/> pahaste räägib? See valutab jo, väga valutab siin <stage>(näitab seutud kättega rinna vastu).</stage></p>
                     </sp>
                     <sp who="#klopmann">
-                        <speaker>KLOPMANN:</speaker>
-                        <stage>(kõrvale)</stage>
+                        <speaker>KLOPMANN</speaker>
+                        <stage>(kõrvale):</stage>
                         <p>Tõeste, kui see rumalus kõik järele tehtud on, nagu ma arvan, siis on kahju, et sest päävargast mitte näitemängia ei ole saanud. See oleks mängupõrmandul paljugi nalja võinud teha. <stage>(Vangi poole):</stage> Jätta ometi ükskord oma jõle lori maha ja ütle, mis so väärnimi on?</p>
                     </sp>
                     <sp who="#kalmer">
@@ -2015,8 +2015,8 @@
                         <p>Ei mina väärasjadest tea kedagit ühti; mo nimi oli enne Prits, aga nüüd on ta vaderipoja käes. Öeldakse ikka, ega nimi meest ei rikku, noh, kui tal nime enam ei olegi, siis on veel vähem rikkuda. Katsugu vaderipoeg, kuida minu nimega läbi saab, mina olen temast lahti. Eks ole tõsi, kohtuherra?</p>
                     </sp>
                     <sp who="#klopmann">
-                        <speaker>KLOPMANN:</speaker>
-                        <stage>(kõrvale)</stage>
+                        <speaker>KLOPMANN</speaker>
+                        <stage>(kõrvale):</stage>
                         <p>See pukkarralik viidab kõik mo õhtu ära, ilma et sest lapselorist sõnakest protokolli süniks panna — ja mina pidin tänaõhtu veel pidul olema, kus teised ammu kous on! Se'ep see vaese ametniku osa on: kuna teised rõõmsat lusti pidavad, pean mina siin kelmide keskel istuma ja niisuguse päänarriga oma aega viitma. Oh, et ma — <stage>(Vangi poole):</stage> Kust selle hulga raha said, mis trahteris sinu käest äravõeti?</p>
                     </sp>
                     <sp who="#kalmer">
@@ -2036,8 +2036,8 @@
                         <p>Sina oled lämupää! Kust sa need 10 paberit said? Kosta!</p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(kartlikult)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(kartlikult):</stage>
                         <p>Uih, herral nii kuri nägu! Kas herra haige on? Vaene herra! Oleks minu käed —</p>
                     </sp>
                     <sp who="#klopmann">
@@ -2053,13 +2053,13 @@
                         <p>Vii see põrsajalg oma korkasse jälle tagasi! Tüditas inimese üsna ära. Sellega peab jo eeslikannatus olema!... Lukmann, kas näed nüüd, mähärdused sinu "ausad mehed" on, keda sa kiidad. See sääl! <stage>(näitab Kalmeri pääle)</stage></p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(keda äraviiakse)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(keda äraviiakse):</stage>
                         <p>Hõissa! herra laseb meid hoome lahti, siis oleme jälle vabad, nagu kalad vee sees ja linnud tuule käes! Jumalaga, aus herra, hääd ööd! <stage>(ära)</stage></p>
                     </sp>
                     <sp who="#klopmann">
-                        <speaker>KLOPMANN:</speaker>
-                        <stage>(võttab omad paberid kokku)</stage>
+                        <speaker>KLOPMANN</speaker>
+                        <stage>(võttab omad paberid kokku):</stage>
                         <p>Selle kelmi üle olgu teil<pb n="68"/> mõlemad silmad lahti, Lukmann ja Krishka, et ta teil täna ööse puurist välja ei putka! Tema teeb enast rumalaks, mis ta pääkelm sugugi ei ole.</p>
                     </sp>
                     <sp who="#lukmann">
@@ -2079,8 +2079,8 @@
                         <p>Soo, nüüd oleme jälle ise oma silma al ja võime loodud viisil rääkida. Mina pidin rumalam olema, kui ma loodud olen; täna oli seda tarvis, hoome mitte enam. Ma pidin oma vana sõbra, herra Klopmanni, hädapärast nattuke petma ja saan hoome jälle andeks paluma, kül ta siis —</p>
                     </sp>
                     <sp who="#lukmann">
-                        <speaker>LUKMANN:</speaker>
-                        <stage>(tõsiselt)</stage>
+                        <speaker>LUKMANN</speaker>
+                        <stage>(tõsiselt):</stage>
                         <p>Mi — Mis ma pean kuulma? Teie kohtuherra petma? Kust selle julguse võtsite? Mil viisil? Kas nõnda "loodud viisil" räägitakse? Arvate sellega mind magama suigutavad, et Teil ula oleks omateed minna? Ei vennikene, nii kergelt ei lähä see ka mitte! Lukmann on siin 20 aasta sees juba mõnesugusi üürilisi näinud —</p>
                     </sp>
                     <sp who="#kalmer">
@@ -2100,8 +2100,8 @@
                         <p>Jah, see on Amen, seda meie teeksime. Mitte jalga paigast!</p>
                     </sp>
                     <sp who="#lukmann">
-                        <speaker>LUKMANN:</speaker>
-                        <stage>(kibedalt ja uskmata naerdes)</stage>
+                        <speaker>LUKMANN</speaker>
+                        <stage>(kibedalt ja uskmata naerdes):</stage>
                         <p>Võite julged olla, mo kavalad üürilised, et seda lapsikut proovi siin keegi tegema ei hakka. Jumala ristike minu uste ja aknate juures — teie juure ei pea keegi<pb n="69"/> pääsema, aga — pange tähele — teie teiste juure ka mitte, nii tõeste, kui ma Lukmann olen!</p>
                     </sp>
                     <sp who="#kalmer">
@@ -2109,23 +2109,23 @@
                         <p>Kui sõna peate, siis õnnistagu Teid Jumal selle eest, — seda julgemad võime olla. Matke uksed, aknad hoolega kinni, laske soldatid laetud püssiga iga haugu ees vahti pidada, käige ise väsimata ümber ja valvage, — seda parem, Teie täidate oma kohut ja — meil on rahu; aga hoome lõuna ajal, enne kui tornikel 12 äralööb, ei leia meid siit korterist keegi ennam. <stage>(Pöörab [teist külge]).</stage></p>
                     </sp>
                     <sp who="#krishka">
-                        <speaker>KRISHKA:</speaker>
-                        <stage>(kohkund näul)</stage>
+                        <speaker>KRISHKA</speaker>
+                        <stage>(kohkund näul):</stage>
                         <p>Meister Lukmann, need on vist silmamoondajad! Kuulge, kui tõeste ta räägib. Mineva ööse nägin ma unes, vangituba oli tühi ja meie pessime põrmandut, mis see muud tähendab, kui nende ärakargamist ja meie ahastuse silmavet? Jumal olgu meile armuline!</p>
                     </sp>
                     <sp who="#lukmann">
-                        <speaker>LUKMANN:</speaker>
-                        <stage>(niisama kohkund)</stage>
+                        <speaker>LUKMANN</speaker>
+                        <stage>(niisama kohkund):</stage>
                         <p>Jah, Jumal olgu meile armuline! Kui öö juba mööda ja valge väljas oleks? Krishka, mo poeg, hoia sa täna ööse silmad lahti, nagu noor nugis, ja mina ei taha ka nahka silma pääle lasta! Teeme omalt poolt, mis võime, mis meie ei või, sääl aitku Jumal. Oh, et valge juba väljas oleks! Herra Klopmanni maenitsus paneb mind üsna värisema — kui temal ehk paha sõna peaks olema! <stage>(värisevad)</stage></p>
                     </sp>
                     <sp who="#weederling">
-                        <speaker>WEEDERLING:</speaker>
-                        <stage>(Kalmeri poole)</stage>
+                        <speaker>WEEDERLING</speaker>
+                        <stage>(Kalmeri poole):</stage>
                         <p>Vaatke, herra "prinzipal", kuida need mõlemad, <stage>(näitab sõrmega)</stage> kahvatand on! Mis hirm neil peaks olema? Enne Teid pole ma seda nendest mitte näinud.</p>
                     </sp>
                     <sp who="#lukmann">
-                        <speaker>LUKMANN:</speaker>
-                        <stage>(kes neid sõnu kuulnud, hüüab)</stage>
+                        <speaker>LUKMANN</speaker>
+                        <stage>(kes neid sõnu kuulnud, hüüab):</stage>
                         <p>Krishka, Krishka, ae! Hoia kõrvad kikkis! Teine hüüdis teist "prinzipal"!</p>
                     </sp>
                     <sp who="#krishka">
@@ -2137,23 +2137,23 @@
                         <p>Ssht! See pole kellegi nimi, vaid "prinzipal" tähendab niipalju kui päämees, seltsivanem, teiste ülem ehk orelis päähääl etc. Jumal kaitsegu meid, need on vissist röövliseltslased see vanem sääl nende päämees! Oh, et valge juba väljas oleks!</p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(Lukmanni poole, kes hirmuga eest ärataganeb)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(Lukmanni poole, kes hirmuga eest ärataganeb):</stage>
                         <p>Meister Lukmann, mis pagan Teie korraga nii kahvatand olete ja värisete, nagu oleks Teil kolera haigus kallal?</p>
                     </sp>
                     <sp who="#lukmann">
-                        <speaker>LUKMANN:</speaker>
-                        <stage>(karjub)</stage>
+                        <speaker>LUKMANN</speaker>
+                        <stage>(karjub):</stage>
                         <p>Ärge tulge mo ligi! "Prinzipal"! Nagu ma ei teaks! <stage>(Kõrvale):</stage> Oh, et Krishka nende käed pidi lahti tegema! Ma mässiksin neid kinni, nagu sündinud lapsed, aga nüüd on hiljaks jäänud!</p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(vargusi)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(vargusi):</stage>
                         <p>Meister Lukmann, Teil näitab tõeste haigus kallal olevad. Ega mina Teie "prinzipal" ei ole, ja koolera haiguse kül<pb n="70"/>gihakkamist ei karda mina ka mitte. Üttelge ometi, mis hirm ja kartus Teid piinab? Kust see korraga tulli?</p>
                     </sp>
                     <sp who="#weederling">
-                        <speaker>WEEDERLING:</speaker>
-                        <stage>(astub lähem., Lukm. tag.)</stage>
+                        <speaker>WEEDERLING</speaker>
+                        <stage>(astub lähem., Lukm. tag.):</stage>
                         <p>Ega Teie ometi meid ei karda? See oleks koguni veider, meie oleme jo Teie üürilised.</p>
                     </sp>
                     <sp who="#lukmann">
@@ -2189,8 +2189,8 @@
                         <p>Siiski ametis truu ja ettevaatlik olla! Lukmann, käsi seia! Seda ma kiidan! Oma kohut truiste täita, käib üle kõige. Selle pääle jooksin ma hää meelega klaasi valget portviina Lukmann'i terviseks, aga siin korteris seda ei ole. Mo raha on nemad kül äravõtnud, ja see oli kohus ja õige, hoome anavad jälle tagasi, aga kaenlaauku on paar vana Kadrinarubla veel ülejäänud, ja see ei ole ka mitte ülekohus. Siin nad on, kas võiks pudel portviina ehk sherri saada, kui keeldud ei ole?</p>
                     </sp>
                     <sp who="#lukmann">
-                        <speaker>LUKMANN:</speaker>
-                        <stage>(mõtleb järele)</stage>
+                        <speaker>LUKMANN</speaker>
+                        <stage>(mõtleb järele):</stage>
                         <p>Ei, keeldud ei ole söök ega jook oma raha eest mitte, kui ma arvan korda minevad.</p>
                     </sp>
                     <sp who="#kalmer">
@@ -2214,13 +2214,13 @@
                         <p>Vaat, 'see oli kena nõu! Ma panen senikaua laua valmis, soo; nüüd toolid ka ümber, soo, meister Lukmann laenab meile klaasid ja siis — hõissa!</p>
                     </sp>
                     <sp who="#krishka">
-                        <speaker>KRISHKA:</speaker>
-                        <stage>(tagasitulles)</stage>
+                        <speaker>KRISHKA</speaker>
+                        <stage>(tagasitulles):</stage>
                         <p>Siin ta on, ma küsisin Triinu käest varsi klaasi ühes <stage>(paneb kõik laua pääle).</stage></p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(valab sisse)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(valab sisse):</stage>
                         <p>Oh sa elav märg, kuida ta lehkab. Noh, tõstkem nüüd omad klaasid meie hää peremehe ja üüriandja Lukmanni terviseks. Ta elagu! Hurraa!</p>
                     </sp>
                     <sp who="#lukmann">
@@ -2252,22 +2252,22 @@
                     <head>1. ettendus</head>
                     <stage>POLITSEIMEISTER VALVNIK (üksi).</stage>
                     <sp who="#valvnik">
-                        <speaker>VALVNIK:</speaker>
-                        <stage>(käies)</stage>
-                        <p>Noh, olen nüüd jälle kodu. Vanasõna on sula tõsi: "Igalpool on hää, kodu kõige parem." Peaks aga jälle mõnd pahandust, mis selle aja sees juhtunud, mitte ees olema. Suured ei või need kül mitte olla, muidu oleksivad nad mo järele läkkitanud, nagu käskinud olen. Noh, Klopmann on tubli ametnik, kelle pää kohe õlade pääl seisab ja silmad ning kõrvad lahti. <stage>(Vaatab tunnikella)</stage> <pb n="72"/> Kell on alles 8; kellu 1/2 10 tulevad kvartalnikud, eks saame kuulda, mis nad hääd kõnelevad; senna on veel aega, senikaua panen sigari suitsema ja loen mõned kirjad läbi, kelle kogu kaunis suur näitab olevad, ametlikud kuvärid saab Klopman läbilugenud olema. <stage>(Paneb sigari põlema, istub sohva pääle, loeb. Kargab ülesse):</stage> Mis tuhat seda teist! Seda oleks Klopmann pidanud teadma! Aga — jah, kiri on jo minu oma adressi al. Kahju, kahju! Võtame veel: "Täna lõuna ajal on siit 2 kõige kavalamat kelmi, suured karmantshikut, katkend riides ärareisinud Teie linna, hoidke neid silma al." <stage>(Signalement.)</stage> Soo, nii ja nii näitvad nad välja; seda parem, ehk istuvad juba Lukmanni juures. Edasi: "Mõlemad kerjavad, aga kus mahti saavad, sääl varastavad, petvad, varitsevad sala korkades jõukaid inimesi, riisuvad paljaks ja — ilma et nende vastu selget tunistust saaks. Mina pidasin oma ametikohuseks, seda Teile teada anda. Hoidke neid silma al, nad on hirmus kavalad. W. politseimeister G.S." Noh, tulgu aga, tulgu! Meil on ka terved silmad pääs. Külap Klopmann teab neist ehk juba kõnelda. <stage>(Pistab kirja põue.)</stage> Aga mis paha, on paha. Nagu oleks neil häbemata karmantsikute ja masuurikute puudus, et neid laadaajaks muialt veel peab sisse rändama! Aga nõndap see on, kui kõik üüriliste pidajad mitte nii truid mehed ei ole, kui meie Lukmann. Meie vargad on häbemata, meie vargate ja varguse salgajad, ristitud ja ristimata inimeseloomad, on veel suuremad koerad, keda ma — oodaku aga! <stage>(Kopputakse)</stage> Sisse! <stage>(istub ruttu sohva pääle.)</stage></p>
+                        <speaker>VALVNIK</speaker>
+                        <stage>(käies):</stage>
+                        <p>Noh, olen nüüd jälle kodu. Vanasõna on sula tõsi: "Igal pool on hää, kodu kõige parem." Peaks aga jälle mõnd pahandust, mis selle aja sees juhtunud, mitte ees olema. Suured ei või need kül mitte olla, muidu oleksivad nad mo järele läkkitanud, nagu käskinud olen. Noh, Klopmann on tubli ametnik, kelle pää kohe õlade pääl seisab ja silmad ning kõrvad lahti. <stage>(Vaatab tunnikella)</stage> <pb n="72"/> Kell on alles 8; kellu 1/2 10 tulevad kvartalnikud, eks saame kuulda, mis nad hääd kõnelevad; senna on veel aega, senikaua panen sigari suitsema ja loen mõned kirjad läbi, kelle kogu kaunis suur näitab olevad, ametlikud kuvärid saab Klopman läbilugenud olema. <stage>(Paneb sigari põlema, istub sohva pääle, loeb. Kargab ülesse):</stage> Mis tuhat seda teist! Seda oleks Klopmann pidanud teadma! Aga — jah, kiri on jo minu oma adressi al. Kahju, kahju! Võtame veel: "Täna lõuna ajal on siit 2 kõige kavalamat kelmi, suured karmantshikut, katkend riides ärareisinud Teie linna, hoidke neid silma al." <stage>(Signalement.)</stage> Soo, nii ja nii näitvad nad välja; seda parem, ehk istuvad juba Lukmanni juures. Edasi: "Mõlemad kerjavad, aga kus mahti saavad, sääl varastavad, petvad, varitsevad sala korkades jõukaid inimesi, riisuvad paljaks ja — ilma et nende vastu selget tunistust saaks. Mina pidasin oma ametikohuseks, seda Teile teada anda. Hoidke neid silma al, nad on hirmus kavalad. W. politseimeister G.S." Noh, tulgu aga, tulgu! Meil on ka terved silmad pääs. Külap Klopmann teab neist ehk juba kõnelda. <stage>(Pistab kirja põue.)</stage> Aga mis paha, on paha. Nagu oleks neil häbemata karmantsikute ja masuurikute puudus, et neid laadaajaks muialt veel peab sisse rändama! Aga nõndap see on, kui kõik üüriliste pidajad mitte nii truid mehed ei ole, kui meie Lukmann. Meie vargad on häbemata, meie vargate ja varguse salgajad, ristitud ja ristimata inimeseloomad, on veel suuremad koerad, keda ma — oodaku aga! <stage>(Kopputakse)</stage> Sisse! <stage>(istub ruttu sohva pääle.)</stage></p>
                     </sp>
                 </div>
                 <div type="scene">
                     <head>2. ettendus.</head>
                     <stage>VALVNIK. NIKKARD.</stage>
                     <sp who="#nikkard">
-                        <speaker>NIKKARD:</speaker>
-                        <stage>(sisse astudes)</stage>
+                        <speaker>NIKKARD</speaker>
+                        <stage>(sisse astudes):</stage>
                         <p>Tere, tere, austatud herra politseimeister! Olete jälle tagasi, just tarvilisel ajal</p>
                     </sp>
                     <sp who="#valvnik">
-                        <speaker>VALVNIK:</speaker>
-                        <stage>(lähäb vastu, annab kät)</stage>
+                        <speaker>VALVNIK</speaker>
+                        <stage>(lähäb vastu, annab kät):</stage>
                         <p>Aa! herra Nikkard! Tere homikut! Kuida käsi käib? Kodu kõik terved, rõõmsad? Jah?</p>
                     </sp>
                     <sp who="#nikkard">
@@ -2292,8 +2292,8 @@
                         <p>Meie sõber Kalmer on eile lõunast saadik kadund, nagu tina tuhkas. Kõik suur maja homiku puhtest saadik kisa täis, proua ja lapsed nuttavad, kahvatand, kontorisellid ja teenrid jooksevad kõik tutvad majad läbi, kus ta ehk võiks olla, aga keegi ei ole näinud, keegi ei tema jälgile juhatada!</p>
                     </sp>
                     <sp who="#valvnik">
-                        <speaker>VALVNIK:</speaker>
-                        <stage>(kässi kokkulüies)</stage>
+                        <speaker>VALVNIK</speaker>
+                        <stage>(kässi kokkulüies):</stage>
                         <p>Mis Te räägite? Kalmer, meie "miljonär" Kalmer, meie "Rothshild" kadunud? Minge ikka, seda nalja ei saa keegi laps tõeks pidama. Sukkavardad, nööpnõelad etc. võivad ärakaduda, aga mitte kirikutornid, mis alati kõikide silma paistvad, niisama ka Kalmer.</p>
                     </sp>
                     <sp who="#nikkard">
@@ -2317,8 +2317,8 @@
                     <head>3. ettendus.</head>
                     <stage>VALVNIK. NIKKARD. HAMMER.</stage>
                     <sp who="#hammer">
-                        <speaker>HAMMER:</speaker>
-                        <stage>(tuppa astudes)</stage>
+                        <speaker>HAMMER</speaker>
+                        <stage>(tuppa astudes):</stage>
                         <p>Hää, et Teid kottu leian ja Nikkard Teie juurest, auväärt herra politseimeister; tere, tere! Suur õnnetus on sündinud! Meie kõige ausam, parem, rikkam kodanik, meie Kalmer on kadunud! Kui võite, saatke abi. Tehke, mis võimalik!</p>
                     </sp>
                     <sp who="#valvnik">
@@ -2374,8 +2374,8 @@
                         <p>Mo omadus on puutumata, mo naesed, lapsed kodu kääs; mo aidad, keldrid, laevad, paadid, kõik alles on; ent mis see aitab,<pb n="75"/> kui mo sõber, mo kallis Kalmer kadunud? Meil palju sõbru, üksainus Kalmer — <stage>(kahetseb.)</stage></p>
                     </sp>
                     <sp who="#valvnik">
-                        <speaker>VALVNIK::</speaker>
-                        <stage>(kõrvale)</stage>
+                        <speaker>VALVNIK:</speaker>
+                        <stage>(kõrvale):</stage>
                         <p>See maksab ka veel kadund olla, jah, kadund olla, ärasurra, kui nõnda järel' otsitaks' ja ahastuses leinatakse. Oh õnnis mees, kel tema sõbrad nii truid on, kui seda näikse siin kolmest sõbrast korraga! <stage>(Pulkuse poole)</stage> Vaatk! herra Pulkus, teised sõbrad siin sedasama otsivad. — Kas mingi märki, sõna, jälgi Teil' pole silma puutunud, kust kohus —</p>
                     </sp>
                     <sp who="#pulkus">
@@ -2383,8 +2383,8 @@
                         <p>Ah ja, kül enne mitte, kui seia olin tulemas. Just kui ma heinaturult kään'sin hääd kät sääl linna-kaalu pool', sääl tungis kõne minu kõrvu, et Kalmer vangis istududa... Siin olen ma, mis on sest tõsi, mis vale, palun, üttelge? On Kalmer vangis, mis on ta teinud? —</p>
                     </sp>
                     <sp who="#valvnik">
-                        <speaker>VALVNIK:</speaker>
-                        <stage>(imeks pannes, ei usu)</stage>
+                        <speaker>VALVNIK</speaker>
+                        <stage>(imeks pannes, ei usu):</stage>
                         <p>Ei või jo olla; kes pidi teda ja mikspärast vangi vedama? <stage>(Helistab kella)</stage> Vahtmeister Leitner!</p>
                     </sp>
                 </div>
@@ -2392,8 +2392,8 @@
                     <head>5. ettendus</head>
                     <stage>ENDISED. LEITNER.</stage>
                     <sp who="#leitner">
-                        <speaker>LEITNER:</speaker>
-                        <stage>(astub sisse)</stage>
+                        <speaker>LEITNER</speaker>
+                        <stage>(astub sisse):</stage>
                         <p>Hääd pääva soovin herradele, et —</p>
                     </sp>
                     <sp who="#valvnik">
@@ -2437,8 +2437,8 @@
                     <head>6. ettendus.</head>
                     <stage>KÕIK ENDISED. RIIHKER.</stage>
                     <sp who="#riihker">
-                        <speaker>RIIHKER:</speaker>
-                        <stage>(astub sisse, kumardab)</stage>
+                        <speaker>RIIHKER</speaker>
+                        <stage>(astub sisse, kumardab):</stage>
                         <p>Mind kutsusid herra politseimeister jo enne teisi — mis pean ma Tei' käsu järel' tegema?</p>
                     </sp>
                     <sp who="#valvnik">
@@ -2446,8 +2446,8 @@
                         <p>Ja muidugi Teid enne teisi, sest eile oli Teie kord, kõik<pb n="76"/> pääva-asju tähel'panna ja nende üle aruanda. No mis on siin eile sündinud? On herra Kalmer vangi pandud?</p>
                     </sp>
                     <sp who="#riihker">
-                        <speaker>RIIHKER:</speaker>
-                        <stage>(kohkudes)</stage>
+                        <speaker>RIIHKER</speaker>
+                        <stage>(kohkudes):</stage>
                         <p>Herra Kalmer? Ei mina mõista —</p>
                     </sp>
                     <sp who="#valvnik">
@@ -2455,8 +2455,8 @@
                         <p>Jah, herra Kalmer, ta peab vangis olema; kui mitte, kus on herra Kalmer?</p>
                     </sp>
                     <sp who="#riihker">
-                        <speaker>RIIHKER:</speaker>
-                        <stage>(vaatab segaselt ümber)</stage>
+                        <speaker>RIIHKER</speaker>
+                        <stage>(vaatab segaselt ümber):</stage>
                         <p>Ei mina mõista — herra Kalmer — kust ajast saadik seisab tema politsei vahi al? Ma mõtlen, ta saab oma kodu vist kohvilaual istuma.</p>
                     </sp>
                     <sp who="#valvnik">
@@ -2472,8 +2472,8 @@
                         <p>Hää kül, siis laske herra Klopmann ka seia tulla, et ma küsin, kes praegu tornis istuvad, mis keegi tein'd j.n.e. Ma palun, Klopmann ruttagu.</p>
                     </sp>
                     <sp who="#riihker">
-                        <speaker>RIIHKER:</speaker>
-                        <stage>(kummardab)</stage>
+                        <speaker>RIIHKER</speaker>
+                        <stage>(kummardab):</stage>
                         <p>Ma tõttan Teie käsku täitma <stage>(lähäb).</stage></p>
                     </sp>
                     <sp who="#valvnik">
@@ -2481,8 +2481,8 @@
                         <p>Mu herrad, Teie ise nääte, kõik tühi on, mis kuulsite, et Kalmer oleks vangi pandud. Mind uskuge, mo ausad herrad, kui mõni muu ja mitte Teie mult nõnda oleks küsinud, siis —</p>
                     </sp>
                     <sp who="#pulkus #hammer #nikkard">
-                        <speaker>KAUPMEHED:</speaker>
-                        <stage>(ühest suust)</stage>
+                        <speaker>KAUPMEHED</speaker>
+                        <stage>(ühest suust):</stage>
                         <p>Siis? — Siis? — Siis? —</p>
                     </sp>
                     <sp who="#valvnik">
@@ -2502,20 +2502,20 @@
                     <head>7. ettendus.</head>
                     <stage>ENDISED. KLOPMANN.</stage>
                     <sp who="#klopmann">
-                        <speaker>KLOPMANN:</speaker>
-                        <stage>(sisseastudes)</stage>
+                        <speaker>KLOPMANN</speaker>
+                        <stage>(sisseastudes):</stage>
                         <p>Ohoo, mo herrad, tere, sõbrad~ <stage>(Kät andes kõigile)</stage> Siin lauldaks' nelja häälega? Kuis see kvartett nii vara kokku on kogunud?... Ah ja, ma mõistan: Sõbrus sundis Teid teretama tulema. See on ilus ja väga lõbus sõbradest!</p>
                     </sp>
                     <sp who="#valvnik">
-                        <speaker>VALVNIK:</speaker>
-                        <stage>(kõrvale)</stage>
+                        <speaker>VALVNIK</speaker>
+                        <stage>(kõrvale):</stage>
                         <p>On varsi näha, see ei tea kül Kalmer'ist vist midagi. Ehk teaks ta, siis räägiks tema vist teiseti, kui praegu teeb. Eks katsume. <stage>(Klopmanni poole):</stage> Mo herra Klopmann, — mina küsin Teid ametlikult — kus on Kalmer?</p>
                     </sp>
                     <pb n="77"/>
                     <sp who="#klopmann">
-                        <speaker>KLOPMANN:</speaker>
-                        <stage>(ajab silmad pärani)</stage>
-                        <p>Kus Kalmer on? — Mil anti Kalmer minu hoida? Ma mõtlen, ta ei lähä ka ei vette ega tulesse, ja —</p>
+                        <speaker>KLOPMANN</speaker>
+                        <stage>(ajab silmad pärani):</stage>
+                        <p>Kus Kalmer on? — Mil' anti Kalmer minu hoida? Ma mõtlen, ta ei lähä ka ei vette ega tulesse, ja —</p>
                     </sp>
                     <sp who="#valvnik">
                         <speaker>VALVNIK:</speaker>
@@ -2554,8 +2554,8 @@
                         <p>Mo herra Klopmann, mis Teil viga? Mis on Teil äkkist meele tuln'd? On viimaks siiski Kalmer vangis ja Teil on jäänud teadmata?</p>
                     </sp>
                     <sp who="#klopmann">
-                        <speaker>KLOPMANN:</speaker>
-                        <stage>(ärkab nagu unest)</stage>
+                        <speaker>KLOPMANN</speaker>
+                        <stage>(ärkab nagu unest):</stage>
                         <p>Herra politseimeister! — Ma palun, laske need kaks vangi — sääl muid ep ole olemas — siin varsi ettetua! Siis on kõik kahtlus joonelt kadund, ehk — meil nali suur ja otsata.</p>
                     </sp>
                     <sp who="#valvnik">
@@ -2563,8 +2563,8 @@
                         <p>Ehk nalja ma siin kül ei mõista, ei tea ka, kust tuleks see, ma siiski tahan seda teha, et kõik kolm herra nääksivad: On Kalmer<pb n="78"/> kadun'd, siis ei ole ta vangitornis meie kääs. <stage>(Helistab kella):</stage> Leitner! Napper! <stage>(Mõlemad vahtmeistrid astuvad kõrvalt sisse.)</stage> Minge sedamaid vangitorni ja laske Lukmann mõlemad vangid väljaanda ja tooge neid seia! Kaks vahti olgu kaasavõetud ja Krishka ühes nendega. Vaatke ette! Minge! <stage>(Mõlemad lähevad.)</stage></p>
                     </sp>
                     <sp who="#klopmann">
-                        <speaker>KLOPMANN:</speaker>
-                        <stage>(õerub kässi)</stage>
+                        <speaker>KLOPMANN</speaker>
+                        <stage>(õerub kässi):</stage>
                         <p>Mo mõistus on kül alles vangis, ent süda tuksub: nali tulemas! Oh kui see lugu kõik nõnda lä'äb, kui mina aiman, siis, jah siis — — Mo nägu peaks kortsus seisma, peaks näitama, et pahane mo süda sees, aga — ma rõõmunalja ootan tornist. Mikspärast — on mul teadmata.</p>
                     </sp>
                     <sp who="#pulkus">
@@ -2572,8 +2572,8 @@
                         <p>Muus midagi ei soovi mina, kui et Teie lootus minuga ja minul lootus Teiega üht rada käiks ja ühtle langeks! Ma soovin rõõmu kõikile.</p>
                     </sp>
                     <sp who="#hammer">
-                        <speaker>HAMMER:</speaker>
-                        <stage>(kõrvale)</stage>
+                        <speaker>HAMMER</speaker>
+                        <stage>(kõrvale):</stage>
                         <p>Ent 5000 rubla? —</p>
                     </sp>
                     <sp who="#nikkard">
@@ -2585,8 +2585,8 @@
                         <p>Ei tappa meid, ei maksa meile ka silmahammast kunagi. See temp on 10 000 väärt!</p>
                     </sp>
                     <sp who="#valvnik">
-                        <speaker>VALVNIK:</speaker>
-                        <stage>(tõsise, kohtuliku näuga)</stage>
+                        <speaker>VALVNIK</speaker>
+                        <stage>(tõsise, kohtuliku näuga):</stage>
                         <p>Ma olen politseimeister siin linna aastat mõndagi. Ma olen kül ka vahest näinud ilmsüüta inimesi siin vangist väljatulevad, kes tänulikud, rõõmsad olid; ent nalja vangitornist oota', ei ole minul meeletuln'd, ei ole ma ka iial näin'd. Kuis peab meil siis täna nali just vangitornist tulema? Noh, saame näha, ootame. — Aah, sääl kuulen õues käivad! <stage>(Vaatab läbi akna)</stage> Jah, tulevad! Kaks vangi kaasas, kaks narukaela, kuida nään; kõik nõnda kui ma arvasin. Ent Kalmeri, mo ausad herrad, ei Kalmeri nää minu silm <stage>(Pöörab aknajuurest tagasi):</stage> Mis võimata, jääb võimataks.</p>
                     </sp>
                 </div>
@@ -2594,8 +2594,8 @@
                     <head>8. ettendus.</head>
                     <stage>KÕIK ENDISED. Pärast KALMER. WEEDERLING. LEITNER. NAPPER. KRISHKA. Võttab seutud vangide pääst kübarad maha.) Kaks soldatit ukse ääres.</stage>
                     <sp who="#pulkus #hammer #nikkard">
-                        <speaker>KAUPMEHED:</speaker>
-                        <stage>(ühest suust)</stage>
+                        <speaker>KAUPMEHED</speaker>
+                        <stage>(ühest suust):</stage>
                         <p>Hurraa! Kalmer! Tuled sa ükskord! Tohoo! mis tehtud sinuga?</p>
                     </sp>
                     <sp who="#valvnik">
@@ -2623,13 +2623,13 @@
                         <p>Ma seisan, ja mo silmad kinni, siin ikka alles kahtlaselt. Kes on siin Kalmer, kes ta kassameister? Veel kumbagit ei tunne ma. Ja ometi on Kalmer mulle nii tuttav olnud, kui mo vend.</p>
                     </sp>
                     <sp who="#klopmann">
-                        <speaker>KLOPMANN:</speaker>
-                        <stage>(näitab politseimeistrile)</stage>
+                        <speaker>KLOPMANN</speaker>
+                        <stage>(näitab politseimeistrile):</stage>
                         <p>See vanem siin, mind võite usku', on herra Kalmer elavalt. Ja teine noorem tema kõrvas, on kassameister Weederling. Mikspärast nad nii veidras mundris siin Teie ees nüüd seisavad, on alles mulle, nii kui Teile, kõik katte al ja teadmata.</p>
                     </sp>
                     <sp who="#valvnik">
-                        <speaker>VALVNIK:</speaker>
-                        <stage>(vaatab Kalmeri otsa)</stage>
+                        <speaker>VALVNIK</speaker>
+                        <stage>(vaatab Kalmeri otsa):</stage>
                         <p>Mind aitko Jumal, on tõest Kalmer! Jah, Kalmer üsna elavalt! — Krishka! Te silmapilk siin käed lahti, ja mõlemate herradel! <stage>(Krishka teeb, mis kästud)</stage> Soo! Nüüd sõbrad, on Teil käed lahti, nüüd pääs'gu keelepaelad ka. <stage>(annab mõlemil' kät)</stage> Et öölge, armas herra Kalmer, mis asi on Teid vangiviin'd? Miks olete nii ennast muutnud, et keegi Teid ei ole tunnud?</p>
                     </sp>
                     <sp who="#kalmer">
@@ -2637,8 +2637,8 @@
                         <p>Kihlveu pärast! Ma tahtsin kord ka ausal viisil 5000 rubla teenida. Kas õnneks lääb, ei võinud keegi mull'ette äraüttelda. Niisama oleksin ka võinud 5000 rubla kauta'! Ja kui mind 'poleks kelmiks peetud ja kelmi nimel vangi viidud, siis oleksin neid kautan'd.</p>
                     </sp>
                     <sp who="#klopmann">
-                        <speaker>KLOPMANN:</speaker>
-                        <stage>(kõrvale)</stage>
+                        <speaker>KLOPMANN</speaker>
+                        <stage>(kõrvale):</stage>
                         <p>Oh teie viimsed võrukaelad! Nad —</p>
                     </sp>
                     <sp who="#kalmer">
@@ -2646,8 +2646,8 @@
                         <p>Sääl pidin ettevaatama ja kindral-proovi tegema. Seks avitas mind hää sõber, mo kassameister Weederling. <stage>(annab temale kät).</stage></p>
                     </sp>
                     <sp who="#nikkard">
-                        <speaker>NIKKARD:</speaker>
-                        <stage>(kõrvale)</stage>
+                        <speaker>NIKKARD</speaker>
+                        <stage>(kõrvale):</stage>
                         <p>Oh teie pää keerud paelad, nüüd peame meie püülima!</p>
                     </sp>
                     <sp who="#kalmer">
@@ -2655,8 +2655,8 @@
                         <p>Pääproov läks korda. Kassahoidja jo istus õhtu kasarmus. See oli hää, mo lootus kasvis.</p>
                     </sp>
                     <sp who="#hammer">
-                        <speaker>HAMMER:</speaker>
-                        <stage>(kõrvale)</stage>
+                        <speaker>HAMMER</speaker>
+                        <stage>(kõrvale):</stage>
                         <p>Oh teid nõiakasti naelad, kes teadis seda mõttelda! Nüüd oleme kolm lõnga läin'd: maksa välja!</p>
                     </sp>
                     <sp who="#kalmer">
@@ -2664,13 +2664,13 @@
                         <p>Ma valmistasin mõne pääva veel kodu, siis — astusin neidsamu jälgi mo kassameistri järele. Ka mul läks õnneks, ma sain puuri, Lukmanni vaikse korteri. — Nüüd oleme siin, herra Valvnik, ja meie pattud tunnist'ud.</p>
                     </sp>
                     <sp who="#pulkus">
-                        <speaker>PULKUS:</speaker>
-                        <stage>(kõrvale)</stage>
+                        <speaker>PULKUS</speaker>
+                        <stage>(kõrvale):</stage>
                         <p>5000 rubla maksab nali, ent tük on 10.000 väärt! Ma maksan naerdes oma osa ja —</p>
                     </sp>
                     <sp who="#klopmann">
-                        <speaker>KLOPMANN:</speaker>
-                        <stage>(ka kõrvale)</stage>
+                        <speaker>KLOPMANN</speaker>
+                        <stage>(ka kõrvale):</stage>
                         <p>Jah, tük on 10.000 väärt! <stage>(Peeud suu ääres)</stage> Ent õnneks, et mul 10 tenga see eest ei tule tasuda! Kus rikkad kündvad, sääl on mulda, kus kihlevad, sääl tilgub kulda; sääl juures olla, ei too nälga.</p>
                     </sp>
                     <pb n="80"/>
@@ -2683,8 +2683,8 @@
                         <p>Kihlvedu hää teeu pärast, kui kord jo Teile ütlesin. Ma palgaline pole olnud, ei saa ka seda olema.</p>
                     </sp>
                     <sp who="#valvnik">
-                        <speaker>VALVNIK:</speaker>
-                        <stage>(riiete pääle näidates)</stage>
+                        <speaker>VALVNIK</speaker>
+                        <stage>(riiete pääle näidates):</stage>
                         <p>Hää kül, ses mundris?</p>
                     </sp>
                     <sp who="#kalmer">
@@ -2732,8 +2732,8 @@
                         <p>Jah, so truud sõbrad kihlveu maksvad rõõmuga. Sa oled vaeva küllalt näinud: said seutud ja veetud, Lukmanni korkas peetud etc. <stage>(Hammer ja Nikkard teevad väga vingus mokkad)</stage></p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(astub ette)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(astub ette):</stage>
                         <p>Herra politseimeister! Kõik kohtukulud maksan ma, ja see on minu kohus ka. Ma olen kohut tülitand, ka mis ma tahtsin, kättesaan'd. Kõik seiamaale hästiläin'd. Üht asja mina palun veel, kui lubate mind nimeta?</p>
                     </sp>
                     <sp who="#valvnik">
@@ -2741,13 +2741,13 @@
                         <p>Teil keelmata on rääkida.</p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(tõsiselt)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(tõsiselt):</stage>
                         <p>Kui tiht' on nali tõe kuub, kui tihti tõde nalja tuum. Ka nali käib kord narud kaelas, ilmsüüta käed vangipaelas, kõik hüüdvad: Vaata, see on kelm!... Mis viga sest, kui põhi puhas, ja süda selge, mõtte hää? — Ma olen seega märki näitnud, sääl juures veidi raha võitnud, ent palga eest ei orjan'd ma. Kõik hästi läin'd, hääd hääste tein'd, sest väga rõõmus olen ma ja palun: Mo ausad herrad, olge täna mo võerad Pulli trahteris!</p>
                     </sp>
                     <sp who="#valvnik #pulkus #hammer #nikkard #klopmann #leitner #krishka #napper #weederling">
-                        <speaker>KÕIK:</speaker>
-                        <stage>(kummardades)</stage>
+                        <speaker>KÕIK</speaker>
+                        <stage>(kummardades):</stage>
                         <p>Suur tänu, meie tulleme!</p>
                     </sp>
                     <stage>(Vahetek langeb).</stage>
@@ -2761,13 +2761,13 @@
                     <head>1. ettendus.</head>
                     <stage>JÄSHKA. LIISKEN. (Tulevad asju kandes sisse)</stage>
                     <sp who="#jaeshka">
-                        <speaker>JÄSHKA:</speaker>
-                        <stage>(paneb kraami laua pääle, hakab Liiskeni käest kinni)</stage>
+                        <speaker>JÄSHKA</speaker>
+                        <stage>(paneb kraami laua pääle, hakab Liiskeni käest kinni):</stage>
                         <p>Mo kallis Liisken, kannata, ka meie õn saab tulema! Nüüd teenime ja korjame, kül omal ajal hõiskame. Suur armastus ei nõua mitte suurt rikkust, suuri tubasi, Üks väike kammer, säng, kaks tooli, üks kappi, laud, kaks taldrekut, üks vaagen, peeker, pann ja pada, üks soolakaus, paar lusikaid, — mis õnnelikuil palju tarvis?</p>
                     </sp>
                     <sp who="#liisken">
-                        <speaker>LIISKEN:</speaker>
-                        <stage>(Jäshka kaela hakates)</stage>
+                        <speaker>LIISKEN</speaker>
+                        <stage>(Jäshka kaela hakates):</stage>
                         <p>Jah, õnnelikud pruuk'vad vähe, neil iseenesest on kül! Ent vähe pruuk'vad nemad siiski: meil vähem veel kui vähe on. Kõik hakadus on ikka raske, veel raskem tühja kättega. Meil kumb'gil 'pole isa, ema, ei õde, venda aitamas. Ja vähe on meil' ikka tarvis: Sull' peiomütsi, vesti, saapaid, uut kaelarätti, kuube, kindaid, ja mull' — —</p>
                     </sp>
                     <sp who="#jaeshka">
@@ -2779,8 +2779,8 @@
                         <p>Oh armas Jäshka, ära kiida üht klaasitükki temandiks. Mul olgo ehk kül sinu silmas ka nattukene jumedust, mis aitab see, <stage>(kurvalt)</stage> kui vaene olen, kes kaasa midagi ei too! Ei ole minul veimekirstu, ei lammast, lehma, mullikat, ei rahakukkurt, riiderikkust, ei —</p>
                     </sp>
                     <sp who="#jaeshka">
-                        <speaker>JÄSHKA::</speaker>
-                        <stage>(ümberhakkades)</stage>
+                        <speaker>JÄSHKA:</speaker>
+                        <stage>(ümberhakkades):</stage>
                         <p>Ei, ei, mo süda, see ei sünni, et sina Jäshka rikkaks teed! Säält 'pole iial õnne tulnud. Ma rõõmustan, et sina vaene ja mina vaene ja meie vaesed oleme. Eks vaestel ela rikkas Jumal ja helde Issa taevas veel? Sest teenime ja korjame, kül omal ajal hõiskame. Armastus on meie rikkus ja truus meie varandus. (Näitab kuuljate poole) Liisken, minu Liisken usu, sääl on mõne mitme lugu justament kui meitelgi. Sellepärast, mo lõoke, mo pääsuke, jätkem muret, tõstkem häält ja laulgem:</p>
                         <pb n="82"/>
                         <lg>
@@ -2831,13 +2831,13 @@
                         <p>Kas kuuled nüüd, mo kulla Liisken? Luuleja, kes seda laulu teinud, ise vist ka armastan'd. Ei oleks laul tal muidu korda läinud, ei kunagi nii sula saan'd. Oh armastus, sa minu magus Liisken. <stage>(annab vaimustavalt jälle suud.)</stage></p>
                     </sp>
                     <sp who="#liisken">
-                        <speaker>LIISKEN:</speaker>
-                        <stage>(nattuke kohkudes)</stage>
+                        <speaker>LIISKEN</speaker>
+                        <stage>(nattuke kohkudes):</stage>
                         <p>Ah, Jäshka! Kus pidulaud ja piduvõerad? Kui hiljaks jääme sellega? <stage>(hakkab ruttu talitama.)</stage></p>
                     </sp>
                     <sp who="#jaeshka">
-                        <speaker>JÄSHKA:</speaker>
-                        <stage>(kõrvale)</stage>
+                        <speaker>JÄSHKA</speaker>
+                        <stage>(kõrvale):</stage>
                         <p>Oh, kattaks minu kallis Liisken jo pulmalauda meitele! Oh, avitaks meid helde Jumal pea selle õnsa järjele! Ei pruugiks laud nii tore olla, nii kallid rooge kandagi, mei' tahaksime <pb n="83"/> tänu anda, kui soola, leiba nääksime, mis seisaks meie laua pääl. Ent — veel teenime ja korjame, kül omal ajal hõiskame. <stage>(Näitab Liiskeni poole):</stage> Et vaatke sääl, mo magust pruuti: nii nibunips ja kena tips, kui teist ei ole ilma pääl! — <stage>(Piitsh hüüab alt):</stage> Jäshka, Jäshka ae! <stage>(Jäshka kostab):</stage> Ja jah, meister, silmapilk ma tulen! <stage>(annab ruttu pruudile suud, lähäb ära.)</stage></p>
                     </sp>
                 </div>
@@ -2845,8 +2845,8 @@
                     <head>2. ettendus.</head>
                     <stage>LIISKEN (üksi).</stage>
                     <sp who="#liisken">
-                        <speaker>LIISKEN:</speaker>
-                        <stage>(vaatab sula näul järele)</stage>
+                        <speaker>LIISKEN</speaker>
+                        <stage>(vaatab sula näul järele):</stage>
                         <p>Sääl lääb mo elu õn ja lootus ja minu süda temaga. Kus iial seisan, käin ehk liigun, sääl seisab Jäshka minu ees, nii mittu kord, kui hinge tõmban, ka hingab ta mo südames. <stage>(Rõhub rindu, käib.)</stage> Kui põhjatu'ks lääb neiu süda. kui sügavaks ja palavaks, kui armastus sääl aset võtnud! Kord paistab päike, laulvad linnud ja vaiksed tuuled lehkavad, kord ulub torm ja vilud vihmad kõik vabisema panevad; kord hiilgavad sääl kastepärlid ja kaunid lilled õitsevad, kord paradiis on kuiv ja närtsind, kuid silmaripsed tilkuvad; kord laulan, naeran rõõmu pärast, kord jälle õhkan, nuttan ärrast', kord võiksin ma kõik inimesi mo rinna vastu rõhuda, kord vaevalt ühelainsal ruumi, mo tuks'vat südant vaigista. Oh armastus, sa sap ning mesi, sa kuld ning muld siin korraga! Sa elu surm ja surma elu, mis teed sa järjest minuga? On Jäshka siin, nään taevast lahti ja kuulen ingli kandli häält; on eemal ta, siis nõrken tihti ja elan ilma eluta! — Pilv, tagane ja paista päike, mo Jäshka pole heitlik mees! — Ma tunnen teda; olgu väike; tal kuldne truus südames! — <stage>(mõtleb)</stage> Jah, laul on mind ikka rõõmustanud ja minu südant vaigistan'd; laul on mind jälle naerma pannud, kui igav ootus kurvastand.</p>
                         <lg>
                             <head>Laul.</head>
@@ -2946,8 +2946,8 @@
                         <p>Teil meestel ikka ülem asi, kas kõhud täis ehk tühjad veel, kui aga klaasid laua pääl.</p>
                     </sp>
                     <sp who="#piitsh">
-                        <speaker>PIITSH:</speaker>
-                        <stage>(naerab)</stage>
+                        <speaker>PIITSH</speaker>
+                        <stage>(naerab):</stage>
                         <p>No muidugi! Mis kasu elust, kui suu on kuiv ja süda kurv? — <stage>(Tulevad mõlemad ettepoole.)</stage></p>
                     </sp>
                     <sp who="#doorken">
@@ -2955,8 +2955,8 @@
                         <p>Hää kül, kes elab üksi märjast suust, ehk ikka rõõmsast südamest? Eks mõlemad ei jätta keha pea nõrgaks, lõdvaks, jõuetumaks? Ent püülileib, ja põdrapraad, ehk munakook, ehk mõni muu nii magus roog, — no armas Piitsh, on teine tük.</p>
                     </sp>
                     <sp who="#piitsh">
-                        <speaker>PIITSH:</speaker>
-                        <stage>(emanda ümber hakkates)</stage>
+                        <speaker>PIITSH</speaker>
+                        <stage>(emanda ümber hakkates):</stage>
                         <p>Sul õigus, Doorken, sul on ikka õigus. Ei söögita, ei joogita üks õige mees või elada.</p>
                     </sp>
                     <sp who="#doorken">
@@ -2973,18 +2973,18 @@
                         <p>Kuis vaatame nüüd nende silma, kui täna seia tulevad? <stage>(Kahetseb)</stage> Oh mina vaene, kes ma võinud ka pool suud kinnipidada?</p>
                     </sp>
                     <sp who="#piitsh">
-                        <speaker>PIITSH:</speaker>
-                        <stage>(Lööb käppäga oma pähe)</stage>
+                        <speaker>PIITSH</speaker>
+                        <stage>(Lööb käppäga oma pähe):</stage>
                         <p>Ja mina, oinas, keda Kalmer nii sagedast on avitan'd! Mis teen ma nüüd, kui rahapuudus mind jälle sunnib paluma? Ma õnnetu, nüüd olen kimpus, kui vaene peni kirikus! Oh, oh, oh! Eks mina võinud parem haige ehk —</p>
                     </sp>
                     <sp who="#doorken">
-                        <speaker>DOORKEN:</speaker>
-                        <stage>(kõrvale)</stage>
+                        <speaker>DOORKEN</speaker>
+                        <stage>(kõrvale):</stage>
                         <p>Surnud olla, et lesk naene ta, "õnnist meest" võiks leinada. <stage>(Mehe poole):</stage> Jah, armas Piitsh, nüüd kiisk on kõhtus ja hammaste al ahvenas! Ma pooeks mulda, kui mul mitte —</p>
                     </sp>
                     <sp who="#piitsh">
-                        <speaker>PIITSH:</speaker>
-                        <stage>(kõrvale)</stage>
+                        <speaker>PIITSH</speaker>
+                        <stage>(kõrvale):</stage>
                         <p>Nii kassivisa hing ei oleks. Saaks Abram teda oma sülle, siis — kahju tema silmadest. Neid kisuks Doorken pea välja. <stage>(Naese poole):</stage> Mis teeme nüüd, mo kallis Doorken?</p>
                     </sp>
                     <sp who="#doorken">
@@ -3035,13 +3035,13 @@
                         <p>Kallis Liisken, sina oled täieste ilmsüüta siin. Sinust ei või nemad kumbgi, Kalmer, ei ka Weederling, paha sõna üttelda. Aga mina, mina jõle, olen seda paha teind'! — Ööd ja päävad olen mina Kalmeril' hääd soovinud, olen temast abi lootnud, olen teda ikka kiitnud, teda elumärgiks pannud, sest ta oli seda väärt; aga eile, eile pidin mina pime olema! Võtku Juudas kõik kihlveud, kui nad õnne rikkuvad, vaesid teevad vaesemaks! — Eks võinud mina oma põlve, kes teab kus —</p>
                     </sp>
                     <sp who="#liisken">
-                        <speaker>LIISKEN:</speaker>
-                        <stage>(hakkab tema kaela ümber)</stage>
+                        <speaker>LIISKEN</speaker>
+                        <stage>(hakkab tema kaela ümber):</stage>
                         <p>Mo armas Jäshka, ära kiru, kui õnnetus meid kats'ma tuln'd! Ei ole sina seda tahtnud, ei paha teinud meelega. Kes teab veel, mispärast seda meie õnneks tuleb nimeta? Maailmas sünd'vad tihti asjad, mis veidrad, arusaamata; maailmas lähäb tihti õnneks, mis õnnetuseks arvati. Kui elab alles teiste Jumal, siis elab meie Jumal ka. Mul on kül kahju, ent ma ei karda: meid Jumal võib veel avita, ma võin kül nutta, ent ma ei heida meelt ära ega kahelda: kihlvedu meid ei lahuta. — Jää rahule, mo vaene Jäshka, <stage>(silitab ta palgeid):</stage> ei saa jo vaesed vaesemaks. Eks ole sa mull' sagest' öölnud, mind trööstida ja tõsta püüdnud: "Nüüd teenime ja korjame, kül omal ajal hõiskame." Noh, tehkem seda!</p>
                     </sp>
                     <sp who="#jaeshka">
-                        <speaker>JÄSHKA:</speaker>
-                        <stage>(annab suud)</stage>
+                        <speaker>JÄSHKA</speaker>
+                        <stage>(annab suud):</stage>
                         <p>Mo trööst'ja ingel, minu tugi, mo abi, minu rõõmustus! On läinud kõik, siis mingu pääle, mo Liisken on jo mulle jään'd. Saab herra Kalmer vihastama, mo pääle mitte vaatama, mind eesel, tõbras, lammas hüüdma, ei silma otsas sallima, — kõik vaikselt tahan kannata. Ma olen jo kül pahast' teinud, ent karvaväärt ei meelega. Eks vargaid, kelmisi ja petjaid üks õige mees pea põlgama? Karmanthsikuid ja taskupühk'jaid, kas pidin ma neid sallima? Ja herra Kalmer, Weederling — kes on neid nende hulgusmundris kihlvedajateks pidanud?... No sellepärast ma ei karda, ehk südamest veel kahetsen, et — —</p>
                     </sp>
                     <sp who="#liisken">
@@ -3055,8 +3055,8 @@
                     <stage>JÄSHKA. LIISKEN. PEEP (astub sisse.)</stage>
                     <stage>(Endised talitavad laua ümber.)</stage>
                     <sp who="#peep">
-                        <speaker>PEEP:</speaker>
-                        <stage>(paneb õllekorvi nurka maha)</stage>
+                        <speaker>PEEP</speaker>
+                        <stage>(paneb õllekorvi nurka maha):</stage>
                         <p>Et võtku Madis! Mis päid raskeks teeb, on raske kanda, veel nimelt treppist ülesse. Puh — ma olen väsind ja lõõtsutan kui linnukoer! Kül raske on ta <stage>(näitab korvi pääle)</stage> üleskanda; ent pähä tõuseb kergeste; ja on ta pääs, siis jälle raske ja murrab maha päälegi.</p>
                     </sp>
                     <sp who="#jaeshka">
@@ -3084,13 +3084,13 @@
                         <p>Kül kahju, aga nii'p see on.</p>
                     </sp>
                     <sp who="#liisken">
-                        <speaker>LIISKEN::</speaker>
-                        <stage>(Loeb kella löökisi)</stage>
+                        <speaker>LIISKEN:</speaker>
+                        <stage>(Loeb kella löökisi):</stage>
                         <p>Soo, kell on kümme ära löönud, piduvõerad tulemas. Näha saab, kes kõige enne pidule on tõttamas.</p>
                     </sp>
                     <sp who="#peep">
-                        <speaker>PEEP:</speaker>
-                        <stage>(kohkudes)</stage>
+                        <speaker>PEEP</speaker>
+                        <stage>(kohkudes):</stage>
                         <p>Kalmer vist! Nüüd katsun mina siit ruttu ärapugeda; kui siduja, ei julge mina kül tema silma vaadata. Jumalaga! <stage>(poeb kõrvalt uksest välja.)</stage></p>
                     </sp>
                 </div>
@@ -3098,8 +3098,8 @@
                     <head>7. ettendus.</head>
                     <stage>JÄSHKA. LIISKEN. KALMER.</stage>
                     <sp who="#kalmer">
-                        <speaker>KALMER::</speaker>
-                        <stage>(sisseastudes)</stage>
+                        <speaker>KALMER:</speaker>
+                        <stage>(sisseastudes):</stage>
                         <p>Tahtsin varem seia jõuda, et ise äranäeksin, kuida toidud, õlled, viinad, kuida laua katmine? <stage>(Vaatab, mekkib)</stage> Noh, lähvad korda. — <stage>(Iseeneses)</stage> Ep oleks mina seda uskun'd, et kõik nii hästi korda lääb. Viistuhat rubia olen võitnud, see summake jo mõnda teeb. <stage>(Nääb noortpaari värisedes kõrval seisvad)</stage> Ohoo! Tere Jäshka, tere Liisken! Kas pulmad juba mööda läin'd? <stage>(Mõlemad langevad põlvili maha, küüned püsti.)</stage></p>
                     </sp>
                     <sp who="#jaeshka">
@@ -3112,8 +3112,8 @@
                         <p>Jampsid lapsed, mis teil viga? mis on sündinud teadmata? Tõuske üles, juttustage, mis see mäng siin tähendab?</p>
                     </sp>
                     <sp who="#jaeshka">
-                        <speaker>JÄSHKA:</speaker>
-                        <stage>(tõusvad üles)</stage>
+                        <speaker>JÄSHKA</speaker>
+                        <stage>(tõusvad üles):</stage>
                         <p>Oh, see oli väga rumal — väga jäme olin ma! Ei ma mõista, kus mo silmad — päälegi veel põlvega —! Tõeste, ma olin pime, üsna pime eile pääv! Ja et ma nii pime olin, äratehtud koguni, sest —</p>
                     </sp>
                     <sp who="#kalmer">
@@ -3129,17 +3129,17 @@
                         <p>Veider Jäshka, viiel pääval 'pole minu jalad seia tuppa saan'd — kuda sina eilsel pääval, see on arusaamata, võisid pime, jäme olla? päälegi veel minu vastu — unenägu, mitte muud! Räägi parem pulmajuttu, mitte unenägusi sääl, kus 'pole Joosepit!</p>
                     </sp>
                     <sp who="#liisken">
-                        <speaker>LIISKEN:</speaker>
-                        <stage>(kõrvale)</stage>
-                        <p>Säh nüüd, Jäshka, eks ma öölnud, Jumal on veel meie poolt! Kalmer 'polegi siin käinud, Kalmer 'polegi meid näinud, Kalmer 'pole vihane. <stage>(Laksutab käsi)</stage> Nüüd on jälle asjad hästi, hirm ja mure kadunud! Jumal! olgu tänatud! <stage>(Kalmeri poole häbelikult):</stage> Herra Kalmer! Meie süda oli kül täis ahastust, et —</p>
+                        <speaker>LIISKEN</speaker>
+                        <stage>(kõrvale):</stage>
+                        <p>Säh nüüd, Jäshka, eks ma öölnud, Jumal on veel meie poolt! Kalmer 'polegi siin käinud, Kalmer 'polegi meid näinud, Kalmer 'pole vihane. <stage>(Laksutab käsi)</stage> Nüüd on jälle asjad hästi, hirm ja mure kadunud! Jumal olgu tänatud! <stage>(Kalmeri poole häbelikult):</stage> Herra Kalmer! Meie süda oli kül täis ahastust, et —</p>
                     </sp>
                     <sp who="#kalmer">
                         <speaker>KALMER:</speaker>
                         <p>Ah soo, Liisken! Kuida käsi käib? Millal pulmad tulevad? Kui tulevad, kas kutsute ka mind pulma? Ma loodan, teie olete üksteisele veel truiks jäänud? Eks ole nii? <stage>(Paneb käe ta õla pääle)</stage> Mo kena laps, miks kurvaks saad? Ehk vaatab Jäshka teiste pääl? Ta paha loom! Ehk on so oma süda jahtun'd? Mikspärast sina kurvaks saad?</p>
                     </sp>
                     <sp who="#liisken">
-                        <speaker>LIISKEN:</speaker>
-                        <stage>(ohkades)</stage>
+                        <speaker>LIISKEN</speaker>
+                        <stage>(ohkades):</stage>
                         <p>Oh aus herra, meie truus on kindel kül, ent meie vaesus on kindlam veel ja suurem ka!</p>
                     </sp>
                     <sp who="#jaeshka">
@@ -3155,8 +3155,8 @@
                         <p>Aus herra Kalmer, Teil on õigus. Tei' räägite kui raamatust'. — <stage>(Jäshka poole)</stage> Mo sõber, jätkem muret maha ja saagem kindlaks lootuses, kül —</p>
                     </sp>
                     <sp who="#jaeshka">
-                        <speaker>JÄSHKA:</speaker>
-                        <stage>(vaimustusega)</stage>
+                        <speaker>JÄSHKA</speaker>
+                        <stage>(vaimustusega):</stage>
                         <p>Jah, Liisken, jätkem muret maha, ja saagem kindlaks lootuses! Uhtii! ma ei karda.</p>
                     </sp>
                     <sp who="#kalmer">
@@ -3169,8 +3169,8 @@
                     <stage>KALMER. VALVNIK. PULKUS. HAMMER. NIKKARD. KLOPMANN. WEEDERLIND. RIIHKER. LEITNER. NAPPER. LUKMANN. KRISHKA. PIITSH. DOORKEN. PEEP. J.L. (Kõik piduehetes, tulevad järgimöda sisse ja saavad Kalmerist vastovõetud ja JÄSHKA näitab platsid kätte (ameti etc. järele, annab sigarid, pärast istuvad lauda, teenrid kandvad road ümber etc).</stage>
                     <stage>KALMER, JÄSHKA etc.</stage>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(vaatab ümber, kas kõik korras, istub tooli pääle)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(vaatab ümber, kas kõik korras, istub tooli pääle):</stage>
                         <p>Jah, nii lähvad siin maailma asjad: Nali tõega, tõde naljaga, rõõm murega, mure rõõmuga, nut naeruga, naer nuttuga — iks paaris teine teisega. Ei olegi veel nädal mööda, kui [mind vedasite] siia, ja täna võivad ise näha, et teadsin ma, mis ütlesin. Ma olen käelöömist võitnud, ei omale, vaid teiste, ma olen elumärki näinud: ilmsüüta — paistab süüdlane. Siin tõt ja nalja segamini ja mõlemis hääd õppetust. Ka õige mees võib kimpu jääda ja suured kelmid lahti sada, ent õigus ikka õiguseks ja tõde ikka tõeks jääb. Sagest' näitab ülekohus mitmel kohus olevad, sagest' püütaks' õigust teha, truist säädust pidada, sagest' selget' otsust anda, kuna kõik veel segane. Nii käivad jo mailma asjad: siin päike kuum, sääl müristab, siin lendab tolm, sääl voolab vihm', siin raiskus, sassis segane, sääl loomulik ja sääduslik. Ent, lõikus ikka külvi järel, kuida lükkad, nõnda lääb. Jah, on nii, on nii. <stage>(Tõuseb üles, vaatab ukse poole)</stage> Ent kus nad nõnda kauaks jäävad? Lubasid jo tulla kõik. <stage>(Helistab lauakella, hüüab):</stage> Jäshka, Jäshka ae! <stage>(Jäshka astub kõrvast sisse.)</stage></p>
                     </sp>
                     <sp who="#jaeshka">
@@ -3182,13 +3182,13 @@
                         <p>Ole mull' siin käepärast, et kui võerad tulevad, neile uksed lahti teed.</p>
                     </sp>
                     <sp who="#jaeshka">
-                        <speaker>JÄSHKA:</speaker>
-                        <stage>(astub kentsakalt ukse kõrva)</stage>
+                        <speaker>JÄSHKA</speaker>
+                        <stage>(astub kentsakalt ukse kõrva):</stage>
                         <p>Kas nõnda või, aus herra Kalmer?</p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(naerdes)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(naerdes):</stage>
                         <p>Nõnda jah, mo vahisoldat. On uksekell kord kõlisen'd, siis kummardades lahti te! <stage>(Kõrvale)</stage> Üks märka mees see väike Jäshka! Tal hing kül suur, pää pisuke, truusest mees, ent meelest laps. Võin ma tal täna rõõmu teha, siis sünnib see hää meelega. Eks saame näha. <stage>(Kõlistakse)</stage> Jäshka, tee uks lahti!</p>
                     </sp>
                     <pb n="91"/>
@@ -3197,8 +3197,8 @@
                         <p>Silmapilk, mo herra Kalmer! <stage>(Teeb ukse lahti ja kummardab sügavalt igaühte, kes sisseastudest temast mööda lähäb).</stage></p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(lähäb vastu)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(lähäb vastu):</stage>
                         <p>Aa! Tere, herra politseimeister, herra Klopmann, Pulkus, Hammer, Nikkard. Tere sõbrad. See on ilus, väga ilus, et teie sõna pidanud. <stage>(Annab kõigile kät):</stage> Ma palun kõiki, istuge! <stage>(Istuvad):</stage> Jäshka! Kus sigarid, kus tuli? Ruttu! Jalad ala!</p>
                     </sp>
                     <sp who="#jaeshka">
@@ -3219,7 +3219,7 @@
                     </sp>
                     <sp who="#jaeshka">
                         <speaker>JÄSHKA:</speaker>
-                        <p>Ah soo, jah, jah, Jäshka teeb lahti. Mo meel on veidi segane, ent rõõmupärast. <stage>(Võtab sigaritaldriku ja tule laua päält, pakkub ümber.)</stage></p>
+                        <p>Ah soo, jah, jah, Jäshka teeb lahti. Mo meel on veidi segane, ent rõõmupärast. <stage>(Võtab sigaritaldrikuja tule laua päält, pakkub ümber.)</stage></p>
                     </sp>
                     <sp who="#pulkus">
                         <speaker>PULKUS</speaker>
@@ -3255,8 +3255,8 @@
                         <p>Kas pead suu, sa pääluu? Mis teed sa ise iga pääv. Kui Liisken sulle — No olgu pääle.</p>
                     </sp>
                     <sp who="#riihker">
-                        <speaker>RIIHKER:</speaker>
-                        <stage>(vabandades)</stage>
+                        <speaker>RIIHKER</speaker>
+                        <stage>(vabandades):</stage>
                         <p>Et andke andeks herra Kalmer! Kui oleks seda arvanud, et —</p>
                     </sp>
                     <sp who="#leitner">
@@ -3301,13 +3301,13 @@
                         <p>Soo, soo, meister Piitsh ja mamma Doorken! See oli hää, et tullite. Nüüd olge rõõmsad rõõmsatega.</p>
                     </sp>
                     <sp who="#piitsh">
-                        <speaker>PIITSH:</speaker>
-                        <stage>(köhatab, kummardab)</stage>
+                        <speaker>PIITSH</speaker>
+                        <stage>(köhatab, kummardab):</stage>
                         <p>Mo auustatud herra Kalmer! Ma palun, unustage ära, mis eile — ! Kes oleks seda — — <stage>(paneb käed risti.)</stage></p>
                     </sp>
                     <sp who="#doorken">
-                        <speaker>DOORKEN:</speaker>
-                        <stage>(teeb kniksu)</stage>
+                        <speaker>DOORKEN</speaker>
+                        <stage>(teeb kniksu):</stage>
                         <p>Jah, unustage ära, üsna ära! See sündis jo kogemata! Ega võinud meie hing eile teada, et —</p>
                     </sp>
                     <sp who="#kalmer">
@@ -3315,13 +3315,13 @@
                         <p>Väga tõsi, meister Piitsh ja mutter Doorken, ega võinud Teie hing eile teada, et ma täna pidule Teid kutsuksin. Ent mis sest viga? Ist'ge maha. <stage>(Kopputab õla pääle.)</stage></p>
                     </sp>
                     <sp who="#piitsh">
-                        <speaker>PIITSH:</speaker>
-                        <stage>(kõrvale)</stage>
+                        <speaker>PIITSH</speaker>
+                        <stage>(kõrvale):</stage>
                         <p>Säh nüüd! Kus ma ootsin müristamist, välku, rahesadamist; kus ma kartsin: Piitsh, nüüd leiad oma rasket palka eest: häbinaeru, ähvardamist, kurja nägu, paha sõnu, mutsa, lopsa, muud seesarnast, — sääl ta silitab mo pääd, kopputab veel õlapääl', nagu oleksime taale Jumal tääb mis häädust tein'd.</p>
                     </sp>
                     <sp who="#doorken">
-                        <speaker>DOORKEN:</speaker>
-                        <stage>(silmad pärani)</stage>
+                        <speaker>DOORKEN</speaker>
+                        <stage>(silmad pärani):</stage>
                         <p>Ingel ta või inimene? Liiga tark ehk liiga rumal? Saagu aru sest, kes võib. — Oh sa pala silk, kui mõni seda mulle oleks tein'd? Surmani ei oleks see minu meelest äraläin'd! Ent nää teda. Ei ta sülita meil' suhu, ei ta kisu silma pääst, ei ta —</p>
                     </sp>
                     <pb n="93"/>
@@ -3330,8 +3330,8 @@
                         <p>Noh, kas peaksivad nüüd võerad kõik kous olema? On kõik kous, siis ist'gem lauda.</p>
                     </sp>
                     <sp who="#jaeshka">
-                        <speaker>JÄSHKA:</speaker>
-                        <stage>(kurvalt)</stage>
+                        <speaker>JÄSHKA</speaker>
+                        <stage>(kurvalt):</stage>
                         <p>No kes teed — ehk —</p>
                     </sp>
                     <sp who="#pulkus">
@@ -3351,8 +3351,8 @@
                         <p>Jäshka, võtta vaevaks, too ta seia! Ehk kui see sul raske on, siis lääb Krishka kadun'd tibu otsima, ja —</p>
                     </sp>
                     <sp who="#jaeshka">
-                        <speaker>JÄSHKA:</speaker>
-                        <stage>(ruttu vahele)</stage>
+                        <speaker>JÄSHKA</speaker>
+                        <stage>(ruttu vahele):</stage>
                         <p>Ei, ei, ei, et Jumal hoidku, seda teen ma — see on minu talitus!... Uhti, noo! nüüd tõtta Jäshka, oma Liisi otsima! <stage>(Lähäb hüpates uksest välja.)</stage></p>
                     </sp>
                 </div>
@@ -3364,13 +3364,13 @@
                         <p>Nüüd sõbrad, kuni pruutpaar tuleb, ma palun ist'ge lauale! <stage>(Kõik istuvad lauda.)</stage></p>
                     </sp>
                     <sp who="#jaeshka">
-                        <speaker>JÄSHKA:</speaker>
-                        <stage>(Veab Liiskeni uksest sisse)</stage>
+                        <speaker>JÄSHKA</speaker>
+                        <stage>(Veab Liiskeni uksest sisse):</stage>
                         <p>Mo kallis Liisken, ära karda, ei istu siin jo Maanid, ei või sind keegi hammustada, kõik sõbrad ehk häätegiad.</p>
                     </sp>
                     <sp who="#klopmann #weederling #riihker #napper #peep #piitsh #leitner #lukmann #krishka #doorken #kalmer #valvnik #pulkus #hammer #nikkard">
-                        <speaker>KÕIK:</speaker>
-                        <stage>(valjuste ja südamlikult)</stage>
+                        <speaker>KÕIK</speaker>
+                        <stage>(valjuste ja südamlikult):</stage>
                         <p>Et tere, Liisken, tule, tule ja ole rõõmus meitega! <stage>(Jäshka viib teda oma paika, istuvad ka laua ääre.)</stage></p>
                     </sp>
                     <sp who="#kalmer">
@@ -3409,8 +3409,8 @@
                         <l>uue kosjakassasse —</l>
                     </sp>
                     <sp who="#klopmann #weederling #riihker #napper #peep #piitsh #leitner #lukmann #krishka #doorken #jaeshka #liisken #valvnik #pulkus #hammer #nikkard">
-                        <speaker>KÕIK:</speaker>
-                        <stage>(suure vaimustusega)</stage>
+                        <speaker>KÕIK</speaker>
+                        <stage>(suure vaimustusega):</stage>
                         <p>Hurraa! Bravo! Bravo! <stage>(laulavad):</stage> Ta elago! Ta elago! Ta elago! Ta elago!</p>
                     </sp>
                     <sp who="#kalmer">
@@ -3426,13 +3426,13 @@
                         <p>Kui 1000 pooleks lõikame, siis jääb 500 kummalegi poole. Need saagu Jäshka, saagu Liisken, siis on täis 1000 jälle kous, ja nemad võivad pulmad teha. —</p>
                     </sp>
                     <sp who="#jaeshka">
-                        <speaker>JÄSHKA:</speaker>
-                        <stage>(kargab otse püsti)</stage>
+                        <speaker>JÄSHKA</speaker>
+                        <stage>(kargab otse püsti):</stage>
                         <p>Hurjah; suur tänu, tuhat tänu! Oh et mo pää ei hulluks lää!</p>
                     </sp>
                     <sp who="#liisken">
-                        <speaker>LIISKEN:</speaker>
-                        <stage>(langeb põlvili)</stage>
+                        <speaker>LIISKEN</speaker>
+                        <stage>(langeb põlvili):</stage>
                         <p>Uih Jumal! Vist Pärmi Jaagu unenägu!<pb n="95"/> Muidu oleks meite kohta nii suur õn, jo liig suur õn!</p>
                     </sp>
                     <sp who="#klopmann #weederling #riihker #napper #peep #piitsh #leitner #lukmann #krishka #doorken #valvnik #pulkus #hammer #nikkard">
@@ -3440,8 +3440,8 @@
                         <p>Kui Kalmer ütleb, siis on tõsi, sest tema teeb, mis tõotab. Bravo! Bravo!</p>
                     </sp>
                     <sp who="#jaeshka">
-                        <speaker>JÄSHKA:</speaker>
-                        <stage>(pruuti ülestõstes)</stage>
+                        <speaker>JÄSHKA</speaker>
+                        <stage>(pruuti ülestõstes):</stage>
                         <p>Mo kallis Liisken, tõuse üles, ja ole rõõmus minuga! Nüüd 'pole aega ministada, ei kohkuda, ei langeda; Kõik seda jätkem edespidi, kui abielus aega on. Nüüd on meil vara taevast langend ja pulmad seisvad ukse ees. Oh magus on, mis otsata! <stage>(Hakkab pruudi ümber.)</stage></p>
                     </sp>
                     <sp who="#kalmer">
@@ -3453,8 +3453,8 @@
                         <p>Aus herra Kalmer! Meil 'pole kumbgil issa, ei õde, venda ilma pääl, kes meie rõõmust osavõttaks ja ühes tänaks meitega: et jääge meie õnne isaks ja pange käsi meie pääl'! <stage>(Kummardavad.)</stage></p>
                     </sp>
                     <sp who="#kalmer">
-                        <speaker>KALMER:</speaker>
-                        <stage>(paneb kässi pääle)</stage>
+                        <speaker>KALMER</speaker>
+                        <stage>(paneb kässi pääle):</stage>
                         <p>Ma soovin südamest, et Jumal Teid võttaks õnnesta', teil õiget meelt ja mõistust anda ja teie truust kinnita!</p>
                     </sp>
                     <sp who="#klopmann #weederling #riihker #napper #peep #piitsh #leitner #lukmann #krishka #doorken #valvnik #pulkus #hammer #nikkard #kalmer">
