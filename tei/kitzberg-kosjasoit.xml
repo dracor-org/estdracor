@@ -119,6 +119,7 @@
             <listChange>
                 <change when="2026-09-02">Add genre and update formatting</change>
                 <change when="2026-11-22">Correct punctuation location</change>
+                <change when="2026-11-23">Fix mistakes in cleaned OCR</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -307,7 +308,7 @@
                 </sp>
                 <sp who="#kaegu">
                     <speaker>Kägu.</speaker>
-                    <p>Noh siis — külalt! Tööle, mu härrad: Siin, juhtkiri on juba peaaegu walmis. <stage>(Paatosega).</stage> Tartu ja Tallinna meestele — kaikaga kindrekontide wahele! Makabeus maha!</p>
+                    <p>Noh siis — küllalt! Tööle, mu härrad: Siin, juhtkiri on juba peaaegu walmis. <stage>(Paatosega).</stage> Tartu ja Tallinna meestele — kaikaga kindrekontide wahele! Makabeus maha!</p>
                 </sp>
                 <sp who="#oeoepik #looke">
                     <speaker>Ööpik ja Lõoke</speaker>
@@ -457,7 +458,7 @@
                 </spGrp>
                 <sp who="#poiss">
                     <speaker>Poiss</speaker>
-                    <stage>(trükikojast, tahmane ja määrdinud, trepist alla jookstes prantsatab ühes uksega tuppa).</stage>
+                    <stage>(trükikojast, tahmane ja määrdinud, trepist alla jookstes prantsatab ühes uksega tuppa). Temal on õhukesed riided ja kange nohu, tõmbab alati pahema ja parema käe esimese sõrmega nina alt.)</stage>
                     <p>Trükikoda palub juhtkirja!</p>
                 </sp>
                 <sp who="#kaegu">
@@ -728,9 +729,8 @@
                     <speaker>Talumats.</speaker>
                     <p>Wõi Pitrograadi? Jajah, sakste asja käiwe laialt! Küll ma's ütle. Jumalege s' kah! <stage>(Ära).</stage></p>
                 </sp>
-                <sp who="#kaegu">
-                    <speaker>Kägu.</speaker>
-                    <p>Ööpik ja Lõoke:</p>
+                <sp who="#kaegu #oeoepik #looke">
+                    <speaker>Kägu, Ööpik ja Lõoke:</speaker>
                     <p>Mhmh, jah, jumalaga kah!</p>
                 </sp>
                 <sp who="#looke">
@@ -2551,11 +2551,11 @@
                         <speaker>Ööpik.</speaker>
                         <l>Ma wõtaksin naese, kuid lugu on paha,</l>
                         <l>Et tüdrukud keegi mull' tulla ei taha,</l>
+                        <pb n="42"/>
                         <l>Küll kümme kord kosjateed tallanud ma,</l>
                         <l>aga ikka ja ikka sest asja ei saa!</l>
                         <p>Waadake, me oskame luuletada, salmikuid teha, jutukesi kirjutada ja nõnda edasi, aga ilm ütleb: See töö ei toida! Siis muud kui:</p>
                     </sp>
-                    <pb n="42"/>
                     <sp who="#oeoepik #looke #kaegu">
                         <speaker>Ööpik, Lõoke, Kägu.</speaker>
                         <l>Tee luuda, too luuda,</l>
@@ -2917,7 +2917,7 @@
                 <sp who="#liisa">
                     <speaker>Liisa</speaker>
                     <stage>(tõstab kähku toidukorvi keset tuba).</stage>
-                    <p>Wuih, härrad, mis te kisate! <stage>(Wõtab korvist keedetud kana, kisub kintsu küljest ära ja annab Ööpikule).</stage> Sähke!</p>
+                    <p>Wuih, härrad, mis te kisate! <stage>(Wõtab korwist keedetud kana, kisub kintsu küljest ära ja annab Ööpikule).</stage> Sähke!</p>
                 </sp>
                 <pb n="48"/>
                 <sp who="#oeoepik">
