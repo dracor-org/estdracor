@@ -1,7 +1,9 @@
 # EstDraCor
 
-Estonian Drama Corpus
+The Estonian Drama Corpus (EstDraCor) is a collection of Estonian drama encoded in the TEI format, following the DraCor scheme which makes it possible to extract detailed information about plays and characters.
 
-Collection of Estonian Dramas for the DraCor interface - under construction by the DigiTS Research Group (https://digits.ut.ee/).
+Currently, the corpus features 44 plays from 8 Estonian playwrights. These plays have been published between 1870 and 1943, covering the beginning of Estonian drama during the Estonian Age of Awakening and the development of the genre in the first half of the 20th century.
 
-Maintainer: Ove Üllar Viesemann and Botond Szemes.
+Maintainers: Ove Üllar Viesemann and Botond Szemes from the DigiTS Research Group (https://digits.ut.ee/).
+
+This project has received funding from the European Union’s Horizon Europe research and innovation programme under grant agreement No 101186601.
