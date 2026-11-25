@@ -107,6 +107,7 @@
             <listChange>
                 <change when="2026-09-21">Convert txt to TEI</change>
                 <change when="2026-11-22">Correct punctuation location</change>
+                <change when="2026-11-25">Fix mistakes in cleaned OCR</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -177,7 +178,7 @@
                         <roleName>Wahimees,</roleName>
                     </castItem>
                     <castItem>
-                        <roleName>Kaks külameest.</roleName>
+                        <roleName>Kaks külameest,</roleName>
                     </castItem>
                     <castItem>
                         <roleName>Tüdrukud.</roleName>
@@ -366,7 +367,7 @@
                     </sp>
                     <sp who="#maali">
                         <speaker>Maali:</speaker>
-                        <p>Aga kui ta juba was't tulnud ongi?</p>
+                        <p>Aga kui ta juba wa'st tulnud ongi?</p>
                     </sp>
                     <pb n="5"/>
                     <sp who="#eewa">
@@ -432,7 +433,7 @@
                     </sp>
                     <sp who="#maali">
                         <speaker>Maali:</speaker>
-                        <p>Wait ole! <stage>(Läheb läwest ja lööb ukse prauhti kinni)</stage></p>
+                        <p>Wait ole! <stage>(Läheb läwest ja lööb ukse prauhti kinni.)</stage></p>
                     </sp>
                     <sp who="#eewa">
                         <speaker>Eewa:</speaker>
@@ -454,7 +455,7 @@
                 </div>
                 <pb n="6"/>
                 <div type="scene">
-                    <head>Kolmas etendus</head>
+                    <head>Kolmas etendus.</head>
                     <stage>Eewa ja Mart.</stage>
                     <sp who="#mart">
                         <speaker>Mart</speaker>
@@ -479,8 +480,8 @@
                         <p>Mis wäsinud? Mis eest ma temale palka maksan, kas wedelemise eest? Sa oled niisamasugune! Wõi sa julged ka lõugu laotada! Ma ütlen sulle: te peate wärisema mu ees, teie kõik! — Wälja kasi kambrist oma tannidega ja tonnidega, lõkats! Kül ma teile näitan! Leiwajürajad!</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa.</speaker>
-                        <stage>(wõtab wagusi nõuud kokku ja tahab minna)</stage>
+                        <speaker>Eewa</speaker>
+                        <stage>(wõtab wagusi nõuud kokku ja tahab minna).</stage>
                     </sp>
                     <sp who="#mart">
                         <speaker>Mart:</speaker>
@@ -962,7 +963,7 @@
                     <sp who="#kadri">
                         <speaker>Kadri</speaker>
                         <stage>(ruttu wahele):</stage>
-                        <p>Illi-kuku peremeheke, waadake — poissi rahapalk.</p>
+                        <p>Illi-kuku peremeheke, waadake — poissi rahapalk..</p>
                     </sp>
                     <sp who="#mart">
                         <speaker>Mart:</speaker>
@@ -1190,7 +1191,7 @@
                     <sp who="#mart">
                         <speaker>Mart</speaker>
                         <stage>(ennast häkiste ümber pöördes, wihaselt:)</stage>
-                        <p>Mis sa siis õieti tahad, anus sugulane ja — Peeter Pärn, kui sa Uba-Kaarli poeg olla ei taha?</p>
+                        <p>Mis sa siis õieti tahad, auus sugulane ja — Peeter Pärn, kui sa Uba-Kaarli poeg olla ei taha?</p>
                     </sp>
                     <sp who="#peeter">
                         <speaker>Peeter:</speaker>
@@ -1314,7 +1315,7 @@
                     </sp>
                     <sp who="#peeter">
                         <speaker>Peeter:</speaker>
-                        <p>Minu suu jääb lukku, kui mitte — wahest kohus tunnistust ei küsi, kus ma salgada ei tohiks, aga ma palun: Pange Hendriku priikslaskmisele ja joomisele piiri, ta on kõigeparema tee pääl — hukkaminemas! äaäd otsa sel wiisil ei tule. — Laudi rahwale wõite kahju isekeskis ära tasuda. Ehk tuleb sellest halwast ka midagi hääd wälja ja hakkab ka Laudi poeg järelmõtlema ja ennast kõrtsi eest hoidma.</p>
+                        <p>Minu suu jääb lukku, kui mitte — wahest kohus tunnistust ei küsi, kus ma salgada ei tohiks, aga ma palun: Pange Hendriku priikslaskmisele ja joomisele piiri, ta on kõigeparema tee pääl — hukkaminemas! Hääd otsa sel wiisil ei tule. — Laudi rahwale wõite kahju isekeskis ära tasuda. Ehk tuleb sellest halwast ka midagi hääd wälja ja hakkab ka Laudi poeg järelmõtlema ja ennast kõrtsi eest hoidma.</p>
                     </sp>
                     <sp who="#mart">
                         <speaker>Mart</speaker>
@@ -1404,14 +1405,14 @@
                     <stage>Hendrik tormab Peetri poole, see tõstab temale tooli tee pääle ette ja taganab tagasi. (See peab kõik rutuste ja loomulikult sündima.) Hendrik komistab tooli üle maha.</stage>
                     <sp who="#hendrik">
                         <speaker>Hendrik:</speaker>
-                        <p>Appi, appi, ärarappis, appi!</p>
+                        <p>Appi, appi, äratappis, appi!</p>
                     </sp>
                     <sp who="#mart">
                         <speaker>Mart:</speaker>
                         <p>Appi, appi jah, äratappis! Hei, poisid, hei! Äratappis. Kas T'e ei kuule. Siia! Tooge ohjad, silmapilk, äratappis! Seume kinni, hei...</p>
                     </sp>
                     <sp who="#eewa">
-                        <speaker>Eewa</speaker>
+                        <speaker>Eewa:</speaker>
                         <p>Oh Jumal, Jumal!</p>
                     </sp>
                 </div>
@@ -1455,7 +1456,7 @@
                     </sp>
                     <sp who="#poisid">
                         <speaker>Poisid:</speaker>
-                        <p>Oodake, oodake peremees, silmapilk. Meie käest ta ei pääse, m'e toome kohe ohjad. <stage>(Kargavad läwest wälja.)</stage></p>
+                        <p>Oodake, oodake peremees, silmapilk. Meie käest ta ei pääse, m'e toome kohe ohjad. <stage>(Kargawad läwest wälja.)</stage></p>
                     </sp>
                 </div>
                 <div type="scene">
@@ -1510,9 +1511,10 @@
                         <speaker>Maali:</speaker>
                         <p>Isa, näe nüüd, kas ma ei ütelnud: Uba-Kaarli poja armuke.</p>
                     </sp>
-                    <sp who="#hendrik #hans">
-                        <speaker>Hendrik, Hans</speaker>
-                        <stage>(kes ka sissetulnud)</stage>
+                    <sp who="#hendrik #hans #maali">
+                        <speaker>Hendrik, Hans </speaker>
+                        <stage>(kes ka sissetulnud) </stage>
+                        <speaker>Maali:</speaker>
                         <p>Uba-Kaarli poja armuke, Uba-Kaarli poja armuke!</p>
                     </sp>
                     <stage>(Eesriie langeb rutuste.)</stage>
@@ -1524,7 +1526,7 @@
                 <stage>Tuba Karl Pärna juures, lihtne aga puhas.</stage>
                 <div type="scene">
                     <head>Esimene etendus.</head>
-                    <stage>Kaarel, Reet, Peeter istuvad.</stage>
+                    <stage>Kaarel, Reet, Peeter istuwad.</stage>
                     <sp who="#reet">
                         <speaker>Reet</speaker>
                         <stage>(loeb lauluraamatust ):</stage>
@@ -1784,7 +1786,7 @@
                     <sp who="#mart">
                         <speaker>Mart</speaker>
                         <stage>(wihaselt):</stage>
-                        <p>Närud! Närud olete t'e küik. Ma ütlen: wärisema peate T'e mu ees, wärisema kõik. Mõistate nüüd? Kui pois oma suu lahti teeb, hoidku ta ennast. Seda ma ütlen, hoidku ta! <stage>(Urisedes)</stage> Kuradi näljased! Uasööjad mul! <stage>(Ära.)</stage></p>
+                        <p>Närud! Närud olete t'e kõik. Ma ütlen: wärisema peate T'e mu ees, wärisema kõik. Mõistate nüüd? Kui pois oma suu lahti teeb, hoidku ta ennast. Seda ma ütlen, hoidku ta! <stage>(Urisedes)</stage> Kuradi näljased! Uasööjad mul! <stage>(Ära.)</stage></p>
                     </sp>
                     <sp who="#kaarel">
                         <speaker>Kaarel:</speaker>
@@ -1920,7 +1922,7 @@
                     <stage>Eewa.</stage>
                     <sp who="#eewa">
                         <speaker>Eewa:</speaker>
-                        <p>Maja tühi kõik, tea, kuhu nad nüüd läinud on. Ma jooksin silmapilguks üle õue, nägin isa siia poole tulewat ja wähe aja pärast rusikaga ähwardates jälle ära minewat. Tea, mis ta jälle ütles wõi tegi. Oh, mu süda walutab nii sees, kõigel ööl ei tulnud und silma. Isa on nii hirmus üle ohtune. Häda on seda ütelda aga mis ma sinna wõin parata. Ta oleks omas wihatujus tõesti Peetri eila kinnisiduda lasknud. Õnn weel oli, et mulle see meel mõistus anti, wahele minna. — Kas meile nüüd seda pidi waja olema. Ja Hintsi pärast! Kas see Hints ka weel mõne asi on, ta on ju walmis kelm ja joodik! Pane neid nüüd Peetriga kõrwu: teisel pale pundunud, silmad sikku pääs, jumi kolkunud, riided lohakile seljas, — häbi selle pääle mõtelda, et mu oma lihane wend peab olema; — teine selle wastu — terwe kui kala, traks ja tubli, silmad aga särawad pääs! — Ja nüüd sõimawad mind kõik kodus Uba-Kaarli poja armukeseks, et enam hinge rahu sugugi! Nagu mina juba korra Peetri wõi kellegi muu pääle oleks mõtelnud! Aga — mis õige on õige: ta on küll üks mehe-kuld see Peeter, selge mehe-kuld.</p>
+                        <p>Maja tühi kõik, tea, kuhu nad nüüd läinud on. Ma jooksin silmapilguks üle õue, nägin isa siia poole tulewat ja wähe aja pärast rusikaga ähwardates jälle ära minewat. Tea, mis ta jälle ütles wõi tegi. Oh, mu süda walutab nii sees, kõigel ööl ei tulnud und silma. Isa on nii hirmus ülekohtune. Häda on seda ütelda aga mis ma sinna wõin parata. Ta oleks omas wihatujus tõesti Peetri eila kinnisiduda lasknud. Õnn weel oli, et mulle see meel mõistus anti, wahele minna. — Kas meile nüüd seda pidi waja olema. Ja Hintsi pärast! Kas see Hints ka weel mõne asi on, ta on ju walmis kelm ja joodik! Pane neid nüüd Peetriga kõrwu: teisel pale pundunud, silmad sikku pääs, jumi kolkunud, riided lohakile seljas, — häbi selle pääle mõtelda, et mu oma lihane wend peab olema; — teine selle wastu — terwe kui kala, traks ja tubli, silmad aga särawad pääs! — Ja nüüd sõimawad mind kõik kodus Uba-Kaarli poja armukeseks, et enam hinge rahu sugugi! Nagu mina juba korra Peetri wõi kellegi muu pääle oleks mõtelnud! Aga — mis õige on õige: ta on küll üks mehe-kuld see Peeter, selge mehe-kuld.</p>
                         <p>Ma jooksen üle õue siia waatama ja kuulama mis isa wahest jälle halba ütles wõi oli, — nüid ei ole siin inimese hingegi! Oot, oot, ma waatan wäljas, kus tädi on. <stage>(Tahab minna, põrkab läwe pääl Peetriga kokku.)</stage></p>
                     </sp>
                 </div>
@@ -2041,7 +2043,7 @@
                     <sp who="#peeter">
                         <speaker>Peeter</speaker>
                         <stage>(wõtab neiu käed pihku):</stage>
-                        <p>Eewakene, armas Eewakene, mis sa nüüd<pb n="24"/> nutad. Waata — waata nüüd, kui mina mitte Uba-Kaarli poeg ei oleks, waid keegi muu teine — <stage>(Wõtab peegli seina pealt ja hoiab Eewale risti silmade eite.)</stage> "See tütarlapse tõeste, ma kosiks endale." Mis sa arwad, Eewa?</p>
+                        <p>Eewakene, armas Eewakene, mis sa nüüd<pb n="24"/> nutad. Waata — waata nüüd, kui mina mitte Uba-Kaarli poeg ei oleks, waid keegi muu teine — <stage>(Wõtab peegli seina pealt ja hoiab Eewale risti silmade ette.)</stage> "See tütarlapse tõeste, ma kosiks endale." Mis sa arwad, Eewa?</p>
                     </sp>
                     <sp who="#eewa">
                         <speaker>Eewa</speaker>
@@ -2181,7 +2183,7 @@
                     <sp who="#reet">
                         <speaker>Reet</speaker>
                         <stage>(tagasitulles):</stage>
-                        <p>Peeter! Peeter! Kus sa oled? <stage>(Uks jäeb lahti)</stage></p>
+                        <p>Peeter! Peeter! Kus sa oled? <stage>(Uks jäeb lahti.)</stage></p>
                     </sp>
                     <sp who="#peeter">
                         <speaker>Peeter</speaker>
@@ -2367,7 +2369,7 @@
                     <sp who="#kaarel">
                         <speaker>Kaarel</speaker>
                         <stage>(pühalikult):</stage>
-                        <p>Waata, mu poeg, mis sina täna teada saad, see oli sinu kahekümmnewiiendama sündimise päewa hommiku jaoks sulle ilmutada arwatud. Siis pidi sinule weike kingitus meie poolt osaks saama. Sa wõid aga ka juba täna selle osaliseks saada. Waata Peeter, <stage>(Reet walab põlle seest hulga kõwa rublasi laua pääle* (Wõiwad ka lendawa hõbedaga ülehõbetatud wask wiiekopiku tükid olla. Lendawat hõbedat saab apteegist mõne kopiku eest.)</stage></p>
+                        <p>Waata, mu poeg, mis sina täna teada saad, see oli sinu kahekümmnewiiendama sündimise päewa hommiku jaoks sulle ilmutada arwatud. Siis pidi sinule weike kingitus meie poolt osaks saama. Sa wõid aga ka juba täna selle osaliseks saada. Waata Peeter, <stage>(Reet walab põlle seest hulga kõwa rublasi laua pääle* (Wõiwad ka lendawa hõbedaga ülehõbetatud wask wiiekopiku tükid olla. Lendawat hõbedat saab apteegist mõne kopiku eest.))</stage>see on sulle sinu ema kingitus. Iga üksik rahatükk nendest on üksikute armastuse soowidega sinu õnne kohta meie pikal abielu ajal sinu jaoks üksikult tallele pandud. Nende hulgas on ka kolm kõwa hõberubla, mis sinu waderid sinu ristimise wee sisse paniwad, neile on märgid peale lõigatud. — See weike warandus olgu sinule puutumata põhjuskapital, mille külge sina ainult kõigesuuremas hädas oma kätt panna tohid. Hoia seda auu sees, kui oma auusa ema mälestust, kui teda enam ei ole.</p>
                     </sp>
                     <sp who="#peeter">
                         <speaker>Peeter:</speaker>
@@ -2404,7 +2406,7 @@
                     </sp>
                     <sp who="#kaarel">
                         <speaker>Kaarel:</speaker>
-                        <p>Ühe korra astus ta ootamata kiriku kõrtsi sisse ja leidis mind klaasi wiina juurest istumast. Ta ei lausunud midagi. Aga teisel päewal ütles ta mulle: "Miks sa jood wiina, Kaarel? Need kopikad, mis sa joomise pääle ära raiskad, nendest saawad ruttu rublad, ja rublad — kui sul neid on, kergitawad sinu wanade päewade wiletsust ja neid wõid sa oma lastele pärida jätta, kes — kui sa neid töö ja Jumala kartuse sees üleskaswatad — sind weel hauapõhja õnnistama saawad. Wiin aga rikub ihu ja hinge." — Sest päewast saadik ma enam ei wõtnud wiina tilka suhu. — Teinekord leidis ta mind piibuga. "Miks sa jood piipu, Kaarel," ütles ta. "Tubaka wing wiib ainult raha tuulde, kasu ei ole sest midagi. Waata, mina ei joo piipu." — Ma jäütsin ka piibu maha. — Et ma aga kange piibu mees olin, siis kandsin ma soolaga kupatud ube taskus ja sõin neid, kui mulle piibu himu pääle tuli. Siis hakkasiwad teised mind Uba-Kaarliks hüüdma ja see nimi jäi mulle tänapäewani.</p>
+                        <p>Ühe korra astus ta ootamata kiriku kõrtsi sisse ja leidis mind klaasi wiina juurest istumast. Ta ei lausunud midagi. Aga teisel päewal ütles ta mulle: "Miks sa jood wiina, Kaarel? Need kopikad, mis sa joomise pääle ära raiskad, nendest saawad ruttu rublad, ja rublad — kui sul neid on, kergitawad sinu wanade päewade wiletsust ja neid wõid sa oma lastele pärida jätta, kes — kui sa neid töö ja Jumala kartuse sees üleskaswatad — sind weel hauapõhja õnnistama saawad. Wiin aga rikub ihu ja hinge." — Sest päewast saadik ma enam ei wõtnud wiina tilka suhu. — Teinekord leidis ta mind piibuga. "Miks sa jood piipu, Kaarel," ütles ta. "Tubaka wing wiib ainult raha tuulde, kasu ei ole sest midagi. Waata, mina ei joo piipu." — Ma jätsin ka piibu maha. — Et ma aga kange piibu mees olin, siis kandsin ma soolaga kupatud ube taskus ja sõin neid, kui mulle piibu himu pääle tuli. Siis hakkasiwad teised mind Uba-Kaarliks hüüdma ja see nimi jäi mulle tänapäewani.</p>
                     </sp>
                     <sp who="#peeter">
                         <speaker>Peeter:</speaker>
@@ -2660,7 +2662,7 @@
                     <stage>Mart, rahakott alles näpude wahel.</stage>
                     <sp who="#mart">
                         <speaker>Mart:</speaker>
-                        <p>Kül seda raha ka igale poole läheb ja pääle ei tule kuskiltki. Pagana waheaeg ka, mittegi kohtu juures ei ole enam midagi teenida. Poole naela wiina saad kül, aga et sulle ka keegi weel peo punaseks teeks, wõta näpust! Enne oli ikka mis ta oli, aga sest saadik, kui see awalik kohus tuli —, ei maksakski enam sugugi seda ametit pidada. Mis säält muud saab, kui kahju. — Loen õige raha korra üle.... <stage>(Istub laua juurde ja loeb.)</stage> Üks, kaks, kolm, neli, wiis, ja kuus kümnelist, see on kuuskümmend, kaks, kolmm neli wiielist, on kaheksakümmend — mis see on? ja weel kõigest kolm, neli rubla, see on ju kõigest kaheksakümmend neli rubla! Kus siis muist raha on? Kas ma olen mujale pannud wõi? <stage>(otsib pungast)</stage> siin ei ole, siin ka ei ole. Mis lugu see on? Kas ma lugemisega eksisin? <stage>(Loeb uuesti.)</stage> Ei ole, ikka kaheksakümmend neli. No pagan, kuhu ta siis jäi, mul pidi ju ainult üks rubla wähem olema kui sada rubla! Üleeila ma ta alles wahetasin. <stage>(Hüüab)</stage> Eewa, Eewa! Maali!</p>
+                        <p>Kül seda raha ka igale poole läheb ja pääle ei tule kuskiltki. Pagana waheaeg ka, mittegi kohtu juures ei ole enam midagi teenida. Poole naela wiina saad kül, aga et sulle ka keegi weel peo punaseks teeks, wõta näpust! Enne oli ikka mis ta oli, aga sest saadik, kui see awalik kohus tuli —, ei maksakski enam sugugi seda ametit pidada. Mis säält muud saab, kui kahju. — Loen õige raha korra üle.... <stage>(Istub laua juurde ja loeb.)</stage> Üks, kaks, kolm, neli, wiis, ja kuus kümnelist, see on kuuskümmend, kaks, kolm neli wiielist, on kaheksakümmend — mis see on? ja weel kõigest kolm, neli rubla, see on ju kõigest kaheksakümmend neli rubla! Kus siis muist raha on? Kas ma olen mujale pannud wõi? <stage>(otsib pungast)</stage> siin ei ole, siin ka ei ole. Mis lugu see on? Kas ma lugemisega eksisin? <stage>(Loeb uuesti.)</stage> Ei ole, ikka kaheksakümmend neli. No pagan, kuhu ta siis jäi, mul pidi ju ainult üks rubla wähem olema kui sada rubla! Üleeila ma ta alles wahetasin. <stage>(Hüüab)</stage> Eewa, Eewa! Maali!</p>
                     </sp>
                 </div>
                 <pb n="33"/>
@@ -2921,7 +2923,7 @@
                     </sp>
                     <sp who="#mart">
                         <speaker>Mart:</speaker>
-                        <p>Sa ei wasta? <stage>(Kõigutab kantsikut.)</stage> Sa oled mul kapist kotist ka raha wälja warastanud.</p>
+                        <p>Sa ei wasta? <stage>(Kõigutab kantsikut.)</stage> Sa oled mul kapist kotist ka raha wälja warastanud. <stage>(Tahab lüüa</stage></p>
                     </sp>
                     <sp who="#hans">
                         <speaker>Hans</speaker>
@@ -3071,7 +3073,7 @@
                     <sp who="#mart">
                         <speaker>Mart</speaker>
                         <stage>(ähkides:</stage>
-                        <p>Wälja wõtawad hinge seest, wälja wõtawad. Oeh, oeh..., <stage>(ka ära.)</stage></p>
+                        <p>Wälja wõtawad hinge seest, wälja wõtawad. Oeh, oeh,..., <stage>(ka ära.)</stage></p>
                     </sp>
                 </div>
                 <pb n="37"/>
@@ -3191,7 +3193,7 @@
                     </sp>
                     <sp who="#mart">
                         <speaker>Mart:</speaker>
-                        <p>See sõrmus wõih? <stage>(Teeb nagu leiaks ta sõrmuse maast.* (Sõrmuseid wõib kaks olla.)</stage></p>
+                        <p>See sõrmus wõih? <stage>(Teeb nagu leiaks ta sõrmuse maast.* (Sõrmuseid wõib kaks olla.))</stage></p>
                     </sp>
                     <sp who="#maali">
                         <speaker>Maali:</speaker>
@@ -3508,7 +3510,7 @@
                     <sp who="#kadri">
                         <speaker>Kadri:</speaker>
                         <stage>(südametäiega nuttes):</stage>
-                        <p>Äratappis lapse nüüd! Ai-ai-ai! Setusmaa pojakest ja silmatera mul oligi, äratappis nüüd, ai-ai-ai!</p>
+                        <p>Äratappis lapse nüüd! Ai-ai-ai! Setusama pojakest ja silmatera mul oligi, äratappis nüüd, ai-ai-ai!</p>
                     </sp>
                     <sp who="#mart">
                         <speaker>Mart:</speaker>
@@ -3610,7 +3612,7 @@
                     </sp>
                 </div>
                 <div type="scene">
-                    <head>Seitsmeteistkümmnes etendus.</head>
+                    <head>Seitsmesteistkümmnes etendus.</head>
                     <stage>Endised ilma Kadrita, Peeter.</stage>
                     <sp who="#peeter">
                         <speaker>Peeter:</speaker>
@@ -3647,7 +3649,7 @@
                     </sp>
                     <sp who="#mart">
                         <speaker>Mart:</speaker>
-                        <p>Suu pea, lõkts! Wana Kadri tuleb kohe malgaga.</p>
+                        <p>Suu pea, lõkats! Wana Kadri tuleb kohe malgaga.</p>
                     </sp>
                     <sp who="#peeter">
                         <speaker>Peeter:</speaker>
@@ -3665,7 +3667,7 @@
                     </sp>
                     <sp who="#mart">
                         <speaker>Mart:</speaker>
-                        <p>Näe närukael, selle puuga siin, oled sa poisikest peksnud, siis ei ole ime, kui poisil luud kondid katki on. Nüüd ka mu käest enam ei pääse!</p>
+                        <p>Näe narukael, selle puuga siin, oled sa poisikest peksnud, siis ei ole ime, kui poisil luud kondid katki on. Nüüd sa mu käest enam ei pääse!</p>
                     </sp>
                     <sp who="#kadri">
                         <speaker>Kadri:</speaker>
@@ -3794,13 +3796,13 @@
                     <stage>Eewa.</stage>
                     <sp who="#eewa">
                         <speaker>Eewa:</speaker>
-                        <p>Jah, mis armuline Jumal kül, missugused muudatused, missugused muudatused! Küll on õige, mis wana lauluisa Kreutzwald omas Lembitus, mille Peeter mulle kinkis — ütleb: "Mis homne päew ja järgsed saawad kandma, kes selle pääle wastust tuleb andma?" Kes nüüd poole aasta eest seda kõik isale ette oleks ütelnud, kas ta seda unes oleks uskunud! Oh ei! Aga mina aimasin seda kül kõik ära ja mõistsin, et see kõik, mis nüüd meie pääle tulnud on, ei wõinud tulemata jääda. Warem ehk hiljem, ükskord pidi kõik kokkusadama ja kaela langema. Aga kes minu kõnet kuulis? Kui ma isale ütlesin ja hoiatasin — "Lõkats, pea suu," oli isa wastus. "Kas tead, mis mees ma olen? Mis mina teen, on tehtud." — Kus on nüüd kõik isa uhkus ja suurustamine? Kus on see weel kõik! Seda ei ole enam kuskil! Kõik sõtkuwad teda jalgadega ja näitawad näpuga ta pääle. Ja — lõpeks, mine wangi ka weel, et wõõra oma, waestelaste ja leskenaeste wara ära oled raisanud ja.... Oh, mu süda tahab lõhkeda sees, kui selle pääle mõtlen! Ja seda kõik tegi kõrts, see kõik on wiina wili. Kui isa ei oleks jooma hakanud, ei ial ei oleks neid õnnetusi meie pääle tulnud, ei ial. Ei oleks waja wõlga teha ega wõõra wara külge näppu pista olnud. Nüüd jõi isa ees ja pojad taga järel, talust ja talutööst ei hoolinud keegi enam, kõik läks tagurpidi ja pilla-palla. Isal oli wõõras raha alati käes, ta ei teadnud isegi enam, mis oma, mis wõõras oli — näe sääl tuli ootamata kassarewideerimine ja kaheksasada rubla waestelaste raha leiti puudus. Ametist lahti ja kohtu alla! Kas seda kõik tarwis oli? Nüüd tuli üks wõlanõudja siit ja teine säält, kõik need, kelledele isa omas uhkuses ja ülbuses enne ülekohut teinud, need kõik tuliwad nüüd teda parastama, temale kätte tasuma. See on wiina wanne! Ja Hints — seda ei tea keegi, kus see weel ümber hulgub ja mis ta teeb ja mis selle ots saab olema. Pool aastat, sest ajast kui ta läks, ei ole ta enam isamajasse oma jalga pistnud. Sõita Malleriga ümber, kes niisamasugune kaabak on ja hulkumise pääl elab, sest saati kui ka tema rewideerimise kannul ametist lahti sai. Oh Jumal, Jumal kül! Ja nüüd Hans ka weel uuri waras! Uuri waras!</p>
+                        <p>Jah, mis armuline Jumal kül, missugused muudatused, missugused muudatused! Küll on õige, mis wana lauluisa Kreutzwald omas Lembitus, mille Peeter mulle kinkis — ütleb: "Mis homne päew ja järgsed saawad kandma, kes selle pääle wastust tuleb andma?" Kes nüüd poole aasta eest seda kõik isale ette oleks ütelnud, kas ta seda unes oleks uskunud! Oh ei! Aga mina aimasin seda kül kõik ära ja mõistsin, et see kõik, mis nüüd meie pääle tuluud on, ei wõinud tulemata jääda. Warem ehk hiljem, ükskord pidi kõik kokkusadama ja kaela langema. Aga kes minu kõnet kuulis? Kui ma isale ütlesin ja hoiatasin — "Lõkats, pea suu," oli isa wastus. "Kas tead, mis mees ma olen? Mis mina teen, on tehtud." — Kus on nüüd kõik isa uhkus ja suurustamine? Kus on see weel kõik! Seda ei ole enam kuskil! Kõik sõtkuwad teda jalgadega ja näitawad näpuga ta pääle. Ja — lõpeks, mine wangi ka weel, et wõõra oma, waestelaste ja leskenaeste wara ära oled raisanud ja.... Oh, mu süda tahab lõhkeda sees, kui selle pääle mõtlen! Ja seda kõik tegi kõrts, see kõik on wiina wili. Kui isa ei oleks jooma hakanud, ei ial ei oleks neid õnnetusi meie pääle tulnud, ei ial. Ei oleks waja wõlga teha ega wõõra wara külge näppu pista olnud. Nüüd jõi isa ees ja pojad taga järel, talust ja talutööst ei hoolinud keegi enam, kõik läks tagurpidi ja pilla-palla. Isal oli wõõras raha alati käes, ta ei teadnud isegi enam, mis oma, mis wõõras oli — näe sääl tuli ootamata kassarewideerimine ja kaheksasada rubla waestelaste raha leiti puudus. Ametist lahti ja kohtu alla! Kas seda kõik tarwis oli? Nüüd tuli üks wõlanõudja siit ja teine säält, kõik need, kelledele isa omas uhkuses ja ülbuses enne ülekohut teinud, need kõik tuliwad nüüd teda parastama, temale kätte tasuma. See on wiina wanne! Ja Hints — seda ei tea keegi, kus see weel ümber hulgub ja mis ta teeb ja mis selle ots saab olema. Pool aastat, sest ajast kui ta läks, ei ole ta enam isamajasse oma jalga pistnud. Sõita Malleriga ümber, kes niisamasugune kaabak on ja hulkumise pääl elab, sest saati kui ka tema rewideerimise kannul ametist lahti sai. Oh Jumal, Jumal kül! Ja nüüd Hans ka weel uuri waras! Uuri waras!</p>
                     </sp>
                 </div>
                 <div type="scene">
                     <head>Teine etendus.</head>
                     <stage>Eewa. Peeter.</stage>
-                    <stage>Akna pihta koputades:</stage>
+                    <stage>Akna pihta koputades.</stage>
                     <sp who="#eewa">
                         <speaker>Eewa:</speaker>
                         <stage>(rõõmsamalt):</stage>
@@ -3828,7 +3830,7 @@
                         <speaker>Peeter:</speaker>
                         <p>Waata, sääl on weel paar meelespea õiekest ja paar kanarpiku oksakest. Sa tead ometi, mis tähendus neil on? Ja see siin:</p>
                         <l>"Uua õis aga küsimist ette toob sulle,</l>
-                        <l>"Kas? tuksub su süda üksina mulle?</l>
+                        <l>"Kas tuksub su süda üksina mulle?</l>
                     </sp>
                     <sp who="#eewa">
                         <speaker>Eewa:</speaker>
@@ -3902,12 +3904,12 @@
                     <sp who="#peeter">
                         <speaker>Peeter</speaker>
                         <stage>(mõtetes):</stage>
-                        <p>Soh. Küllap wist! Ja! Aga kuule Eewa, see tükk on hästi! Sina olid minust seni sellepoolest ees, et sul parajat sõimu nime ei olnud nagu minul. Kui sa nüüd arwad, et kaal selle poolest meie wahel<pb n="47"/> üheetasa seisab — Uba-Kaarli poeg ja uuri.... — tule siia Eewa, anna pääkene kätte, ma annan sulle ühe musu kohe. Kaup on walmis, tulewal kewadel teeme pulmad. Kas tahad, Eewa? <stage>(Sirutab kaks kätt aknast sisse.)</stage></p>
+                        <p>Soo. Küllap wist! Ja! Aga kuule Eewa, see tükk on hästi! Sina olid minust seni sellepoolest ees, et sul parajat sõimu nime ei olnud nagu minul. Kui sa nüüd arwad, et kaal selle poolest meie wahel<pb n="47"/> üheetasa seisab — Uba-Kaarli poeg ja uuri.... — tule siia Eewa, anna pääkene kätte, ma annan sulle ühe musu kohe. Kaup on walmis, tulewal kewadel teeme pulmad. Kas tahad, Eewa? <stage>(Sirutab kaks kätt aknast sisse.)</stage></p>
                     </sp>
                     <sp who="#eewa">
                         <speaker>Eewa</speaker>
                         <stage>(Eemale taganedes):</stage>
-                        <p>Ei mitte Peeter! Mitte nõnda. See on oh-wer, mida sa omas härdas meeles minu õnnetuse üle mulle tuua tahad.</p>
+                        <p>Ei mitte Peeter! Mitte nõnda. See on ohwer, mida sa omas härdas meeles minu õnnetuse üle mulle tuua tahad.</p>
                     </sp>
                     <sp who="#peeter">
                         <speaker>Peeter:</speaker>
@@ -3920,7 +3922,7 @@
                     </sp>
                     <sp who="#peeter">
                         <speaker>Peeter:</speaker>
-                        <p>Mis siis weel, Eewa, mis siis weel? Ükskord pead meie wahe ometi kindlaks saama. Anna käsi siia sellepääle!</p>
+                        <p>Mis siis weel, Eewa, mis siis weel? Ükskord peab meie wahe ometi kindlaks saama. Anna käsi siia sellepääle!</p>
                     </sp>
                     <sp who="#eewa">
                         <speaker>Eewa:</speaker>
@@ -3971,7 +3973,7 @@
                     <stage>Eewa.</stage>
                     <sp who="#eewa">
                         <stage>(Peetrile aknast järele waadates)</stage>
-                        <p>Oh ta on kül üks kuldne pois ,see Peeter, Jumal teab seda! Kui õnnelik wõiksin ma temaga olla, kui õnnelik! Ometegi<pb n="48"/> ei näita see ialgi sündida wõiwat. Peeter on kõigeauusamat tüdrukut wäärt, kelle nime küljes mingit häbi plekki ei ripu ja mina — mina olen ühe raisku läinud, mahakäinud joodiku perekonnast pärit. Kuida mina wõin Peetrile sündida! Peetri tee wiib ülespoole, meie tee alla poole. Ei see lähe, ma tõmbaksin õnnetust ka tema kaela! Joodik trahwitud äi ja joodikud trahwitud naisewennad, ei need Peetri karske perekonna keskele sünni. Ta peaks ju alati ennast nendest häbenema! Ei, seda ma ei tohi Peetrile teha, seda mitte. Ma ei oleks põrmugi Peetri armastuse wäärt, ma ei armastaks teda waid iseennast, kui ma enese õnne pärast temale läheksin. Miks wõtsin ma ometi tema sõrmuse! Oh Jumal Jumal, miks ma seda tegin! — Ja ometi on see mõte nii magus, oh, nii magus! <stage>(Nutab.)</stage> Oh Jumal, ma olen kül wäga õnnetu, oh halasta Jumal, kui wäga õnnetu ma olen!</p>
+                        <p>Oh ta on kül üks kuldne pois ,see Peeter, Jumal teab seda! Kui õnnelik wõiksin ma temaga olla, kui õnnelik! Ometegi<pb n="48"/> ei näita see ialgi sündida wõiwat. Peeter on kõigeauusamat tüdrukut wäärt, kelle nime külges mingit häbi plekki ei ripu ja mina — mina olen ühe raisku läinud, mahakäiuud joodiku perekonnast pärit. Kuida mina wõiu Peetrile sündida! Peetri tee wiib ülespoole, meie tee alla poole. Ei see lähe, ma tõmbaksin õnnetust ka tema kaela! Joodik trahwitud äi ja joodikud trahwitud naisewennad, ei need Peetri karske perekonna keskele sünni. Ta peaks ju alati ennast nendest häbenema! Ei, seda ma ei tohi Peetrile teha, seda mitte. Ma ei oleks põrmugi Peetri armastuse wäärt, ma ei armastaks teda waid iseennast, kui ma enese õnne pärast temale läheksin. Miks wõtsin ma ometi tema sõrmuse! Oh Jumal Jumal, miks ma seda tegin! — Ja ometi on see mõte nii magus, oh, nii magus! <stage>(Nutab.)</stage> Oh Jumal, ma olen kül wäga õnnetu, oh halasta Jumal, kui wäga õnnetu ma olen!</p>
                         <p>Wait! Tuli säält keegi? Kui isa tuleb, tema ei tohi mitte mu pisaraid näha. Oh, ka tema tunneb ennast õnnetu, otsatu õnnetu, ehk kül enese süü läbi. Seda raskem kanda! Ta ei tohi mitte näha, et ma nutan. Seni olin weel mina üksi majas kellel pää õige koha pääl, nõnda peab see ka jääma, — Maali, see käib ka ümber, kui surma wari. Ta nutab oma Mallerit taga. Ei olekski uskunud, et Maali, kes nii kergemeelne näitas olewat, seda inimest nii sügawasti taga leinab, et alati pisarates ujub. Saatsin ta paariks päewaks kodust ära külasse, ehk tuleb rõõmsam tagasi. Rõõmsam? Nutt ja lein on meie terwele majale osaks, nutt ja lein. Isa, ehk ta kül seda näidata ei taha, uppub murede sisse ära. Mina — mina ei tohi mitte pääd norgu lasta, mina mitte. Ma pean katsuma lahket nägu teha, isa ja õde trööstida. Seda ma tahan. Ma tahan katsuda, isat kõrtsist eemal hoida; ehk on pööripäew tulnud, pööripäew meie majale. Ehk jätab isa joomist. Hints kuulukse ka ümberkaudu ligidal olewat, ehk pöörab temagi ümber ja tuleb tagasi. Kül see oleks õnn, kül see oleks õnn!</p>
                     </sp>
                 </div>
@@ -4136,7 +4138,7 @@
                     </sp>
                     <sp who="#pristaw">
                         <speaker>Pristaw:</speaker>
-                        <p>Ei mõista? Ахъ? Wenekeelt ei moista?</p>
+                        <p>Ei moista? Ахъ? Wenekeelt ei moista?</p>
                     </sp>
                     <sp who="#mart">
                         <speaker>Mart:</speaker>
@@ -4639,7 +4641,7 @@
                     <sp who="#peeter">
                         <speaker>Peeter</speaker>
                         <stage>(wõtab Hansu sülest hulga rohelisi wannikuid wastu):</stage>
-                        <p>Soo, Hans, tänan. Seda oled sa hästi toimetanud. Täna on minu wana isa sünnipäew, esimest korda pühitseme seda oma uue päriskoha peal. Mis sa näed, mis ma olen ja mis meil on, selle eest on mul teda, oma wana isa tänada. Nüüd, katsume ka wanamehele tänane päew nii rõõmsaks teha, kui wõimalik. — Aita nüüd mulle ka weel need wannikud ülesse lüüa. Aga, teeme nii wäha kolinat kui wõimalik, wanamees puhkab alles. Enne kui ta ärkab, peab kõik walmis olema.</p>
+                        <p>Soo, Hans, tänan. Seda oled sa hästi toimetanud. Täna on minu wana isa sünnipäew, esimest korda pühitseme seda oma uue päriskoha peal. Mis sa näed, mis ma olen ja mis meil on, selle eest on mul teda, oma wana isa tänada. Nüüd katsume ka wanamehele tänane päew nii rõõmsaks teha, kui wõimalik. — Aita nüüd mulle ka weel need wannikud ülesse lüüa. Aga, teeme nii wäha kolinat kui wõimalik, wanamees puhkab alles. Enne kui ta ärkab, peab kõik walmis olema.</p>
                     </sp>
                     <sp who="#hans">
                         <speaker>Hans:</speaker>
@@ -4828,7 +4830,7 @@
                             <head>[Wiis: Dr. Hermanni Eesti Kannel, II wihk № 33.]</head>
                             <lg>
                                 <head>1.</head>
-                                <l>Sind teretame kallist tundii</l>
+                                <l>Sind teretame kallist tundi</l>
                                 <l>Sind teretame rõõmu sees,</l>
                                 <l>Ja laulus lahutame sundi</l>
                                 <l>Mis täna mõlgub mõtetes.</l>
@@ -4960,7 +4962,7 @@
                     </sp>
                     <sp who="#mart">
                         <speaker>Mart:</speaker>
-                        <p>Maalt elab sest saadik kui Jumal tema pisukese ära enese juurde wõttis, waikist ja wagusat elu tädi juures. Temal ei ole praegu wiga midagi.</p>
+                        <p>Maali elab sest saadik kui Jumal tema pisukese ära enese juurde wõttis, waikist ja wagusat elu tädi juures. Temal ei ole praegu wiga midagi.</p>
                     </sp>
                     <sp who="#kaarel">
                         <speaker>Kaarel:</speaker>

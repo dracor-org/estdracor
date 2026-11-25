@@ -222,6 +222,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2026-09-02">Add genre and update formatting</change>
+                <change when="2026-11-25">Fix mistakes in cleaned OCR</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -318,7 +319,7 @@
                 </castItem>
                 <castItem>
                     <role>President, </role>
-                    <roleDesc>"Sinimandria" valitseja, koh­tumõistja ja ülempreester.</roleDesc>
+                    <roleDesc>"Sinimandria" valitseja, kohtumõistja ja ülempreester.</roleDesc>
                 </castItem>
                 <castGroup>
                     <castItem>
@@ -430,8 +431,8 @@
             <div type="act">
                 <div type="scene">
                     <head>1. Matused.</head>
-                    <stage>Surnuaed. Õhus Chopin'i Leinamarsi helid. Matuserong liigub aeglaselt üle lava. Kõige ees astub vai­mulik, raamat ristis kätega kõhul. Siis kandjad puu­särgiga, milles puhkab Andreas Kuslapuu, selle komöödia kangelase maine põrm. Puusärgi järele sam­muvad matuselised, nähtavasti kehvikud agulist. Rongi lõpus viimasena longib Viinanina, vargsi rüübates pudelist.</stage>
-                    <stage>Rongi jõudes ja kadudes üle lava kustub pilt. Leina­marsi helid kostavad edasi, kord-korralt vaibudes. Järgmise pildi alul kuuleb seda veel üsna tumedalt, kui maa alt.</stage>
+                    <stage>Surnuaed. Õhus Chopin'i Leinamarsi helid. Matuserong liigub aeglaselt üle lava. Kõige ees astub vaimulik, raamat ristis kätega kõhul. Siis kandjad puusärgiga, milles puhkab Andreas Kuslapuu, selle komöödia kangelase maine põrm. Puusärgi järele sammuvad matuselised, nähtavasti kehvikud agulist. Rongi lõpus viimasena longib Viinanina, vargsi rüübates pudelist.</stage>
+                    <stage>Rongi jõudes ja kadudes üle lava kustub pilt. Leinamarsi helid kostavad edasi, kord-korralt vaibudes. Järgmise pildi alul kuuleb seda veel üsna tumedalt, kui maa alt.</stage>
                 </div>
                 <pb n="10"/>
                 <pb n="11"/>
@@ -439,7 +440,7 @@
                 <pb n="13"/>
                 <div type="scene">
                     <head>2. Ärkamine Manalas.</head>
-                    <stage>Elutu kaljune maastik, tühi ja paljas. Tardunud matee­ria massid tusase, kalgi ja liikumatu kummituse all. Laisk, unine ja ebasõbralik valgustus. Taamal mäekolakas, mille kohal puhkeb ja kustub tulekuma, otsekui süttides kolossi hingetõmbusest. Pahemal, esiplaanil, kaljurünkale toetudes küürutab kui magades Andre­ase vaim. Ta on säilitanud allakäinud topsisõbra väli­muse ja riietuse. Andreas on nüüdsama pealilmas sur­nud ja ta ärkab Manalas talle tundmatule, saladuslikule ja esimesel pilgul üsna ebamugavale hauatagusele elule.</stage>
+                    <stage>Elutu kaljune maastik, tühi ja paljas. Tardunud mateeria massid tusase, kalgi ja liikumatu kummituse all. Laisk, unine ja ebasõbralik valgustus. Taamal mäekolakas, mille kohal puhkeb ja kustub tulekuma, otsekui süttides kolossi hingetõmbusest. Pahemal, esiplaanil, kaljurünkale toetudes küürutab kui magades Andrease vaim. Ta on säilitanud allakäinud topsisõbra välimuse ja riietuse. Andreas on nüüdsama pealilmas surnud ja ta ärkab Manalas talle tundmatule, saladuslikule ja esimesel pilgul üsna ebamugavale hauatagusele elule.</stage>
                     <stage>On kuulda öökulli hääli, siis koera õudset ulumist.</stage>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -489,15 +490,15 @@
                         <stage>(seisatab, tõstab koonu ja ulub)</stage>
                         <p>Uu! Uuu!</p>
                     </sp>
-                    <p><pb n="15"/></p>
-                    <p><pb n="16"/></p>
-                    <p><pb n="17"/></p>
+                    <pb n="15"/>
+                    <pb n="16"/>
+                    <pb n="17"/>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
                         <stage>(Peninukile)</stage>
                         <p>Suu!</p>
                         <stage>(Silmab Andreast.)</stage>
-                        <p>Oo jee! Eh-eh-hee! Loomake üsna end kisku­nud kerra! <stage>(Andreast kättpidi välja talutades.)</stage> Palun, palun, mu härra!</p>
+                        <p>Oo jee! Eh-eh-hee! Loomake üsna end kiskunud kerra! <stage>(Andreast kättpidi välja talutades.)</stage> Palun, palun, mu härra!</p>
                         <stage>(Kaaslastele.)</stage>
                         <p>Silmitsegem tagant ja eest seda asjameest!</p>
                     </sp>
@@ -558,7 +559,7 @@
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
                         <stage>(pisut toibudes)</stage>
-                        <p>Põrguks see paik on pisut jahe. Ja paradii­siks — mitte küllalt mahe.</p>
+                        <p>Põrguks see paik on pisut jahe. Ja paradiisiks — mitte küllalt mahe.</p>
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
@@ -572,7 +573,7 @@
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
                         <stage>(käega õlale patsutades)</stage>
-                        <p>Tubli, Andreas! Oled mees meeste seas! Aga nüüd pea silmas, sa inimese kaigas, et vii­bid hetkel allilmas, Suure Hirmutise asupaigas.</p>
+                        <p>Tubli, Andreas! Oled mees meeste seas! Aga nüüd pea silmas, sa inimese kaigas, et viibid hetkel allilmas, Suure Hirmutise asupaigas.</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -640,7 +641,7 @@
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
-                        <p>On su jumala tuline kurk! On su põrgu põlevaim nurk! Päikeseid ja tähti on sülita­nud need lõuad — küll veel imetleda jõuad!</p>
+                        <p>On su jumala tuline kurk! On su põrgu põlevaim nurk! Päikeseid ja tähti on sülitanud need lõuad — küll veel imetleda jõuad!</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -653,12 +654,12 @@
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
                         <stage>(valgustavalt)</stage>
-                        <p>Suur Hirmutis lõi pealilma särava palli­mängu. Lõi inimese-automaadi, kes end edasi produtseeris.</p>
+                        <p>Suur Hirmutis lõi pealilma särava pallimängu. Lõi inimese-automaadi, kes end edasi produtseeris.</p>
                     </sp>
                     <pb n="21"/>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Aga allilm kust saadi? Kes Manala orga­niseeris?</p>
+                        <p>Aga allilm kust saadi? Kes Manala organiseeris?</p>
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
@@ -702,7 +703,7 @@
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
                         <stage>(sõbralikult)</stage>
-                        <p>Ma Suure Hirmutise adjutant — see soku­habe on mu akselband!</p>
+                        <p>Ma Suure Hirmutise adjutant — see sokuhabe on mu akselband!</p>
                     </sp>
                     <sp who="#peninukk">
                         <speaker>Peninukk</speaker>
@@ -752,7 +753,7 @@
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
-                        <p>Looja peab palju vusserdama, enne kui val­mib meisterteos!</p>
+                        <p>Looja peab palju vusserdama, enne kui valmib meisterteos!</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -786,12 +787,12 @@
                     <pb n="24"/>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
-                        <p>Vaid edukäik on sedasi: kus lõpeb juma­late võim, seal inimene — nende hõim — ehitab edasi, kui omakord ta saanud loojaks.</p>
+                        <p>Vaid edukäik on sedasi: kus lõpeb jumalate võim, seal inimene — nende hõim — ehitab edasi, kui omakord ta saanud loojaks.</p>
                     </sp>
                     <sp who="#oeoekoll">
                         <speaker>Öökoll</speaker>
                         <stage>(Molkust demonstreerides)</stage>
-                        <p>Esitan teile maoka pudeli — vaikigu tüli! Esitan siin kuulsa vahelüli enne Aadama loo­mist ja patus poomist: viimse praagitud mu­deli!</p>
+                        <p>Esitan teile maoka pudeli — vaikigu tüli! Esitan siin kuulsa vahelüli enne Aadama loomist ja patus poomist: viimse praagitud mudeli!</p>
                     </sp>
                     <sp who="#molkus">
                         <speaker>Molkus</speaker>
@@ -916,7 +917,7 @@
                     <pb n="27"/>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Ei olnud eluks õiget kuraasi — sai vaada­tud siis viina klaasi.</p>
+                        <p>Ei olnud eluks õiget kuraasi — sai vaadatud siis viina klaasi.</p>
                     </sp>
                     <sp who="#oeoekoll">
                         <speaker>Öökoll</speaker>
@@ -947,7 +948,7 @@
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Mu nimi kustub, jäljetuks jääb töö? On’s hinge unistused — seebimull? Ja mõte iga­vikust — null? Mu matab vaikimise pilkne öö —?</p>
+                        <p>Mu nimi kustub, jäljetuks jääb töö? On's hinge unistused — seebimull? Ja mõte igavikust — null? Mu matab vaikimise pilkne öö —?</p>
                     </sp>
                     <pb n="28"/>
                     <sp who="#sarvik">
@@ -1044,7 +1045,7 @@
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
                         <stage>(veendudes)</stage>
-                        <p>Ja, asi saabund seda värki: mees kannab otsal looja märki. Sest katkestagem hinge ma­tus — tal kindlustatud surematus.</p>
+                        <p>Ja, asi saabund seda värki: mees kannab otsal looja märki. Sest katkestagem hinge matus — tal kindlustatud surematus.</p>
                     </sp>
                     <sp who="#molkus">
                         <speaker>Molkus</speaker>
@@ -1061,12 +1062,12 @@
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Sinimandria — nimeks mu poeemil. Loo­dud unistuse saare teemil.</p>
+                        <p>Sinimandria — nimeks mu poeemil. Loodud unistuse saare teemil.</p>
                     </sp>
                     <sp who="#oeoekoll">
                         <speaker>Öökoll</speaker>
                         <stage>(väga pettunud)</stage>
-                        <p>Sest saati, kui siin inimhingi veeti, nii hale­dat ma pole näind poeeti!</p>
+                        <p>Sest saati, kui siin inimhingi veeti, nii haledat ma pole näind poeeti!</p>
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
@@ -1110,7 +1111,7 @@
                     <pb n="32"/>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Ei usalda su sokulõusta! Et sellest süngu­sest võib miski tõusta —! Kui surmaorg!</p>
+                        <p>Ei usalda su sokulõusta! Et sellest süngusest võib miski tõusta —! Kui surmaorg!</p>
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
@@ -1139,11 +1140,11 @@
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
-                        <p>Olen siia mäele, kurale ja heale, vedanud suurvaime! Artiste igaseid, terveid ja vigaseid,<pb n="33"/><pb n="34"/><pb n="35"/>  santlaagreid, luulemaakreid, boheemikaime! Ühed frakis ja lakis, kel näpits ninaroopas, kel monookel silmakoopas! Hip-hop! Kõik tip-top! Peen toon ja püksijoon! Härrasrahvas luulekahvas. Mida tilluksem poeem, seda suu­rem rinnas krüsanteem. Elavad kohvist ja tor­dist.</p>
+                        <p>Olen siia mäele, kurale ja heale, vedanud suurvaime! Artiste igaseid, terveid ja vigaseid,<pb n="33"/><pb n="34"/><pb n="35"/>  santlaagreid, luulemaakreid, boheemikaime! Ühed frakis ja lakis, kel näpits ninaroopas, kel monookel silmakoopas! Hip-hop! Kõik tip-top! Peen toon ja püksijoon! Härrasrahvas luulekahvas. Mida tilluksem poeem, seda suurem rinnas krüsanteem. Elavad kohvist ja tordist.</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Ma pole sellest sordist. Need on ametli­kud poeedid Parnassil, keda harrastab aadlikute liik ja toetab riik ja kes võõrad on massile.</p>
+                        <p>Ma pole sellest sordist. Need on ametlikud poeedid Parnassil, keda harrastab aadlikute liik ja toetab riik ja kes võõrad on massile.</p>
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
@@ -1160,7 +1161,7 @@
                     <pb n="36"/>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Mängin viiki! Pole mul andi olla Parnassi dandy! Pole mul häälepõrinat rohket, ei ma­sendavat ohket, et olla prohvet. Pole silmi siniseid jalutamas igaviku teid. Olen midagi vahepealist ja alaealist.</p>
+                        <p>Mängin viiki! Pole mul andi olla Parnassi dandy! Pole mul häälepõrinat rohket, ei masendavat ohket, et olla prohvet. Pole silmi siniseid jalutamas igaviku teid. Olen midagi vahepealist ja alaealist.</p>
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
@@ -1206,7 +1207,7 @@
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
-                        <p>Ei leidnud Annilt tunnustust. Ja siis ro­nisid peegasuse selga ja lasid tuhatnelja! Tõu­sid luule kõrgetesse regioonidesse.</p>
+                        <p>Ei leidnud Annilt tunnustust. Ja siis ronisid peegasuse selga ja lasid tuhatnelja! Tõusid luule kõrgetesse regioonidesse.</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -1222,14 +1223,14 @@
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
-                        <p>Täidetud isu kaua ei kisu. Saavutatud ide­aalid — kahvatuvad Maalid. Ent keeldumuses, õnnetus armastuses — kõik Eedid on poeedid. Kaeme siis perra, mis on loonud see härra. Kolm korda hüüad teose nime, siis kaob see tagasein pime. Taevaranna väravas hiilguses säravas ilmub su meisterime.</p>
+                        <p>Täidetud isu kaua ei kisu. Saavutatud ideaalid — kahvatuvad Maalid. Ent keeldumuses, õnnetus armastuses — kõik Eedid on poeedid. Kaeme siis perra, mis on loonud see härra. Kolm korda hüüad teose nime, siis kaob see tagasein pime. Taevaranna väravas hiilguses säravas ilmub su meisterime.</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
                         <p>Sinimandria! Sinimandria! Sinimandria!</p>
                     </sp>
                     <pb n="38"/>
-                    <stage>Raksatades kõuemürinal kaob pilt pimedusse. Siis ava­neb vaade — fatamorgaana — Sinimandria, unistuste saar taeva ja mere sinetuses, hele, värske, eksootiline.</stage>
+                    <stage>Raksatades kõuemürinal kaob pilt pimedusse. Siis avaneb vaade — fatamorgaana — Sinimandria, unistuste saar taeva ja mere sinetuses, hele, värske, eksootiline.</stage>
                     <stage>Kostab vaikne, unistav, igatsev õhumuusika.</stage>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -1247,7 +1248,7 @@
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
-                        <p>Sinimandria on patent — minu kompli­ment!</p>
+                        <p>Sinimandria on patent — minu kompliment!</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -1272,7 +1273,7 @@
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
-                        <p>Edu nõuab, et poeg isast kaugemale jõuab. Õiget loojat tuntakse sest, et ta märksa näru­sem on oma teosest.</p>
+                        <p>Edu nõuab, et poeg isast kaugemale jõuab. Õiget loojat tuntakse sest, et ta märksa närusem on oma teosest.</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -1280,7 +1281,7 @@
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
-                        <p>Oota viivu, sul pole ju tiibu! Paadil libi­seme üle vee — tuttav mulle see tee.</p>
+                        <p>Oota viivu, sul pole ju tiibu! Paadil libiseme üle vee — tuttav mulle see tee.</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -1292,7 +1293,7 @@
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Astudes Sinimandria pinnale — nad hõisa­tes tõttavad mu rinnale. Nad laulavad oma loojale kiitust ja tänu, ja ma kustutan nende jänu.</p>
+                        <p>Astudes Sinimandria pinnale — nad hõisates tõttavad mu rinnale. Nad laulavad oma loojale kiitust ja tänu, ja ma kustutan nende jänu.</p>
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
@@ -1315,7 +1316,7 @@
                     <stage>Päikeseküllane lüüriline rand. Meriätt istub kivil ja puhub vilet Merineitsid solistavad ja lebavad kaldal. Paadi esile tulles kaovad kõik kabuhirmul.</stage>
                     <sp who="#merineitsid">
                         <speaker>Merineitsid</speaker>
-                        <p>Kaldalt kaome. Vetesse vaome! Ätt, sää­red! Ruttuuu!</p>
+                        <p>Kaldalt kaome. Vetesse vaome! Ätt, sääred! Ruttuuu!</p>
                     </sp>
                     <sp who="#meriaett">
                         <speaker>Meriätt</speaker>
@@ -1339,7 +1340,7 @@
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
                         <stage>(täis vaimustust ja teguhimu)</stage>
-                        <p>Edasi, vend! Kiirusta end! Tahan pimes­tada su silma kaudu mu loodud maailma. Tule! Viivitada ei läbe!</p>
+                        <p>Edasi, vend! Kiirusta end! Tahan pimestada su silma kaudu mu loodud maailma. Tule! Viivitada ei läbe!</p>
                         <stage>(Jookseb, käed laiali, ära.)</stage>
                     </sp>
                     <sp who="#sarvik">
@@ -1356,14 +1357,14 @@
                     <stage>Mets muinasjutulise taimestikuga. Kännul istub Sarvik, silmitsedes enese kõrval magavat Andreast.</stage>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
-                        <p>Nüüd unne vajund saare jumal, suur väsi­mus on murdnud mehe! Ons elamusi olnud vähe sel inimhingel armetumal! Pealilmas rabas surmapauk — siis vastu võttis mullaauk. Ja kui allilmas ärkas hing, ta silmas — lont­ruste ring, oh häda! — nüüd piiras teda. Oma jumala põlevas kurgus pidi sulama kui püksinööp: kes looja pole, see surgu, tal kadugu iseduse võõp! Ent oli looja... mul sest külma või sooja? Aga tema muidugi asjast sisse võe­tud ja üllatusest läbiköetud — magab nüüd vä­simuse tina kaudu nohiseva nina. Ohaa! Hopsassaa! Ma kuulen samme! Parem ka­duda ja laduda taha selle tüve sopilise tamme troopilise, et näha nalja läbi lehestiku halja, kuis saarlased rumalad kohtavad oma jumalat ja mis sest areneb välja!</p>
+                        <p>Nüüd unne vajund saare jumal, suur väsimus on murdnud mehe! Ons elamusi olnud vähe sel inimhingel armetumal! Pealilmas rabas surmapauk — siis vastu võttis mullaauk. Ja kui allilmas ärkas hing, ta silmas — lontruste ring, oh häda! — nüüd piiras teda. Oma jumala põlevas kurgus pidi sulama kui püksinööp: kes looja pole, see surgu, tal kadugu iseduse võõp! Ent oli looja... mul sest külma või sooja? Aga tema muidugi asjast sisse võetud ja üllatusest läbiköetud — magab nüüd väsimuse tina kaudu nohiseva nina. Ohaa! Hopsassaa! Ma kuulen samme! Parem kaduda ja laduda taha selle tüve sopilise tamme troopilise, et näha nalja läbi lehestiku halja, kuis saarlased rumalad kohtavad oma jumalat ja mis sest areneb välja!</p>
                         <stage>(Kaob.)</stage>
                     </sp>
-                    <stage>Saarepiigad pärgi kandes jooksevad vallatades ja tant­siskledes lagedale, nende keskel Pelargoonia.</stage>
+                    <stage>Saarepiigad pärgi kandes jooksevad vallatades ja tantsiskledes lagedale, nende keskel Pelargoonia.</stage>
                     <pb n="46"/>
                     <sp who="#pelargoonia">
                         <speaker>Pelargoonia</speaker>
-                        <p>Pärgi punudes, murede unudes, tahame ehtida kevade lehiga templi väravad kullas sä­ravad. Koidu tuultega, noorte huultega, hinge valvusel vaiksel palvusel taeva joonile Ahti troonile tõusku hiietest lilleriietest laulu luigeke, hinge huikeke!</p>
+                        <p>Pärgi punudes, murede unudes, tahame ehtida kevade lehiga templi väravad kullas säravad. Koidu tuultega, noorte huultega, hinge valvusel vaiksel palvusel taeva joonile Ahti troonile tõusku hiietest lilleriietest laulu luigeke, hinge huikeke!</p>
                         <stage>(Näeb Andreast.)</stage>
                         <p>Võõras olevus! Misuke koledus!</p>
                     </sp>
@@ -1444,7 +1445,7 @@
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
-                        <p>Ta ju nüüd Pelargoonia, kes teotseb Oleandriga, nagu luues oli su armu nõu. Ar­mastuses ikka püütakse paarida. Mis teevad nad sinusuguse vaariga? Kolmas isik käiks neil üle jõu.</p>
+                        <p>Ta ju nüüd Pelargoonia, kes teotseb Oleandriga, nagu luues oli su armu nõu. Armastuses ikka püütakse paarida. Mis teevad nad sinusuguse vaariga? Kolmas isik käiks neil üle jõu.</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -1452,21 +1453,21 @@
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
-                        <p>Vaata kelmi! Aga siis jutusta ometi — elasid üle millise kommeti? Kõdita uudis­himuga närvi ja ära koonerda värvidega, ega?</p>
+                        <p>Vaata kelmi! Aga siis jutusta ometi — elasid üle millise kommeti? Kõdita uudishimuga närvi ja ära koonerda värvidega, ega?</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Iga pilt saagu oma paraja pigi ja tõhusa tõrva. Istu ligi ja terita kõrva. Oli saarejumala vastuvõtmise paraad ja kõrge vaimus­tuse kraad. Ma istusin ülal troonil kullasel ja all maapinnal mullasel... — — —</p>
+                        <p>Iga pilt saagu oma paraja pigi ja tõhusa tõrva. Istu ligi ja terita kõrva. Oli saarejumala vastuvõtmise paraad ja kõrge vaimustuse kraad. Ma istusin ülal troonil kullasel ja all maapinnal mullasel... — — —</p>
                     </sp>
                 </div>
                 <pb n="51"/>
                 <div type="scene">
                     <head>6. Unelm.</head>
-                    <stage>Keset lava kõrgendatud poodiumil istub troonil kullas ja purpuris Tema Majesteet Andreas Kuslapuu, an­des esimest audientsi oma rahva esindajatele. Aujärg on kahe istmega, neist teine esialgu tühi. Trooni ümber seisavad: Molkus piiskopi rõivis, Peninukk gene­ralissimusena ja öökoll tseremoniimeistrina. Trooni jalal istub ja pärditseb Sarvik kojanarri riietuses.</stage>
+                    <stage>Keset lava kõrgendatud poodiumil istub troonil kullas ja purpuris Tema Majesteet Andreas Kuslapuu, andes esimest audientsi oma rahva esindajatele. Aujärg on kahe istmega, neist teine esialgu tühi. Trooni ümber seisavad: Molkus piiskopi rõivis, Peninukk generalissimusena ja öökoll tseremoniimeistrina. Trooni jalal istub ja pärditseb Sarvik kojanarri riietuses.</stage>
                     <sp who="#molkus">
                         <speaker>Molkus</speaker>
                         <stage>(pühalikult silmi jõllitades)</stage>
-                        <p>Halleluja Sinimandria Majesteedile — Ju­malale, Keisrile ja Poeedile! Halleluja ja Kürie-eleison! Kes seda ei usu, see veis on!</p>
+                        <p>Halleluja Sinimandria Majesteedile — Jumalale, Keisrile ja Poeedile! Halleluja ja Kürie-eleison! Kes seda ei usu, see veis on!</p>
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
@@ -1587,7 +1588,7 @@
                     <stage>(Aumuusika.)</stage>
                     <sp who="#molkus">
                         <speaker>Molkus</speaker>
-                        <p>Halleluja Sinimandria Majesteedile — Ju­malale, Keisrile ja Poeedile! Halleluja ja Kürie-eleison! Kes seda ei usu, see veis on!</p>
+                        <p>Halleluja Sinimandria Majesteedile — Jumalale, Keisrile ja Poeedile! Halleluja ja Kürie-eleison! Kes seda ei usu, see veis on!</p>
                     </sp>
                     <sp who="#peninukk">
                         <speaker>Peninukk</speaker>
@@ -1597,7 +1598,7 @@
                         <speaker>Öökoll</speaker>
                         <p>Kop-kop-kop!</p>
                     </sp>
-                    <stage>Seitse pappi ridastikku sammuvad lauldes lavale. Esipapp kõige suurem ja kõhukam, järgmised ikka lühe­mad ja lahjemad. Lõpul kõige väiksem — pärapapp, klouni näoga.</stage>
+                    <stage>Seitse pappi ridastikku sammuvad lauldes lavale. Esipapp kõige suurem ja kõhukam, järgmised ikka lühemad ja lahjemad. Lõpul kõige väiksem — pärapapp, klouni näoga.</stage>
                     <sp who="#esipapp">
                         <speaker>Esipapp</speaker>
                         <p>Pühasti sammume!</p>
@@ -1694,7 +1695,7 @@
                     <stage>Aumuusika. Papid tõusevad üles ja astuvad kõrvale.</stage>
                     <sp who="#molkus">
                         <speaker>Molkus</speaker>
-                        <p>Halleluja Sinimandria Majesteedile — Ju­malale, Keisrile ja Poeedile! Halleluja ja Kürie-eleison! Kes seda ei usu, see veis on!</p>
+                        <p>Halleluja Sinimandria Majesteedile — Jumalale, Keisrile ja Poeedile! Halleluja ja Kürie-eleison! Kes seda ei usu, see veis on!</p>
                     </sp>
                     <sp who="#peninukk">
                         <speaker>Peninukk</speaker>
@@ -1709,7 +1710,7 @@
                     <pb n="59"/>
                     <sp who="#raemeister">
                         <speaker>Raemeister</speaker>
-                        <p>Oo, jumalik matador! Sind tervitab rae­härrade koor, raemeistriga esirinnas, kel raha on kaelas ja käes on kinnas! Võta vastu me truualamlikud tundmused ja südame palavamad sundmused! Astugu ette raeteener Ott!</p>
+                        <p>Oo, jumalik matador! Sind tervitab raehärrade koor, raemeistriga esirinnas, kel raha on kaelas ja käes on kinnas! Võta vastu me truualamlikud tundmused ja südame palavamad sundmused! Astugu ette raeteener Ott!</p>
                     </sp>
                     <sp who="#ott">
                         <speaker>Ott</speaker>
@@ -1731,7 +1732,7 @@
                     </sp>
                     <sp who="#raemeister">
                         <speaker>Raemeister</speaker>
-                        <p>Oo, jumalik matador! Sind tervitab rae­härrade koor, raemeistriga eesrinnas, kel raha kaelas ja käes on kinnas! Tervitame sind soola ja leivaga, et sa ei nuhtleks meid teibaga, vaid et oleks su süda hale ja laseks meile paista oma pale.</p>
+                        <p>Oo, jumalik matador! Sind tervitab raehärrade koor, raemeistriga eesrinnas, kel raha kaelas ja käes on kinnas! Tervitame sind soola ja leivaga, et sa ei nuhtleks meid teibaga, vaid et oleks su süda hale ja laseks meile paista oma pale.</p>
                     </sp>
                     <sp who="#peninukk">
                         <speaker>Peninukk</speaker>
@@ -1740,7 +1741,7 @@
                     <pb n="60"/>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
-                        <p>Raehärrade sugu on seda lugu, et oskavad täita oma pugu. Turi ei tõuse ainult nuumveistel, kaelavolti kannab ka härra bürger­meister!</p>
+                        <p>Raehärrade sugu on seda lugu, et oskavad täita oma pugu. Turi ei tõuse ainult nuumveistel, kaelavolti kannab ka härra bürgermeister!</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -1763,7 +1764,7 @@
                     <stage>Aumuusika.</stage>
                     <sp who="#molkus">
                         <speaker>Molkus</speaker>
-                        <p>Halleluja Sinimandria Majesteedile — Ju­malale, Keisrile ja Poeedile! Halleluja ja Kürie-eleison! Kes seda ei usu, see veis on!</p>
+                        <p>Halleluja Sinimandria Majesteedile — Jumalale, Keisrile ja Poeedile! Halleluja ja Kürie-eleison! Kes seda ei usu, see veis on!</p>
                     </sp>
                     <sp who="#peninukk">
                         <speaker>Peninukk</speaker>
@@ -1774,7 +1775,7 @@
                         <stage>(kepiga)</stage>
                         <p>Kop-kop-kop!</p>
                     </sp>
-                    <stage>Muusika. Saarepiigade koor, Pelargoonia primadon­nana keskel, jookseb lavale ja tantsib trooni ees.</stage>
+                    <stage>Muusika. Saarepiigade koor, Pelargoonia primadonnana keskel, jookseb lavale ja tantsib trooni ees.</stage>
                     <pb n="61"/>
                     <sp who="#pelargoonia">
                         <speaker>Pelargoonia</speaker>
@@ -1783,7 +1784,7 @@
                     </sp>
                     <sp who="#saarepiiga-1 #saarepiiga-2 #saarepiiga-3 #saarepiiga-4 #saarepiiga-5 #saarepiiga-6 #saarepiiga-7 #saarepiiga-8 #saarepiiga-9">
                         <speaker>Saarepiigade koor</speaker>
-                        <p>Ootsime jänuga, näeme nüüd tänuga, lõp­nud me piin!</p>
+                        <p>Ootsime jänuga, näeme nüüd tänuga, lõpnud me piin!</p>
                     </sp>
                     <sp who="#pelargoonia">
                         <speaker>Pelargoonia</speaker>
@@ -1804,7 +1805,7 @@
                     </sp>
                     <sp who="#molkus">
                         <speaker>Molkus</speaker>
-                        <p>Halleluja Sinimandria Majesteedile — Ju­malale, Keisrile ja Poeedile! Halleluja ja Kürie-eleison! Kes seda ei usu, see veis on!</p>
+                        <p>Halleluja Sinimandria Majesteedile — Jumalale, Keisrile ja Poeedile! Halleluja ja Kürie-eleison! Kes seda ei usu, see veis on!</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -1850,7 +1851,7 @@
                     <sp who="#oleander">
                         <speaker>Oleander</speaker>
                         <stage>(lavale tormates)</stage>
-                        <p>Oo, südame agoonia! Kus on mu Pelar­goonia?</p>
+                        <p>Oo, südame agoonia! Kus on mu Pelargoonia?</p>
                     </sp>
                     <pb n="63"/>
                     <sp who="#sarvik">
@@ -1871,7 +1872,7 @@
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Näed nüüd, armas Oleander? On valinud Pelargoonia de Sinimander. Seepärast parem mida varem sa kaod minu silmist. Meile jät­kub sellest palumata filmist.</p>
+                        <p>Näed nüüd, armas Oleander? On valinud Pelargoonia de Sinimander. Seepärast parem mida varem sa kaod minu silmist. Meile jätkub sellest palumata filmist.</p>
                     </sp>
                     <sp who="#oleander">
                         <speaker>Oleander</speaker>
@@ -1881,7 +1882,7 @@
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
                         <p>Korista oma kondid!</p>
-                        <stage>(Tõukab Oleandri trepist alla, see kukub ja jääb liiku­matult lamama.)</stage>
+                        <stage>(Tõukab Oleandri trepist alla, see kukub ja jääb liikumatult lamama.)</stage>
                         <p>Vaim on kõrk, aga liha nõrk!</p>
                     </sp>
                     <pb n="64"/>
@@ -1897,7 +1898,7 @@
                     <stage>Aumuusika.</stage>
                     <sp who="#molkus">
                         <speaker>Molkus</speaker>
-                        <p>Halleluja Sinimandria Majesteedile — Ju­malale, Keisrile ja Poeedile. Halleluja ja Kürie-eleison!</p>
+                        <p>Halleluja Sinimandria Majesteedile — Jumalale, Keisrile ja Poeedile. Halleluja ja Kürie-eleison!</p>
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
@@ -1914,7 +1915,7 @@
                 <pb n="65"/>
                 <div type="scene">
                     <head>7. Oleander ja Pelargroonia.</head>
-                    <stage>Aed. Maja palkoniga. Andreas ja Sarvik ilmu­vad põõsastest.</stage>
+                    <stage>Aed. Maja palkoniga. Andreas ja Sarvik ilmuvad põõsastest.</stage>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
                         <p>Sealt paistabki mu kullakese maja!</p>
@@ -2047,7 +2048,7 @@
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
                         <stage>(hoogu võttes)</stage>
-                        <p>Kuis hävitada selle killa? Kas süüdata villa? Või saada lahti sellest Hintsust, siku­tades teda kintsust? Ei kauem kannatada taha! Tõmban ta redelilt maha!</p>
+                        <p>Kuis hävitada selle killa? Kas süüdata villa? Või saada lahti sellest Hintsust, sikutades teda kintsust? Ei kauem kannatada taha! Tõmban ta redelilt maha!</p>
                         <stage>(Tormab palkoni alla.)</stage>
                     </sp>
                     <sp who="#sarvik">
@@ -2057,7 +2058,7 @@
                     <pb n="71"/>
                     <sp who="#pelargoonia">
                         <speaker>Pelargoonia</speaker>
-                        <p>Siin ulatan sull’ oma huuled!</p>
+                        <p>Siin ulatan sull' oma huuled!</p>
                     </sp>
                     <sp who="#oleander">
                         <speaker>Oleander</speaker>
@@ -2071,7 +2072,7 @@
                     </sp>
                     <sp who="#oleander">
                         <speaker>Oleander</speaker>
-                        <p>Pelargoonia, me pole üksi! Keegi puudu­tas mu püksi!</p>
+                        <p>Pelargoonia, me pole üksi! Keegi puudutas mu püksi!</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -2097,7 +2098,7 @@
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Mitte nii palju kära, madmuasell! Küsi­mus on delikaatne ja hell! Loobugem ülearu<pb n="72"/>sest sõnasajust. Maailm, milles elate, on sündi­nud minu ajust. Ja teie, armas Pelargoonia, minu kire verest — mudeliks Anni Paljasmaa Paluperest. Ja kuigi teid armastanud on seni Oleander minu ülesandel, siis autori enda saa­budes kohale ärge enam laske seda poissi ehale. Nüüd annate jooksupassi vaesele konnale, sest poeet on ise tulnud külla oma poeemi prima­donnale!</p>
+                        <p>Mitte nii palju kära, madmuasell! Küsimus on delikaatne ja hell! Loobugem ülearu<pb n="72"/>sest sõnasajust. Maailm, milles elate, on sündinud minu ajust. Ja teie, armas Pelargoonia, minu kire verest — mudeliks Anni Paljasmaa Paluperest. Ja kuigi teid armastanud on seni Oleander minu ülesandel, siis autori enda saabudes kohale ärge enam laske seda poissi ehale. Nüüd annate jooksupassi vaesele konnale, sest poeet on ise tulnud külla oma poeemi primadonnale!</p>
                     </sp>
                     <sp who="#pelargoonia">
                         <speaker>Pelargoonia</speaker>
@@ -2135,7 +2136,7 @@
                     <sp who="#oleander">
                         <speaker>Oleander</speaker>
                         <stage>(mõõka tupest tõmmates ja lapiti lüües)</stage>
-                        <p>Säh sulle! Säh sulle! Ma ei ihka su verd! Kuid hoia end! Ka ligemise armastusel on pii­rid. Korista oma nägu viril!</p>
+                        <p>Säh sulle! Säh sulle! Ma ei ihka su verd! Kuid hoia end! Ka ligemise armastusel on piirid. Korista oma nägu viril!</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -2160,13 +2161,13 @@
                     </sp>
                     <sp who="#pelargoonia">
                         <speaker>Pelargoonia</speaker>
-                        <p>Soe ja hämar on minu kamber! Igatsu­sest tõmbub südame klamber. Neitsi voodi on karsk ja karge, suudlusi häbelikke, õrnusi arge! Kustub päev ja saabub öö, tuleb peig ja päästab vöö!</p>
+                        <p>Soe ja hämar on minu kamber! Igatsusest tõmbub südame klamber. Neitsi voodi on karsk ja karge, suudlusi häbelikke, õrnusi arge! Kustub päev ja saabub öö, tuleb peig ja päästab vöö!</p>
                     </sp>
                     <pb n="74"/>
                     <sp who="#oleander">
                         <speaker>Oleander</speaker>
                         <stage>(palkonile ronides)</stage>
-                        <p>On kustunud päeva puna! Ju ujub taevas Luna. Ja magab Sinimander. Siis ronib Ole­ander. Arm rinnas kuum ja vedel. Mul kaa­sas on mu redel. Mind veab su silme siidist ling, su poole tõmbab niidist hing!</p>
+                        <p>On kustunud päeva puna! Ju ujub taevas Luna. Ja magab Sinimander. Siis ronib Oleander. Arm rinnas kuum ja vedel. Mul kaasas on mu redel. Mind veab su silme siidist ling, su poole tõmbab niidist hing!</p>
                         <stage>(Oleander ja Pelargoonia kaovad palkoni ukse kaudu.)</stage>
                     </sp>
                     <sp who="#andreas">
@@ -2185,11 +2186,11 @@
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
-                        <p>On risk, kui poeedid taotlevad liig kõrgeid rütme, siis haavlid jänese asemel tabavad kütte! Annad oma kangelasele nii koledasti jõudu ja tunned nüüd ise õudu. Teinud Oleandrist arg­püksi, ei seisaks sa praegu üksi, vaid Pelargooniat sa kallistaks, et Oleander vihast hallitaks!</p>
+                        <p>On risk, kui poeedid taotlevad liig kõrgeid rütme, siis haavlid jänese asemel tabavad kütte! Annad oma kangelasele nii koledasti jõudu ja tunned nüüd ise õudu. Teinud Oleandrist argpüksi, ei seisaks sa praegu üksi, vaid Pelargooniat sa kallistaks, et Oleander vihast hallitaks!</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Hea siiski, et andsin Oleandrile hingelist suurust, muidu ta, kuramus, oleks vist mu pist­nud mõõgaga surnuks!</p>
+                        <p>Hea siiski, et andsin Oleandrile hingelist suurust, muidu ta, kuramus, oleks vist mu pistnud mõõgaga surnuks!</p>
                     </sp>
                 </div>
                 <pb n="75"/>
@@ -2241,11 +2242,11 @@
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>See koda kindlasti on peale loomist saabu­nud?</p>
+                        <p>See koda kindlasti on peale loomist saabunud?</p>
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
-                        <p>A’gu sa võõrale saarele oled maabunud?</p>
+                        <p>A'gu sa võõrale saarele oled maabunud?</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -2303,11 +2304,11 @@
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
-                        <p>Oled valinud õige aja: peremees jõudnud koju, kui õnnistatakse maja. Ega see minugi<pb n="80"/> stiili rikuks: oma unistuste saarel saada maja­omanikuks! Ei, Andreas! Mitte nii küürus ja kössis! Oled suur nina ja hakkad elama lossis! Möödunud on su ajad kõhnad! Rahvas kummar­dab ja laulab koraali. Suitsupannilt tõusevad viiruki lõhnad — sina ainult kergita püksi ja juhi moraali... Ja ei viitsigi sa liigutada oime: küll juba papid saavad rahvaga toime.</p>
+                        <p>Oled valinud õige aja: peremees jõudnud koju, kui õnnistatakse maja. Ega see minugi<pb n="80"/> stiili rikuks: oma unistuste saarel saada majaomanikuks! Ei, Andreas! Mitte nii küürus ja kössis! Oled suur nina ja hakkad elama lossis! Möödunud on su ajad kõhnad! Rahvas kummardab ja laulab koraali. Suitsupannilt tõusevad viiruki lõhnad — sina ainult kergita püksi ja juhi moraali... Ja ei viitsigi sa liigutada oime: küll juba papid saavad rahvaga toime.</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Kui oled tunnud ainult ärklitube, siis lossis elada on kaunis jube! Liig suured on mulle need dimensioonid ja eredad ehted ja toonid. Püüdmine liialt on olnud torm — nüüd sisule ei vasta vorm. Meiesugune on harjunud pis­kuga! Aitaks juba kaks tuba ja köök... lihtne tugev talupoja söök... Pisut mööblit, kuhu istuda ja täie kerega viskuda...</p>
+                        <p>Kui oled tunnud ainult ärklitube, siis lossis elada on kaunis jube! Liig suured on mulle need dimensioonid ja eredad ehted ja toonid. Püüdmine liialt on olnud torm — nüüd sisule ei vasta vorm. Meiesugune on harjunud piskuga! Aitaks juba kaks tuba ja köök... lihtne tugev talupoja söök... Pisut mööblit, kuhu istuda ja täie kerega viskuda...</p>
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
@@ -2315,7 +2316,7 @@
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Jah, seda olen maiseski elus näinud, kuidas mõne käsi käinud. Puudub taskus taaler — oled harimatu lärmikaarel. Aga tegid kar­jääri — siis hoopis teises tuuris liigutad sääri. Kuis ka eile olid tahumata ja kore — täna enam ükski toit ja mööbel — mis teab sest pööbel! — pole küllalt tore! Nõnda võib peenutseda iga­sugune karu, et kui jumal raha annab, siis an­nab ka aru!</p>
+                        <p>Jah, seda olen maiseski elus näinud, kuidas mõne käsi käinud. Puudub taskus taaler — oled harimatu lärmikaarel. Aga tegid karjääri — siis hoopis teises tuuris liigutad sääri. Kuis ka eile olid tahumata ja kore — täna enam ükski toit ja mööbel — mis teab sest pööbel! — pole küllalt tore! Nõnda võib peenutseda igasugune karu, et kui jumal raha annab, siis annab ka aru!</p>
                     </sp>
                     <pb n="81"/>
                     <sp who="#uemarik-eit">
@@ -2329,7 +2330,7 @@
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
-                        <p>Kaua ikka vahtida välisseinu! Kaeme, mil­lest nad templi on seestpoolt teinud.</p>
+                        <p>Kaua ikka vahtida välisseinu! Kaeme, millest nad templi on seestpoolt teinud.</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -2346,7 +2347,7 @@
                     </sp>
                     <sp who="#voeoermuender">
                         <speaker>Vöörmünder</speaker>
-                        <p>Kuhu sa tükid, sinder! Seisma jäe! Kas sa pime ei näe, et sind keelab kiriku vöörmün­der!</p>
+                        <p>Kuhu sa tükid, sinder! Seisma jäe! Kas sa pime ei näe, et sind keelab kiriku vöörmünder!</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -2359,7 +2360,7 @@
                     <pb n="82"/>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
-                        <p>Kuidas pääsevad need teised — õnneli­kud —?</p>
+                        <p>Kuidas pääsevad need teised — õnnelikud —?</p>
                     </sp>
                     <sp who="#voeoermuender">
                         <speaker>Vöörmünder</speaker>
@@ -2430,7 +2431,7 @@
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
-                        <p>Härra jumalal ei kõlba kiskleda uksehoid­jaga ega teiste väikeste koidega. Parem pöör­<pb n="84"/>dume otsekohe ülempapile, küll see juba õige lõike annab su vapile.</p>
+                        <p>Härra jumalal ei kõlba kiskleda uksehoidjaga ega teiste väikeste koidega. Parem pöör<pb n="84"/>dume otsekohe ülempapile, küll see juba õige lõike annab su vapile.</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -2452,7 +2453,7 @@
                 <pb n="85"/>
                 <div type="scene">
                     <head>9. Vaimu Tribunaal.</head>
-                    <stage>Uhke õitsev aed. Keset aeda suur lehtla hulga istme­tega ridastikku. Põõsastikust hiilivad välja Andreas ja Sarvik, viimane sumadaniga.</stage>
+                    <stage>Uhke õitsev aed. Keset aeda suur lehtla hulga istmetega ridastikku. Põõsastikust hiilivad välja Andreas ja Sarvik, viimane sumadaniga.</stage>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
                         <p>Usun, et oleme õigel teel. Kurk on kuiv ja janutab keel!</p>
@@ -2463,7 +2464,7 @@
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Katsun olla diplomaat. Sa ole minu advo­kaat!</p>
+                        <p>Katsun olla diplomaat. Sa ole minu advokaat!</p>
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
@@ -2474,49 +2475,49 @@
                         <p>Siis kaome põõsastikku!</p>
                         <stage>(Mõlemad astuvad varju.)</stage>
                     </sp>
-                    <stage>Vastakpoolelt tulevad President, Ehitaja, Kujur, Luuletaja, Helilooja, Mõttetark ja Sport­lane. Nad võtavad, Presidendiga keskel, aset lehtla toolidel.</stage>
+                    <stage>Vastakpoolelt tulevad President, Ehitaja, Kujur, Luuletaja, Helilooja, Mõttetark ja Sportlane. Nad võtavad, Presidendiga keskel, aset lehtla toolidel.</stage>
                     <pb n="86"/>
                     <sp who="#president">
                         <speaker>President</speaker>
                         <p>Ons esitatud kõik kunstialad ja kohal me vabariigi vaimutalad?</p>
                         <stage>(Veendudes)</stage>
-                        <p>Siis avan Sinimandria Vaimu Tribunaali istungi Ahti, meie jumala, austamise asjus, mis aas­taid me õlgadel lasus siiamaani, ja lõpule jõud­nud nüüd vist ongi. Sinimandria kunsti ja vaimsuse pioneerid, kultuuri komandörid ! Kuis voolanud on teie vaimusademed ja millise kuju on võtnud need lademed?</p>
+                        <p>Siis avan Sinimandria Vaimu Tribunaali istungi Ahti, meie jumala, austamise asjus, mis aastaid me õlgadel lasus siiamaani, ja lõpule jõudnud nüüd vist ongi. Sinimandria kunsti ja vaimsuse pioneerid, kultuuri komandörid ! Kuis voolanud on teie vaimusademed ja millise kuju on võtnud need lademed?</p>
                     </sp>
                     <sp who="#ehitaja">
                         <speaker>Ehitaja</speaker>
                         <stage>(tõustes)</stage>
-                        <p>Ahti, me looja ette kummardun maani! Olen meister oma töös! Kordaminek krooni­nud minu vaeva. Ahti uus koda on koloss, loo­jale vääriline loss, tornid lõhuvad taeva. Pa­lun, astuge sisse! Ja silmitsege ja imetlege, mis mõte on raiunud marmorisse.</p>
+                        <p>Ahti, me looja ette kummardun maani! Olen meister oma töös! Kordaminek krooninud minu vaeva. Ahti uus koda on koloss, loojale vääriline loss, tornid lõhuvad taeva. Palun, astuge sisse! Ja silmitsege ja imetlege, mis mõte on raiunud marmorisse.</p>
                         <stage>(Istub.)</stage>
                     </sp>
                     <sp who="#kujur">
                         <speaker>Kujur</speaker>
                         <stage>(tõustes)</stage>
-                        <p>Kuu, tähed ja päike! Ka minu tegu pole väike! Oo, imelikku tuju: kõigevägevamale anda kuju! Ürgvaim vangistada ainesse kül­masse ja kainesse! Siin inimene mullast on valanud jumala kullast, hiigla dimensioonides, kalliskivega ehtides ja kroonides... jumala noore, kauni, õilsa ja vägeva — tillukesena tun<pb n="87"/><pb n="88"/><pb n="89"/>neb end, kes satub teda nägema! Tõe, headuse ja ilu tipp oli mu loomingu märgulipp. Otse­kui hinge pruudile olen kujurina lähenenud absoluudile.</p>
+                        <p>Kuu, tähed ja päike! Ka minu tegu pole väike! Oo, imelikku tuju: kõigevägevamale anda kuju! Ürgvaim vangistada ainesse külmasse ja kainesse! Siin inimene mullast on valanud jumala kullast, hiigla dimensioonides, kalliskivega ehtides ja kroonides... jumala noore, kauni, õilsa ja vägeva — tillukesena tun<pb n="87"/><pb n="88"/><pb n="89"/>neb end, kes satub teda nägema! Tõe, headuse ja ilu tipp oli mu loomingu märgulipp. Otsekui hinge pruudile olen kujurina lähenenud absoluudile.</p>
                         <stage>(Istub.)</stage>
                     </sp>
                     <sp who="#luuletaja">
                         <speaker>Luuletaja</speaker>
                         <stage>(tõustes)</stage>
-                        <p>Sinimandria jumalale, kes piirid seadnud ääretumale, eraldades — oo, minu aare! — selle kauni saare, mille ehtimiseks meid loodi — olen laulnud selle oodi! Oo, minu laul on mõ­nus kõditades Ahti kõrvalesta. Eales pole väl­jendatud sõnus sellaseid ideid kui neid, mis saavutanud mu vaimuleid ja mille osa on iga­vesti kesta, põlvest põlvele vesta looja võrratust tööst, ta päevast ja ööst. Aga eriti palun mär­kida viili, millega olen ihunud stiili, nagu oskur seda eales võib sülelda ja mida ükski teine poeet ei ületa.</p>
+                        <p>Sinimandria jumalale, kes piirid seadnud ääretumale, eraldades — oo, minu aare! — selle kauni saare, mille ehtimiseks meid loodi — olen laulnud selle oodi! Oo, minu laul on mõnus kõditades Ahti kõrvalesta. Eales pole väljendatud sõnus sellaseid ideid kui neid, mis saavutanud mu vaimuleid ja mille osa on igavesti kesta, põlvest põlvele vesta looja võrratust tööst, ta päevast ja ööst. Aga eriti palun märkida viili, millega olen ihunud stiili, nagu oskur seda eales võib sülelda ja mida ükski teine poeet ei ületa.</p>
                         <stage>(Istub.)</stage>
                     </sp>
                     <sp who="#helilooja">
                         <speaker>Helilooja</speaker>
                         <stage>(tõustes)</stage>
-                        <p>Kuis ka seada sõnu, pole õiget mõnu, kui laulul puudub viis. Juuksesalgu otsalt rapu­tasin siis: oo, helide meri, kui vahutas looja veri! Ma noodiredeliga ronisin kõmisevasse äikesesse ja säravasse päikesesse, ma püüdsin tormi lõõtsumise ja lainte õõtsumise. Neil ins­piratsioonidel olen loonud selle sinfoonia.</p>
+                        <p>Kuis ka seada sõnu, pole õiget mõnu, kui laulul puudub viis. Juuksesalgu otsalt raputasin siis: oo, helide meri, kui vahutas looja veri! Ma noodiredeliga ronisin kõmisevasse äikesesse ja säravasse päikesesse, ma püüdsin tormi lõõtsumise ja lainte õõtsumise. Neil inspiratsioonidel olen loonud selle sinfoonia.</p>
                         <stage>(Istub.)</stage>
                     </sp>
                     <pb n="90"/>
                     <sp who="#mottetark">
                         <speaker>Mõttetark</speaker>
                         <stage>(tõustes)</stage>
-                        <p>Usund on mulle kallis. Tõe tunnetuses on mu juus läinud halliks. Dogmadesse juu­reldes- usualustesse puureldes olen kõrvalda­nud kõik vale. Usu joon olgu sirge ja sale — rõõmsa optimismi süles tõusku noolena üles. Templi avamiseks, pidulikuks lavastamiseks, olen kujundanud usutunnistuse uue sõnastuse, mille väljendus sädeleb kallismetallina ja mille mõte on selge kui kristall.</p>
+                        <p>Usund on mulle kallis. Tõe tunnetuses on mu juus läinud halliks. Dogmadesse juureldes- usualustesse puureldes olen kõrvaldanud kõik vale. Usu joon olgu sirge ja sale — rõõmsa optimismi süles tõusku noolena üles. Templi avamiseks, pidulikuks lavastamiseks, olen kujundanud usutunnistuse uue sõnastuse, mille väljendus sädeleb kallismetallina ja mille mõte on selge kui kristall.</p>
                         <stage>(Istub.)</stage>
                     </sp>
                     <sp who="#sportlane">
                         <speaker>Sportlane</speaker>
                         <stage>(tõustes)</stage>
-                        <p>Peale seda kui — nagu kavatud — tempel on avatud piduliku tseremoniaaliga, palun asja­osalisi kogu Vaimu Tribunaaliga, kaasa võttes Ahti kullast ikooni — saabuda alla stadiooni, kus kunsti nooreim ja tooreim põlv tahab ju­mala auks hüpata üle nööri, heita ketast ja joosta sõõri. Ja veel midagi, mis ei kordu! Olen aja vaimu kasutanud ja eduga asutanud templivendade jalgpalli-ordu, kes selle vaimu­liku spordi asendab üle iga rekordi, kelle jala­hoop ei väärata tolli ja kes Ahti auks lööb kümme kolli.</p>
+                        <p>Peale seda kui — nagu kavatud — tempel on avatud piduliku tseremoniaaliga, palun asjaosalisi kogu Vaimu Tribunaaliga, kaasa võttes Ahti kullast ikooni — saabuda alla stadiooni, kus kunsti nooreim ja tooreim põlv tahab jumala auks hüpata üle nööri, heita ketast ja joosta sõõri. Ja veel midagi, mis ei kordu! Olen aja vaimu kasutanud ja eduga asutanud templivendade jalgpalli-ordu, kes selle vaimuliku spordi asendab üle iga rekordi, kelle jalahoop ei väärata tolli ja kes Ahti auks lööb kümme kolli.</p>
                         <stage>(Istub.)</stage>
                     </sp>
                     <sp who="#president">
@@ -2534,41 +2535,41 @@
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Olen Sinimandria Majesteet — Jumal, Kei­ser ja Poeet. Halleluja ja Kürie-eleison! Kes seda ei usu, see veis on!</p>
+                        <p>Olen Sinimandria Majesteet — Jumal, Keiser ja Poeet. Halleluja ja Kürie-eleison! Kes seda ei usu, see veis on!</p>
                     </sp>
                     <sp who="#president">
                         <speaker>President</speaker>
                         <stage>(vaevalt naeru pidades)</stage>
-                        <p>Ütled, et sina — sina —? Sinimandria Ju­mal?</p>
+                        <p>Ütled, et sina — sina —? Sinimandria Jumal?</p>
                         <stage>(Üldine naer)</stage>
                         <p>Oled sa kelm või rumal? Oo, näete seda nina — nina!</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
                         <stage>(haavudes)</stage>
-                        <p>Minu nina on ausalt omandanud värvi pus­kari leotuses. Mu härrad, oheldage oma meele­olu pärmi! Kas teie teadagi ei tea, et mis looja kannab on ikka hea! Ja et selle kriitika osu­tub Jumala teotuseks ja on loodasjale reotu?</p>
+                        <p>Minu nina on ausalt omandanud värvi puskari leotuses. Mu härrad, oheldage oma meeleolu pärmi! Kas teie teadagi ei tea, et mis looja kannab on ikka hea! Ja et selle kriitika osutub Jumala teotuseks ja on loodasjale reotu?</p>
                     </sp>
                     <pb n="92"/>
                     <sp who="#luuletaja">
                         <speaker>Luuletaja</speaker>
-                        <p>Kuule, kaltsuvaar — kelle kuninga oled narr? Meil naljakutse on näljakutse — tee­nistus väga vaene! Ise teeme nalja ja ise nae­rame.</p>
+                        <p>Kuule, kaltsuvaar — kelle kuninga oled narr? Meil naljakutse on näljakutse — teenistus väga vaene! Ise teeme nalja ja ise naerame.</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Pole mul te naljadest sooja ei külma. Ju­hin ainult tähelepanu — noorte ja vanu —, et hetkel oma loojale vaatate silma... Ja et loodasja õige tehnika on mitte vastu vehkida ja kehkida, vaid — pea meeles seda — vait olla ja oma looja ees väriseda!</p>
+                        <p>Pole mul te naljadest sooja ei külma. Juhin ainult tähelepanu — noorte ja vanu —, et hetkel oma loojale vaatate silma... Ja et loodasja õige tehnika on mitte vastu vehkida ja kehkida, vaid — pea meeles seda — vait olla ja oma looja ees väriseda!</p>
                     </sp>
                     <sp who="#sportlane">
                         <speaker>Sportlane</speaker>
-                        <p>Ahti nimel ja kõik pühad rekordid! See on juba nöök! Tunnen, kuis paisuvad mu sise­ilma aordid! Usun, see asi oleks sooritatud esimese lõualöögiga!</p>
+                        <p>Ahti nimel ja kõik pühad rekordid! See on juba nöök! Tunnen, kuis paisuvad mu siseilma aordid! Usun, see asi oleks sooritatud esimese lõualöögiga!</p>
                         <stage>(Käärib käiseid.)</stage>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Ä’ä siis kohe tapa — kallis spordipapa! Jumal on lõualuud annud suu liigutamiseks, et võiksid süüa ja süljata, rõõmus ja mures kil­jata, aga mitte, et rusikaid kiigutada!</p>
+                        <p>Ä'ä siis kohe tapa — kallis spordipapa! Jumal on lõualuud annud suu liigutamiseks, et võiksid süüa ja süljata, rõõmus ja mures kiljata, aga mitte, et rusikaid kiigutada!</p>
                     </sp>
                     <sp who="#president">
                         <speaker>President</speaker>
-                        <p>Usun, me lõpetame nalja. Mu teenrid vis­kavad ta välja!</p>
+                        <p>Usun, me lõpetame nalja. Mu teenrid viskavad ta välja!</p>
                     </sp>
                     <sp who="#mottetark">
                         <speaker>Mõttetark</speaker>
@@ -2588,15 +2589,15 @@
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
                         <stage>(puudutatud)</stage>
-                        <p>Õige looja, kel korda läinud, on alati tei­nud oma nipsid ja napsid!</p>
+                        <p>Õige looja, kel korda läinud, on alati teinud oma nipsid ja napsid!</p>
                     </sp>
                     <sp who="#mottetark">
                         <speaker>Mõttetark</speaker>
-                        <p>Olen filosoof — sind valgustada on mu soov! Kui looja loob oma näo järele ilma, kas sulle siis ei paista silma, et teisend on ikka kahvatum algupärandist ja et kaunist äratõm­met ei saa originaalist sandist. Olevus alamast tõust ei saa luua kõrgemat enese jõust. Vaata pisut mind, siin istuvaid mehi — neid vaimu­kaid nägusid ja õilseid kehi! Ja siis vaata oma larvi ja habeme värvi. Oled pahupidi pöörnud elu tahvli! Tahad veenda, et oleme tehtud<pb n="94"/> sinusugusest ahvist!? Püha Ahti — millist õpetatakse prahti! Arvad sa, et minusugusel vaimukrahvil ei ole häbi — olles saadud ahvist?</p>
+                        <p>Olen filosoof — sind valgustada on mu soov! Kui looja loob oma näo järele ilma, kas sulle siis ei paista silma, et teisend on ikka kahvatum algupärandist ja et kaunist äratõmmet ei saa originaalist sandist. Olevus alamast tõust ei saa luua kõrgemat enese jõust. Vaata pisut mind, siin istuvaid mehi — neid vaimukaid nägusid ja õilseid kehi! Ja siis vaata oma larvi ja habeme värvi. Oled pahupidi pöörnud elu tahvli! Tahad veenda, et oleme tehtud<pb n="94"/> sinusugusest ahvist!? Püha Ahti — millist õpetatakse prahti! Arvad sa, et minusugusel vaimukrahvil ei ole häbi — olles saadud ahvist?</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Häbi võib ju olla härra krahvil, aga seda suurem au on ahvil! Aadel vajab suuri esi­vanemaid, aga tõusiku ideaal on, et tast enesest ja ta lastest midagi sai! Ja, mu armas krahv! Selles seisabki edu tõte ja geeniuse mõte, et krahvide ilma on loonud ahv, et kõik, mis maa­ilmas on ülev ja ilus, see kord sõi ja mäletses ürgmetsade vilus.</p>
+                        <p>Häbi võib ju olla härra krahvil, aga seda suurem au on ahvil! Aadel vajab suuri esivanemaid, aga tõusiku ideaal on, et tast enesest ja ta lastest midagi sai! Ja, mu armas krahv! Selles seisabki edu tõte ja geeniuse mõte, et krahvide ilma on loonud ahv, et kõik, mis maailmas on ülev ja ilus, see kord sõi ja mäletses ürgmetsade vilus.</p>
                     </sp>
                     <sp who="#mottetark">
                         <speaker>Mõttetark</speaker>
@@ -2604,40 +2605,40 @@
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Vajab jumalat, kes on pikk ja lai, aga loo­jana käperdai!</p>
+                        <p>Vajab jumalat, kes on pikk ja lai, aga loojana käperdai!</p>
                     </sp>
                     <sp who="#mottetark">
                         <speaker>Mõttetark</speaker>
-                        <p>Tahan tõde öelda: pole kunagi küllalt Ju­malast suuri mõtteid mõelda!</p>
+                        <p>Tahan tõde öelda: pole kunagi küllalt Jumalast suuri mõtteid mõelda!</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Kelle tahate sellega pimestada silmi, et üks täiuslik Jumal teeb ebatäiuslikke maailmi!? Milleks siis üldse luua, kui looja luues enesest kõrgemale ei jõua? Kui Jumal on suur ja maa­ilm on sant, miks looja siis end nii viletsalt paljundand? Siis looming on Jumala enesealanduse akt ja kiidelda ei luba juba maitse ja takt.</p>
+                        <p>Kelle tahate sellega pimestada silmi, et üks täiuslik Jumal teeb ebatäiuslikke maailmi!? Milleks siis üldse luua, kui looja luues enesest kõrgemale ei jõua? Kui Jumal on suur ja maailm on sant, miks looja siis end nii viletsalt paljundand? Siis looming on Jumala enesealanduse akt ja kiidelda ei luba juba maitse ja takt.</p>
                     </sp>
                     <pb n="95"/>
                     <sp who="#mottetark">
                         <speaker>Mõttetark</speaker>
-                        <p>Mõni pealuu küll kõrge mõtte suleb, et Ju­mal omas armus alla tuleb —</p>
+                        <p>Mõni pealuu küll kõrge mõtte suleb, et Jumal omas armus alla tuleb —</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Kõrge mõte on muidugi teie krahvlik ees­õigus. Aga mina oma ahvlikus manalasõidus arvan siiski, et — pommerants ja whisky! Kui­das krahv häbeneb põlvneda ahvist, samal ajal olles liigutatud ja enesetundest väga kiigutatud, kui ahv saadud on härra krahvist!? Ja et krahvilikule loojale see toob kuulsuse villagi, kui oma jumalikus loomingus ta juba on jõud­nud gorillani!?</p>
+                        <p>Kõrge mõte on muidugi teie krahvlik eesõigus. Aga mina oma ahvlikus manalasõidus arvan siiski, et — pommerants ja whisky! Kuidas krahv häbeneb põlvneda ahvist, samal ajal olles liigutatud ja enesetundest väga kiigutatud, kui ahv saadud on härra krahvist!? Ja et krahvilikule loojale see toob kuulsuse villagi, kui oma jumalikus loomingus ta juba on jõudnud gorillani!?</p>
                     </sp>
                     <sp who="#mottetark">
                         <speaker>Mõttetark</speaker>
                         <stage>(abiotsivalt presidendile)</stage>
-                        <p>Tahad narri veenda — ainult määrid ise­enda!</p>
+                        <p>Tahad narri veenda — ainult määrid iseenda!</p>
                     </sp>
                     <sp who="#president">
                         <speaker>President</speaker>
                         <stage>(summutades)</stage>
-                        <p>Mu härrad! Mõttetarkus käesoleval juhu­sel on aja vargus. Pole kahtlust ega võistlust, kui usaldame oma praktilist mõistust. Meie külaline, kel nii vilets vigur, on kindlasti juma­laks niger!</p>
+                        <p>Mu härrad! Mõttetarkus käesoleval juhusel on aja vargus. Pole kahtlust ega võistlust, kui usaldame oma praktilist mõistust. Meie külaline, kel nii vilets vigur, on kindlasti jumalaks niger!</p>
                         <stage>(Andreasele)</stage>
-                        <p>Mõistlik olles saad isegi aru, et looja pole toh­man ja karu, vaid meist kõrgem ja nooblim isand —</p>
+                        <p>Mõistlik olles saad isegi aru, et looja pole tohman ja karu, vaid meist kõrgem ja nooblim isand —</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Teile ei meeldi minu isiklik visand? Jaet mu riietus pole moe viimane kisa? Andes­<pb n="96"/>tage, kui riivasin etiketti: pole teinud veel hommikust tualetti! Hõi, mu kammerhärra võsastikust! Tule ja demonstreeri meie deko­ratiivset nõiduslikkust!</p>
+                        <p>Teile ei meeldi minu isiklik visand? Ja et mu riietus pole moe viimane kisa? Andes<pb n="96"/>tage, kui riivasin etiketti: pole teinud veel hommikust tualetti! Hõi, mu kammerhärra võsastikust! Tule ja demonstreeri meie dekoratiivset nõiduslikkust!</p>
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
@@ -2651,7 +2652,7 @@
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
                         <stage>(sumadani avades ja Andreast ehtides)</stage>
-                        <p>Õilne vaim väljendub nooblis sildis ja chic jumal ilmutab end sharmandis pildis. Oled peen kui ritv või jäme kui tünder: õige nüki sulle annab alles esitusmunder. Mida rohkem paelu ja nööpe su päratrummis, seda suurem nina oled ilmaruumis. Kõrgem kunst ei vaja sisu. Tahad tabada ajavaimu tooni, siis anna ainult dekoratsiooni, muu on rämps ja risu. Asenda­des neile õlule jumaliku tooga ja painutades kuklasse selle oreooli looga — teie silme ees avaneb uus maailm, nagu seda pakub ainult meisterfilm. Kätte pahemasse, oo jumalik marshall! võtad diplomaatiliselt selle nahkse palli, mis ilmutab su iseloomu tera, et pole sa kubist, vaid eelistad kera. Samal ajal kui pare­masse sulle pistetakse valitsuskepp pompöös — <pb n="97"/> sulevarreline sümbol su luulelises töös. Jääks üle veel näo grimm, kuid seda võime sõnadeski varieerida siin. Sest kui ei meeldi teile toores­aine minu patsiendi näos, siis seda turunõudele kohandada võib mitmes osas ja jaos. Võib näi­teks, kooskõlastada silmapaari pilku, et üks ei sihiks leiba ja teine silku! Võiks põhjaliku­malt puhastada kuulmetoru labürinti, et ker­gem eraldada passikeelest vinti ja taipaks heli­kunsti kõrgemat joru. Ka nina painet ja pro­fiili võib üle kanda soovitavasse stiili. Isegi näo alumist värki võib vahetada nagu särki, vähendades suu ulatust ja mahendades vurrude sulavust, pliseerides huulte krooke ja paenutades lõualooke. Mu härrad, olen lõpul kavatsu­sega, esinedes teile selle — suurlavastusega!</p>
+                        <p>Õilne vaim väljendub nooblis sildis ja chic jumal ilmutab end sharmandis pildis. Oled peen kui ritv või jäme kui tünder: õige nüki sulle annab alles esitusmunder. Mida rohkem paelu ja nööpe su päratrummis, seda suurem nina oled ilmaruumis. Kõrgem kunst ei vaja sisu. Tahad tabada ajavaimu tooni, siis anna ainult dekoratsiooni, muu on rämps ja risu. Asendades neile õlule jumaliku tooga ja painutades kuklasse selle oreooli looga — teie silme ees avaneb uus maailm, nagu seda pakub ainult meisterfilm. Kätte pahemasse, oo jumalik marshall! võtad diplomaatiliselt selle nahkse palli, mis ilmutab su iseloomu tera, et pole sa kubist, vaid eelistad kera. Samal ajal kui paremasse sulle pistetakse valitsuskepp pompöös — <pb n="97"/> sulevarreline sümbol su luulelises töös. Jääks üle veel näo grimm, kuid seda võime sõnadeski varieerida siin. Sest kui ei meeldi teile tooresaine minu patsiendi näos, siis seda turunõudele kohandada võib mitmes osas ja jaos. Võib näiteks, kooskõlastada silmapaari pilku, et üks ei sihiks leiba ja teine silku! Võiks põhjalikumalt puhastada kuulmetoru labürinti, et kergem eraldada passikeelest vinti ja taipaks helikunsti kõrgemat joru. Ka nina painet ja profiili võib üle kanda soovitavasse stiili. Isegi näo alumist värki võib vahetada nagu särki, vähendades suu ulatust ja mahendades vurrude sulavust, pliseerides huulte krooke ja paenutades lõualooke. Mu härrad, olen lõpul kavatsusega, esinedes teile selle — suurlavastusega!</p>
                     </sp>
                     <sp who="#president">
                         <speaker>President</speaker>
@@ -2670,12 +2671,12 @@
                     </sp>
                     <sp who="#helilooja">
                         <speaker>Helilooja</speaker>
-                        <p>Mul oled liig minoorne, moll — üks eba­musikaalne koll! <stage>(Ära.)</stage></p>
+                        <p>Mul oled liig minoorne, moll — üks ebamusikaalne koll! <stage>(Ära.)</stage></p>
                     </sp>
                     <pb n="98"/>
                     <sp who="#mottetark">
                         <speaker>Mõttetark</speaker>
-                        <p>Kui kaltsakas on minu looja — see tumes­taks mu mõtteoja. <stage>(Ära.)</stage></p>
+                        <p>Kui kaltsakas on minu looja — see tumestaks mu mõtteoja. <stage>(Ära.)</stage></p>
                     </sp>
                     <sp who="#sportlane">
                         <speaker>Sportlane</speaker>
@@ -2693,22 +2694,22 @@
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Olen küll loomult rohkem lammas kui tii­ger ja südames istub mul tasanduse ingel... Aga kui oma enda hingemaal saad põlvega takka, siis lammaski viimaks raputab oma — lõvilakka!</p>
+                        <p>Olen küll loomult rohkem lammas kui tiiger ja südames istub mul tasanduse ingel... Aga kui oma enda hingemaal saad põlvega takka, siis lammaski viimaks raputab oma — lõvilakka!</p>
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
-                        <p>Tõest’, loojal oleks häbi suur, kui võidaks teda kreatuur. Ei, mu kallis poeet, siin kaalul on autoriteet!</p>
+                        <p>Tõest', loojal oleks häbi suur, kui võidaks teda kreatuur. Ei, mu kallis poeet, siin kaalul on autoriteet!</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
                         <stage>(otsustavalt)</stage>
-                        <p>Kui keelavad nad mulle trooni, siis võitlu­ses neilt haaran krooni!</p>
+                        <p>Kui keelavad nad mulle trooni, siis võitluses neilt haaran krooni!</p>
                     </sp>
                 </div>
                 <pb n="99"/>
                 <div type="scene">
                     <head>10. Kerjuste mäss.</head>
-                    <stage>Templiesine. Trepistikul istub endasse süvenenud And­reas. Pisut madalamal Sarvik vilet puhudes. All kargleb kerjuste koor.</stage>
+                    <stage>Templiesine. Trepistikul istub endasse süvenenud Andreas. Pisut madalamal Sarvik vilet puhudes. All kargleb kerjuste koor.</stage>
                     <sp who="#soge">
                         <speaker>Sõge</speaker>
                         <p>Sant tantsib häda pärast, aga laseb leiva pärast!</p>
@@ -2768,7 +2769,7 @@
                     </sp>
                     <sp who="#kikimoor">
                         <speaker>Kikimoor</speaker>
-                        <p>Armastan ja võtan renti — võmmil’ näitan tagumenti!</p>
+                        <p>Armastan ja võtan renti — võmmil' näitan tagumenti!</p>
                     </sp>
                     <sp who="#soge #kurt #kueuerak #lombak #joodik #muukur #ulli #kikimoor">
                         <speaker>Koor</speaker>
@@ -2782,7 +2783,7 @@
                         <stage>(tantsu lõppedes Andrease juurde joostes)</stage>
                         <p>Uhuih, mu peig! Ära ole nii leige!</p>
                         <stage>(Võtab Andrease kõrval istet)</stage>
-                        <p>Olen su pruut — kas annad mull’ suud?</p>
+                        <p>Olen su pruut — kas annad mull' suud?</p>
                     </sp>
                     <sp who="#kikimoor">
                         <speaker>Kikimoor</speaker>
@@ -2804,7 +2805,7 @@
                     <sp who="#kueuerak">
                         <speaker>Küürak</speaker>
                         <stage>(tulevase paradiisipõlve ekstaasis)</stage>
-                        <p>Siidnaisi! Kallisnaisi! Aadlikke naisi — sametist ihuga! Et võiksin neid katsuda pi­huga — kõigist kohtest! Kuldnaisi! Hõbenaisi! Naisi, musti kui pigi! Olles ligi — kuis lõhnavad nad magusaist rohtest!</p>
+                        <p>Siidnaisi! Kallisnaisi! Aadlikke naisi — sametist ihuga! Et võiksin neid katsuda pihuga — kõigist kohtest! Kuldnaisi! Hõbenaisi! Naisi, musti kui pigi! Olles ligi — kuis lõhnavad nad magusaist rohtest!</p>
                     </sp>
                     <pb n="104"/>
                     <sp who="#soge">
@@ -2822,12 +2823,12 @@
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
-                        <p>Sa rõõmustada, vennas, võid! Siin kindel on sul poolehoid. Salongides, kus liigub leh­vik, liig ilmalik on elu soon. See vastu hoopis teine toon, kui oma loojat kohtleb kehvik.</p>
+                        <p>Sa rõõmustada, vennas, võid! Siin kindel on sul poolehoid. Salongides, kus liigub lehvik, liig ilmalik on elu soon. See vastu hoopis teine toon, kui oma loojat kohtleb kehvik.</p>
                     </sp>
                     <stage>Ilmub kiriklik rongikäik pappide ja Vaimu Tribunaaliga eesotsas. Rahvas.</stage>
                     <sp who="#koor">
                         <speaker>Koor</speaker>
-                        <p>Au Ahtile kõrges, au Ahtile kõrges iga­vesti! Kes kõik on loonud, kes kõik on tar­gasti loonud ja hästi!</p>
+                        <p>Au Ahtile kõrges, au Ahtile kõrges igavesti! Kes kõik on loonud, kes kõik on targasti loonud ja hästi!</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -2870,7 +2871,7 @@
                     </sp>
                     <sp who="#koor">
                         <speaker>Koor</speaker>
-                        <p>Au Ahtile kõrges, au Ahtile kõrges iga­vesti! Kes kõik on loonud, kes kõik on tar­gasti loonud ja hästi!</p>
+                        <p>Au Ahtile kõrges, au Ahtile kõrges igavesti! Kes kõik on loonud, kes kõik on targasti loonud ja hästi!</p>
                     </sp>
                     <stage>(Rong suubub templisse.)</stage>
                 </div>
@@ -2888,7 +2889,7 @@
                     </sp>
                     <sp who="#kikimoor">
                         <speaker>Kikimoor</speaker>
-                        <p>Mu ema tõi mind ilmale, viis sealauta kõr­vale. Ja ütles Sauna Mardile: vii süüa tühja pardile!</p>
+                        <p>Mu ema tõi mind ilmale, viis sealauta kõrvale. Ja ütles Sauna Mardile: vii süüa tühja pardile!</p>
                     </sp>
                     <sp who="#soge #kurt #kueuerak #lombak #joodik #muukur #ulli #kikimoor">
                         <speaker>Koor</speaker>
@@ -2932,11 +2933,11 @@
                 <pb n="110"/>
                 <div type="scene">
                     <head>12. Hullumajas.</head>
-                    <stage>Kamber, mille tagaseinas aken trellidega. Suures tugi­toolis istub, pea viltu, Mauk ja magab.</stage>
+                    <stage>Kamber, mille tagaseinas aken trellidega. Suures tugitoolis istub, pea viltu, Mauk ja magab.</stage>
                     <sp who="#tommi">
                         <speaker>Tommi</speaker>
                         <stage>(paremalt ilmudes)</stage>
-                        <p>Palju villa ja vähe kära — selles on voo­ruse päim sära. Siin on teie kamber, mu härra!</p>
+                        <p>Palju villa ja vähe kära — selles on vooruse päim sära. Siin on teie kamber, mu härra!</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -3002,7 +3003,7 @@
                     <pb n="114"/>
                     <sp who="#tommi">
                         <speaker>Tommi</speaker>
-                        <p>Pekon-kirjanik — eksportkaup välisturule! Puhkab loorberitel, toonud meisterteose mu­rule.</p>
+                        <p>Pekon-kirjanik — eksportkaup välisturule! Puhkab loorberitel, toonud meisterteose murule.</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -3011,7 +3012,7 @@
                     <sp who="#tommi">
                         <speaker>Tommi</speaker>
                         <stage>(häält madaldades)</stage>
-                        <p>Pisut tangus enesetunde kõrgepingest! Kuulsus mitte alati kahjutult ei möödu hin­gest...</p>
+                        <p>Pisut tangus enesetunde kõrgepingest! Kuulsus mitte alati kahjutult ei möödu hingest...</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -3061,7 +3062,7 @@
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Oi, ma vilets vennike! Taskus pole pen­nigi!</p>
+                        <p>Oi, ma vilets vennike! Taskus pole pennigi!</p>
                     </sp>
                     <sp who="#tommi">
                         <speaker>Tommi</speaker>
@@ -3085,7 +3086,7 @@
                     </sp>
                     <sp who="#silepeeter">
                         <speaker>Silepeeter</speaker>
-                        <p>Ka minu elukutse pole pisk. Olen Sini­mandria Kristus. Kuidas see rist mulle istub?</p>
+                        <p>Ka minu elukutse pole pisk. Olen Sinimandria Kristus. Kuidas see rist mulle istub?</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -3093,7 +3094,7 @@
                     </sp>
                     <sp who="#silepeeter">
                         <speaker>Silepeeter</speaker>
-                        <p>Oo, palun — moe viimane lõhn! Modern Kristus kannab ikka väikest risti! Võib olla papist või paberistki. Rist, mis suur, raske ja paks, teeb Kristuse asjata kohmakaks, võttes lunastuse aktilt ta võluvuse ja sharmi ja kutsu­des esile kriitika õigusega karmi!</p>
+                        <p>Oo, palun — moe viimane lõhn! Modern Kristus kannab ikka väikest risti! Võib olla papist või paberistki. Rist, mis suur, raske ja paks, teeb Kristuse asjata kohmakaks, võttes lunastuse aktilt ta võluvuse ja sharmi ja kutsudes esile kriitika õigusega karmi!</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -3102,12 +3103,12 @@
                     <pb n="117"/>
                     <sp who="#silepeeter">
                         <speaker>Silepeeter</speaker>
-                        <p>Iloga, mis rõõmustab silma! Esteetilise akrobaatikaga — Kolgata keskmisel ristil! Vääriline meisterhüpe geniaalsele ekvilibris­tile!</p>
+                        <p>Iloga, mis rõõmustab silma! Esteetilise akrobaatikaga — Kolgata keskmisel ristil! Vääriline meisterhüpe geniaalsele ekvilibristile!</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
                         <stage>(silmitseb moodsat Kristust galas)</stage>
-                        <p>Olete vist väga vanast ja aadlikust suguvõ­sast?</p>
+                        <p>Olete vist väga vanast ja aadlikust suguvõsast?</p>
                     </sp>
                     <sp who="#silepeeter">
                         <speaker>Silepeeter</speaker>
@@ -3115,15 +3116,15 @@
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Püha pommerants! Millest siis see masen­dav — elegants?</p>
+                        <p>Püha pommerants! Millest siis see masendav — elegants?</p>
                     </sp>
                     <sp who="#silepeeter">
                         <speaker>Silepeeter</speaker>
-                        <p>Higi ja vaevaga harjutatud stiilitants! Mu esivanemad Aadud ja Hintsud! Mulgi on lühi­kesed, kõverad ja karvased talupoja kintsud! Aga küll juba rätsep õilistab igasuguse raassi! Ja tehes järjekindlalt esteetilist massaashi, võib suursugustada kõige ahvilikuma visaashi!</p>
+                        <p>Higi ja vaevaga harjutatud stiilitants! Mu esivanemad Aadud ja Hintsud! Mulgi on lühikesed, kõverad ja karvased talupoja kintsud! Aga küll juba rätsep õilistab igasuguse raassi! Ja tehes järjekindlalt esteetilist massaashi, võib suursugustada kõige ahvilikuma visaashi!</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Ja, seda minugi maisel sünnimaal nähtud ja järele tehtud. Kuidas ka mullast ja lauda­sõnnikust lõhnasid talupoisi volüümid — selle peagi õilistasid Pariisi ja Rooma pissuaaride nooblimad parfüümid.</p>
+                        <p>Ja, seda minugi maisel sünnimaal nähtud ja järele tehtud. Kuidas ka mullast ja laudasõnnikust lõhnasid talupoisi volüümid — selle peagi õilistasid Pariisi ja Rooma pissuaaride nooblimad parfüümid.</p>
                     </sp>
                     <sp who="#tommi">
                         <speaker>Tommi</speaker>
@@ -3145,7 +3146,7 @@
                     <sp who="#silepeeter">
                         <speaker>Silepeeter</speaker>
                         <stage>(magavale Maugile dotseerides)</stage>
-                        <p>Äärmiselt tähtis analüüsida selles loos: milline on Kristuse läbilöönuim poos, kui ta ripub ristisambas? Ja kuidas talle teisi ümber riputada Kolgata kambas? Asi saab ju ainult sellest oma väärtuse ja hinna, kuidas meie selle krempliga katame ühe vaatepinna. Kas lunas­tada maailm, liigutades elegantselt ja maagili­selt suurt varvast? Või parem longutada lõuga traagiliselt kohal rinna karvase? Kas rajada religioon — puusade erilise põikega? Või rabada konkurendid — kaunima püksilõikega? Kas puurida pilk taevakummi ihu viimsest ram­must? Või alla kiiluda ja vargsi piiluda, kuis sõdurid loosivad su vesti ja vammust? Ja kui sulle ulatatakse käsnaga äädikavett, et siis imeksid luristamata, nagu nõuab etikett...<pb n="119"/> Pole küllalt, minu härra, et on osasse astutud, peab ka teadlik olema, milline vastutus! Et iga sinu püksivoldi ebaõigest keerust — miljo­nid hinged lüüakse välja eluraamatu veerust! Kuidas sa siis, käpard, Kolgatale kipud — ta­had Kristus olla ja nii sandisti ripud!?!</p>
+                        <p>Äärmiselt tähtis analüüsida selles loos: milline on Kristuse läbilöönuim poos, kui ta ripub ristisambas? Ja kuidas talle teisi ümber riputada Kolgata kambas? Asi saab ju ainult sellest oma väärtuse ja hinna, kuidas meie selle krempliga katame ühe vaatepinna. Kas lunastada maailm, liigutades elegantselt ja maagiliselt suurt varvast? Või parem longutada lõuga traagiliselt kohal rinna karvase? Kas rajada religioon — puusade erilise põikega? Või rabada konkurendid — kaunima püksilõikega? Kas puurida pilk taevakummi ihu viimsest rammust? Või alla kiiluda ja vargsi piiluda, kuis sõdurid loosivad su vesti ja vammust? Ja kui sulle ulatatakse käsnaga äädikavett, et siis imeksid luristamata, nagu nõuab etikett...<pb n="119"/> Pole küllalt, minu härra, et on osasse astutud, peab ka teadlik olema, milline vastutus! Et iga sinu püksivoldi ebaõigest keerust — miljonid hinged lüüakse välja eluraamatu veerust! Kuidas sa siis, käpard, Kolgatale kipud — tahad Kristus olla ja nii sandisti ripud!?!</p>
                     </sp>
                     <sp who="#mauk">
                         <speaker>Mauk</speaker>
@@ -3157,10 +3158,10 @@
                 <pb n="120"/>
                 <div type="scene">
                     <head>13. Kohtupidamine.</head>
-                    <stage>Kohtulaua taga on aset võtnud Vaimu Tribunaal, Presidendiga eesotsas. Prokuröri osas Mõtte­tark, sekretäri osas Luuletaja. Süüpingil And­reas, tema läheduses Sarvik advokaadina. Isepäinis istub Ülemarst hullumajast.</stage>
+                    <stage>Kohtulaua taga on aset võtnud Vaimu Tribunaal, Presidendiga eesotsas. Prokuröri osas Mõttetark, sekretäri osas Luuletaja. Süüpingil Andreas, tema läheduses Sarvik advokaadina. Isepäinis istub Ülemarst hullumajast.</stage>
                     <sp who="#president">
                         <speaker>President</speaker>
-                        <p>Sinimandria Vaimu Tribunaal, kelle käes on õiguse kaal siin maal, kuulutab istungi ava­tuks. Asja iseloom nõuab, et lukustatud uks. Nimi sinu, kes tabatud kuriteos?</p>
+                        <p>Sinimandria Vaimu Tribunaal, kelle käes on õiguse kaal siin maal, kuulutab istungi avatuks. Asja iseloom nõuab, et lukustatud uks. Nimi sinu, kes tabatud kuriteos?</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -3172,7 +3173,7 @@
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Pärit maisest maailmast, maaosalt võrdle­misi külmalt, kus paistab päike ja tõuseb kuu; kus suvel sajab vihma ja talvel lund; kus ini­mene on väike ja Jumal juhib kõike. Kus palju muret ning vaeva ja öösi ei saa und, kartes et pärast surma vahest ei saa taeva...</p>
+                        <p>Pärit maisest maailmast, maaosalt võrdlemisi külmalt, kus paistab päike ja tõuseb kuu; kus suvel sajab vihma ja talvel lund; kus inimene on väike ja Jumal juhib kõike. Kus palju muret ning vaeva ja öösi ei saa und, kartes et pärast surma vahest ei saa taeva...</p>
                     </sp>
                     <pb n="121"/>
                     <pb n="122"/>
@@ -3191,7 +3192,7 @@
                     <sp who="#president">
                         <speaker>President</speaker>
                         <stage>(lugemist jätkates)</stage>
-                        <p>...Olevus alamast tõust, nähtavasti sugu­lane orangutangile — meile tundmatu jumala nõust. Vabandava põhjuseta meie saarele saa­bunud, siin lubata maabunud ja pidades meid kõiki rumalaks, on enese kuulutanud Sinimandria Jumalaks. Ja kui ta minema kihutati sõimuga, on püüdnud end maksma panna või­muga. Rännanud ringi ja võrgutanud hingi. Kogunud jüngreid alamaist kihtidest, tõotades neid vabastada maksva korra pihtidest. On rakendanud röövlipande, relvastades kaabakaid ja sante, tantsides nendega jubedaid tantse ning lauldes internatsionaali... Kuis olid need sõnad?</p>
+                        <p>...Olevus alamast tõust, nähtavasti sugulane orangutangile — meile tundmatu jumala nõust. Vabandava põhjuseta meie saarele saabunud, siin lubata maabunud ja pidades meid kõiki rumalaks, on enese kuulutanud Sinimandria Jumalaks. Ja kui ta minema kihutati sõimuga, on püüdnud end maksma panna võimuga. Rännanud ringi ja võrgutanud hingi. Kogunud jüngreid alamaist kihtidest, tõotades neid vabastada maksva korra pihtidest. On rakendanud röövlipande, relvastades kaabakaid ja sante, tantsides nendega jubedaid tantse ning lauldes internatsionaali... Kuis olid need sõnad?</p>
                     </sp>
                     <sp who="#luuletaja">
                         <speaker>Sekretär</speaker>
@@ -3201,7 +3202,7 @@
                     <sp who="#president">
                         <speaker>President</speaker>
                         <stage>(jätkates)</stage>
-                        <p>...Relvastades kaabakaid ja sante, tantsi­des nendega jubedaid tantse ning lauldes inter­natsionaali — oi vidiradi vintsu, tõsta, kerjus, kintsu! — on haavanud sellega Vaimu Tribunaali ja avalikku moraali. Ja lõpuks on ta või­mudele kallale tunginud ja neid taganema sun­dinud, ja oleks ei tea mis teinud, kui poleks mees leidunud —</p>
+                        <p>...Relvastades kaabakaid ja sante, tantsides nendega jubedaid tantse ning lauldes internatsionaali — oi vidiradi vintsu, tõsta, kerjus, kintsu! — on haavanud sellega Vaimu Tribunaali ja avalikku moraali. Ja lõpuks on ta võimudele kallale tunginud ja neid taganema sundinud, ja oleks ei tea mis teinud, kui poleks mees leidunud —</p>
                     </sp>
                     <sp who="#sportlane">
                         <speaker>Sportlane</speaker>
@@ -3219,7 +3220,7 @@
                     </sp>
                     <sp who="#president">
                         <speaker>President</speaker>
-                        <p>Iseenesest see on ju kena jutt! Aga kah­juks meile asjaolud on teisiti tuttavad. Pole arvamist kahte, et Sinimandria on loonud Ahti — seda teab meil iga laps!</p>
+                        <p>Iseenesest see on ju kena jutt! Aga kahjuks meile asjaolud on teisiti tuttavad. Pole arvamist kahte, et Sinimandria on loonud Ahti — seda teab meil iga laps!</p>
                     </sp>
                     <pb n="125"/>
                     <sp who="#andreas">
@@ -3230,7 +3231,7 @@
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
-                        <p>Sinimandria kõrge Tribunaal! Asja tuum ja kaal seisab esimeses joones selles soones, et tahetakse mitte asjast kõrvale põigata, vaid tõde ja õigust alla hõigata. Et süüdi minu klient, see on legend. Minu klient on teotsenud selles teadmises, et on autor oma teose. Ja kui nüüd ühe teise variandi seadmisel piste­takse meile võõras nimi peosse, kas meie siis kõige paremini ei süütaks õiguse tahti, kui kut­sutakse Tribunaali ette ka Ahti... Et seistes suu suud vastu võiks see ja teine lausuda poolt ja vastu, ning paistaks meile selgesti silma, kas Andreas või Ahti on loonud selle sõbraliku maailma?</p>
+                        <p>Sinimandria kõrge Tribunaal! Asja tuum ja kaal seisab esimeses joones selles soones, et tahetakse mitte asjast kõrvale põigata, vaid tõde ja õigust alla hõigata. Et süüdi minu klient, see on legend. Minu klient on teotsenud selles teadmises, et on autor oma teose. Ja kui nüüd ühe teise variandi seadmisel pistetakse meile võõras nimi peosse, kas meie siis kõige paremini ei süütaks õiguse tahti, kui kutsutakse Tribunaali ette ka Ahti... Et seistes suu suud vastu võiks see ja teine lausuda poolt ja vastu, ning paistaks meile selgesti silma, kas Andreas või Ahti on loonud selle sõbraliku maailma?</p>
                     </sp>
                     <sp who="#president">
                         <speaker>President</speaker>
@@ -3238,12 +3239,12 @@
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
-                        <p>Aga kuidas siis Ahti oma looja õigused registreeris? Luues selle maailma, kes teitest talle assisteeris? Kus on asitõendused, et lüka­takse tagasi igasugused õiendused?</p>
+                        <p>Aga kuidas siis Ahti oma looja õigused registreeris? Luues selle maailma, kes teitest talle assisteeris? Kus on asitõendused, et lükatakse tagasi igasugused õiendused?</p>
                     </sp>
                     <pb n="126"/>
                     <sp who="#president">
                         <speaker>President</speaker>
-                        <p>Ahti on aksioom — nii on jumalate ise­loom!</p>
+                        <p>Ahti on aksioom — nii on jumalate iseloom!</p>
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
@@ -3251,13 +3252,13 @@
                     </sp>
                     <sp who="#president">
                         <speaker>President</speaker>
-                        <p>Olge head — meie mõtet ei ahelda! Üksi­kule kahtlejale on lubatud kõrvalepõige.</p>
+                        <p>Olge head — meie mõtet ei ahelda! Üksikule kahtlejale on lubatud kõrvalepõige.</p>
                         <stage>(Väga veenvalt)</stage>
                         <p>Aga mis terve rahvas usub, see on alati õige.</p>
                     </sp>
                     <sp who="#mottetark">
                         <speaker>Prokurör</speaker>
-                        <p>Äärmiselt segane on kaebealuse jutt. Väga kahtlane mulle näib ka härra advokaadi nutt. Seepärast, enne kui edasi sammume poolte heit­luses, peaks selgitama, kuis on lugu härrade mõistusega. Kas meil on tegu haiglase aru nõt­rusega, või terve priske totrusega?</p>
+                        <p>Äärmiselt segane on kaebealuse jutt. Väga kahtlane mulle näib ka härra advokaadi nutt. Seepärast, enne kui edasi sammume poolte heitluses, peaks selgitama, kuis on lugu härrade mõistusega. Kas meil on tegu haiglase aru nõtrusega, või terve priske totrusega?</p>
                     </sp>
                     <sp who="#president">
                         <speaker>President</speaker>
@@ -3275,7 +3276,7 @@
                     <sp who="#uelemarst">
                         <speaker>Ülemarst</speaker>
                         <stage>(esinedes)</stage>
-                        <p>See tundmatu mees meie ees ühelt tundma­tult maalt on tugevalt metsmehe tüüp, kui mitte ahv. Selles mõttes süüdistuse paragraaf võib muutuda pisut, sest asjasse on kistud mitte meie kultuuriline kodanik õilsest tõust, vaid olevus ahvilik, nagu näitab juba lõust. Vaimline tasapind relatiivselt madal, alles esi­mesi lehekesi kasvatab ajuhädal. Ent see til­luke annus vaimu on loomult terve ja tema omanik ei kuulu vaimuhaigete perre.</p>
+                        <p>See tundmatu mees meie ees ühelt tundmatult maalt on tugevalt metsmehe tüüp, kui mitte ahv. Selles mõttes süüdistuse paragraaf võib muutuda pisut, sest asjasse on kistud mitte meie kultuuriline kodanik õilsest tõust, vaid olevus ahvilik, nagu näitab juba lõust. Vaimline tasapind relatiivselt madal, alles esimesi lehekesi kasvatab ajuhädal. Ent see tilluke annus vaimu on loomult terve ja tema omanik ei kuulu vaimuhaigete perre.</p>
                     </sp>
                     <sp who="#mottetark">
                         <speaker>Prokurör</speaker>
@@ -3283,7 +3284,7 @@
                     </sp>
                     <sp who="#uelemarst">
                         <speaker>Ülemarst</speaker>
-                        <p>Seda mitte just... Alkoholismi all on kan­natanud igatahes organism. Mõnigi kude on pude. Ja nõrgalt töötab soolik.</p>
+                        <p>Seda mitte just... Alkoholismi all on kannatanud igatahes organism. Mõnigi kude on pude. Ja nõrgalt töötab soolik.</p>
                     </sp>
                     <sp who="#president">
                         <speaker>President</speaker>
@@ -3305,11 +3306,11 @@
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
-                        <p>Härra prokurör kaldub kummalisele arva­misele, et seda raskem süükoorem langeb kaebe­aluse turjale, mida selgema aruga ta andus kur­jale. Ma ei ole härra prokurörile kade. Aga on olemas veel teine vaade, mitte vähem aulik ja suur, et mõistus ise ongi see kurja juur, et patustada on ratio loomulik tendents ja et sinna midagi ei saa parata homo sapiens. Ja siit, härra prokurör, järgneb hoopis vastupidine juhtnöör, et kaebealune seda vähem on vastu­tav, mida tervema aruga ta patustas.</p>
+                        <p>Härra prokurör kaldub kummalisele arvamisele, et seda raskem süükoorem langeb kaebealuse turjale, mida selgema aruga ta andus kurjale. Ma ei ole härra prokurörile kade. Aga on olemas veel teine vaade, mitte vähem aulik ja suur, et mõistus ise ongi see kurja juur, et patustada on ratio loomulik tendents ja et sinna midagi ei saa parata homo sapiens. Ja siit, härra prokurör, järgneb hoopis vastupidine juhtnöör, et kaebealune seda vähem on vastutav, mida tervema aruga ta patustas.</p>
                     </sp>
                     <sp who="#mottetark">
                         <speaker>Prokurör</speaker>
-                        <p>Palun piirata sõna advokaadi härral ja ka­ristada kaebealust kõrgemal määral.</p>
+                        <p>Palun piirata sõna advokaadi härral ja karistada kaebealust kõrgemal määral.</p>
                     </sp>
                     <sp who="#president">
                         <speaker>President</speaker>
@@ -3321,7 +3322,7 @@
                     <pb n="129"/>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Olen süüdi luues tõu õnnetuma, kes mõis­tab hukka oma Jumala... Kui seadus mu süüle liialt on karm — siis palun armu!</p>
+                        <p>Olen süüdi luues tõu õnnetuma, kes mõistab hukka oma Jumala... Kui seadus mu süüle liialt on karm — siis palun armu!</p>
                     </sp>
                     <sp who="#president">
                         <speaker>President</speaker>
@@ -3341,7 +3342,7 @@
                     </sp>
                     <sp who="#president">
                         <speaker>President</speaker>
-                        <p>Andreas Kuslapuu! Tribunaali otsuse sulle kuulutab mu suu. Oled mõistetud süüdi! Sea­duse järele teeniksid kaelaköit ja ükski hüüd ei peataks su surmasõitu. Ent Ahti on hu­maanne ja õilne Jumal. Ahti vaim põleb meie südames helduse kumal... Ahti nimel kingime sulle elu, armetumale. Kahetse oma üleastu ja tunne tänu Ahti vastu! Ja enne kui uuesti koidab taevakaar, olgu sinust puhas Sini­mandria saar.</p>
+                        <p>Andreas Kuslapuu! Tribunaali otsuse sulle kuulutab mu suu. Oled mõistetud süüdi! Seaduse järele teeniksid kaelaköit ja ükski hüüd ei peataks su surmasõitu. Ent Ahti on humaanne ja õilne Jumal. Ahti vaim põleb meie südames helduse kumal... Ahti nimel kingime sulle elu, armetumale. Kahetse oma üleastu ja tunne tänu Ahti vastu! Ja enne kui uuesti koidab taevakaar, olgu sinust puhas Sinimandria saar.</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -3369,11 +3370,11 @@
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Oo, saatuse pilge! Alluda ebajumalale ilgele! Aga ons mul veel valida? Kui Sinimandria mulle keeldub Ahtita, siis võtku ta mind juba Ahtiga! Ei peatu mu samm, nüüd lõpul on jutt: Sinimandria on mu pruut, olgu siis Ahti mu ämm! Allun Ahtile, kõrge Tribu­naal!</p>
+                        <p>Oo, saatuse pilge! Alluda ebajumalale ilgele! Aga ons mul veel valida? Kui Sinimandria mulle keeldub Ahtita, siis võtku ta mind juba Ahtiga! Ei peatu mu samm, nüüd lõpul on jutt: Sinimandria on mu pruut, olgu siis Ahti mu ämm! Allun Ahtile, kõrge Tribunaal!</p>
                     </sp>
                     <sp who="#president">
                         <speaker>President</speaker>
-                        <p>Üks Ahti preestreist võtab su leeri, et õpik­sid meie usudoogme veerima. Ja kui on soori­tatud ristimise tseremoniaal, sa oled õiguslik kodanik Sinimandria maal.</p>
+                        <p>Üks Ahti preestreist võtab su leeri, et õpiksid meie usudoogme veerima. Ja kui on sooritatud ristimise tseremoniaal, sa oled õiguslik kodanik Sinimandria maal.</p>
                     </sp>
                 </div>
                 <pb n="131"/>
@@ -3382,23 +3383,23 @@
                     <stage>Ahti tempel. Altar Ahti kujuga: noor ilus jumal, kes julgelt näitab käega kaugusesse. Vaimu Tribunaal kohases riietuses. Ristimist toimib President, kelle ees põlvitab Andreas. Laulab nägematu koor.</stage>
                     <sp who="#koor">
                         <speaker>Koor</speaker>
-                        <p>Au Ahtile kõrges, au Ahtile kõrges iga­vesti! Kes kõik on loonud, kes kõik on tar­gasti loonud ja hästi!</p>
+                        <p>Au Ahtile kõrges, au Ahtile kõrges igavesti! Kes kõik on loonud, kes kõik on targasti loonud ja hästi!</p>
                     </sp>
                     <sp who="#president">
                         <speaker>President</speaker>
-                        <p>Andreas, vend vendade seas! Oled sa val­mis tunnustama ja selle tõe juures kõike unus­tama: et Ahti on Sinimandria Jumal, istub kõrgel hiilguse kumal! Oled sa valmis tun­nustama ja selle tõe juures kõike unustama: et Ahti on loonud selle saare vahel nelja ilma­kaare. Et ta algatab päevi ja öid ja juhib meie mõtteid ja töid. Oled sa valmis tunnustama?</p>
+                        <p>Andreas, vend vendade seas! Oled sa valmis tunnustama ja selle tõe juures kõike unustama: et Ahti on Sinimandria Jumal, istub kõrgel hiilguse kumal! Oled sa valmis tunnustama ja selle tõe juures kõike unustama: et Ahti on loonud selle saare vahel nelja ilmakaare. Et ta algatab päevi ja öid ja juhib meie mõtteid ja töid. Oled sa valmis tunnustama?</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Olen valmis iseennast unustama ja tunnus­tama: et Ahti on Sinimandria Jumal, istub kõrgel hiilguse kumal! Et Ahti on loonud<pb n="132"/> selle saare vahel nelja ilmakaare. Et Ahti alga­tab päevi ja öid ja Andreas Kuslapuu pole mi­dagi teind. Olen valmis tunnustama!</p>
+                        <p>Olen valmis iseennast unustama ja tunnustama: et Ahti on Sinimandria Jumal, istub kõrgel hiilguse kumal! Et Ahti on loonud<pb n="132"/> selle saare vahel nelja ilmakaare. Et Ahti algatab päevi ja öid ja Andreas Kuslapuu pole midagi teind. Olen valmis tunnustama!</p>
                     </sp>
                     <sp who="#koor">
                         <speaker>Koor</speaker>
-                        <p>Au Ahtile kõrges, au Ahtile kõrges iga­vesti! Kes kõik on loonud, kes kõik on tar­gasti loonud ja hästi!</p>
+                        <p>Au Ahtile kõrges, au Ahtile kõrges igavesti! Kes kõik on loonud, kes kõik on targasti loonud ja hästi!</p>
                     </sp>
                     <sp who="#president">
                         <speaker>President</speaker>
-                        <p>Tunnistad sa seda mitte ainult huulte kee­les, vaid oma südame vagamas meeles?</p>
+                        <p>Tunnistad sa seda mitte ainult huulte keeles, vaid oma südame vagamas meeles?</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -3406,7 +3407,7 @@
                     </sp>
                     <sp who="#koor">
                         <speaker>Koor</speaker>
-                        <p>Au Ahtile kõrges, au Ahtile kõrges iga­vesti! Kes kõik on loonud, kes kõik on tar­gasti loonud ja hästi!</p>
+                        <p>Au Ahtile kõrges, au Ahtile kõrges igavesti! Kes kõik on loonud, kes kõik on targasti loonud ja hästi!</p>
                     </sp>
                     <sp who="#president">
                         <speaker>President</speaker>
@@ -3421,7 +3422,7 @@
                     <pb n="135"/>
                     <sp who="#koor">
                         <speaker>Koor</speaker>
-                        <p>Au Ahtile kõrges, au Ahtile kõrges iga­vesti! Kes kõik on loonud, kes kõik on tar­gasti loonud ja hästi!</p>
+                        <p>Au Ahtile kõrges, au Ahtile kõrges igavesti! Kes kõik on loonud, kes kõik on targasti loonud ja hästi!</p>
                     </sp>
                     <sp who="#president">
                         <speaker>President</speaker>
@@ -3432,7 +3433,7 @@
                     </sp>
                     <sp who="#koor">
                         <speaker>Koor</speaker>
-                        <p>Au Ahtile kõrges, au Ahtile kõrges iga­vesti! Kes kõik on loonud, kes kõik on tar­gasti loonud ja hästi!</p>
+                        <p>Au Ahtile kõrges, au Ahtile kõrges igavesti! Kes kõik on loonud, kes kõik on targasti loonud ja hästi!</p>
                     </sp>
                 </div>
                 <pb n="136"/>
@@ -3454,7 +3455,7 @@
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
-                        <p>Või hästi... Mida seal vead? Kaupa kal­list ja head?</p>
+                        <p>Või hästi... Mida seal vead? Kaupa kallist ja head?</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -3469,7 +3470,7 @@
                     <pb n="139"/>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Või eelmiseski ilmas sai käidud sametis ja siidis. Parem korralik tööline olla oma hin­gemaal, kui kullatud kaabakas võõral ra’al.</p>
+                        <p>Või eelmiseski ilmas sai käidud sametis ja siidis. Parem korralik tööline olla oma hingemaal, kui kullatud kaabakas võõral ra'al.</p>
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
@@ -3485,7 +3486,7 @@
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Võõrsil nõnda ei läbeks. Aga oma päris­osal ükski töö pole häbiks.</p>
+                        <p>Võõrsil nõnda ei läbeks. Aga oma pärisosal ükski töö pole häbiks.</p>
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
@@ -3498,7 +3499,7 @@
                     <sp who="#koor">
                         <speaker>Koor</speaker>
                         <stage>(laulab eemal templis)</stage>
-                        <p>Au Ahtile kõrges, au Ahtile kõrges iga­vesti! Kes kõik on loonud, kes kõik on tar­gasti loonud ja hästi!</p>
+                        <p>Au Ahtile kõrges, au Ahtile kõrges igavesti! Kes kõik on loonud, kes kõik on targasti loonud ja hästi!</p>
                     </sp>
                     <pb n="140"/>
                     <sp who="#andreas">
@@ -3530,7 +3531,7 @@
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
-                        <p>Me otsime Jumalat möödunud päevade hä­marast, ent igatseme teda tuleviku täiuses sä­ravas. Olen Sinimandria mineviku kuma. Aga Ahti on Jumal noor ja uus, kellele kuulub Sini­mandria unistus. Uskudes Ahtis loomingu iga­vest tõusu ja edu — võin rahulikult jätkata oma — sõnnikuvedu.</p>
+                        <p>Me otsime Jumalat möödunud päevade hämarast, ent igatseme teda tuleviku täiuses säravas. Olen Sinimandria mineviku kuma. Aga Ahti on Jumal noor ja uus, kellele kuulub Sinimandria unistus. Uskudes Ahtis loomingu igavest tõusu ja edu — võin rahulikult jätkata oma — sõnnikuvedu.</p>
                     </sp>
                     <sp who="#sarvik">
                         <speaker>Sarvik</speaker>
@@ -3549,12 +3550,12 @@
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
                         <stage>(endamisi)</stage>
-                        <p>Oo, Ahti, tulevaste päevade vaim, kõige hea ja kauni õnnestav aim! Sinu särav kuju van­gistab silma ja viib täiuse poole maailma!</p>
+                        <p>Oo, Ahti, tulevaste päevade vaim, kõige hea ja kauni õnnestav aim! Sinu särav kuju vangistab silma ja viib täiuse poole maailma!</p>
                     </sp>
                     <sp who="#molkus">
                         <speaker>Molkuse hääl</speaker>
                         <stage>(kajana Andrease mälestuses, tumestatult)</stage>
-                        <p>Halleluja Sinimandria Majesteedile: Ju­malale, Keisrile ja Poeedile! Halleluja ja Kürie-eleison! Kes seda ei usu, see veis on!</p>
+                        <p>Halleluja Sinimandria Majesteedile: Jumalale, Keisrile ja Poeedile! Halleluja ja Kürie-eleison! Kes seda ei usu, see veis on!</p>
                     </sp>
                     <sp who="#andreas">
                         <speaker>Andreas</speaker>
@@ -3567,7 +3568,7 @@
                     <sp who="#koor">
                         <speaker>Koor</speaker>
                         <stage>(laulab templis)</stage>
-                        <p>Au Ahtile kõrges, au Ahtile kõrges iga­vesti! Kes kõik on loonud, kes kõik on tar­gasti loonud ja hästi!</p>
+                        <p>Au Ahtile kõrges, au Ahtile kõrges igavesti! Kes kõik on loonud, kes kõik on targasti loonud ja hästi!</p>
                     </sp>
                 </div>
             </div>

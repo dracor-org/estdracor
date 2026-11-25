@@ -78,6 +78,7 @@
             <listChange>
                 <change when="2026-09-02">Update formatting</change>
                 <change when="2026-11-22">Correct punctuation location</change>
+                <change when="2026-11-25">Fix mistakes in cleaned OCR</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -770,7 +771,7 @@
                 </sp>
                 <sp who="#vaeravavaht">
                     <speaker>Väravavaht.</speaker>
-                    <p>Vööl? Missugusel vööl? <stage>(Leiab pasuna.)</stage> Ah siin, siin. Olen hirmust päris segane. <stage>(Puhub ägedalt pasunat ja jookseb siis<pb n="18"/> Linna poole, hüüdes:)</stage> Me oleme kadunud! Me oleme kadunud! Ärgake! Põgenege! Päästke endid! Järv! Järv! <stage>(Puhub uuesti pasunat. Läbilõikav pasuna heli kostab uinuvas linnas hirmuäratavalt vastu. Mõneks silmapilguks tekib vaikus, siis kostavad eemalt tumedad hääled, kellegi kriiskav hirmuhüüe ja uued pasunahelid. Siis valgustatakse linnas üks maja aken. Siis teine... kolmas... kuuldub, nagu läheneksid hääled ja sammude müdin; nagu tormaks Järv mühisedes kallastest välja ja murraksid veed endile teed linna poole. Läbi khaosi kõlavad kirikukella löögid. Juku seisab värava jujures ja vaatab kord Linna, kord Järve poole.)</stage></p>
+                    <p>Vööl? Missugusel vööl? <stage>(Leiab pasuna.)</stage> Ah siin, siin. Olen hirmust päris segane. <stage>(Puhub ägedalt pasunat ja jookseb siis<pb n="18"/> Linna poole, hüüdes:)</stage> Me oleme kadunud! Me oleme kadunud! Ärgake! Põgenege! Päästke endid! Järv! Järv! <stage>(Puhub uuesti pasunat. Läbilõikav pasuna heli kostab uinuvas linnas hirmuäratavalt vastu. Mõneks silmapilguks tekib vaikus, siis kostavad eemalt tumedad hääled, kellegi kriiskav hirmuhüüe ja uued pasunahelid. Siis valgustatakse linnas üks maja aken. Siis teine... kolmas... kuuldub, nagu läheneksid hääled ja sammude müdin; nagu tormaks Järv mühisedes kallastest välja ja murraksid veed endile teed linna poole. Läbi khaosi kõlavad kirikukella löögid. Juku seisab värava juures ja vaatab kord Linna, kord Järve poole.)</stage></p>
                 </sp>
                 <sp who="#juku">
                     <speaker>Juku</speaker>

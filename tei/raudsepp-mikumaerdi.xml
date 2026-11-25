@@ -115,6 +115,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2026-09-02">Add genre and update formatting</change>
+                <change when="2026-11-25">Fix mistakes in cleaned OCR</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -243,7 +244,7 @@
                     <sp who="#silvia">
                         <speaker>Silvia</speaker>
                         <stage>(tõustes):</stage>
-                        <p>On ilusaid randu ja kuulsaid kuurorte kodu maal. Mis posserit me siin padrikus teeme, memm?</p>
+                        <p>On ilusaid randu ja kuulsaid kuurorte kodumaal. Mis posserit me siin padrikus teeme, memm?</p>
                     </sp>
                     <sp who="#mimm">
                         <speaker>Mimm:</speaker>
@@ -322,7 +323,7 @@
                     <sp who="#silvia">
                         <speaker>Silvia</speaker>
                         <stage>(Mimmile selja tagant kaela hakates):</stage>
-                        <p>Ah, memm! Kõik, mis sa räägid, on väga õige ja ilus... sulle. Mees võrku meelitada ja teda pi dada, kuni narmad taga, see on üks neist voorustest, mis sulle kole-hästi läheb! Aga kui mina samal kombel püüaksin vooruslik olla, küll ma oleksin jõle!</p>
+                        <p>Ah, memm! Kõik, mis sa räägid, on väga õige ja ilus... sulle. Mees võrku meelitada ja teda pidada, kuni narmad taga, see on üks neist voorustest, mis sulle kole-hästi läheb! Aga kui mina samal kombel püüaksin vooruslik olla, küll ma oleksin jõle!</p>
                     </sp>
                     <sp who="#mimm">
                         <speaker>Mimm</speaker>
@@ -911,7 +912,7 @@
                     </sp>
                     <sp who="#maret">
                         <speaker>Maret:</speaker>
-                        <p>Näed sinagi, sauna-onu, mis me isaga seal lin nas on tehtud!</p>
+                        <p>Näed sinagi, sauna-onu, mis me isaga seal linnas on tehtud!</p>
                     </sp>
                     <sp who="#jaak">
                         <speaker>Jaak:</speaker>
@@ -1816,12 +1817,12 @@
                         <speaker>Maie</speaker>
                         <stage>(naljaks võttes):</stage>
                         <p>Ära võtaks?</p>
+                        <pb n="44"/>
                         <stage>(Vaatab Antsule silma, märkab tõsisemat)</stage>
                         <p>Ants!?</p>
                         <stage>(Katab kätega silmad.)</stage>
                         <p>Oi jumal, mis nüüd saab!? Ah sa armu vägi!</p>
                     </sp>
-                    <pb n="44"/>
                     <sp who="#ants">
                         <speaker>Ants:</speaker>
                         <p>Jäta ulg... ma seda ei kannata! — Istu siin kui pigis, edasi ei nihku! Oleks raha, kupataks linna! Toreda sildi lööks poele välja. Ja nimi seisaks kuldtähtedega: Ants Anderson. Kurat, see oleks nali!</p>
@@ -3266,7 +3267,7 @@
                     </sp>
                     <sp who="#maie">
                         <speaker>Maie:</speaker>
-                        <p>Eideke, mis koolitud inime enam loeb!?</p>
+                        <p>Eldeke, mis koolitud inime enam loeb!?</p>
                     </sp>
                     <sp who="#jaak">
                         <speaker>Jaak:</speaker>
@@ -3311,12 +3312,12 @@
                         <stage>(sõbralikult):</stage>
                         <p>Lõin peenarde vahelt rohtu kotti, lõunaks lehmadele ette puistata...</p>
                         <stage>(Müristades.)</stage>
+                        <pb n="74"/>
                         <p>See Karja-Emsi ainult magatab loomi metsas!</p>
                         <stage>(Antsu ja Maie pilguga süües.)</stage>
                         <p>Läheb talu uppi, kui teenijatele lootma jääd!</p>
                         <stage>(Tõttab väravast välja.)</stage>
                     </sp>
-                    <pb n="74"/>
                     <sp who="#maie">
                         <speaker>Maie</speaker>
                         <stage>(Mimmile järele vaadates):</stage>
@@ -3457,10 +3458,10 @@
                         <speaker>Ants:</speaker>
                         <p>See... seda ma olen! Neoke õrnus on kohe veres. Nii kui ütlesid, et Juhan saab Mareti ja talu...</p>
                         <stage>(Uue haleduse hooga.)</stage>
+                        <pb n="77"/>
                         <p>Siis kohe nagu... nagu kreissaega lõikas hingest läbi!</p>
                         <stage>(Nuutsub.)</stage>
                     </sp>
-                    <pb n="77"/>
                     <sp who="#maie">
                         <speaker>Maie:</speaker>
                         <p>Ära nuta, Antsuke, küll ma su valud võtan!</p>
@@ -5064,9 +5065,9 @@
                     <sp who="#juhan">
                         <speaker>Juhan</speaker>
                         <stage>(ettevaatlikult Mimmi kaisutusest vabastudes ja hilisemaid vajumisi ikka rangidega pareerides):</stage>
+                        <pb n="114"/>
                         <p>Tingimata tunnen teile kaasa! On teile ülekohut sündinud, võite minu abi peale kindel olla. Aga selleks pean ma teadma, mis sündinud...</p>
                     </sp>
-                    <pb n="114"/>
                     <sp who="#mimm">
                         <speaker>Mimm:</speaker>
                         <p>Nad on mind tüssanud... hirmsasti tüssanud!</p>

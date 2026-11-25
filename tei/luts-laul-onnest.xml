@@ -119,6 +119,7 @@
             <listChange>
                 <change when="2026-09-02">Add genre and update formatting</change>
                 <change when="2026-11-22">Correct genre</change>
+                <change when="2026-11-25">Fix mistakes in cleaned OCR</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -204,8 +205,8 @@
                 <sp who="#maria">
                     <speaker>Maria</speaker>
                     <p>Jah.</p>
-                    <p>8:</p>
                 </sp>
+                <pb n="8"/>
                 <sp who="#leena">
                     <speaker>Leena</speaker>
                     <p>Oh sa hää laps! Ma ei unusta seda kunagi, kui hää sa minu wastu oled.</p>
@@ -229,8 +230,8 @@
                 <sp who="#maria">
                     <speaker>Maria</speaker>
                     <p>Ei... Seda just mitte... Nagu iga teise teenija wastu.</p>
-                    <p>9:</p>
                 </sp>
+                <pb n="9"/>
                 <sp who="#leena">
                     <speaker>Leena</speaker>
                     <stage>mõttes</stage>
@@ -516,8 +517,9 @@
                 </sp>
                 <sp who="#metslang">
                     <speaker>Metslang</speaker>
-                    <p>Olen mina sind kuidagi pahandanud? Olen ma sulle kunagi halb olnud? Anna andeks, kui see nii on. Täna on päew, kus sa mulle kõik andeks wõid anda. Eks ju? Oled sa minu pääle pahane? %Maria raputab pääd.</p>
-                    <p>Ei? Muidugi ei. Ma tean, sa ei ole. Wõi kardad, et ma nüüd, kus ma naise wõian, sulle enam nii hää sõber ei ole, kui enne? Ära karda, Maria, ma jään sinu wastu ikka endiseks. Ikka endiseks. Ja kui sul kunagi kitsas käes on, tule ikka minu juure ja räägi minule ära. Nii nagu — kas mäletad weel, kui me lapsed olime ja liiwas mängisime — kui meile siis liiga tehti, kuida me üksteisele kaebamas käisime. Nii tule nüüd ka. Tule alati.</p>
+                    <p>Olen mina sind kuidagi pahandanud? Olen ma sulle kunagi halb olnud? Anna andeks, kui see nii on. Täna on päew, kus sa mulle kõik andeks wõid anda. Eks ju? Oled sa minu pääle pahane?</p>
+                    <stage>Maria raputab pääd.</stage>
+                    <p>Ei? Muidugi ei. Ma tean, sa ei ole. Wõi kardad, et ma nüüd, kus ma naise wõtan, sulle enam nii hää sõber ei ole, kui enne? Ära karda, Maria, ma jään sinu wastu ikka endiseks. Ikka endiseks. Ja kui sul kunagi kitsas käes on, tule ikka minu juure ja räägi minule ära. Nii nagu — kas mäletad weel, kui me lapsed olime ja liiwas mängisime — kui meile siis liiga tehti, kuida me üksteisele kaebamas käisime. Nii tule nüüd ka. Tule alati.</p>
                     <stage>Lühike waheaeg. Ta waatab Mariale teraselt silmi.</stage>
                     <p>Mispärast ei ütle sa mulle nüüd? Sa ei usalda mind enam?</p>
                 </sp>
@@ -539,7 +541,7 @@
                 <pb n="19"/>
                 <sp who="#metslang">
                     <speaker>Metslang</speaker>
-                    <p><stage>Wälja.</stage> Tulen kohe. Mariale. Sa ütled mõni teine kord, jah? Eks ju? Oh, me saame ju alati weel kokku, nii et — Siis ütled, ah?</p>
+                    <p><stage>Wälja.</stage> Tulen kohe. <stage>Mariale.</stage> Sa ütled mõni teine kord, jah? Eks ju? Oh, me saame ju alati weel kokku, nii et — Siis ütled, ah?</p>
                 </sp>
                 <sp who="#maria">
                     <speaker>Maria</speaker>
@@ -2542,7 +2544,7 @@
                 </sp>
                 <sp who="#maria">
                     <speaker>Maria</speaker>
-                    <p>Ei, ei, mina pean ära minema. Miili83 ei tohi näha, et ma ikka weel siin olen. Ma pean ära minema.</p>
+                    <p>Ei, ei, mina pean ära minema. Miili<pb n="83"/> ei tohi näha, et ma ikka weel siin olen. Ma pean ära minema.</p>
                 </sp>
                 <sp who="#metslang">
                     <speaker>Metslang</speaker>
@@ -2573,7 +2575,7 @@
                     <stage>Metslangile</stage>
                     <p>Noh, mis sa, Hannes, ei tereta enam wastagi! Woijäh kurjalooma! Muudkui pöörab aga selja meie poole</p>
                     <stage>Raputab teda käiksest, nagu unest äratades.</stage>
-                    <p>Kuule! Mis sa sest orelist kesk84 tuba oled wedanud, mis? Mis tükka sa teed ometi, kui sa ühekorra siit ära ei tule? Mis sa haudud siin kabelis oma kiwide juures? Miili käib nagu pääta kana ümber ja nutab, et ikke on mees, aga mees ei seisa kodu; et kolab aga pääle mööda kabeliaeda ja metsi ümber nagu wana libahunt. Mis sa teed sedawiisi! Kas see mõne mehe tegu on? Waata, oleks wana Jaak ise terwe olnud, küll ta oleks tulnud ja sind esile wõtnud, aga saabas hõerus teisel jala ära, nüüd ei saa käia. No mis sul s' on nüüd? Woijäh kurjalooma, nüüd justkui tumm teine. Kuule! No kas see laps sul eest ära jookseb, et sul teda kohe nii hädapalawalt waja on? Mis? <stage>Emilie poole.</stage> Sääl on nüüd, mine räägi niisukesega!</p>
+                    <p>Kuule! Mis sa sest orelist kesk<pb n="84"/> tuba oled wedanud, mis? Mis tükka sa teed ometi, kui sa ühekorra siit ära ei tule? Mis sa haudud siin kabelis oma kiwide juures? Miili käib nagu pääta kana ümber ja nutab, et ikke on mees, aga mees ei seisa kodu; et kolab aga pääle mööda kabeliaeda ja metsi ümber nagu wana libahunt. Mis sa teed sedawiisi! Kas see mõne mehe tegu on? Waata, oleks wana Jaak ise terwe olnud, küll ta oleks tulnud ja sind esile wõtnud, aga saabas hõerus teisel jala ära, nüüd ei saa käia. No mis sul s' on nüüd? Woijäh kurjalooma, nüüd justkui tumm teine. Kuule! No kas see laps sul eest ära jookseb, et sul teda kohe nii hädapalawalt waja on? Mis? <stage>Emilie poole.</stage> Sääl on nüüd, mine räägi niisukesega!</p>
                     <stage>Emilie pühib silmi.</stage>
                     <p>Woijäh kurjalooma! Teistega on tal juttu küll, aga meiega siis — <stage>Mariale.</stage> No mis sina siis kah ühtelugu siin teed, Maria? Sind on ju rohkem külas näha kui kodu. Sa ole rohkem kodu, waata, et ikke talitused kõik korras on ja seapõrsakesed süia saawad, kui et sa mööda küla ümber jooksed.</p>
                 </sp>
@@ -2653,8 +2655,8 @@
                     <stage>Pikkamisi teise tuppa.</stage>
                 </sp>
                 <stage>EESRIIE</stage>
-                <pb n="88"/>
             </div>
+            <pb n="88"/>
             <div type="act">
                 <head>Kolmas waatus.</head>
                 <stage>Seesama tuba, mis teises waatuses. Kõik asjad on endises korras. Orel puudub. METSLANG töötab hööwlipingi juures. Aeg-ajalt wajub ta mõttesse, ärkab aga warsti ja töötab ruttu edasi. WANA NAISTERAHWAS tuleb teise ukse kaudu sisse.</stage>
@@ -2948,7 +2950,7 @@
                 </sp>
                 <sp who="#metslang">
                     <speaker>Metslang</speaker>
-                    <p>Ei, ega ma ei mõtlegi. Mul ei ole aega mõtelda, mul on palju tööd teha. Näed, selle tsirkli pean täna walmis te<pb n="95"/>gema, seda on mulle hauakiwi raidumisel waja.</p>
+                    <p>Ei, ega ma ei mõtlegi. Mul ei ole aega mõtelda, mul on palju tööd teha. Näed, selle tsirkli pean täna walmis te<pb n="96"/>gema, seda on mulle hauakiwi raidumisel waja.</p>
                     <stage>Hakkab kähku tööle.</stage>
                 </sp>
                 <sp who="#wana-naisterahwas">
@@ -3417,7 +3419,7 @@
                 </sp>
                 <sp who="#metslang">
                     <speaker>Metslang</speaker>
-                    <p>Häämeelega, Maria. See ei ole sugugi nii suure ürituse wäärt.</p>
+                    <p>Häämeelega, Maria. See ei ole sugugi nii suure ärituse wäärt.</p>
                 </sp>
                 <sp who="#maria">
                     <speaker>Maria</speaker>
@@ -3626,6 +3628,7 @@
                 <sp who="#anu">
                     <speaker>Anu</speaker>
                     <p>Ah ei ole kedagi toonud? No kui ei ole — ei ole. Ega sest kedagi. Eks sa siis edaspidi too jälle. <stage>Hiilib toas ümber.</stage> Nää, nää, misukesed asjad tal siin kõik! Oh sa Jumal, ei tea, mes ta siin jälle akkab tegema, mõnda aurumasinat wõi? Siis wiib sind selle masinaga sõitma? Eks wii? <stage>Naerab.</stage> Kuule, mes sa's nüüd oled, õige peris lausa litaks akand wõi? Mes?</p>
+                    <pb n="116"/>
                     <stage>Tuleb Mariale lähemale. Maria taganeb.</stage>
                     <p>Sa käi ometi öösi, pimeloom, mes sa pääwa aeg käid! Pääwa aeg nääwad inimesed. Nää, mina lähen siit kogemata mööda, nään: tema wilksti siia sisse. Waatan, et kos ta selle kellame nüüd saadab, et nüüd jääb meie perenaine üksi siia; et mes ta siin üksi tegema akkab? Mõtlesin siis, et tulen õige sisse, waatan. Tema lukus ukse taga!</p>
                     <stage>Wõtab Maria käiksest kinni.</stage>
@@ -3633,7 +3636,6 @@
                     <stage>Tikub Mariale kallale.</stage>
                     <p>Oi, sa sia tõugu raip!</p>
                 </sp>
-                <pb n="116"/>
                 <sp who="#maria">
                     <speaker>Maria</speaker>
                     <stage>kaitstes</stage>
@@ -4074,13 +4076,13 @@
                     <speaker>Jõuram</speaker>
                     <p>Ja, ja, sõber! See on minu enda käest warastatud raha, mis sa mulle nii toredasti näkku wiskasid! Warastatud raha! Te arwate, et ma pime olen. Mis? Mina, mina ise panin selle raha nii, et see libu <stage>tähendab Maria pääle</stage> seda kätte saaks. Ma teadsin, et ta selle raha siia toob. Teadsin. Ja ta tõi. Ja nüüd olete mul lõksus. Mul on kõige kohta tunnistused, raha numbrid on üles kirjutatud, kõik on ette walmistatud. Te ei saa siit kahte sammu ka teha, te olete mul peos nagu putukad, nagu ussikesed! Ja ma tahan sind, Metslang, pigistada, nii et sa hoigad mul, kurat, käes! Äh!</p>
                     <stage>Anu läheb ja ütleb talle midagi kõrwa sisse. Jõuram lükkab ta kõrwale.</stage>
+                    <pb n="130"/>
                     <p>Kasi põrgu, ma tean isegi, mis ma teen!</p>
                     <stage>Anu läheb ukse juure tagasi.</stage>
                     <p>Ma walwasin ainult parajat aega. Ma kannatasin kõik rahulikult ära. Ma teadsin, et teid ükskord kätte saan. Ja sain ka.</p>
                     <stage>Metsiku rõõmuga.</stage>
                     <p>Ja nüüd on mu süda jälle rahul, nüüd wõib jälle ilmas elada — ma sain kätte tasuda!</p>
                 </sp>
-                <pb n="130"/>
                 <sp who="#metslang">
                     <speaker>Metslang</speaker>
                     <stage>Maria poole.</stage>
@@ -4143,9 +4145,9 @@
                 <sp who="#metslang">
                     <speaker>Metslang</speaker>
                     <p>Siis... siis...</p>
+                    <pb n="132"/>
                     <stage>Wõtab alasi juurest suure haamri ja lööb Jõuramile pähe. Jõuram kukub maha. Päältwaatajad kohkuwad. HÜÜDED: "Tasa! Tasa! Näe, näe, mis hull nüüd tegi! Ära tappis! Ära tappis!" ANU: "Juuljus! Juuljus!"</stage>
                 </sp>
-                <pb n="132"/>
                 <sp who="#metslang">
                     <speaker>Metslang</speaker>
                     <stage>wiskab haamri ära. Mariale:</stage>
