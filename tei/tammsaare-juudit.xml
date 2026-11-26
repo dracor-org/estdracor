@@ -134,6 +134,7 @@
             <listChange>
                 <change when="2026-09-02">Update formatting</change>
                 <change when="2026-11-22">Correct punctuation location</change>
+                <change when="2026-11-25">Fix mistakes in cleaned OCR</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -587,8 +588,8 @@
                     <sp who="#juudit">
                         <speaker>JUUDIT.</speaker>
                         <p>Mu koda pole ju kindlus, kus hädalised võiksid varju leida.</p>
-                        <p>pn n="16"/></p>
                     </sp>
+                    <pb n="16"/>
                     <sp who="#siimeon">
                         <speaker>SIIMEON.</speaker>
                         <p>Siia ei tule, ei tea nad nii pea tulla ja küllap leiad poisile mõne salaurka, kus ta kellelegi silma ei puutu.</p>
@@ -2192,6 +2193,7 @@
                     <sp who="#olovernes">
                         <speaker>OLOVERNES</speaker>
                         <stage>(muigavalt)</stage>
+                        <p>Ja jumal ei saa temast jagu?</p>
                     </sp>
                     <sp who="#juudit">
                         <speaker>JUUDIT.</speaker>
@@ -3913,6 +3915,7 @@
                     <sp who="#juudit">
                         <speaker>JUUDIT</speaker>
                         <stage>(mõttes).</stage>
+                        <p>Olovernes magab, ta magab ikka veel.</p>
                     </sp>
                     <sp who="#susanna">
                         <speaker>SUSANNA.</speaker>
@@ -4609,7 +4612,7 @@
                     </sp>
                     <sp who="#juudit">
                         <speaker>JUUDIT.</speaker>
-                        <p>Laske teisi elada, laske iseendid elada, mitte mind! Laulge teistele kiidulaule, mitte minule, mina olen tallanud tühja tuult, mina olen kõndinud paturada, kuhu talutavad naise himud ja ilu. Mul oli mees, aga ma ei saanud lapsi, mul oli mees, aga ma ei tunnud armastust ja abieluvoodil hakkasin ihkama tema elu. Pilgutasin silmi noortele, naeratasin neile, kel rammu küll, äratasin neis patuhimu ja tulist kiimalust enda vastu, tegin nad armuorjaks, panin nad kire-ikkesse ja ässitasin nad siis mehe kallale. Nõnda suri Manasse! <stage>(Liikumine)</stage></p>
+                        <p>Laske teisi elada, laske iseendid elada, mitte mind! Laulge teistele kiidulaule, mitte minule, mina olen tallanud tühja tuult, mina olen kõndinud paturada, kuhu talutavad naise himud ja ilu. Mul oli mees, aga ma ei saanud lapsi, mul oli mees, aga ma ei tunnud armastust ja abieluvoodil hakkasin ihkama tema elu. Pilgutasin silmi noortele, naeratasin neile, kel rammu küll, äratasin neis patuhimu ja tulist kiimalust enda vastu, tegin nad armuorjaks, panin nad kire ikkesse ja ässitasin nad siis mehe kallale. Nõnda suri Manasse! <stage>(Liikumine)</stage></p>
                     </sp>
                     <sp who="#rahvas">
                         <speaker>HÄÄLED.</speaker>

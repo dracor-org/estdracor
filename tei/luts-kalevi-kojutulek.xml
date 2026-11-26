@@ -87,6 +87,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2026-09-02">Update formatting</change>
+                <change when="2026-11-25">Fix mistakes in cleaned OCR</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -366,7 +367,7 @@
                     </sp>
                     <sp who="#roosi">
                         <speaker>Roosi.</speaker>
-                        <p>Tere õhtat! Tere õhtat! Mes sa ütiesid — vabadus või?</p>
+                        <p>Tere õhtat! Tere õhtat! Mes sa ütlesid — vabadus või?</p>
                     </sp>
                     <sp who="#saegi">
                         <speaker>Sägi</speaker>
@@ -434,7 +435,10 @@
                     </sp>
                     <sp who="#saegi">
                         <speaker>Sägi.</speaker>
-                        <p>Ei, ei, vanataat — <stage>(Jätab pooleli, kuulatab. Keegi tuleb väljast ettekambri.)</stage> Justku tuli keegi. @Roosi</p>
+                        <p>Ei, ei, vanataat — <stage>(Jätab pooleli, kuulatab. Keegi tuleb väljast ettekambri.)</stage> Justku tuli keegi.</p>
+                    </sp>
+                    <sp who="#roosi">
+                        <speaker>Roosi</speaker>
                         <p><stage>(tasa).</stage> Pea sa suu kinni, ära sa akka võõraste inimeste kuuldes kõnelema niisugusid asju!</p>
                     </sp>
                     <pb n="17"/>

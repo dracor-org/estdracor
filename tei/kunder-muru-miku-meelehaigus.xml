@@ -116,6 +116,7 @@
             <listChange>
                 <change when="2026-09-02">Add genre and update formatting</change>
                 <change when="2026-11-22">Correct punctuation location</change>
+                <change when="2026-11-25">Fix mistakes in cleaned OCR</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -340,7 +341,7 @@
                     </sp>
                     <sp who="#mikk">
                         <speaker>Mikk.</speaker>
-                        <p>Kallis Maret, ole nüüd ka ometi inimene ja märka meelt! Enne sa läksid wihastates ja turtsutes minema, ja nüüd oled jälle soe ja jõbralik nagu tuipojake. Mina ei saa sinust aru.</p>
+                        <p>Kallis Maret, ole nüüd ka ometi inimene ja märka meelt! Enne sa läksid wihastates ja turtsutes minema, ja nüüd oled jälle soe ja sõbralik nagu tuipojake. Mina ei saa sinust aru.</p>
                     </sp>
                     <sp who="#maret">
                         <speaker>Maret.</speaker>
@@ -419,6 +420,7 @@
                 <sp who="#maie">
                     <speaker>Maie.</speaker>
                     <stage>(pahaselt)</stage>
+                    <p>Näe, wõi mina sinu Maret! Pahane nägu! Mis sul maailma nägudega tegemist on?!</p>
                 </sp>
                 <sp who="#mikk">
                     <speaker>Mikk.</speaker>
@@ -446,7 +448,7 @@
                 </sp>
                 <sp who="#maret">
                     <speaker>Maret.</speaker>
-                    <p>Waata nüüd, Mikk, ma sain kohe aru kuidas asjad olimad. Naabri Aru talu tüdrikud, nagu ma ütlesin, on jo minuga ühte nägu — aga sa ei uskunud. Sa oled ka mind Kaiega ära wahetanud ja tema isaga ka koja juttu puhunud. Ütle ometi, Mikk, kuidas wõisid sa kaks korda kosjas käia?</p>
+                    <p>Waata nüüd, Mikk, ma sain kohe aru kuidas asjad oliwad. Naabri Aru talu tüdrikud, nagu ma ütlesin, on jo minuga ühte nägu — aga sa ei uskunud. Sa oled ka mind Kaiega ära wahetanud ja tema isaga ka kosja juttu puhunud. Ütle ometi, Mikk, kuidas wõisid sa kaks korda kosjas käia?</p>
                 </sp>
                 <sp who="#kaie">
                     <speaker>Kaie.</speaker>
@@ -455,7 +457,7 @@
                 </sp>
                 <sp who="#mikk">
                     <speaker>Mikk.</speaker>
-                    <p>Mis Sa nüüd pilkad! Aga pea, pea ma hakan oma Maretale seda keerulist asja seletama. Mina olin sulle, Maret, kosja wiina wiinud ja sina wõtsid nad lahkeste wasta ja olid seega minu oma.<pb n="17"/> Minu onupoeg on jo teie külas koolmeister ja selle juurest tulles sain nüüd ühe mehega kokku, kes justament sinu isa näitas olema, sest kes isaks nii palju tahab wahtida ja tunnistada, kui ta tütre kõrwas istub. Ma arwan see mees oli sinu seletuse järele — Marjamäe Märt. Ma küsisin, mis tüttar teeb? kõnelesin pulmadest ja koduminekust Pärnumaale. Wanamees näitas sellega tuttaw olema. Nüüd sain sellega kokku <stage>(näitab Kaie peale)</stage> ja rääkisin niisama ja wõtsin pudeli karmanist ja andsin mitmele rüübata ja rüübasin ise ja Kaie rüübas ka, ehk ta kül oma nägu mulle hästi näidata ei tahtnud. Ja nenda läks asi edasi, sest ma pidasin teda omaks Maretaks. Ja teie isad on ka pagana wäärt ühte nägu! Ei ma neid praegugi wõiks ühest ära tunda.</p>
+                    <p>Mis Sa nüüd pilkad! Aga pea, pea ma hakan oma Maretale seda keerulist asja seletama. Mina olin sulle, Maret, kosja wiina wiinud ja sina wõtsid nad lahkeste wasta ja olid seega minu oma.<pb n="17"/> Minu onupoeg on jo teie külas koolmeister ja selle juurest tulles sain nüüd ühe mehega kokku, kes justament sinu isa näitas olema, sest kes isat nii palju tahab wahtida ja tunnistada, kui ta tütre kõrwas istub. Ma arwan see mees oli sinu seletuse järele — Marjamäe Märt. Ma küsisin, mis tüttar teeb? kõnelesin pulmadest ja koduminekust Pärnumaale. Wanamees näitas sellega tuttaw olema. Nüüd sain sellega kokku <stage>(näitab Kaie peale)</stage> ja rääkisin niisama ja wõtsin pudeli karmanist ja andsin mitmele rüübata ja rüübasin ise ja Kaie rüübas ka, ehk ta kül oma nägu mulle hästi näidata ei tahtnud. Ja nenda läks asi edasi, sest ma pidasin teda omaks Maretaks. Ja teie isad on ka pagana wäärt ühte nägu! Ei ma neid praegugi wõiks ühest ära tunda.</p>
                 </sp>
                 <sp who="#maret">
                     <speaker>Maret.</speaker>
@@ -523,7 +525,7 @@
                     <p>№ 2. Jüri Kaarmann leidis, et Aru ja Marjamäe tee ääres seiswa wersta tulba peale, nii kui näha, poe kriidiga kolm suurt risti on tõmmatud. Jüri Kaarmann arwab seda üheks wäga häbemataks seaduse üleastumiseks ja paneb need kolm risti protokolli raamatusse ning lubab neid Silla kohtuhärrale näidata, kui tarwis on, sest kohus ei pea mitte ilma asjata mõõka omas käes.</p>
                     <p>№ 3. Et Jüri Kaarmann kõik nenda on leidnud, kuidas kiri ütleb, sellepärast tegi tema järgmise otsuse: "Kohtumees Jüri Kaarmann ei taha mitte hea meelega Aruküla mehi seaduse trötsimise pärast Silla kohtuhärra kätte anda, sellepärast lähab ta ise kui kroonu ametnik ja seaduse teender Aru ja Marjamäe külla ja karjub kõik peremehed kokku, ja loeb selle protokolli neile ette ja lubab seda meest, kes werstatulpa niimoodi on julgenud teutada Siberisse saata, kui see mees ise silmapilk mitte asja korda ei saada. Punkt!</p>
                     <p>Jüri Kaarmann. 1872."</p>
-                    <p>Saame siis nüüd näha, kas asjad lähawad kibedaks wõi ei! Kas Aru ja Marjamäe külarahwas Jüri Kaarmann'i tunnewad, ja kas ristid ja kiwi kaduwad, wõi ei! (raamat kaenlas, ära.)</p>
+                    <p>Saame siis nüüd näha, kas asjad lähawad kibedaks, wõi ei! Kas Aru ja Marjamäe külarahwas Jüri Kaarmann'i tunnewad, ja kas ristid ja kiwi kaduwad, wõi ei! (raamat kaenlas, ära.)</p>
                 </sp>
                 <stage>Weikene wahe aeg. Teekäiiad lähawad maanteed mööda edasi ja tagasi etc., ka wõib muusika natuke mängida.)</stage>
             </div>
@@ -637,7 +639,7 @@
                 </sp>
                 <sp who="#maie">
                     <speaker>Maie.</speaker>
-                    <p>Aga ta on ka üks hea mees, iseäranis laste ja naesterahwa wasta, Ta käib koolimajas, toob lastele saia ja pildiraamatuid. Ja mõnikord lähab ta ka palwemajast mööda, ja siis jääda ettelugejal kohe hing rindu kinni.</p>
+                    <p>Aga ta on ka üks hea mees, iseäranis laste ja naesterahwa wasta. Ta käib koolimajas, toob lastele saia ja pildiraamatuid. Ja mõnikord lähab ta ka palwemajast mööda, ja siis jääda ettelugejal kohe hing rindu kinni.</p>
                 </sp>
                 <sp who="#kaie">
                     <speaker>Kaie.</speaker>

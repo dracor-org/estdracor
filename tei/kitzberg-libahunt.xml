@@ -169,6 +169,7 @@
             <listChange>
                 <change when="2026-09-02">Add genre and update formatting</change>
                 <change when="2026-11-22">Correct genre</change>
+                <change when="2026-11-25">Fix mistakes in cleaned OCR</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -1425,7 +1426,7 @@
                     <sp who="#tuedruk-1 #tuedruk-2 #tuedruk-3">
                         <speaker>TÜDRUKUTE PARMAS</speaker>
                         <stage>(tulles, läbisegi):</stage>
-                        <p>Tere läbisegi puha! <stage>(Teretamine ja naljatamine.)</stage></p>
+                        <p>1) Tere! 2) Tere poisid! 3) Tere läbisegi puha! <stage>(Teretamine ja naljatamine.)</stage></p>
                     </sp>
                     <sp who="#haokandja-2">
                         <speaker>II. HAOKANDJA</speaker>
@@ -2310,7 +2311,7 @@
                     <sp who="#wanaema">
                         <speaker>WANAEMA</speaker>
                         <stage>(ei lase ennast eksitada, on nagu oma mälestuste sisse ärawajunud, jutustab edasi):</stage>
-                        <p>Meie tütred ja noorikud ei olnud ilusad, neid ei nõutud mõisa... Neli põlwe tagasi, kui ühte nõuti <stage>(on sügawasti liigutatud ja lööb silmad mana)</stage> — see uputas ennast jõkke. Surnuaia müüri taga, kui mina weel nägin ja mäletan, seisis ikka weel tema ristikene — karjalapsed ka hoidsiwad ristikest ja ei tallanud maha...</p>
+                        <p>Meie tütred ja noorikud ei olnud ilusad, neid ei nõutud mõisa... Neli põlwe tagasi, kui ühte nõuti <stage>(on sügawasti liigutatud ja lööb silmad maha)</stage> — see uputas ennast jõkke. Surnuaia müüri taga, kui mina weel nägin ja mäletan, seisis ikka weel tema ristikene — karjalapsed ka hoidsiwad ristikest ja ei tallanud maha...</p>
                     </sp>
                     <sp who="#margus">
                         <speaker>MARGUS</speaker>
@@ -2628,8 +2629,8 @@
                         <stage>(naerdes):</stage>
                         <p>Sa oled ju Mari wastu õige wiisakaks hakanud. Räägiti ikka, et sul tõistre-Anuga tõsi taga pidi olema...</p>
                     </sp>
-                    <sp who="#mari">
-                        <speaker>MARI:</speaker>
+                    <sp who="#maert">
+                        <speaker>MÄRT:</speaker>
                         <p>Sooh, wõi räägiti? Noh, siis üks tee ja kaks asja. <stage>(Naerdes:)</stage> Jaa, eks pea enese ette hoolitsema, ega mind siia Tammarule ju sinu kombel raudwaraks ei jäeta. Siin oled sina taluisa ameti pääl, ega sind siit enam wälja kangutada saa. Minu jalgade all weel mitu tuult.</p>
                     </sp>
                     <sp who="#jaanus">

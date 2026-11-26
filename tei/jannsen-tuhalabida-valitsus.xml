@@ -92,6 +92,7 @@
             <listChange>
                 <change when="2026-09-02">Add genre and update formatting</change>
                 <change when="2026-11-22">Correct punctuation location</change>
+                <change when="2026-11-25">Fix mistakes in cleaned OCR</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -981,7 +982,7 @@
                     <head>7. etendus.</head>
                     <stage>REIN NIRK (pistab pea ukse takka välja, kuulab).</stage>
                     <sp who="#rein">
-                        <p>Kõik vagusi — nagu tühi kirik — ma võin silmapilguks omast puurist välja tulla. <stage>(Kuulab jälle)</stage> Oho, ma kuulen vankre põrinat, külap Lahe perenaene vist kottu välja sõidab. Lahe perenaene! — <stage>(Õerub kulmu, mõtleb järele, ohkab)</stage> Siiski, õigust ütelda — parem oleks, kui ema tigedus meid seda sala teekonda mitte ei sunniks ette võtma. Aga tema tahab vägise oma kiusu ajada, siis peame natuke kavalust tigeduse vastu panema. — <stage>(Kuulab).</stage> Mis see on? Ma kuulen kedagi käivat! — Nüüd ruttu jälle puuri tagasi! Oh sa valu, kui vanamoor mind siit leiaks! <stage>(Paeb eest ära).</stage></p>
+                        <p>Kõik vagusi — nagu tühi kirik — ma võin silmapilguks omast puurist välja tulla. <stage>(Kuulab jälle)</stage> Oho, ma kuulen vankre põrinat, külap Lahe perenaene vist kottu välja sõidab. Lahe perenaene! — <stage>(Õerub kulmu, mõtleb järele, ohkab)</stage> Siiski, õigust ütelda — parem oleks, kui ema tigedus meid seda sala teekonda mitte ei sunniks ette võtma. Aga tema tahab vägise oma kiusu ajada, siis peame natuke kavalust tigeduse vastu panema. — <stage>(Kuulab).</stage> Mis see on? Ma kuulen kedagi käivat! — Nüüd ruttu jälle puuri tagasi! Oh sa valu, kui vanamoor mind siit leiaks! <stage>(Poeb eest ära).</stage></p>
                     </sp>
                 </div>
                 <div type="scene">
@@ -1218,7 +1219,7 @@
                     </sp>
                     <sp who="#hannus">
                         <speaker>HANNUS:</speaker>
-                        <p><stage>(käed rinna pääle, suure põlastusega Truuta silma vaadates)</stage> Kommetimängija! Mina sind päästma? <stage>(Kibedalt ja kortsus kulmul).</stage> Kelle käest? Pean ma sind ju paradiisist välja kiskuma? Eks ma kuulnud, eks ma näinud, mis siin sündis? Kelle kaelas sa olid — ja tahad mulle jäile tuhka silma puhuda? Su kuumad paled tunnistavad nüüd ülesse, mis sa tänini suure kavalusega mõistsid varjul hoida, sa kõlvatu loom!</p>
+                        <p><stage>(käed rinna pääle, suure põlastusega Truuta silma vaadates)</stage> Kommetimängija! Mina sind päästma? <stage>(Kibedalt ja kortsus kulmul).</stage> Kelle käest? Pean ma sind ju paradiisist välja kiskuma? Eks ma kuulnud, eks ma näinud, mis siin sündis? Kelle kaelas sa olid — ja tahad mulle jälle tuhka silma puhuda? Su kuumad paled tunnistavad nüüd ülesse, mis sa tänini suure kavalusega mõistsid varjul hoida, sa kõlvatu loom!</p>
                     </sp>
                     <sp who="#truuta">
                         <speaker>TRUUTA:</speaker>

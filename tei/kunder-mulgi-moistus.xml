@@ -97,6 +97,7 @@
             <listChange>
                 <change when="2026-09-02">Add genre and update formatting</change>
                 <change when="2026-11-22">Correct punctuation location</change>
+                <change when="2026-11-25">Fix mistakes in cleaned OCR</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -128,7 +129,7 @@
                 <castGroup>
                     <castItem>
                         <role>Oru onu, </role>
-                        <roleDesc>päriskoha omamnik</roleDesc>
+                        <roleDesc>päriskoha omanik</roleDesc>
                     </castItem>
                     <castItem>
                         <role>Mäe Margus, </role>
@@ -379,7 +380,7 @@
                     <sp who="#katt">
                         <speaker>Katt</speaker>
                         <stage>(hüpates.)</stage>
-                        <p>Ott, Ott, Ott, küll see oleks üks lust ja rõõm; waat' see on mu meele järele! Siis oled ssa üks nees, kui sa selle asja tooni ajad!</p>
+                        <p>Ott, Ott, Ott, küll see oleks üks lust ja rõõm; waat' see on mu meele järele! Siis oled sa üks mees, kui sa selle asja tooni ajad!</p>
                     </sp>
                     <sp who="#ott">
                         <speaker>Ott.</speaker>
@@ -417,7 +418,7 @@
                     <sp who="#margus">
                         <speaker>Mäe Margus</speaker>
                         <stage>(püss käes, hakkab laadima.)</stage>
-                        <p>Mees, kes oma sõna ei pea, ei olegi mees. Tartumaa mees tahab sõna pidada ja mees olla. Siin on mu tulerist; wana kallis raud! Olen temaga juba mõnel loomalgi elu wõtnud, ja kui täna õnn hää on, juhtub ehl ka mõni elukas ette tulema, kelle juures ma oma küti osawust näidata wõin. Küti ja kohtumehe amet need on minu käes just kui mängu asjad. Näe, kolme aasta eest oli üks hullu aruga karu jälle Wändra metsa juhtunud ja mõisa saksad tegiwad suure jahi. Mina olin seekord Wändras onu poja juures wõersil ja juhtusin ka jahimeeste sekka. Mull 'polnud küll oma püss, aga ma arwasin — ma olen Mäe Margus ja päälegi kohtumees — ma katsun ka oma õnne. Hääkene nüüd küll! — Karu! Karu! karjusiwad kõik kütid — mõned pandsiwad plagama, mõned lasksiwad püssid lahti ja hakasiwad nutma — aga mina! Nii kui ma temale selle patsu andsin — wanal<pb n="20"/> pätsil käis kuul ristluudest läbi ja tagumine pool hakkas otse kohe rippuma. Mõned julgemad kütid lasksiwad weel omad püssid lahti ja waene karu heitis hinge ära. Noh, nüüd karjusiwad kõik: Mina lasksin karu maha! Mina lasksin karu maha! Aga ma ma ütlesin ise endamisi: Mis see maksab, et ma end kiitma hakan siin pool-Mulklaste seas! Jah, wana Margus, seda tegid sa sääl! Näita nüüd, mis ja siin teha wõid! <stage>(mõtleb.)</stage> Mis ma nüüd sestki saan, et ma tõise inimese looma otse surnuks lasen! Ma wõin jo ka natuke hirmutada. Olgu nii! Ma panen haawlite asemele hernid püssi sisse — ega need jo ometi surma tuua ei wõi! <stage>(on püssi laadimisega walmis.)</stage> Soh! Nüüd wõin siis ootama hakata! <stage>(astub põõsa taha.)</stage> Elajal on ju oma jagu tarkust ka — ei, meil Tartlastel on tarkust — elajal on ikka oma jagu mõistust ka: kui ta näeb, et inimene ees on, ega ta siis ei tule; ja kui ta näeb, et mees nagu mina, kes kolm aastat kohtumees oli, ees on, siis tunneb ta juba haisust ära, et niisuguse mehega nalja heita ei sünni. <stage>(Sammud kuulda.)</stage> Oot, Oot! katsun õnne! Sammud on kuulda! <stage>(Paneb püssi põske, Ott tuleb hobuse naha sees awgamööda.)</stage> Olgu mis on, ma lasen tal saba tagat maha! <stage>(Laseb püssi lahti; Ott tõuseb püsti, tuleb Margusse poole; Margus karjub:)</stage> Appi! appi! Luupainaja tuleb! Mulgid on kuradi wälja nõidnud! Appi! <stage>(wiskab püssi maha.)</stage> Appi! appi! Pai Wanapagan, wõi mis sa oled, lase mind lahti! Ma<pb n="21"/> müin sulle oma hinge ära, kui sa tahad! <stage>(Ott wõtab püssi, teeb, nagu paneks laengu sisse ning sihib siis Margusse peale.)</stage> Aaaa — — appi — appi! kuuljad nägijad! wa — — wana kurat laseb mind püssiga maha! <stage>(Neid sõnu on Margus karjunud.)</stage></p>
+                        <p>Mees, kes oma sõna ei pea, ei olegi mees. Tartumaa mees tahab sõna pidada ja mees olla. Siin on mu tulerist; wana kallis raud! Olen temaga juba mõnel loomalgi elu wõtnud, ja kui täna õnn hää on, juhtub ehl ka mõni elukas ette tulema, kelle juures ma oma küti osawust näidata wõin. Küti ja kohtumehe amet need on minu käes just kui mängu asjad. Näe, kolme aasta eest oli üks hullu aruga karu jälle Wändra metsa juhtunud ja mõisa saksad tegiwad suure jahi. Mina olin seekord Wändras onu poja juures wõersil ja juhtusin ka jahimeeste sekka. Mull 'polnud küll oma püss, aga ma arwasin — ma olen Mäe Margus ja päälegi kohtumees — ma katsun ka oma õnne. Hääkene nüüd küll! — Karu! Karu! karjusiwad kõik kütid — mõned pandsiwad plagama, mõned lasksiwad püssid lahti ja hakasiwad nutma — aga mina! Nii kui ma temale selle patsu andsin — wanal<pb n="20"/> pätsil käis kuul ristluudest läbi ja tagumine pool hakkas otse kohe rippuma. Mõned julgemad kütid lasksiwad weel omad püssid lahti ja waene karu heitis hinge ära. Noh, nüüd karjusiwad kõik: Mina lasksin karu maha! Mina lasksin karu maha! Aga ma ma ütlesin ise endamisi: Mis see maksab, et ma end kiitma hakan siin pool-Mulklaste seas! Jah, wana Margus, seda tegid sa sääl! Näita nüüd, mis ja siin teha wõid! <stage>(mõtleb.)</stage> Mis ma nüüd sestki saan, et ma tõise inimese looma otse surnuks lasen! Ma wõin jo ka natuke hirmutada. Olgu nii! Ma panen haawlite asemele hernid püssi sisse — ega need jo ometi surma tuua ei wõi! <stage>(on püssi laadimisega walmis.)</stage> Soh! Nüüd wõin siis ootama hakata! <stage>(astub põõsa taha.)</stage> Elajal on ju oma jagu tarkust ka — ei, meil Tartlastel on tarkust — elajal on ikka oma jagu mõistust ka: kui ta näeb, et inimene ees on, ega ta siis ei tule; ja kui ta näeb, et mees nagu mina, kes kolm aastat kohtumees oli, ees on, siis tunneb ta juba haisust ära, et niisuguse mehega nalja heita ei sünni. <stage>(Sammud kuulda.)</stage> Oot, Oot! katsun õnne! Sammud on kuulda! <stage>(Paneb püssi põske, Ott tuleb hobuse naha sees aegamööda.)</stage> Olgu mis on, ma lasen tal saba tagat maha! <stage>(Laseb püssi lahti; Ott tõuseb püsti, tuleb Margusse poole; Margus karjub:)</stage> Appi! appi! Luupainaja tuleb! Mulgid on kuradi wälja nõidnud! Appi! <stage>(wiskab püssi maha.)</stage> Appi! appi! Pai Wanapagan, wõi mis sa oled, lase mind lahti! Ma<pb n="21"/> müin sulle oma hinge ära, kui sa tahad! <stage>(Ott wõtab püssi, teeb, nagu paneks laengu sisse ning sihib siis Margusse peale.)</stage> Aaaa — — appi — appi! kuuljad nägijad! wa — — wana kurat laseb mind püssiga maha! <stage>(Neid sõnu on Margus karjunud.)</stage></p>
                     </sp>
                 </div>
                 <div type="scene">

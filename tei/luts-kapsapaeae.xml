@@ -104,6 +104,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2026-09-02">Add genre and update formatting</change>
+                <change when="2026-11-25">Fix mistakes in cleaned OCR</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -179,7 +180,7 @@
                     </sp>
                     <sp who="#roosi">
                         <speaker>ROOSI</speaker>
-                        <p>Tere õhtat! Tere õhtat! Ei tunnud esite ärägi, et ei tea, kes sal on. Lambiraisk kah nagu lõpnud sia silm. Ärgitan teest küll juba ammugi puruks wisata, aga kahju ikke raipest nagu. Eks sa tule tahapoole. <stage>(Annab tooli. Sagi istub.)</stage></p>
+                        <p>Tere õhtat! Tere õhtat! Ei tunnud esite äragi, et ei tea, kes sal on. Lambiraisk kah nagu lõpnud sia silm. Ärgitan teest küll juba ammugi puruks wisata, aga kahju ikke raipest nagu. Eks sa tule tahapoole. <stage>(Annab tooli. Sägi istub.)</stage></p>
                     </sp>
                     <sp who="#saegi">
                         <speaker>SÄGI</speaker>
@@ -209,7 +210,7 @@
                     </sp>
                     <sp who="#pliuhkam">
                         <speaker>PLIUHKAM</speaker>
-                        <p>Tere, tere! <stage>(Tuleb ahju tagant wälja, teretab Sägit kättpidi ja istub kõhtu sügades laua juurde. Ta on särgiwäel ja palja jalu.)</stage> Noh ?...</p>
+                        <p>Tere, tere! <stage>(Tuleb ahju tagant wälja, teretab Sägit kättpidi ja istub kõhtu sügades laua juurde. Ta on särgiwäel ja palja jalu.)</stage> Noh?...</p>
                     </sp>
                     <sp who="#saegi">
                         <speaker>SÄGI</speaker>
@@ -412,7 +413,7 @@
                     </sp>
                     <sp who="#pliuhkam">
                         <speaker>PLIUHKAM</speaker>
-                        <p>Tulewaasta! <stage>(Walab wiina.)</stage> Too meile siia midagi piale wõtta, mes selle mao nagu suust ära wõtaks. <stage>(Roosi läheb ettekambrlsse.)</stage></p>
+                        <p>Tulewaasta! <stage>(Walab wiina.)</stage> Too meile siia midagi piale wõtta, mes selle mao nagu suust ära wõtaks. <stage>(Roosi läheb ettekambrisse.)</stage></p>
                     </sp>
                     <sp who="#elisabet">
                         <speaker>ELIS.</speaker>
@@ -529,7 +530,7 @@
                     </sp>
                     <sp who="#kroot">
                         <speaker>KRÕÕT</speaker>
-                        <p>Ooh nüid kapsapäid wahetama! Lase ta olla. Tema on nii suur, nigu ta on kasnud. Kapsas ikke kapsas. Ega temagi piale teene päike ei paistnd; ikke seesama Issanda päike, mis pererahwagi kapste piale.</p>
+                        <p>Ooh nüid — kapsapäid wahetama! Lase ta olla. Tema on nii suur, nigu ta on kasnud. Kapsas ikke kapsas. Ega temagi piale teene päike ei paistnd; ikke seesama Issanda päike, mis pererahwagi kapste piale.</p>
                     </sp>
                     <sp who="#pliuhkam">
                         <speaker>PLIUHKAM</speaker>
