@@ -98,6 +98,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2026-09-02">Add genre and update formatting</change>
+                <change when="2026-11-26">Fix mistakes in cleaned OCR</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -924,7 +925,7 @@
                     </sp>
                     <sp who="#sander">
                         <speaker>Sander.</speaker>
-                        <p>Lugu on aga nüüd nii <stage>(sumbutatud häälel)</stage> — ja selles sisaldub kõik — et mul sest romanist weel ridagi pole kirjutatud — mitte ainust kriimurida!</p>
+                        <p>Lugu on aga nüüd nii <stage>(sumbutatud häälel)</stage> — ja selles sisaldub kõik — et mul sest romanist weel ridagi pole kirjutatud — mitte ainust kriimu rida!</p>
                     </sp>
                     <sp who="#piibeleht">
                         <speaker>Piibeleht.</speaker>
@@ -1012,7 +1013,7 @@
                     </sp>
                     <sp who="#sander">
                         <speaker>Sander.</speaker>
-                        <p>Wiimaks sai süda täis ja himu otsa, ja nüüd polnud muud nõu, kui poognaid silmakirjaks nende apokalüptiliste tumedustega täita ning lootust Looja wõi mõne appitõttavva ime peale panna.</p>
+                        <p>Wiimaks sai süda täis ja himu otsa, ja nüüd polnud muud nõu, kui poognaid silmakirjaks nende apokalüptiliste tumedustega täita ning lootust Looja wõi mõne appitõttawa ime peale panna.</p>
                     </sp>
                     <sp who="#piibeleht">
                         <speaker>Piibeleht.</speaker>
@@ -1975,7 +1976,7 @@
                     </sp>
                     <sp who="#westmann">
                         <speaker>Westmann.</speaker>
-                        <p>Ja, lapsed, see on wirak, mida mulle igamees nii kergesti järel ei tee. Kewade-poole, Ludwig, kui ehitusega peale hakkame, mõtlen sullegi jälle tööd anda, mida ma ka ise tööks wõin lugeda. <stage>(Wõtab põuetaskust kõhuka taskuraamatu ning selle seest paberi, mille ta Sanderile ära annab.)</stage></p>
+                        <p>Ja, lapsed, see on wirak, mida mulle igamees nii kergesti järel ei tee. Kewadepoole, Ludwig, kui ehitusega peale hakkame, mõtlen sullegi jälle tööd anda, mida ma ka ise tööks wõin lugeda. <stage>(Wõtab põuetaskust kõhuka taskuraamatu ning selle seest paberi, mille ta Sanderile ära annab.)</stage></p>
                         <p>Siin sinunimeline panga-sekk ostusumma peale. See wõiks korda wiis suurem olla — wõidumees oleksin siiski. <stage>(Minekul.)</stage> Waata, et sa rongile hiljaks ei jää!</p>
                     </sp>
                     <sp who="#sander">
@@ -2395,7 +2396,7 @@
                     <pb n="99"/>
                     <sp who="#piibeleht">
                         <speaker>Piibeleht.</speaker>
-                        <p>Igatahes serätsel, et Laura minu man pitsitusi saaks kannatada, iseäranis, kui meil rohkemb perekonda tekib; minu koolimehe-amet ei tõota palju, sest ma pole midagi wähemb kui karjäritegija, ja sulaga teenitud lisa ei paisutaks meie kukurt ka mitte liiasti.</p>
+                        <p>Igatahes serätsel, et Laura minu man pitsitusi saaks kannatada, iseäranis, kui meil rohkemb perekonda tekib; minu koolimehe-amet ei tõota palju, sest ma pole midagi wähemb kui karjäritegija, ja sulega teenitud lisa ei paisutaks meie kukurt ka mitte liiasti.</p>
                     </sp>
                     <sp who="#sander">
                         <speaker>Sander.</speaker>
@@ -2589,7 +2590,7 @@
                         <stage>temast kinni hakkamas.</stage>
                         <p>Wereimeja — kõrilõikaja — — kuradi pisuhänd!</p>
                     </sp>
-                    <stage>Laura WestMann, täies talweriides, ilmub pahemalt poolt ja peatab imestades sammu.</stage>
+                    <stage>Laura Westmann, täies talweriides, ilmub pahemalt poolt ja peatab imestades sammu.</stage>
                     <pb n="106"/>
                     <sp who="#laura">
                         <speaker>Laura.</speaker>
